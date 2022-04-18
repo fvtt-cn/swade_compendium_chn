@@ -5,8 +5,26 @@
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9.999",
   "author": "FVTT-CN",
+  "languages": [
+    {
+      "lang": "cn",
+      "name": "中文",
+      "path": "lang/cn.json"
+    }
+  ],
   "scripts": [
-    "./babele.js"
+    "./babele.js",
+    "./setup.js"
+  ],
+  "packs": [
+    {
+      "name": "action-cards",
+      "label": "中文行动卡组",
+      "system": "swade",
+      "path": "packs/action-cards.db",
+      "entity": "JournalEntry",
+      "module": "swade_compendium_chn"
+    }
   ],
   "systems": [
     "swade"
