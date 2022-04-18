@@ -1,0 +1,26 @@
+{
+  "name": "swade_compendium_chn",
+  "title": "Translation: 中文 [SWADE（合集包）]",
+  "description": "SWADE 系统的合集包翻译，需要 Babele。",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9.999",
+  "author": "FVTT-CN",
+  "scripts": [
+    "./babele.js"
+  ],
+  "systems": [
+    "swade"
+  ],
+  "dependencies": [
+    {
+      "name": "babele",
+      "type": "module",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+    }
+  ],
+  "changelog": "Auto replaced",
+  "version": "Auto replaced",
+  "url": "Auto replaced",
+  "manifest": "Auto replaced",
+  "download": "Auto replaced"
+}
