@@ -1,0 +1,37 @@
+{
+	"label": "SWADE Tables",
+	"entries": {
+		"Battle Effects": {
+			"name": "Battle Effects",
+			"description": "<div class=\"swade-core\">See <b>@Compendium[swade-core-rules.swade-rules.Mass Battles]{Mass Battles}</b> for when to use this table.</div>"
+		},
+		"Creative Combat": {
+			"name": "Creative Combat",
+			"description": "<div class=\"swade-core\">Creative Combat enhances a pulp-style game with additional benefits for those who Test with a raise. See <b>@Compendium[swade-core-rules.swade-rules.Creative Combat]{Creative Combat}</b> on when to use these rules.</div>"
+		},
+		"Dynamic Backlash": {
+			"name": "Dynamic Backlash",
+			"description": "<div class=\"swade-core\">Normally, a Critical Failure on an arcane skill results in Fatigue. If the GM feels it should have a higher price, use this table instead. See <b>@Compendium[swade-core-rules.swade-rules.Dynamic Backlash]{Dynamic Backlash}</b></div>"
+		},
+		"Fear Table": {
+			"name": "Fear Table",
+			"description": "<div class=\"swade-core\">\nChange the Roll Table Formula to include the modifier, like \"d20+2\". Or for easier rolls, click @Compendium[swade-core-rules.swade-macros.Fear Table]{Fear Table Macro} to be prompted for a modifier. If you did use the Macro to get this result, please disregard this message. You can read more about the Fear table by clicking @Compendium[swade-core-rules.swade-rules.Fear]{here}</div>"
+		},
+		"Injury Table": {
+			"name": "Injury Table",
+			"description": "<div class=\"swade-core\">If <b>@Compendium[swade-core-rules.swade-rules.Damage Effects]{Incapacitated}</b> and failed Vigor roll, roll on this table.</div>"
+		},
+		"Out of Control": {
+			"name": "Out of Control",
+			"description": "<div class=\"swade-core\">Damage caused by an Out of Control roll doesn’t trigger another Out of Control roll, but a Wound triggers a Critical Hit as usual. See @Compendium[swade-core-rules.swade-rules.Chases and Vehicles]{Maneuvering Skills} to learn more</div>"
+		},
+		"Reaction Table": {
+			"name": "Reaction Table",
+			"description": "<div class=\"swade-core\">The GM can use the table below to roll or choose a character or group's initial attitude. See @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} on how to use this table. </div>"
+		},
+		"Vehicle Critical Hits": {
+			"name": "Vehicle Critical Hits",
+			"description": "<div class=\"swade-core\">See @Compendium[swade-core-rules.swade-rules.Chases and Vehicles]{Chases and Vehicles}</div>"
+		}
+	}
+}
