@@ -1,10 +1,6 @@
 {
 	"label": "SWADE Hindrances",
 	"entries": {
-		"#[CF_tempEntity]": {
-			"name": "#[CF_tempEntity]",
-			"description": ""
-		},
 		"All Thumbs": {
 			"name": "All Thumbs",
 			"description": "<div class=\"swade-core\">\n<p>Due to upbringing, lack of exposure, or pure bad luck, some individuals are &ldquo;allthumbs&rdquo; when it comes to mechanical or technological devices.</p>\n<p>All Thumbs inflicts a -2 @Compendium[swade-core-rules.swade-rules.Trait Rolls]{penalty} when using mechanical or electrical devices. If he rolls a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} while using such a device (and it doesn&rsquo;t already have a built-in effect), it&rsquo;s broken. If the GM feels it&rsquo;s appropriate, it can be fixed with a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll and 1d6 hours.</p>\n</div>"

@@ -1,10 +1,10 @@
 {
 	"label": "SWADE Edges",
+	"mapping": {
+        "description": "data.description",
+        "requirements": "data.requirements.value"
+    },
 	"entries": {
-		"#[CF_tempEntity]": {
-			"name": "#[CF_tempEntity]",
-			"description": ""
-		},
 		"Ace": {
 			"name": "Ace",
 			"description": "<div class=\"swade-core\">\n<p>Aces are pilots and drivers who have a special affinity with their car, boat, plane, or other vehicle. They ignore two points of penalties to any @Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting} roll, and may spend @Compendium[swade-core-rules.swade-rules.Bennies]{Bennies} to @Compendium[swade-core-rules.swade-rules.Soak Rolls]{Soak} damage for any @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{vehicles} they control or command, using the appropriate Boating, Driving, or Piloting skill instead of @Compendium[swade-core-rules.swade-rules.Traits]{Vigor}. Each success and raise negates a @Compendium[swade-core-rules.swade-rules.Damage Effects]{Wound}.</p>\n</div>",

@@ -1,10 +1,6 @@
 {
 	"label": "SWADE Skills",
 	"entries": {
-		"#[CF_tempEntity]": {
-			"name": "#[CF_tempEntity]",
-			"description": ""
-		},
 		"Academics": {
 			"name": "Academics",
 			"description": "<div class=\"swade-core\"><p>Academics reflects knowledge of the liberal arts, social sciences, literature, history, archaeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from <cite>Macbeth</cite>, this is the skill to have.</p></div>"
