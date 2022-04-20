@@ -5,6 +5,15 @@
         },
         "Zombie": {
             "name": "行尸"
+        },
+        "Wall Walker": {
+            "name": "走壁"
+        },
+        "Fear": {
+            "name": "恐惧"
+        },
+        "Burrow": {
+            "name": "遁地"
         }
     }
 }
