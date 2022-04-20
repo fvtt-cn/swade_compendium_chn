@@ -1,7 +1,695 @@
 {
     "entries": {
         "Soldier": {
-            "name": "士兵"
+            "name": "士兵",
+            "description": "<div class=\"swade-core\">\n<p>专业士兵习惯携带沉重负载，也能忍耐艰苦的环境。在习惯当前装备一定天数后(GM决定)，其在决定<strong>@Compendium[swade-core-rules.swade-rules.装备注释]{负载 }</strong>和无减值使用护甲、武器、装备的<strong>@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量 }</strong>时视为@Compendium[swade-core-rules.swade-rules.特性]{力量 }骰子类型上升一级(这会与@Compendium[swade-core-rules.swade-edges.健壮]{健壮 }专长叠加)。 </p>\n<p>同时，角色能免费重投一次在环境危难(见<strong>@Compendium[swade-core-rules.swade-rules.危难]{危难 }</strong>)中求生时进行的@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰。 <br/></p>\n</div>",
+            "requirements": "入门, 力量d6+, 活力d6+"
+        },
+        "Ace": {
+            "name": "王牌机师",
+            "description": "<div class=\"swade-core\">\n<p>王牌机师是特别擅长汽车、舰艇、飞机或其它载具的驾驶员。并且可以使用@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }以对应的@Compendium[swade-core-rules.swade-skills.驾船]{驾船 }，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶 }或@Compendium[swade-core-rules.swade-skills.航空]{航空 }技能(而不是@Compendium[swade-core-rules.swade-rules.特性]{活力 })来给任何处于自己操作或命令下的@Compendium[swade-core-rules.swade-rules.载具注释]{载具 }@Compendium[swade-core-rules.swade-rules.化解投骰]{化解 }伤害，每次成功和优良都能抵消1个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
+        },
+        "Arcane Background (Gifted)": {
+            "requirements": "入门",
+            "name": "奥法背景 (异禀)",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li>奥法技能： @Compendium[swade-core-rules.swade-skills.集中]{集中 } (心魂)</li>\n<li>初始@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }：1</li>\n<li>@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }: 15</li>\n</ul>\n<p>角色具备有别于寻常魔法、奇迹或灵能概念的内生能力。这种力量可以是低级的超能力、神圣恩赐甚至是外星能力，而且在设定中通常颇为罕见，独一无二。</p>\n</div>"
+        },
+        "Arcane Background (Magic)": {
+            "name": "奥法背景 (魔法)",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li>奥法技能： @Compendium[swade-core-rules.swade-skills.施法]{施法 } (聪慧)</li>\n<li>初始@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }：3</li>\n<li>@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }: 10</li>\n</ul>\n<p>从强大的法师到邪恶的秘教徒都在魔法师的范畴之内。他们吸取原始的超自然能量以点燃自己的奥法之火。这种能量充斥于他们生活的世界当中，而且可以通过手势、咒语或古代符文萃取而出。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Arcane Background (Weird Science)": {
+            "name": "奥法背景 (奇异科学)",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li>奥法技能： @Compendium[swade-core-rules.swade-skills.奇异科学] (聪慧)</li>\n<li>初始@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }：2</li>\n<li>@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }: 15</li>\n</ul>\n<p>奇异科学家所使用的装置奇妙而强大，其超过了设定中正常的科技水平。这种造物可能基于超级能源、外星发现或来自拓展科学边界的旷世奇才的灵感迸现。</p>\n<p>奇异科学家的<strong>@Compendium[swade-core-rules.swade-rules.特效]{特效 }</strong>必须包括其所关联的物品。比如说，<em>@Compendium[swade-core-rules.swade-powers.爆裂]{爆裂 }</em>奇术在<em>Deadlands: Weird West</em>中的体现可以是魔法火焰喷射器，而“加百列博士的奇妙恢复灵药！”则是<em>@Compendium[swade-core-rules.swade-powers.医疗]{治疗 }</em>药水。</p>\n<p>奇异科学家必须有对应装置在手才能启动奇术(见下<strong>临时拼凑</strong>)。</p>\n<p>其它角色无法使用这些创造者的造物，他们无法理解这些东西工作的奇怪机理。这些玩意儿没法被“校准”或分给其他人使用，又或者其在除制造者外的任何人手上都会“故障”。这听起来会有一点诡异，但“魔法”——和奇术点——来自于创造者，因此他必须也是使用者。</p>\n<p>为其他人制造装置是可能的——这需要<strong>奥法装置</strong>和<strong>@Compendium[swade-core-rules.swade-edges.神器师]{神器师 }</strong>专长。</p>\n<p>奇异科学家当然也能对其他人使用自己的装置，包括给其他人灌下他的魔法灵药或注射一些自创的超级神奇血清之类的。举例而言，如果加百列博士把自己的灵药喂给别人，他如常投骰并启动奇术。如果他把药瓶交给别人以在之后使用，大家就会发现药水已经失去效果。</p>\n<p><strong>临时拼凑：</strong>奇异科学家通常必须在有对应装置时才能启动奇术，但若有需要，其也可以承受-2减值通过其他临时方法进行启动。这需要一些和设定相关的合理解释以及GM的允许才行。</p>\n<h2>例子</h2>\n<p>加布被邪恶的外星人抓住了，而且所有的装备都遭到没收。他被丢进了一个拘留室，因此他决定用顶灯和不明所以的外星电源来创作一个临时的<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发 }</em>。GM同意了这个请求，但仅限一次，因为这个过程会摧毁顶灯并让房间的能量短路。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Beast Master": {
+            "requirements": "入门, 心魂d8+",
+            "name": "野兽大师",
+            "description": "<div class=\"swade-core\">\n<p>动物容易很快和这名人物打成一片。它们不会攻击该角色，除非后者首先发动攻击或因某些理由遭到激怒。</p>\n<p>野兽大师的“动物魅力”强大到引来了某只忠诚的动物。它通常是一只@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型 }为0或更小的动物，具体交由GM决定。</p>\n<p>这只动物只是@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{龙套 }，不会在位阶或能力上得到@Compendium[swade-core-rules.swade-rules.升级]{升级 }。若宠物丢失或被杀，角色可以在[[/r 1d4]]天内获得另一只替代动物。</p>\n<p><strong>增强伙伴：</strong>野兽大师可以多次选取，每次额外选取时，可在下列效果中选择其一：</p>\n<ul>\n<li>额外获得一只宠物。</li>\n<li>让某一宠物的一项@Compendium[swade-core-rules.swade-rules.特性]{特性 }骰子类型上升一级(每宠物限一项特性)。</li>\n<li>让角色能获得宠物体型的上限+1，上限为3。</li>\n<li>让某一宠物成为@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{不羁角色 }(人物本身必须达到@Compendium[swade-core-rules.swade-rules.升级]{英杰位阶 })。</li>\n</ul>\n</div>"
+        },
+        "Berserk": {
+            "name": "狂化",
+            "description": "<div class=\"swade-core\">\n<p>当“猩红狂暴”降临狂战士之身时，他们会变得狂野不羁，几乎不受控制，并化身为致命的杀人机器！</p>\n<p>当遭受1个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤或动摇 }(仅限物理伤害)结果后，角色必须马上成功通过一次@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰，否则将陷入狂化。若有所需要，可以自愿让检定失败。</p>\n<p>陷入狂化有下列效果：</p>\n<ul>\n<li>狂怒：角色的力量骰子类型上升一级，每次近战攻击都一定是<strong>@Compendium[swade-core-rules.swade-rules.不羁攻击]{不羁攻击 }</strong>，并且不能使用任何需要才智或专注的技能(由GM决定)，举例而言，角色仍可以咆哮着发出威胁并进行@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }。</li>\n<li>暴怒：肾上腺素和怒火刺激着狂战士的肌肉，其@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }+2，同时忽略1个等级的损伤减值(这和其它降低损伤减值的能力叠加)。</li>\n<li>一莽无前：当狂战士的@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }检定@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }时，其会随机命中攻击范围内的一个目标(不能是初始目标)，不分敌我。若没有合适的目标，这一击则只是单纯失手、砸中附近的物件等等。</li>\n</ul>\n<p>狂化持续5轮后，人物就会遭受一级@Compendium[swade-core-rules.swade-rules.疲乏]{疲劳 }。在第10轮，其会再遭受一级疲乏并且结束狂化。角色也可以随时选择压下怒火，这需要通过一次-2的@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰(使用一个自由动作；若是其能在引发疲乏之前压制怒火则可以避免疲乏！)。再次进入狂化会重新计轮数，即便是同一场战斗中也如此。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Acrobat": {
+            "name": "特技员",
+            "description": "<div class=\"swade-core\">\n<p>特技员就包括平衡、翻滚或擒抱的@Compendium[swade-core-rules.swade-skills.运动]{运动 }总值免费获得一次重投。该专长不影响打断动作、攀爬，游泳或投掷的投骰。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+, 运动d8+"
+        },
+        "Alertness": {
+            "name": "警觉",
+            "description": "<div class=\"swade-core\">\n<p>角色洞若观火，明察秋毫，没有什么能逃过他的眼睛。通过目视，耳听或以其他方式感受周遭世界的@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }投骰+2。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Ambidextrous": {
+            "name": "双巧手",
+            "description": "<div class=\"swade-core\">\n<p>这名战士的左手和右手一样熟练，忽略@Compendium[swade-core-rules.swade-rules.副手攻击]{副手减值 }。</p>\n<p>若双手各持握武器，@Compendium[swade-core-rules.swade-edges.双巧手]{双巧手 }角色可以将两把武器的@Compendium[swade-core-rules.swade-rules.角色]{格挡 }加值(如有)叠加。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
+        },
+        "Arcane Background (Miracles)": {
+            "name": "奥法背景 (奇迹)",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li>奥法技能： @Compendium[swade-core-rules.swade-skills.信仰]{信仰 } (心魂)</li>\n<li>初始@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }：3</li>\n<li>@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }: 10</li>\n</ul>\n<p>呼唤奇迹之人从某种神圣的存在那里获取力量，譬如神明、大自然或精魂。他们的奇术通常只需简单的祷词或施行既定的仪式即可唤来。</p>\n<p>行使奇迹之人都是各自特定宗教的翘楚。他们通常都有体现其遵从的@Compendium[swade-core-rules.swade-rules.负赘]{负赘 }，譬如@Compendium[swade-core-rules.swade-hindrances.誓言]{誓言 }或@Compendium[swade-core-rules.swade-hindrances.义务]{义务 }。他们可能还会和教派内其他人之间有着@Compendium[swade-core-rules.swade-edges.人脉]{人脉 }专长，他们能在角色的神圣能量耗尽时伸出援手。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Arcane Background (Psionics)": {
+            "name": "奥法背景 (灵能)",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li>奥法技能： @Compendium[swade-core-rules.swade-skills.灵能]{灵能 } (聪慧)</li>\n<li>初始@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }：3</li>\n<li>@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }: 10</li>\n</ul>\n<p>灵能力者通过深入挖掘心灵之力来操纵物质、阅读思维和实现其他神通。其中一些人是受雇于某一大型政府机关的特工，而其它人则通常在逃避机关的追捕！一些人也许经受了多年的训练，而一些人则是独立开发出了自己的惊人力量。 &nbsp;</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Arcane Resistance": {
+            "description": "<div class=\"swade-core\"><p>魔法和超自然对该人物的影响大大减弱。无论是与生俱来、源自传承、或是历经训练，其对魔法、灵能、奇异科学以及其他超自然能量有着特别的抗性。</p>\n<p>以此角色为目标的奥法技能遭受<strong>-2</strong>减值(即使是盟友施放的也是如此！)，而且魔法伤害也会<strong>-2</strong>。</p></div>",
+            "requirements": "入门, 心魂d8+",
+            "name": "奥法抗性"
+        },
+        "Aristocrat": {
+            "name": "上流人士",
+            "description": "<div class=\"swade-core\">\n<p>角色生来就是特权阶级，或是在之后的人生里进入了这个阶级，其不一定有钱(@Compendium[swade-core-rules.swade-edges.富裕]{富裕 }专长或@Compendium[swade-core-rules.swade-edges.殷富]{殷富 }专长)，但仍是设定里精英社交圈中的一员。 </p>\n<p>上流人士与本地精英、工业巨头、贵族或其它上流人士<strong>@Compendium[swade-core-rules.swade-rules.打点关系]{打点关系 }</strong>时@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }+2。此外在掌握上流阶层礼仪，辨别家族谱系或纹章，或是回想关于某人身份的流言时的 @Compendium[swade-core-rules.swade-skills.通用知识]{通用知识 }投骰+2。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Artificer": {
+            "name": "神器师",
+            "description": "<div class=\"swade-core\">\n<p>那些萦绕着超自然力量的个体有时能找到将力量注入物品之中的方法，其可以将寻常利器转变为魔法刀剑，赠给朋友超凡药水，甚至是用神圣仪典祝福出圣遗物。 <br/>神器师可以制造<strong>@Compendium[swade-core-rules.swade-rules.奥法装置]{奥法装置 }</strong>并将其交给盟友。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (任意)"
+        },
+        "Assassin": {
+            "name": "刺客",
+            "description": "<div class=\"swade-core\">\n<p>刺客是饱经训练的杀手，知晓如何击杀最为顽强的敌人。当其敌人处于@Compendium[swade-core-rules.swade-rules.分神与脆弱]{脆弱 }或自己构成@Compendium[swade-core-rules.swade-rules.奇袭]{奇袭 }时，伤害投骰获得+2加值。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+, 格斗d6+, 潜行d8+"
+        },
+        "Attractive": {
+            "name": "魅力惊人",
+            "description": "<div class=\"swade-core\">\n<p>毫无疑问人们更愿意向外表对自己有吸引力的家伙伸出援手。若目标能被角色的类型(性别、性征、种族等等)所吸引，角色对其的@Compendium[swade-core-rules.swade-skills.表演]{表演 }和@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }投骰+1。</p>\n</div>",
+            "requirements": "入门, 活力d6+"
+        },
+        "Beast Bond": {
+            "name": "野兽联结",
+            "description": "<div class=\"swade-core\">\n<p>某些人物与其动物伙伴之间有着非凡的联结。这些角色可以为任何处于其控制下的动物使用@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }，包括坐骑、宠物、魔宠等等。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Block": {
+            "description": "<div class=\"swade-core\">\n<p>藉由激烈战斗所积累的经验，人物学会了在残酷的贴身战斗中保护自己。角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡 }+1，任何针对其的@Compendium[swade-core-rules.swade-rules.围攻]{围攻 }加值-1。</p>\n</div>",
+            "name": "招架",
+            "requirements": "行家, 格斗d8+"
+        },
+        "Bolster": {
+            "description": "<div class=\"swade-core\">\n<p>贬低或羞辱敌人都能提振盟友们的精神。对敌人进行的@Compendium[swade-core-rules.swade-rules.考验]{考验 }成功时，角色可以移除一名盟友身上的<strong>@Compendium[swade-core-rules.swade-rules.分神与脆弱]{分神或脆弱 }</strong>状态。。</p>\n</div>",
+            "name": "加把劲",
+            "requirements": "入门, 心魂d8+"
+        },
+        "Brave": {
+            "name": "勇敢",
+            "description": "<div class=\"swade-core\">\n<p>拥有此专长的对象要么已经学会了控制住恐惧，要么就是经历了过多恐怖而变得麻木。这些勇敢探索者的@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }检定+2，并且<strong>@Compendium[swade-core-rules.swade-tables.Fear Table]{恐惧表 }</strong>的结果-2。</p>\n</div>",
+            "requirements": "入门, 心魂d6+"
+        },
+        "Brawler": {
+            "name": "搏击手",
+            "description": "<div class=\"swade-core\">\n<p>拳重如铁锤，爪利似镰刀，身坚若磐石。搏击手的@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }+1，拳脚以及爪抓(如有)攻击命中时投骰@Compendium[swade-core-rules.swade-rules.特性]{力量 }+d4。若已有从<strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (爪抓)]{爪抓 }</strong>上获得的伤害骰，@Compendium[swade-core-rules.swade-edges.武术家]{武术家 }专长等等，则改为伤害骰子类型上升1级。</p>\n<p>搏击手专长不会让角色的拳头变成<strong>@Compendium[swade-core-rules.swade-rules.天生武器]{天生武器 }</strong></p>\n</div>",
+            "requirements": "入门, 力量d8+, 活力d8+"
+        },
+        "Brawny": {
+            "name": "健壮",
+            "description": "<div class=\"swade-core\">\n<p>这个大块头非常高大或是非常健硕，其@Compendium[swade-core-rules.swade-rules.体型与尺寸{体型 }+1(@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }也因此+1)，并在决定<strong>@Compendium[swade-core-rules.swade-rules.装备注释]{负载 }</strong>和无减值使用护甲、武器、装备的<strong>@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量 }</strong>时，@Compendium[swade-core-rules.swade-rules.特性]{力量 }骰子类型视为要高一级。</p>\n<p>健壮不能使角色体型超过+3。</p>\n</div>",
+            "requirements": "入门, 力量d6+, 活力d6+"
+        },
+        "Bruiser": {
+            "name": "搏击师",
+            "description": "<div class=\"swade-core\">\n<p>角色的@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }额外再+1，拳头和爪抓造成伤害的骰子类型再上升一级。</p>\n</div>",
+            "requirements": "行家, 搏击手"
+        },
+        "Brute": {
+            "name": "蛮勇",
+            "description": "<div class=\"swade-core\">\n<p>相较协调性和灵活性，蛮勇的家伙更重视核心力量和块头大小，其在@Compendium[swade-core-rules.swade-rules.升级]{升级 }时可以将@Compendium[swade-core-rules.swade-rules.特性]{力量 }视为@Compendium[swade-core-rules.swade-skills.运动]{运动 }的关联属性(而非@Compendium[swade-core-rules.swade-rules.特性]{灵巧 })。该角色也能选择用力量来抵抗运动@Compendium[swade-core-rules.swade-rules.考验]{考验 }。</p>\n<p>最后，蛮勇角色所有投掷物品的@Compendium[swade-core-rules.swade-rules.射程]{近距 }射程+1，中距射程则此调整值翻倍，长距射程则再翻倍。举例而言，若投掷物品的射程为3/6/12，则蛮勇角色的对应射程会变成4/8/16。</spn></p>\n</div>",
+            "requirements": "入门, 力量d6+, 活力d6+"
+        },
+        "Calculating": {
+            "name": "谋定后动",
+            "description": "<div class=\"swade-core\">\n<p>角色只需要花上数秒观察敌人的行动就能为自己带来很大优势。若角色的@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }是5或以下，其就能在该回合内的一个动作上忽略至多2点减值，这包括了@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 }、掩蔽、@Compendium[swade-core-rules.swade-rules.射程]{射程 }甚至是@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }减值。</p>\n</div>",
+            "requirements": "入门, 聪慧d8+"
+        },
+        "Champion": {
+            "name": "勇士",
+            "description": "<div class=\"swade-core\">\n<p>勇士是被选召为特定神明或信仰而战的圣洁(或亵渎)男女，其中大多数都是自愿准备为伟业牺牲自我的虔诚灵魂，但也有一部分属于生来就要背负这个角色，因此颇不情愿地走上这条道路。</p>\n<p>勇士与黑暗之力(或善良之力)斗争，在攻击超自然邪恶(如果角色属于邪恶那针对的就是善良)生物时伤害+2，这个加值会应用于@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果伤害 }，@Compendium[swade-core-rules.swade-rules.攻击]{远程攻击 }，@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }等等。</p>\n<p>GM必须裁定这个加值对什么敌人有效，通常而言这是指任何生于魔法或拥有超自然能力的邪恶(或是善良！)生物。</p>\n</div>",
+            "requirements": "入门, 心魂d8+, 格斗d6+"
+        },
+        "Channeling": {
+            "name": "导能",
+            "description": "<div class=\"swade-core\">\n<p>角色在奥法技能投骰(或启动/使用@Compendium[swade-core-rules.swade-rules.奥法装置]{奥法装置 }的投骰)取得@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }时，可以让@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }消耗-1。这个专长可以将消耗降低至0。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (任意)"
+        },
+        "Charismatic": {
+            "name": "亲和力",
+            "description": "<div class=\"swade-core\">\n<p>角色因某些理由广受欢迎。其可能是值得信赖或和蔼可亲，或只是表露出自信和好意。@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }投骰免费获得一次重投。</p>\n</div>",
+            "requirements": "入门, 心魂d8+"
+        },
+        "Chi": {
+            "name": "气",
+            "description": "<div class=\"swade-core\">\n<p>人物的武艺已经超凡脱俗，进入了神秘化境。在每场战斗遭遇开始时，角色会获得一点“气”，这可用于：</p>\n<ul>\n<li>重投一次自己失败的攻击(大失败也可以)。</li>\n<li>让某一敌人对该角色的一次攻击结果无效并重投。</li>\n<li>让用手、腿、爪或其它@Compendium[swade-core-rules.swade-rules.天生武器]{天生武器 }成功进行的一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击伤害+1d6(可以@Compendium[swade-core-rules.swade-rules.特性投骰]{绝佳 })。</li>\n</ul>\n<p>未使用的气会在战斗遭遇结束时消失。</p>\n</div>",
+            "requirements": "老练, 武斗家"
+        },
+        "Giant Killer": {
+            "requirements": "老练",
+            "name": "巨物杀手",
+            "description": "<div class=\"swade-core\">\n<p>越大的东西越难杀死，至少对大多数人来说是这样，但这名人物知晓如何找到这些大块头的弱点。</p>\n<p>当角色攻击体型比其高3及以上(见<strong>@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型 }</strong>)的生物时，伤害+1d6。人类(体型0)在对抗体型3或更大的生物时能获得该加值。</p>\n</div>"
+        },
+        "Hold the Line!": {
+            "name": "死守不退",
+            "requirements": "行家, 聪慧d8+, 指挥",
+            "description": "<div class=\"swade-core\">\n<p>死守不退能让所有在这名角色指挥下的@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{龙套 }意志更为坚定，@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }+1。</p>\n</div>"
+        },
+        "Holy/Unholy Warrior": {
+            "requirements": "行家, 奥法背景 (奇迹), 信仰d6+",
+            "name": "神圣/邪恶战士",
+            "description": "<div class=\"swade-core\">\n<p>信徒在侍奉神明时总会面临千难万险，为了渡过难关，善良(或邪恶)之力会赐下奇迹以及将恩惠转化为超自然防护的能力。</p>\n<p>这位选民可以为@Compendium[swade-core-rules.swade-rules.化解投骰]{化解投骰 }消耗@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }以让总值获得等同数量的加值，上限是+4。</p>\n</div>"
+        },
+        "Combat Acrobat": {
+            "name": "战斗特技",
+            "description": "<div class=\"swade-core\">\n<p>这名腾挪矫捷的角色只要意识到了攻击、能合理移动，而且没有遭受任何@Compendium[swade-core-rules.swade-rules.装备注释]{负载 }或@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量 }减值时，针对自身的攻击就会-1。</p>\n</div>",
+            "requirements": "行家, 特技员"
+        },
+        "Improved Dodge": {
+            "name": "精通闪避",
+            "description": "<div class=\"swade-core\">\n<p>角色在回避范围效果攻击时获得+2，见<strong>@Compendium[swade-core-rules.swade-rules.回避]{回避 }</strong>。</p>\n</div>",
+            "requirements": "行家, 闪避"
+        },
+        "Combat Reflexes": {
+            "name": "战斗反应",
+            "description": "<div class=\"swade-core\">\n<p>角色能很快从震惊或者是伤痛中恢复过来，尝试从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }或@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }中恢复的投骰+2。</p>\n</div>",
+            "requirements": "行家"
+        },
+        "Command": {
+            "name": "指挥",
+            "description": "<div class=\"swade-core\">\n<p>指挥是在激战正酣时给与盟友明确指示和支援的基本能力。@Compendium[swade-core-rules.swade-rules.专长]{指挥射程 }内的所有龙套尝试从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复的@Compendium[swade-core-rules.swade-rules.特性]{心魂 }投骰以及从@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }中恢复的@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰+1。 </p>\n</div>",
+            "requirements": "入门, 聪慧d6+"
+        },
+        "Improvisational Fighter": {
+            "requirements": "行家, 聪慧d6+",
+            "name": "俯拾皆兵",
+            "description": "<div class=\"swade-core\">\n<p>角色经常发现自己要通过非战斗用的装备或家具部件来进行打斗。具有该专长的斗士善于使用临时武器，持用时忽略通常的-2减值，详细见<strong>@Compendium[swade-core-rules.swade-rules.临时武器]{临时武器 }</strong>。</p>\n</div>"
+        },
+        "Command Presence": {
+            "name": "指挥风度",
+            "description": "<div class=\"swade-core\">\n<p>宏亮的声音、干练的命令、天生的气质，甚至只是单纯的训练有素都能让人们奋起而战。具有该专长的角色@Compendium[swade-core-rules.swade-rules.专长]{指挥射程 }变成10英寸(20码)。</p>\n</div>",
+            "requirements": "行家, 指挥"
+        },
+        "Common Bond": {
+            "name": "共同联结",
+            "description": "<div class=\"swade-core\"><p>无私的英雄和坚定的领袖们都知道最大的力量往往来自于伙伴，并愿意将自己的幸运、命运或福气分一点给那些支持着自己的搭档。拥有该专长的角色能自由地将自己的@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }交给其他可以交流的角色。玩家应当解释这如何实现，从简单的一句鼓励到在背上一记问候的轻拍都可以。  </p></div>",
+            "requirements": "不羁角色, 入门, 心魂d8+"
+        },
+        "Concentration": {
+            "name": "聚精会神",
+            "description": "<div class=\"swade-core\">\n<p>通过训练和专注，所有非瞬间奇术的基础@Compendium[swade-core-rules.swade-rules.奇术]{持续时间 }加倍(维持奇术也包括在内)。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (任意)"
+        },
+        "Connections": {
+            "name": "人脉",
+            "description": "<div class=\"swade-core\">\n<p>角色认识能在危难之刻给予援手的朋友或组织，这可以是黑社会、联邦调查局、工会甚至其它冒险者。人脉专长可以多次选择，每次都要选择一个新的组织或对象。每回游戏一次，只要角色能联系上对方，那就可以向朋友寻求一次帮助。 <br/><p>帮助取决于关系的本质(GM决定)，但通常都是贷款、装备、一小伙帮忙的战士、运输、情报、甚至可以是具备团队短板关键技能的专家，诸如骇客或是学者。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Counterattack": {
+            "name": "反击",
+            "description": "<div class=\"swade-core\">\n<p>拥有该专长的战士能抓准敌人的失误立刻予以回敬。每轮一次(若未遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }或@Compendium[swade-core-rules.swade-rules.震慑]{震慑 })，角色可以向对自己发起@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击但失手的对象进行一次<strong>@Compendium[swade-core-rules.swade-rules.自由攻击]{自由攻击 }</strong>。反击会立刻发生，这会发生在该@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }内对该角色的其他攻击(如有)之前。</p>\n</div>",
+            "requirements": "行家, 格斗d8+"
+        },
+        "Iron Jaw": {
+            "name": "头铁",
+            "description": "<div class=\"swade-core\">\n<p>凶猛至极的打击也难以撼动这名角色，@Compendium[swade-core-rules.swade-rules.化解投骰]{化解投骰 }和避免<strong>@Compendium[swade-core-rules.swade-rules.奇袭]{昏厥打击 }</strong>的@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰都获得+2。</p>\n</div>",
+            "requirements": "入门, 活力d8+"
+        },
+        "Danger Sense": {
+            "name": "危险感知",
+            "description": "<div class=\"swade-core\">\n<p>角色能在坏事发生前一刻有所察觉。当因<strong>@Compendium[swade-core-rules.swade-rules.突袭]{突袭 }</strong>而进行投骰时，为了能在第一轮行动的@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }投骰+2。若出现优良，角色在遭遇开始时处于@Compendium[swade-core-rules.swade-rules.待机]{待机 }。</p>\n<p>在其它没有包含在突袭规则的情景中(狙击、陷坑、毒饮等等)，危险感知也能让角色进行一次-2的@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }投骰(若通常允许察觉投骰则还会+2)以发现危机并采取合适行动。若这是一次攻击并且此角色成功通过了察觉投骰，则敌人不会对其构成@Compendium[swade-core-rules.swade-rules.奇袭]{奇袭 }。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Jack-Of-All-Trades": {
+            "requirements": "入门, 聪慧d10+",
+            "name": "万事通",
+            "description": "<div class=\"swade-core\">\n<p>无论是高级教育、书本知识、计算机教学程序，或仅是惊人的直觉感知，这名角色都具有临阵磨枪的才能。只要给一点时间和运气，鲜有其无法处理的事情。</p>\n<p>在观察和研究某对象后，角色能以一个动作进行一次@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰。若成功，在关联技能上会获得1枚d4，若为优良则是d6。如果失败或只是想获得优良，角色可在一小时的学习、试验、努力和专心研究后重新尝试。无论成功与否，这都会持续到其选择学习研究不同的对象为止。 <br/></p>\n</div>"
+        },
+        "Liquid Courage": {
+            "requirements": "入门, 活力d8+",
+            "name": "酒壮人胆",
+            "description": "<div class=\"swade-core\">\n<p>酒精对这个合群家伙的影响和大多数人极为不同。在喝下烈酒(约8盎司烈酒或等同的东西)的下一轮，角色的@Compendium[swade-core-rules.swade-rules.特性]{活力 }骰子类型上升一级(@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }也得以增加)。饮酒者同时可以忽略一级@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }减值(和其它效果相同的能力叠加)。</p>\n<p>不过@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }，@Compendium[swade-core-rules.swade-rules.特性]{灵巧 }以及所有关联技能在持续时间内遭受-1减值。</p>\n<p>效果触发后持续一小时，之后四小时里这个酒鬼都要遭受一级@Compendium[swade-core-rules.swade-rules.疲乏]{疲劳 }。</p>\n</div>"
+        },
+        "Luck": {
+            "name": "幸运",
+            "requirements": "入门",
+            "description": "<div class=\"swade-core\">\n<p>这位冒险者似乎被命运、因果、神明或其他角色相信(或相信角色！)的外力祝福过。</p>\n<p>其每回游戏开始时额外获得一点@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }，这让其在处理重任时比大多数人更容易成功，并在难以置信的危险当中存活下来。</p>\n</div>"
+        },
+        "Marksman": {
+            "name": "神射手",
+            "description": "<div class=\"swade-core\">\n<p>角色在远程武器上有所天赋。若没有在回合内移动且第一个动作没有用超过1的@Compendium[swade-core-rules.swade-rules.射速]{射速 }进行射击，角色就能在@Compendium[swade-core-rules.swade-skills.运动]{运动 }(投掷)或@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰上获得+1，或是忽略至多2点来自@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }、@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽 }、@Compendium[swade-core-rules.swade-rules.射程]{射程 }、@Compendium[swade-core-rules.swade-rules.体型与尺寸{尺寸 }或@Compendium[swade-core-rules.swade-rules.速度]{速度 }的减值。这算作次级瞄准战技，因此无法与@Compendium[swade-core-rules.swade-rules.瞄准]{瞄准 }叠加。神射手无法应用到除首次攻击外的其他攻击上。</p>\n</div>",
+            "requirements": "行家, 运动d8+ 或 射击d8+"
+        },
+        "Dead Shot": {
+            "name": "死亡一射",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }是鬼牌时，该轮内第一次成功的@Compendium[swade-core-rules.swade-skills.运动]{运动 }(投掷)或@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰造成的总伤害翻倍。</p>\n</div>",
+            "requirements": "不羁角色, 入门, 运动或射击d8+"
+        },
+        "Dodge": {
+            "name": "闪避",
+            "description": "<div class=\"swade-core\">\n<p>角色可以预判攻击或在弹幕下闪展腾挪。除非对象遭到突袭或是对此毫无意识，否则闪避专长能让所有针对该角色的@Compendium[swade-core-rules.swade-rules.攻击]{远程攻击 }-2。无论如何，闪避不会和实际的@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽 }叠加。</p>\n</div>",
+            "requirements": "行家, 灵巧d8+"
+        },
+        "Double Tap": {
+            "description": "<div class=\"swade-core\">\n<p>有经验的专业枪手能在不影响准头的情况下快速连续射击两次。</p>\n<p>双发快射只能应用在@Compendium[swade-core-rules.swade-rules.射速]{射速 }为1且无需手动@Compendium[swade-core-rules.swade-rules.装填]{装填 }即能射击两次的武器上。每动作一次，这能额外消耗一发弹药，并让命中和伤害都获得+1。射手进行@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 }时可以多次使用双发快射。</p>\n<p>双发快射不能和@Compendium[swade-core-rules.swade-edges.速射]{速射 }共同使用。</p>\n<p>如果使用的武器能<strong>@Compendium[swade-core-rules.swade-rules.三连发]{三连发 }</strong>，则@Compendium[swade-core-rules.swade-skills.射击]{射击 }技能和伤害会从+1变成+2，并消耗六发弹药。</p>\n</div>",
+            "name": "双发快射",
+            "requirements": "行家, 射击d6+"
+        },
+        "Elan": {
+            "description": "<div class=\"swade-core\">\n<p>热忱代表能量或精神，具备此专长的角色在艰难关头能奋起爆发，使用@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }重投@Compendium[swade-core-rules.swade-rules.特性]{特性 }时的总值+2。这个加值只在重投时有效，其无法用于@Compendium[swade-core-rules.swade-rules.造成伤害]{伤害 }投骰(因为不是特性投骰)，也不能用于@Compendium[swade-core-rules.swade-rules.化解投骰]{化解投骰 }(除非使用<em>另一点</em>助力点来重投@Compendium[swade-core-rules.swade-rules.特性]{活力 }检定)。</p>\n</div>",
+            "requirements": "入门, 心魂d8+",
+            "name": "热忱"
+        },
+        "Expert": {
+            "name": "专家水准",
+            "description": "<div class=\"swade-core\">\n<p>如同@Compendium[swade-core-rules.swade-edges.术业]{专业水准 }专长，该@Compendium[swade-core-rules.swade-rules.特性]{特性 }及其上限再增长一级。</p>\n</div>",
+            "requirements": "传奇, 对应特性的专业水准"
+        },
+        "Extra Effort": {
+            "description": "<div class=\"swade-core\">\n<p>某些@Compendium[swade-core-rules.swade-edges.奥法背景 (异禀)]{异禀 }人士可以通过挖掘灵魂深处来显著增强自己的力量。</p>\n<p>额外效能可以在@Compendium[swade-core-rules.swade-skills.集中]{集中 }投骰完成后，消耗1奇术点让总值增加+1，或是消耗3@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }让总值增加+2。这无法用来影响@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (异禀), 集中d6+",
+            "name": "额外效能"
+        },
+        "Extraction": {
+            "name": "脱身",
+            "description": "<div class=\"swade-core\">\n<p>当角色撤出近战时，邻接的攻击方能对其进行一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }自由攻击(见<strong>@Compendium[swade-core-rules.swade-rules.撤出近战]{撤出近战 }</strong>)。这对大多数人而言非常危险，但对这名狡猾角色来说则并非如此。</p>\n<p>当移动远离邻接敌人时，对方其中一员(由玩家选择)无法进行@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }自由攻击。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
+        },
+        "Fame": {
+            "name": "小有名气",
+            "description": "<div class=\"swade-core\">\n<p>角色是某类颇有名气的家伙，其可以是特定领地内的有名诗人，摇滚小明星或受欢迎的B级片导演。</p>\n<p>当进行表演卖艺时(见<strong>@Compendium[swade-core-rules.swade-skills.表演]{表演 }</strong>)，角色可以赚取双倍收入。如果目标态度是友善且知道角色是谁(一次@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识 }投骰，视乎目标有多少可能知晓角色的名声予以调整)，则其能利用自己的名声使@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }投骰+1。</p>\n<p>@Compendium[swade-core-rules.swade-edges.小有名气]{小有名气 }的缺点是人物经常会被认出来，其他人总想从他这里获得什么，可能会被粉丝或崇拜者跟踪，或是没法在不给自己带来麻烦的同时逃避工作、表演或其它职责。</p>\n</div>",
+            "requirements": "入门"
+        },
+        "Martial Artist": {
+            "name": "武术家",
+            "requirements": "入门, 格斗d6+",
+            "description": "<div class=\"swade-core\">\n<p>这名战士经受了基础的武术训练，他的拳脚成为了武器(见<strong>@Compendium[swade-core-rules.swade-rules.天生武器]{天生武器 }</strong>) )，因此总是视作具有武装。角色的拳脚攻击+1，造成@Compendium[swade-core-rules.swade-rules.特性]{力量 }+d4伤害。若已经具备从<strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (爪抓)]{爪抓 }</strong>种族能力或是@Compendium[swade-core-rules.swade-edges.搏击手]{搏击手 }专长处获得的力量伤害骰，则该伤害骰子类型上升一级。</p>\n<p>武术家专长<em>不会</em>增加诸如尖牙或角撞等其他天生武器的伤害。</p>\n</div>"
+        },
+        "Martial Warrior": {
+            "name": "武斗家",
+            "description": "<div class=\"swade-core\">\n<p>这名战士经受了基础的武术训练，他的拳脚成为了武器(见<strong>@Compendium[swade-core-rules.swade-rules.天生武器]{天生武器 }</strong>) )，因此总是视作具有武装。角色的拳脚攻击<strong>+2</strong>，造成<strong>@Compendium[swade-core-rules.swade-rules.特性]{力量 }+d6</strong>伤害。若已经具备从<strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (爪抓)]{爪抓 }</strong>种族能力或是@Compendium[swade-core-rules.swade-edges.搏击手]{搏击手 }专长处获得的力量伤害骰，则该伤害骰子类型上升一级。</p>\n<p>武术家专长<em>不会</em>增加诸如尖牙或角撞等其他天生武器的伤害。</p>\n</div>",
+            "requirements": "行家, 武术家"
+        },
+        "Famous": {
+            "description": "<div class=\"swade-core\">\n<p>这位角色的确非常有名，在诸如国家、大企业或著名媒体(电影或电视，音乐产业等等)这类大圈子里广为人知。角色表演卖艺时可以赚取正常收入的5倍，并且在影响认识自己的友善目标时@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }投骰+2。</p>\n<p>当然声名鹊起的代价也要更高，对象得在时间、工作任务、竞争对手、流言蜚语上付出更多精力，也无法混迹于人群中秘密行事。</p>\n</div>",
+            "requirements": "行家, 小有名气",
+            "name": "名声大噪"
+        },
+        "Fast Healer": {
+            "name": "快速痊愈",
+            "description": "<div class=\"swade-core\">\n<p>受过此等祝福的角色自然恢复@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰+2，并且检定从每五天一次变成每三天一次(见<strong>@Compendium[swade-core-rules.swade-skills.医疗]{恢复 }</strong>)。</p>\n</div>",
+            "requirements": "入门, 活力d8+"
+        },
+        "Feint": {
+            "name": "虚招",
+            "description": "<div class=\"swade-core\">\n<p>当用@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }技能进行<strong>@Compendium[swade-core-rules.swade-rules.考验]{考验 }</strong>时，可以选择让敌人用@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }(而不是@Compendium[swade-core-rules.swade-rules.特性]{灵巧 })来进行对抗。</p>\n</div>",
+            "requirements": "入门, 格斗d8+"
+        },
+        "Fervor": {
+            "name": "热情洋溢",
+            "description": "<div class=\"swade-core\">\n<p>伟大领袖发出的简短指示有时可以一锤定音。具备这项能力的指挥官可以通过大喊格言、口号或振奋语句来让部属斗志昂扬。</p>\n<p>范围内的@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{龙套 }@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }伤害投骰+1。</p>\n</div>",
+            "requirements": "老练, 心魂d8+, 指挥"
+        },
+        "Filthy Rich": {
+            "name": "殷富",
+            "description": "<div class=\"swade-core\">\n<p>这个幸运儿非常富有，其创建角色时的@Compendium[swade-core-rules.swade-rules.角色]{起始资金 }是设定中的五倍，而且税后年收入会在$500,000左右(如有可能)。</p>\n<p>更为富有的角色可以存在，但除非会有游戏效果，否则不应有所影响。这需要和GM进行商讨，而且更多资产也会相应产生繁重的责任。</p>\n</div>",
+            "requirements": "入门, 富裕"
+        },
+        "First Strike": {
+            "name": "先发制人",
+            "description": "<div class=\"swade-core\">\n<p>每轮一次，只要角色未遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }或@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }，则可以在某一敌人移动进入@Compendium[swade-core-rules.swade-rules.触及]{触及 }后立刻向对方进行一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }自由攻击(见<strong> @Compendium[swade-core-rules.swade-rules.自由攻击]{自由攻击 }</strong>)</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
+        },
+        "Fleet-Footed": {
+            "name": "飞毛腿",
+            "description": "<div class=\"swade-core\">\n<p>角色的@Compendium[swade-core-rules.swade-rules.移动]{移速 }+2，@Compendium[swade-core-rules.swade-rules.移动]{奔跑骰 }上升1级(举例而言，从d6变成d8)。</p>\n</div>",
+            "requirements": "入门, 灵巧d6+"
+        },
+        "Followers": {
+            "name": "随从",
+            "description": "<div class=\"swade-core\">\n<p>每次选择该专长，都会出现五名愿意与角色并肩作战的随从。即使失去了任意一员，最后总会有其他人来予以接替(需要多久取决于GM和环境)。</p>\n<p>随从必须加以照顾，并且通常他们也希望能分到一部分战利品、宝物或其它角色获得的奖励。另一方面，他们也会完全忠于自己的任务。随从不会置生死于度外，但也愿意在为角色效力时不断以身犯险。</p>\n<p>随从使用<strong>@Compendium[swade-core-rules.swade-bestiary.士兵]{士兵 }</strong>数据。角色也可以酌情为其提供装备。随从会如同玩家角色一样<strong>@Compendium[swade-core-rules.swade-rules.升级]{升级 }</strong></p>\n<p>如有需要，也可以采用<strong>@Compendium[swade-core-rules.swade-rules.盟友]{盟友 }</strong>规则来各自赋予他们独特的个性。</p>\n</div>",
+            "requirements": "不羁角色, 传奇"
+        },
+        "Free Runner": {
+            "name": "自由跑者",
+            "description": "<div class=\"swade-core\">\n<p>这名角色有练习“跑酷”或仅仅是非常擅长奔跑、跳跃、游泳、爬墙及跨越障碍。</p>\n<p>只要是能跳上、蹬跳或是游过的障碍，那么角色在徒步时就能以全@Compendium[swade-core-rules.swade-rules.移动]{移速 }在这些@Compendium[swade-core-rules.swade-rules.移动]{困难地形 }当中移动。同时，他在攀爬和徒步进行的<strong>追逐</strong>(见@Compendium[swade-core-rules.swade-rules.追逐与载具]{追逐与载具 })@Compendium[swade-core-rules.swade-skills.运动]{运动 }投骰上获得+2加值。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+, 运动d6+"
+        },
+        "Frenzy": {
+            "name": "连击",
+            "description": "<div class=\"swade-core\">\n<p>拥有连击专长的角色可以在回合内的一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击中投出第二枚格斗骰。该额外的骰子可以根据角色选择针对相同或不同的目标，并分别进行结算。</p>\n</div>",
+            "requirements": "行家, 格斗d8+"
+        },
+        "Gadgeteer": {
+            "name": "奇械匠",
+            "description": "<div class=\"swade-core\">\n<p>某些机械大师能打造出与众不同的神奇设备。</p>\n<p>奇械师可以消耗至多3点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }用某些合理的零部件来“临时拼凑”出一件奇械。这个奇械能启动设定中奇异科学家通常可用(@Compendium[swade-core-rules.swade-rules.升级]{位阶 }等同或更低)且奇术点消耗等于或小于3的任一@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }。</p>\n<p>这一奇术的总消耗(加上调整值后)不能超过制造设备时的奇术点消耗，制造者亦不能将@Compendium[swade-core-rules.swade-rules.特效]{限制 }应用到奇械上，不过只要奇械师的点数足够，那就可以制造多个奇械。</p>\n<p>制作以及启动某一奇械需要通过一次-2的@Compendium[swade-core-rules.swade-skills.奇异科学]{奇异科学 }投骰，这将需要一整个回合，在此期间角色无法做其他任何事(该回合不能进行@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 })，除此之外的机制均如同奇术正常启动那般。</p>\n<p>制造者直接通过自己的奇术点池来给奇械注入奇术点，但若是@Compendium[swade-core-rules.swade-rules.奇术]{持续时间 }用尽(这无法维持)，奇械就会碎落成零件散块。</p>\n<h2>例子</h2>\n<p>加布是<em>Weird West</em>里面的发明家。他想用<em>@Compendium[swade-core-rules.swade-powers.提升/降低特性]{提升特性 }</em>来帮助和巨大响尾蛇战斗的红，但他只会<em>@Compendium[swade-core-rules.swade-powers.爆裂]{爆裂 }</em>和<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发 }</em>这俩奇术。幸运的是加布是一位奇械师，所以他将<em>提升特性 </em>做成了一件“电动生化鼓风机”。这件奇械最多能使用价值3奇术点的奇术，所以他将@Compendium[swade-core-rules.swade-rules.妨碍或加快 (+1)]{加快 }调整添加到了奇术中，以同时让红的@Compendium[swade-core-rules.swade-rules.移动]{移速 }+2。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (奇异科学), 奇异科学d6+"
+        },
+        "Great Luck": {
+            "name": "高等幸运",
+            "description": "<div class=\"swade-core\">\n<p>玩家每回游戏开始时额外获得的@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }从一点变成两点。</p>\n</div>",
+            "requirements": "入门, 幸运"
+        },
+        "Hard To Kill": {
+            "name": "九死一生",
+            "description": "<div class=\"swade-core\">\n<p>这名冒险者的命比九命猫还要硬。进行@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰以避免<strong>@Compendium[swade-core-rules.swade-rules.伤害效果]{失血 }</strong>时可以忽略@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }减值。</p>\n</div>",
+            "requirements": "入门, 心魂d8+"
+        },
+        "Harder To Kill": {
+            "name": "死里逃生",
+            "description": "<div class=\"swade-core\">\n<p>这名家伙比拉斯普京更难杀死。若他真的“被杀”，投1枚骰子。若是奇数，那么角色如常死亡；若是偶数，则是陷入@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }，但免于一死。角色可能会遭到俘虏、被扒光所有东西、被误判为已死，但他终归能活下来。</p>\n</div>",
+            "requirements": "老练, 九死一生"
+        },
+        "Healer": {
+            "name": "治疗师",
+            "description": "<div class=\"swade-core\">\n<p>拥有该专长的角色所有@Compendium[swade-core-rules.swade-rules.恢复]{医疗 }投骰+2，无论其本质是自然还是魔法治疗皆为如此。</p>\n</div>",
+            "requirements": "入门, 心魂d8+"
+        },
+        "Humiliate": {
+            "name": "羞辱",
+            "description": "<div class=\"swade-core\">\n<p>聪明而冷酷的家伙单凭简单的言辞或恰到好处的肢体语言就能摧毁敌人的自尊。角色可以免费重投一次@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄考验 }。</p>\n</div>",
+            "requirements": "入门, 嘲弄d8+"
+        },
+        "Improved Arcane Resistance": {
+            "name": "精通奥法抗性",
+            "description": "<div class=\"swade-core\"><p>魔法和超自然对该人物的影响大大减弱。无论是与生俱来、源自传承、或是历经训练，其对魔法、灵能、奇异科学以及其他超自然能量有着特别的抗性。</p>\n<p>以此角色为目标的奥法技能遭受<strong>-4</strong>减值(即使是盟友施放的也是如此！)，而且魔法伤害也会<strong>-4</strong>。</p></div>",
+            "requirements": "入门, 奥法抗性"
+        },
+        "Improved Block": {
+            "name": "精通招架",
+            "description": "<div class=\"swade-core\">\n<p>角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡 }加值现在是+2，针对其的@Compendium[swade-core-rules.swade-rules.围攻]{围攻 }加值-2。</p>\n</div>",
+            "requirements": "老练, 招架"
+        },
+        "Improved Counterattack": {
+            "name": "精通反击",
+            "description": "<div class=\"swade-core\">\n<p>角色每轮可以至多就三次失手的攻击进行<strong>@Compendium[swade-core-rules.swade-rules.自由攻击]{自由攻击 }&nbsp;</strong>。</p>\n</div>",
+            "requirements": "老练, 反击"
+        },
+        "Improved Extraction": {
+            "name": "精通脱身",
+            "description": "<div class=\"swade-core\">\n<p>至多三名敌人(由玩家选择)无法因角色移动@Compendium[swade-core-rules.swade-rules.撤出近战]{撤出近战 }而对其进行自由攻击。</p>\n</div>",
+            "requirements": "行家, 脱身"
+        },
+        "Improved First Strike": {
+            "name": "精通先发制人",
+            "description": "<div class=\"swade-core\">\n<p>每轮一次，只要角色未遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }或@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }，则可以在至多三名敌人移动进入@Compendium[swade-core-rules.swade-rules.触及]{触及 }后立刻向对方进行一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }自由攻击(见<strong> @Compendium[swade-core-rules.swade-rules.自由攻击]{自由攻击 }</strong>)</p>\n</div>",
+            "requirements": "英杰, 先发制人"
+        },
+        "Improved Frenzy": {
+            "name": "精通连击",
+            "description": "<div class=\"swade-core\">\n<p>这名战士同一回合内可以在至多两次格斗攻击中投出额外的@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }骰。</p>\n<h2>例子</h2>\n<p>红在外星球上绝望地对螃蟹般的巨型生物进行攻击。拥有精通连击专长的她决定攻击三次(带有常规减值的@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 })。她进行格斗技能投骰，并在第一次和第二次攻击上各投了一枚额外的骰子。她的第三次格斗投骰不会获得额外的骰子。</p>\n</div>",
+            "requirements": "老练, 连击"
+        },
+        "Improved Level Headed": {
+            "name": "精通沉稳冷静",
+            "description": "<div class=\"swade-core\">\n<p>在其他人匆忙奔向@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩护 }的时候还能保持冷静的家伙才会成为致命的战士，具备该专长的角色进入战斗时额外抽<strong>两</strong>张@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }并从中任选一张加以使用。</p>\n</div>",
+            "requirements": "行家, 沉稳冷静"
+        },
+        "Improved Nerves of Steel": {
+            "name": "精通钢铁神经",
+            "description": "<div class=\"swade-core\">\n<p>角色可以忽略2点@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }减值。</p>\n</div>",
+            "requirements": "入门, 钢铁神经"
+        },
+        "Improved Rapid Fire": {
+            "name": "精通速射",
+            "description": "<div class=\"swade-core\">\n<p>这名射手同一回合内可以两次让武器的@Compendium[swade-core-rules.swade-rules.射速]{射速 }+1(通过@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 })。</p>\n<h2>例子</h2>\n<p>具备精通速射的加布用机枪攻击。该武器射速是4，加布选择将所有三个可用动作全用于进行射击(见多重动作)。</p>\n<p>他第一次和第二次攻击都额外投了1枚@Compendium[swade-core-rules.swade-skills.射击]{射击 }骰，这两次的武器射速都增加到了5。第三次攻击不会获得好处——这次机枪的射速还是4。</p>\n</div>",
+            "requirements": "老练, 精通速射"
+        },
+        "Master of Arms": {
+            "requirements": "传奇, 武器大师",
+            "name": "武器宗师",
+            "description": "<div class=\"swade-core\">\n<p>角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡 }额外再+1，@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }奖励伤害骰现在达到d10。</p>\n</div>"
+        },
+        "McGyver": {
+            "name": "巧手先生",
+            "description": "<div class=\"swade-core\">\n<p>巧手先生能在需要时以常见资源临时制作装置。只要给一些简单的物品，角色就能进行一次@Compendium[swade-core-rules.swade-skills.修理]{修理 }投骰来制造一件临时武器、爆炸物或工具，其能持续到被使用或遭遇结束(GM决定)为止。这需要一整个回合，进行制作时不能移动或是进行任何其它动作。</p>\n<p>失败意味着装置没能完成，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着没有正确的素材，本次遭遇中无法再制作装置。</p>\n<p>成功则能制作一件次级爆炸物(2d4爆炸@Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆散盖板 })、一件比如“垃圾枪”(@Compendium[swade-core-rules.swade-rules.射程]{射程 }5/10/20，2d6伤害)这样的一次性投射武器、不结实的木筏、电源等等。</p>\n<p>优良则能制造出更大的爆炸物(2d6中型爆散盖板或2d4大型爆散盖板)、更好的远程武器(五发弹药，2d8伤害，射程10/20/40)、更结实的木筏、更强力的电池等等。</p>\n<p>造物的质量和能力完全取决于GM，但创意应得到奖励，在最为危急和戏剧化情景时尤为如此。</p>\n</div>",
+            "requirements": "入门, 聪慧d6+, 察觉d8+, 修理d6+"
+        },
+        "Improved Rapid Recharge": {
+            "name": "精通快速充能",
+            "description": "<div class=\"swade-core\">\n<p>角色现在每@Compendium[swade-core-rules.swade-rules.启动]{休息 }1小时就可以充能20点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }。</p>\n</div>",
+            "requirements": "老练, 快速充能"
+        },
+        "Improved Sweep": {
+            "name": "精通横扫",
+            "description": "<div class=\"swade-core\">\n<p>精通横扫让角色能进行一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击，并应用到@Compendium[swade-core-rules.swade-rules.触及]{触及 }内所有目标上(敌友不分)，命中每个敌人的伤害单独结算。</p>\n<p>角色每回合只能执行一次横扫，这不能和@Compendium[swade-core-rules.swade-edges.连击]{连击 }组合使用。 <br/></p>\n</div>",
+            "requirements": "老练, 横扫"
+        },
+        "Improved Trademark Weapon": {
+            "name": "精通招牌武器",
+            "description": "<div class=\"swade-core\">\n<p>这名角色对一件独有武器如臂指使(譬如亚瑟王的湖中剑、大卫·克洛科特的爱枪老贝西、比尔博的刺针剑)。使用此武器时，@Compendium[swade-core-rules.swade-skills.运动]{运动 }(投掷)、@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }或@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰获得<strong>+2</strong>，并且在预备完毕时(即便是远程武器)还能让@Compendium[swade-core-rules.swade-rules.角色]{格挡 }获得<strong>+2</strong>。</p>\n<p>角色可以多次选择该专长，每次都要应用到不同的武器上。若招牌武器遗失，角色可以更换一把，但数天内不会有所好处(或是由GM根据剧情决定一个合适的时长)。</p>\n</div>",
+            "requirements": "行家, 招牌武器"
+        },
+        "Inspire": {
+            "name": "激励",
+            "description": "<div class=\"swade-core\">\n<p>杰出的领队能给予周遭成员过人的勇气和坚定的决心。每回合一次，他可以投骰@Compendium[swade-core-rules.swade-skills.作战]{作战 }技能来@Compendium[swade-core-rules.swade-rules.援助]{援助 }一项@Compendium[swade-core-rules.swade-rules.特性]{特性 }投骰，并应用到@Compendium[swade-core-rules.swade-rules.专长]{指挥射程 }内的所有@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{龙套 }盟友身上。举例而言，领队可以援助范围内的所有@Compendium[swade-core-rules.swade-skills.射击]{射击 }攻击，或是所有从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复的@Compendium[swade-core-rules.swade-rules.特性]{心魂 }投骰。</p>\n<p>激励是一个@Compendium[swade-core-rules.swade-rules.动作]{动作 }，并且需要与对象进行一些交流才能生效。</p>\n<div class=\"swade-core\"><img src=\"modules/swade-core-rules/assets/art/pg45_quote_edges.webp\" alt=\"&quot;One of my favorites&quot; -- Gabe\" width=\"534\" height=\"120\" /></div>\n</div>",
+            "requirements": "行家, 指挥"
+        },
+        "Investigator": {
+            "name": "调查员",
+            "description": "<div class=\"swade-core\">\n<p>调查员花了大量时间研究古代传说、街头工作或推理可怕的谜团。其中一些是私家侦探，一些是在奇幻世界里的法师探员，一些则是好奇的大学教授——其偶尔发现了某些凡人不应知晓的事物。</p>\n<p>调查员在写字台上研究重要文件，在一大堆垃圾邮件中翻找出特定笔记，和在一大堆垃圾及残骸中搜寻物品时的@Compendium[swade-core-rules.swade-skills.调查]{调查 }和@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }投骰+2。</p>\n</div>",
+            "requirements": "入门, 聪慧d8+, 调查d8+"
+        },
+        "Iron Will": {
+            "name": "钢铁意志",
+            "description": "<div class=\"swade-core\">\n<p>角色现在能将@Compendium[swade-core-rules.swade-edges.坚强意志]{坚强意志 }的加值用于抵抗奇术效果。钢铁意志不与@Compendium[swade-core-rules.swade-edges.勇敢]{勇敢 }专长叠加，也不会应用到奇术导致的后续投骰上(比如因伤害性@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }、@Compendium[swade-core-rules.swade-powers.恐惧]{恐惧 }或类似状况而遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 })。</p>\n</div>",
+            "requirements": "行家, 勇敢, 坚强意志"
+        },
+        "Killer Instinct": {
+            "name": "杀手直觉",
+            "description": "<div class=\"swade-core\"><p>这名角色厌恶失败，发起的任何对抗@Compendium[swade-core-rules.swade-rules.考验]{考验 }都能免费获得一次重投。 </p></div>",
+            "requirements": "行家"
+        },
+        "Level Headed": {
+            "name": "沉稳冷静",
+            "description": "<div class=\"swade-core\">\n<p>在其他人匆忙奔向@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩护 }的时候还能保持冷静的家伙才会成为致命的战士，具备该专长的角色进入战斗时额外抽一张@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }并从中任选一张加以使用。</p>\n</div>",
+            "requirements": "行家, 聪慧d8+"
+        },
+        "Linguist": {
+            "name": "语言学家",
+            "description": "<div class=\"swade-core\">\n<p>有语言天赋的家伙才能走遍世界。角色开始游戏时掌握等同@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }骰子类型一半数量的不同语言技能，其骰子类型均为d6(见@Compendium[swade-core-rules.swade-skills.语言]{语言 }技能)。</p>\n</div>",
+            "requirements": "入门, 聪慧d6+"
+        },
+        "Master": {
+            "name": "大师水准",
+            "description": "<div class=\"swade-core\"><p>角色在投所选@Compendium[swade-core-rules.swade-edges.专家水准]{专家水准 }特性时的不羁骰增长为d10。</p></div>",
+            "requirements": "不羁角色, 传奇, 对应特性的专家水准"
+        },
+        "Master Tactician": {
+            "name": "战术大师",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-edges.战术家]{战术家 }现在每轮一共能额外获得2张可以分配的@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }。</p>\n</div>",
+            "requirements": "老练, 战术家"
+        },
+        "Menacing": {
+            "name": "凶神恶煞",
+            "description": "<div class=\"swade-core\">\n<p>若懂得如何利用，粗鄙野蛮也不总是坏事。凶神恶煞能让角色好好发挥自己的糟糕外表或是差劲态度，这货的@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }投骰+2。</p>\n</div>",
+            "requirements": "入门, 下列负赘之一：嗜血、刻薄、无情、丑陋"
+        },
+        "Mentalist": {
+            "name": "控心师",
+            "description": "<div class=\"swade-core\">\n<p>不断与多个心灵的接触让这些灵能者善于发起或抵抗心灵攻击。</p>\n<p>无论是针对敌人使用奇术还是抵抗对手，控心者的@Compendium[swade-core-rules.swade-skills.灵能]{灵能 }对抗投骰均+2。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (灵能), 灵能d6+"
+        },
+        "Mighty Blow": {
+            "name": "强力一击",
+            "description": "<div class=\"swade-core\"><p>行动卡是鬼牌时，该轮第一次成功的@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击造成的伤害翻倍。 </p></div>",
+            "requirements": "不羁角色, 入门, 格斗d8+"
+        },
+        "Mr. Fix It": {
+            "name": "修理先生",
+            "description": "<div class=\"swade-core\">\n<p>角色@Compendium[swade-core-rules.swade-skills.修理]{修理 }投骰+2。若出现优良，则修理东西的时间为正常所需的一半。这意味着如果特定修理任务已经有说明优良能让耗时减半，那么修理先生出现优良时则只需要四分之一的时间就能完成工作。</p>\n</div>",
+            "requirements": "入门, 修理d8+"
+        },
+        "Natural Leader": {
+            "name": "天生领袖",
+            "description": "<div class=\"swade-core\">\n<p>这名领袖已经多次证明了自己，并获得了战友们的一致认可。</p>\n<p>所有写着只对@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{龙套 }有效的领导力专长现在对@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{不羁角色 }同样有效。</p>\n</div>",
+            "requirements": "行家, 心魂d8+, 指挥"
+        },
+        "Nerves of Steel": {
+            "name": "钢铁神经",
+            "description": "<div class=\"swade-core\">\n<p>角色学会了如何在剧痛下作战，忽略1点@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }减值。</p>\n</div>",
+            "requirements": "入门, 活力d8+"
+        },
+        "New Powers": {
+            "name": "新奇术",
+            "description": "<div class=\"swade-core\">\n<p>奥法角色可以通过选取这个专长来习得两个新@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }(该专长可以多次选择)，选择的奇术必须在对应@Compendium[swade-core-rules.swade-rules.奥法背景]{奥法背景 }的可选范围之内，而且要等于或低于其@Compendium[swade-core-rules.swade-rules.升级]{位阶 }。</p>\n<p>角色可以将获取一个新奇术换成给某一已有奇术添加一个新@Compendium[swade-core-rules.swade-rules.特效]{特效 }。举例而言，可以给现有的火焰<em>@Compendium[swade-core-rules.swade-powers.矢箭]{矢箭 }</em>添加冰特效，这样角色就能在火焰和寒冰特效中自由地来回切换。</p>\n</div>",
+            "requirements": "入门, 奥法背景 (任意)"
+        },
+        "No Mercy": {
+            "name": "毫不留情",
+            "description": "<div class=\"swade-core\">\n<p>这名杀手使用@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }重投伤害时，最终总值获得+2。</p>\n</div>",
+            "requirements": "行家"
+        },
+        "Power Points": {
+            "name": "获得奇术点",
+            "description": "<div class=\"swade-core\">\n<p>法师、奇异科学家和其它类型的奥法角色总是索求更多力量，这个专长能让其额外获得5点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }。 </p>\n<p>获得奇术点专长可以多次选择，但是每位阶内仅限一次。抵达传奇@Compendium[swade-core-rules.swade-rules.升级]{位阶 }后能随意选取，但每次只会额外给2点奇术点。</p>\n</div>",
+            "requirements": "入门, 奥法背景 (任意)"
+        },
+        "Power Surge": {
+            "name": "能量涌动",
+            "description": "<div class=\"swade-core\">\n<p>角色的@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }是鬼牌时就能恢复10点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }，这不会让奇术点超过通常上限。</p>\n</div>",
+            "requirements": "不羁角色, 入门, 奥法背景 (任意), 奥法技能d8+"
+        },
+        "Professional": {
+            "name": "专业水准",
+            "description": "<div class=\"swade-core\">\n<p>角色在对应技能或属性(自选)上成为了一名专家，这能让此@Compendium[swade-core-rules.swade-rules.特性]{特性 }及其上限增长一级(举例而言，d12+1会变成d12+2)。该专长只能就每一项特性选取一次。</p>\n</div>",
+            "requirements": "传奇, 对应特性的骰子类型达到上限"
+        },
+        "Provoke": {
+            "description": "<div class=\"swade-core\">\n<p>精明的角色能够操纵敌人，让对方把注意力放在自己身上以保护盟友。每回合一次，当人物用@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄 }技能进行@Compendium[swade-core-rules.swade-rules.考验]{考验 }并且获得优良时，就可以选择激怒敌人。</p>\n<p>除去所有成功和优良的通常效果以外，敌人在影响其他并非激怒自己的目标时遭受-2减值。这个减值和@Compendium[swade-core-rules.swade-rules.分神与脆弱]{分神 }叠加，但不会因多次激怒而叠加。</p>\n<p>激怒一直持续到抽出鬼牌、他人激怒了该目标或遭遇结束为止。激怒能够影响复数目标，也能和<strong>@Compendium[swade-core-rules.swade-edges.煽风点火]{煽风点火 }</strong>组合使用。</p>\n</div>",
+            "name": "激怒",
+            "requirements": "入门, 嘲弄d6+"
+        },
+        "Quick": {
+            "name": "迅捷",
+            "description": "<div class=\"swade-core\">\n<p>迅捷的角色有着闪电般的反射和冷静的头脑。当获得一张为5或更小的@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }时，可以将其弃掉然后重抽一张，直到获得大于5的行动卡为止。</p>\n<p>同时具备@Compendium[swade-core-rules.swade-edges.沉稳冷静]{沉稳冷静 }和迅捷这两个专长的@Compendium[swade-core-rules.swade-rules.角色]{角色 }首先抽取额外的行动卡，并且选择使用其中一张，若所选的卡小于等于5，就能用迅捷专长进行重抽，直到替换卡大于等于6为止。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
+        },
+        "Rabble-Rouser": {
+            "description": "<div class=\"swade-core\">\n<p>这名煽动者知晓如何一次性让数名敌人心浮气躁。</p>\n<p>每回合一次，拥有该专长的角色能以@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }或@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄 }对@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }内的所有敌人进行一次社交@Compendium[swade-core-rules.swade-rules.考验]{考验 }。目标必须能清楚地看到和听见该角色。各个防御方单独结算抵抗和影响。</p>\n</div>",
+            "requirements": "行家, 心魂d8+",
+            "name": "煽风点火"
+        },
+        "Rapid Fire": {
+            "name": "速射",
+            "description": "<div class=\"swade-core\">\n<p>这名射手练习过快速而准确地射击。若角色装备有某种能快速射击的远程武器(诸如转轮手枪或半自动枪)并且拥有足够的弹药，该回合内可以让任一次@Compendium[swade-core-rules.swade-skills.射击]{射击 }攻击中的武器@Compendium[swade-core-rules.swade-rules.射速]{射速 }+1。</p>\n</div>",
+            "requirements": "行家, 射击d6+"
+        },
+        "Rich": {
+            "description": "<div class=\"swade-core\">\n<p>无论是出生富贵还是经历了艰辛的工作，这名角色比起大多数人拥有更多财富。</p>\n<p>富裕角色的@Compendium[swade-core-rules.swade-rules.角色]{起始资金 }为设定中正常起始资金的三倍。若设定中可以提供稳定收入，该角色薪水相当于现代$150,000年薪。</p>\n</div>",
+            "requirements": "入门",
+            "name": "富裕"
+        },
+        "Rock and Roll!": {
+            "name": "激情四射",
+            "description": "<div class=\"swade-core\">\n<p>有经验的射手知道如何应对全自动武器的后坐力。具有该专长的角色若在自己回合没有移动，他就能在以2或更高的@Compendium[swade-core-rules.swade-rules.射速]{射速 }射击时忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力 }减值。</p>\n</div>",
+            "requirements": "行家, 射击d8+"
+        },
+        "Scavenger": {
+            "name": "破烂王",
+            "description": "<div class=\"swade-core\">\n<p>每遭遇一次，这名人物能发现、“蓦然”想起或找出一些急需的装备部件、一把弹药或其它有用的装置。</p>\n<p>GM决定怎样算作一次遭遇，并且能裁定可以找到什么以及无法找到什么。</p>\n</div>",
+            "requirements": "入门, 幸运"
+        },
+        "Scholar": {
+            "name": "学者",
+            "description": "<div class=\"swade-core\">\n<p>博学的教授、刻苦的学生和业余爱好者能花费大量的时间和精力去钻研特定科目，身为对应领域专家的他们在擅长的范围内几乎没有回答不出的问题。</p>\n<p>在下列技能中选择其一：@Compendium[swade-core-rules.swade-skills.人文]{人文 }、@Compendium[swade-core-rules.swade-skills.作战]{作战 }、@Compendium[swade-core-rules.swade-skills.神秘学]{神秘学 }、@Compendium[swade-core-rules.swade-skills.科学]{科学 }或游戏中可用且基于@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }的任一“知识”类技能，使用此技能时总值+2</p>\n<p>这个专长可以多次选取，每次都需要针对不同的技能。</p>\n</div>",
+            "requirements": "入门, 调查d8+"
+        },
+        "Sidekick": {
+            "name": "助手",
+            "description": "<div class=\"swade-core\">\n<p>一次又一次地成功战胜邪恶的角色会成为其他人眼中的偶像。最终，这些年轻狂热者中的一员会尝试加入英雄的史诗任务当中。</p>\n<p>角色获得一名@Compendium[swade-core-rules.swade-rules.升级]{入门位阶 }的助手。助手是@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{不羁角色 }，每回游戏开始时有两点@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }，能够@Compendium[swade-core-rules.swade-rules.升级]{升级 }，具有和其导师互为补足的能力。玩家就和控制其他盟友一样控制助手，不过对方偶尔会惹麻烦—􍄔诸如被俘、闯入不应涉足的危险当中等等。玩家应当时刻做好准备，因为这个专长偶尔会变成负赘！</p>\n<p>若助手死亡，除非角色再次选取这个专长，否则不会有人前来接替。幸运的是，角色总是可以如同本身具有@Compendium[swade-core-rules.swade-edges.共同联结]{共同联结 }专长那般为自己的助手使用助力点。不过助手得要实际选取了这个专长才能对导师做同样的事情。</p>\n</div>",
+            "requirements": "不羁角色, 传奇"
+        },
+        "Soul Drain": {
+            "name": "饮魂汲魄",
+            "description": "<div class=\"swade-core\">\n<p>走投无路时就要放手一搏。饮魂汲魄让奥法角色可以将肉体能量转换为奇术之力，其能通过遭受1级的@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏 }来恢复至多5点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }。他可以选择额外遭受一级疲乏(至@Compendium[swade-core-rules.swade-rules.疲乏]{力竭 })额外再恢复5点奇术点，但不能用以此让自己陷入@Compendium[swade-core-rules.swade-rules.疲乏]{无力化 }。</p>\n<p>饮魂汲魄造成的疲乏来自内在深处，这只能自然恢复。<em>@Compendium[swade-core-rules.swade-powers.缓和]{缓和 }</em>奇术和类似能力对此没有效果。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (任意), 奥法技能d10+"
+        },
+        "Steady Hands": {
+            "name": "手稳",
+            "description": "<div class=\"swade-core\">\n<p>在马背或是移动的车顶上开火是一门学问，但这名冒险者已经摸到了窍门，其忽略@Compendium[swade-core-rules.swade-rules.不稳平台]{不稳平台 }减值。</p>\n<p>这在奔跑时同样有所帮助，通常的减值从-2降至-1(见@Compendium[swade-core-rules.swade-rules.移动]{移动 })。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
+        },
+        "Streetwise": {
+            "name": "市井门道",
+            "description": "<div class=\"swade-core\">\n<p>拥有市井门道的角色知道如何找到当地黑市、进行销赃、规避当地法律(或是犯罪分子！)、风头正盛时保持低调、获得违法武器、找出哪个“大佬”在招打手等类似的可疑勾当。</p>\n<p>具备市井门道的角色在和可疑对象与犯罪分子进行@Compendium[swade-core-rules.swade-rules.打点关系]{打点关系 }的@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }和@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }投骰+2，同时与上述阴暗勾当相关的@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识 }投骰+2。</p>\n</div>",
+            "requirements": "入门, 聪慧d6+"
+        },
+        "Sweep": {
+            "description": "<div class=\"swade-core\">\n<p>横扫让角色能进行一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击，并以<strong>-2</strong>减值应用到@Compendium[swade-core-rules.swade-rules.触及]{触及 }内所有目标上(敌友不分)，命中每个敌人的伤害单独结算。</p>\n<p>角色每回合只能执行一次横扫，这不能和@Compendium[swade-core-rules.swade-edges.连击]{连击 }组合使用。</p>\n</div>",
+            "requirements": "入门, 力量d8+",
+            "name": "横扫"
+        },
+        "Tactician": {
+            "name": "战术家",
+            "description": "<div class=\"swade-core\">\n<p>这名指挥官对于小队战术胸有成竹，可以在瞬息万变的战场中相机而动。</p>\n<p>战术家在战斗或追逐的每一轮里都能额外抽取1张@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }，这要与其自己的卡分开处理。在每轮开始，他可以弃掉这张卡或将其交给一名@Compendium[swade-core-rules.swade-rules.专长]{指挥射程 }内的@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{龙套 }盟友。玩家或GM操控的接收方角色可以选择接受并更换掉自己当前的行动卡，否则就要将其舍弃。</p>\n</div>",
+            "requirements": "行家, 聪慧d8+, 指挥, 作战d6+"
+        },
+        "Thief": {
+            "name": "盗贼",
+            "description": "<div class=\"swade-core\">\n<p>精于欺诈、背叛和特技的盗贼在侦察陷阱、爬墙和开锁缺一不可的场合里是无价之宝。</p>\n<p>盗贼知晓如何利用墙上的突起和窗沿来攀爬最高的建筑物，并像猫一样在大街小巷中奔跑疾走，城市区域中用于攀爬的@Compendium[swade-core-rules.swade-skills.运动]{运动 }投骰+1。</p>\n<p>盗贼知晓如何利用城市街灯之间的阴影来隐藏自己的行动，城市环境中的@Compendium[swade-core-rules.swade-skills.潜行]{潜行 }投骰+1。</p>\n<p>最后，毫无疑问，这些角色精于贼活，所有环境下的@Compendium[swade-core-rules.swade-skills.贼活]{贼活 }投骰+1。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+, 潜行d6+, 贼活d6+"
+        },
+        "Tough As Nails": {
+            "name": "比铁还硬",
+            "description": "<div class=\"swade-core\">\n<p>就算他人已经倒下，角色也能坚持下去，其在@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }前能承受四个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }(损伤减值上限依然是-3)。</p>\n</div>",
+            "requirements": "传奇, 活力d8+"
+        },
+        "Tougher Than Nails": {
+            "name": "比钢还强",
+            "description": "<div class=\"swade-core\">\n<p>角色能在@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }前承受五个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }！最大损伤减值依然是-3。</p>\n</div>",
+            "requirements": "传奇, 比铁还硬, 活力d12+"
+        },
+        "Trademark Weapon": {
+            "name": "招牌武器",
+            "description": "<div class=\"swade-core\">\n<p>这名角色对一件独有武器如臂指使(譬如亚瑟王的湖中剑、大卫·克洛科特的爱枪老贝西、比尔博的刺针剑)。使用此武器时，@Compendium[swade-core-rules.swade-skills.运动]{运动 }(投掷)、@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }或@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰获得+1，并且在预备完毕时(即便是远程武器)还能让@Compendium[swade-core-rules.swade-rules.角色]{格挡 }获得+1。</p>\n<p>角色可以多次选择该专长，每次都要应用到不同的武器上。若招牌武器遗失，角色可以更换一把，但数天内不会有所好处(或是由GM根据剧情决定一个合适的时长)。</p>\n</div>",
+            "requirements": "入门, 所选武器技能d8+"
+        },
+        "Two-Fisted": {
+            "name": "左右连环",
+            "description": "<div class=\"swade-core\">\n<p>若角色以一个动作进行@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击，后面又以一个动作用另一只手进行格斗攻击，则第二次攻击不会招致@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 }减值。除非角色具有@Compendium[swade-core-rules.swade-edges.双巧手]{双巧手 }，否则<strong>@Compendium[swade-core-rules.swade-rules.副手攻击]{副手 }</strong>减值依然生效。</p>\n<p>若角色具有@Compendium[swade-core-rules.swade-edges.双枪小子]{双枪小子 }，第二个动作则可以进行远程攻击。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
+        },
+        "Very Attractive": {
+            "name": "魅力非凡",
+            "description": "<div class=\"swade-core\">\n<p>这名角色真是迷死人了，@Compendium[swade-core-rules.swade-skills.表演]{表演 }和@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }加值上升至+2。</p>\n</div>",
+            "requirements": "入门, 魅力惊人"
+        },
+        "Weapon Master": {
+            "name": "武器大师",
+            "description": "<div class=\"swade-core\">\n<p>这名战士的@Compendium[swade-core-rules.swade-rules.角色]{格挡 }+1，而且@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }投骰的奖励伤害骰从d6变成d8(见<strong>@Compendium[swade-core-rules.swade-rules.造成伤害]{奖励伤害 }</strong>)。角色必须具有武装才能获得这些好处，但这也包括了@Compendium[swade-core-rules.swade-edges.武术家]{武术家 }专长、@Compendium[swade-core-rules.swade-rules.特殊能力 (爪抓)]{爪抓 }、或是其它可视为武器的能力。</p>\n</div>",
+            "requirements": "传奇, 格斗d12+"
+        },
+        "Wizard": {
+            "name": "奇才",
+            "description": "<div class=\"swade-core\">\n<p>魔法千般百样，玄妙神奇，而徜徉在无尽书册、卷轴和符咒之中的奇才对自己的技艺可谓得心应手，有时其能从这些知识中召来变化万千的魔法。</p>\n<p>奇才可以在施展奇术时额外消耗1点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }改变奇术的@Compendium[swade-core-rules.swade-rules.特效]{特效 }。举例而言，火球(<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发 }</em>)可以塑造成闪电霹雳。若敌人对法术的通常特效具有特别的抗性或弱点，这个能力往往就会发挥重大作用。</p>\n</div>",
+            "requirements": "行家, 奥法背景 (魔法), 施法d6+"
+        },
+        "Woodsman": {
+            "name": "守林人",
+            "description": "<div class=\"swade-core\">\n<p>守林人是在荒野中比起城市里要更为自在的游侠、斥候和猎人，精于追踪和侦查，知晓如何靠山吃山连续生活数个月。</p>\n<p>守林人的@Compendium[swade-core-rules.swade-skills.生存]{生存 }投骰以及在荒野中(不属于城市、废墟或地下)的@Compendium[swade-core-rules.swade-skills.潜行]{潜行 }投骰+2。</p>\n</div>",
+            "requirements": "入门, 心魂d6+, 生存d8+"
+        },
+        "Work The Room": {
+            "name": "推波助浪",
+            "description": "<div class=\"swade-core\">\n<p>角色的话语不仅能激励指向的对象，还能鼓舞其他听众。每回合一次，角色在以@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }或@Compendium[swade-core-rules.swade-skills.表演]{表演 }进行@Compendium[swade-core-rules.swade-rules.援助]{援助 }时，可使用该专长额外投1枚技能骰。这枚额外的骰子可援助其他任一能看到或听见角色的盟友，并应用到对方下一个动作上(无论这会是什么动作)。</p>\n</div>",
+            "requirements": "入门, 心魂d8+"
+        },
+        "Work the Crowd": {
+            "name": "推波助澜",
+            "description": "<div class=\"swade-core\">\n<p>如同@Compendium[swade-core-rules.swade-edges.推波助浪]{推波助浪 }，但角色现在@Compendium[swade-core-rules.swade-rules.援助]{援助 }另一对象的援助动作至多可达两个。</p>\n</div>",
+            "requirements": "行家, 推波助浪"
+        },
+        "Rapid Recharge": {
+            "name": "快速充能",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }恢复的通常速度为每休息1小时充能5点(见<strong>@Compendium[swade-core-rules.swade-rules.启动]{充能 }</strong>)，这个专长让恢复速度达到每小时10点。</p>\n</div>",
+            "requirements": "行家, 心魂d6+, 奥法背景 (任意)"
+        },
+        "Reliable": {
+            "name": "可靠",
+            "description": "<div class=\"swade-core\"><p>大家清楚在自己需要帮助时可以依靠这名角色，其任意@Compendium[swade-core-rules.swade-rules.援助]{援助 }投骰免费获得一次重投。 </p></div>",
+            "requirements": "入门, 心魂d8+"
+        },
+        "Retort": {
+            "name": "反驳",
+            "description": "<div class=\"swade-core\">\n<p>这名善于舌战的辩论者能在傻瓜们反应过来之前就把他们的唇枪舌剑原数奉还。</p>\n<p>拥有该专长的角色在抵抗@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }或@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄 }@Compendium[swade-core-rules.swade-rules.考验]{考验 }时若是取得优良，则对方就会陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{分神 }。</p>\n</div>",
+            "requirements": "入门, 嘲弄d6+"
+        },
+        "Strong Willed": {
+            "name": "坚强意志",
+            "description": "<div class=\"swade-core\">\n<p>人物的意志遭受攻击时，自信乃是予以抵抗的强力护甲，抵抗以@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }和@Compendium[swade-core-rules.swade-rules.特性]{心魂 }进行的@Compendium[swade-core-rules.swade-rules.考验]{考验 }时总值+2。</p>\n</div>",
+            "requirements": "入门, 心魂d8+"
+        },
+        "Two-Gun Kid": {
+            "name": "双枪小子",
+            "description": "<div class=\"swade-core\">\n<p>双枪小子和@Compendium[swade-core-rules.swade-edges.左右连环]{左右连环 }效果相仿，但只针对远程武器。角色在通过两个不同的动作两手各自开火或投掷武器时不触发@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 }减值。</p>\n<p>若角色具有左右连环专长，则第二个动作可以进行近战攻击。</p>\n<h2>例子</h2>\n<p>红一手持剑一手拿手枪。她同时拥有左右连环和双枪小子专长，因此她可以用一个动作进行@Compendium[swade-core-rules.swade-skills.格斗]{格斗 }攻击后，在以该回合内的下一个动作进行第二次格斗攻击或@Compendium[swade-core-rules.swade-skills.射击]{射击 }攻击时免受@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 }减值。</p>\n</div>",
+            "requirements": "入门, 灵巧d8+"
         }
-    }
+    },
+    "label": "SWADE专长"
 }
