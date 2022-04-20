@@ -26,7 +26,7 @@
             "name": "大嘴巴"
         },
         "Blind": {
-            "name": "目盲",
+            "name": "致盲",
             "description": "<div class=\"swade-core\">\n<p>这名人物完全无法视物，所有需要视觉的外在行动(GM判断)遭受-6。另一方面，目盲角色可以免费自选获得一个@Compendium[swade-core-rules.swade-rules.专长]{专长 }，以此弥补这个特别棘手的@Compendium[swade-core-rules.swade-rules.负赘]{负赘 }。</p>\n</div>"
         },
         "Bloodthirsty": {
