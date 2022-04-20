@@ -46,7 +46,7 @@
         },
         "Healing": {
             "description": "<div class=\"swade-core\">\n<p>医疗用途多样，从处理@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }、诊断疾病到分析特定种类的法医证据不一而足。</p>\n<p>参见@Compendium[swade-core-rules.swade-rules.医疗]{恢复 }中修复和处理@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }的规则，以及@Compendium[swade-core-rules.swade-rules.危难]{危难 }中治疗疾病和中毒的规则。</p>\n<p><strong>取证：</strong>医疗同样可以用于分析与解剖学上的伤创所相关的证据，这包括死因、死亡时间以及攻击角度等类似内容。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }可以获取基本信息，而出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }则会知晓更多未经掩盖的细节。</p>\n</div>",
-            "name": "医疗"
+            "name": "恢复"
         },
         "Intimidation": {
             "name": "威吓",
