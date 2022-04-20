@@ -1,1 +1,184 @@
-{}
+{
+    "label": "SWADE怪物图鉴",
+    "mapping": {
+        "biography": "data.details.biography.value"
+    },
+    "entries": {
+        "Alligator/Crocodile": {
+            "name": "鳄鱼/短吻鳄",
+            "biography": "<div class=\"swade-core\">\n<p>鳄鱼与短吻鳄是大多数沼地类冒险的常客，以下数据代表了这两种常见的鳄鱼样例。在一些偏远的地区时而会有体型更大的种类。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖 }：</strong>@Compendium[swade-core-rules.swade-rules.移动]{移速 }5。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }2：</strong>通常鳄鱼有12英尺长，皮糙肉厚，重量差不多在500磅左右。</li>\n</ul>\n</div>"
+        },
+        "Bear": {
+            "name": "熊",
+            "biography": "<div class=\"swade-core\">\n<p>这个条目涵盖了较大的熊类，如灰熊、科迪亚克岛棕熊和北极熊。这些熊的偏好战法是抓住猎物，并以锐利的尖牙进行撕咬。</p>\n<strong>特殊能力：</strong>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }2：</strong>这些生物站起来高度可达8英尺，重量超过1000磅。</li>\n</ul>\n</div>"
+        },
+        "Bull": {
+            "name": "公牛",
+            "biography": "<div class=\"swade-core\">\n<p>公牛只有在被激怒时才会对人类有攻击性，当然，如果你已经需要在这里查数据，那就说明很可能它已经火冒三丈了。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }3：</strong>大多数公牛体重差不多有整整1吨。</li>\n</ul>\n<p>&nbsp;</p>\n</div>"
+        },
+        "Cat, Small": {
+            "name": "小猫",
+            "biography": "<div class=\"swade-core\">\n<p>这是普通的家猫，其可以作为施法者的魔宠，@Compendium[swade-core-rules.swade-edges.野兽大师]{野兽大师 }的动物伙伴或者是<em>@Compendium[swade-core-rules.swade-powers.化形]{化形 }</em>奇术的一种变化形态。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (微光视觉)]{微光视觉 }：</strong>猫忽略昏暗与黑暗的@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }&minus;3 (超小型)：</strong>猫通常不到一英尺高。</li>\n</ul>\n</div>"
+        },
+        "Dire Wolf": {
+            "name": "凶暴狼",
+            "biography": "<div class=\"swade-core\">\n<p>兽人经常将凶暴狼这种凶猛的大型犬类用作攻击犬，其也可能会在黑暗森林的最深处成群结队地游荡。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>疾速：</strong>d10 @Compendium[swade-core-rules.swade-rules.移动]{奔跑骰 }。</li>\n</ul>\n</div>"
+        },
+        "Dog / Wolf": {
+            "name": "狗/狼",
+            "biography": "<div class=\"swade-core\">\n<p>大型攻击犬的数值见下，这包括罗威纳犬或杜宾犬，以及狼和鬣狗等等。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }&minus;1：</strong>这些犬类的头领能长到和普通人类的腰部一样粗壮，它们重约60磅。</li>\n<li><strong>疾速：</strong>d10 @Compendium[swade-core-rules.swade-rules.移动]{奔跑骰 }。</li>\n</ul>\n</div>"
+        },
+        "Dragon": {
+            "name": "龙",
+            "biography": "<div class=\"swade-core\">\n<p>龙是口吐火焰的怪物，其会给惨遭蹂躏的村庄带来毁灭和绝望。这种生物难以被打败，即使是对一队经验丰富的冒险者而言，其也是实打实的强敌。这些野兽颇为狡猾，它们会利用自身一切优势来对付那些妄想屠龙的家伙。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧 }(&minus;2)：</strong>任何看到巨龙的角色都必须进行一次-2的恐惧检定。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (飞行)]{飞行 }：</strong>龙能以24英寸的移速飞行。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (顽强)]{顽强 }：</strong>这种生物不会因为第二次遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }而受到损伤。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }8 (超大型)：</strong>龙是巨大的生物，从头到尾超过40英尺长，体重超过30,000磅。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (猛击)]{猛击 }：</strong>龙在用爪子攻击时最多可忽略4点@Compendium[swade-core-rules.swade-rules.体型与尺寸]{尺寸 }减值。</li>\n</ul>\n<p>&nbsp;</p>\n</div>"
+        },
+        "Drake": {
+            "name": "龙兽",
+            "biography": "<div class=\"swade-core\">\n<p>龙兽是不会飞行的龙，且智力只有动物水平(而不是像真正的龙一样有着近似人类的觉知)，然而和它们的远亲相比，龙兽在正面战斗中更为好斗。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧 }：</strong>单单目睹龙兽就能让人心生畏惧。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧 }：</strong>龙兽能够在@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }之前承受1个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }6 (大型)：</strong>龙兽从头到尾长度超过20英尺。</li>\n</ul>\n</div>"
+        },
+        "Elemental, Air": {
+            "name": "气元素",
+            "biography": "<div class=\"swade-core\">\n<p>气元素显现为一股知性旋风。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素 }：</strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>气态：</strong>可以穿越任何非固体表面，通过门窗上的裂缝，化作气泡在水中移动等等。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (飞行)]{飞行 }：</strong>气元素能以12英寸的移速飞行。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无敌)]{无敌 }：</strong>免疫非魔法攻击。</li>\n</ul>\n</div>"
+        },
+        "Elemental, Earth": {
+            "name": "土元素",
+            "biography": "<div class=\"swade-core\">\n<p>土元素显现为五英尺高的，由石头和泥土混合而成的粗糙人形。它们虽然强而有力，但是也十分缓慢与笨重。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (遁地)]{遁地 }(10英寸)：</strong>土元素可以融入和离开地底。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素 }：</strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (免疫)]{免疫 }：</strong>免疫基于土的攻击(包括投掷石块，或具备土、泥浆、石块或砂砾特效的奇术)。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧 }：</strong>土元素能够在@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }之前承受1个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</li>\n</ul>\n<p>&nbsp;</p>\n</div>"
+        },
+        "Elemental, Fire": {
+            "name": "火元素",
+            "biography": "<div class=\"swade-core\">\n<p>火元素呈现为人形的火焰。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素 }：</strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (免疫)]{免疫 }</strong><strong>：</strong>火元素免疫火焰以及基于高温的伤害。</li>\n</ul>\n</div>"
+        },
+        "Elemental, Water": {
+            "name": "水元素",
+            "biography": "<div class=\"swade-core\">\n<p>这些精魂是人形的水和泡沫。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖 }：</strong>12英寸移速。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素 }：</strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (免疫)]{免疫 }：</strong>免疫基于水的攻击。</li>\n<li><strong>渗透：</strong>水元素能如同经过@Compendium[swade-core-rules.swade-rules.移动]{困难地形 }一般挤过任何可穿透的缝隙。</li>\n</ul>\n</div>"
+        },
+        "Ghost": {
+            "name": "鬼魂",
+            "biography": "<div class=\"swade-core\">\n<p>有时幽灵、阴影和鬼魂会从死亡中归来纠缠生者，或者完成一些未尽的遗愿。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (灵态)]{灵态 }：</strong>鬼魂可以随意变为不可见的无形存在，并且只有魔法攻击才能对其造成伤害。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧 }(&minus;2)：</strong>鬼魂在显现时会造成-2的恐惧检定。</li>\n</ul>\n</div>"
+        },
+        "Giant Worm": {
+            "biography": "<div class=\"swade-core\">\n<p>在人烟稀少的平原地区，时而存在着会在地下穿行，并将毫无防备的冒险者囫囵吞下的巨蠕虫。这些生物能够通过大地感知震动，在200码外就能听到人在行走，全长可达50英尺。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (遁地)]{遁地 }(20英寸)：</strong>巨蠕虫穿梭于地下，只有坚硬的顽石才能挡住其去路。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (顽强)]{顽强 }：</strong>这种生物不会因为第二次遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }而受到损伤。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }9 (超大型)：</strong>通常巨蠕虫长度超过50英尺，直径超过10英尺。</li>\n</ul>\n</div>",
+            "name": "巨蠕虫"
+        },
+        "Goblin": {
+            "biography": "<div class=\"swade-core\">\n<p>神话传说中的哥布林远比一些游戏和小说中所描绘的邪恶得多。在最早的传说当中，它们是可怕的生物，会在午夜潜入家里偷走并吃掉不安分的孩子。这里的数据既可以用于黑暗“童话”当中的哥布林，也可以用在当代角色扮演游戏中和兽人一同出没的哥布林。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (红外感应)]{红外感应 }</strong>攻击温暖目标时忽略一半的照明减值。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }&minus;1：</strong>哥布林身高约3-4英尺。</li>\n</ul>\n<p>&nbsp;</p>\n</div>",
+            "name": "哥布林"
+        },
+        "Horse": {
+            "biography": "<div class=\"swade-core\">\n<p>骑乘用马匹以速度为代价换来了驮物能力。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }</strong><strong>&nbsp;2：</strong>典型的奎特马重约1000磅。</li>\n</ul>\n<p>&nbsp;</p>\n</div>",
+            "name": "马"
+        },
+        "Horse, War": {
+            "biography": "<div class=\"swade-core\">\n<p>战马是受过战斗训练的大型兽类，它们习得如何以两对蹄子进行战斗，前后皆然。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }3：</strong>战马是为了追求其力量与体格而被饲育的大型生物。</li>\n</ul>\n</div>",
+            "name": "战马"
+        },
+        "Lich": {
+            "biography": "<div class=\"swade-core\">\n<p>在所有奇幻世界中，最为邪恶的生物可能莫过于巫妖—􍄔沉迷黑暗技艺当中不可自拔的死灵法师最终自身也成为了不死族。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>法术：</strong>巫妖拥有50点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }，并且知晓大部分可用法术。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (不死族)]{不死族 }：</strong>+2坚韧；从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>行尸：</strong>：巫妖乃是死灵法师中的翘楚，其通过<em>@Compendium[swade-core-rules.swade-powers.行尸]{行尸 }</em>法术唤起的不死族永久存续，并且他们可以像唤起@Compendium[swade-core-rules.swade-bestiary.行尸]{行尸 }一样唤起@Compendium[swade-core-rules.swade-bestiary.骷髅]{骷髅 }，某些巫妖甚至已经建立了一整支听其差遣的不死军团。</li>\n</ul>\n</div>",
+            "name": "巫妖"
+        },
+        "Lion": {
+            "biography": "<div class=\"swade-core\">\n<p>这些丛林王者是凶猛的捕食者，在猎物没法找到任何掩护的开阔草原上则更是如此。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (微光视觉)]{微光视觉 }：</strong>狮子能够忽略昏暗和黑暗的@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }1：</strong>雄狮通常约有400磅重。</li>\n</ul>\n</div>",
+            "name": "狮子"
+        },
+        "Mech": {
+            "biography": "<div class=\"swade-core\">\n<p>以下是常出现于硬科幻战役中高达12英尺的机械哨兵的数据。这是一具巡逻用轻型机械平台，具备适当的智能水平、传感器套件、以及极高的机动性。用于作战的大型机甲会具备更厚的装甲、更大的体型、以及更为特化的武器。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }：</strong>机兵免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }和@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }，但可能具备会对造成恐惧的状况作出适当反应的智能。</li>\n<li><strong>夜视：</strong>传感器套件能够忽略@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }4 (大型)：</strong>机兵高达15英尺。</li>\n</ul>\n</div>",
+            "name": "机兵"
+        },
+        "Minotaur": {
+            "biography": "<div class=\"swade-core\">\n<p>牛头人站立身高超过7英尺，长着硕大的牛头和犄角。在许多奇幻世界中，它们都是迷宫的守护者。在其他设定中，这只是另一支统治着奇幻原野的种族而已。不过，无论是哪种情况，它们都是渴望战斗与生啖对方血肉的凶残野兽。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧 }：</strong>牛头人能够在@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }之前承受1个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }3：</strong>牛头人身高7英尺，体重如同公牛一般。</li>\n</ul>\n</div>",
+            "name": "牛头人"
+        },
+        "Mule": {
+            "name": "骡",
+            "biography": "<div class=\"swade-core\">\n<p>骡是驴和马的杂交，其通常用来驮重货或拉车。</p>\n<p>和任何有趣的宠物一样，GM应当表现出一点点骡子的个性，而首先想到的莫过于“倔得像头骡”。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>犟脾气：</strong>骡子是倔强的生物，角色在骑乘骡子时，@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘 }投骰必须减1。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }2：</strong>骡子矮壮结实，体重通常不超过1000磅。</li>\n</ul>\n</div>"
+        },
+        "Ogre": {
+            "name": "食人魔",
+            "biography": "<div class=\"swade-core\">\n<p>食人魔是兽人和劣等巨人的近亲。其通常会被兽人氏族收留，因为兽人尊重这些愚蠢蛮族的野性与力量。兽人经常会驱使它们的“宠物”食人魔同敌人进行残酷野蛮的格斗。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧 }：</strong>食人魔能够在@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }之前承受1个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }2：</strong>多数食人魔都有8英尺高，并且有着大肚子和健壮的四肢。</li>\n</ul>\n<p>&nbsp;</p>\n</div>"
+        },
+        "Orc": {
+            "name": "兽人",
+            "biography": "<div class=\"swade-core\">\n<p>兽人是绿色皮肤的类人蛮族，其有着类似于野猪的特征，例如吻部，有些还长着獠牙。它们性情恶劣，很少会留活口。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (红外感应)]{红外感应 }：</strong>攻击温暖目标时@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值减半。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }1：</strong>兽人比人类稍大。</li>\n</ul>\n</div>"
+        },
+        "Orc, Chieftain": {
+            "name": "兽人酋长",
+            "biography": "<div class=\"swade-core\">\n<p>小型兽人部落的领袖通常是这群家伙当中最为要命的畜生。兽人酋长大多都拥有一两件设定(例如大多数“剑与魔法”世界)中颇为常见的魔法物品。</p>\n<p><strong>注释：</strong></p>\n<p>兽人酋长在持用巨斧时具有7点@Compendium[swade-core-rules.swade-rules.角色]{格挡 }</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (红外感应)]{红外感应 }：</strong>&nbsp;攻击温暖目标时@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值减半。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }1：</strong>&nbsp;兽人比人类稍大。</li>\n</ul>\n</div>"
+        },
+        "Raptor (Birds of Prey)": {
+            "name": "猛禽 (肉食鸟类)",
+            "biography": "<div class=\"swade-core\">\n<p>雕、鹰、以及任何其他大型肉食鸟类都统称为“猛禽”(不要和各种恐龙混淆)。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (飞行)]{飞行 }：</strong>猛禽能以48英寸@Compendium[swade-core-rules.swade-rules.移动]{移速 }飞行。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }&minus;3 (超小型)：</strong>猛禽体重极轻且只有约2英尺高。</li>\n</ul>\n</div>"
+        },
+        "Shark": {
+            "name": "鲨鱼",
+            "biography": "<div class=\"swade-core\">\n<p>以下是包括牛鲨与白鳍鲨在内的鲨鱼数据。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖 }：</strong>@Compendium[swade-core-rules.swade-rules.移动]{移速 }10。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }1：</strong>这些鲨鱼体重可达500磅。</li>\n</ul>\n</div>"
+        },
+        "Shark, Bull": {
+            "biography": "<div class=\"swade-core\">\n<p>以下是包括牛鲨与白鳍鲨在内的鲨鱼数据。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖 }：</strong>@Compendium[swade-core-rules.swade-rules.移动]{移速 }10。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }1：</strong>这些鲨鱼体重可达500磅。</li>\n</ul>\n</div>",
+            "name": "牛鲨"
+        },
+        "Shark, Great White": {
+            "biography": "<div class=\"swade-core\">\n<p>以下是长度在18到25英尺之间的大白鲨数值。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖 }: @Compendium[swade-core-rules.swade-rules.移动]{移速 }。</strong>10</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (顽强)]{顽强 }：</strong>这种生物不会因为第二次遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }而受到@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }4 (大型)：</strong>大白鲨体长可达25英尺。</li>\n</ul>\n</div>",
+            "name": "大白鲨"
+        },
+        "Skeleton": {
+            "biography": "<div class=\"swade-core\">\n<p>这些复苏亡者的皮肉早已腐烂，这使其相比覆有血肉的僵尸同类而言要稍为敏捷。在邪恶死灵法师的军团中经常有大量成群结队的骷髅。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }：</strong>骷髅免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }和@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (不死族)]{不死族 }：</strong>+2坚韧；从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n</ul>\n</div>",
+            "name": "骷髅"
+        },
+        "Snake, Constrictor": {
+            "name": "蟒蛇",
+            "biography": "<div class=\"swade-core\">\n<p>除非蛇类被逼入绝境或受到惊吓，其在现实中罕有攻击性。然而，它们依然是冒险作品的主要元素之一。</p>\n<p>在现实世界中，巨蟒、红尾蚺、以及其他体长超过15英尺的蛇类鲜少会致人于死地，因为其不是特别好斗。然而，在游戏中，这些蟒蛇可能会被激怒、受药物影响、或仅仅只是单纯性情凶残。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>绞缠：</strong>用于@Compendium[swade-core-rules.swade-rules.擒抱]{擒抱 }的@Compendium[swade-core-rules.swade-rules.特性]{运动 }和@Compendium[swade-core-rules.swade-rules.特性]{力量 }投骰+2。</li>\n</ul>\n</div>"
+        },
+        "Snake, Venomous": {
+            "biography": "<div class=\"swade-core\">\n<p>除非蛇类被逼入绝境或受到惊吓，其在现实中罕有攻击性。然而，它们依然是冒险作品的主要元素之一。</p>\n<p>以下是诸如太攀蛇(某种澳大利亚的棕色蛇类)、眼镜蛇、以及其他中等体型毒蛇的数值。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (毒素)]{毒素 }：</strong>GM选择毒蛇注入的是何种@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型 }&minus;3 (超小型)：</strong>大多数毒蛇的体长都在4到6英尺，但只有数英寸粗。</li>\n</ul>\n</div>",
+            "name": "毒蛇"
+        },
+        "Soldier": {
+            "name": "士兵",
+            "biography": "<div class=\"swade-core\">\n<p>暴徒、大头兵、军人或其他接受过基础训练的家伙都可以在更强的角色手下充当走卒，其应当根据具体定位进行调整并分配对应装备。</p>\n</div>"
+        },
+        "Soldier, Experienced": {
+            "biography": "<div class=\"swade-core\">\n<p>暴徒、大头兵、军人或其他接受过基础训练的家伙都可以在更强的角色手下充当走卒，其应当根据具体定位进行调整并分配对应装备。</p>\n</div>",
+            "name": "老兵"
+        },
+        "Spider, Giant": {
+            "name": "巨蜘蛛",
+            "biography": "<div class=\"swade-core\">\n<p>巨蜘蛛的体型堪比大型犬类，其栖息的巢穴中会有1d6+2只蜘蛛。它们时常会在巢穴内的猎物储备不足时结队外出狩猎。</p>\n<p>巨蜘蛛的巢穴内堆积着受害者的骸骨和财宝，对于敢冒险踏足其中的家伙来说这都是可以搜刮的收获。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (毒素)]{毒素 }(&minus;4)：</strong>通常是@Compendium[swade-core-rules.swade-rules.毒素]{温和 }和@Compendium[swade-core-rules.swade-rules.毒素]{致命 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }&minus;1：</strong>这些蜘蛛和狗一样大。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (走壁)]{走壁 }：</strong>这些生物可以在墙壁和天花板上以全@Compendium[swade-core-rules.swade-rules.移动]{移速 }移动！简直让人毛骨悚然！</li>\n</ul>\n</div>"
+        },
+        "Summon Ally: Attendant": {
+            "biography": "<div class=\"swade-core\">\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }：</strong>免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }和@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }。</li>\n</ul>\n</div>",
+            "name": "召唤盟友: 扈从"
+        },
+        "Summon Ally: Bodyguard": {
+            "name": "召唤盟友: 保镖",
+            "biography": "<div class=\"swade-core\">\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }：</strong>免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }和@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }。</li>\n</ul>\n</div>"
+        },
+        "Summon Ally: Sentinel": {
+            "name": "召唤盟友: 禁卫",
+            "biography": "<div class=\"swade-core\">\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }：</strong>免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }和@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }2：</strong>Sentinels are 8' tall and very dense。</li>\n</ul>\n</div>"
+        },
+        "Swarm": {
+            "biography": "<div class=\"swade-core\">\n<p>有时最致命的敌人可能是一大堆群聚的小东西。此处所述的集群可以是任何存在：咬人的蚂蚁，蜇人的黄蜂乃至于肮脏的老鼠。集群的占据面积如同@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型，中型或小型爆散盖板 }，其每轮都能够攻击身处其中的所有对象。(除非其遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 })。 集群在陷入@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }时就会分崩离析。</p>\n<p>集群仅有进行移动或叮蛰的智力，因而其应该不能进行多@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作 }或@Compendium[swade-core-rules.swade-rules.考验]{考验 }等等。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>分裂：</strong>某些集群会在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }后会分裂成两个更小的集群(取决于GM)。在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }时将集群的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{爆散盖板 }的大小下降一级，已经是小型的集群则会遭到消灭。</li>\n<li><strong>集群：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2，@Compendium[swade-core-rules.swade-rules.角色]{格挡 }+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击 }能如常生效，角色也能在每轮通过踩踏造成等同于@Compendium[swade-core-rules.swade-rules.特性]{力量 }的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。</li>\n</ul>\n</div>",
+            "name": "集群"
+        },
+        "Troll": {
+            "biography": "<div class=\"swade-core\">\n<p>在神话与传说中，巨魔是生活在森林深处、桥下、或隐蔽山洞中的可怕食肉怪物，而在现代的游戏与小说中，巨魔是能快速再生除火焰造成以外伤害的怪物。以下数据同时反映了上述两种背景。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (再生)]{快速再生 }：</strong>巨魔每轮都能够进行一次@Compendium[swade-core-rules.swade-rules.恢复]{自然恢复 }投骰，即便陷入@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }也是如此。除非该@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }是由火焰造成，或损伤之后受到火焰烧灼。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧 }：</strong>巨魔能够在@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }之前承受1个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }1：</strong>巨魔是身高8英尺的瘦长怪物。</li>\n</ul>\n</div>",
+            "name": "巨魔"
+        },
+        "Vampire": {
+            "biography": "<div class=\"swade-core\">\n<p>博学的吸血种在许多奇幻游戏中的相当普遍。以下是相对年轻的吸血鬼爪牙，对于更为弱小的吸血鬼则去掉其@Compendium[swade-core-rules.swade-rules.特殊能力 (无敌)]{无敌 }特殊能力。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无敌)]{无敌 }：</strong>只有日光或是刺穿心脏(见下文中的弱点)才能杀死吸血鬼。其他攻击能让它遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }，但无法造成@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</li>\n<li><strong>眷属：</strong>任何被吸血鬼杀死的对象都会有50%的几率在[[/r 1d4]]天内复活成吸血鬼。</li>\n<li><strong>不死族：</strong>+2坚韧；从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>弱点 (圣徽)：</strong>任何角色能藉由展示圣徽来避免吸血鬼逼近。想要直接攻击对象的吸血鬼必须在心魂对抗投骰中击败对方。</li>\n<li><strong>弱点(圣水)：</strong>被圣水泼洒到的吸血鬼会遭受疲乏。如果被浸没其中，则它会像如同直接暴露在日光下一样燃烧(见下)。</li>\n<li><strong>弱点(非请勿进)：</strong>吸血鬼不被邀请则无法进入私人住所，但其能随意出入公共建筑。</li>\n<li><strong>弱点(刺穿心脏)：</strong>倘若吸血鬼被瞄准心脏的@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }(-4)命中，其必须进行一次@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰，并与伤害总值进行对抗。如果成功，则如常受到伤害，如果失败，其就会灰飞烟灭。</li>\n<li><strong>弱点(日光)：</strong>吸血鬼会在日光下熊熊燃烧。其每轮会受到[[/r 2d4]]伤害，直到化为灰烬为止。@Compendium[swade-core-rules.swade-rules.护甲]{护甲 }能如常提供保护。</li>\n</ul>\n</div>",
+            "name": "吸血鬼"
+        },
+        "Werewolf": {
+            "name": "狼人",
+            "biography": "<div class=\"swade-core\">\n<p>时逢满月之际，感染了狼化症的人类就会失控，变成咆哮嗜杀的怪物。有人选择接受这份诅咒，并陶醉在自己造成的毁灭当中。</p>\n<p>可以设计合理的特殊能力以制作属于你的特定嗜血怪物。比如说，年长或“纯血”的狼人可以具有无敌能力，除银或魔法以外没有弱点。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>快速再生：</strong>除非损伤是由银制物件造成，否则狼人每轮都能尝试进行一次@Compendium[swade-core-rules.swade-rules.恢复]{自然恢复 }投骰。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧 }(&minus;2)：</strong>任何看到狼人的家伙都会吓得全身发凉。</li>\n<li><strong>感染：</strong>任何被狼人杀死的对象都会有50%的几率复活成为狼人。这些角色每当满月之际都会强行化身为狼人，其只有在成为狼人[[/sr 1d6 # 角色的狼化症得以控制所需的年数]]后才能控制自己的狼化症。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (红外感应)]{红外感应 }：</strong>攻击温暖目标时@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值减半。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (体型)]{体型 }1：</strong>狼人是强壮的生物。</li>\n</ul>\n</div>"
+        },
+        "Zombie": {
+            "name": "行尸",
+            "biography": "<div class=\"swade-core\">\n<p>这些行尸走肉通常是呻吟不断，渴求鲜肉的怪物。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }：</strong>&nbsp;免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }和@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (不死族)]{不死族 }：</strong>+2坚韧；从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (弱点)]{弱点 }(头部)：</strong>对行尸头部的@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }如常造成+4伤害。</li>\n</ul>\n</div>"
+        },
+        "Vampire, Ancient": {
+            "name": "上古吸血鬼",
+            "biography": "<div class=\"swade-core\">\n<p>以下数据是给仅次于传说中的德古拉的吸血鬼准备的，但其仍远胜于那些刚自坟墓中爬出来的吸血种。这里列出的是标准能力——GM能给吸血鬼增加与其先前生活方式相匹配的其他@Compendium[swade-core-rules.swade-rules.专长]{专长 }。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>变幻形态：</strong>通过一个动作，吸血鬼可进行一次-2@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰来化身成狼或蝙蝠。变回人形则需要一次@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰。</li>\n<li><strong>魅惑：</strong>吸血鬼可以对被自己吸引的对象(GM 判断)使用<em>@Compendium[swade-core-rules.swade-powers.傀儡]{傀儡 }</em>奇术，并以其@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }作为@Compendium[swade-core-rules.swade-rules.奥法背景]{奥法技能 }。它们可以无限地施放并维持该奇术，但每次只能作用在一个目标上。</li>\n<li><strong>夜之子民：</strong>上古吸血鬼具备召唤并控制狼或老鼠的能力。这需要一个动作以及一次-2的@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰。若为成功，[[/sr 1d6 # 召唤的狼]]匹狼或[[/sr 1d6 # 召唤的老鼠集群]]老鼠集群(见@Compendium[swade-core-rules.swade-bestiary.集群]{集群 })会在[[/sr 1d6+2 # 召唤后经过的轮数]]轮内从周遭的荒野中赶来。</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无敌)]{无敌 }：</strong>只有日光或是刺穿心脏(见下文中的弱点)才能杀死吸血鬼。其他攻击能让它遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }，但无法造成@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }。</li>\n<li><strong>化雾：</strong>上古吸血鬼具备化身雾气的能力。这样做(或变回人形)需要一个动作以及一次-2的@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰。</li>\n<li><strong>眷属：</strong>任何被吸血鬼杀死的对象都会有50%的几率在[[/r 1d4]]天内复活成吸血鬼。</li>\n<li><strong>不死族：</strong>+2坚韧；从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n<li><strong>弱点 (圣徽)：</strong>任何角色能藉由展示圣徽来避免吸血鬼逼近。想要直接攻击对象的吸血鬼必须在心魂对抗投骰中击败对方。</li>\n<li><strong>弱点(圣水)：</strong>被圣水泼洒到的吸血鬼会遭受疲乏。如果被浸没其中，则它会像如同直接暴露在日光下一样燃烧(见下)。</li>\n<li><strong>弱点(非请勿进)：</strong>吸血鬼不被邀请则无法进入私人住所，但其能随意出入公共建筑。</li>\n<li><strong>弱点(刺穿心脏)：</strong>倘若吸血鬼被瞄准心脏的@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }(-4)命中，其必须进行一次@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰，并与伤害总值进行对抗。如果成功，则如常受到伤害，如果失败，其就会灰飞烟灭。</li>\n<li><strong>弱点(日光)：</strong>吸血鬼会在日光下熊熊燃烧。其每轮会受到[[/r 2d4]]伤害，直到化为灰烬为止。@Compendium[swade-core-rules.swade-rules.护甲]{护甲 }能如常提供保护。</li>\n</ul>\n</div>"
+        }
+    }
+}
