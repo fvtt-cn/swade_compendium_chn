@@ -2,6 +2,13 @@
     "entries": {
         "Zombie": {
             "name": "行尸"
+        },
+        "Blind": {
+            "name": "目盲"
         }
+    },
+    "mapping": {
+        "description": "data.description",
+        "range": "data.range"
     }
 }
