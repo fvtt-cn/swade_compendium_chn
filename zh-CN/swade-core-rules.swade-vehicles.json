@@ -1,5 +1,231 @@
 {
     "mapping": {
-        "description": "data.description"
-    }
+        "description": "data.description",
+        "skill": "data.driver.skill"
+    },
+    "entries": {
+        "AH-64 Apache": {
+            "description": "<div class=\"swade-core\">\n<p>Helicopter, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "航空",
+            "name": "AH-64 阿帕奇武装直升机"
+        },
+        "AV-8B Harrier": {
+            "name": "AV-8B 鹞式战斗机",
+            "description": "<div class=\"swade-core\">\n<p>在垂直起落模式时@Compendium[swade-core-rules.swade-rules.载具注释]{操控性 }为-1。</p>\n</div>",
+            "skill": "航空"
+        },
+        "B-17 Flying Fortress": {
+            "name": "B-17 空中堡垒轰炸机",
+            "skill": "航空"
+        },
+        "BF-109": {
+            "name": "BF-109 战斗机",
+            "skill": "航空"
+        },
+        "BTR 70 APC": {
+            "name": "BTR 70 装甲运兵车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{两栖 }, @Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }, @Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Bicycle": {
+            "name": "自行车",
+            "description": "<div class=\"swade-core\"><p>射击有50%几率会转而击中骑手，骑手的@Compendium[swade-core-rules.swade-rules.移动]{移速 }和@Compendium[swade-core-rules.swade-rules.移动]{奔跑骰 }结果翻倍。</p></div>",
+            "skill": "驾驶"
+        },
+        "Biplane": {
+            "name": "双翼飞机",
+            "skill": "航空"
+        },
+        "Cessna Skyhawk": {
+            "skill": "航空",
+            "name": "塞斯纳型天鹰飞机"
+        },
+        "Compact Car": {
+            "name": "小型汽车",
+            "description": "<div class=\"swade-core\"><p>本田思域等类似汽车。</p></div>",
+            "skill": "驾驶"
+        },
+        "Dirt Bike": {
+            "description": "<div class=\"swade-core\">\n<p>具有优秀缓冲的常见越野摩托车，越野(视作@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 })，未指定具体目标的射击有50%几率会击中角色)。</p>\n</div>",
+            "skill": "驾驶",
+            "name": "越野摩托车"
+        },
+        "Early Car": {
+            "name": "早期汽车",
+            "description": "<div class=\"swade-core\">福特T型车之类的。</div>",
+            "skill": "驾驶"
+        },
+        "F-15 Eagle": {
+            "name": "F-15 鹰式战斗机",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "航空"
+        },
+        "Galleon": {
+            "name": "大帆船",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾船"
+        },
+        "Galley": {
+            "name": "桨帆船",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }。同时具有船桨和船帆。</p>\n</div>",
+            "skill": "驾船"
+        },
+        "Helicopter": {
+            "name": "直升机",
+            "skill": "航空"
+        },
+        "Hover APC": {
+            "name": "悬浮装甲运兵车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{悬浮 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Hover Tank": {
+            "name": "悬浮坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{悬浮 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Hydrofoil": {
+            "name": "水翼船",
+            "skill": "驾船"
+        },
+        "Japanese Zero": {
+            "name": "日本零式战斗机",
+            "skill": "航空"
+        },
+        "Jeep": {
+            "name": "吉普车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Learjet": {
+            "name": "里尔喷射机",
+            "skill": "航空"
+        },
+        "M1A1 Abrams": {
+            "name": "M1A1 艾布拉姆斯主战坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "M2 Bradley": {
+            "name": "M2 布雷德利步兵战车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "M4 Sherman": {
+            "name": "M4 谢尔曼中型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "M5A1 Stuart": {
+            "name": "M5A1 斯图亚特轻型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Mid-Sized Car": {
+            "name": "中型汽车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{气囊 }，奢华外表。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Minivan": {
+            "name": "小型货车",
+            "description": "<div class=\"swade-core\">\n<p>典型的家用小型货车。@Compendium[swade-core-rules.swade-rules.载具注释]{气囊 }，其中一些外表奢华。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "P-51 Mustang": {
+            "name": "P-51 野马战斗机",
+            "description": "<div class=\"swade-core\">&nbsp;</div>",
+            "skill": "航空"
+        },
+        "PT Boat (WW2)": {
+            "name": "鱼雷艇 (二战)",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾船"
+        },
+        "Patrol Boat, River": {
+            "name": "巡河艇",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾船"
+        },
+        "Pz IVJ": {
+            "name": "IV号J型中型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Pz VI Tiger II": {
+            "name": "虎王重型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Rowboat": {
+            "name": "划艇",
+            "skill": "驾船"
+        },
+        "SU-27": {
+            "name": "苏-27 战斗机",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "航空"
+        },
+        "Semi-Truck": {
+            "name": "卡车",
+            "description": "<div class=\"swade-core\">\n<p>拖箱@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型 }是7 (大型), @Compendium[swade-core-rules.swade-rules.角色]{坚韧 }14(2). *附有拖箱时@Compendium[swade-core-rules.swade-rules.载具注释]{操控性 }是-2。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Small Yacht": {
+            "name": "游艇",
+            "skill": "驾船"
+        },
+        "Space Shuttle": {
+            "name": "航天飞机",
+            "skill": "航空"
+        },
+        "Speed Boat": {
+            "name": "快艇",
+            "skill": "驾船"
+        },
+        "Spitfire Mk IIA": {
+            "name": "喷火MK2A战斗机",
+            "skill": "航空"
+        },
+        "Sports Car": {
+            "name": "跑车",
+            "description": "<div class=\"swade-core\">\n<p class=\"swade-core\">野马或是类似的常见跑车。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Sports Utility Vehicle": {
+            "name": "SUV",
+            "description": "<div class=\"swade-core\">\n<p>奢华外表，@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Street Bike": {
+            "name": "城市摩托车",
+            "description": "<div class=\"swade-core\"><p>常见的城市用名牌街道摩托车，未指定具体部位的射击有50%几率会转而击中角色。</p></div>",
+            "skill": "驾驶"
+        },
+        "T-34/76": {
+            "name": "T-34/76 中型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{倾斜装甲 } (只有前面), @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "T-72 MBT": {
+            "name": "T-72 主战坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "T80 MBT": {
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "name": "T80 主战坦克",
+            "skill": "驾驶"
+        },
+        "UH-1 (Huey)": {
+            "description": "<div class=\"swade-core\">直升机</div>",
+            "skill": "航空",
+            "name": "UH-1 易洛魁直升机"
+        },
+        "Carriage": {
+            "name": "马车",
+            "description": "<div class=\"swade-core\"><p>以单匹@Compendium[swade-core-rules.swade-equipment.马]{马 }拉动。桌面上的@Compendium[swade-core-rules.swade-rules.移动]{移速 }是12，而且可以奔跑。</p></div>",
+            "skill": "骑乘"
+        }
+    },
+    "label": "SWADE载具"
 }
