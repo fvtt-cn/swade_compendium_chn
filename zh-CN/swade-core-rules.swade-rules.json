@@ -1,1 +1,19 @@
-{}
+{
+    "entries": {
+        "Arcane Background (Gifted)": {
+            "name": "奥法背景 (异禀)"
+        },
+        "Arcane Background (Magic)": {
+            "name": "奥法背景 (魔法)"
+        },
+        "Arcane Background (Weird Science)": {
+            "name": "奥法背景 (奇异科学)"
+        },
+        "Arcane Background (Psionics)": {
+            "name": "奥法背景 (灵能)"
+        },
+        "Arcane Background (Miracles)": {
+            "name": "奥法背景 (奇迹)"
+        }
+    }
+}
