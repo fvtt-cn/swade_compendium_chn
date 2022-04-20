@@ -14,6 +14,51 @@
         },
         "Arcane Background (Miracles)": {
             "name": "奥法背景 (奇迹)"
+        },
+        "Fear": {
+            "name": "恐惧"
+        },
+        "Healing": {
+            "name": "医疗"
+        },
+        "Half-Elves": {
+            "name": "半精灵"
+        },
+        "Half-Folk": {
+            "name": "半身人"
+        },
+        "Saurians": {
+            "name": "蜥蜴人"
+        },
+        "Creative Combat": {
+            "name": "创新战斗"
+        },
+        "Humans": {
+            "name": "人类"
+        },
+        "Weird Science": {
+            "name": "奇异科学"
+        },
+        "Android": {
+            "name": "仿生人"
+        },
+        "Aquarian": {
+            "name": "鲛人"
+        },
+        "Avion": {
+            "name": "翼民"
+        },
+        "Dwarves": {
+            "name": "矮人"
+        },
+        "Dynamic Backlash": {
+            "name": "动态反冲"
+        },
+        "Elves": {
+            "name": "精灵"
+        },
+        "Rakashans": {
+            "name": "猫族"
         }
     }
 }
