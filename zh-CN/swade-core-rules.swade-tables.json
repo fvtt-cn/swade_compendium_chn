@@ -1,1 +1,37 @@
-{}
+{
+    "entries": {
+        "Creative Combat": {
+            "description": "<div class=\"swade-core\">考验让游戏更为有趣难忘，而创新战斗则藉由给予出现优良考验的额外好处而丰富了通俗游戏的体验。参见<b>@Compendium[swade-core-rules.swade-rules.创新战斗]{创新战斗 }</b>来确定何时使用这些结果。</div>",
+            "name": "创新战斗"
+        },
+        "Dynamic Backlash": {
+            "description": "<div class=\"swade-core\">通常，在奥法技能检定上的大失败会导致疲乏。如果GM认为魔法应当支付更高的代价，则转而使用以下表格。参见<b>@Compendium[swade-core-rules.swade-rules.动态反冲]{动态反冲 }</b></div>",
+            "name": "动态反冲"
+        },
+        "Fear Table": {
+            "description": "<div class=\"swade-core\">\n往随机表公式加入调整值，比如\"d20+2\"。或者，对于更简单的投骰，点击@Compendium[swade-core-rules.swade-macros.Fear Table]{恐惧表宏 }显示弹窗填写调整值。如果你使用该宏来获取结果，则请无视该信息。你可以通过点击@Compendium[swade-core-rules.swade-rules.恐惧]{这里 }以获得更多关于恐惧表的信息。</div>",
+            "name": "Fear Table"
+        },
+        "Out of Control": {
+            "name": "失控",
+            "description": "<div class=\"swade-core\">因为失控投骰造成的伤害不会再触发另一次失控投骰，但损伤会如常触发重创。参见@Compendium[swade-core-rules.swade-rules.追逐与载具{机动技能 }以了解更多。</div>"
+        },
+        "Reaction Table": {
+            "name": "态度表",
+            "description": "<div class=\"swade-core\">GM能使用下列表格来选取或投骰决定某一角色或团体的初始态度。参见@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }以确定如何使用该随机表。</div>"
+        },
+        "Battle Effects": {
+            "name": "作战效果",
+            "description": "<div class=\"swade-core\">参见<b>@Compendium[swade-core-rules.swade-rules.大规模作战]{大规模作战 }</b>来确定何时使用该随机表。</div>"
+        },
+        "Injury Table": {
+            "name": "创伤表",
+            "description": "<div class=\"swade-core\">如果<b>@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }</b>且活力投骰失败，则使用该随机表。</div>"
+        },
+        "Vehicle Critical Hits": {
+            "name": "载具重创",
+            "description": "<div class=\"swade-core\">参见@Compendium[swade-core-rules.swade-rules.追逐与载具{追逐与载具 }</div>"
+        }
+    },
+    "label": "SWADE随机表"
+}
