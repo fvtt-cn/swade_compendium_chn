@@ -1,0 +1,231 @@
+{
+	"label": "SWADE Vehicles",
+	"mapping": {
+		"description": "data.description",
+		"skill": "data.driver.skill"
+	},
+	"entries": {
+		"AH-64 Apache": {
+			"name": "AH-64 Apache",
+			"description": "<div class=\"swade-core\">\n<p>Helicopter, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Night Vision}.</p>\n</div>",
+			"skill": "Piloting"
+		},
+		"AV-8B Harrier": {
+			"name": "AV-8B Harrier",
+			"description": "<div class=\"swade-core\">\n<p>&ndash;1 @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Handling} when in VTOL mode.</p>\n</div>",
+			"skill": "Piloting"
+		},
+		"B-17 Flying Fortress": {
+			"name": "B-17 Flying Fortress",
+			"skill": "Piloting"
+		},
+		"BF-109": {
+			"name": "BF-109",
+			"skill": "Piloting"
+		},
+		"BTR 70 APC": {
+			"name": "BTR 70 APC",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Amphibious}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{4WD}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Bicycle": {
+			"name": "Bicycle",
+			"description": "<div class=\"swade-core\"><p>50% chance a shot hits the rider instead. Doubles rider&rsquo;s @Compendium[swade-core-rules.swade-rules.Movement]{Pace} and @Compendium[swade-core-rules.swade-rules.Movement]{running die} result.</p></div>",
+			"skill": "Driving"
+		},
+		"Biplane": {
+			"name": "Biplane",
+			"skill": "Piloting"
+		},
+		"Carriage": {
+			"name": "Carriage",
+			"description": "<div class=\"swade-core\"><p>Pulled by one @Compendium[swade-core-rules.swade-equipment.Horse]{Horse}. @Compendium[swade-core-rules.swade-rules.Movement]{Pace} on the tabletop is 12 and it may run.</p></div>",
+			"skill": "Riding"
+		},
+		"Cessna Skyhawk": {
+			"name": "Cessna Skyhawk",
+			"skill": "Piloting"
+		},
+		"Compact Car": {
+			"name": "Compact Car",
+			"description": "<div class=\"swade-core\"><p>Honda Civic or similar vehicle.</p></div>",
+			"skill": "Driving"
+		},
+		"Dirt Bike": {
+			"name": "Dirt Bike",
+			"description": "<div class=\"swade-core\">\n<p>Stock bike designed for off-road use with excellent shocks. Off Road (treat as @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{4WD}). 50% chance any uncalled shot hits the character instead.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Early Car": {
+			"name": "Early Car",
+			"description": "<div class=\"swade-core\">Model Ts and the like.</div>",
+			"skill": "Driving"
+		},
+		"F-15 Eagle": {
+			"name": "F-15 Eagle",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Night Vision}.</p>\n</div>",
+			"skill": "Piloting"
+		},
+		"Galleon": {
+			"name": "Galleon",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}.</p>\n</div>",
+			"skill": "Boating"
+		},
+		"Galley": {
+			"name": "Galley",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}. Has both oars and sails.</p>\n</div>",
+			"skill": "Boating"
+		},
+		"Helicopter": {
+			"name": "Helicopter",
+			"skill": "Piloting"
+		},
+		"Hover APC": {
+			"name": "Hover APC",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Hover}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Hover Tank": {
+			"name": "Hover Tank",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Hover}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Night Vision}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Hydrofoil": {
+			"name": "Hydrofoil",
+			"skill": "Boating"
+		},
+		"Japanese Zero": {
+			"name": "Japanese Zero",
+			"skill": "Piloting"
+		},
+		"Jeep": {
+			"name": "Jeep",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{4WD}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Learjet": {
+			"name": "Learjet",
+			"skill": "Piloting"
+		},
+		"M1A1 Abrams": {
+			"name": "M1A1 Abrams",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Night Vision}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"M2 Bradley": {
+			"name": "M2 Bradley",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Night Vision}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"M4 Sherman": {
+			"name": "M4 Sherman",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"M5A1 Stuart": {
+			"name": "M5A1 Stuart",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Mid-Sized Car": {
+			"name": "Mid-Sized Car",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Air bags}, luxury features.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Minivan": {
+			"name": "Minivan",
+			"description": "<div class=\"swade-core\">\n<p>Typical family mini-van. @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Air bags}, some luxury features.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"P-51 Mustang": {
+			"name": "P-51 Mustang",
+			"description": "<div class=\"swade-core\">&nbsp;</div>",
+			"skill": "Piloting"
+		},
+		"PT Boat (WW2)": {
+			"name": "PT Boat (WW2)",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}.</p>\n</div>",
+			"skill": "Boating"
+		},
+		"Patrol Boat, River": {
+			"name": "Patrol Boat, River",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}.</p>\n</div>",
+			"skill": "Boating"
+		},
+		"Pz IVJ": {
+			"name": "Pz IVJ",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Pz VI Tiger II": {
+			"name": "Pz VI Tiger II",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Rowboat": {
+			"name": "Rowboat",
+			"skill": "Boating"
+		},
+		"SU-27": {
+			"name": "SU-27",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Night Vision}.</p>\n</div>",
+			"skill": "Piloting"
+		},
+		"Semi-Truck": {
+			"name": "Semi-Truck",
+			"description": "<div class=\"swade-core\">\n<p>Trailer is @Compendium[swade-core-rules.swade-rules.Size and Scale]{Size} 7 (Large), @Compendium[swade-core-rules.swade-rules.Characters]{Toughness} 14 (2). *@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Handling} with a trailer attached is &ndash;2.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Small Yacht": {
+			"name": "Small Yacht",
+			"skill": "Boating"
+		},
+		"Space Shuttle": {
+			"name": "Space Shuttle",
+			"skill": "Piloting"
+		},
+		"Speed Boat": {
+			"name": "Speed Boat",
+			"skill": "Boating"
+		},
+		"Spitfire Mk IIA": {
+			"name": "Spitfire Mk IIA",
+			"skill": "Piloting"
+		},
+		"Sports Car": {
+			"name": "Sports Car",
+			"description": "<div class=\"swade-core\">\n<p class=\"swade-core\">Mustang or similar stock sports cars.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Sports Utility Vehicle": {
+			"name": "Sports Utility Vehicle",
+			"description": "<div class=\"swade-core\">\n<p>Luxury features, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{4WD}</p>\n</div>",
+			"skill": "Driving"
+		},
+		"Street Bike": {
+			"name": "Street Bike",
+			"description": "<div class=\"swade-core\">Stock name-brand street bikes designed for urban use.\n50% chance any uncalled shot hits the character instead.</div>",
+			"skill": "Driving"
+		},
+		"T-34/76": {
+			"name": "T-34/76",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Sloped Armor} (front only), @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"T-72 MBT": {
+			"name": "T-72 MBT",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"T80 MBT": {
+			"name": "T80 MBT",
+			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Heavy Armor}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Night Vision}, @Compendium[swade-core-rules.swade-rules.Vehicle Notes]{Tracked}.</p>\n</div>",
+			"skill": "Driving"
+		},
+		"UH-1 (Huey)": {
+			"name": "UH-1 (Huey)",
+			"description": "<div class=\"swade-core\">Helicopter</div>",
+			"skill": "Piloting"
+		}
+	}
+}
