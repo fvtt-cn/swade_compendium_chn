@@ -1,1 +1,10 @@
-{}
+{
+    "entries": {
+        "Swarm": {
+            "name": "集群"
+        },
+        "Zombie": {
+            "name": "行尸"
+        }
+    }
+}
