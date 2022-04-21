@@ -27,7 +27,7 @@
         "Lance": {
             "name": "骑枪",
             "description": "<div class=\"swade-core\">\n<p>冲锋时带有@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }2，@Compendium[swade-core-rules.swade-rules.触及]{触及 }2，只能在@Compendium[swade-core-rules.swade-rules.骑乘战斗]{骑乘战斗 }时使用。</p>\n</div>",
-            "notes": "冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用。",
+            "notes": "冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用",
             "actions": {
                 "skill": "格斗"
             }
@@ -82,7 +82,7 @@
             },
             "name": "中型机枪",
             "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p></div>",
-            "notes": "重武器"
+            "notes": "重武器。"
         },
         "Medium Shield": {
             "name": "中型盾牌",
@@ -116,7 +116,7 @@
         "120mm Tank Gun (HE Rounds)": {
             "name": "120mm 坦克炮 (高爆弹)",
             "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }</p>\n</div>",
-            "notes": "中型爆散盖板, 重武器",
+            "notes": "中型爆散盖板, 重武器。",
             "actions": {
                 "skill": "射击"
             }
@@ -124,7 +124,7 @@
         "125mm Tank Gun (AP Rounds)": {
             "name": "125mm 坦克炮 (穿甲弹)",
             "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-            "notes": "重武器",
+            "notes": "重武器。",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -140,7 +140,7 @@
                 "skill": "射击"
             },
             "name": "125mm 坦克炮 (高爆弹)",
-            "notes": "中型爆散盖板, 重武器"
+            "notes": "中型爆散盖板, 重武器。"
         },
         "2 pd AT Gun (AP Rounds)": {
             "name": "2磅反坦克炮 (穿甲弹)",
@@ -158,7 +158,7 @@
         "2 pd AT Gun (HE Rounds)": {
             "name": "2磅反坦克炮 (高爆弹)",
             "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }</p>\n</div>",
-            "notes": "中型爆散盖板, 重武器",
+            "notes": "中型爆散盖板, 重武器。",
             "actions": {
                 "skill": "射击"
             }
@@ -321,7 +321,7 @@
         "76mm Tank Gun (AP Rounds)": {
             "name": "76mm 坦克炮 (穿甲弹)",
             "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-            "notes": "重武器",
+            "notes": "重武器。",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -334,7 +334,7 @@
         "76mm Tank Gun (HE Rounds)": {
             "name": "76mm 坦克炮 (高爆弹)",
             "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }</p>\n</div>",
-            "notes": "中型爆散盖板, 重武器",
+            "notes": "中型爆散盖板, 重武器。",
             "actions": {
                 "skill": "射击"
             }
@@ -362,7 +362,7 @@
         },
         "Anti-Personnel Mine": {
             "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 }, @Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆散盖板 }。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆散盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击 })的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理 }投骰，但失败就会马上引爆地雷。</p>\n</div>",
-            "notes": "重武器",
+            "notes": "重武器。",
             "actions": {
                 "skill": "格斗"
             },
@@ -401,7 +401,12 @@
         },
         "Axe, Hand": {
             "actions": {
-                "skill": "格斗"
+                "skill": "格斗",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "新动作"
+                    }
+                }
             },
             "name": "手斧"
         },
@@ -430,7 +435,7 @@
         "Bangstick": {
             "name": "震爆杖",
             "description": "<div class=\"swade-core\"><p>附有单发@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹 }的杖(用于近战)，用完必须装填新的霰弹(一个动作)</p></div>",
-            "notes": "附有单发霰弹的杖(用于近战)，用完必须装填新的霰弹(一个动作)。",
+            "notes": "附有单发霰弹的杖(用于近战)，用完必须装填新的霰弹(一个动作)",
             "actions": {
                 "skill": "格斗"
             }
@@ -470,7 +475,7 @@
             },
             "name": "刺刀",
             "description": "<div class=\"swade-core\">\n<p>装配在步枪上时伤害为力量+d6且@Compendium[swade-core-rules.swade-rules.格挡]{格挡 }+1，@Compendium[swade-core-rules.swade-rules.触及]{触及 }1，@Compendium[swade-core-rules.swade-rules.双手]{双手 }。</p>\n</div>",
-            "notes": "装配在步枪上时伤害为力量+d6且格挡+1，触及1，双手。"
+            "notes": "装配在步枪上时伤害为力量+d6且格挡+1，触及1，双手"
         },
         "Bazooka": {
             "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射 }。二战中美军的标准反坦克武器。额外的火箭弹重9磅，二战时的费用为$50。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 }。</p>\n</div>",
@@ -490,7 +495,7 @@
         "Billy Club/Baton": {
             "name": "警棍/棍棒",
             "description": "<div class=\"swade-core\"><p>经常被执法者携带。</p></div>",
-            "notes": "经常被执法者携带。",
+            "notes": "经常被执法者携带",
             "actions": {
                 "skill": "格斗"
             }
@@ -567,7 +572,7 @@
         "Brass Knuckles": {
             "name": "黄铜指虎",
             "description": "<div class=\"swade-core\"><p>判断是否时@Compendium[swade-core-rules.swade-rules.手无寸铁]{手无寸铁 }不视作武器。</p></div>",
-            "notes": "判断是否时手无寸铁不视作武器。",
+            "notes": "判断是否时手无寸铁不视作武器",
             "actions": {
                 "skill": "格斗"
             }
@@ -613,7 +618,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "notes": ".30-06"
         },
         "Bullets, Large": {
             "name": "大型子弹",
@@ -667,7 +673,8 @@
                     }
                 }
             },
-            "ammo": "霰弹 (加农炮)"
+            "ammo": "霰弹 (加农炮)",
+            "range": "24英寸路径"
         },
         "Cannon (12 lb), Shrapnel": {
             "name": "加农炮 (12 磅), 榴霰弹",
@@ -728,7 +735,7 @@
         "Chainsaw": {
             "name": "链锯",
             "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }会击中使用者。</p></div>",
-            "notes": "大失败会击中使用者。",
+            "notes": "大失败会击中使用者",
             "actions": {
                 "skill": "格斗"
             }
@@ -750,7 +757,7 @@
         "Club, Heavy": {
             "name": "重棒",
             "description": "<div class=\"swade-core\"><p>地位低下或凶徒的象征。</p></div>",
-            "notes": "地位低下或凶徒的象征。",
+            "notes": "地位低下或凶徒的象征",
             "actions": {
                 "skill": "格斗"
             }
@@ -758,7 +765,7 @@
         "Club, Light": {
             "name": "轻棒",
             "description": "<div class=\"swade-core\"><p>地位低下或凶徒的象征。</p></div>",
-            "notes": "地位低下或凶徒的象征。",
+            "notes": "地位低下或凶徒的象征",
             "actions": {
                 "skill": "格斗"
             }
@@ -818,7 +825,7 @@
         "Crossbow, Heavy": {
             "name": "重弩",
             "description": "<div class=\"swade-core\"><p>需绞盘才能装弹，@Compendium[swade-core-rules.swade-rules.装填]{装填 }2。</p></div>",
-            "notes": "需绞盘才能装弹，装填2。",
+            "notes": "需绞盘才能装弹，装填2",
             "actions": {
                 "skill": "射击"
             }
@@ -883,7 +890,8 @@
                         "name": "双管短距"
                     },
                     "kjmyk2umxg": {
-                        "name": "双管中距"
+                        "name": "双管中距",
+                        "rof": "2d6"
                     },
                     "lmznwdbi7o": {
                         "name": "双管远距"
@@ -1128,14 +1136,14 @@
         "Heavy Laser": {
             "name": "重型激光枪",
             "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-            "notes": "重武器",
+            "notes": "重武器。",
             "actions": {
                 "skill": "射击"
             }
         },
         "Heavy Machine Gun": {
             "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p></div>",
-            "notes": "重武器",
+            "notes": "重武器。",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1327,7 +1335,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "notes": ".30-06"
         },
         "M2 Browning": {
             "name": "M2 勃朗宁",
@@ -1401,7 +1410,7 @@
         "Maul": {
             "name": "大槌",
             "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.双手]{双手 }，@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体 }时+2伤害。</p>\n</div>",
-            "notes": "双手，破坏物体时+2伤害。",
+            "notes": "双手，破坏物体时+2伤害",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -1522,10 +1531,12 @@
                 "skill": "射击",
                 "additional": {
                     "7q7m8whv0d": {
-                        "name": "格斗"
+                        "name": "格斗",
+                        "shotsUsed": 1
                     }
                 }
-            }
+            },
+            "range": "最大为2"
         },
         "Pike": {
             "name": "长矛",
@@ -1673,7 +1684,7 @@
         "SMG (Laser)": {
             "name": "冲锋枪 (激光)",
             "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@Compendium[swade-core-rules.swade-rules.伤害效果]{失血 }的@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击 }骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力 }减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架 }上。</p>\n</div>",
-            "notes": "Laser Battery, SMG/Rifle",
+            "notes": "激光枪电池, 冲锋枪/步枪",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1715,7 +1726,8 @@
                         "name": "双管短距"
                     },
                     "kjmyk2umxg": {
-                        "name": "双管中距"
+                        "name": "双管中距",
+                        "rof": "2d6"
                     },
                     "93c4552pi8": {
                         "name": "独头弹"
@@ -1789,7 +1801,8 @@
             }
         },
         "Sling stones": {
-            "name": "投石索弹丸"
+            "name": "投石索弹丸",
+            "description": "<div class=\"swade-core\">&nbsp;</div>"
         },
         "Small Shield": {
             "name": "小型盾牌",
@@ -1838,7 +1851,7 @@
         "Spear": {
             "name": "矛",
             "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.触及]{触及 }1，若是@Compendium[swade-core-rules.swade-rules.双手]{双手 }使用则@Compendium[swade-core-rules.swade-rules.格挡]{格挡 }+1。</p>\n</div>",
-            "notes": "触及1，若是双手使用则格挡+1。",
+            "notes": "触及1，若是双手使用则格挡+1",
             "actions": {
                 "skill": "运动",
                 "additional": {
@@ -1947,7 +1960,7 @@
         "Survival Knife": {
             "name": "求生刀",
             "description": "<div class=\"swade-core\"><p>多用途的基础工具，@Compendium[swade-core-rules.swade-skills.生存]{生存 }投骰+1。</p></div>",
-            "notes": "多用途的基础工具，生存投骰+1。",
+            "notes": "多用途的基础工具，生存投骰+1",
             "actions": {
                 "skill": "格斗"
             }
@@ -1955,7 +1968,7 @@
         "Switchblade": {
             "name": "弹簧刀",
             "description": "<div class=\"swade-core\">\n<p>若是隐藏，将其找出的@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }-2。</p>\n</div>",
-            "notes": "若是隐藏，将其找出的察觉-2。",
+            "notes": "若是隐藏，将其找出的察觉-2",
             "actions": {
                 "skill": "格斗"
             }
@@ -1976,7 +1989,7 @@
         "Sword, Long": {
             "name": "长剑",
             "description": "<div class=\"swade-core\"><p>基本的直剑和弯刀。</p></div>",
-            "notes": "基本的直剑和弯刀。",
+            "notes": "基本的直剑和弯刀",
             "actions": {
                 "skill": "格斗"
             }
@@ -1984,7 +1997,7 @@
         "Sword, Short": {
             "name": "短剑",
             "description": "<div class=\"swade-core\"><p>包括骑兵刀。</p></div>",
-            "notes": "包括骑兵刀。",
+            "notes": "包括骑兵刀",
             "actions": {
                 "skill": "格斗"
             }
@@ -2083,7 +2096,7 @@
         "Warhammer": {
             "name": "战锤",
             "description": "<div class=\"swade-core\">\n<p>带尖，@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }1</p>\n</div>",
-            "notes": "带尖，穿甲1。",
+            "notes": "带尖，穿甲1",
             "actions": {
                 "skill": "格斗"
             }
