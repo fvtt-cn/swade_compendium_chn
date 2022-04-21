@@ -38,11 +38,11 @@
         },
         "Construct": {
             "name": "构装体",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇  }中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病  }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素  }。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n</ul>\n</div>"
         },
         "Elemental": {
             "name": "元素",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素 }: </strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击  }受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病  }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素  }。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素 }: </strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n</ul>\n</div>"
         },
         "Ethereal": {
             "name": "灵态",
