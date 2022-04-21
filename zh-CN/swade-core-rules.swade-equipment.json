@@ -1036,7 +1036,7 @@
         },
         "Gatling (Laser)": {
             "name": "加特林 (激光)",
-            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@Compendium[swade-core-rules.swade-rules.伤害效果]{失血 }的@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击 }骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力 }减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架 }上。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@Compendium[swade-core-rules.swade-rules.伤害效果]{失血 }的@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击 }骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力 }减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架 }上。</p>\n</div>",
             "notes": "无后座，超载，烧灼",
             "actions": {
                 "skill": "射击",
