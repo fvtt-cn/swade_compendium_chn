@@ -1,7 +1,3 @@
-Hooks.on('init', () => {
-  CONFIG.SWADE.init.defaultCardCompendium = 'swade_compendium_chn.action-cards';
-});
-
 Hooks.once('ready', () => {
   CONFIG.SWADE.vehicles.opSkills = ['', '驾船', '驾驶', '航空', '骑乘'];
   game.settings.register('swade', 'parryBaseSkill', {
