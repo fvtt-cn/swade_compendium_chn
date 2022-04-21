@@ -1,1201 +1,1201 @@
 {
-	"label": "SWADE载具",
-	"mapping": {
-		"description": "data.description",
-		"skill": "data.driver.skill"
-	},
-	"entries": {
-		"AH-64 Apache": {
-			"name": "AH-64 阿帕奇武装直升机",
-			"description": "<div class=\"swade-core\">\n<p>Helicopter, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
-			"skill": "航空",
-			"items": {
-				"ZkQ5MB1hMIOKYsnN": {
-					"name": "地狱火导弹",
-					"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }。从车载发射器上发射的激光制导导弹。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }对抗目标的机动技能(驾船，驾驶或是航空，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的@Compendium[swade-core-rules.swade-rules.追逐与载具{机动 }投骰来尝试回避(如果目标有结实的掩体可供躲藏—􍄔比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着载具<strong>@Compendium[swade-core-rules.swade-tables.失控]{失控 }</strong>。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机 }才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在@Compendium[swade-core-rules.swade-rules.射程]{近距 }射程进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度 }达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }为8(2)的物件(见<strong>@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体 }</strong>)。</p>\n</div>",
-					"notes": "重武器。从车载发射器上发射的激光制导导弹。",
-					"actions": {
-						"skill": "射击"
-					}
-				},
-				"lnvng9WbqaaN1Q2x": {
-					"name": "30mm 加农炮 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"i4ht7b587x": {
-								"name": "射速3 攻击"
-							},
-							"obyryv42xo": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"AV-8B Harrier": {
-			"name": "AV-8B 鹞式战斗机",
-			"description": "<div class=\"swade-core\">\n<p>在垂直起落模式时@Compendium[swade-core-rules.swade-rules.载具注释]{操控性 }为-1。</p>\n</div>",
-			"skill": "航空",
-			"items": {
-				"scF8tYijOo5SXEYe": {
-					"name": "25mm 加农炮 (前固定)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"5yjdf9igio": {
-								"name": "射速3 攻击"
-							},
-							"zsg7m6dasg": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"EdvU8l2DYvpFGYRV": {
-					"name": "响尾蛇导弹",
-					"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }。从飞行器上发射的短距热追踪导弹。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }对抗目标的机动技能(驾船，驾驶或是航空，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的@Compendium[swade-core-rules.swade-rules.追逐与载具{机动 }投骰来尝试回避(如果目标有结实的掩体可供躲藏—􍄔比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着载具<strong>@Compendium[swade-core-rules.swade-tables.失控]{失控 }</strong>.</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机 }才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在@Compendium[swade-core-rules.swade-rules.射程]{近距 }射程进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度 }达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }为8(2)的物件(见<strong>@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体 }</strong>).</p>\n</div>",
-					"notes": "重武器。从飞行器上发射的短距热追踪导弹。",
-					"actions": {
-						"skill": "射击"
-					}
-				}
-			}
-		},
-		"B-17 Flying Fortress": {
-			"name": "B-17 空中堡垒轰炸机",
-			"skill": "航空",
-			"items": {
-				"vGDSgq9MVjJyk3Hl": {
-					"name": "2×联装重型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"8T1mpMsIcuhLXWDZ": {
-					"name": "2×联装重型机枪 (前端转台)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"eHamz63rpUvEmwjo": {
-					"name": "2×联装重型机枪 (球形转台)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"9zs2WdfPObWDx45b": {
-					"name": "2×联装重型机枪 (左固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"eSmG24Nukyi7LJ2O": {
-					"name": "2×联装重型机枪 (右固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"BF-109": {
-			"name": "BF-109 战斗机",
-			"skill": "航空",
-			"items": {
-				"mscUj2HMfBODgiLY": {
-					"name": "2×联装重型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"k6vKhGYNbFUuibDv": {
-					"name": "20mm 加农炮 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
-					"notes": "Heavy",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"v55r9y7c1y": {
-								"name": "射速4 攻击"
-							},
-							"4jefkit9vp": {
-								"name": "射速3 攻击"
-							},
-							"fj7aptxndg": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"BTR 70 APC": {
-			"name": "BTR 70 装甲运兵车",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{两栖 }, @Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }, @Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"4wJIKzRHGm6xIpJt": {
-					"name": "重型机枪 (转塔)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"D4KqNRF9tmb2X7v3": {
-					"name": "中型机枪 (转塔)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Bicycle": {
-			"name": "自行车",
-			"skill": "驾驶",
-			"description": "<div class=\"swade-core\"><p>射击有50%几率会转而击中骑手，骑手的@Compendium[swade-core-rules.swade-rules.移动]{移速 }和@Compendium[swade-core-rules.swade-rules.移动]{奔跑骰 }结果翻倍。</p></div>"
-		},
-		"Biplane": {
-			"name": "双翼飞机",
-			"skill": "航空"
-		},
-		"Carriage": {
-			"name": "马车",
-			"description": "<div class=\"swade-core\"><p>以单匹@Compendium[swade-core-rules.swade-equipment.马]{马 }拉动。桌面上的@Compendium[swade-core-rules.swade-rules.移动]{移速 }是12，而且可以奔跑。</p></div>",
-			"skill": "骑乘"
-		},
-		"Cessna Skyhawk": {
-			"name": "塞斯纳型天鹰飞机",
-			"skill": "航空"
-		},
-		"Compact Car": {
-			"name": "小型汽车",
-			"description": "<div class=\"swade-core\"><p>本田思域等类似汽车。</p></div>",
-			"skill": "驾驶"
-		},
-		"Dirt Bike": {
-			"name": "越野摩托车",
-			"description": "<div class=\"swade-core\">\n<p>具有优秀缓冲的常见越野摩托车，越野(视作@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 })，未指定具体目标的射击有50%几率会击中角色)。</p>\n</div>",
-			"skill": "驾驶"
-		},
-		"Early Car": {
-			"name": "早期汽车",
-			"description": "<div class=\"swade-core\">福特T型车之类的。</div>",
-			"skill": "驾驶"
-		},
-		"F-15 Eagle": {
-			"name": "F-15 鹰式战斗机",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
-			"skill": "航空",
-			"items": {
-				"dffORL9Ksa1YunhZ": {
-					"name": "20mm 加农炮 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"v55r9y7c1y": {
-								"name": "射速4 攻击"
-							},
-							"4jefkit9vp": {
-								"name": "射速3 攻击"
-							},
-							"fj7aptxndg": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Galleon": {
-			"name": "大帆船",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
-			"skill": "驾船",
-			"items": {
-				"7WuOXZ4o4Tlpfpyx": {
-					"name": "16到46x加农炮 (12磅), 实心弹(左右固定)",
-					"description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰失败则其偏移翻倍(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击 })。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>实心弹：</strong>用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p>\n<p>针对每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰单独结算，使用基础TN(4)并算上各目标的@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽 }以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避 } 专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，出现优良则是3d6伤害。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }，@Compendium[swade-core-rules.swade-rules.装填]{装填 }为8，两名炮组成员能同时进行装填。</p>\n</div>",
-					"notes": "所有种类的炮弹都是重武器，装填为8，两名炮组成员能同时进行装填。",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"0urmam31b2": {
-								"name": "炮轰, 大概位置"
-							},
-							"41i04mkdo8": {
-								"name": "炮轰, 精准位置"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Galley": {
-			"name": "桨帆船",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }。同时具有船桨和船帆。</p>\n</div>",
-			"skill": "驾船",
-			"items": {
-				"lJGPVUQLj4tQ2f6Z": {
-					"name": "投石机 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }，四人装填时间需要5分钟。</p>\n<hr />\n<p>投石机是把大块石头抛向敌方防御工事以及部队阵列的简易装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但@Compendium[swade-core-rules.swade-rules.装填]{装填 }投射物至少需要四名人员</p>\n</div>",
-					"notes": "中型爆散盖板, 重武器，四人装填时间需要5分钟。",
-					"actions": {
-						"skill": "射击"
-					}
-				}
-			}
-		},
-		"Helicopter": {
-			"name": "直升机",
-			"skill": "航空"
-		},
-		"Hover APC": {
-			"name": "悬浮装甲运兵车",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{悬浮 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"1il4m3UBnNEG9Gzq": {
-					"name": "加特林 (激光) (前固定, 应敌火力)",
-					"description": "<div class='swade-core'><p>@Compendium[swade-core-rules.swade-rules.激光 (未来) 表]{无后座, 超载, 烧灼 }</p></div>",
-					"notes": "无后座, 超载, 烧灼",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"1wmca7vx5i": {
-								"name": "射速4 攻击"
-							},
-							"whqv1usyq4": {
-								"name": "射速3 攻击"
-							},
-							"ylps4cskeu": {
-								"name": "射速2 攻击"
-							},
-							"tmf4mxdq73": {
-								"name": "射速4 应敌火力"
-							},
-							"iaeloj64lc": {
-								"name": "射速3 应敌火力"
-							},
-							"mxkqcw5evu": {
-								"name": "射速2 应敌火力"
-							},
-							"qydxwqerih": {
-								"name": "超载"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Hover Tank": {
-			"name": "悬浮坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{悬浮 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"JwBrJ8FKE3KcJEuT": {
-					"name": "重型激光炮 (转台, 高级稳定器)",
-					"description": "<div class='swade-core'><p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"ns40ntpasw": {
-								"name": "超载"
-							}
-						}
-					}
-				},
-				"VGWEThHm3ub99k4g": {
-					"name": "加特林 (激光) (前固定, 应敌火力)",
-					"description": "<div class='swade-core'><p>@Compendium[swade-core-rules.swade-rules.激光 (未来) 表]{无后座, 超载, 烧灼 }</p></div>",
-					"notes": "无后座, 超载, 烧灼",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"1wmca7vx5i": {
-								"name": "射速4 攻击"
-							},
-							"whqv1usyq4": {
-								"name": "射速3 攻击"
-							},
-							"ylps4cskeu": {
-								"name": "射速2 攻击"
-							},
-							"4cmmljg729": {
-								"name": "射速4 应敌火力"
-							},
-							"llu10do9xv": {
-								"name": "射速3 应敌火力"
-							},
-							"hd90xzrsf1": {
-								"name": "射速2 应敌火力"
-							},
-							"0rlkbuly0q": {
-								"name": "超载"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Hydrofoil": {
-			"name": "水翼船",
-			"skill": "驾船"
-		},
-		"Japanese Zero": {
-			"name": "日本零式战斗机",
-			"skill": "航空",
-			"items": {
-				"eiXElDvhNrsI8VHn": {
-					"name": "2×联装中型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"ynEMEFr7HBYkKlk4": {
-					"name": "2×联装20mm加农炮 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
-					"notes": "Heavy",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"v55r9y7c1y": {
-								"name": "射速4 攻击"
-							},
-							"4jefkit9vp": {
-								"name": "射速3 攻击"
-							},
-							"fj7aptxndg": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Jeep": {
-			"name": "吉普车",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"aQoMV9JHbSnuW9UC": {
-					"name": "重型机枪 (前同轴)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Learjet": {
-			"name": "里尔喷射机",
-			"skill": "航空"
-		},
-		"M1A1 Abrams": {
-			"name": "M1A1 艾布拉姆斯主战坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"mb6PTM4s4oyowckx": {
-					"name": "120mm 坦克炮 (穿甲弹) (高级稳定器)",
-					"description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"7400xvwkea": {
-								"name": "近距"
-							}
-						}
-					}
-				},
-				"Dyc2Twy7EFW8ER1B": {
-					"name": "中型机枪 (前固定及转塔)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }.</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"tN123StgP65SKmEe": {
-					"name": "重型机枪 (转塔同轴)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"M2 Bradley": {
-			"name": "M2 布雷德利步兵战车",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"uJiBGbLSAqWlLvnE": {
-					"name": "25mm 加农炮 (高级稳定器)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"5yjdf9igio": {
-								"name": "射速3 攻击"
-							},
-							"zsg7m6dasg": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"GOvJX3jxt6G6WhH8": {
-					"name": "中型机枪 (转塔上)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"M4 Sherman": {
-			"name": "M4 谢尔曼中型坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"iK28mNind2BYFWyM": {
-					"name": "中型机枪 (前固定)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"K4eedxjRyajTcrOd": {
-					"name": "重型机枪 (转塔同轴)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n<p class=\"p1\" style=\"margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: 'Helvetica Neue'; -webkit-text-stroke-color: #000000;\">&nbsp;</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"oRqTE9IQLdxfOZX1": {
-					"name": "75mm 坦克炮 (穿甲弹) (转台, 稳定器)",
-					"description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"a7ahcucjed": {
-								"name": "近距"
-							}
-						}
-					}
-				}
-			}
-		},
-		"M5A1 Stuart": {
-			"name": "M5A1 斯图亚特轻型坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"7vPQYG4hx8cRtKJe": {
-					"name": "37mm 反坦克炮 (穿甲弹) (转台, 稳定器)",
-					"description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"pmv6i5ctzd": {
-								"name": "近距"
-							}
-						}
-					}
-				},
-				"9UNgNinz3Fhl1U8G": {
-					"name": "中型机枪 (前固定)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"ezLyfZf6P8encMPJ": {
-					"name": "重型机枪 (转塔同轴)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Mid-Sized Car": {
-			"name": "中型汽车",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{气囊 }，奢华外表。</p>\n</div>",
-			"skill": "驾驶"
-		},
-		"Minivan": {
-			"name": "小型货车",
-			"description": "<div class=\"swade-core\">\n<p>典型的家用小型货车。@Compendium[swade-core-rules.swade-rules.载具注释]{气囊 }，其中一些外表奢华。</p>\n</div>",
-			"skill": "驾驶"
-		},
-		"P-51 Mustang": {
-			"name": "P-51 野马战斗机",
-			"description": "<div class=\"swade-core\">&nbsp;</div>",
-			"skill": "航空",
-			"items": {
-				"9KyMYbkYSjKHAes1": {
-					"name": "2×联装重型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"I37Wh5utmCezlMZ5": {
-					"name": "2×联装重型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"dRJkqj0bIuL67cNe": {
-					"name": "2×联装重型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"PT Boat (WW2)": {
-			"name": "鱼雷艇 (二战)",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
-			"skill": "驾船",
-			"items": {
-				"4v74UcGjmOzxJpEe": {
-					"name": ".50口径机枪 (前同轴)",
-					"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 }</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或 是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.两脚架/三脚架]{两脚架/三脚架 }或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力 }减值。机枪的最低力量一般是“NA”，或是“不适用”。如果这把武器的确列出了@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量 }，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射 }及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速 }是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填 }是2，包括更换弹链、弹鼓以及拉栓等等。</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"7r05pvxs8m": {
-								"name": "射速3 攻击"
-							},
-							"jnh5swl3sr": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"tdNJIhLncR6FtGaQ": {
-					"name": "重型机枪 (后同轴)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"tTmL36kU3p8opaIL": {
-					"name": "4×鱼雷管 (前固定)",
-					"description": "<div class='swade-core'><p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。以下列出的武器皆是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }.</p>\n<p>@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型爆散盖板 }</p></div>",
-					"notes": "大型爆散盖板, 重武器.",
-					"actions": {
-						"skill": "射击"
-					}
-				}
-			}
-		},
-		"Patrol Boat, River": {
-			"name": "巡河艇",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
-			"skill": "驾船",
-			"items": {
-				"7UJmPpc549mdCmSh": {
-					"name": "2×联装重型机枪 (前同轴)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"LFrUWmn3bpQ4LVv8": {
-					"name": "2×联装中型机枪 (左右两边)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"fqbUNGy2HYpgNUfJ": {
-					"name": "重型机枪 (船尾)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Pz IVJ": {
-			"name": "IV号J型中型坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"2OBqmO7ExtPsCFka": {
-					"name": "中型机枪 (前固定及转塔)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"QO1pqbx91oyr77CA": {
-					"name": "75mm 坦克炮 (穿甲弹) (转塔)",
-					"description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"a7ahcucjed": {
-								"name": "近距"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Pz VI Tiger II": {
-			"name": "虎王重型坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"bTZ7BXL7mbuuzw4y": {
-					"name": "88mm 坦克炮 (穿甲弹) (转塔)",
-					"description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"gj8eb9r0ki": {
-								"name": "近距"
-							}
-						}
-					}
-				},
-				"tLd4094TVYknQTt3": {
-					"name": "中型机枪 (前固定及转塔)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Rowboat": {
-			"name": "划艇",
-			"skill": "驾船"
-		},
-		"SU-27": {
-			"name": "苏-27 战斗机",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
-			"skill": "航空",
-			"items": {
-				"DMVzHDZh1Lg6Tbfp": {
-					"name": "30mm 加农炮 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
-					"notes": "重武器",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"i4ht7b587x": {
-								"name": "射速3 攻击"
-							},
-							"obyryv42xo": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"u9DHb70boP2rn4kI": {
-					"name": "响尾蛇导弹 (苏联同等级别导弹)",
-					"description": "<div class=\"swade-core\">\n<p><span style=\"background-color: #dfe6f5; color: #191813;\">@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 }</span>。从飞行器上发射的短距热追踪导弹。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆散盖板 }.</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }对抗目标的机动技能(驾船，驾驶或是航空，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的@Compendium[swade-core-rules.swade-rules.追逐与载具{机动 }投骰来尝试回避(如果目标有结实的掩体可供躲藏—􍄔比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着载具<strong>@Compendium[swade-core-rules.swade-tables.失控]{失控 }</strong></p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机 }才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在@Compendium[swade-core-rules.swade-rules.射程]{近距 }射程进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度 }达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }为8(2)的物件(见<strong>@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体 }</strong>)。</p>\n</div>",
-					"notes": "重武器。从飞行器上发射的短距热追踪导弹。",
-					"actions": {
-						"skill": "射击"
-					}
-				}
-			}
-		},
-		"Semi-Truck": {
-			"name": "卡车",
-			"description": "<div class=\"swade-core\">\n<p>拖箱@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型 }是7 (大型), @Compendium[swade-core-rules.swade-rules.角色]{坚韧 }14(2). *附有拖箱时@Compendium[swade-core-rules.swade-rules.载具注释]{操控性 }是-2。</p>\n</div>",
-			"skill": "驾驶"
-		},
-		"Small Yacht": {
-			"name": "游艇",
-			"skill": "驾船"
-		},
-		"Space Shuttle": {
-			"name": "航天飞机",
-			"skill": "航空"
-		},
-		"Speed Boat": {
-			"name": "快艇",
-			"skill": "驾船"
-		},
-		"Spitfire Mk IIA": {
-			"name": "喷火MK2A战斗机",
-			"skill": "航空",
-			"items": {
-				"Et0TUJzkbZVncwAq": {
-					"name": "4×联装中型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"dlbJt1xpqgODvQ77": {
-					"name": "4×联装中型机枪 (前固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"Sports Car": {
-			"name": "跑车",
-			"description": "<div class=\"swade-core\">\n<p class=\"swade-core\">野马或是类似的常见跑车。</p>\n</div>",
-			"skill": "驾驶"
-		},
-		"Sports Utility Vehicle": {
-			"name": "SUV",
-			"description": "<div class=\"swade-core\">\n<p>奢华外表，@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }</p>\n</div>",
-			"skill": "驾驶"
-		},
-		"Street Bike": {
-			"name": "城市摩托车",
-			"description": "<div class=\"swade-core\"><p>常见的城市用名牌街道摩托车，未指定具体部位的射击有50%几率会转而击中角色。</p></div>",
-			"skill": "驾驶"
-		},
-		"T-34/76": {
-			"name": "T-34/76 中型坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{倾斜装甲 } (只有前面), @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"izqnBfepu5r5upwN": {
-					"name": "76mm 坦克炮 (穿甲弹) (转塔)",
-					"description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"deh7sce7my": {
-								"name": "近距"
-							}
-						}
-					}
-				},
-				"fI9uqqLwaczVWR4r": {
-					"name": "中型机枪 (前固定及转塔)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"T-72 MBT": {
-			"name": "T-72 主战坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"SPjWzVjoyXetiGzF": {
-					"name": "125mm 坦克炮 (穿甲弹)",
-					"description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }&nbsp;</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"wbhu8yehva": {
-								"name": "近距 AP"
-							}
-						}
-					}
-				},
-				"xW0FNYteTDslG9g1": {
-					"name": "中型机枪 (转塔上)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"dkO6ixIyKRsiSTOB": {
-					"name": "重型机枪 (转塔同轴)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"T80 MBT": {
-			"name": "T80 主战坦克",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
-			"skill": "驾驶",
-			"items": {
-				"8UZ7FALmttsECSoR": {
-					"name": "125mm 坦克炮 (穿甲弹) (高级稳定器)",
-					"description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"wbhu8yehva": {
-								"name": "近距 AP"
-							}
-						}
-					}
-				},
-				"vO5OqdqKZpD1Ay2k": {
-					"name": "中型机枪 (转塔上)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				},
-				"pJXPzaiI1Pbcm4Va": {
-					"name": "重型机枪 (转塔同轴)",
-					"description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"slr23nl1ss": {
-								"name": "射速3 攻击"
-							},
-							"q3e75vog4f": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		},
-		"UH-1 (Huey)": {
-			"name": "UH-1 易洛魁直升机",
-			"description": "<div class=\"swade-core\">直升机</div>",
-			"skill": "航空",
-			"items": {
-				"aEhMXhg93IU380Cp": {
-					"name": "中型机枪 (左/右固定)",
-					"description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
-					"notes": "重武器.",
-					"actions": {
-						"skill": "射击",
-						"additional": {
-							"81qhst5kyq": {
-								"name": "射速3 攻击"
-							},
-							"yjszf9r0co": {
-								"name": "射速2 攻击"
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+    "label": "SWADE载具",
+    "mapping": {
+        "description": "data.description",
+        "skill": "data.driver.skill"
+    },
+    "entries": {
+        "AH-64 Apache": {
+            "name": "AH-64 阿帕奇武装直升机",
+            "description": "<div class=\"swade-core\">\n<p>Helicopter, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "航空",
+            "items": {
+                "ZkQ5MB1hMIOKYsnN": {
+                    "name": "地狱火导弹",
+                    "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }。从车载发射器上发射的激光制导导弹。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }对抗目标的机动技能(驾船，驾驶或是航空，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的@Compendium[swade-core-rules.swade-rules.追逐与载具{机动 }投骰来尝试回避(如果目标有结实的掩体可供躲藏—􍄔比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着载具<strong>@Compendium[swade-core-rules.swade-tables.失控]{失控 }</strong>。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机 }才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在@Compendium[swade-core-rules.swade-rules.射程]{近距 }射程进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度 }达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }为8(2)的物件(见<strong>@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体 }</strong>)。</p>\n</div>",
+                    "notes": "重武器。从车载发射器上发射的激光制导导弹。",
+                    "actions": {
+                        "skill": "射击"
+                    }
+                },
+                "lnvng9WbqaaN1Q2x": {
+                    "name": "30mm 加农炮 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "i4ht7b587x": {
+                                "name": "射速3 攻击"
+                            },
+                            "obyryv42xo": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "AV-8B Harrier": {
+            "name": "AV-8B 鹞式战斗机",
+            "description": "<div class=\"swade-core\">\n<p>在垂直起落模式时@Compendium[swade-core-rules.swade-rules.载具注释]{操控性 }为-1。</p>\n</div>",
+            "skill": "航空",
+            "items": {
+                "scF8tYijOo5SXEYe": {
+                    "name": "25mm 加农炮 (前固定)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "5yjdf9igio": {
+                                "name": "射速3 攻击"
+                            },
+                            "zsg7m6dasg": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "EdvU8l2DYvpFGYRV": {
+                    "name": "响尾蛇导弹",
+                    "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }。从飞行器上发射的短距热追踪导弹。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }对抗目标的机动技能(驾船，驾驶或是航空，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的@Compendium[swade-core-rules.swade-rules.追逐与载具{机动 }投骰来尝试回避(如果目标有结实的掩体可供躲藏—􍄔比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着载具<strong>@Compendium[swade-core-rules.swade-tables.失控]{失控 }</strong>.</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机 }才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在@Compendium[swade-core-rules.swade-rules.射程]{近距 }射程进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度 }达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }为8(2)的物件(见<strong>@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体 }</strong>).</p>\n</div>",
+                    "notes": "重武器。从飞行器上发射的短距热追踪导弹。",
+                    "actions": {
+                        "skill": "射击"
+                    }
+                }
+            }
+        },
+        "B-17 Flying Fortress": {
+            "name": "B-17 空中堡垒轰炸机",
+            "skill": "航空",
+            "items": {
+                "vGDSgq9MVjJyk3Hl": {
+                    "name": "2×联装重型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "8T1mpMsIcuhLXWDZ": {
+                    "name": "2×联装重型机枪 (前端转台)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "eHamz63rpUvEmwjo": {
+                    "name": "2×联装重型机枪 (球形转台)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "9zs2WdfPObWDx45b": {
+                    "name": "2×联装重型机枪 (左固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "eSmG24Nukyi7LJ2O": {
+                    "name": "2×联装重型机枪 (右固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "BF-109": {
+            "name": "BF-109 战斗机",
+            "skill": "航空",
+            "items": {
+                "mscUj2HMfBODgiLY": {
+                    "name": "2×联装重型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "k6vKhGYNbFUuibDv": {
+                    "name": "20mm 加农炮 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
+                    "notes": "Heavy",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "v55r9y7c1y": {
+                                "name": "射速4 攻击"
+                            },
+                            "4jefkit9vp": {
+                                "name": "射速3 攻击"
+                            },
+                            "fj7aptxndg": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "BTR 70 APC": {
+            "name": "BTR 70 装甲运兵车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{两栖 }, @Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }, @Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "4wJIKzRHGm6xIpJt": {
+                    "name": "重型机枪 (转塔)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "D4KqNRF9tmb2X7v3": {
+                    "name": "中型机枪 (转塔)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Bicycle": {
+            "name": "自行车",
+            "skill": "驾驶",
+            "description": "<div class=\"swade-core\"><p>射击有50%几率会转而击中骑手，骑手的@Compendium[swade-core-rules.swade-rules.移动]{移速 }和@Compendium[swade-core-rules.swade-rules.移动]{奔跑骰 }结果翻倍。</p></div>"
+        },
+        "Biplane": {
+            "name": "双翼飞机",
+            "skill": "航空"
+        },
+        "Carriage": {
+            "name": "马车",
+            "description": "<div class=\"swade-core\"><p>以单匹@Compendium[swade-core-rules.swade-equipment.马]{马 }拉动。桌面上的@Compendium[swade-core-rules.swade-rules.移动]{移速 }是12，而且可以奔跑。</p></div>",
+            "skill": "骑乘"
+        },
+        "Cessna Skyhawk": {
+            "name": "塞斯纳型天鹰飞机",
+            "skill": "航空"
+        },
+        "Compact Car": {
+            "name": "小型汽车",
+            "description": "<div class=\"swade-core\"><p>本田思域等类似汽车。</p></div>",
+            "skill": "驾驶"
+        },
+        "Dirt Bike": {
+            "name": "越野摩托车",
+            "description": "<div class=\"swade-core\">\n<p>具有优秀缓冲的常见越野摩托车，越野(视作@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 })，未指定具体目标的射击有50%几率会击中角色)。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Early Car": {
+            "name": "早期汽车",
+            "description": "<div class=\"swade-core\">福特T型车之类的。</div>",
+            "skill": "驾驶"
+        },
+        "F-15 Eagle": {
+            "name": "F-15 鹰式战斗机",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "航空",
+            "items": {
+                "dffORL9Ksa1YunhZ": {
+                    "name": "20mm 加农炮 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "v55r9y7c1y": {
+                                "name": "射速4 攻击"
+                            },
+                            "4jefkit9vp": {
+                                "name": "射速3 攻击"
+                            },
+                            "fj7aptxndg": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Galleon": {
+            "name": "大帆船",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾船",
+            "items": {
+                "7WuOXZ4o4Tlpfpyx": {
+                    "name": "16到46x加农炮 (12磅), 实心弹(左右固定)",
+                    "description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰失败则其偏移翻倍(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击 })。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>实心弹：</strong>用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p>\n<p>针对每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰单独结算，使用基础TN(4)并算上各目标的@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽 }以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避 } 专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，出现优良则是3d6伤害。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }，@Compendium[swade-core-rules.swade-rules.装填]{装填 }为8，两名炮组成员能同时进行装填。</p>\n</div>",
+                    "notes": "所有种类的炮弹都是重武器，装填为8，两名炮组成员能同时进行装填。",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "0urmam31b2": {
+                                "name": "炮轰, 大概位置"
+                            },
+                            "41i04mkdo8": {
+                                "name": "炮轰, 精准位置"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Galley": {
+            "name": "桨帆船",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }。同时具有船桨和船帆。</p>\n</div>",
+            "skill": "驾船",
+            "items": {
+                "lJGPVUQLj4tQ2f6Z": {
+                    "name": "投石机 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }，四人装填时间需要5分钟。</p>\n<hr />\n<p>投石机是把大块石头抛向敌方防御工事以及部队阵列的简易装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但@Compendium[swade-core-rules.swade-rules.装填]{装填 }投射物至少需要四名人员</p>\n</div>",
+                    "notes": "中型爆散盖板, 重武器，四人装填时间需要5分钟。",
+                    "actions": {
+                        "skill": "射击"
+                    }
+                }
+            }
+        },
+        "Helicopter": {
+            "name": "直升机",
+            "skill": "航空"
+        },
+        "Hover APC": {
+            "name": "悬浮装甲运兵车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{悬浮 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "1il4m3UBnNEG9Gzq": {
+                    "name": "加特林 (激光) (前固定, 应敌火力)",
+                    "description": "<div class='swade-core'><p>@Compendium[swade-core-rules.swade-rules.激光 (未来) 表]{无后座, 超载, 烧灼 }</p></div>",
+                    "notes": "无后座, 超载, 烧灼",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "1wmca7vx5i": {
+                                "name": "射速4 攻击"
+                            },
+                            "whqv1usyq4": {
+                                "name": "射速3 攻击"
+                            },
+                            "ylps4cskeu": {
+                                "name": "射速2 攻击"
+                            },
+                            "tmf4mxdq73": {
+                                "name": "射速4 应敌火力"
+                            },
+                            "iaeloj64lc": {
+                                "name": "射速3 应敌火力"
+                            },
+                            "mxkqcw5evu": {
+                                "name": "射速2 应敌火力"
+                            },
+                            "qydxwqerih": {
+                                "name": "超载"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Hover Tank": {
+            "name": "悬浮坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{悬浮 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "JwBrJ8FKE3KcJEuT": {
+                    "name": "重型激光炮 (转台, 高级稳定器)",
+                    "description": "<div class='swade-core'><p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "ns40ntpasw": {
+                                "name": "超载"
+                            }
+                        }
+                    }
+                },
+                "VGWEThHm3ub99k4g": {
+                    "name": "加特林 (激光) (前固定, 应敌火力)",
+                    "description": "<div class='swade-core'><p>@Compendium[swade-core-rules.swade-rules.激光 (未来) 表]{无后座, 超载, 烧灼 }</p></div>",
+                    "notes": "无后座, 超载, 烧灼",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "1wmca7vx5i": {
+                                "name": "射速4 攻击"
+                            },
+                            "whqv1usyq4": {
+                                "name": "射速3 攻击"
+                            },
+                            "ylps4cskeu": {
+                                "name": "射速2 攻击"
+                            },
+                            "4cmmljg729": {
+                                "name": "射速4 应敌火力"
+                            },
+                            "llu10do9xv": {
+                                "name": "射速3 应敌火力"
+                            },
+                            "hd90xzrsf1": {
+                                "name": "射速2 应敌火力"
+                            },
+                            "0rlkbuly0q": {
+                                "name": "超载"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Hydrofoil": {
+            "name": "水翼船",
+            "skill": "驾船"
+        },
+        "Japanese Zero": {
+            "name": "日本零式战斗机",
+            "skill": "航空",
+            "items": {
+                "eiXElDvhNrsI8VHn": {
+                    "name": "2×联装中型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "ynEMEFr7HBYkKlk4": {
+                    "name": "2×联装20mm加农炮 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
+                    "notes": "Heavy",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "v55r9y7c1y": {
+                                "name": "射速4 攻击"
+                            },
+                            "4jefkit9vp": {
+                                "name": "射速3 攻击"
+                            },
+                            "fj7aptxndg": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Jeep": {
+            "name": "吉普车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "aQoMV9JHbSnuW9UC": {
+                    "name": "重型机枪 (前同轴)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Learjet": {
+            "name": "里尔喷射机",
+            "skill": "航空"
+        },
+        "M1A1 Abrams": {
+            "name": "M1A1 艾布拉姆斯主战坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "mb6PTM4s4oyowckx": {
+                    "name": "120mm 坦克炮 (穿甲弹) (高级稳定器)",
+                    "description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "7400xvwkea": {
+                                "name": "近距"
+                            }
+                        }
+                    }
+                },
+                "Dyc2Twy7EFW8ER1B": {
+                    "name": "中型机枪 (前固定及转塔)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }.</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "tN123StgP65SKmEe": {
+                    "name": "重型机枪 (转塔同轴)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "M2 Bradley": {
+            "name": "M2 布雷德利步兵战车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "uJiBGbLSAqWlLvnE": {
+                    "name": "25mm 加农炮 (高级稳定器)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "5yjdf9igio": {
+                                "name": "射速3 攻击"
+                            },
+                            "zsg7m6dasg": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "GOvJX3jxt6G6WhH8": {
+                    "name": "中型机枪 (转塔上)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "M4 Sherman": {
+            "name": "M4 谢尔曼中型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "iK28mNind2BYFWyM": {
+                    "name": "中型机枪 (前固定)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "K4eedxjRyajTcrOd": {
+                    "name": "重型机枪 (转塔同轴)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n<p class=\"p1\" style=\"margin-top: 0px; margin-bottom: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: 'Helvetica Neue'; -webkit-text-stroke-color: #000000;\">&nbsp;</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "oRqTE9IQLdxfOZX1": {
+                    "name": "75mm 坦克炮 (穿甲弹) (转台, 稳定器)",
+                    "description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "a7ahcucjed": {
+                                "name": "近距"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "M5A1 Stuart": {
+            "name": "M5A1 斯图亚特轻型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "7vPQYG4hx8cRtKJe": {
+                    "name": "37mm 反坦克炮 (穿甲弹) (转台, 稳定器)",
+                    "description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "pmv6i5ctzd": {
+                                "name": "近距"
+                            }
+                        }
+                    }
+                },
+                "9UNgNinz3Fhl1U8G": {
+                    "name": "中型机枪 (前固定)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "ezLyfZf6P8encMPJ": {
+                    "name": "重型机枪 (转塔同轴)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Mid-Sized Car": {
+            "name": "中型汽车",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{气囊 }，奢华外表。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Minivan": {
+            "name": "小型货车",
+            "description": "<div class=\"swade-core\">\n<p>典型的家用小型货车。@Compendium[swade-core-rules.swade-rules.载具注释]{气囊 }，其中一些外表奢华。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "P-51 Mustang": {
+            "name": "P-51 野马战斗机",
+            "description": "<div class=\"swade-core\">&nbsp;</div>",
+            "skill": "航空",
+            "items": {
+                "9KyMYbkYSjKHAes1": {
+                    "name": "2×联装重型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "I37Wh5utmCezlMZ5": {
+                    "name": "2×联装重型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "dRJkqj0bIuL67cNe": {
+                    "name": "2×联装重型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "PT Boat (WW2)": {
+            "name": "鱼雷艇 (二战)",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾船",
+            "items": {
+                "4v74UcGjmOzxJpEe": {
+                    "name": ".50口径机枪 (前同轴)",
+                    "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 }</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或 是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.两脚架/三脚架]{两脚架/三脚架 }或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力 }减值。机枪的最低力量一般是“NA”，或是“不适用”。如果这把武器的确列出了@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量 }，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射 }及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速 }是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填 }是2，包括更换弹链、弹鼓以及拉栓等等。</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "7r05pvxs8m": {
+                                "name": "射速3 攻击"
+                            },
+                            "jnh5swl3sr": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "tdNJIhLncR6FtGaQ": {
+                    "name": "重型机枪 (后同轴)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "tTmL36kU3p8opaIL": {
+                    "name": "4×鱼雷管 (前固定)",
+                    "description": "<div class='swade-core'><p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。以下列出的武器皆是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }.</p>\n<p>@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型爆散盖板 }</p></div>",
+                    "notes": "大型爆散盖板, 重武器.",
+                    "actions": {
+                        "skill": "射击"
+                    }
+                }
+            }
+        },
+        "Patrol Boat, River": {
+            "name": "巡河艇",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }.</p>\n</div>",
+            "skill": "驾船",
+            "items": {
+                "7UJmPpc549mdCmSh": {
+                    "name": "2×联装重型机枪 (前同轴)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "LFrUWmn3bpQ4LVv8": {
+                    "name": "2×联装中型机枪 (左右两边)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "fqbUNGy2HYpgNUfJ": {
+                    "name": "重型机枪 (船尾)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Pz IVJ": {
+            "name": "IV号J型中型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "2OBqmO7ExtPsCFka": {
+                    "name": "中型机枪 (前固定及转塔)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "QO1pqbx91oyr77CA": {
+                    "name": "75mm 坦克炮 (穿甲弹) (转塔)",
+                    "description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "a7ahcucjed": {
+                                "name": "近距"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Pz VI Tiger II": {
+            "name": "虎王重型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "bTZ7BXL7mbuuzw4y": {
+                    "name": "88mm 坦克炮 (穿甲弹) (转塔)",
+                    "description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "gj8eb9r0ki": {
+                                "name": "近距"
+                            }
+                        }
+                    }
+                },
+                "tLd4094TVYknQTt3": {
+                    "name": "中型机枪 (前固定及转塔)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Rowboat": {
+            "name": "划艇",
+            "skill": "驾船"
+        },
+        "SU-27": {
+            "name": "苏-27 战斗机",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }.</p>\n</div>",
+            "skill": "航空",
+            "items": {
+                "DMVzHDZh1Lg6Tbfp": {
+                    "name": "30mm 加农炮 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n</div>",
+                    "notes": "重武器",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "i4ht7b587x": {
+                                "name": "射速3 攻击"
+                            },
+                            "obyryv42xo": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "u9DHb70boP2rn4kI": {
+                    "name": "响尾蛇导弹 (苏联同等级别导弹)",
+                    "description": "<div class=\"swade-core\">\n<p><span style=\"background-color: #dfe6f5; color: #191813;\">@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 }</span>。从飞行器上发射的短距热追踪导弹。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆散盖板 }.</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }对抗目标的机动技能(驾船，驾驶或是航空，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的@Compendium[swade-core-rules.swade-rules.追逐与载具{机动 }投骰来尝试回避(如果目标有结实的掩体可供躲藏—􍄔比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着载具<strong>@Compendium[swade-core-rules.swade-tables.失控]{失控 }</strong></p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机 }才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在@Compendium[swade-core-rules.swade-rules.射程]{近距 }射程进行@Compendium[swade-core-rules.swade-skills.射击]{射击 }投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度 }达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.角色]{坚韧 }为8(2)的物件(见<strong>@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体 }</strong>)。</p>\n</div>",
+                    "notes": "重武器。从飞行器上发射的短距热追踪导弹。",
+                    "actions": {
+                        "skill": "射击"
+                    }
+                }
+            }
+        },
+        "Semi-Truck": {
+            "name": "卡车",
+            "description": "<div class=\"swade-core\">\n<p>拖箱@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型 }是7 (大型), @Compendium[swade-core-rules.swade-rules.角色]{坚韧 }14(2). *附有拖箱时@Compendium[swade-core-rules.swade-rules.载具注释]{操控性 }是-2。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Small Yacht": {
+            "name": "游艇",
+            "skill": "驾船"
+        },
+        "Space Shuttle": {
+            "name": "航天飞机",
+            "skill": "航空"
+        },
+        "Speed Boat": {
+            "name": "快艇",
+            "skill": "驾船"
+        },
+        "Spitfire Mk IIA": {
+            "name": "喷火MK2A战斗机",
+            "skill": "航空",
+            "items": {
+                "Et0TUJzkbZVncwAq": {
+                    "name": "4×联装中型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "dlbJt1xpqgODvQ77": {
+                    "name": "4×联装中型机枪 (前固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Sports Car": {
+            "name": "跑车",
+            "description": "<div class=\"swade-core\">\n<p class=\"swade-core\">野马或是类似的常见跑车。</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Sports Utility Vehicle": {
+            "name": "SUV",
+            "description": "<div class=\"swade-core\">\n<p>奢华外表，@Compendium[swade-core-rules.swade-rules.载具注释]{四轮驱动 }</p>\n</div>",
+            "skill": "驾驶"
+        },
+        "Street Bike": {
+            "name": "城市摩托车",
+            "description": "<div class=\"swade-core\"><p>常见的城市用名牌街道摩托车，未指定具体部位的射击有50%几率会转而击中角色。</p></div>",
+            "skill": "驾驶"
+        },
+        "T-34/76": {
+            "name": "T-34/76 中型坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{倾斜装甲 } (只有前面), @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "izqnBfepu5r5upwN": {
+                    "name": "76mm 坦克炮 (穿甲弹) (转塔)",
+                    "description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "deh7sce7my": {
+                                "name": "近距"
+                            }
+                        }
+                    }
+                },
+                "fI9uqqLwaczVWR4r": {
+                    "name": "中型机枪 (前固定及转塔)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "T-72 MBT": {
+            "name": "T-72 主战坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "SPjWzVjoyXetiGzF": {
+                    "name": "125mm 坦克炮 (穿甲弹)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }&nbsp;</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "wbhu8yehva": {
+                                "name": "近距 AP"
+                            }
+                        }
+                    }
+                },
+                "xW0FNYteTDslG9g1": {
+                    "name": "中型机枪 (转塔上)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "dkO6ixIyKRsiSTOB": {
+                    "name": "重型机枪 (转塔同轴)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "T80 MBT": {
+            "name": "T80 主战坦克",
+            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.载具注释]{重护甲 }, @Compendium[swade-core-rules.swade-rules.载具注释]{夜视 }, @Compendium[swade-core-rules.swade-rules.载具注释]{履带 }.</p>\n</div>",
+            "skill": "驾驶",
+            "items": {
+                "8UZ7FALmttsECSoR": {
+                    "name": "125mm 坦克炮 (穿甲弹) (高级稳定器)",
+                    "description": "<div class='swade-core'><p><strong>坦克与反坦克炮:</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲 }弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆 }弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程 }的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "wbhu8yehva": {
+                                "name": "近距 AP"
+                            }
+                        }
+                    }
+                },
+                "vO5OqdqKZpD1Ay2k": {
+                    "name": "中型机枪 (转塔上)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong> @Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                },
+                "pJXPzaiI1Pbcm4Va": {
+                    "name": "重型机枪 (转塔同轴)",
+                    "description": "<div class='swade-core'><p><strong>最低射速：</strong>&nbsp;@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p></div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "slr23nl1ss": {
+                                "name": "射速3 攻击"
+                            },
+                            "q3e75vog4f": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "UH-1 (Huey)": {
+            "name": "UH-1 易洛魁直升机",
+            "description": "<div class=\"swade-core\">直升机</div>",
+            "skill": "航空",
+            "items": {
+                "aEhMXhg93IU380Cp": {
+                    "name": "中型机枪 (左/右固定)",
+                    "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速 }3或以上的载具武器其最低射速为2。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW) }</p>\n</div>",
+                    "notes": "重武器.",
+                    "actions": {
+                        "skill": "射击",
+                        "additional": {
+                            "81qhst5kyq": {
+                                "name": "射速3 攻击"
+                            },
+                            "yjszf9r0co": {
+                                "name": "射速2 攻击"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

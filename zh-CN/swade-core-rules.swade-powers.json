@@ -59,7 +59,8 @@
             "range": "聪慧",
             "duration": "10分钟",
             "trapping": "施术者专注并作出手势。",
-            "rank": "入门"
+            "rank": "入门",
+            "pp": "特殊"
         },
         "Blast": {
             "name": "爆发",
@@ -398,7 +399,8 @@
             "description": "<div class=\"swade-core\">\n<p>角色能以该奇术凭空召唤出一名魔法仆从。该盟友通常呈现为对应@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型 }的基础类人形态，但可根据施术者的@Compendium[swade-core-rules.swade-rules.特效]{特效 }而外表各异，其能在@Compendium[swade-core-rules.swade-rules.射程]{射程 }内的任何地方现身。若是@Compendium[swade-core-rules.swade-rules.奥法背景]{奥法技能 }投骰出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }，则其还会获得@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧 }能力。</p>\n<p>该盟友会在轮到创造者的@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{行动卡 }时行动，并竭尽全力地服从命令。这名盟友没有人格，创造力或情感，在奇术结束或是陷入@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }时就会化作虚无，不留踪迹。</p>\n<p>能召唤的仆从类别取决于施术者的@Compendium[swade-core-rules.swade-rules.升级]{位阶 }。若得到GM的允许，玩家也可以替换其能力。举例而言，如果角色希望要一头外形为@Compendium[swade-core-rules.swade-bestiary.狗/狼]{狼 }的扈从，则施术者能将其@Compendium[swade-core-rules.swade-skills.射击]{射击 }技能替换成@Compendium[swade-core-rules.swade-skills.生存]{生存 }，这样该“动物”就能追踪敌人。</p>\n<table style=\"width: 98.9267%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 98.915%; text-align: center;\" colspan=\"3\">召唤盟友</td>\n</tr>\n<tr>\n<td style=\"width: 37.2584%; text-align: center;\"><strong>位阶</strong></td>\n<td style=\"width: 16.2064%; text-align: center;\"><strong>费用</strong></td>\n<td style=\"width: 45.4502%; text-align: center;\"><strong>仆从</strong></td>\n</tr>\n<tr>\n<td style=\"width: 37.2584%; text-align: center;\">入门</td>\n<td style=\"width: 16.2064%; text-align: center;\">2</td>\n<td style=\"width: 45.4502%; text-align: center;\">扈从</td>\n</tr>\n<tr>\n<td style=\"width: 37.2584%; text-align: center;\">行家</td>\n<td style=\"width: 16.2064%; text-align: center;\">4</td>\n<td style=\"width: 45.4502%; text-align: center;\">保镖</td>\n</tr>\n<tr>\n<td style=\"width: 37.2584%; text-align: center;\">老练</td>\n<td style=\"width: 16.2064%; text-align: center;\">6</td>\n<td style=\"width: 45.4502%; text-align: center;\">镜像自我*</td>\n</tr>\n<tr>\n<td style=\"width: 37.2584%; text-align: center;\">英杰</td>\n<td style=\"width: 16.2064%; text-align: center;\">8</td>\n<td style=\"width: 45.4502%; text-align: center;\">禁卫</td>\n</tr>\n</tbody>\n</table>\n<p>*<em>位阶每超过老练一级，镜像自我的费用+2，上限为传奇的10奇术点。 </em></p>\n<p><strong>调整</strong></p>\n<ul>\n<li><strong>噬咬/爪抓(+1)：</strong>该盟友能进行伤害为力量+d6的噬咬或爪抓。</li>\n<li><strong>飞行(+2)：</strong>该盟友能以12的@Compendium[swade-core-rules.swade-rules.移动]{移速 }飞行。</li>\n<li><strong>心灵驾驭(+1)：</strong>施术者能通过该盟友进行沟通和感知。</li>\n</ul>\n<h2></h2>\n<h2>数据</h2>\n<p><strong>@Compendium[swade-core-rules.swade-bestiary.召唤盟友: 扈从]{扈从 }</strong><strong>@Compendium[swade-core-rules.swade-bestiary.召唤盟友: 保镖]{保镖 }</strong><strong>@Compendium[swade-core-rules.swade-bestiary.召唤盟友: 禁卫]{禁卫 }</strong></p>\n<p><strong>镜像自我：</strong>该盟友与施术者如出一辙，除了以下部分：属于@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{龙套 }；具有等同于施术者减去该次施术后剩下的@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点 }；无法使用<em>召唤盟友 </em>奇术；@Compendium[swade-core-rules.swade-rules.特性]{技能 }(而不是@Compendium[swade-core-rules.swade-rules.特性]{属性 })骰子类型比起原版要低一级(下限为d4)；具有完全相同的凡物装备(没有魔法特质，在奇术结束后就会消失)；具备@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }以及@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }能力。</p>\n</div>",
             "rank": "入门",
             "range": "聪慧",
-            "trapping": "成长为仆从的黏土像，活化过来的图腾。"
+            "trapping": "成长为仆从的黏土像，活化过来的图腾。",
+            "pp": "2+"
         },
         "Wall Walker": {
             "name": "走壁",
