@@ -1,4 +1,7 @@
 {
+    "mapping": {
+		"description": "data.description"
+	},
     "entries": {
         "Android": {
             "description": "<div class=\"swade-core\">\n<h2>仿生人</h2>\n<p>仿生人是由先进科技制造出来的半有机存在。这里的范例大体上是以人类为模板，而且它们若是愿意也一般能瞒天过海(只要没被医生检查)。它们先进的神经网络使其获得和别的知性生物没有区别的人工智能，具备独立人格、癖好和感情。</p>\n<p>这里列出的仿生人版本是普通型号，要创造更为特殊的仿生人，使用@Compendium[swade-core-rules.swade-rules.创造种族]{这里 }列出的定制种族能力。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>和平主义(主要)：</strong>除非是为了战斗而设计，大部分高科技社会都会要求安装“阿西莫夫思考回路”，这是基于科幻小说作家艾萨克·阿西莫夫的“机器人第一定论”概念。人造存在不得伤害另一知性生物，以及通过采取行动或者袖手旁观而让这种生物受到伤害。仿生人们因此获得@Compendium[swade-core-rules.swade-hindrances.和平主义]{和平主义 }(主要)负赘。</li>\n<li><strong>构装体：</strong>仿生人在从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2，无须呼吸，忽略一级@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }调整值，同时免疫毒素和疾病。构装体不能自然恢复。@Compendium[swade-core-rules.swade-rules.医疗]{恢复 }一个损伤需要使用@Compendium[swade-core-rules.swade-skills.修理]{修理 }技能，且尝试需要花费等同于当下损伤等级小时数的时间，同时不受<strong>@Compendium[swade-core-rules.swade-rules.医疗]{“黄金时间” }</strong>的限制。</li>\n<li><strong>异客(主要)：</strong>仿生人和其他非同族的任何种族互动时的@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }投骰-2，并且在大部分地区没有法定权利(通常被当作是财产)。</li>\n<li><strong>誓言(主要)：</strong>构装体都是为了特定目的而设计。玩家角色的构装体具备一个宽泛的指令，诸如服务某个特定公司或是政治派别等等，处理该特定指令时如同@Compendium[swade-core-rules.swade-hindrances.誓言]{誓言 }主要负赘。如果这造成了利益上的冲突，则玩家和GM必须一同协定构装体程序的运算结果。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Android.webp\" alt=\"Image of an Android with quote 'Alter as needed for Android soliders, miners, entertainers, or whatever.'\" /></div>",

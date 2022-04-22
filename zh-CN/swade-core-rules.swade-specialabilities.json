@@ -1,4 +1,7 @@
 {
+    "mapping": {
+		"description": "data.description"
+	},
     "entries": {
         "Swarm": {
             "name": "集群",

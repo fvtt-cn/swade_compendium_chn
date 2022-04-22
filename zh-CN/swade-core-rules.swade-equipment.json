@@ -839,7 +839,8 @@
                 "skill": "格斗",
                 "additional": {
                     "24m3p44ver": {
-                        "name": "运动(投掷)"
+                        "name": "运动(投掷)",
+                        "skillOverride": "运动"
                     }
                 }
             }
@@ -850,7 +851,8 @@
                 "skill": "格斗",
                 "additional": {
                     "24m3p44ver": {
-                        "name": "运动(投掷)"
+                        "name": "运动(投掷)",
+                        "skillOverride": "运动"
                     }
                 }
             }

@@ -1,4 +1,7 @@
 {
+    "mapping": {
+		"description": "data.description"
+	},
     "entries": {
         "Athletics": {
             "description": "<div class=\"swade-core\">\n<p>运动包含人物在攀爬、跳跃、平衡、骑车、摔跤、滑雪、游泳、投掷或是抓捕这类习得技能上的协调能力。相较协调性更依仗身体力量的角色能通过@Compendium[swade-core-rules.swade-edges.蛮勇]{蛮勇 }专长将该技能关联到@Compendium[swade-core-rules.swade-rules.特性]{力量 }上(取代@Compendium[swade-core-rules.swade-rules.特性]{灵巧 })。</p>\n</div>",

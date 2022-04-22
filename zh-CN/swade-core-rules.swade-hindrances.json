@@ -1,5 +1,8 @@
 {
     "label": "SWADE负赘",
+    "mapping": {
+		"description": "data.description"
+	},
     "entries": {
         "All Thumbs": {
             "name": "一窍不通",
