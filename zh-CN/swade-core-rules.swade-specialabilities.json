@@ -1,7 +1,7 @@
 {
     "mapping": {
-		"description": "data.description"
-	},
+        "description": "data.description"
+    },
     "entries": {
         "Swarm": {
             "name": "集群",
@@ -133,7 +133,7 @@
         },
         "Split": {
             "name": "分裂",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>分裂：</strong>某些集群会在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }后会分裂成两个更小的集群(取决于GM)。在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }时将集群的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{爆散盖板 }的大小下降一级; 小型的集群则会遭到消灭。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>分裂：</strong>某些集群会在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }后会分裂成两个更小的集群(取决于GM)。在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }时将集群的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{爆发盖板 }的大小下降一级; 小型的集群则会遭到消灭。</li>\n</ul>\n</div>"
         },
         "Swat": {
             "name": "猛击",
