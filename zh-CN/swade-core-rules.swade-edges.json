@@ -427,7 +427,7 @@
         },
         "McGyver": {
             "name": "巧手先生",
-            "description": "<div class=\"swade-core\">\n<p>巧手先生能在需要时以常见资源临时制作装置。只要给一些简单的物品，角色就能进行一次@Compendium[swade-core-rules.swade-skills.修理]{修理 }投骰来制造一件临时武器、爆炸物或工具，其能持续到被使用或遭遇结束(GM决定)为止。这需要一整个回合，进行制作时不能移动或是进行任何其它动作。</p>\n<p>失败意味着装置没能完成，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着没有正确的素材，本次遭遇中无法再制作装置。</p>\n<p>成功则能制作一件次级爆炸物(2d4爆炸@Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆散盖板 })、一件比如“垃圾枪”(@Compendium[swade-core-rules.swade-rules.射程]{射程 }5/10/20，2d6伤害)这样的一次性投射武器、不结实的木筏、电源等等。</p>\n<p>优良则能制造出更大的爆炸物(2d6中型爆散盖板或2d4大型爆散盖板)、更好的远程武器(五发弹药，2d8伤害，射程10/20/40)、更结实的木筏、更强力的电池等等。</p>\n<p>造物的质量和能力完全取决于GM，但创意应得到奖励，在最为危急和戏剧化情景时尤为如此。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>巧手先生能在需要时以常见资源临时制作装置。只要给一些简单的物品，角色就能进行一次@Compendium[swade-core-rules.swade-skills.修理]{修理 }投骰来制造一件临时武器、爆炸物或工具，其能持续到被使用或遭遇结束(GM决定)为止。这需要一整个回合，进行制作时不能移动或是进行任何其它动作。</p>\n<p>失败意味着装置没能完成，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着没有正确的素材，本次遭遇中无法再制作装置。</p>\n<p>成功则能制作一件次级爆炸物(2d4爆炸@Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆发盖板 })、一件比如“垃圾枪”(@Compendium[swade-core-rules.swade-rules.射程]{射程 }5/10/20，2d6伤害)这样的一次性投射武器、不结实的木筏、电源等等。</p>\n<p>优良则能制造出更大的爆炸物(2d6中型爆发盖板或2d4大型爆发盖板)、更好的远程武器(五发弹药，2d8伤害，射程10/20/40)、更结实的木筏、更强力的电池等等。</p>\n<p>造物的质量和能力完全取决于GM，但创意应得到奖励，在最为危急和戏剧化情景时尤为如此。</p>\n</div>",
             "requirements": "入门, 聪慧d6+, 察觉d8+, 修理d6+"
         },
         "Improved Rapid Recharge": {
@@ -517,7 +517,7 @@
         },
         "New Powers": {
             "name": "新奇术",
-            "description": "<div class=\"swade-core\">\n<p>奥法角色可以通过选取这个专长来习得两个新@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }(该专长可以多次选择)，选择的奇术必须在对应@Compendium[swade-core-rules.swade-rules.奥法背景]{奥法背景 }的可选范围之内，而且要等于或低于其@Compendium[swade-core-rules.swade-rules.升级]{位阶 }。</p>\n<p>角色可以将获取一个新奇术换成给某一已有奇术添加一个新@Compendium[swade-core-rules.swade-rules.特效]{特效 }。举例而言，可以给现有的火焰<em>@Compendium[swade-core-rules.swade-powers.矢箭]{矢箭 }</em>添加冰特效，这样角色就能在火焰和寒冰特效中自由地来回切换。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>奥法角色可以通过选取这个专长来习得两个新@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }(该专长可以多次选择)，选择的奇术必须在对应@Compendium[swade-core-rules.swade-rules.奥法背景]{奥法背景 }的可选范围之内，而且要等于或低于其@Compendium[swade-core-rules.swade-rules.升级]{位阶 }。</p>\n<p>角色可以将获取一个新奇术换成给某一已有奇术添加一个新@Compendium[swade-core-rules.swade-rules.特效]{特效 }。举例而言，可以给现有的火焰<em>@Compendium[swade-core-rules.swade-powers.矢弹]{矢弹 }</em>添加冰特效，这样角色就能在火焰和寒冰特效中自由地来回切换。</p>\n</div>",
             "requirements": "入门, 奥法背景 (任意)"
         },
         "No Mercy": {
@@ -551,7 +551,7 @@
             "requirements": "入门, 灵巧d8+"
         },
         "Rabble-Rouser": {
-            "description": "<div class=\"swade-core\">\n<p>这名煽动者知晓如何一次性让数名敌人心浮气躁。</p>\n<p>每回合一次，拥有该专长的角色能以@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }或@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄 }对@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }内的所有敌人进行一次社交@Compendium[swade-core-rules.swade-rules.考验]{考验 }。目标必须能清楚地看到和听见该角色。各个防御方单独结算抵抗和影响。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>这名煽动者知晓如何一次性让数名敌人心浮气躁。</p>\n<p>每回合一次，拥有该专长的角色能以@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }或@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄 }对@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板 }内的所有敌人进行一次社交@Compendium[swade-core-rules.swade-rules.考验]{考验 }。目标必须能清楚地看到和听见该角色。各个防御方单独结算抵抗和影响。</p>\n</div>",
             "requirements": "行家, 心魂d8+",
             "name": "煽风点火"
         },
