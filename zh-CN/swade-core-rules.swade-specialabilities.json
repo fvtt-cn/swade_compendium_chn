@@ -5,142 +5,142 @@
     "entries": {
         "Swarm": {
             "name": "集群",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>集群：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2,@Compendium[swade-core-rules.swade-rules.角色]{格挡 }+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击 }能如常生效，角色也能在每轮通过踩踏造成等同于@Compendium[swade-core-rules.swade-rules.特性]{力量 }的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>集群：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇}中恢复时+2，@Compendium[swade-core-rules.swade-rules.角色]{格挡}+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击}能如常生效，角色也能在每轮通过踩踏造成等同于@Compendium[swade-core-rules.swade-rules.特性]{力量}的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。</li>\n</ul>\n</div>"
         },
         "Zombie": {
             "name": "行尸",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>行尸：</strong>巫妖乃是死灵法师中的翘楚，其通过<em>@Compendium[swade-core-rules.swade-powers.行尸]{行尸 }</em>法术唤起的不死族永久存续，并且他们可以像唤起@Compendium[swade-core-rules.swade-bestiary.行尸]{行尸 }一样唤起@Compendium[swade-core-rules.swade-bestiary.骷髅]{骷髅 }，某些巫妖甚至已经建立了一整支听其差遣的不死军团。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>行尸：</strong>巫妖乃是死灵法师中的翘楚，其通过<em>@Compendium[swade-core-rules.swade-powers.行尸]{行尸}</em>法术唤起的不死族永久存续，并且他们可以像唤起@Compendium[swade-core-rules.swade-bestiary.行尸]{行尸}一样唤起@Compendium[swade-core-rules.swade-bestiary.骷髅]{骷髅}，某些巫妖甚至已经建立了一整支听其差遣的不死军团。</li>\n</ul>\n</div>"
         },
         "Wall Walker": {
             "name": "走壁",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (走壁)]{走壁 }：</strong>这些生物可以在墙壁和天花板上以全@Compendium[swade-core-rules.swade-rules.移动]{移速 }移动！简直让人毛骨悚然！</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (走壁)]{走壁}：</strong>这些生物可以在墙壁和天花板上以全@Compendium[swade-core-rules.swade-rules.移动]{移速}移动！简直让人毛骨悚然！</li>\n</ul>\n</div>"
         },
         "Fear": {
             "name": "恐惧",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧 }：</strong>任何看见此恐怖之物的对象必须进行一次恐惧检定。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧}：</strong>任何看见此恐怖之物的对象必须进行一次恐惧检定。</li>\n</ul>\n</div>"
         },
         "Burrow": {
             "name": "遁地",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (遁地)]{遁地 }(20英寸)：</strong>巨蠕虫穿梭于地下，只有坚硬的顽石才能挡住其去路。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (遁地)]{遁地}(20英寸)：</strong>巨蠕虫穿梭于地下，只有坚硬的顽石才能挡住其去路。</li>\n</ul>\n</div>"
         },
         "Change Form": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>变幻形态：</strong>通过一个动作，吸血鬼可进行一次-2的@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰来化身成狼或蝙蝠。变回人形则需要一次@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>变幻形态：</strong>通过一个动作，吸血鬼可进行一次-2的@Compendium[swade-core-rules.swade-rules.特性]{聪慧}投骰来化身成狼或蝙蝠。变回人形则需要一次@Compendium[swade-core-rules.swade-rules.特性]{聪慧}投骰。</li>\n</ul>\n</div>",
             "name": "变幻形态"
         },
         "Charm": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>魅惑：</strong>吸血鬼可以对被自己吸引的对象(GM判断)使用<em>@Compendium[swade-core-rules.swade-powers.傀儡]{傀儡 }</em>奇术，并以其@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }作为@Compendium[swade-core-rules.swade-rules.奥法背景]{奥法技能 }。它们可以无限地施放并维持该奇术，但每次只能作用在一个目标上。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>魅惑：</strong>吸血鬼可以对被自己吸引的对象(GM判断)使用<em>@Compendium[swade-core-rules.swade-powers.傀儡]{傀儡}</em>奇术，并以其@Compendium[swade-core-rules.swade-rules.特性]{聪慧}作为@Compendium[swade-core-rules.swade-rules.奥法背景]{奥法技能}。它们可以无限地施放并维持该奇术，但每次只能作用在一个目标上。</li>\n</ul>\n</div>",
             "name": "魅惑"
         },
         "Children of the Night": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>夜之子民：</strong>上古吸血鬼具备召唤并控制狼或老鼠的能力。这需要一个动作以及一次-2的@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰。若为成功，[[/sr 1d6 # 召唤的狼]]匹狼或[[/sr 1d6 # 召唤的老鼠集群]]老鼠集群(见@Compendium[swade-core-rules.swade-bestiary.集群]{集群 })会在[[/sr 1d6+2 # 召唤后经过的轮数]]轮内从周遭的荒野中赶来。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>夜之子民：</strong>上古吸血鬼具备召唤并控制狼或老鼠的能力。这需要一个动作以及一次-2的@Compendium[swade-core-rules.swade-rules.特性]{聪慧}投骰。若为成功，[[/sr 1d6 # 召唤的狼]]匹狼或[[/sr 1d6 # 召唤的老鼠集群]]老鼠集群(见@Compendium[swade-core-rules.swade-bestiary.集群]{集群})会在[[/sr 1d6+2 # 召唤后经过的轮数]]轮内从周遭的荒野中赶来。</li>\n</ul>\n</div>",
             "name": "夜之子民"
         },
         "Constrict": {
             "name": "绞缠",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>绞缠：</strong>用于@Compendium[swade-core-rules.swade-rules.擒抱]{擒抱 }的@Compendium[swade-core-rules.swade-rules.特性]{运动 }和@Compendium[swade-core-rules.swade-rules.特性]{力量 }投骰+2。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>绞缠：</strong>用于@Compendium[swade-core-rules.swade-rules.擒抱]{擒抱}的@Compendium[swade-core-rules.swade-rules.特性]{运动}和@Compendium[swade-core-rules.swade-rules.特性]{力量}投骰+2。</li>\n</ul>\n</div>"
         },
         "Construct": {
             "name": "构装体",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体 }：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (构装体)]{构装体}：</strong>从@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇}中恢复时+2；忽略1点损伤调整值；无须呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病}和@Compendium[swade-core-rules.swade-rules.毒素]{毒素}。</li>\n</ul>\n</div>"
         },
         "Elemental": {
             "name": "元素",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素 }: </strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }和@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (元素)]{元素}：</strong>不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病}和@Compendium[swade-core-rules.swade-rules.毒素]{毒素}。</li>\n</ul>\n</div>"
         },
         "Ethereal": {
             "name": "灵态",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (灵态)]{灵态 }：</strong>鬼魂可以随意变为不可见的无形存在，并且只有魔法攻击才能对其造成伤害。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (灵态)]{灵态}：</strong>鬼魂可以随意变为不可见的无形存在，并且只有魔法攻击才能对其造成伤害。</li>\n</ul>\n</div>"
         },
         "Fast Regeneration": {
             "name": "快速再生",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (再生)]{快速再生 }：</strong>有些生物能快速恢复并且可以每轮尝试一次@Compendium[swade-core-rules.swade-rules.医疗]{自然恢复 }投骰，即使处于@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }也是如此，除非@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }是由火焰或是烈焰造成，或是之后遭到火炬烧却。 </li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (再生)]{快速再生}：</strong>有些生物能快速恢复并且可以每轮尝试一次@Compendium[swade-core-rules.swade-rules.恢复]{自然恢复}投骰，即使处于@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化}也是如此，除非@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}是由火焰或是烈焰造成，或是之后遭到火炬烧却。 </li>\n</ul>\n</div>"
         },
         "Fear (-2)": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧 }(&minus;2)：</strong>任何看见此恐怖之物的对象必须进行一次-2的恐惧检定。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧}(&minus;2)：</strong>任何看见此恐怖之物的对象必须进行一次-2的恐惧检定。</li>\n</ul>\n</div>",
             "name": "恐惧 (-2)"
         },
         "Fearless": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏 }：</strong>免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧 }和@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }但可能具备会对造成恐惧的状况作出适当反应的智能。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无畏)]{无畏}：</strong>免疫@Compendium[swade-core-rules.swade-rules.恐惧]{恐惧}和@Compendium[swade-core-rules.swade-skills.威吓]{威吓}但可能具备会对造成恐惧的状况作出适当反应的智能。</li>\n</ul>\n</div>",
             "name": "无畏"
         },
         "Flight": {
             "name": "飞行",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (飞行)]{飞行 }：</strong>以24英寸移速飞行。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (飞行)]{飞行}：</strong>以24英寸移速飞行。</li>\n</ul>\n</div>"
         },
         "Gaseous Form": {
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>气态：</strong>可以穿越任何非固体表面，通过门窗上的裂缝，化作气泡在水中移动等等。 </li>\n</ul>\n</div>",
             "name": "气态"
         },
         "Hardy": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (顽强)]{顽强 }：</strong>这种生物不会因为第二次遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }而受到损伤。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (顽强)]{顽强}：</strong>这种生物不会因为第二次遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇}而受到损伤。</li>\n</ul>\n</div>",
             "name": "顽强"
         },
         "Immunity": {
             "name": "免疫",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (免疫)]{免疫 }：</strong>免疫基于水的攻击。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (免疫)]{免疫}：</strong>免疫基于水的攻击。</li>\n</ul>\n</div>"
         },
         "Infection": {
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>感染：</strong>任何被狼人杀死的对象都会有50%的几率复活成为狼人。这些角色每当满月之际都会强行化身为狼人，其只有在成为狼人[[/sr 1d6 # 成为狼人的年数]]年后才能控制自己的狼化症。</li>\n</ul>\n</div>",
             "name": "感染"
         },
         "Infravision": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (红外感应)]{红外感应 }</strong>&nbsp;攻击温暖目标时忽略一半的照明减值。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (红外感应)]{红外感应}</strong>&nbsp;攻击温暖目标时忽略一半的照明减值。</li>\n</ul>\n</div>",
             "name": "红外感应"
         },
         "Invulnerability": {
             "name": "无敌",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无敌)]{无敌 }：</strong>免疫非魔法攻击。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (无敌)]{无敌}：</strong>免疫非魔法攻击。</li>\n</ul>\n</div>"
         },
         "Low Light Vision": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (微光视觉)]{微光视觉 }：</strong>忽略昏暗与黑暗的@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (微光视觉)]{微光视觉}：</strong>忽略昏暗与黑暗的@Compendium[swade-core-rules.swade-rules.照明]{照明}减值。</li>\n</ul>\n</div>",
             "name": "微光视觉"
         },
         "Mist": {
             "name": "化雾",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>化雾：</strong>上古吸血鬼具备化身雾气的能力。这样做(或变回人形)需要一个动作以及一次@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }投骰(带有-2)。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>化雾：</strong>上古吸血鬼具备化身雾气的能力。这样做(或变回人形)需要一个动作以及一次@Compendium[swade-core-rules.swade-rules.特性]{聪慧}投骰(带有-2)。</li>\n</ul>\n</div>"
         },
         "Night Vision": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>夜视：</strong>传感器套件能够忽略@Compendium[swade-core-rules.swade-rules.照明]{照明 }减值。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>夜视：</strong>传感器套件能够忽略@Compendium[swade-core-rules.swade-rules.照明]{照明}减值。</li>\n</ul>\n</div>",
             "name": "夜视"
         },
         "Ornery": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>犟脾气：</strong>骡子是倔强的生物，角色在骑乘骡子时，@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘 }投骰必须减1。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>犟脾气：</strong>骡子是倔强的生物，角色在骑乘骡子时，@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘}投骰必须减1。</li>\n</ul>\n</div>",
             "name": "犟脾气"
         },
         "Poison": {
             "name": "毒素",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (毒素)]{毒素 }: </strong>GM选择毒蛇注入的是何种@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (毒素)]{毒素}：</strong>GM选择毒蛇注入的是何种@Compendium[swade-core-rules.swade-rules.毒素]{毒素}。</li>\n</ul>\n</div>"
         },
         "Poison (-4)": {
             "name": "毒素 (-4)",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (毒素)]{毒素 }(&minus;4)：</strong>通常是@Compendium[swade-core-rules.swade-rules.毒素]{温和 }或@Compendium[swade-core-rules.swade-rules.毒素]{致命 }。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (毒素)]{毒素}(&minus;4)：</strong>通常是@Compendium[swade-core-rules.swade-rules.毒素]{温和}或@Compendium[swade-core-rules.swade-rules.毒素]{致命}。</li>\n</ul>\n</div>"
         },
         "Resilient": {
             "name": "强韧",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧 }：</strong>部分生物在陷入无力化前能承受一个损伤。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (强韧/非常强韧)]{强韧}：</strong>部分生物在陷入无力化前能承受一个损伤。</li>\n</ul>\n</div>"
         },
         "Seep": {
             "name": "渗透",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>渗透：</strong>能如同经过@Compendium[swade-core-rules.swade-rules.移动]{困难地形 }一般挤过任何可穿透的缝隙。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>渗透：</strong>能如同经过@Compendium[swade-core-rules.swade-rules.移动]{困难地形}一般挤过任何可穿透的缝隙。</li>\n</ul>\n</div>"
         },
         "Sire": {
             "name": "眷属",
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>眷属： </strong>任何被吸血鬼杀死的对象都会有50% 的几率在[[/r 1d4]]天内复活成吸血鬼。</li>\n</ul>\n</div>"
         },
         "Speed": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>疾速：</strong>d10@Compendium[swade-core-rules.swade-rules.移动]{奔跑骰 }。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>疾速：</strong>d10@Compendium[swade-core-rules.swade-rules.移动]{奔跑骰}。</li>\n</ul>\n</div>",
             "name": "速度"
         },
         "Split": {
             "name": "分裂",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>分裂：</strong>某些集群会在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }后会分裂成两个更小的集群(取决于GM)。在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }时将集群的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{爆发盖板 }的大小下降一级; 小型的集群则会遭到消灭。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>分裂：</strong>某些集群会在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}后会分裂成两个更小的集群(取决于GM)。在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}时将集群的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{爆发盖板}的大小下降一级; 小型的集群则会遭到消灭。</li>\n</ul>\n</div>"
         },
         "Swat": {
             "name": "猛击",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (猛击)]{猛击 }：</strong>龙在用爪子攻击时最多可忽略4点@Compendium[swade-core-rules.swade-rules.Size and Scale]{尺寸 }减值。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (猛击)]{猛击}：</strong>龙在用爪子攻击时最多可忽略4点@Compendium[swade-core-rules.swade-rules.体型与尺寸]{尺寸}减值。</li>\n</ul>\n</div>"
         },
         "Undead": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (不死族)]{不死族 }：</strong>+2坚韧；从动摇@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击 }受到额外伤害；定点攻击受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病 }与@Compendium[swade-core-rules.swade-rules.毒素]{毒素 }。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (不死族)]{不死族}：</strong>+2坚韧；从动摇@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇}中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击}受到额外伤害；定点攻击受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病}与@Compendium[swade-core-rules.swade-rules.毒素]{毒素}。</li>\n</ul>\n</div>",
             "name": "不死族"
         },
         "Weakness": {
@@ -149,7 +149,7 @@
         },
         "Aquatic": {
             "name": "水栖",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖 }：</strong>@Compendium[swade-core-rules.swade-rules.移动]{移速 }5。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖}：</strong>@Compendium[swade-core-rules.swade-rules.移动]{移速}5。</li>\n</ul>\n</div>"
         }
     },
     "label": "SWADE特殊能力"
