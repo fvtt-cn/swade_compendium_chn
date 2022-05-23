@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Sarasa Mono SC';
+  src: local('Sarasa Mono SC Regular'), local('sarasa-mono-sc-regular'),
+    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono SC';
+  src: local('Sarasa Mono SC Bold'), local('sarasa-mono-sc-bold'),
+    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono SC';
+  src: local('Sarasa Mono SC Italic'), local('sarasa-mono-sc-italic'),
+    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sarasa Mono SC';
+  src: local('Sarasa Mono SC Bold Italic'), local('sarasa-mono-sc-bolditalic'),
+    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-bolditalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* FONTS */
+  --body-font-family: 'Sarasa Mono SC', serif;
+  --heading-font-family: 'Sarasa Mono SC', sans-serif;
+  --table-title-font-family: 'Sarasa Mono SC', sans-serif;
+  --table-headers-font-family: 'Sarasa Mono SC', serif;
+  --table-summary-font-family: var(--table-headers-font-family);
+  --quote-font-family: 'Sarasa Mono SC', cursive;
+}
+
+.swade-core .embedded-example {
+  padding: 4px;
+}
+
+/* Entity Linking */
+.swade-core a.entity-link, a.inline-roll {
+  white-space: nowrap;
+  text-decoration: unset;
+  display: inline-flex;
+}
+
+a.entity-link.broken,
+a.content-link.broken {
+  background: rgba(255, 0, 0, 0.05);
+  border: 1px dashed red;
+}
+
+/* FONTS */
+.swade-core h1,
+.swade-core h2,
+.swade-core h3 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.swade-core .header .title p {
+  font-family: var(--heading-font-family);
+}
+
+.swade-core .section-header h1 {
+  font-family: var(--heading-font-family);
+}
+
+.swade.sheet.actor .powers .powers-list .power .power-content .power-description {
+  line-height: 24px;
+}
+
+.swade.sheet.item .powers .powers-list .power .power-content .power-description {
+  line-height: 24px;
+}
