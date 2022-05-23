@@ -1,9 +1,5 @@
 {
 	"label": "SWADE Edges",
-	"mapping": {
-        "description": "data.description",
-        "requirements": "data.requirements.value"
-    },
 	"entries": {
 		"Ace": {
 			"name": "Ace",

@@ -1,13 +1,5 @@
 {
 	"label": "SWADE Powers",
-	"mapping": {
-		"description": "data.description",
-		"rank": "data.rank",
-		"range": "data.range",
-		"duration": "data.duration",
-		"trapping": "data.trapping",
-		"pp": "data.pp"
-	},
 	"entries": {
 		"Arcane Protection": {
 			"name": "Arcane Protection",

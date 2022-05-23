@@ -1,12 +1,5 @@
 {
 	"label": "SWADE Equipment",
-	"mapping": {
-		"description": "data.description",
-		"notes": "data.notes",
-		"actions": "data.actions",
-		"range": "data.range",
-		"ammo": "data.ammo"
-	},
 	"entries": {
 		"\"Bug\" (Micro Transmitter)": {
 			"name": "\"Bug\" (Micro Transmitter)",

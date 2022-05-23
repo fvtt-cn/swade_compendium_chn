@@ -1,8 +1,5 @@
 {
 	"label": "SWADE Bestiary",
-	"mapping": {
-		"biography": "data.details.biography.value"
-	},
 	"entries": {
 		"Alligator/Crocodile": {
 			"name": "Alligator/Crocodile",

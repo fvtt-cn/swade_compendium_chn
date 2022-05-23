@@ -1,9 +1,5 @@
 {
 	"label": "SWADE Vehicles",
-	"mapping": {
-		"description": "data.description",
-		"skill": "data.driver.skill"
-	},
 	"entries": {
 		"AH-64 Apache": {
 			"name": "AH-64 Apache",
