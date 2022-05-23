@@ -1,14 +1,14 @@
 {
     "mapping": {
-		"description": "data.description"
-	},
+        "description": "data.description"
+    },
     "entries": {
         "Athletics": {
-            "description": "<div class=\"swade-core\">\n<p>运动包含人物在攀爬、跳跃、平衡、骑车、摔跤、滑雪、游泳、投掷或是抓捕这类习得技能上的协调能力。相较协调性更依仗身体力量的角色能通过@Compendium[swade-core-rules.swade-edges.蛮勇]{蛮勇 }专长将该技能关联到@Compendium[swade-core-rules.swade-rules.特性]{力量 }上(取代@Compendium[swade-core-rules.swade-rules.特性]{灵巧 })。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>运动包含人物在攀爬、跳跃、平衡、骑车、摔跤、滑雪、游泳、投掷或是抓捕这类习得技能上的协调能力。相较协调性更依仗身体力量的角色能通过@Compendium[swade-core-rules.swade-edges.蛮勇]{蛮勇}专长将该技能关联到@Compendium[swade-core-rules.swade-rules.特性]{力量}上(取代@Compendium[swade-core-rules.swade-rules.特性]{灵巧})。</p>\n</div>",
             "name": "运动"
         },
         "Battle": {
-            "description": "<div class=\"swade-core\"><p>作战是人物指挥调度以及运筹帷幄的能力，这可以用于综合军事知识，同时在@Compendium[swade-core-rules.swade-rules.大规模作战]{大规模作战 }中指挥部队时可谓举足轻重。</p></div>",
+            "description": "<div class=\"swade-core\"><p>作战是人物指挥调度以及运筹帷幄的能力，这可以用于综合军事知识，同时在@Compendium[swade-core-rules.swade-rules.大规模作战]{大规模作战}中指挥部队时可谓举足轻重。</p></div>",
             "name": "作战"
         },
         "Boating": {
@@ -21,115 +21,115 @@
         },
         "Driving": {
             "name": "驾驶",
-            "description": "<div class=\"swade-core\">\n<p>驾驶能让角色得以控制设定中任何带动力装置的普通陆行载具，这包括汽车、摩托车以及坦克等等。</p>\n<p>(自行车等其他人力驱动的交通工具使用的是@Compendium[swade-core-rules.swade-skills.运动]{运动 }，畜力交通工具使用的是@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘 })</p>\n<p>在汽车无处不在的现代设定中，常规出行时角色无需用到驾驶，通常只有在诸如@Compendium[swade-core-rules.swade-rules.追逐与载具]{追逐 }等危险或是有压力的情况下才需要进行驾驶投骰。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>驾驶能让角色得以控制设定中任何带动力装置的普通陆行载具，这包括汽车、摩托车以及坦克等等。</p>\n<p>(自行车等其他人力驱动的交通工具使用的是@Compendium[swade-core-rules.swade-skills.运动]{运动}，畜力交通工具使用的是@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘})</p>\n<p>在汽车无处不在的现代设定中，常规出行时角色无需用到驾驶，通常只有在诸如@Compendium[swade-core-rules.swade-rules.追逐与载具]{追逐}等危险或是有压力的情况下才需要进行驾驶投骰。</p>\n</div>"
         },
         "Electronics": {
             "name": "电子学",
-            "description": "<div class=\"swade-core\">\n<p>电子学让角色得以使用复杂或是专业化设备，诸如控制面板、工业机械，或是未来设定中太空船上的传感系统。</p>\n<p>在设定中普及的电子装置或是家用电器不需要用到电子学，若是需要投骰，使用@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识 }足矣。现代世设中的摄像机以及手机之类的也同理。</p>\n<p>修理任意损坏的电子设备需要用到@Compendium[swade-core-rules.swade-skills.修理]{修理 }技能。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>电子学让角色得以使用复杂或是专业化设备，诸如控制面板、工业机械，或是未来设定中太空船上的传感系统。</p>\n<p>在设定中普及的电子装置或是家用电器不需要用到电子学，若是需要投骰，使用@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识}足矣。现代世设中的摄像机以及手机之类的也同理。</p>\n<p>修理任意损坏的电子设备需要用到@Compendium[swade-core-rules.swade-skills.修理]{修理}技能。</p>\n</div>"
         },
         "Faith": {
             "name": "信仰",
-            "description": "<div class=\"swade-core\"><p>信仰是@Compendium[swade-core-rules.swade-rules.奥法背景 (奇迹)]{奥法背景(奇迹) }必需的奥法技能。</p></div>"
+            "description": "<div class=\"swade-core\"><p>信仰是@Compendium[swade-core-rules.swade-rules.奥法背景 (奇迹)]{奥法背景(奇迹)}必需的奥法技能。</p></div>"
         },
         "Fighting": {
             "name": "格斗",
-            "description": "<div class=\"swade-core\">\n<p>格斗涵盖了所有的肉搏(近战)攻击，用的无论是拳、斧、激光剑或是武术都算在其中。战斗规则以及战士能尝试的各种战技详见@Compendium[swade-core-rules.swade-rules.战斗]{第三章 }。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>格斗涵盖了所有的肉搏(近战)攻击，用的无论是拳、斧、激光剑或是武术都算在其中。战斗规则以及战士能尝试的各种战技详见@Compendium[swade-core-rules.swade-rules.战斗]{第三章}。</p>\n</div>"
         },
         "Focus": {
-            "description": "<div class=\"swade-core\"><p>集中是@Compendium[swade-core-rules.swade-rules.奥法背景 (异禀)]{奥法背景(异禀) }必需的奥法技能。</p></div>",
+            "description": "<div class=\"swade-core\"><p>集中是@Compendium[swade-core-rules.swade-rules.奥法背景 (异禀)]{奥法背景(异禀)}必需的奥法技能。</p></div>",
             "name": "集中"
         },
         "Gambling": {
-            "description": "<div class=\"swade-core\"><p>无论是在旧西部的酒吧、犯罪组织的密室、大部分军队的兵营或是科幻太空船的驾驶舱当中，赌博都是家常便饭。</p>\n<p>模拟长达1小时的赌博不需要给每次摇盅或是手牌投骰，全员协商好赌注(诸如$10或10 金币等等)后，让所有参与赌局的对象进行一次赌博投骰。总值最低者支付总值最高者二人之间差值倍数的赌注；总值次低者支付总值次高者二人之间差值倍数的赌注，如此类推。如果偶尔有家伙落在中间，那就是不赚不赔。</p>\n<p class=\"embedded-example\"><strong>例子：</strong>红投出了最高值10，加布投出了最低值4，两者差值为6，因此加布须支付6×$10的赌注，即$60。</p>\n<p><strong>作弊：</strong>作弊角色可让投骰+2，GM可能会根据特定的游戏或是作弊手法来提高或是降低这项调整值。然而，若是角色投出@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }，那就会露出马脚。结果通常会根据情景以及是谁发现而定，但往往都不怎么愉快！</p></div>",
+            "description": "<div class=\"swade-core\"><p>无论是在旧西部的酒吧、犯罪组织的密室、大部分军队的兵营或是科幻太空船的驾驶舱当中，赌博都是家常便饭。</p>\n<p>模拟长达1小时的赌博不需要给每次摇盅或是手牌投骰，全员协商好赌注(诸如$10或10 金币等等)后，让所有参与赌局的对象进行一次赌博投骰。总值最低者支付总值最高者二人之间差值倍数的赌注；总值次低者支付总值次高者二人之间差值倍数的赌注，如此类推。如果偶尔有家伙落在中间，那就是不赚不赔。</p>\n<p class=\"embedded-example\"><strong>例子：</strong>红投出了最高值10，加布投出了最低值4，两者差值为6，因此加布须支付6×$10的赌注，即$60。</p>\n<p><strong>作弊：</strong>作弊角色可让投骰+2，GM可能会根据特定的游戏或是作弊手法来提高或是降低这项调整值。然而，若是角色投出@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}，那就会露出马脚。结果通常会根据情景以及是谁发现而定，但往往都不怎么愉快！</p></div>",
             "name": "赌博"
         },
         "Hacking": {
-            "description": "<div class=\"swade-core\">\n<p>骇客是用以制作程序并“骇”进安全系统的技能。使用该技能总是需要一台电脑或是某种面板。</p>\n<p>大多数任务只需要进行一次骇客投骰，而需要耗费的时间由GM来决定，根据项目的复杂程度从一个动作，到数小时，数天甚至数个月都有可能。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }意味着如愿得手，出现优良减少一半所需时间。@Compendium[swade-core-rules.swade-rules.特性投骰]{失败 }通常表示骇客必须要再试一次，而@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }可能意味着系统把用户锁在外面、触发警报或是某类反制措施。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>骇客是用以制作程序并“骇”进安全系统的技能。使用该技能总是需要一台电脑或是某种面板。</p>\n<p>大多数任务只需要进行一次骇客投骰，而需要耗费的时间由GM来决定，根据项目的复杂程度从一个动作，到数小时，数天甚至数个月都有可能。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}意味着如愿得手，出现优良减少一半所需时间。@Compendium[swade-core-rules.swade-rules.特性投骰]{失败}通常表示骇客必须要再试一次，而@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}可能意味着系统把用户锁在外面、触发警报或是某类反制措施。</p>\n</div>",
             "name": "骇客"
         },
         "Healing": {
-            "description": "<div class=\"swade-core\">\n<p>医疗用途多样，从处理@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }、诊断疾病到分析特定种类的法医证据不一而足。</p>\n<p>参见@Compendium[swade-core-rules.swade-rules.医疗]{恢复 }中修复和处理@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }的规则，以及@Compendium[swade-core-rules.swade-rules.危难]{危难 }中治疗疾病和中毒的规则。</p>\n<p><strong>取证：</strong>医疗同样可以用于分析与解剖学上的伤创所相关的证据，这包括死因、死亡时间以及攻击角度等类似内容。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }可以获取基本信息，而出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }则会知晓更多未经掩盖的细节。</p>\n</div>",
-            "name": "恢复"
+            "description": "<div class=\"swade-core\">\n<p>医疗用途多样，从处理@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}、诊断疾病到分析特定种类的法医证据不一而足。</p>\n<p>参见@Compendium[swade-core-rules.swade-rules.恢复]{恢复}中修复和处理@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}的规则，以及@Compendium[swade-core-rules.swade-rules.危难]{危难}中治疗疾病和中毒的规则。</p>\n<p><strong>取证：</strong>医疗同样可以用于分析与解剖学上的伤创所相关的证据，这包括死因、死亡时间以及攻击角度等类似内容。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}可以获取基本信息，而出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则会知晓更多未经掩盖的细节。</p>\n</div>",
+            "name": "医疗"
         },
         "Intimidation": {
             "name": "威吓",
-            "description": "<div class=\"swade-core\">\n<p>威吓是让对方害怕到退缩、透露信息或是逃之夭夭的技巧。</p>\n<p>威吓属于@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗投骰 }(对方以@Compendium[swade-core-rules.swade-rules.特性]{心魂 }抵抗)。这在战斗中是一次@Compendium[swade-core-rules.swade-rules.考验]{考验 })，而在战斗外，投骰成功意味着对方将会在极大程度上退缩、透露一些信息或是在有机会时溜之大吉。</p>\n<p>出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }可能意味着在场景结束前退缩让步、知无不言或是有多快跑多快。</p>\n<p>无论是否处于战斗，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着目标将会在这次遭遇结束前免疫该角色的威吓尝试！</p>\n<p><strong>打点关系：</strong>威吓同样能作为用于模拟街头上数小时努力的“宏观”技能，“打”点脑袋来换取支持或是信息的方法见@Compendium[swade-core-rules.swade-rules.打点关系]{打点关系 }</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>威吓是让对方害怕到退缩、透露信息或是逃之夭夭的技巧。</p>\n<p>威吓属于@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗投骰}(对方以@Compendium[swade-core-rules.swade-rules.特性]{心魂}抵抗)。这在战斗中是一次@Compendium[swade-core-rules.swade-rules.考验]{考验})，而在战斗外，投骰成功意味着对方将会在极大程度上退缩、透露一些信息或是在有机会时溜之大吉。</p>\n<p>出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}可能意味着在场景结束前退缩让步、知无不言或是有多快跑多快。</p>\n<p>无论是否处于战斗，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}意味着目标将会在这次遭遇结束前免疫该角色的威吓尝试！</p>\n<p><strong>打点关系：</strong>威吓同样能作为用于模拟街头上数小时努力的“宏观”技能，“打”点脑袋来换取支持或是信息的方法见@Compendium[swade-core-rules.swade-rules.打点关系]{打点关系}</p>\n</div>"
         },
         "Language": {
-            "description": "<div class=\"swade-core\">\n<p>在一些着眼于通俗动作风味或是“行星冒险”(角色经常在不同的奇怪文明之间旅行)的设定中，口述各种语言可通过穿插停顿的对话以及蹩脚的口音进行简单扮演。这一开始会有点困难，而且很快就会被抛诸脑后。GM可以在这些设定中彻底忽略这个技能，或是使用@Compendium[swade-core-rules.swade-rules.设定规则]{设定规则 }中的@Compendium[swade-core-rules.swade-rules.多语言]{多语言 }规则。</p>\n<p>在更为真实的设定里，沟通可能会成为主要障碍，这需要角色在额外语言上投入技能点。举例而言，在20世纪八十年代的《第三次世界大战》游戏中，一队联合国的伞兵无法和敌人沟通，除非他们会俄语、波兰语或是其他常见的华约语言。</p>\n<p>如果语言技能可用，则应以诸如语言(西班牙语)，语言(美国手语)等形式列出，而骰子类型反映了角色用得有多流利(角色初始时自己的母语为d8)。</p>\n<div class=\"swade-core\">\n<table class=\"table value-table\"><caption class=\"table-caption\">\n<h2 class=\"table-title\">语言熟练度</h2>\n</caption>\n<tbody>\n<tr class=\"table-header-row\">\n<th class=\"table-column-header\" scope=\"col\">技能</th>\n<th class=\"table-column-header\" scope=\"col\">能力</th>\n</tr>\n</tbody>\n<tbody>\n<tr>\n<td>d4</td>\n<td>角色能读、写并说一些简单的单词和短语。</td>\n</tr>\n<tr>\n<td>d6</td>\n<td>角色能进行较长时间的对话，但偶尔会卡顿。</td>\n</tr>\n<tr>\n<td>d8</td>\n<td>角色能流利地说话。</td>\n</tr>\n<tr>\n<td>d10</td>\n<td>角色能模仿该语言下的其他方言。</td>\n</tr>\n<tr>\n<td>d12</td>\n<td>说话者能熟练地复诵重要文学或是口传作品。</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong>限制：</strong>进行需要外语知识的动作时，使用最低的那个技能。诸如@Compendium[swade-core-rules.swade-skills.威吓]{威吓 }(如果是口头的), @Compendium[swade-core-rules.swade-skills.交涉]{交涉 }, @Compendium[swade-core-rules.swade-skills.调查]{调查 }, @Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄 }等等都会受角色的语言技能所限制。</p>\n<p>该限制不会应用在角色的母语上。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>在一些着眼于通俗动作风味或是“行星冒险”(角色经常在不同的奇怪文明之间旅行)的设定中，口述各种语言可通过穿插停顿的对话以及蹩脚的口音进行简单扮演。这一开始会有点困难，而且很快就会被抛诸脑后。GM可以在这些设定中彻底忽略这个技能，或是使用@Compendium[swade-core-rules.swade-rules.设定规则]{设定规则}中的@Compendium[swade-core-rules.swade-rules.多语言]{多语言}规则。</p>\n<p>在更为真实的设定里，沟通可能会成为主要障碍，这需要角色在额外语言上投入技能点。举例而言，在20世纪八十年代的《第三次世界大战》游戏中，一队联合国的伞兵无法和敌人沟通，除非他们会俄语、波兰语或是其他常见的华约语言。</p>\n<p>如果语言技能可用，则应以诸如语言(西班牙语)，语言(美国手语)等形式列出，而骰子类型反映了角色用得有多流利(角色初始时自己的母语为d8)。</p>\n<div class=\"swade-core\">\n<table class=\"table value-table\"><caption class=\"table-caption\">\n<h2 class=\"table-title\">语言熟练度</h2>\n</caption>\n<tbody>\n<tr class=\"table-header-row\">\n<th class=\"table-column-header\" scope=\"col\">技能</th>\n<th class=\"table-column-header\" scope=\"col\">能力</th>\n</tr>\n</tbody>\n<tbody>\n<tr>\n<td>d4</td>\n<td>角色能读、写并说一些简单的单词和短语。</td>\n</tr>\n<tr>\n<td>d6</td>\n<td>角色能进行较长时间的对话，但偶尔会卡顿。</td>\n</tr>\n<tr>\n<td>d8</td>\n<td>角色能流利地说话。</td>\n</tr>\n<tr>\n<td>d10</td>\n<td>角色能模仿该语言下的其他方言。</td>\n</tr>\n<tr>\n<td>d12</td>\n<td>说话者能熟练地复诵重要文学或是口传作品。</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p><strong>限制：</strong>进行需要外语知识的动作时，使用最低的那个技能。诸如@Compendium[swade-core-rules.swade-skills.威吓]{威吓}(如果是口头的)，@Compendium[swade-core-rules.swade-skills.交涉]{交涉}，@Compendium[swade-core-rules.swade-skills.调查]{调查}，@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄}等等都会受角色的语言技能所限制。</p>\n<p>该限制不会应用在角色的母语上。</p>\n</div>",
             "name": "语言"
         },
         "Notice": {
             "name": "察觉",
-            "description": "<div class=\"swade-core\">\n<p>察觉代表角色的总体感知力和警戒性，这包括对视觉、声音、味道以及气味的感知，以及指出阴谋、发现埋伏、找出敌人身上隐藏的武器，或是辨别对方现在是在说谎、恐惧或是喜悦等等。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }会获得基础信息：角色听到森林中有东西移动，闻到远处的烟味，或是发现某人仍未和盘托出。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }会提供更多细节，比如声音或气味的方位，某人正就某话题避而不谈或用谎言加以掩盖等等。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>察觉代表角色的总体感知力和警戒性，这包括对视觉、声音、味道以及气味的感知，以及指出阴谋、发现埋伏、找出敌人身上隐藏的武器，或是辨别对方现在是在说谎、恐惧或是喜悦等等。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}会获得基础信息：角色听到森林中有东西移动，闻到远处的烟味，或是发现某人仍未和盘托出。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}会提供更多细节，比如声音或气味的方位，某人正就某话题避而不谈或用谎言加以掩盖等等。</p>\n</div>"
         },
         "Occult": {
             "name": "神秘学",
-            "description": "<div class=\"swade-core\"><p>神秘学表现了被大多数人认为是天方夜谭的离奇知识与经验，这可用于破译奇异的象形符号，回忆超自然生物的信息，想起诸如狼人症或是吸血疫等怪病的治疗方法，或是施展仪式。</p>\n<p>在图书馆、报纸档案馆、古老典籍以及互联网等等当中寻找信息使用的是@Compendium[swade-core-rules.swade-skills.调查]{调查 }技能。然而，如同说明，若是调查员的神秘学要更高，则能以此作为替代。</p></div>"
+            "description": "<div class=\"swade-core\"><p>神秘学表现了被大多数人认为是天方夜谭的离奇知识与经验，这可用于破译奇异的象形符号，回忆超自然生物的信息，想起诸如狼人症或是吸血疫等怪病的治疗方法，或是施展仪式。</p>\n<p>在图书馆、报纸档案馆、古老典籍以及互联网等等当中寻找信息使用的是@Compendium[swade-core-rules.swade-skills.调查]{调查}技能。然而，如同说明，若是调查员的神秘学要更高，则能以此作为替代。</p></div>"
         },
         "Performance": {
             "name": "表演",
-            "description": "<div class=\"swade-core\">\n<p>优秀的艺人能鼓舞灵魂，号召大众行动，或是单纯地从当地人手上挣几个铜板。这具体根据状况、设定以及角色在这片区域的名气而定。</p>\n<p>表演涵盖唱歌、演戏、奏乐，或是需要观众欣赏的类似作业。</p>\n<p><strong>卖艺：</strong>角色能通过表演赚取的金钱数量极为主观，但就大体规则而言，@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }的表演能赚取20%设定内的@Compendium[swade-core-rules.swade-rules.角色]{起始资金 }，出现优良则是30%。GM也能酌情根据表演者的@Compendium[swade-core-rules.swade-rules.升级]{位阶 }让金钱数量倍增。该数量适合在小机构或是小地方有点名气的艺人，大型的表演能大大地提高表演者的报酬，但同时需要更多的时间、精力和准备。</p>\n<p><strong>诡术：</strong>如果角色尝试欺骗、唬弄或是易容，而且GM认为状况允许时，可以用表演来替代@Compendium[swade-core-rules.swade-skills.交涉]{交涉 }技能。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>优秀的艺人能鼓舞灵魂，号召大众行动，或是单纯地从当地人手上挣几个铜板。这具体根据状况、设定以及角色在这片区域的名气而定。</p>\n<p>表演涵盖唱歌、演戏、奏乐，或是需要观众欣赏的类似作业。</p>\n<p><strong>卖艺：</strong>角色能通过表演赚取的金钱数量极为主观，但就大体规则而言，@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}的表演能赚取20%设定内的@Compendium[swade-core-rules.swade-rules.角色]{起始资金}，出现优良则是30%。GM也能酌情根据表演者的@Compendium[swade-core-rules.swade-rules.升级]{位阶}让金钱数量倍增。该数量适合在小机构或是小地方有点名气的艺人，大型的表演能大大地提高表演者的报酬，但同时需要更多的时间、精力和准备。</p>\n<p><strong>诡术：</strong>如果角色尝试欺骗、唬弄或是易容，而且GM认为状况允许时，可以用表演来替代@Compendium[swade-core-rules.swade-skills.交涉]{交涉}技能。</p>\n</div>"
         },
         "Persuasion": {
             "name": "交涉",
-            "description": "<div class=\"swade-core\">\n<p>交涉是通过理论、奉承、欺骗、许诺回报或其他友好手段来说服他人按照角色的意愿行动。交涉并非心灵控制，改变的是某人的态度，而不是对方的目标。若是交涉投骰结果不错，强盗也许会让角色留着某件有所寄托的珠宝，但仍会拿光其他东西。</p>\n<p>当用于@Compendium[swade-core-rules.swade-rules.援助]{援助 }盟友时，投骰不需要进行对抗。若目标有所抵抗，则需要一次针对目标@Compendium[swade-core-rules.swade-rules.特性]{心魂 }的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗投骰 }。GM应根据扮演，影响对话的相关@Compendium[swade-core-rules.swade-rules.专长]{专长 }或@Compendium[swade-core-rules.swade-rules.负赘]{负赘 }以及环境来给予投骰适当的调整值。</p>\n<p><strong>态度等级：</strong>无论某人是在和谁交谈，前者合作的意愿大体上取决于其对后者的态度。GM能基于设定决定NPC的感受，或者，如果他没有预设想法，也可以根据@Compendium[swade-core-rules.swade-tables.态度表]{态度表 }进行投骰。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }会让目标的态度上升一级，优良则会提升两级。同一遭遇内进一步让态度继续上升往往不太可能——人物需要一点时间去调整他们的思想倾向。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{失败 }意味着除非状况发生重大改变，否则目标在本次遭遇内不会改变想法。@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }会让目标的态度<em>下降 </em>两级。</p>\n<p>每次互动通常应该只有一次投骰，除非有新信息被揭露，或是予以重酬等等。</p>\n<p><strong>打点关系：</strong>角色能将交涉作为“宏观”技能使用，模拟通过数小时乃至一晚上的交谈和社交来获取支持或是信息，见@Compendium[swade-core-rules.swade-rules.打点关系]{打点关系 }。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>交涉是通过理论、奉承、欺骗、许诺回报或其他友好手段来说服他人按照角色的意愿行动。交涉并非心灵控制，改变的是某人的态度，而不是对方的目标。若是交涉投骰结果不错，强盗也许会让角色留着某件有所寄托的珠宝，但仍会拿光其他东西。</p>\n<p>当用于@Compendium[swade-core-rules.swade-rules.援助]{援助}盟友时，投骰不需要进行对抗。若目标有所抵抗，则需要一次针对目标@Compendium[swade-core-rules.swade-rules.特性]{心魂}的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗投骰}。GM应根据扮演，影响对话的相关@Compendium[swade-core-rules.swade-rules.专长]{专长}或@Compendium[swade-core-rules.swade-rules.负赘]{负赘}以及环境来给予投骰适当的调整值。</p>\n<p><strong>态度等级：</strong>无论某人是在和谁交谈，前者合作的意愿大体上取决于其对后者的态度。GM能基于设定决定NPC的感受，或者，如果他没有预设想法，也可以根据@Compendium[swade-core-rules.swade-tables.态度表]{态度表}进行投骰。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}会让目标的态度上升一级，优良则会提升两级。同一遭遇内进一步让态度继续上升往往不太可能——人物需要一点时间去调整他们的思想倾向。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{失败}意味着除非状况发生重大改变，否则目标在本次遭遇内不会改变想法。@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}会让目标的态度<em>下降 </em>两级。</p>\n<p>每次互动通常应该只有一次投骰，除非有新信息被揭露，或是予以重酬等等。</p>\n<p><strong>打点关系：</strong>角色能将交涉作为“宏观”技能使用，模拟通过数小时乃至一晚上的交谈和社交来获取支持或是信息，见@Compendium[swade-core-rules.swade-rules.打点关系]{打点关系}。</p>\n</div>"
         },
         "Piloting": {
             "name": "航空",
-            "description": "<div class=\"swade-core\">\n<p>航空让角色得以操纵飞机、直升机、喷射背包或是太空船。追逐规则以及载具战斗见@Compendium[swade-core-rules.swade-rules.追逐与载具]{追逐与载具 }。</p>\n<p>具有天生飞行能力的存在(举例而言，长有翅膀)则是以@Compendium[swade-core-rules.swade-skills.运动]{运动 }作为替代。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>航空让角色得以操纵飞机、直升机、喷射背包或是太空船。追逐规则以及载具战斗见@Compendium[swade-core-rules.swade-rules.追逐与载具]{追逐与载具}。</p>\n<p>具有天生飞行能力的存在(举例而言，长有翅膀)则是以@Compendium[swade-core-rules.swade-skills.运动]{运动}作为替代。</p>\n</div>"
         },
         "Psionics": {
             "name": "灵能",
-            "description": "<div class=\"swade-core\"><p>这个技能用于启动或操纵角色的灵能，见@Compendium[swade-core-rules.swade-edges.奥法背景 (灵能)]{奥法背景 (灵能) }专长。</p></div>"
+            "description": "<div class=\"swade-core\"><p>这个技能用于启动或操纵角色的灵能，见@Compendium[swade-core-rules.swade-edges.奥法背景 (灵能)]{奥法背景 (灵能)}专长。</p></div>"
         },
         "Repair": {
-            "description": "<div class=\"swade-core\">\n<p>修理是拆解以及修补机械小装置、载具、 武器以及简单电子设备的能力，这也包括使用炸药和炸弹。</p>\n<p>修理需要多长时间取决于GM和作业复杂程度。在后启示录的设定里，修理小型汽车上的一个@Compendium[swade-core-rules.swade-rules.追逐与载具]{损伤 }也许需要1小时。若是在当下要修理同一辆车上的一个损伤，而且角色还想上漆抛光之类的，则可能会需要4个小时。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }意味着物品恢复功能，而出现在修理投骰上的@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }则能让所需时间减半。</p>\n<p><strong>工具：</strong>若是角色搞不到基础工具，则投骰会遭受轻微@Compendium[swade-core-rules.swade-rules.特性投骰]{减值 }(-1到-2)，如果这个装置需要特定器械，则会遭受严重减值(-3到-4)。</p>\n<p><strong>电子装置：</strong>修理能用于维修电子设备，但受角色的@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }技能所限制，使用其中最低的那个技能。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>修理是拆解以及修补机械小装置、载具、 武器以及简单电子设备的能力，这也包括使用炸药和炸弹。</p>\n<p>修理需要多长时间取决于GM和作业复杂程度。在后启示录的设定里，修理小型汽车上的一个@Compendium[swade-core-rules.swade-rules.追逐与载具]{损伤}也许需要1小时。若是在当下要修理同一辆车上的一个损伤，而且角色还想上漆抛光之类的，则可能会需要4个小时。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}意味着物品恢复功能，而出现在修理投骰上的@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则能让所需时间减半。</p>\n<p><strong>工具：</strong>若是角色搞不到基础工具，则投骰会遭受轻微@Compendium[swade-core-rules.swade-rules.特性投骰]{减值}(-1到-2)，如果这个装置需要特定器械，则会遭受严重减值(-3到-4)。</p>\n<p><strong>电子装置：</strong>修理能用于维修电子设备，但受角色的@Compendium[swade-core-rules.swade-skills.电子学]{电子学}技能所限制，使用其中最低的那个技能。</p>\n</div>",
             "name": "修理"
         },
         "Research": {
-            "description": "<div class=\"swade-core\">\n<p>精于调查的角色知晓如何有效利用图书馆、报纸档案室、网络或其他成文的信息源。</p>\n<p>这需要的时间由GM和状况决定。在网络上搜索东西或是找出书中的特定段落可能只需要花一个@Compendium[swade-core-rules.swade-rules.战斗]{战斗轮 }，而在图书馆里面阅览书籍，就某一复杂主题在互联网进行搜索或是挖掘某一人物的背景信息通常需要1小时。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }意味着找到基础信息，出现优良将会提供更多细节，@Compendium[swade-core-rules.swade-rules.特性投骰]{失败 }代表调查者没有找到想要的信息。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }意味着调查者找到了看似有理有据实际错得离谱的信息，引起某些敌对实体或是势力的注意，读到了一些“凡人不应知晓”的东西并遭受了某类心理疾病的影响(次级@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症 }、@Compendium[swade-core-rules.swade-hindrances.怪癖]{怪癖 }等等)，甚至是意外毁掉了信息源。GM应该在这类不幸出现时开动脑筋，也许能推动团队通过别种途径达到目的。</p>\n<p><strong>相关技能：</strong>若是角色具备与调查对象直接相关的技能，则能以该技能替代调查。举例而言，具备d10@Compendium[swade-core-rules.swade-skills.神秘学]{神秘学 }以及d6调查的探索者，他在失落图书馆里调查吸血鬼学识时投d10。如果他后面去搜索一间谣传有吸血鬼蛰伏的房子的地契，则要如常投调查。</p>\n<p><strong>注意：</strong>调查也许只能提供线索，而在神秘气息浓重的游戏里则更是如此，把收集到的信息整理在一起是玩家的工作。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>精于调查的角色知晓如何有效利用图书馆、报纸档案室、网络或其他成文的信息源。</p>\n<p>这需要的时间由GM和状况决定。在网络上搜索东西或是找出书中的特定段落可能只需要花一个@Compendium[swade-core-rules.swade-rules.战斗]{战斗轮}，而在图书馆里面阅览书籍，就某一复杂主题在互联网进行搜索或是挖掘某一人物的背景信息通常需要1小时。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}意味着找到基础信息，出现优良将会提供更多细节，@Compendium[swade-core-rules.swade-rules.特性投骰]{失败}代表调查者没有找到想要的信息。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}意味着调查者找到了看似有理有据实际错得离谱的信息，引起某些敌对实体或是势力的注意，读到了一些“凡人不应知晓”的东西并遭受了某类心理疾病的影响(次级@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症}、@Compendium[swade-core-rules.swade-hindrances.怪癖]{怪癖}等等)，甚至是意外毁掉了信息源。GM应该在这类不幸出现时开动脑筋，也许能推动团队通过别种途径达到目的。</p>\n<p><strong>相关技能：</strong>若是角色具备与调查对象直接相关的技能，则能以该技能替代调查。举例而言，具备d10@Compendium[swade-core-rules.swade-skills.神秘学]{神秘学}以及d6调查的探索者，他在失落图书馆里调查吸血鬼学识时投d10。如果他后面去搜索一间谣传有吸血鬼蛰伏的房子的地契，则要如常投调查。</p>\n<p><strong>注意：</strong>调查也许只能提供线索，而在神秘气息浓重的游戏里则更是如此，把收集到的信息整理在一起是玩家的工作。</p>\n</div>",
             "name": "调查"
         },
         "Riding": {
             "name": "骑乘",
-            "description": "<div class=\"swade-core\"><p>骑乘让角色得以驾驭、控制并乘坐所有在设定中常见的动物或畜力载具，这包括马匹、 骆驼、飞龙、马车、马战车等等，规则见@Compendium[swade-core-rules.swade-rules.骑乘战斗]{骑乘战斗 }。</p></div>"
+            "description": "<div class=\"swade-core\"><p>骑乘让角色得以驾驭、控制并乘坐所有在设定中常见的动物或畜力载具，这包括马匹、 骆驼、飞龙、马车、马战车等等，规则见@Compendium[swade-core-rules.swade-rules.骑乘战斗]{骑乘战斗}。</p></div>"
         },
         "Science": {
             "name": "科学",
-            "description": "<div class=\"swade-core\">\n<p>具备该技能的角色学习过各种晦涩难懂的科学，诸如生物学、异形生物学、化学、地理学、工程学或者其他任何“硬核”科学。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }的科学投骰能揭示相关主题的基础信息，出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }则能提供更多细节。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>具备该技能的角色学习过各种晦涩难懂的科学，诸如生物学、异形生物学、化学、地理学、工程学或者其他任何“硬核”科学。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}的科学投骰能揭示相关主题的基础信息，出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则能提供更多细节。</p>\n</div>"
         },
         "Shooting": {
             "name": "射击",
-            "description": "<div class=\"swade-core\">\n<p>所有用远程武器击中目标的尝试都囊括在射击之中，比如弓箭、手枪或者火箭发射器(投掷武器使用的是@Compendium[swade-core-rules.swade-skills.运动]{运动 })。远程战斗的内容详见@Compendium[swade-core-rules.swade-rules.战斗]{第三章 }</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>所有用远程武器击中目标的尝试都囊括在射击之中，比如弓箭、手枪或者火箭发射器(投掷武器使用的是@Compendium[swade-core-rules.swade-skills.运动]{运动})。远程战斗的内容详见@Compendium[swade-core-rules.swade-rules.战斗]{第三章}</p>\n</div>"
         },
         "Spellcasting": {
             "name": "施法",
-            "description": "<div class=\"swade-core\"><p>法师、巫师、术士和女巫都通过施法技能来施展法术，见@Compendium[swade-core-rules.swade-rules.奥法背景 (魔法)]{奥法背景 (魔法) }专长。</p></div>"
+            "description": "<div class=\"swade-core\"><p>法师、巫师、术士和女巫都通过施法技能来施展法术，见@Compendium[swade-core-rules.swade-rules.奥法背景 (魔法)]{奥法背景 (魔法)}专长。</p></div>"
         },
         "Stealth": {
             "name": "潜行",
-            "description": "<div class=\"swade-core\">\n<p>潜行是隐藏以及无声移动的能力。若是敌方并未有所警觉，只要潜行投骰@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }，角色就能避免遭到发现。若是角色投骰@Compendium[swade-core-rules.swade-rules.特性投骰]{失败 }，则敌方会意识到什么不对劲的地方，然后开始积极对此展开搜索。</p>\n<p>一旦对手警觉并积极起来，潜行就要针对@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }进行对抗。如果有许多对手则进行@Compendium[swade-core-rules.swade-rules.特性投骰]{团体投骰 }。</p>\n<p>GM该就@[swade-core-rules.swade-rules.照明]{黑暗 }、@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽 }、声音、分心程度以及任何@Compendium[swade-core-rules.swade-rules.体型和尺寸]{尺寸 }差距(和攻击时一样)而应用环境减值。举例而言，溜过干枯的叶子可能会让潜行投骰-2，而尝试在黑暗中发现某人则应用@Compendium[swade-core-rules.swade-rules.照明]{照明 }值(-4)。但别把同一调整值应用在两边的骰子上，如果潜行已经因为叶子而-2，就别再让对应的察觉+2。</p>\n<p><strong>偷袭：</strong>无论对方是否主动进行搜索，潜行到足够发起近战攻击的距离<em>永远 </em>需要针对目标的@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }进行潜行@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗 }投骰。若是成功，则对象就攻击方而言陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{脆弱 })，但只持续到攻击方回合结束为止。若出现优良，则会变成攻击方构成@Compendium[swade-core-rules.swade-rules.奇袭]{奇袭 }。</p>\n<p><strong>移动：</strong>战斗中，角色每回合须在移动结束或是任何GM认为会吸引注意的动作结束后以一个@Compendium[swade-core-rules.swade-rules.动作]{自由动作 }进行潜行投骰。</p>\n<p>战斗外，能移动的距离完全取决于状况而定。GM也许会要求潜行溜过防御区域边界的团队每分钟进行一次投骰，或是让想悄悄穿过一片黑暗森林而不惊动当地生物的团队每几英里就进行一次投骰。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>潜行是隐藏以及无声移动的能力。若是敌方并未有所警觉，只要潜行投骰@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}，角色就能避免遭到发现。若是角色投骰@Compendium[swade-core-rules.swade-rules.特性投骰]{失败}，则敌方会意识到什么不对劲的地方，然后开始积极对此展开搜索。</p>\n<p>一旦对手警觉并积极起来，潜行就要针对@Compendium[swade-core-rules.swade-skills.察觉]{察觉}进行对抗。如果有许多对手则进行@Compendium[swade-core-rules.swade-rules.特性投骰]{团体投骰}。</p>\n<p>GM该就@Compendium[swade-core-rules.swade-rules.照明]{黑暗}、@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}、声音、分心程度以及任何@Compendium[swade-core-rules.swade-rules.体型与尺寸]{尺寸}差距(和攻击时一样)而应用环境减值。举例而言，溜过干枯的叶子可能会让潜行投骰-2，而尝试在黑暗中发现某人则应用@Compendium[swade-core-rules.swade-rules.照明]{照明}值(-4)。但别把同一调整值应用在两边的骰子上，如果潜行已经因为叶子而-2，就别再让对应的察觉+2。</p>\n<p><strong>偷袭：</strong>无论对方是否主动进行搜索，潜行到足够发起近战攻击的距离<em>永远 </em>需要针对目标的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}进行潜行@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗}投骰。若是成功，则对象就攻击方而言陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{脆弱})，但只持续到攻击方回合结束为止。若出现优良，则会变成攻击方构成@Compendium[swade-core-rules.swade-rules.奇袭]{奇袭}。</p>\n<p><strong>移动：</strong>战斗中，角色每回合须在移动结束或是任何GM认为会吸引注意的动作结束后以一个@Compendium[swade-core-rules.swade-rules.动作]{自由动作}进行潜行投骰。</p>\n<p>战斗外，能移动的距离完全取决于状况而定。GM也许会要求潜行溜过防御区域边界的团队每分钟进行一次投骰，或是让想悄悄穿过一片黑暗森林而不惊动当地生物的团队每几英里就进行一次投骰。</p>\n</div>"
         },
         "Survival": {
             "name": "生存",
-            "description": "<div class=\"swade-core\">\n<p>角色能以生存在恶劣的环境下寻找食物、 饮水或是居所，同时也能以此在荒郊野外当中找到方向，分辨哪种植物可以吃哪种不可以吃等等。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }的生存投骰能为单人提供一天份的食物和水，如果出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }则是五人份。</p>\n<p>关于@Compendium[swade-core-rules.swade-rules.饥饿]{饥饿 }和@Compendium[swade-core-rules.swade-rules.干渴]{干渴 }的更多内容在@Compendium[swade-core-rules.swade-rules.危难]{危难 }里面。</p>\n<p><strong>追踪：</strong>生存也可用于发现及跟踪痕迹。通常而言每跟踪一英里就要投骰一次，但GM应根据特定环境需要对其进行调整。</p>\n<p>GM应当根据对象、环境以及时间提供@Compendium[swade-core-rules.swade-rules.特性投骰]{加值与减值 }。在被雪覆盖的环境里追踪一大帮最近通过的家伙可能会获得+4加值，而跟踪某名几天前穿过岩石和溪流的人物可能会招致-4减值。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>角色能以生存在恶劣的环境下寻找食物、 饮水或是居所，同时也能以此在荒郊野外当中找到方向，分辨哪种植物可以吃哪种不可以吃等等。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}的生存投骰能为单人提供一天份的食物和水，如果出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则是五人份。</p>\n<p>关于@Compendium[swade-core-rules.swade-rules.饥饿]{饥饿}和@Compendium[swade-core-rules.swade-rules.干渴]{干渴}的更多内容在@Compendium[swade-core-rules.swade-rules.危难]{危难}里面。</p>\n<p><strong>追踪：</strong>生存也可用于发现及跟踪痕迹。通常而言每跟踪一英里就要投骰一次，但GM应根据特定环境需要对其进行调整。</p>\n<p>GM应当根据对象、环境以及时间提供@Compendium[swade-core-rules.swade-rules.特性投骰]{加值与减值}。在被雪覆盖的环境里追踪一大帮最近通过的家伙可能会获得+4加值，而跟踪某名几天前穿过岩石和溪流的人物可能会招致-4减值。</p>\n</div>"
         },
         "Taunt": {
             "name": "嘲弄",
-            "description": "<div class=\"swade-core\">\n<p>嘲弄是通过凌辱，残忍的玩笑或是奚落来攻击对方的自尊心。</p>\n<p>嘲弄是和对方聪慧进行抗衡的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗投骰 }，这在战斗中属于一次@Compendium[swade-core-rules.swade-rules.考验]{考验 }。</p>\n<p>在战斗外，@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }的嘲弄投骰意味着对方将会退让、溜走或是开始战斗，出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }也许会让对象在本次遭遇结束前保持畏缩，或是让其怒火冲天或是泪流满脸地夺门而出，又或者是鲁莽无谋地猛攻过来(也许在战斗第一轮里还会用@Compendium[swade-core-rules.swade-rules.不羁攻击]{不羁攻击 })。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }会让对象在本次遭遇结束前免疫这名角色的嘲弄。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>嘲弄是通过凌辱，残忍的玩笑或是奚落来攻击对方的自尊心。</p>\n<p>嘲弄是和对方聪慧进行抗衡的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗投骰}，这在战斗中属于一次@Compendium[swade-core-rules.swade-rules.考验]{考验}。</p>\n<p>在战斗外，@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}的嘲弄投骰意味着对方将会退让、溜走或是开始战斗，出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}也许会让对象在本次遭遇结束前保持畏缩，或是让其怒火冲天或是泪流满脸地夺门而出，又或者是鲁莽无谋地猛攻过来(也许在战斗第一轮里还会用@Compendium[swade-core-rules.swade-rules.不羁攻击]{不羁攻击})。</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}会让对象在本次遭遇结束前免疫这名角色的嘲弄。</p>\n</div>"
         },
         "Unskilled Attempt": {
-            "description": "<div class=\"swade-core\">\n<p>若是角色不具备所尝试行动的技能，则投一枚d4作为技能骰(@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{不羁角色 }还有不羁骰)，并在总值中-2。</p>\n<p>GM有权决定特定任务无法进行未受训尝试，比如执行复杂的外科手术或开喷气式飞机。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>若是角色不具备所尝试行动的技能，则投一枚d4作为技能骰(@Compendium[swade-core-rules.swade-rules.不羁角色与龙套们]{不羁角色}还有不羁骰)，并在总值中-2。</p>\n<p>GM有权决定特定任务无法进行未受训尝试，比如执行复杂的外科手术或开喷气式飞机。</p>\n</div>",
             "name": "未受训尝试"
         },
         "Weird Science": {
             "name": "奇异科学",
-            "description": "<div class=\"swade-core\"><p>“疯狂”科学家、世界上与魔法(或是凌驾我们所掌握的科技)为伴的发明者、炼金术士或是奇匠在《狂野世界》里无处不在。</p>\n<p>尽管这些技术千奇百怪，但都以奇异科学作为奥法技能，见@Compendium[swade-core-rules.swade-rules.奥法背景 (奇异科学)]{奥法背景 (奇异科学) }以了解里面的奇妙神通。</p>\n<p>&nbsp;</p></div>"
+            "description": "<div class=\"swade-core\"><p>“疯狂”科学家、世界上与魔法(或是凌驾我们所掌握的科技)为伴的发明者、炼金术士或是奇匠在《狂野世界》里无处不在。</p>\n<p>尽管这些技术千奇百怪，但都以奇异科学作为奥法技能，见@Compendium[swade-core-rules.swade-rules.奥法背景 (奇异科学)]{奥法背景 (奇异科学)}以了解里面的奇妙神通。</p>\n<p>&nbsp;</p></div>"
         },
         "Thievery": {
             "name": "贼活",
-            "description": "<div class=\"swade-core\">\n<p>开锁、撬窃、扒窃、手上功夫、设置和解除陷阱、误导、妨害、掩盖、伪造等类似行为都称为贼活。</p>\n<p>如果用于开锁、撬保险柜、解除陷阱或是进行简单的非对抗动作，@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }会让装置顺利打开或是予以关闭，而出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }则能减少所需时间，或是不会触发警报，又或者是任何GM认为合适的好处。</p>\n<p>手上功夫、隐藏/埋藏某物或是扒窃则只要@Compendium[swade-core-rules.swade-rules.特性投骰]{成功 }即可。若敌方正主动地盯着角色，则需要进行贼活和@Compendium[swade-core-rules.swade-skills.察觉]{察觉 }的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗 }。</p>\n<p>GM应针对特别困难的情景给予@Compendium[swade-core-rules.swade-rules.特性投骰]{减值 }。开一把重型挂锁可能会带有-4减值，而把转轮手枪藏在厚厚的冬衣下可能会获得+1加值。@Compendium[swade-core-rules.swade-rules.特性投骰]{失败 }通常意味着角色遭到发现或是花了太长时间(事后角色能再试一次)。@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败 }则往往意味着激活了陷阱，让对象有所警觉，或是搞坏了装置乃至于必须要用别的方法才能打开或是互动。</p>\n<p><strong>限制：</strong>对诸如键盘等电子装置使用贼活会受到角色@Compendium[swade-core-rules.swade-skills.电子学]{电子学 }技能的限制，使用两技能中的最低者。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>开锁、撬窃、扒窃、手上功夫、设置和解除陷阱、误导、妨害、掩盖、伪造等类似行为都称为贼活。</p>\n<p>如果用于开锁、撬保险柜、解除陷阱或是进行简单的非对抗动作，@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}会让装置顺利打开或是予以关闭，而出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则能减少所需时间，或是不会触发警报，又或者是任何GM认为合适的好处。</p>\n<p>手上功夫、隐藏/埋藏某物或是扒窃则只要@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}即可。若敌方正主动地盯着角色，则需要进行贼活和@Compendium[swade-core-rules.swade-skills.察觉]{察觉}的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗}。</p>\n<p>GM应针对特别困难的情景给予@Compendium[swade-core-rules.swade-rules.特性投骰]{减值}。开一把重型挂锁可能会带有-4减值，而把转轮手枪藏在厚厚的冬衣下可能会获得+1加值。@Compendium[swade-core-rules.swade-rules.特性投骰]{失败}通常意味着角色遭到发现或是花了太长时间(事后角色能再试一次)。@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}则往往意味着激活了陷阱，让对象有所警觉，或是搞坏了装置乃至于必须要用别的方法才能打开或是互动。</p>\n<p><strong>限制：</strong>对诸如键盘等电子装置使用贼活会受到角色@Compendium[swade-core-rules.swade-skills.电子学]{电子学}技能的限制，使用两技能中的最低者。</p>\n</div>"
         },
         "Academics": {
             "name": "人文",
