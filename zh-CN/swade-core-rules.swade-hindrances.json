@@ -89,7 +89,7 @@
             "name": "贪婪"
         },
         "Habit": {
-            "description": "<div class=\"swade-core\">\n<p>(次要或主要)</p>\n<p>角色有着烦人或危险的积习。@Compendium[swade-core-rules.swade-rules.角色]{次要}陋习会让旁人不悦，但并不危险。比如挖鼻孔，不停玩手机，每句话中间都加上“对伐”，或经常大声吧唧吧唧地嚼口香糖。盟友们会尽量敬而远之。</p>\n<p>@Compendium[swade-core-rules.swade-rules.角色]{主要}陋习则是某种会导致衰弱乃至死亡的生理或是心理成瘾，这包括吸毒、酗酒，甚至是高科技设定里面的虚拟现实成瘾。</p>\n<p>若是瘾君子没有得到满足，则其每停用24小时就必须成功通过一次@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰，否则就会遭受一级@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏}。</p>\n<p>每24小时一次，配合适当的药物治疗以及一次@Compendium[swade-core-rules.swade-skills.医疗]{医疗}投骰可以在四小时内暂时移除一级@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏}。在此之后疲乏会卷土重来，只有藉由满足瘾头才能得以恢复。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>(次要或主要)</p>\n<p>角色有着烦人或危险的积习。@Compendium[swade-core-rules.swade-rules.角色]{次要}陋习会让旁人不悦，但并不危险。比如挖鼻孔，不停玩手机，每句话中间都加上“对伐”，或经常大声吧唧吧唧地嚼口香糖。盟友们会尽量敬而远之。</p>\n<p>@Compendium[swade-core-rules.swade-rules.角色]{主要}陋习则是某种会导致衰弱乃至死亡的生理或是心理成瘾，这包括吸毒、酗酒，甚至是高科技设定里面的虚拟现实成瘾。</p>\n<p>若是瘾君子没有得到满足，则其每停用24小时就必须成功通过一次@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰，否则就会遭受一级@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏}。</p>\n<p>每24小时一次，配合适当的药物治疗以及一次@Compendium[swade-core-rules.swade-skills.治疗]{治疗}投骰可以在四小时内暂时移除一级@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏}。在此之后疲乏会卷土重来，只有藉由满足瘾头才能得以恢复。</p>\n</div>",
             "name": "陋习"
         },
         "Hard of Hearing": {
