@@ -53,7 +53,7 @@
         },
         "Fast Regeneration": {
             "name": "快速再生",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (再生)]{快速再生}：</strong>有些生物能快速恢复并且可以每轮尝试一次@Compendium[swade-core-rules.swade-rules.恢复]{自然恢复}投骰，即使处于@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化}也是如此，除非@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}是由火焰或是烈焰造成，或是之后遭到火炬烧却。 </li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (再生)]{快速再生}：</strong>有些生物能快速恢复并且可以每轮尝试一次@Compendium[swade-core-rules.swade-rules.恢复]{自然治疗}投骰，即使处于@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化}也是如此，除非@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}是由火焰或是烈焰造成，或是之后遭到火炬烧却。 </li>\n</ul>\n</div>"
         },
         "Fear (-2)": {
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (恐惧)]{恐惧}(&minus;2)：</strong>任何看见此恐怖之物的对象必须进行一次-2的恐惧检定。</li>\n</ul>\n</div>",
