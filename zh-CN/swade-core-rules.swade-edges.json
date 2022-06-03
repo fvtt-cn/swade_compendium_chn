@@ -302,7 +302,7 @@
         },
         "Fast Healer": {
             "name": "快速痊愈",
-            "description": "<div class=\"swade-core\">\n<p>受过此等祝福的角色自然恢复@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰+2，并且检定从每五天一次变成每三天一次(见<strong>@Compendium[swade-core-rules.swade-skills.医疗]{恢复}</strong>)。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>受过此等祝福的角色自然治疗@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰+2，并且检定从每五天一次变成每三天一次(见<strong>@Compendium[swade-core-rules.swade-skills.治疗]{恢复}</strong>)。</p>\n</div>",
             "requirements": "入门，活力d8+"
         },
         "Feint": {
@@ -367,7 +367,7 @@
         },
         "Healer": {
             "name": "治疗师",
-            "description": "<div class=\"swade-core\">\n<p>拥有该专长的角色所有@Compendium[swade-core-rules.swade-rules.恢复]{医疗}投骰+2，无论其本质是自然还是魔法治疗皆为如此。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>拥有该专长的角色所有@Compendium[swade-core-rules.swade-rules.恢复]{治疗}投骰+2，无论其本质是自然还是魔法治疗皆为如此。</p>\n</div>",
             "requirements": "入门，心魂d8+"
         },
         "Humiliate": {
@@ -587,7 +587,7 @@
         },
         "Soul Drain": {
             "name": "饮魂汲魄",
-            "description": "<div class=\"swade-core\">\n<p>走投无路时就要放手一搏。饮魂汲魄让奥法角色可以将肉体能量转换为奇术之力，其能通过遭受1级的@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏}来恢复至多5点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}。他可以选择额外遭受一级疲乏(至@Compendium[swade-core-rules.swade-rules.疲乏]{力竭})额外再恢复5点奇术点，但不能用以此让自己陷入@Compendium[swade-core-rules.swade-rules.疲乏]{无力化}。</p>\n<p>饮魂汲魄造成的疲乏来自内在深处，这只能自然恢复。<em>@Compendium[swade-core-rules.swade-powers.缓和]{缓和}</em>奇术和类似能力对此没有效果。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>走投无路时就要放手一搏。饮魂汲魄让奥法角色可以将肉体能量转换为奇术之力，其能通过遭受1级的@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏}来恢复至多5点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}。他可以选择额外遭受一级疲乏(至@Compendium[swade-core-rules.swade-rules.疲乏]{力竭})额外再恢复5点奇术点，但不能用以此让自己陷入@Compendium[swade-core-rules.swade-rules.疲乏]{无力化}。</p>\n<p>饮魂汲魄造成的疲乏来自内在深处，这只能自然治疗。<em>@Compendium[swade-core-rules.swade-powers.缓和]{缓和}</em>奇术和类似能力对此没有效果。</p>\n</div>",
             "requirements": "行家，奥法背景 (任意)，奥法技能d10+"
         },
         "Steady Hands": {
