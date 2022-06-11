@@ -646,8 +646,8 @@
             "requirements": "传奇，格斗d12+"
         },
         "Wizard": {
-            "name": "奇才",
-            "description": "<div class=\"swade-core\">\n<p>魔法千般百样，玄妙神奇，而徜徉在无尽书册、卷轴和符咒之中的奇才对自己的技艺可谓得心应手，有时其能从这些知识中召来变化万千的魔法。</p>\n<p>奇才可以在施展奇术时额外消耗1点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}改变奇术的@Compendium[swade-core-rules.swade-rules.特效]{特效}。举例而言，火球(<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>)可以塑造成闪电霹雳。若敌人对法术的通常特效具有特别的抗性或弱点，这个能力往往就会发挥重大作用。</p>\n</div>",
+            "name": "法师",
+            "description": "<div class=\"swade-core\">\n<p>魔法千般百样，玄妙神奇，而徜徉在无尽书册、卷轴和符咒之中的法师对自己的技艺可谓得心应手，有时其能从这些知识中召来变化万千的魔法。</p>\n<p>法师可以在施展奇术时额外消耗1点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}改变奇术的@Compendium[swade-core-rules.swade-rules.特效]{特效}。举例而言，火球(<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>)可以塑造成闪电霹雳。若敌人对法术的通常特效具有特别的抗性或弱点，这个能力往往就会发挥重大作用。</p>\n</div>",
             "requirements": "行家，奥法背景 (魔法)，施法d6+"
         },
         "Woodsman": {
