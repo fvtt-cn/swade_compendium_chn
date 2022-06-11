@@ -65,7 +65,7 @@
             "ammo": "中型子弹"
         },
         "Medic Kit": {
-            "name": "医疗包",
+            "name": "医疗套件",
             "description": "<div class=\"swade-core\">\n<p>使用次数5，@Compendium[swade-core-rules.swade-skills.治疗]{治疗}技能投骰+1，补充花费$25。</p>\n<p>参见主要@Compendium[swade-core-rules.swade-rules.恢复]{恢复}规则。</p>\n</div>"
         },
         "Medium Machine Gun": {
