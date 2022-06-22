@@ -1,47 +1,11 @@
-@font-face {
-  font-family: 'Sarasa Mono SC';
-  src: local('Sarasa Mono SC Regular'), local('sarasa-mono-sc-regular'),
-    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Sarasa Mono SC';
-  src: local('Sarasa Mono SC Bold'), local('sarasa-mono-sc-bold'),
-    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Sarasa Mono SC';
-  src: local('Sarasa Mono SC Italic'), local('sarasa-mono-sc-italic'),
-    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Sarasa Mono SC';
-  src: local('Sarasa Mono SC Bold Italic'), local('sarasa-mono-sc-bolditalic'),
-    url('fonts/Sarasa_Mono_SC/sarasa-mono-sc-bolditalic.ttf') format('truetype');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
 :root {
   /* FONTS */
-  --body-font-family: 'Sarasa Mono SC', serif;
-  --heading-font-family: 'Sarasa Mono SC', sans-serif;
-  --table-title-font-family: 'Sarasa Mono SC', sans-serif;
-  --table-headers-font-family: 'Sarasa Mono SC', serif;
+  --body-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  --heading-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  --table-title-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  --table-headers-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   --table-summary-font-family: var(--table-headers-font-family);
-  --quote-font-family: 'Sarasa Mono SC', cursive;
+  --quote-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", cursive;
 }
 
 .swade-core .embedded-example {
