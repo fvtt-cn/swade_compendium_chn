@@ -136,8 +136,8 @@
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>分裂：</strong>某些集群会在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}后会分裂成两个更小的集群(取决于GM)。在受到@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤}时将集群的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{爆发盖板}的大小下降一级; 小型的集群则会遭到消灭。</li>\n</ul>\n</div>"
         },
         "Swat": {
-            "name": "猛击",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (猛击)]{猛击}：</strong>龙在用爪子攻击时最多可忽略4点@Compendium[swade-core-rules.swade-rules.体型与尺寸]{尺寸}减值。</li>\n</ul>\n</div>"
+            "name": "拍打",
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (拍打)]{拍打}：</strong>龙在用爪子攻击时最多可忽略4点@Compendium[swade-core-rules.swade-rules.体型与尺寸]{尺寸}减值。</li>\n</ul>\n</div>"
         },
         "Undead": {
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (不死族)]{不死族}：</strong>+2坚韧；从动摇@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇}中恢复时+2；不会因@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击}受到额外伤害；定点攻击受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@Compendium[swade-core-rules.swade-rules.疾病]{疾病}与@Compendium[swade-core-rules.swade-rules.毒素]{毒素}。</li>\n</ul>\n</div>",
