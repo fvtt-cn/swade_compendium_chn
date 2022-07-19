@@ -7,3 +7,10 @@ Hooks.on('init', () => {
     });
   }
 });
+Babele.get().registerConverters({
+  "fromPack": Converters.fromPack({
+    "description": "data.description",
+    "notes": "data.notes",
+    "actions": "data.actions"
+  })
+});
