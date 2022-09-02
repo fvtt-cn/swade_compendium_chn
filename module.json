@@ -2,8 +2,16 @@
   "name": "swade_compendium_chn",
   "title": "Translation: 中文 [SWADE（合集包）]",
   "description": "SWADE 系统的合集包翻译，需要 Babele。",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9.999",
+  "authors": [
+    {
+      "name": "FVTT-CN",
+      "email": "fvtt-cn@dickytwister.org"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.282"
+  },
   "author": "FVTT-CN",
   "languages": [
     {
