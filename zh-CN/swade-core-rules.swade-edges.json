@@ -242,7 +242,7 @@
         },
         "Marksman": {
             "name": "神射手",
-            "description": "<div class=\"swade-core\">\n<p>角色在远程武器上有所天赋。若没有在回合内移动且第一个动作没有用超过1的@Compendium[swade-core-rules.swade-rules.射速]{射速}进行射击，角色就能在@Compendium[swade-core-rules.swade-skills.运动]{运动}(投掷)或@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰上获得+1，或是忽略至多2点来自@Compendium[swade-core-rules.swade-rules.定点攻击]{定点攻击}、@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}、@Compendium[swade-core-rules.swade-rules.射程]{射程}、@Compendium[swade-core-rules.swade-rules.体型与尺寸{尺寸}或@Compendium[swade-core-rules.swade-rules.速度]{速度}的减值。这算作次级瞄准战技，因此无法与@Compendium[swade-core-rules.swade-rules.瞄准]{瞄准}叠加。神射手无法应用到除首次攻击外的其他攻击上。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>角色在远程武器上有所天赋。若没有在回合内移动且第一个动作没有用超过1的@Compendium[swade-core-rules.swade-rules.射速]{射速}进行射击，角色就能在@Compendium[swade-core-rules.swade-skills.运动]{运动}(投掷)或@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰上获得+1，或是忽略至多2点来自@Compendium[swade-core-rules.swade-rules.定点打击]{定点打击}、@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}、@Compendium[swade-core-rules.swade-rules.射程]{射程}、@Compendium[swade-core-rules.swade-rules.体型与尺寸{尺寸}或@Compendium[swade-core-rules.swade-rules.速度]{速度}的减值。这算作次级瞄准战技，因此无法与@Compendium[swade-core-rules.swade-rules.瞄准]{瞄准}叠加。神射手无法应用到除首次攻击外的其他攻击上。</p>\n</div>",
             "requirements": "行家，运动d8+ 或 射击d8+"
         },
         "Dead Shot": {
@@ -347,7 +347,7 @@
         },
         "Gadgeteer": {
             "name": "奇械匠",
-            "description": "<div class=\"swade-core\">\n<p>某些机械大师能打造出与众不同的神奇设备。</p>\n<p>奇械师可以消耗至多3点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}用某些合理的零部件来“临时拼凑”出一件奇械。这个奇械能启动设定中奇异科学家通常可用(@Compendium[swade-core-rules.swade-rules.升级]{位阶}等同或更低)且奇术点消耗等于或小于3的任一@Compendium[swade-core-rules.swade-rules.奇术]{奇术}。</p>\n<p>这一奇术的总消耗(加上调整值后)不能超过制造设备时的奇术点消耗，制造者亦不能将@Compendium[swade-core-rules.swade-rules.特效]{限制}应用到奇械上，不过只要奇械师的点数足够，那就可以制造多个奇械。</p>\n<p>制作以及启动某一奇械需要通过一次-2的@Compendium[swade-core-rules.swade-skills.奇异科学]{奇异科学}投骰，这将需要一整个回合，在此期间角色无法做其他任何事(该回合不能进行@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作})，除此之外的机制均如同奇术正常启动那般。</p>\n<p>制造者直接通过自己的奇术点池来给奇械注入奇术点，但若是@Compendium[swade-core-rules.swade-rules.奇术]{持续时间}用尽(这无法维持)，奇械就会碎落成零件散块。</p>\n<h2>例子</h2>\n<p>加布是<em>Weird West</em>里面的发明家。他想用<em>@Compendium[swade-core-rules.swade-powers.强化/削弱特性]{强化特性}</em>来帮助和巨大响尾蛇战斗的红，但他只会<em>@Compendium[swade-core-rules.swade-powers.爆裂]{爆裂}</em>和<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>这俩奇术。幸运的是加布是一位奇械师，所以他将<em>提升特性 </em>做成了一件“电动生化鼓风机”。这件奇械最多能使用价值3奇术点的奇术，所以他将@Compendium[swade-core-rules.swade-rules.妨碍或加快 (+1)]{加快}调整添加到了奇术中，以同时让红的@Compendium[swade-core-rules.swade-rules.移动]{移速}+2。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>某些机械大师能打造出与众不同的神奇设备。</p>\n<p>奇械匠可以消耗至多3点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}用某些合理的零部件来“临时拼凑”出一件奇械。这个奇械能启动设定中奇异科学家通常可用(@Compendium[swade-core-rules.swade-rules.升级]{位阶}等同或更低)且奇术点消耗等于或小于3的任一@Compendium[swade-core-rules.swade-rules.奇术]{奇术}。</p>\n<p>这一奇术的总消耗(加上调整值后)不能超过制造设备时的奇术点消耗，制造者亦不能将@Compendium[swade-core-rules.swade-rules.特效]{限制}应用到奇械上，不过只要其点数足够，那就可以制造多个奇械。</p>\n<p>制作以及启动某一奇械需要通过一次-2的@Compendium[swade-core-rules.swade-skills.奇异科学]{奇异科学}投骰，这将需要一整个回合，在此期间角色无法做其他任何事(该回合不能进行@Compendium[swade-core-rules.swade-rules.多重动作]{多重动作})，除此之外的机制均如同奇术正常启动那般。</p>\n<p>制造者直接通过自己的奇术点池来给奇械注入奇术点，但若是@Compendium[swade-core-rules.swade-rules.奇术]{持续时间}用尽(这无法维持)，奇械就会碎落成零件散块。</p>\n<h2>例子</h2>\n<p>加布是<em>Weird West</em>里面的发明家。他想用<em>@Compendium[swade-core-rules.swade-powers.强化/削弱特性]{强化特性}</em>来帮助和巨大响尾蛇战斗的红，但他只会<em>@Compendium[swade-core-rules.swade-powers.爆裂]{爆裂}</em>和<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>这俩奇术。幸运的是加布是一位奇械匠，所以他将<em>提升特性 </em>做成了一件“电动生化鼓风机”。这件奇械最多能使用价值3奇术点的奇术，所以他将@Compendium[swade-core-rules.swade-rules.妨碍或加快 (+1)]{加快}调整添加到了奇术中，以同时让红的@Compendium[swade-core-rules.swade-rules.移动]{移速}+2。</p>\n</div>",
             "requirements": "行家，奥法背景 (奇异科学)，奇异科学d6+"
         },
         "Great Luck": {
@@ -461,7 +461,7 @@
             "requirements": "行家，勇敢，坚强意志"
         },
         "Killer Instinct": {
-            "name": "杀手直觉",
+            "name": "好胜心",
             "description": "<div class=\"swade-core\"><p>这名角色厌恶失败，发起的任何对抗@Compendium[swade-core-rules.swade-rules.考验]{考验}都能免费获得一次重投。 </p></div>",
             "requirements": "行家"
         },
@@ -526,8 +526,8 @@
             "requirements": "行家"
         },
         "Power Points": {
-            "name": "获得奇术点",
-            "description": "<div class=\"swade-core\">\n<p>法师、奇异科学家和其它类型的奥法角色总是索求更多力量，这个专长能让其额外获得5点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}。 </p>\n<p>获得奇术点专长可以多次选择，但是每位阶内仅限一次。抵达传奇@Compendium[swade-core-rules.swade-rules.升级]{位阶}后能随意选取，但每次只会额外给2点奇术点。</p>\n</div>",
+            "name": "奇术点",
+            "description": "<div class=\"swade-core\">\n<p>法师、奇异科学家和其它类型的奥法角色总是索求更多力量，这个专长能让其额外获得5点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}。 </p>\n<p>奇术点专长可以多次选择，但是每位阶内仅限一次。抵达传奇@Compendium[swade-core-rules.swade-rules.升级]{位阶}后能随意选取，但每次只会额外给2点奇术点。</p>\n</div>",
             "requirements": "入门，奥法背景 (任意)"
         },
         "Power Surge": {
