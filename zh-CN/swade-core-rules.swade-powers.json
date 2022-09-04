@@ -9,7 +9,7 @@
             "trapping": "在尸体上铭刻符号，投掷骨头，坟场，“皮革”书。"
         },
         "Blind": {
-            "name": "致盲",
+            "name": "目盲",
             "description": "<div class=\"swade-core\">\n<p>遭到这个恶毒奇术影响的对象其视野会模糊不清，若出现@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则更是近乎目盲</p>\n<p>@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}成功意味着对象所有需要视觉的动作遭受-2@Compendium[swade-core-rules.swade-rules.特性投骰]{减值}，@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则是-4。</p>\n<p>对象在自己接下来的所有回合结束时将自动尝试以一个@Compendium[swade-core-rules.swade-rules.动作]{自由动作}进行一次@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰来摆脱该效果。@Compendium[swade-core-rules.swade-rules.特性投骰]{成功}会移除2点@Compendium[swade-core-rules.swade-rules.特性投骰]{减值}，@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则移除整个效果。</p>\n<p><strong>调整</strong></p>\n<ul>\n<li><strong>范围效果(+2/+3)：</strong>+2奇术点能影响@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}内所有单位，+3奇术点则效果范围上升到@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型爆发盖板}。</li>\n<li><strong>强劲(+1)：</strong>摆脱此效果的@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰-2。</li>\n</ul>\n</div>",
             "rank": "入门",
             "range": "聪慧",
@@ -88,7 +88,7 @@
         },
         "Burrow": {
             "name": "遁地",
-            "description": "<div class=\"swade-core\">\n<p><em>遁地 </em>让对象得以融入原始土壤当中，若其想躲在“间隙”之中则可保持藏在地下，或是以正常@Compendium[swade-core-rules.swade-rules.移动]{移速}的一半<em>遁地 </em>穿行(@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则为全速)，对象无法奔跑。</p>\n<p><em>遁地 </em>角色可以通过一次@Compendium[swade-core-rules.swade-skills.潜行]{潜行}VS@Compendium[swade-core-rules.swade-skills.察觉]{察觉}的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗}投骰来尝试突袭一名敌人。若遁地者获胜，目标就<em>仅对前者 </em>陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{脆弱}。若为优良，则遁地者构成@Compendium[swade-core-rules.swade-rules.奇袭]{奇袭}。@Compendium[swade-core-rules.swade-rules.待机]{待机}中的目标能尝试在受到攻击前加以打断。</p>\n<p>若遁地者的存在已经暴露，则其通常就无法@Compendium[swade-core-rules.swade-rules.突袭]{突袭}敌人，但依然能靠遁地来保护自己以及四处移动。</p>\n<p><strong>调整</strong></p>\n<ul>\n<li><strong>额外对象(+1)：</strong>每额外消耗1点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}，该奇术可以多影响1个目标。</li>\n<li><strong>强力(+1)：</strong>施术者能<em>遁地 </em>穿过石块、混凝土或类似物质。(诸如塑料、玻璃、纯铅之类的物质根据GM判定可能会导致阻挡)。</li>\n</ul>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><em>遁地 </em>让对象得以融入原始土壤当中，若其想躲在“间隙”之中则可保持藏在地下，或是以正常@Compendium[swade-core-rules.swade-rules.移动]{移速}的一半<em>遁地 </em>穿行(@Compendium[swade-core-rules.swade-rules.特性投骰]{优良}则为全移速)，对象无法奔跑。</p>\n<p><em>遁地 </em>角色可以通过一次@Compendium[swade-core-rules.swade-skills.潜行]{潜行}VS@Compendium[swade-core-rules.swade-skills.察觉]{察觉}的@Compendium[swade-core-rules.swade-rules.特性投骰]{对抗}投骰来尝试突袭一名敌人。若遁地者获胜，目标就<em>仅对前者 </em>陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{脆弱}。若为优良，则遁地者构成@Compendium[swade-core-rules.swade-rules.奇袭]{奇袭}。@Compendium[swade-core-rules.swade-rules.待机]{待机}中的目标能尝试在受到攻击前加以打断。</p>\n<p>若遁地者的存在已经暴露，则其通常就无法@Compendium[swade-core-rules.swade-rules.突袭]{突袭}敌人，但依然能靠遁地来保护自己以及四处移动。</p>\n<p><strong>调整</strong></p>\n<ul>\n<li><strong>额外对象(+1)：</strong>每额外消耗1点@Compendium[swade-core-rules.swade-rules.奥法背景]{奇术点}，该奇术可以多影响1个目标。</li>\n<li><strong>强力(+1)：</strong>施术者能<em>遁地 </em>穿过石块、混凝土或类似物质。(诸如塑料、玻璃、纯铅之类的物质根据GM判定可能会导致阻挡)。</li>\n</ul>\n</div>",
             "rank": "入门",
             "range": "聪慧",
             "trapping": "融入大地中然后出现在别处。"
