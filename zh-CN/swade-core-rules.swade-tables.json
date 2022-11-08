@@ -77,7 +77,7 @@
             }
         },
         "Reaction Table": {
-            "name": "态度表",
+            "name": "反应表",
             "description": "<div class=\"swade-core\">GM能使用下列表格来选取或投骰决定某一角色或团体的初始态度。参见@Compendium[swade-core-rules.swade-skills.交涉]{交涉}以确定如何使用该随机表。</div>",
             "results": {
                 "2-2": "<div class=\"swade-core\"><b>敌对：</b>目标公开表露敌意，若是可能则会进行攻击，不然就会第一时间进行背叛、举报或加以阻挠。除非有压倒性的报酬或是威胁，否则对方不会帮忙。</div>",
