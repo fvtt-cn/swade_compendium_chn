@@ -175,11 +175,12 @@ def extract(comp_file, out_file, label):
   entries = {}
   mappings = {
     "default": {
-      "name": {
-        "path": "name",
-        "converter": "dual-language-translate"
-      },
-      "description": "system.description.value"
+      "embeddedAbilities": "flags.swade.embeddedAbilities"
+    },
+    "items": {
+      "name": "name",
+      "description": "system.description",
+      "category": "system.category"
     },
     "character": {
       "name": "name",
@@ -316,7 +317,8 @@ def extract(comp_file, out_file, label):
             for x in source_json[m]:
               entries[key][m][x['name']] = {
                 "name": x['name'],
-                "description": x['system']['description']['value']
+                "description": x['system']['description'],
+                "category": x['xsystem']['category']
               }
         elif m == 'data':
           entries[key][m] = {}

@@ -1,8 +1,8 @@
 {
-    "label": "SWADE载具",
+    "label": "SWADE 载具",
     "mapping": {
-        "description": "data.description",
-        "skill": "data.driver.skill"
+        "description": "system.description",
+        "skill": "system.driver.skill"
     },
     "entries": {
         "AH-64 Apache": {

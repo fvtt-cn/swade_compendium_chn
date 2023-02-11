@@ -691,9 +691,9 @@
             "requirements": "入门，灵巧d8+"
         }
     },
-    "label": "SWADE专长",
+    "label": "SWADE 专长",
     "mapping": {
-        "description": "data.description",
-        "requirements": "data.requirements.value"
+        "description": "system.description",
+        "requirements": "system.requirements.value"
     }
 }

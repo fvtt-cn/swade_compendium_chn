@@ -1,5 +1,12 @@
 {
-    "label": "SWADE Modern Firearms",
+    "label": "SWADE 现代火器",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo"
+    },
     "entries": {
         "AK47": {
             "name": "AK47",

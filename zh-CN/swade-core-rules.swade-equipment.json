@@ -2162,11 +2162,11 @@
         }
     },
     "mapping": {
-        "description": "data.description",
-        "notes": "data.notes",
-        "actions": "data.actions",
-        "range": "data.range",
-        "ammo": "data.ammo"
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo"
     },
-    "label": "SWADE装备"
+    "label": "SWADE 装备"
 }

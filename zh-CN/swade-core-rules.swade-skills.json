@@ -1,6 +1,6 @@
 {
     "mapping": {
-        "description": "data.description"
+        "description": "system.description"
     },
     "entries": {
         "Athletics": {
@@ -136,5 +136,5 @@
             "description": "<div class=\"swade-core\"><p>人文象征着文科、社会科学、文学、历史、考古等类似领域的学识。如果角色想去回忆玛雅日历何时结束或是背诵《麦克白》的某段台词，这就是要用到的技能。</p></div>"
         }
     },
-    "label": "SWADE技能"
+    "label": "SWADE 技能"
 }

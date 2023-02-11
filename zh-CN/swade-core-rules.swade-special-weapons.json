@@ -1,5 +1,12 @@
 {
-    "label": "SWADE Special Weapons",
+    "label": "SWADE 特殊武器",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo"
+    },
     "entries": {
         "120mm Tank Gun (AP Rounds)": {
             "name": "120mm 坦克炮 (穿甲弹)",

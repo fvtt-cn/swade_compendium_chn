@@ -1,7 +1,7 @@
 {
-    "label": "SWADE负赘",
+    "label": "SWADE 负赘",
     "mapping": {
-        "description": "data.description"
+        "description": "system.description"
     },
     "entries": {
         "All Thumbs": {

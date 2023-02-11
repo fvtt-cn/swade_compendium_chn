@@ -1,6 +1,6 @@
 {
     "mapping": {
-        "description": "data.description"
+        "description": "system.description"
     },
     "entries": {
         "Android": {
@@ -52,5 +52,5 @@
             "description": "<div class=\"swade-core\">\n<h2>蜥蜴人</h2>\n<p>蜥蜴人通常来自雾气弥漫的丛林或是沙漠深处，他们独一无二的文明对于其他知性种族来说闻所未闻。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>护甲+2：</strong>蜥蜴人的皮肤覆有如同@Compendium[swade-core-rules.swade-rules.护甲]{皮甲}那般的鳞片。</li>\n<li><strong>噬咬：</strong>蜥蜴人的尖牙是<strong>@Compendium[swade-core-rules.swade-rules.天生武器]{天生武器}</strong>)，其造成的伤害为力量+d4。</li>\n<li><strong>环境弱点：</strong>尽管蜥蜴人并非真正的冷血动物，但他们仍然难以适应严寒环境。蜥蜴人在抵抗@Compendium[swade-core-rules.swade-rules.寒冷]{寒冷}环境效果时遭受-4减值，同时基于寒冷的攻击对其伤害+4。</li>\n<li><strong>敏锐感官：</strong>蜥蜴人有着敏锐的感官，其获得@Compendium[swade-core-rules.swade-edges.警觉]{警觉}专长。</li>\n<li><strong>异客(次要)：</strong>大部分种族都因为某些原因不信任蜥蜴人。可能是因为其怪异的传统和行事方式，或是其经常丝丝作响的腔调，或是潜意识中对于其爬虫类先祖的古老恐惧。蜥蜴人和其他非同族的任何种族互动时的@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰-2。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Saurians.webp\" alt=\"An image of a Saurian\" /></div>"
         }
     },
-    "label": "SWADE种族"
+    "label": "SWADE 种族"
 }

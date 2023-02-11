@@ -1,5 +1,12 @@
 {
-    "label": "SWADE Armor",
+    "label": "SWADE 护甲",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo"
+    },
     "entries": {
         "Ballistic Shield": {
             "name": "防弹盾",

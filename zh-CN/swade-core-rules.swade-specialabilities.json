@@ -1,6 +1,6 @@
 {
     "mapping": {
-        "description": "data.description"
+        "description": "system.description"
     },
     "entries": {
         "Swarm": {
@@ -152,5 +152,5 @@
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@Compendium[swade-core-rules.swade-rules.特殊能力 (水栖)]{水栖}：</strong>@Compendium[swade-core-rules.swade-rules.移动]{移速}5。</li>\n</ul>\n</div>"
         }
     },
-    "label": "SWADE特殊能力"
+    "label": "SWADE 特殊能力"
 }

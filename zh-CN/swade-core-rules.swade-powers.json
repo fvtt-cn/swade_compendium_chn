@@ -418,12 +418,12 @@
         }
     },
     "mapping": {
-        "description": "data.description",
-        "range": "data.range",
-        "rank": "data.rank",
-        "duration": "data.duration",
-        "trapping": "data.trapping",
-        "pp": "data.pp"
+        "description": "system.description",
+        "range": "system.range",
+        "rank": "system.rank",
+        "duration": "system.duration",
+        "trapping": "system.trapping",
+        "pp": "system.pp"
     },
-    "label": "SWADE奇术"
+    "label": "SWADE 奇术"
 }

@@ -1,5 +1,12 @@
 {
-    "label": "SWADE Personal Weapons",
+    "label": "SWADE 单兵武器",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo"
+    },
     "entries": {
         "Axe, Battle": {
             "name": "战斧",
@@ -477,7 +484,8 @@
             }
         },
         "Unarmed": {
-            "name": "Unarmed"
+            "name": "无武装攻击"
+
         },
         "Warhammer": {
             "name": "战锤",

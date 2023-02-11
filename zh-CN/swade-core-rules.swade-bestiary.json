@@ -1,7 +1,7 @@
 {
-    "label": "SWADE生物图鉴",
+    "label": "SWADE 生物图鉴",
     "mapping": {
-        "biography": "data.details.biography.value"
+        "biography": "system.details.biography.value"
     },
     "entries": {
         "Alligator/Crocodile": {

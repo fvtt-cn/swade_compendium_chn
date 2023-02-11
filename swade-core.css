@@ -13,9 +13,9 @@
 }
 
 /* Entity Linking */
-.swade-core a.entity-link, a.inline-roll {
+.swade-core a.entity-link, a.content-link, a.inline-roll {
   white-space: nowrap;
-  text-decoration: unset;
+  text-decoration: unset !important;
   display: inline-flex;
 }
 
