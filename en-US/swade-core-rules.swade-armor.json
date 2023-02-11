@@ -1,0 +1,143 @@
+{
+	"label": "SWADE Armor",
+	"entries": {
+		"Ballistic Shield": {
+			"name": "Ballistic Shield"
+		},
+		"Battle Helmet": {
+			"name": "Battle Helmet"
+		},
+		"Battle Helmet w/ Energy Skin": {
+			"name": "Battle Helmet w/ Energy Skin"
+		},
+		"Bike helmet": {
+			"name": "Bike helmet"
+		},
+		"Body Armor": {
+			"name": "Body Armor"
+		},
+		"Body Armor w/Energy Skin": {
+			"name": "Body Armor w/Energy Skin"
+		},
+		"Bombproof suit": {
+			"name": "Bombproof suit"
+		},
+		"Bronze Barding (horse)": {
+			"name": "Bronze Barding (horse)"
+		},
+		"Bronze Corselet": {
+			"name": "Bronze Corselet"
+		},
+		"Bronze Helmet": {
+			"name": "Bronze Helmet"
+		},
+		"Cap (Cloth/Light Leather)": {
+			"name": "Cap (Cloth/Light Leather)"
+		},
+		"Cap (Thick Leather/Tough Hides)": {
+			"name": "Cap (Thick Leather/Tough Hides)"
+		},
+		"Chain Hood or Helm": {
+			"name": "Chain Hood or Helm"
+		},
+		"Corselet (Plate Mail)": {
+			"name": "Corselet (Plate Mail)"
+		},
+		"Flak Jacket (Vietnam-era)": {
+			"name": "Flak Jacket (Vietnam-era)"
+		},
+		"Greaves (Bronze Armor)": {
+			"name": "Greaves (Bronze Armor)"
+		},
+		"Greaves (Plate Mail)": {
+			"name": "Greaves (Plate Mail)"
+		},
+		"Heavy Helm": {
+			"name": "Heavy Helm"
+		},
+		"Heavy Helm, Enclosed": {
+			"name": "Heavy Helm, Enclosed"
+		},
+		"Infantry Battle Suit": {
+			"name": "Infantry Battle Suit"
+		},
+		"Infantry Battle Suit w/ Energy Skin": {
+			"name": "Infantry Battle Suit w/ Energy Skin"
+		},
+		"Jacket (Cloth/Light Leather)": {
+			"name": "Jacket (Cloth/Light Leather)"
+		},
+		"Jacket (Thick Leather/Tough Hides)": {
+			"name": "Jacket (Thick Leather/Tough Hides)"
+		},
+		"Kevlar helmet": {
+			"name": "Kevlar helmet"
+		},
+		"Kevlar Riding Jacket": {
+			"name": "Kevlar Riding Jacket"
+		},
+		"Kevlar Riding Jeans": {
+			"name": "Kevlar Riding Jeans"
+		},
+		"Kevlar Vest": {
+			"name": "Kevlar Vest"
+		},
+		"Kevlar Vest with ceramic inserts": {
+			"name": "Kevlar Vest with ceramic inserts"
+		},
+		"Large Shield": {
+			"name": "Large Shield"
+		},
+		"Leather Riding Chaps": {
+			"name": "Leather Riding Chaps"
+		},
+		"Leggings (Chain Mail)": {
+			"name": "Leggings (Chain Mail)"
+		},
+		"Leggings (Cloth/Light Leather)": {
+			"name": "Leggings (Cloth/Light Leather)"
+		},
+		"Leggings (Thick Leather/Tough Hides)": {
+			"name": "Leggings (Thick Leather/Tough Hides)"
+		},
+		"Medium Shield": {
+			"name": "Medium Shield"
+		},
+		"Motorcycle Helmet": {
+			"name": "Motorcycle Helmet"
+		},
+		"Plate Barding (horse)": {
+			"name": "Plate Barding (horse)"
+		},
+		"Polymer Shield, large": {
+			"name": "Polymer Shield, large"
+		},
+		"Polymer Shield, medium": {
+			"name": "Polymer Shield, medium"
+		},
+		"Polymer Shield, small": {
+			"name": "Polymer Shield, small"
+		},
+		"Riot Shield": {
+			"name": "Riot Shield"
+		},
+		"Robes": {
+			"name": "Robes"
+		},
+		"Shirt (Chain Mail)": {
+			"name": "Shirt (Chain Mail)"
+		},
+		"Small Shield": {
+			"name": "Small Shield"
+		},
+		"Thick Coat, Leather Jacket": {
+			"name": "Thick Coat, Leather Jacket"
+		},
+		"Vambraces (Bronze Armor)": {
+			"name": "Vambraces (Bronze Armor)"
+		},
+		"Vambraces (Plate Mail)": {
+			"name": "Vambraces (Plate Mail)"
+		}
+	}
+}

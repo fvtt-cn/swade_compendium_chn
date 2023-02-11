@@ -1,0 +1,164 @@
+{
+	"label": "SWADE Personal Weapons",
+	"entries": {
+		"Axe, Battle": {
+			"name": "Axe, Battle"
+		},
+		"Axe, Great": {
+			"name": "Axe, Great"
+		},
+		"Axe, Hand": {
+			"name": "Axe, Hand"
+		},
+		"Axe, Throwing": {
+			"name": "Axe, Throwing"
+		},
+		"Bangstick": {
+			"name": "Bangstick"
+		},
+		"Bayonet": {
+			"name": "Bayonet"
+		},
+		"Billy Club/Baton": {
+			"name": "Billy Club/Baton"
+		},
+		"Blunderbuss": {
+			"name": "Blunderbuss"
+		},
+		"Bow": {
+			"name": "Bow"
+		},
+		"Brass Knuckles": {
+			"name": "Brass Knuckles"
+		},
+		"Brown Bess or Similar Muskets": {
+			"name": "Brown Bess or Similar Muskets"
+		},
+		"Chainsaw": {
+			"name": "Chainsaw"
+		},
+		"Club, Heavy": {
+			"name": "Club, Heavy"
+		},
+		"Club, Light": {
+			"name": "Club, Light"
+		},
+		"Compound Bow": {
+			"name": "Compound Bow"
+		},
+		"Crossbow": {
+			"name": "Crossbow"
+		},
+		"Crossbow (Hand Drawn)": {
+			"name": "Crossbow (Hand Drawn)"
+		},
+		"Crossbow, Heavy": {
+			"name": "Crossbow, Heavy"
+		},
+		"Dagger/Knife (melee)": {
+			"name": "Dagger/Knife (melee)"
+		},
+		"Dagger/Knife (Throwing)": {
+			"name": "Dagger/Knife (Throwing)"
+		},
+		"Flail": {
+			"name": "Flail"
+		},
+		"Flintlock Pistol": {
+			"name": "Flintlock Pistol"
+		},
+		"Halberd": {
+			"name": "Halberd"
+		},
+		"Improvised Weapon (Heavy)": {
+			"name": "Improvised Weapon (Heavy)"
+		},
+		"Improvised Weapon (Light)": {
+			"name": "Improvised Weapon (Light)"
+		},
+		"Improvised Weapon (Medium)": {
+			"name": "Improvised Weapon (Medium)"
+		},
+		"Katana": {
+			"name": "Katana"
+		},
+		"Kentucky Rifle": {
+			"name": "Kentucky Rifle"
+		},
+		"Lance": {
+			"name": "Lance"
+		},
+		"Laser Sword": {
+			"name": "Laser Sword"
+		},
+		"Long Bow": {
+			"name": "Long Bow"
+		},
+		"Mace": {
+			"name": "Mace"
+		},
+		"Maul": {
+			"name": "Maul"
+		},
+		"Molecular Knife": {
+			"name": "Molecular Knife"
+		},
+		"Molecular Sword": {
+			"name": "Molecular Sword"
+		},
+		"Natural Bite": {
+			"name": "Natural Bite"
+		},
+		"Natural Claws": {
+			"name": "Natural Claws"
+		},
+		"Natural Horns": {
+			"name": "Natural Horns"
+		},
+		"Net (Weighted)": {
+			"name": "Net (Weighted)"
+		},
+		"Pike": {
+			"name": "Pike"
+		},
+		"Rapier": {
+			"name": "Rapier"
+		},
+		"Sling": {
+			"name": "Sling"
+		},
+		"Spear": {
+			"name": "Spear"
+		},
+		"Spear/Javelin": {
+			"name": "Spear/Javelin"
+		},
+		"Springfield Model 1861": {
+			"name": "Springfield Model 1861"
+		},
+		"Staff": {
+			"name": "Staff"
+		},
+		"Survival Knife": {
+			"name": "Survival Knife"
+		},
+		"Switchblade": {
+			"name": "Switchblade"
+		},
+		"Sword, Great": {
+			"name": "Sword, Great"
+		},
+		"Sword, Long": {
+			"name": "Sword, Long"
+		},
+		"Sword, Short": {
+			"name": "Sword, Short"
+		},
+		"Unarmed": {
+			"name": "Unarmed"
+		},
+		"Warhammer": {
+			"name": "Warhammer"
+		}
+	}
+}

@@ -1,0 +1,107 @@
+{
+	"label": "SWADE Modern Firearms",
+	"entries": {
+		"AK47": {
+			"name": "AK47"
+		},
+		"Barrett": {
+			"name": "Barrett"
+		},
+		"Browning Automatic Rifle": {
+			"name": "Browning Automatic Rifle"
+		},
+		"Colt 1911": {
+			"name": "Colt 1911"
+		},
+		"Colt Peacemaker": {
+			"name": "Colt Peacemaker"
+		},
+		"Derringer": {
+			"name": "Derringer"
+		},
+		"Desert Eagle": {
+			"name": "Desert Eagle"
+		},
+		"Double-Barrel Shotgun": {
+			"name": "Double-Barrel Shotgun"
+		},
+		"Gatling": {
+			"name": "Gatling"
+		},
+		"Glock (9mm)": {
+			"name": "Glock (9mm)"
+		},
+		"H&K MP5": {
+			"name": "H&K MP5"
+		},
+		"Hunting Rifle": {
+			"name": "Hunting Rifle"
+		},
+		"M-16": {
+			"name": "M-16"
+		},
+		"M1 Garand": {
+			"name": "M1 Garand"
+		},
+		"M2 Browning": {
+			"name": "M2 Browning"
+		},
+		"M60": {
+			"name": "M60"
+		},
+		"MG42": {
+			"name": "MG42"
+		},
+		"Minigun": {
+			"name": "Minigun"
+		},
+		"Pistol (Laser)": {
+			"name": "Pistol (Laser)"
+		},
+		"Police Revolver": {
+			"name": "Police Revolver"
+		},
+		"Pump Action Shotgun": {
+			"name": "Pump Action Shotgun"
+		},
+		"Rifle (Laser)": {
+			"name": "Rifle (Laser)"
+		},
+		"Ruger": {
+			"name": "Ruger"
+		},
+		"SAW": {
+			"name": "SAW"
+		},
+		"Sawed-Off Double-Barrel Shotgun": {
+			"name": "Sawed-Off Double-Barrel Shotgun"
+		},
+		"Sharps Big 50": {
+			"name": "Sharps Big 50"
+		},
+		"SMG (Laser)": {
+			"name": "SMG (Laser)"
+		},
+		"Smith & Wesson": {
+			"name": "Smith & Wesson"
+		},
+		"Spencer Carbine": {
+			"name": "Spencer Carbine"
+		},
+		"Steyr AUG": {
+			"name": "Steyr AUG"
+		},
+		"Streetsweeper Shotgun": {
+			"name": "Streetsweeper Shotgun"
+		},
+		"Tommy Gun": {
+			"name": "Tommy Gun"
+		},
+		"Uzi": {
+			"name": "Uzi"
+		},
+		"Winchester ‘73": {
+			"name": "Winchester ‘73"
+		}
+	}
+}

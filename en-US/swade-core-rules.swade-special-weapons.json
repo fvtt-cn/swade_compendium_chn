@@ -1,0 +1,161 @@
+{
+	"label": "SWADE Special Weapons",
+	"entries": {
+		"120mm Tank Gun (AP Rounds)": {
+			"name": "120mm Tank Gun (AP Rounds)"
+		},
+		"120mm Tank Gun (HE Rounds)": {
+			"name": "120mm Tank Gun (HE Rounds)"
+		},
+		"125mm Tank Gun (AP Rounds)": {
+			"name": "125mm Tank Gun (AP Rounds)"
+		},
+		"125mm Tank Gun (HE Rounds)": {
+			"name": "125mm Tank Gun (HE Rounds)"
+		},
+		"2 pd AT Gun (AP Rounds)": {
+			"name": "2 pd AT Gun (AP Rounds)"
+		},
+		"2 pd AT Gun (HE Rounds)": {
+			"name": "2 pd AT Gun (HE Rounds)"
+		},
+		"20mm Cannon": {
+			"name": "20mm Cannon"
+		},
+		"25mm Cannon": {
+			"name": "25mm Cannon"
+		},
+		"30mm Cannon": {
+			"name": "30mm Cannon"
+		},
+		"37mm AT Gun (AP Rounds)": {
+			"name": "37mm AT Gun (AP Rounds)"
+		},
+		"37mm AT Gun (HE Rounds)": {
+			"name": "37mm AT Gun (HE Rounds)"
+		},
+		"40mm Cannon (AP Rounds)": {
+			"name": "40mm Cannon (AP Rounds)"
+		},
+		"40mm Cannon (HE Rounds)": {
+			"name": "40mm Cannon (HE Rounds)"
+		},
+		"57mm AT Gun (AP Rounds)": {
+			"name": "57mm AT Gun (AP Rounds)"
+		},
+		"57mm AT Gun (HE Rounds)": {
+			"name": "57mm AT Gun (HE Rounds)"
+		},
+		"75mm Tank Gun (AP Rounds)": {
+			"name": "75mm Tank Gun (AP Rounds)"
+		},
+		"75mm Tank Gun (HE Rounds)": {
+			"name": "75mm Tank Gun (HE Rounds)"
+		},
+		"76mm Tank Gun (AP Rounds)": {
+			"name": "76mm Tank Gun (AP Rounds)"
+		},
+		"76mm Tank Gun (HE Rounds)": {
+			"name": "76mm Tank Gun (HE Rounds)"
+		},
+		"88mm Tank Gun (AP Rounds)": {
+			"name": "88mm Tank Gun (AP Rounds)"
+		},
+		"88mm Tank Gun (HE Rounds)": {
+			"name": "88mm Tank Gun (HE Rounds)"
+		},
+		"Anti-Personnel Mine": {
+			"name": "Anti-Personnel Mine"
+		},
+		"Anti-Tank Mine": {
+			"name": "Anti-Tank Mine"
+		},
+		"AT-4": {
+			"name": "AT-4"
+		},
+		"Bazooka": {
+			"name": "Bazooka"
+		},
+		"Bombs": {
+			"name": "Bombs"
+		},
+		"Bouncing Betty": {
+			"name": "Bouncing Betty"
+		},
+		"Cannon (12 lb), Canister": {
+			"name": "Cannon (12 lb), Canister"
+		},
+		"Cannon (12 lb), Shrapnel": {
+			"name": "Cannon (12 lb), Shrapnel"
+		},
+		"Cannon (12 lb), Solid Shot": {
+			"name": "Cannon (12 lb), Solid Shot"
+		},
+		"Catapult": {
+			"name": "Catapult"
+		},
+		"Claymore Mine": {
+			"name": "Claymore Mine"
+		},
+		"Flamethrower": {
+			"name": "Flamethrower"
+		},
+		"Gatling (Laser)": {
+			"name": "Gatling (Laser)"
+		},
+		"Heavy Flamethrower": {
+			"name": "Heavy Flamethrower"
+		},
+		"Heavy Laser": {
+			"name": "Heavy Laser"
+		},
+		"Heavy Machine Gun": {
+			"name": "Heavy Machine Gun"
+		},
+		"Hellfire": {
+			"name": "Hellfire"
+		},
+		"M203 40MM": {
+			"name": "M203 40MM"
+		},
+		"M72 Law": {
+			"name": "M72 Law"
+		},
+		"Medium Machine Gun": {
+			"name": "Medium Machine Gun"
+		},
+		"Mk II (WW2 Pineapple)": {
+			"name": "Mk II (WW2 Pineapple)"
+		},
+		"Mk67 (Modern)": {
+			"name": "Mk67 (Modern)"
+		},
+		"Panzerschreck": {
+			"name": "Panzerschreck"
+		},
+		"Potato Masher (WW2)": {
+			"name": "Potato Masher (WW2)"
+		},
+		"Sidewinder": {
+			"name": "Sidewinder"
+		},
+		"Smoke Grenade": {
+			"name": "Smoke Grenade"
+		},
+		"Sparrow": {
+			"name": "Sparrow"
+		},
+		"Stun Grenade": {
+			"name": "Stun Grenade"
+		},
+		"Torpedo": {
+			"name": "Torpedo"
+		},
+		"TOW Missile Launcher": {
+			"name": "TOW Missile Launcher"
+		},
+		"Trebuchet": {
+			"name": "Trebuchet"
+		}
+	}
+}
