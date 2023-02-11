@@ -5,7 +5,8 @@
         "notes": "system.notes",
         "actions": "system.actions",
         "range": "system.range",
-        "ammo": "system.ammo"
+        "ammo": "system.ammo",
+        "category": "system.category"
     },
     "entries": {
         "AK47": {
@@ -22,7 +23,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "步枪"
         },
         "Barrett": {
             "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，@Compendium[swade-core-rules.swade-rules.猝射]{猝射}，装填时巴雷特使用满装填时重达2磅的10发可卸除式弹匣，其几乎都会配有@Compendium[swade-core-rules.swade-equipment.步枪瞄准镜]{步枪瞄准镜}。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p>\n</div>",
@@ -35,7 +37,8 @@
                         "name": "猝射"
                     }
                 }
-            }
+            },
+            "category": "步枪"
         },
         "Browning Automatic Rifle": {
             "name": "勃朗宁自动步枪",
@@ -58,7 +61,8 @@
                 }
             },
             "ammo": "中型子弹",
-            "notes": ".30-06"
+            "notes": ".30-06",
+            "category": "机枪"
         },
         "Colt 1911": {
             "name": "柯尔特 1911",
@@ -66,7 +70,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "手枪"
         },
         "Colt Peacemaker": {
             "name": "柯尔特维和者转轮枪",
@@ -74,7 +79,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "手枪"
         },
         "Derringer": {
             "name": "德林杰手枪",
@@ -82,7 +88,8 @@
             "ammo": "中型子弹",
             "actions": {
                 "skill": "射击"
-            }
+            },
+            "category": "手枪"
         },
         "Desert Eagle": {
             "name": "沙漠之鹰",
@@ -90,7 +97,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "大型子弹"
+            "ammo": "大型子弹",
+            "category": "手枪"
         },
         "Double-Barrel Shotgun": {
             "name": "双管霰弹枪",
@@ -131,7 +139,8 @@
                     }
                 }
             },
-            "ammo": "霰弹枪弹丸"
+            "ammo": "霰弹枪弹丸",
+            "category": "霰弹枪"
         },
         "Gatling": {
             "name": "加特林机枪",
@@ -147,7 +156,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "机枪"
         },
         "Glock (9mm)": {
             "name": "格洛克 (9mm)",
@@ -155,7 +165,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "手枪"
         },
         "H&K MP5": {
             "name": "H&K MP5",
@@ -171,7 +182,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "冲锋枪"
         },
         "Hunting Rifle": {
             "name": "狩猎步枪",
@@ -184,7 +196,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "步枪"
         },
         "M-16": {
             "name": "M-16",
@@ -203,7 +216,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "步枪"
         },
         "M1 Garand": {
             "name": "M1 加兰德",
@@ -212,7 +226,8 @@
                 "skill": "射击"
             },
             "ammo": "中型子弹",
-            "notes": ".30-06"
+            "notes": ".30-06",
+            "category": "步枪"
         },
         "M2 Browning": {
             "name": "M2 勃朗宁",
@@ -228,7 +243,8 @@
                     }
                 }
             },
-            "ammo": "大型子弹"
+            "ammo": "大型子弹",
+            "category": "机枪"
         },
         "M60": {
             "actions": {
@@ -250,7 +266,8 @@
             },
             "name": "M60",
             "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "机枪"
         },
         "MG42": {
             "name": "MG42",
@@ -278,7 +295,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "机枪"
         },
         "Minigun": {
             "name": "旋管机枪",
@@ -306,7 +324,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "机枪"
         },
         "Pistol (Laser)": {
             "name": "手枪 (激光)",
@@ -320,7 +339,8 @@
                     }
                 }
             },
-            "ammo": "激光枪电池，手枪"
+            "ammo": "激光枪电池，手枪",
+            "category": "激光枪 (未来)"
         },
         "Police Revolver": {
             "name": "警用转轮枪",
@@ -328,7 +348,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "手枪"
         },
         "Pump Action Shotgun": {
             "name": "泵动式霰弹枪",
@@ -353,7 +374,8 @@
                     }
                 }
             },
-            "ammo": "霰弹枪弹丸"
+            "ammo": "霰弹枪弹丸",
+            "category": "霰弹枪"
         },
         "Rifle (Laser)": {
             "name": "步枪 (激光)",
@@ -373,7 +395,8 @@
                     }
                 }
             },
-            "ammo": "激光枪电池，步枪/冲锋枪"
+            "ammo": "激光枪电池，步枪/冲锋枪",
+            "category": "激光枪 (未来)"
         },
         "Ruger": {
             "description": "<div class=\"swade-core\"><p>半自动手枪以弹匣装填。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p></div>",
@@ -381,7 +404,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "小型子弹"
+            "ammo": "小型子弹",
+            "category": "手枪"
         },
         "SAW": {
             "name": "SAW",
@@ -409,7 +433,8 @@
                 },
                 "skill": "射击"
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "机枪"
         },
         "Sawed-Off Double-Barrel Shotgun": {
             "name": "双短管霰弹枪",
@@ -450,7 +475,8 @@
                     }
                 }
             },
-            "ammo": "霰弹枪弹丸"
+            "ammo": "霰弹枪弹丸",
+            "category": "霰弹枪"
         },
         "Sharps Big 50": {
             "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射}</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
@@ -463,7 +489,8 @@
                 }
             },
             "ammo": "大型子弹",
-            "name": "夏普斯大50式"
+            "name": "夏普斯大50式",
+            "category": "步枪"
         },
         "SMG (Laser)": {
             "name": "冲锋枪 (激光)",
@@ -486,7 +513,8 @@
                     }
                 }
             },
-            "ammo": "激光枪电池，步枪/冲锋枪"
+            "ammo": "激光枪电池，步枪/冲锋枪",
+            "category": "激光枪 (未来)"
         },
         "Smith & Wesson": {
             "name": "史密斯&威森",
@@ -494,7 +522,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "手枪"
         },
         "Spencer Carbine": {
             "name": "斯宾塞卡宾枪",
@@ -502,7 +531,8 @@
             "ammo": "中型子弹",
             "actions": {
                 "skill": "射击"
-            }
+            },
+            "category": "步枪"
         },
         "Steyr AUG": {
             "name": "斯太尔 AUG",
@@ -521,7 +551,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "步枪"
         },
         "Streetsweeper Shotgun": {
             "name": "清道夫霰弹枪",
@@ -546,7 +577,8 @@
                     }
                 }
             },
-            "ammo": "霰弹枪弹丸"
+            "ammo": "霰弹枪弹丸",
+            "category": "霰弹枪"
         },
         "Tommy Gun": {
             "name": "汤普森冲锋枪",
@@ -562,7 +594,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "冲锋枪"
         },
         "Uzi": {
             "name": "Uzi",
@@ -578,7 +611,8 @@
                     }
                 }
             },
-            "ammo": "中型子弹"
+            "ammo": "中型子弹",
+            "category": "冲锋枪"
         },
         "Winchester ‘73": {
             "ammo": "中型子弹",
@@ -586,7 +620,8 @@
             "description": "<div class=\"swade-core\"><p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
             "actions": {
                 "skill": "射击"
-            }
+            },
+            "category": "步枪"
         }
     }
 }
