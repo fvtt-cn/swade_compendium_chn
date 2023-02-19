@@ -17,7 +17,7 @@
         },
         "Avion": {
             "name": "翼民",
-            "description": "<div class=\"swade-core\">\n<h2>翼民</h2>\n<p>翼民是有翅膀的类人种。他们的体格因为中空的骨头而脆弱轻盈。某些翼民双翅生羽，而其他的则是背长皮翼甚至是鳞翼。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>不谙水性：</strong>翼民的翅膀在水中百无一用。他们的@Compendium[swade-core-rules.swade-skills.运动]{运动}(游泳)投骰-2，而且在水中每移动一英寸消耗3英寸移速。</li>\n<li><strong>飞行：</strong>翼民每轮能以12的@Compendium[swade-core-rules.swade-rules.移动]{移速}飞行，并以@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行机动。</li>\n<li><strong>羸弱：</strong>因为骨头中空，翼民的@Compendium[swade-core-rules.swade-rules.角色]{坚韧}-1。</li>\n<li><strong>敏锐感官：</strong>翼民比起其他种族更要敏锐，他们初始的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}技能是d6(而不是d4)，而且可以将该技能提升到d12+1。</li>\n<li><strong>缓慢移速：</strong>因为对飞行的依赖以及笨重的翅膀，翼民在行走时较为迟缓，其行走@Compendium[swade-core-rules.swade-rules.移动]{移速}-1，并且奔跑骰下降一级。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Avion.webp\" alt=\"An image of an Avion\" /></div>"
+            "description": "<div class=\"swade-core\">\n<h2>翼民</h2>\n<p>翼民是有翅膀的类人种。他们的体格因为中空的骨头而脆弱轻盈。某些翼民双翅生羽，而其他的则是背长皮翼甚至是鳞翼。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>不谙水性：</strong>翼民的翅膀在水中百无一用。他们的@Compendium[swade-core-rules.swade-skills.运动]{运动}(游泳)投骰-2，而且在水中每移动一英寸消耗3英寸移速。</li>\n<li><strong>飞行：</strong>翼民每轮能以12的@Compendium[swade-core-rules.swade-rules.移动]{移速}飞行，并以@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行机动。</li>\n<li><strong>羸弱：</strong>因为骨头中空，翼民的@Compendium[swade-core-rules.swade-rules.角色]{坚韧}-1。</li>\n<li><strong>敏锐感官：</strong>翼民比起其他种族更要敏锐，他们初始的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}技能是d6(而不是d4)，而且可以将该技能提升到d12+1。</li>\n<li><strong>移速减少：</strong>因为对飞行的依赖以及笨重的翅膀，翼民在行走时较为迟缓，其行走@Compendium[swade-core-rules.swade-rules.移动]{移速}-1，并且奔跑骰下降一级。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Avion.webp\" alt=\"An image of an Avion\" /></div>"
         },
         "Celestials": {
             "name": "天民",
@@ -25,7 +25,7 @@
         },
         "Dwarves": {
             "name": "矮人",
-            "description": "<div class=\"swade-core\">\n<h2>矮人</h2>\n<p>矮人来自大型洞穴或崇山峻岭，矮壮结实，坚毅勇敢。他们是富有荣耀，骁勇善战的种族，并经常接触诸如兽人或是哥布林这类敌意十足的种族。</p>\n<p>矮人通常能活200年以上，在大部分的奇幻战役里，他们都有着红润的皮肤以及所有人类的发色。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>微光视觉：</strong>矮人的眼睛适应了地底的黑暗，他们能忽略昏暗和黑暗造成的@Compendium[swade-core-rules.swade-rules.照明]{照明}减值。</li>\n<li><strong>缓慢移速：</strong>矮人的双腿相较大部分种族更为短小，其@Compendium[swade-core-rules.swade-rules.移动]{移速}-1，并且奔跑骰子类型下降一级。</li>\n<li><strong>健硕：</strong>矮人强壮精悍，他们起始的@Compendium[swade-core-rules.swade-rules.特性]{活力}从d4变成d6，并且活力上限提升到d12+1。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Dwarves.webp\" alt=\"An image of a Dwarf\" /></div>"
+            "description": "<div class=\"swade-core\">\n<h2>矮人</h2>\n<p>矮人来自大型洞穴或崇山峻岭，矮壮结实，坚毅勇敢。他们是富有荣耀，骁勇善战的种族，并经常接触诸如兽人或是哥布林这类敌意十足的种族。</p>\n<p>矮人通常能活200年以上，在大部分的奇幻战役里，他们都有着红润的皮肤以及所有人类的发色。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>微光视觉：</strong>矮人的眼睛适应了地底的黑暗，他们能忽略昏暗和黑暗造成的@Compendium[swade-core-rules.swade-rules.照明]{照明}减值。</li>\n<li><strong>移速减少：</strong>矮人的双腿相较大部分种族更为短小，其@Compendium[swade-core-rules.swade-rules.移动]{移速}-1，并且奔跑骰子类型下降一级。</li>\n<li><strong>健硕：</strong>矮人强壮精悍，他们起始的@Compendium[swade-core-rules.swade-rules.特性]{活力}从d4变成d6，并且活力上限提升到d12+1。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Dwarves.webp\" alt=\"An image of a Dwarf\" /></div>"
         },
         "Elves": {
             "name": "精灵",
@@ -40,7 +40,7 @@
             "name": "半精灵"
         },
         "Half-Folk": {
-            "description": "<div class=\"swade-core\">\n<h2>半身人</h2>\n<p>半身人瘦小而灵活，有着一头毛茸茸的黑色或棕色头发。尽管比起其他大部分种族更为孱弱，但根植于半身人的积极乐观(或是狡诈精明)之上是“永不言败”的态度，他们因此能战胜体型比自己大上两号的生物。半身人不愿意自找麻烦，他们通常生活在偏僻至极，关系紧密的社会当中。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>幸运：</strong>半身人在每回游戏开始时都会额外获得一点@Compendium[swade-core-rules.swade-rules.助力点]{助力点}。</li>\n<li><strong>缓慢移速：</strong>角色的@Compendium[swade-core-rules.swade-rules.移动]{移速}-1，并且奔跑骰子类型下降一级。</li>\n<li><strong>体型-1：</strong>半身人平均只有四英尺高，@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型}(因此还有@Compendium[swade-core-rules.swade-rules.角色]{坚韧})-1。</li>\n<li><strong>精神抖擞：</strong>半身人通常都是乐观积极，他们起始的@Compendium[swade-core-rules.swade-rules.特性]{心魂}从d4变成d6，这让其心魂上限提升到d12+1。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Half-Folk.webp\" alt=\"An image of a Half-Folk\" /></div>",
+            "description": "<div class=\"swade-core\">\n<h2>半身人</h2>\n<p>半身人瘦小而灵活，有着一头毛茸茸的黑色或棕色头发。尽管比起其他大部分种族更为孱弱，但根植于半身人的积极乐观(或是狡诈精明)之上是“永不言败”的态度，他们因此能战胜体型比自己大上两号的生物。半身人不愿意自找麻烦，他们通常生活在偏僻至极，关系紧密的社会当中。</p>\n<ul class=\"red-bullet-list\">\n<li><strong>幸运：</strong>半身人在每回游戏开始时都会额外获得一点@Compendium[swade-core-rules.swade-rules.助力点]{助力点}。</li>\n<li><strong>移速减少：</strong>角色的@Compendium[swade-core-rules.swade-rules.移动]{移速}-1，并且奔跑骰子类型下降一级。</li>\n<li><strong>体型-1：</strong>半身人平均只有四英尺高，@Compendium[swade-core-rules.swade-rules.体型与尺寸]{体型}(因此还有@Compendium[swade-core-rules.swade-rules.角色]{坚韧})-1。</li>\n<li><strong>精神抖擞：</strong>半身人通常都是乐观积极，他们起始的@Compendium[swade-core-rules.swade-rules.特性]{心魂}从d4变成d6，这让其心魂上限提升到d12+1。</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/Half-Folk.webp\" alt=\"An image of a Half-Folk\" /></div>",
             "name": "半身人"
         },
         "Humans": {

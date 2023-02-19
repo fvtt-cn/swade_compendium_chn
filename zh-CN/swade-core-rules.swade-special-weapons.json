@@ -589,7 +589,7 @@
             "category": "导弹"
         },
         "Stun Grenade": {
-            "name": "震撼手雷",
+            "name": "震撼弹",
             "description": "<div class=\"swade-core\">\n<p>目标必须成功通过一次@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰(出现优良则还要-2)否则会陷入@Compendium[swade-core-rules.swade-powers.震慑]{震慑}。</p>\n<hr />\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@Compendium[swade-core-rules.swade-rules.射程]{射程})使用。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型爆发盖板}</p>\n<p>所有的手雷都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，其爆炸范围对应的爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})已在下面列出。手雷能被@Compendium[swade-core-rules.swade-rules.回避]{回避}</p>\n</div>",
             "notes": "目标必须成功通过一次活力投骰(出现优良则还要-2)否则会陷入震慑。",
             "actions": {
