@@ -537,7 +537,7 @@
         },
         "Unarmed": {
             "name": "无武装攻击",
-            "description":"<article class=\"swade-core\"><p><strong>无武装伤害 - </strong>没拿武器的战士只能以力量骰计算伤害，除非其具备<strong>@Compendium[swade-core-rules.swade-edges.搏击手]{搏击手}</strong>或<strong>@Compendium[swade-core-rules.swade-edges.武术家]{武术家}</strong>这种能给予一枚伤害骰的@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{专长}。</p></article>",
+            "description": "<article class=\"swade-core\"><p><strong>无武装伤害 - </strong>没拿武器的战士只能以力量骰计算伤害，除非其具备<strong>@Compendium[swade-core-rules.swade-edges.搏击手]{搏击手}</strong>或<strong>@Compendium[swade-core-rules.swade-edges.武术家]{武术家}</strong>这种能给予一枚伤害骰的@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{专长}。</p></article>",
             "actions": {
                 "skill": "格斗"
             },
