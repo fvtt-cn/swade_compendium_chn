@@ -29,7 +29,7 @@
             "category": "未来"
         },
         "Battle Helmet w/ Energy Skin": {
-            "name": "战斗头盔(带能量表皮)",
+            "name": "战斗头盔 (带能量表皮)",
             "description": "<div class=\"swade-core\">\n<p>私人或国家武装力量使用的@Compendium[swade-core-rules.swade-rules.护甲]{护甲}。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.能量表皮]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>",
             "category": "未来"
         },
