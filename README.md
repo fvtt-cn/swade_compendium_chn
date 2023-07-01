@@ -13,8 +13,8 @@
 - Discord 服务器： https://discord.gg/7UrkEg634m
 
 ### 如何参与到翻译中
-本项目使用 [Weblate](https://hosted.weblate.org/) 进行翻译工作，使用 Weblate 无需拥有任何 Git 使用知识，只需在界面上进行中英对照翻译即可！
+本项目使用 [Weblate] 进行翻译工作，使用 Weblate 无需拥有任何 Git 使用知识，只需在界面上进行中英对照翻译即可！
 
-<a href="https://weblate.dickytwister.org/engage/swade/">
-<img src="https://weblate.dickytwister.org/widgets/swade/-/open-graph.png" alt="翻译状态" />
+<a href="http://150.109.5.239/engage/swade/">
+<img src="http://150.109.5.239/widgets/swade/-/open-graph.png" alt="翻译状态" />
 </a>
