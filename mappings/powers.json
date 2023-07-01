@@ -1,0 +1,10 @@
+{
+    "mapping": {
+        "description": "system.description",
+        "range": "system.range",
+        "rank": "system.rank",
+        "duration": "system.duration",
+        "trapping": "system.trapping",
+        "pp": "system.pp"
+    }
+}

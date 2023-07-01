@@ -1,107 +1,713 @@
 {
-	"label": "SWADE Modern Firearms",
-	"entries": {
-		"AK47": {
-			"name": "AK47"
-		},
-		"Barrett": {
-			"name": "Barrett"
-		},
-		"Browning Automatic Rifle": {
-			"name": "Browning Automatic Rifle"
-		},
-		"Colt 1911": {
-			"name": "Colt 1911"
-		},
-		"Colt Peacemaker": {
-			"name": "Colt Peacemaker"
-		},
-		"Derringer": {
-			"name": "Derringer"
-		},
-		"Desert Eagle": {
-			"name": "Desert Eagle"
-		},
-		"Double-Barrel Shotgun": {
-			"name": "Double-Barrel Shotgun"
-		},
-		"Gatling": {
-			"name": "Gatling"
-		},
-		"Glock (9mm)": {
-			"name": "Glock (9mm)"
-		},
-		"H&K MP5": {
-			"name": "H&K MP5"
-		},
-		"Hunting Rifle": {
-			"name": "Hunting Rifle"
-		},
-		"M-16": {
-			"name": "M-16"
-		},
-		"M1 Garand": {
-			"name": "M1 Garand"
-		},
-		"M2 Browning": {
-			"name": "M2 Browning"
-		},
-		"M60": {
-			"name": "M60"
-		},
-		"MG42": {
-			"name": "MG42"
-		},
-		"Minigun": {
-			"name": "Minigun"
-		},
-		"Pistol (Laser)": {
-			"name": "Pistol (Laser)"
-		},
-		"Police Revolver": {
-			"name": "Police Revolver"
-		},
-		"Pump Action Shotgun": {
-			"name": "Pump Action Shotgun"
-		},
-		"Rifle (Laser)": {
-			"name": "Rifle (Laser)"
-		},
-		"Ruger": {
-			"name": "Ruger"
-		},
-		"SAW": {
-			"name": "SAW"
-		},
-		"Sawed-Off Double-Barrel Shotgun": {
-			"name": "Sawed-Off Double-Barrel Shotgun"
-		},
-		"Sharps Big 50": {
-			"name": "Sharps Big 50"
-		},
-		"SMG (Laser)": {
-			"name": "SMG (Laser)"
-		},
-		"Smith & Wesson": {
-			"name": "Smith & Wesson"
-		},
-		"Spencer Carbine": {
-			"name": "Spencer Carbine"
-		},
-		"Steyr AUG": {
-			"name": "Steyr AUG"
-		},
-		"Streetsweeper Shotgun": {
-			"name": "Streetsweeper Shotgun"
-		},
-		"Tommy Gun": {
-			"name": "Tommy Gun"
-		},
-		"Uzi": {
-			"name": "Uzi"
-		},
-		"Winchester ‘73": {
-			"name": "Winchester ‘73"
-		}
-	}
+    "label": "SWADE Modern Firearms",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo",
+        "category": "system.category"
+    },
+    "entries": {
+        "Colt 1911": {
+            "name": "Colt 1911",
+            "description": "<article class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></article>",
+            "notes": ".45",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "12/24/48",
+            "ammo": "Colt 1911 Magazine",
+            "category": "Pistols"
+        },
+        "Gatling": {
+            "name": "Gatling",
+            "description": "<article class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong> Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Their @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong> Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong> Machine guns are&nbsp;@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload}&nbsp;2, which includes changing belts or drums, cocking, etc.</p></article>",
+            "notes": ".45",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "53ddkdbw3v": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "ytyundkxtg": {
+                        "name": "RoF 3 Attack"
+                    }
+                }
+            },
+            "range": "24/48/96",
+            "ammo": "Bullets, Medium",
+            "category": "Machine Guns"
+        },
+        "Spencer Carbine": {
+            "name": "Spencer Carbine",
+            "description": "<article class=\"swade-core\"><p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></article>",
+            "notes": ".52",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "20/40/80",
+            "ammo": "Bullets, Medium",
+            "category": "Rifles"
+        },
+        "Minigun": {
+            "name": "Minigun",
+            "description": "<article class=\"swade-core\"><p>Minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3, requires backpack harness with ammo which weighs an additional 85 pounds when full (carries 4000 linked rounds).</p>\n<hr />\n<p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Their @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire} and Recoil penalties.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></article>",
+            "notes": "7.62mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "d37x9ivel8": {
+                        "name": "RoF 4 Attack"
+                    },
+                    "owz7czsqjn": {
+                        "name": "Snapfire RoF 3"
+                    },
+                    "pcj2gzzwrr": {
+                        "name": "Snapfire RoF 5"
+                    },
+                    "sa4cmxswt8": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "vxu0ut9e9u": {
+                        "name": "RoF 5 Attack"
+                    },
+                    "zp3qqymkfs": {
+                        "name": "Snapfire RoF 4"
+                    }
+                }
+            },
+            "range": "30/60/120",
+            "ammo": "Bullets, Medium",
+            "category": "Machine Guns"
+        },
+        "Pistol (Laser)": {
+            "name": "Pistol (Laser)",
+            "description": "<article class=\"swade-core\">\n<p>Lasers fire intensely focused beams of light to penetrate and burn their targets.</p>\n<p><strong>Cauterize:</strong> Anyone Incapacitated by a laser blast adds +2 to his @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} rolls to keep from @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Bleeding Out}.</p>\n<p><strong>Overcharge:</strong>&nbsp;This weapon can overcharge to cause an extra d6 damage, but if any of the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} dice are a 1, the weapon must cool down for a full round before it can be fired again.</p>\n<p><strong>No Recoil:</strong>&nbsp;Pistols, SMGs, and rifles ignore the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Gatling lasers still take the penalty, however, which is why they&rsquo;re usually mounted on a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{tripod}.</p>\n</article>",
+            "notes": "Laser Battery, Pistol",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "l8016zc0cn": {
+                        "name": "Overcharge"
+                    }
+                }
+            },
+            "range": "15/30/60",
+            "ammo": "Laser Battery, Pistol",
+            "category": "Lasers (Futuristic)"
+        },
+        "Barrett": {
+            "name": "Barrett",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire}. Barretts use a 10-shot removable magazine that weighs 2 lbs when loaded. They are almost always fitted with a @Compendium[swade-core-rules.swade-equipment.Rifle Scope]{Rifle Scope}.</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p>\n</article>",
+            "notes": ".50",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "k3lppdpumw": {
+                        "name": "Snapfire"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "Barrett Magazine",
+            "category": "Rifles"
+        },
+        "M-16": {
+            "name": "M-16",
+            "description": "<article class=\"swade-core\"><p>The A-2 version can also fire a @Compendium[swade-core-rules.swade-rules.Three-Round Burst]{Three-Round Burst}.</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></article>",
+            "notes": "5.56mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "5dm9tsph6p": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "dw89pbay4t": {
+                        "name": "A-2 Three-Round Burst"
+                    },
+                    "r4k2ta3di3": {
+                        "name": "RoF 3 Attack"
+                    }
+                }
+            },
+            "range": "24/48/96",
+            "ammo": "M-16 Magazine",
+            "category": "Rifles"
+        },
+        "Colt Peacemaker": {
+            "name": "Colt Peacemaker",
+            "description": "<article class=\"swade-core\"><p>Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</p></article>",
+            "notes": ".45",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "12/24/48",
+            "ammo": "Bullets, Medium",
+            "category": "Pistols"
+        },
+        "Desert Eagle": {
+            "name": "Desert Eagle",
+            "description": "<article class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></article>",
+            "notes": ".50",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "15/30/60",
+            "ammo": "Desert Eagle Magazine",
+            "category": "Pistols"
+        },
+        "M60": {
+            "name": "M60",
+            "description": "<article class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Their @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></article>",
+            "notes": "7.62mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "dw76k679ax": {
+                        "name": "Snapfire RoF 3"
+                    },
+                    "flzlrmkgob": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "twnpvhvce9": {
+                        "name": "Snapfire RoF 2"
+                    },
+                    "v72t1ul86x": {
+                        "name": "RoF 3 Attack"
+                    }
+                }
+            },
+            "range": "30/60/120",
+            "ammo": "Bullets, Medium",
+            "category": "Machine Guns"
+        },
+        "SMG (Laser)": {
+            "name": "SMG (Laser)",
+            "description": "<article class=\"swade-core\">\n<p>Lasers fire intensely focused beams of light to penetrate and burn their targets.</p>\n<p><strong>Cauterize:</strong> Anyone Incapacitated by a laser blast adds +2 to his @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} rolls to keep from @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Bleeding Out}.</p>\n<p><strong>Overcharge:</strong>&nbsp;This weapon can overcharge to cause an extra d6 damage, but if any of the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} dice are a 1, the weapon must cool down for a full round before it can be fired again.</p>\n<p><strong>No Recoil:</strong>&nbsp;Pistols, SMGs, and rifles ignore the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Gatling lasers still take the penalty, however, which is why they&rsquo;re usually mounted on a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{tripod}.</p>\n</article>",
+            "notes": "Laser Battery, SMG/Rifle",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "2j8pylmbzt": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "e3ym7r9j3x": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "imydg4hjq5": {
+                        "name": "RoF 4 Attack"
+                    },
+                    "wlryc5894c": {
+                        "name": "Overcharge"
+                    }
+                }
+            },
+            "range": "15/30/60",
+            "ammo": "Laser Battery, Rifle / SMG",
+            "category": "Lasers (Futuristic)"
+        },
+        "AK47": {
+            "name": "AK47",
+            "description": "<article class=\"swade-core\"><p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></article>",
+            "notes": "7.62mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "0n12mqjsi3": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "uevib48jb1": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "24/48/96",
+            "ammo": "AK47 Magazine",
+            "category": "Rifles"
+        },
+        "M2 Browning": {
+            "name": "M2 Browning",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}</p>\n<hr />\n<p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Their @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 2, which includes changing belts or drums, cocking, etc.</p>\n</article>",
+            "notes": ".50",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "7r05pvxs8m": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "jnh5swl3sr": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "Bullets, Large",
+            "category": "Machine Guns"
+        },
+        "Streetsweeper Shotgun": {
+            "name": "Streetsweeper Shotgun",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "d7mti3a1d0": {
+                        "name": "Short Range"
+                    },
+                    "h3gy1rp1yu": {
+                        "name": "Slugs"
+                    },
+                    "igj4e0kyzf": {
+                        "name": "Long Range"
+                    },
+                    "imhxlkhief": {
+                        "name": "Slugs"
+                    },
+                    "zug7y41wrq": {
+                        "name": "Medium Range"
+                    }
+                }
+            },
+            "range": "12/24/48",
+            "ammo": "Shotgun Shells",
+            "category": "Shotguns"
+        },
+        "M1 Garand": {
+            "name": "M1 Garand",
+            "description": "<article class=\"swade-core\"><p>The standard US infantry rifle in World War II.</p>\n<hr />\n<p><span style=\"color: #191813; background-color: #dfe6f5;\">Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</span></p></article>",
+            "notes": ".30-06",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "24/48/96",
+            "ammo": "Bullets, Medium",
+            "category": "Rifles"
+        },
+        "Steyr AUG": {
+            "name": "Steyr AUG",
+            "description": "<article class=\"swade-core\"><p>May fire a @Compendium[swade-core-rules.swade-rules.Three-Round Burst]{Three-Round Burst}.</p></article>",
+            "notes": "5.56mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "8uz8v7onn3": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "r3vehrgy0t": {
+                        "name": "Three-Round Burst"
+                    },
+                    "u1x802d6ia": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "24/48/96",
+            "ammo": "Steyr AUG Magazine",
+            "category": "Rifles"
+        },
+        "Sawed-Off Double-Barrel Shotgun": {
+            "name": "Sawed-Off Double-Barrel Shotgun",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "5wxefxe0wc": {
+                        "name": "Double-Barrel Short Range"
+                    },
+                    "93c4552pi8": {
+                        "name": "Slugs"
+                    },
+                    "ikdais1qo4": {
+                        "name": "Slugs"
+                    },
+                    "jjtol5mi9q": {
+                        "name": "Double Barrel Slugs"
+                    },
+                    "k898kad686": {
+                        "name": "Short Range"
+                    },
+                    "kjmyk2umxg": {
+                        "name": "Double-Barrel Medium Range"
+                    },
+                    "lmznwdbi7o": {
+                        "name": "Double-Barrel Long Range"
+                    },
+                    "vm991u5st6": {
+                        "name": "Double Barrel Slugs"
+                    },
+                    "wrge5qeel2": {
+                        "name": "Long Range"
+                    },
+                    "y8bmp1oiej": {
+                        "name": "Medium Range"
+                    }
+                }
+            },
+            "range": "5/10/20",
+            "ammo": "Shotgun Shells",
+            "category": "Shotguns"
+        },
+        "Pump Action Shotgun": {
+            "name": "Pump Action Shotgun",
+            "description": "<article class=\"swade-core\"><p><span style=\"color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</span></p></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "2195beusva": {
+                        "name": "Slugs"
+                    },
+                    "ei40jb4zhw": {
+                        "name": "Medium Range"
+                    },
+                    "p40x1h6ljf": {
+                        "name": "Long Range"
+                    },
+                    "tts11rijqd": {
+                        "name": "Short Range"
+                    },
+                    "usc5qe0738": {
+                        "name": "Slugs"
+                    }
+                }
+            },
+            "range": "12/24/48",
+            "ammo": "Shotgun Shells",
+            "category": "Shotguns"
+        },
+        "Gatling (Laser)": {
+            "name": "Gatling (Laser)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Minimum Rate of Fire:</strong> Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02lasersfuturi00]{No Recoil, Overcharge, Cauterize}</p>\n</article>",
+            "notes": "No Recoil, Overcharge, Cauterize",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "1wmca7vx5i": {
+                        "name": "RoF 4 Attack"
+                    },
+                    "1wqol5qn8h": {
+                        "name": "Overcharge"
+                    },
+                    "whqv1usyq4": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "ylps4cskeu": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "Laser Battery, Gatling",
+            "category": "Vehicular Weapons"
+        },
+        "Rifle (Laser)": {
+            "name": "Rifle (Laser)",
+            "description": "<article class=\"swade-core\">\n<p>Lasers fire intensely focused beams of light to penetrate and burn their targets.</p>\n<p><strong>Cauterize:</strong> Anyone Incapacitated by a laser blast adds +2 to his @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} rolls to keep from @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Bleeding Out}.</p>\n<p><strong>Overcharge:</strong>&nbsp;This weapon can overcharge to cause an extra d6 damage, but if any of the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} dice are a 1, the weapon must cool down for a full round before it can be fired again.</p>\n<p><strong>No Recoil:</strong>&nbsp;Pistols, SMGs, and rifles ignore the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Gatling lasers still take the penalty, however, which is why they&rsquo;re usually mounted on a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{tripod}.</p>\n</article>",
+            "notes": "Laser Battery, SMG/Rifle",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "0bd81htr9r": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "2s7u2vhzwa": {
+                        "name": "Overcharge"
+                    },
+                    "6w08dfsyjo": {
+                        "name": "RoF 3 Attack"
+                    }
+                }
+            },
+            "range": "30/60/120",
+            "ammo": "Laser Battery, Rifle / SMG",
+            "category": "Lasers (Futuristic)"
+        },
+        "Uzi": {
+            "name": "Uzi",
+            "description": "<article class=\"swade-core\"><p>Typical magazine sizes are listed with each weapon. Additional magazines are available at 10% of the weapon&rsquo;s cost and weigh about 1 lb each, fully loaded.</p></article>",
+            "notes": "9mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "t42xx1o1o9": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "y1b7ji2l4a": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "12/24/48",
+            "ammo": "Uzi Magazine",
+            "category": "Submachine Guns"
+        },
+        "SAW": {
+            "name": "SAW",
+            "description": "<article class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Their @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></article>",
+            "notes": "5.56mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "ajd7g8p0k5": {
+                        "name": "RoF 4 Attack"
+                    },
+                    "n5xdh4yh9v": {
+                        "name": "Snapfire RoF 3"
+                    },
+                    "nx78g0kg24": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "riyq89ve2w": {
+                        "name": "Snapfire RoF 2"
+                    },
+                    "x71vppzidp": {
+                        "name": "Snapfire RoF 4"
+                    },
+                    "xkkhqb6oda": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "30/60/120",
+            "ammo": "Bullets, Medium",
+            "category": "Machine Guns"
+        },
+        "Tommy Gun": {
+            "name": "Tommy Gun",
+            "description": "<article class=\"swade-core\">\n<p>Thompson submachine guns may also use a 50-round drum. This increases the weight by 2 lbs and each loaded drum costs $50.</p>\n<hr />\n<p>Typical magazine sizes are listed with each weapon. Additional magazines are available at 10% of the weapon&rsquo;s cost and weigh about 1 lb each, fully loaded.</p>\n<p>&nbsp;</p>\n</article>",
+            "notes": ".45",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "ylhxrcrzpr": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "zum8xf76t6": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "12/24/48",
+            "ammo": "Tommy Gun Magazine",
+            "category": "Submachine Guns"
+        },
+        "Smith & Wesson": {
+            "name": "Smith & Wesson",
+            "description": "<article class=\"swade-core\"><p>Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</p></article>",
+            "notes": ".357",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "12/24/48",
+            "ammo": "Bullets, Medium",
+            "category": "Pistols"
+        },
+        "Derringer": {
+            "name": "Derringer",
+            "description": "<article class=\"swade-core\">\n<p>Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</p>\n<p>&minus;2 to be @Compendium[swade-core-rules.swade-skills.Notice]{Noticed} if hidden.</p>\n</article>",
+            "notes": ".41",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "3/6/12",
+            "ammo": "Bullets, Medium",
+            "category": "Pistols"
+        },
+        "Double-Barrel Shotgun": {
+            "name": "Double-Barrel Shotgun",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "5wxefxe0wc": {
+                        "name": "Double-Barrel Short Range"
+                    },
+                    "93c4552pi8": {
+                        "name": "Slugs"
+                    },
+                    "ikdais1qo4": {
+                        "name": "Slugs"
+                    },
+                    "jjtol5mi9q": {
+                        "name": "Double Barrel Slugs"
+                    },
+                    "k898kad686": {
+                        "name": "Short Range"
+                    },
+                    "kjmyk2umxg": {
+                        "name": "Double-Barrel Medium Range"
+                    },
+                    "lmznwdbi7o": {
+                        "name": "Double-Barrel Long Range"
+                    },
+                    "vm991u5st6": {
+                        "name": "Double Barrel Slugs"
+                    },
+                    "wrge5qeel2": {
+                        "name": "Long Range"
+                    },
+                    "y8bmp1oiej": {
+                        "name": "Medium Range"
+                    }
+                }
+            },
+            "range": "12/24/48",
+            "ammo": "Shotgun Shells",
+            "category": "Shotguns"
+        },
+        "Sharps Big 50": {
+            "name": "Sharps Big 50",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire}</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></article>",
+            "notes": ".50",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "zl56kx0g2u": {
+                        "name": "Snapfire"
+                    }
+                }
+            },
+            "range": "30/60/120",
+            "ammo": "Bullets, Large",
+            "category": "Rifles"
+        },
+        "Hunting Rifle": {
+            "name": "Hunting Rifle",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire}</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></article>",
+            "notes": ".308",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "ikd1tshj7n": {
+                        "name": "Snapfire"
+                    }
+                }
+            },
+            "range": "24/48/96",
+            "ammo": "Bullets, Medium",
+            "category": "Rifles"
+        },
+        "MG42": {
+            "name": "MG42",
+            "description": "<article class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Their @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></article>",
+            "notes": "7.92mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "28dl21hs2t": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "9mumti5swo": {
+                        "name": "Snapfire RoF 4"
+                    },
+                    "eknd2cr12u": {
+                        "name": "RoF 4 Attack"
+                    },
+                    "gwilt1hxuc": {
+                        "name": "Snapfire RoF 3"
+                    },
+                    "s0g8bd0c6s": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "sanqlfdue4": {
+                        "name": "Snapfire RoF 2"
+                    }
+                }
+            },
+            "range": "30/60/120",
+            "ammo": "Bullets, Medium",
+            "category": "Machine Guns"
+        },
+        "Winchester ‘73": {
+            "name": "Winchester ‘73",
+            "description": "<article class=\"swade-core\"><p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></article>",
+            "notes": ".45",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "24/48/96",
+            "ammo": "Bullets, Medium",
+            "category": "Rifles"
+        },
+        "Ruger": {
+            "name": "Ruger",
+            "description": "<article class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></article>",
+            "notes": ".22",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "10/20/40",
+            "ammo": "Ruger Magazine",
+            "category": "Pistols"
+        },
+        "Police Revolver": {
+            "name": "Police Revolver",
+            "description": "<article class=\"swade-core\"><p><span style=\"color: #191813; background-color: #dfe6f5;\">Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</span></p></article>",
+            "notes": ".38",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "10/20/40",
+            "ammo": "Bullets, Medium",
+            "category": "Pistols"
+        },
+        "H&K MP5": {
+            "name": "H&K MP5",
+            "description": "<article class=\"swade-core\"><p>Typical magazine sizes are listed with each weapon. Additional magazines are available at 10% of the weapon&rsquo;s cost and weigh about 1 lb each, fully loaded.</p></article>",
+            "notes": "9mm",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "xyaqn22hrj": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "yk1n6d9cj1": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "12/24/48",
+            "ammo": "H&K MP5 Magazine",
+            "category": "Submachine Guns"
+        },
+        "Glock (9mm)": {
+            "name": "Glock (9mm)",
+            "description": "<article class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></article>",
+            "notes": "9mm",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "12/24/48",
+            "ammo": "Glock (9mm) Magazine",
+            "category": "Pistols"
+        },
+        "Browning Automatic Rifle": {
+            "name": "Browning Automatic Rifle",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{Rate of Fire} 1 to 3. Uses magazines (one action to @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} instead of the usual 2).</p>\n<hr />\n<p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong> Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} penalty. Their @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong> Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire}&nbsp;of 2 unless otherwise noted.</p>\n</article>",
+            "notes": ".30-06",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "g2ebz1hc6j": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "nfp6zroqud": {
+                        "name": "Snapfire RoF 2"
+                    },
+                    "ye0vrkxsyi": {
+                        "name": "Snapfire RoF 3"
+                    },
+                    "zm7siilujz": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "20/40/60",
+            "ammo": "Bullets, Medium",
+            "category": "Machine Guns"
+        }
+    }
 }

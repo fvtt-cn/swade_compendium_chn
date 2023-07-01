@@ -1,161 +1,706 @@
 {
-	"label": "SWADE Special Weapons",
-	"entries": {
-		"120mm Tank Gun (AP Rounds)": {
-			"name": "120mm Tank Gun (AP Rounds)"
-		},
-		"120mm Tank Gun (HE Rounds)": {
-			"name": "120mm Tank Gun (HE Rounds)"
-		},
-		"125mm Tank Gun (AP Rounds)": {
-			"name": "125mm Tank Gun (AP Rounds)"
-		},
-		"125mm Tank Gun (HE Rounds)": {
-			"name": "125mm Tank Gun (HE Rounds)"
-		},
-		"2 pd AT Gun (AP Rounds)": {
-			"name": "2 pd AT Gun (AP Rounds)"
-		},
-		"2 pd AT Gun (HE Rounds)": {
-			"name": "2 pd AT Gun (HE Rounds)"
-		},
-		"20mm Cannon": {
-			"name": "20mm Cannon"
-		},
-		"25mm Cannon": {
-			"name": "25mm Cannon"
-		},
-		"30mm Cannon": {
-			"name": "30mm Cannon"
-		},
-		"37mm AT Gun (AP Rounds)": {
-			"name": "37mm AT Gun (AP Rounds)"
-		},
-		"37mm AT Gun (HE Rounds)": {
-			"name": "37mm AT Gun (HE Rounds)"
-		},
-		"40mm Cannon (AP Rounds)": {
-			"name": "40mm Cannon (AP Rounds)"
-		},
-		"40mm Cannon (HE Rounds)": {
-			"name": "40mm Cannon (HE Rounds)"
-		},
-		"57mm AT Gun (AP Rounds)": {
-			"name": "57mm AT Gun (AP Rounds)"
-		},
-		"57mm AT Gun (HE Rounds)": {
-			"name": "57mm AT Gun (HE Rounds)"
-		},
-		"75mm Tank Gun (AP Rounds)": {
-			"name": "75mm Tank Gun (AP Rounds)"
-		},
-		"75mm Tank Gun (HE Rounds)": {
-			"name": "75mm Tank Gun (HE Rounds)"
-		},
-		"76mm Tank Gun (AP Rounds)": {
-			"name": "76mm Tank Gun (AP Rounds)"
-		},
-		"76mm Tank Gun (HE Rounds)": {
-			"name": "76mm Tank Gun (HE Rounds)"
-		},
-		"88mm Tank Gun (AP Rounds)": {
-			"name": "88mm Tank Gun (AP Rounds)"
-		},
-		"88mm Tank Gun (HE Rounds)": {
-			"name": "88mm Tank Gun (HE Rounds)"
-		},
-		"Anti-Personnel Mine": {
-			"name": "Anti-Personnel Mine"
-		},
-		"Anti-Tank Mine": {
-			"name": "Anti-Tank Mine"
-		},
-		"AT-4": {
-			"name": "AT-4"
-		},
-		"Bazooka": {
-			"name": "Bazooka"
-		},
-		"Bombs": {
-			"name": "Bombs"
-		},
-		"Bouncing Betty": {
-			"name": "Bouncing Betty"
-		},
-		"Cannon (12 lb), Canister": {
-			"name": "Cannon (12 lb), Canister"
-		},
-		"Cannon (12 lb), Shrapnel": {
-			"name": "Cannon (12 lb), Shrapnel"
-		},
-		"Cannon (12 lb), Solid Shot": {
-			"name": "Cannon (12 lb), Solid Shot"
-		},
-		"Catapult": {
-			"name": "Catapult"
-		},
-		"Claymore Mine": {
-			"name": "Claymore Mine"
-		},
-		"Flamethrower": {
-			"name": "Flamethrower"
-		},
-		"Gatling (Laser)": {
-			"name": "Gatling (Laser)"
-		},
-		"Heavy Flamethrower": {
-			"name": "Heavy Flamethrower"
-		},
-		"Heavy Laser": {
-			"name": "Heavy Laser"
-		},
-		"Heavy Machine Gun": {
-			"name": "Heavy Machine Gun"
-		},
-		"Hellfire": {
-			"name": "Hellfire"
-		},
-		"M203 40MM": {
-			"name": "M203 40MM"
-		},
-		"M72 Law": {
-			"name": "M72 Law"
-		},
-		"Medium Machine Gun": {
-			"name": "Medium Machine Gun"
-		},
-		"Mk II (WW2 Pineapple)": {
-			"name": "Mk II (WW2 Pineapple)"
-		},
-		"Mk67 (Modern)": {
-			"name": "Mk67 (Modern)"
-		},
-		"Panzerschreck": {
-			"name": "Panzerschreck"
-		},
-		"Potato Masher (WW2)": {
-			"name": "Potato Masher (WW2)"
-		},
-		"Sidewinder": {
-			"name": "Sidewinder"
-		},
-		"Smoke Grenade": {
-			"name": "Smoke Grenade"
-		},
-		"Sparrow": {
-			"name": "Sparrow"
-		},
-		"Stun Grenade": {
-			"name": "Stun Grenade"
-		},
-		"Torpedo": {
-			"name": "Torpedo"
-		},
-		"TOW Missile Launcher": {
-			"name": "TOW Missile Launcher"
-		},
-		"Trebuchet": {
-			"name": "Trebuchet"
-		}
-	}
+    "label": "SWADE Special Weapons",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo",
+        "category": "system.category"
+    },
+    "entries": {
+        "TOW Missile Launcher": {
+            "name": "TOW Missile Launcher",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}. A wire-guided missile fired from a portable or vehicle-mounted launcher. Doesn&rsquo;t require a lock&mdash;just a @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll, and can&rsquo;t be jammed. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03hold0000000000]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} and any other relevant modifiers (including @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03speed000000000]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness}&nbsp;of 8 (2).</p>\n</article>",
+            "notes": "Heavy Weapon. A wire-guided missile fired from a portable or vehicle-mounted launcher. Doesn’t require a lock—just a Shooting roll, and can’t be jammed.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Missiles"
+        },
+        "M203 40MM": {
+            "name": "M203 40MM",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire}. A grenade launcher mounted on the bottom of an assault rifle. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</article>",
+            "notes": "MBT, Snapfire. A grenade launcher mounted on the bottom of an assault rifle.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "24/48/96",
+            "ammo": "",
+            "category": "Rocket Launchers & Torpedoes"
+        },
+        "Heavy Machine Gun": {
+            "name": "Heavy Machine Gun",
+            "description": "<article class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></article>",
+            "notes": "Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "q3e75vog4f": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "slr23nl1ss": {
+                        "name": "RoF 3 Attack"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "75mm Tank Gun (AP Rounds)": {
+            "name": "75mm Tank Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)}&nbsp;</p>\n</article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "a7ahcucjed": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Torpedo": {
+            "name": "Torpedo",
+            "description": "<article class=\"swade-core\">\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Large Blast Template}.</p>\n</article>",
+            "notes": "LBT",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "300/600/1200",
+            "ammo": "",
+            "category": "Rocket Launchers & Torpedoes"
+        },
+        "40mm Cannon (HE Rounds)": {
+            "name": "40mm Cannon (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p>\n<p><strong>Tank and AT Guns:</strong> May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "b7i9rx007d": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "dyg5i2r85g": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "ek94a6scmn": {
+                        "name": "RoF 4 Attack"
+                    }
+                }
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Catapult": {
+            "name": "Catapult",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} time is every 5 minutes with a crew of 4.</p>\n<hr />\n<p>Catapults are simple devices that hurl large stones at enemy defenses or ranks of troops. They normally require a crew of eight to load the projectile, crank down the lever that propels it, then sight and aim it. Firing can be done by a single person, but loading the projectile takes at least four.</p>\n</article>",
+            "notes": "MBT, Heavy Weapon, Reload time is every 5 minutes with a crew of 4.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "24/48/96",
+            "ammo": "",
+            "category": "Catapults"
+        },
+        "Mk II (WW2 Pineapple)": {
+            "name": "Mk II (WW2 Pineapple)",
+            "description": "<article class=\"swade-core\">\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Extreme Range}. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}.</p>\n<p>All grenades are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{Evaded}.</p>\n</article>",
+            "notes": "MBT",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "4/8/16",
+            "ammo": "",
+            "category": "Grenades"
+        },
+        "Bouncing Betty": {
+            "name": "Bouncing Betty",
+            "description": "<article class=\"swade-core\">\n<p>These deadly anti-personnel mines are designed to pop up into the air and rain shrapnel down from about head-height. Only full overhead cover offers an @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor} bonus against such devices. Simply being prone offers no protection from these deadly explosives. Use a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Small Blast Template}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</article>",
+            "notes": "These deadly anti-personnel mines are designed to pop up into the air and rain shrapnel down from about head-height. Only full overhead cover offers an Armor bonus against such devices. Simply being prone offers no protection from these deadly explosives.",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Mines"
+        },
+        "40mm Cannon (AP Rounds)": {
+            "name": "40mm Cannon (AP Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p>\n<p><strong>Tank and AT Guns:</strong> May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n</article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "b7i9rx007d": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "dyg5i2r85g": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "ek94a6scmn": {
+                        "name": "RoF 4 Attack"
+                    },
+                    "ojhw2nz705": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "88mm Tank Gun (AP Rounds)": {
+            "name": "88mm Tank Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)}&nbsp;</p>\n</article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "gj8eb9r0ki": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "100/200/400",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "25mm Cannon": {
+            "name": "25mm Cannon",
+            "description": "<article class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></article>",
+            "notes": "Heavy",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "5yjdf9igio": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "zsg7m6dasg": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Trebuchet": {
+            "name": "Trebuchet",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} time is every 5 minutes with a crew of 4.</p>\n<hr />\n<p>Catapults are simple devices that hurl large stones at enemy defenses or ranks of troops. They normally require a crew of eight to load the projectile, crank down the lever that propels it, then sight and aim it. Firing can be done by a single person, but loading the projectile takes at least four.</p>\n</article>",
+            "notes": "MBT, Heavy Weapon, Reload time is every 5 minutes with a crew of 4.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "30/60/120",
+            "ammo": "",
+            "category": "Catapults"
+        },
+        "Hellfire": {
+            "name": "Hellfire",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}. A laser-guided missile fired from a vehicle-mounted launcher. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03hold0000000000]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} and any other relevant modifiers (including @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03speed000000000]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness} of 8 (2).</p>\n</article>",
+            "notes": "Heavy Weapon. A laser-guided missile fired from a vehicle-mounted launcher.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "150/300/600",
+            "ammo": "",
+            "category": "Missiles"
+        },
+        "Claymore Mine": {
+            "name": "Claymore Mine",
+            "description": "<article class=\"swade-core\">\n<p>Claymores fire a spray of deadly steel balls in a 60&deg; frontal arc. Everyone within 12&Prime; (24 yards) is automatically hit. Roll a die for all other targets up to 50&Prime; (100 yards). Those who get an odd result are also hit. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Special Area Effect Damage}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</article>",
+            "notes": "Claymores fire a spray of deadly steel balls in a 60° frontal arc. Everyone within 12″ (24 yards) is automatically hit. Roll a die for all other targets up to 50″ (100 yards). Those who get an odd result are also hit.",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Mines"
+        },
+        "2 pd AT Gun (AP Rounds)": {
+            "name": "2 pd AT Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\"><p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armorpiercin00]{Armor Piercing (AP)} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02highexplosiv00]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p></article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "6fngqh6ubv": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "20mm Cannon": {
+            "name": "20mm Cannon",
+            "description": "<article class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></article>",
+            "notes": "Heavy",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "4jefkit9vp": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "fj7aptxndg": {
+                        "name": "RoF 2 Attack"
+                    },
+                    "v55r9y7c1y": {
+                        "name": "RoF 4 Attack"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "57mm AT Gun (AP Rounds)": {
+            "name": "57mm AT Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\"><p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armorpiercin00]{Armor Piercing (AP)} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02highexplosiv00]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p></article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "0rwue9m35a": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "76mm Tank Gun (HE Rounds)": {
+            "name": "76mm Tank Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Stun Grenade": {
+            "name": "Stun Grenade",
+            "description": "<article class=\"swade-core\">\n<p>Targets must make a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll (at &ndash;2 with a raise) or be @Compendium[swade-core-rules.swade-powers.Stun]{Stunned}.</p>\n<hr />\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Extreme Range}. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Large Blast Template}</p>\n<p>All grenades are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{Evaded}.</p>\n</article>",
+            "notes": "Targets must make a Vigor roll (at –2 with a raise) or be Stunned.",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "5/10/20",
+            "ammo": "",
+            "category": "Grenades"
+        },
+        "Anti-Personnel Mine": {
+            "name": "Anti-Personnel Mine",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Small Blast Template}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</article>",
+            "notes": "Heavy Weapon.",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Mines"
+        },
+        "125mm Tank Gun (AP Rounds)": {
+            "name": "125mm Tank Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)}&nbsp;</p>\n</article>",
+            "notes": "Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "wbhu8yehva": {
+                        "name": "Close Range AP"
+                    }
+                }
+            },
+            "range": "100/200/400",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "37mm AT Gun (AP Rounds)": {
+            "name": "37mm AT Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\"><p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armorpiercin00]{Armor Piercing (AP)} or @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02highexplosiv00]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p></article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "pmv6i5ctzd": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "120mm Tank Gun (HE Rounds)": {
+            "name": "120mm Tank Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "100/200/400",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "88mm Tank Gun (HE Rounds)": {
+            "name": "88mm Tank Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "100/200/400",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Smoke Grenade": {
+            "name": "Smoke Grenade",
+            "description": "<article class=\"swade-core\">\n<p>Creates an area of smoke in a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Large Blast Template} that obscures vision (&ndash;4).</p>\n<hr />\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Extreme Range}.</p>\n<p>All grenades are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{Evaded}.</p>\n</article>",
+            "notes": "Creates an area of smoke in a LBT that obscures vision (–4).",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "5/10/20",
+            "ammo": "",
+            "category": "Grenades"
+        },
+        "Bombs": {
+            "name": "Bombs",
+            "description": "<article class=\"swade-core\"><blockquote>\n<p>Bomb Damage: All of it.</p>\n<p>A Bomb is just an @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Test} against everyone <em>not</em> in the affected area.</p>\n<p><cite>- Clint Black</cite></p>\n</blockquote></article>",
+            "notes": "Acts as an Intimidation Test against everyone not in the affected area",
+            "actions": {
+                "skill": ""
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Mk67 (Modern)": {
+            "name": "Mk67 (Modern)",
+            "description": "<article class=\"swade-core\">\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Extreme Range}. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n<p>All grenades are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{Evaded}.</p>\n</article>",
+            "notes": "MBT",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "5/10/20",
+            "ammo": "",
+            "category": "Grenades"
+        },
+        "Cannon (12 lb), Canister": {
+            "name": "Cannon (12 lb), Canister",
+            "description": "<article class=\"swade-core\">\n<p>Cannons are used to destroy city walls or break up large troop formations. The leader of the weapon&rsquo;s crew makes the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll.</p>\n<p><strong>Bombard:</strong> Assuming they have a rough idea of their target&rsquo;s location, howitzers, mortars, and bombards may fire at targets they cannot see by lobbing projectiles over intervening terrain or obstacles. Bombarding suffers a &minus;4 penalty in addition to all other modifiers, and doubles deviation when the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll is failed (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area Effect Attacks}). Reduce the penalty to &minus;2 with precise coordinates (such as from a spotter).</p>\n<p><strong>Canister:</strong> Grapeshot or canister is a shell that detonates inside the barrel of a cannon and fires out a spray of deadly balls or other debris like a giant shotgun. The attack is the size of a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} and moves in a straight line up to 24&rdquo; (it affects [[/r d6]] targets if not using miniatures, or [[/r 2d6]] if they&rsquo;re tightly packed).</p>\n<p>Compare the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll to every target within using a base TN of 4, adjusted for each target&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03coverandobst00]{cover}, special abilities like the @Compendium[swade-core-rules.swade-edges.Dodge]{Dodge} Edge, etc. A hit causes 2d6 damage and a raise causes 3d6.</p>\n<p><strong>Note:</strong> All types of shot are a @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 8. Two crew members may reload at the same time.</p>\n</article>",
+            "notes": "All types of shot are Heavy Weapons, Reload 8. Two crew members may reload at the same time.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "r32bxu080m": {
+                        "name": "Bombard, Precise Location"
+                    },
+                    "wxm86cd9r1": {
+                        "name": "Bombard, Rough Location"
+                    }
+                }
+            },
+            "range": "24\" path",
+            "ammo": "Canister Shot (Cannon)",
+            "category": "Cannons"
+        },
+        "30mm Cannon": {
+            "name": "30mm Cannon",
+            "description": "<article class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "i4ht7b587x": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "obyryv42xo": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "76mm Tank Gun (AP Rounds)": {
+            "name": "76mm Tank Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)}&nbsp;</p>\n</article>",
+            "notes": "Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "deh7sce7my": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "37mm AT Gun (HE Rounds)": {
+            "name": "37mm AT Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong> May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "50/100/200",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Medium Machine Gun": {
+            "name": "Medium Machine Gun",
+            "description": "<article class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong> Vehicular weapons with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02rateoffire0000]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></article>",
+            "notes": "Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "81qhst5kyq": {
+                        "name": "RoF 3 Attack"
+                    },
+                    "yjszf9r0co": {
+                        "name": "RoF 2 Attack"
+                    }
+                }
+            },
+            "range": "30/60/120",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Anti-Tank Mine": {
+            "name": "Anti-Tank Mine",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon}, AP 5 vs. &frac12; the vehicle&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor} value (round up), @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</article>",
+            "notes": "Heavy Weapon, AP 5 vs. ½ the vehicle’s Armor value (round up).",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Mines"
+        },
+        "Bazooka": {
+            "name": "Bazooka",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire}. The standard American anti-tank weapon in World War II. Additional warheads weigh 9 lbs and cost $50. WWII price. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</article>",
+            "notes": "MBT, Snapfire. The standard American anti-tank weapon in World War II. Additional warheads weigh 9 lbs and cost $50. WWII price.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "24/48/96",
+            "ammo": "",
+            "category": "Rocket Launchers & Torpedoes"
+        },
+        "Potato Masher (WW2)": {
+            "name": "Potato Masher (WW2)",
+            "description": "<article class=\"swade-core\">\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of Extreme Range (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}). @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}.</p>\n<p>All grenades are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{Evaded}.</p>\n</article>",
+            "notes": "MBT",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "5/10/20",
+            "ammo": "",
+            "category": "Grenades"
+        },
+        "Cannon (12 lb), Solid Shot": {
+            "name": "Cannon (12 lb), Solid Shot",
+            "description": "<article class=\"swade-core\">\n<p>Cannons are used to destroy city walls or break up large troop formations. The leader of the weapon&rsquo;s crew makes the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll.</p>\n<p><strong>Bombard:</strong> Assuming they have a rough idea of their target&rsquo;s location, howitzers, mortars, and bombards may fire at targets they cannot see by lobbing projectiles over intervening terrain or obstacles. Bombarding suffers a &minus;4 penalty in addition to all other modifiers, and doubles deviation when the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll is failed (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area Effect Attacks}). Reduce the penalty to &minus;2 with precise coordinates (such as from a spotter).</p>\n<p><strong>Solid Shot:</strong> Heavy balls of iron, lead, or stone designed to batter walls or plow through packed ranks of troops. To fire, the leader of the crew makes a @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll as usual. If successful, roll a die. If even, it bounces to another victim behind and within 6&rdquo; of the first and hits him as well. Continue in this way until the die roll is odd.</p>\n<p><strong>Note:</strong> All types of shot are a @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 8. Two crew members may reload at the same time.</p>\n</article>",
+            "notes": "All types of shot are Heavy Weapons, Reload 8. Two crew members may reload at the same time.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "0urmam31b2": {
+                        "name": "Bombard, Rough Location"
+                    },
+                    "41i04mkdo8": {
+                        "name": "Bombard, Precise Location"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "Solid Shot (Cannon)",
+            "category": "Cannons"
+        },
+        "125mm Tank Gun (HE Rounds)": {
+            "name": "125mm Tank Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "100/200/400",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "120mm Tank Gun (AP Rounds)": {
+            "name": "120mm Tank Gun (AP Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)}&nbsp;</p>\n</article>",
+            "notes": "Heavy Weapon",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "7400xvwkea": {
+                        "name": "Close Range"
+                    }
+                }
+            },
+            "range": "100/200/400",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "AT-4": {
+            "name": "AT-4",
+            "description": "<article class=\"swade-core\">\n<p>A heavy American anti-tank weapon of the modern era. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</article>",
+            "notes": "MBT, A heavy American anti-tank weapon of the modern era.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "24/48/96",
+            "ammo": "",
+            "category": "Rocket Launchers & Torpedoes"
+        },
+        "Cannon (12 lb), Shrapnel": {
+            "name": "Cannon (12 lb), Shrapnel",
+            "description": "<article class=\"swade-core\">\n<p>Cannons are used to destroy city walls or break up large troop formations. The leader of the weapon&rsquo;s crew makes the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll.</p>\n<p><strong>Bombard:</strong> Assuming they have a rough idea of their target&rsquo;s location, howitzers, mortars, and bombards may fire at targets they cannot see by lobbing projectiles over intervening terrain or obstacles. Bombarding suffers a &minus;4 penalty in addition to all other modifiers, and doubles deviation when the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll is failed (see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Area Effect Attacks}). Reduce the penalty to &minus;2 with precise coordinates (such as from a spotter).</p>\n<p><strong>Shrapnel:</strong> Explosive shells filled with small metal balls that explode outward in a shower of debris. This is an @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attack} and uses the @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} unless otherwise noted.</p>\n<p><strong>Note:</strong> All types of shot are a @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 8. Two crew members may reload at the same time.</p>\n</article>",
+            "notes": "All types of shot are Heavy Weapons, Reload 8. Two crew members may reload at the same time.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "0pxudrhy26": {
+                        "name": "Bombard, Rough Location"
+                    },
+                    "wvuqywr62i": {
+                        "name": "Bombard, Precise Location"
+                    }
+                }
+            },
+            "range": "50/100/200",
+            "ammo": "Shrapnel Shot (Cannon)",
+            "category": "Cannons"
+        },
+        "Heavy Flamethrower": {
+            "name": "Heavy Flamethrower",
+            "description": "<article class=\"swade-core\">\n<p>Vehicular flamethrowers have longer ranges than personal devices. The wielder can use the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Cone Template} or arc a blast the size of a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} up to 18&rdquo; (36 yards) distant. (Use the center of the template for the Range.) This shot can @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Deviate}.</p>\n</article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "Cone or MBT",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "75mm Tank Gun (HE Rounds)": {
+            "name": "75mm Tank Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Heavy Laser": {
+            "name": "Heavy Laser",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)}</p>\n</article>",
+            "notes": "Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "150/300/600",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "57mm AT Gun (HE Rounds)": {
+            "name": "57mm AT Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Panzerschreck": {
+            "name": "Panzerschreck",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire}. Literally, the &ldquo;tank terror&rdquo; rocket launcher used by German forces in World War II. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</article>",
+            "notes": "MBT, Snapfire. Literally, the “tank terror” rocket launcher used by German forces in World War II.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "15/30/60",
+            "ammo": "",
+            "category": "Rocket Launchers & Torpedoes"
+        },
+        "M72 Law": {
+            "name": "M72 Law",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02snapfire000000]{Snapfire}. The standard American anti-tank weapon in Vietnam. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</article>",
+            "notes": "Snapfire. The standard American anti-tank weapon in Vietnam.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "24/48/96",
+            "ammo": "",
+            "category": "Rocket Launchers & Torpedoes"
+        },
+        "Flamethrower": {
+            "name": "Flamethrower",
+            "description": "<article class=\"swade-core\">\n<p>Flamethrowers propel incendiary liquid or gas to incinerate their targets. They are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapons}, use the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Cone Template}, and may be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{Evaded}.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor} protects normally, but flammable targets may @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fire0000000000]{catch fire}.</p>\n<p>For vehicular flamethrowers, see @Compendium[swade-core-rules.swade-special-weapons.Heavy Flamethrower]{Heavy Flamethrower}.</p>\n</article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "Cone Template",
+            "ammo": "",
+            "category": "Flamethrowers"
+        },
+        "Sidewinder": {
+            "name": "Sidewinder",
+            "description": "<article class=\"swade-core\">\n<p><span style=\"background-color: #dfe6f5; color: #191813;\">@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}</span>. A short range, heat-seeking missile fired from an aircraft. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Small Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03hold0000000000]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} and any other relevant modifiers (including @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03speed000000000]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness} of 8 (2).</p>\n</article>",
+            "notes": "Heavy Weapon. A short range, heat-seeking missile fired from an aircraft.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "100/200/400",
+            "ammo": "",
+            "category": "Missiles"
+        },
+        "2 pd AT Gun (HE Rounds)": {
+            "name": "2 pd AT Gun (HE Rounds)",
+            "description": "<article class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapon (HW)} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}</p>\n</article>",
+            "notes": "MBT, Heavy Weapon.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "75/150/300",
+            "ammo": "",
+            "category": "Vehicular Weapons"
+        },
+        "Sparrow": {
+            "name": "Sparrow",
+            "description": "<article class=\"swade-core\">\n<p><span style=\"background-color: #dfe6f5; color: #191813;\">@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}</span>. A medium range, radar-guided missile fired from an aircraft. @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Small Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03hold0000000000]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} and any other relevant modifiers (including @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03speed000000000]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness} of 8 (2).</p>\n</article>",
+            "notes": "Heavy Weapon. A medium range, radar-guided missile fired from an aircraft.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "150/300/600",
+            "ammo": "",
+            "category": "Missiles"
+        }
+    }
 }

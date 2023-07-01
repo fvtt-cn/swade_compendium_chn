@@ -1,2163 +1,490 @@
 {
-	"label": "SWADE Equipment",
-	"entries": {
-		"\"Bug\" (Micro Transmitter)": {
-			"name": "\"Bug\" (Micro Transmitter)",
-			"description": "<div class=\"swade-core\">\n<p>12 hours of continuous use.</p>\n</div>"
-		},
-		"120mm Tank Gun (AP Rounds)": {
-			"name": "120mm Tank Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)}&nbsp;</p>\n</div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"7400xvwkea": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"120mm Tank Gun (HE Rounds)": {
-			"name": "120mm Tank Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"125mm Tank Gun (AP Rounds)": {
-			"name": "125mm Tank Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)}&nbsp;</p>\n</div>",
-			"notes": "Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"wbhu8yehva": {
-						"name": "Close Range AP"
-					}
-				}
-			}
-		},
-		"125mm Tank Gun (HE Rounds)": {
-			"name": "125mm Tank Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"2 pd AT Gun (AP Rounds)": {
-			"name": "2 pd AT Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\"><p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p></div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"6fngqh6ubv": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"2 pd AT Gun (HE Rounds)": {
-			"name": "2 pd AT Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"20mm Cannon": {
-			"name": "20mm Cannon",
-			"description": "<div class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></div>",
-			"notes": "Heavy",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"v55r9y7c1y": {
-						"name": "RoF 4 Attack"
-					},
-					"4jefkit9vp": {
-						"name": "RoF 3 Attack"
-					},
-					"fj7aptxndg": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			}
-		},
-		"25mm Cannon": {
-			"name": "25mm Cannon",
-			"description": "<div class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></div>",
-			"notes": "Heavy",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"5yjdf9igio": {
-						"name": "RoF 3 Attack"
-					},
-					"zsg7m6dasg": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			}
-		},
-		"30mm Cannon": {
-			"name": "30mm Cannon",
-			"description": "<div class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"i4ht7b587x": {
-						"name": "RoF 3 Attack"
-					},
-					"obyryv42xo": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			}
-		},
-		"37mm AT Gun (AP Rounds)": {
-			"name": "37mm AT Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\"><p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p></div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"pmv6i5ctzd": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"37mm AT Gun (HE Rounds)": {
-			"name": "37mm AT Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong> May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"40mm Cannon (AP Rounds)": {
-			"name": "40mm Cannon (AP Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p>\n<p><strong>Tank and AT Guns:</strong> May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n</div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"ek94a6scmn": {
-						"name": "RoF 4 Attack"
-					},
-					"b7i9rx007d": {
-						"name": "RoF 3 Attack"
-					},
-					"dyg5i2r85g": {
-						"name": "RoF 2 Attack"
-					},
-					"ojhw2nz705": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"40mm Cannon (HE Rounds)": {
-			"name": "40mm Cannon (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p>\n<p><strong>Tank and AT Guns:</strong> May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"ek94a6scmn": {
-						"name": "RoF 4 Attack"
-					},
-					"b7i9rx007d": {
-						"name": "RoF 3 Attack"
-					},
-					"dyg5i2r85g": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			}
-		},
-		"57mm AT Gun (AP Rounds)": {
-			"name": "57mm AT Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\"><p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p></div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"0rwue9m35a": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"57mm AT Gun (HE Rounds)": {
-			"name": "57mm AT Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"75mm Tank Gun (AP Rounds)": {
-			"name": "75mm Tank Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)}&nbsp;</p>\n</div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"a7ahcucjed": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"75mm Tank Gun (HE Rounds)": {
-			"name": "75mm Tank Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"76mm Tank Gun (AP Rounds)": {
-			"name": "76mm Tank Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)}&nbsp;</p>\n</div>",
-			"notes": "Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"deh7sce7my": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"76mm Tank Gun (HE Rounds)": {
-			"name": "76mm Tank Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"88mm Tank Gun (AP Rounds)": {
-			"name": "88mm Tank Gun (AP Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)}&nbsp;</p>\n</div>",
-			"notes": "Heavy Weapon",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"gj8eb9r0ki": {
-						"name": "Close Range"
-					}
-				}
-			}
-		},
-		"88mm Tank Gun (HE Rounds)": {
-			"name": "88mm Tank Gun (HE Rounds)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Tank and AT Guns:</strong>&nbsp;May fire either @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{Armor Piercing (AP)} or @Compendium[swade-core-rules.swade-rules.High Explosive (HE)]{High Explosive (HE)} rounds as the gunner chooses. AP rounds do additional damage up close. Increase the weapon&rsquo;s damage dice by one when fired at half their Short @Compendium[swade-core-rules.swade-rules.Range]{Range} or less (so 4d10+2 becomes 5d10+2, for example).</p>\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)} @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n</div>",
-			"notes": "MBT, Heavy Weapon",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"AK47": {
-			"name": "AK47",
-			"description": "<div class=\"swade-core\"><p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"0n12mqjsi3": {
-						"name": "RoF 3 Attack"
-					},
-					"uevib48jb1": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"AT-4": {
-			"name": "AT-4",
-			"description": "<div class=\"swade-core\">\n<p>A heavy American anti-tank weapon of the modern era. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</div>",
-			"notes": "MBT, A heavy American anti-tank weapon of the modern era.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Anti-Personnel Mine": {
-			"name": "Anti-Personnel Mine",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Small Blast Template}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</div>",
-			"notes": "Heavy Weapon.",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Anti-Tank Mine": {
-			"name": "Anti-Tank Mine",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, AP 5 vs. &frac12; the vehicle&rsquo;s @Compendium[swade-core-rules.swade-rules.Armor]{Armor} value (round up), @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</div>",
-			"notes": "Heavy Weapon, AP 5 vs. ½ the vehicle’s Armor value (round up).",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Arrows/Bolts": {
-			"name": "Arrows/Bolts",
-			"description": "<div class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-equipment.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-equipment.Crossbow]{crossbow}</p>\n</div>"
-		},
-		"Axe, Battle": {
-			"name": "Axe, Battle",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Axe, Great": {
-			"name": "Axe, Great",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Parry]{Parry} &ndash;1, @Compendium[swade-core-rules.swade-rules.Two Hands]{two hands}</p>\n</div>",
-			"notes": "Parry –1, two hands",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"kwepx6kqhf": {
-						"name": "One-handed"
-					}
-				}
-			}
-		},
-		"Axe, Hand": {
-			"name": "Axe, Hand",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"p0sizbjx38": {
-						"name": "New Action"
-					}
-				}
-			}
-		},
-		"Axe, Throwing": {
-			"name": "Axe, Throwing",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Backpack": {
-			"name": "Backpack"
-		},
-		"Ballistic Shield": {
-			"name": "Ballistic Shield",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Modern shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 12 and provide +2 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"notes": "Reduces damage from firearms by 4 when an attacker tries to shoot through it.",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"fseghrgaoh": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Bangstick": {
-			"name": "Bangstick",
-			"description": "<div class=\"swade-core\"><p>A @Compendium[swade-core-rules.swade-rules.Shotguns]{shotgun} shell on a stick used in melee; must be reloaded with a fresh shell (one action)</p></div>",
-			"notes": "A shotgun shell on a stick used in melee; must be reloaded with a fresh shell (one action)",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Barrett": {
-			"name": "Barrett",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire}. Barretts use a 10-shot removable magazine that weighs 2 lbs when loaded. They are almost always fitted with a @Compendium[swade-core-rules.swade-equipment.Rifle Scope]{Rifle Scope}.</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p>\n</div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"k3lppdpumw": {
-						"name": "Snapfire"
-					}
-				}
-			},
-			"ammo": "Bullets, Large"
-		},
-		"Battle Helmet": {
-			"name": "Battle Helmet",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Armor]{Armor} used by private or state armed forces.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p></div>"
-		},
-		"Battle Helmet w/ Energy Skin": {
-			"name": "Battle Helmet w/ Energy Skin",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Armor]{Armor} used by private or state armed forces.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Energy Skin]{Energy Skin}:</strong> This armor is treated with an &ldquo;energy skin&rdquo; (or skein) to diffuse energy, reducing damage from lasers by 4. This costs 50% of the armor treated and is very shiny, subtracting 2 from @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} rolls based on vision.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p>\n</div>"
-		},
-		"Bayonet": {
-			"name": "Bayonet",
-			"description": "<div class=\"swade-core\">\n<p>Str+d6 and @Compendium[swade-core-rules.swade-rules.Parry]{Parry} +1 attached to rifle, @Compendium[swade-core-rules.swade-rules.Reach]{Reach} 1, @Compendium[swade-core-rules.swade-rules.Two Hands]{two hands}</p>\n</div>",
-			"notes": "Str+d6 and Parry +1 attached to rifle, Reach 1, two hands",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"g4d7gbmnbf": {
-						"name": "One-handed"
-					},
-					"97tgmmqmxf": {
-						"name": "Attached to Rifle"
-					}
-				}
-			}
-		},
-		"Bazooka": {
-			"name": "Bazooka",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire}. The standard American anti-tank weapon in World War II. Additional warheads weigh 9 lbs and cost $50. WWII price. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</div>",
-			"notes": "MBT, Snapfire. The standard American anti-tank weapon in World War II. Additional warheads weigh 9 lbs and cost $50. WWII price.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Bedroll": {
-			"name": "Bedroll",
-			"description": "<div class=\"swade-core\">\n<p>Sleeping bag; winterized</p>\n</div>"
-		},
-		"Bike helmet": {
-			"name": "Bike helmet"
-		},
-		"Billy Club/Baton": {
-			"name": "Billy Club/Baton",
-			"description": "<div class=\"swade-core\"><p>Often carried by law enforcement</p></div>",
-			"notes": "Often carried by law enforcement",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Bipod/Tripod": {
-			"name": "Bipod/Tripod",
-			"description": "<div class=\"swade-core\">\n<p>Takes an action to deploy. Negates @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} and @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} penalties.</p>\n</div>"
-		},
-		"Blanket": {
-			"name": "Blanket"
-		},
-		"Blunderbuss": {
-			"name": "Blunderbuss",
-			"description": "<div class=\"swade-core\"><p>Black powder weapons are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 3.</p>\n<p>Treat as @Compendium[swade-core-rules.swade-rules.Shotguns]{Shotgun}.</p></div>",
-			"notes": "Black powder weapons are Reload 3. Treat as Shotgun.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"r5coi7165y": {
-						"name": "Short Range"
-					},
-					"3xh91v7ntt": {
-						"name": "Medium Range"
-					},
-					"i07k6eqydr": {
-						"name": "Long Range"
-					}
-				}
-			},
-			"ammo": "Shot (w/ powder)"
-		},
-		"Body Armor": {
-			"name": "Body Armor",
-			"description": "<div class=\"swade-core\">\n<p>Light, armored clothing made from complex polymers or advanced ballistic weave.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p>\n</div>",
-			"notes": "Light, armored clothing made from complex polymers or advanced ballistic weave."
-		},
-		"Body Armor w/Energy Skin": {
-			"name": "Body Armor w/Energy Skin",
-			"description": "<div class=\"swade-core\">\n<p>Light, armored clothing made from complex polymers or advanced ballistic weave.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Energy Skin]{Energy Skin}:</strong> This armor is treated with an &ldquo;energy skin&rdquo; (or skein) to diffuse energy, reducing damage from lasers by 4. This costs 50% of the armor treated and is very shiny, subtracting 2 from @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} rolls based on vision.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p>\n</div>",
-			"notes": "Light, armored clothing made from complex polymers or advanced ballistic weave."
-		},
-		"Bombproof suit": {
-			"name": "Bombproof suit",
-			"description": "<div class=\"swade-core\">\n<p>Bombproof suits aren&rsquo;t built for flexibility except in the hands, which are uncovered. @Compendium[swade-core-rules.swade-rules.Traits]{Agility} and related skills that require more than manual dexterity cannot exceed d6 while wearing the suit, and @Compendium[swade-core-rules.swade-rules.Movement]{Pace} is reduced by 2 (in addition to @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} penalties).</p>\n</div>",
-			"notes": "Bombproof suits aren’t built for flexibility except in the hands, which are uncovered. Agility and related skills that require more than manual dexterity cannot exceed d6 while wearing the suit, and Pace is reduced by 2 (in addition to Minimum Strength penalties)."
-		},
-		"Bombs": {
-			"name": "Bombs",
-			"description": "<div class=\"swade-core\"><blockquote>\n<p>Bomb Damage: All of it.</p>\n<p>A Bomb is just an @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} @Compendium[swade-core-rules.swade-rules.Test]{Test} against everyone <em>not</em> in the affected area.</p>\n<p><cite>- Clint Black</cite></p>\n</blockquote></div>",
-			"notes": "Acts as an Intimidation Test against everyone not in the affected area"
-		},
-		"Boots, Hiking": {
-			"name": "Boots, Hiking"
-		},
-		"Bouncing Betty": {
-			"name": "Bouncing Betty",
-			"description": "<div class=\"swade-core\">\n<p>These deadly anti-personnel mines are designed to pop up into the air and rain shrapnel down from about head-height. Only full overhead cover offers an @Compendium[swade-core-rules.swade-rules.Armor]{Armor} bonus against such devices. Simply being prone offers no protection from these deadly explosives. Use a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Small Blast Template}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</div>",
-			"notes": "These deadly anti-personnel mines are designed to pop up into the air and rain shrapnel down from about head-height. Only full overhead cover offers an Armor bonus against such devices. Simply being prone offers no protection from these deadly explosives.",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Bow": {
-			"name": "Bow",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Arrows/Bolts"
-		},
-		"Brass Knuckles": {
-			"name": "Brass Knuckles",
-			"description": "<div class=\"swade-core\"><p>Do not count as a weapon for @Compendium[swade-core-rules.swade-rules.Unarmed Defender]{Unarmed Defender}</p></div>",
-			"notes": "Do not count as a weapon for Unarmed Defender",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Bronze Barding (horse)": {
-			"name": "Bronze Barding (horse)",
-			"description": "<div class=\"swade-core\"><p>Typically only found in ancient times or pre-iron civilizations.</p></div>"
-		},
-		"Bronze Corselet": {
-			"name": "Bronze Corselet",
-			"description": "<div class=\"swade-core\"><p>Typically only found in ancient times or pre-iron civilizations.</p></div>"
-		},
-		"Bronze Helmet": {
-			"name": "Bronze Helmet",
-			"description": "<div class=\"swade-core\"><p>Typically only found in ancient times or pre-iron civilizations.</p></div>"
-		},
-		"Brown Bess or Similar Muskets": {
-			"name": "Brown Bess or Similar Muskets",
-			"description": "<div class=\"swade-core\"><p>Black powder weapons are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 3.</p></div>",
-			"notes": "Black powder weapons are Reload 3.",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Shot (w/ powder)"
-		},
-		"Browning Automatic Rifle": {
-			"name": "Browning Automatic Rifle",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 1 to 3. Uses magazines (one action to @Compendium[swade-core-rules.swade-rules.Reload]{Reload} instead of the usual 2).</p>\n<hr />\n<p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong> Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Their @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong> Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire}&nbsp;of 2 unless otherwise noted.</p>\n</div>",
-			"notes": ".30-06",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"g2ebz1hc6j": {
-						"name": "RoF 3 Attack"
-					},
-					"zm7siilujz": {
-						"name": "RoF 2 Attack"
-					},
-					"ye0vrkxsyi": {
-						"name": "Snapfire RoF 3"
-					},
-					"nfp6zroqud": {
-						"name": "Snapfire RoF 2"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Bullets, Large": {
-			"name": "Bullets, Large",
-			"description": "<div class=\"swade-core\">\n<p>.50 caliber and larger rounds</p>\n</div>"
-		},
-		"Bullets, Medium": {
-			"name": "Bullets, Medium",
-			"description": "<div class=\"swade-core\">\n<p>9mm to .45 caliber</p>\n</div>"
-		},
-		"Bullets, Small": {
-			"name": "Bullets, Small",
-			"description": "<div class=\"swade-core\">\n<p>.22 to .32 caliber</p>\n</div>"
-		},
-		"Button Camera": {
-			"name": "Button Camera",
-			"description": "<div class=\"swade-core\"><p>12 hours of continuous use.</p></div>"
-		},
-		"Camera (digital)": {
-			"name": "Camera (digital)"
-		},
-		"Camera (disposable)": {
-			"name": "Camera (disposable)"
-		},
-		"Camera (regular)": {
-			"name": "Camera (regular)"
-		},
-		"Camouflage Fatigues": {
-			"name": "Camouflage Fatigues"
-		},
-		"Candle": {
-			"name": "Candle",
-			"description": "<div class=\"swade-core\">\n<p>One hour, 2&rdquo; radius</p>\n</div>"
-		},
-		"Canister Shot (Cannon)": {
-			"name": "Canister Shot (Cannon)",
-			"description": "<div class=\"swade-core\">\n<p>Grapeshot or canister is a shell that detonates inside the barrel of a cannon and fires out a spray of deadly balls or other debris like a giant shotgun. The attack is the size of a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} and moves in a straight line up to 24&rdquo; (it affects [[/r d6]] targets if not using miniatures, or [[/r 2d6]] if they&rsquo;re tightly packed). Compare the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll to every target within using a base TN of 4, adjusted for each target&rsquo;s cover, special abilities like the @Compendium[swade-core-rules.swade-edges.Dodge]{Dodge} Edge, etc. A hit causes 2d6 damage and a raise causes 3d6.</p>\n</div>",
-			"notes": "24\" path, 2d6 damage, MBT"
-		},
-		"Cannon (12 lb), Canister": {
-			"name": "Cannon (12 lb), Canister",
-			"description": "<div class=\"swade-core\">\n<p>Cannons are used to destroy city walls or break up large troop formations. The leader of the weapon&rsquo;s crew makes the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll.</p>\n<p><strong>Bombard:</strong> Assuming they have a rough idea of their target&rsquo;s location, howitzers, mortars, and bombards may fire at targets they cannot see by lobbing projectiles over intervening terrain or obstacles. Bombarding suffers a &minus;4 penalty in addition to all other modifiers, and doubles deviation when the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll is failed (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Reduce the penalty to &minus;2 with precise coordinates (such as from a spotter).</p>\n<p><strong>Canister:</strong> Grapeshot or canister is a shell that detonates inside the barrel of a cannon and fires out a spray of deadly balls or other debris like a giant shotgun. The attack is the size of a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} and moves in a straight line up to 24&rdquo; (it affects [[/r d6]] targets if not using miniatures, or [[/r 2d6]] if they&rsquo;re tightly packed).</p>\n<p>Compare the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll to every target within using a base TN of 4, adjusted for each target&rsquo;s @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{cover}, special abilities like the @Compendium[swade-core-rules.swade-edges.Dodge]{Dodge} Edge, etc. A hit causes 2d6 damage and a raise causes 3d6.</p>\n<p><strong>Note:</strong> All types of shot are a @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 8. Two crew members may reload at the same time.</p>\n</div>",
-			"notes": "All types of shot are Heavy Weapons, Reload 8. Two crew members may reload at the same time.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"wxm86cd9r1": {
-						"name": "Bombard, Rough Location"
-					},
-					"r32bxu080m": {
-						"name": "Bombard, Precise Location"
-					}
-				}
-			},
-			"range": "24\" path",
-			"ammo": "Canister Shot (Cannon)"
-		},
-		"Cannon (12 lb), Shrapnel": {
-			"name": "Cannon (12 lb), Shrapnel",
-			"description": "<div class=\"swade-core\">\n<p>Cannons are used to destroy city walls or break up large troop formations. The leader of the weapon&rsquo;s crew makes the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll.</p>\n<p><strong>Bombard:</strong> Assuming they have a rough idea of their target&rsquo;s location, howitzers, mortars, and bombards may fire at targets they cannot see by lobbing projectiles over intervening terrain or obstacles. Bombarding suffers a &minus;4 penalty in addition to all other modifiers, and doubles deviation when the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll is failed (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Reduce the penalty to &minus;2 with precise coordinates (such as from a spotter).</p>\n<p><strong>Shrapnel:</strong> Explosive shells filled with small metal balls that explode outward in a shower of debris. This is an @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attack} and uses the @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} unless otherwise noted.</p>\n<p><strong>Note:</strong> All types of shot are a @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 8. Two crew members may reload at the same time.</p>\n</div>",
-			"notes": "All types of shot are Heavy Weapons, Reload 8. Two crew members may reload at the same time.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"0pxudrhy26": {
-						"name": "Bombard, Rough Location"
-					},
-					"wvuqywr62i": {
-						"name": "Bombard, Precise Location"
-					}
-				}
-			},
-			"ammo": "Shrapnel Shot (Cannon)"
-		},
-		"Cannon (12 lb), Solid Shot": {
-			"name": "Cannon (12 lb), Solid Shot",
-			"description": "<div class=\"swade-core\">\n<p>Cannons are used to destroy city walls or break up large troop formations. The leader of the weapon&rsquo;s crew makes the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll.</p>\n<p><strong>Bombard:</strong> Assuming they have a rough idea of their target&rsquo;s location, howitzers, mortars, and bombards may fire at targets they cannot see by lobbing projectiles over intervening terrain or obstacles. Bombarding suffers a &minus;4 penalty in addition to all other modifiers, and doubles deviation when the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll is failed (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Reduce the penalty to &minus;2 with precise coordinates (such as from a spotter).</p>\n<p><strong>Solid Shot:</strong> Heavy balls of iron, lead, or stone designed to batter walls or plow through packed ranks of troops. To fire, the leader of the crew makes a @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}&nbsp;roll as usual. If successful, roll a die. If even, it bounces to another victim behind and within 6&rdquo; of the first and hits him as well. Continue in this way until the die roll is odd.</p>\n<p><strong>Note:</strong> All types of shot are a @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 8. Two crew members may reload at the same time.</p>\n</div>",
-			"notes": "All types of shot are Heavy Weapons, Reload 8. Two crew members may reload at the same time.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"0urmam31b2": {
-						"name": "Bombard, Rough Location"
-					},
-					"41i04mkdo8": {
-						"name": "Bombard, Precise Location"
-					}
-				}
-			},
-			"ammo": "Solid Shot (Cannon)"
-		},
-		"Canteen (waterskin)": {
-			"name": "Canteen (waterskin)"
-		},
-		"Cap (Cloth/Light Leather)": {
-			"name": "Cap (Cloth/Light Leather)",
-			"description": "<div class=\"swade-core\"><p>Heavy winter clothing, supple leather armor, soft hides.</p></div>"
-		},
-		"Cap (Thick Leather/Tough Hides)": {
-			"name": "Cap (Thick Leather/Tough Hides)",
-			"description": "<div class=\"swade-core\"><p>Boiled leather, cuir bouilli, alligator hides.</p></div>"
-		},
-		"Catapult": {
-			"name": "Catapult",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}, @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @Compendium[swade-core-rules.swade-rules.Reload]{Reload} time is every 5 minutes with a crew of 4.</p>\n<hr />\n<p>Catapults are simple devices that hurl large stones at enemy defenses or ranks of troops. They normally require a crew of eight to load the projectile, crank down the lever that propels it, then sight and aim it. Firing can be done by a single person, but loading the projectile takes at least four.</p>\n</div>",
-			"notes": "MBT, Heavy Weapon, Reload time is every 5 minutes with a crew of 4.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Cellular Interceptor": {
-			"name": "Cellular Interceptor"
-		},
-		"Chain Hood or Helm": {
-			"name": "Chain Hood or Helm",
-			"description": "<div class=\"swade-core\"><p>Chain, splint, metal scale, ring mail, samurai armor.</p></div>"
-		},
-		"Chainsaw": {
-			"name": "Chainsaw",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} hits the user</p></div>",
-			"notes": "Critical Failure hits the user",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Claymore Mine": {
-			"name": "Claymore Mine",
-			"description": "<div class=\"swade-core\">\n<p>Claymores fire a spray of deadly steel balls in a 60&deg; frontal arc. Everyone within 12&Prime; (24 yards) is automatically hit. Roll a die for all other targets up to 50&Prime; (100 yards). Those who get an odd result are also hit. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Special Area Effect Damage}.</p>\n<hr />\n<p>Mines are explosives planted beneath shallow dirt that detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}) when a person (for anti-personnel mines) or vehicle (for anti-tank mines) passes over them.</p>\n<p><strong>Minefields:</strong> For dramatic purposes, a character who steps on a mine should get a @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. Success means she realizes it before stepping off and detonating it. Saving the victim requires a @Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll at &minus;4, but failure detonates the device immediately.</p>\n</div>",
-			"notes": "Claymores fire a spray of deadly steel balls in a 60° frontal arc. Everyone within 12″ (24 yards) is automatically hit. Roll a die for all other targets up to 50″ (100 yards). Those who get an odd result are also hit.",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Clothing, Casual": {
-			"name": "Clothing, Casual"
-		},
-		"Clothing, Formal": {
-			"name": "Clothing, Formal"
-		},
-		"Club, Heavy": {
-			"name": "Club, Heavy",
-			"description": "<div class=\"swade-core\"><p>A sign of low status or thuggery</p></div>",
-			"notes": "A sign of low status or thuggery",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Club, Light": {
-			"name": "Club, Light",
-			"description": "<div class=\"swade-core\"><p>A sign of low status or thuggery</p></div>",
-			"notes": "A sign of low status or thuggery",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Colt 1911": {
-			"name": "Colt 1911",
-			"description": "<div class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Colt Peacemaker": {
-			"name": "Colt Peacemaker",
-			"description": "<div class=\"swade-core\"><p>Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Compound Bow": {
-			"name": "Compound Bow",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Arrows/Bolts"
-		},
-		"Computer, Desktop": {
-			"name": "Computer, Desktop"
-		},
-		"Computer, Hand held": {
-			"name": "Computer, Hand held"
-		},
-		"Computer, Laptop": {
-			"name": "Computer, Laptop"
-		},
-		"Corselet (Plate Mail)": {
-			"name": "Corselet (Plate Mail)",
-			"description": "<div class=\"swade-core\">\n<p>Heavy steel armor made with &ldquo;plates&rdquo; of metal.</p>\n</div>"
-		},
-		"Crossbow": {
-			"name": "Crossbow",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Arrows/Bolts"
-		},
-		"Crossbow (Hand Drawn)": {
-			"name": "Crossbow (Hand Drawn)",
-			"description": "<div class=\"swade-core\"><p>Hand-drawn.</p></div>",
-			"notes": "Hand-drawn",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Arrows/Bolts"
-		},
-		"Crossbow, Heavy": {
-			"name": "Crossbow, Heavy",
-			"description": "<div class=\"swade-core\"><p>Requires a windlass to load. @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 2.</p></div>",
-			"notes": "Requires a windlass to load. Reload 2",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Crowbar": {
-			"name": "Crowbar"
-		},
-		"Dagger/Knife (Throwing)": {
-			"name": "Dagger/Knife (Throwing)",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"24m3p44ver": {
-						"name": "Athletics (throwing)"
-					}
-				}
-			}
-		},
-		"Dagger/Knife (melee)": {
-			"name": "Dagger/Knife (melee)",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"24m3p44ver": {
-						"name": "Athletics (throwing)"
-					}
-				}
-			}
-		},
-		"Derringer": {
-			"name": "Derringer",
-			"description": "<div class=\"swade-core\">\n<p>Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</p>\n<p>&minus;2 to be @Compendium[swade-core-rules.swade-skills.Notice]{Noticed} if hidden.</p>\n</div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Desert Eagle": {
-			"name": "Desert Eagle",
-			"description": "<div class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Large"
-		},
-		"Double-Barrel Shotgun": {
-			"name": "Double-Barrel Shotgun",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Shotguns]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"k898kad686": {
-						"name": "Short Range"
-					},
-					"y8bmp1oiej": {
-						"name": "Medium Range"
-					},
-					"wrge5qeel2": {
-						"name": "Long Range"
-					},
-					"5wxefxe0wc": {
-						"name": "Double-Barrel Short Range"
-					},
-					"kjmyk2umxg": {
-						"name": "Double-Barrel Medium Range",
-						"rof": "2d6"
-					},
-					"lmznwdbi7o": {
-						"name": "Double-Barrel Long Range"
-					},
-					"93c4552pi8": {
-						"name": "Slugs"
-					},
-					"ikdais1qo4": {
-						"name": "Slugs"
-					},
-					"vm991u5st6": {
-						"name": "Double Barrel Slugs"
-					},
-					"jjtol5mi9q": {
-						"name": "Double Barrel Slugs"
-					}
-				}
-			},
-			"ammo": "Shotgun Shells"
-		},
-		"Elaborate Saddle": {
-			"name": "Elaborate Saddle"
-		},
-		"Fast Food Meal": {
-			"name": "Fast Food Meal"
-		},
-		"First Aid Kit": {
-			"name": "First Aid Kit",
-			"description": "<div class=\"swade-core\">\n<p>Three uses, see @Compendium[swade-core-rules.swade-rules.Healing]{Healing}.</p>\n</div>"
-		},
-		"Flail": {
-			"name": "Flail",
-			"description": "<div class=\"swade-core\">\n<p>Ignores @Compendium[swade-core-rules.swade-rules.Shields]{shield}&nbsp;bonus</p>\n</div>",
-			"notes": "Ignores shield bonus",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Flak Jacket (Vietnam-era)": {
-			"name": "Flak Jacket (Vietnam-era)"
-		},
-		"Flamethrower": {
-			"name": "Flamethrower",
-			"description": "<div class=\"swade-core\">\n<p>Flamethrowers propel incendiary liquid or gas to incinerate their targets. They are @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapons}, use the @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Cone Template}, and may be @Compendium[swade-core-rules.swade-rules.Evasion]{Evaded}.</p>\n<p>@Compendium[swade-core-rules.swade-rules.Armor]{Armor} protects normally, but flammable targets may @Compendium[swade-core-rules.swade-rules.Fire]{catch fire}.</p>\n<p>For vehicular flamethrowers, see @Compendium[swade-core-rules.swade-equipment.Heavy Flamethrower]{Heavy Flamethrower}.</p>\n</div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"range": "Cone Template"
-		},
-		"Flashlight": {
-			"name": "Flashlight",
-			"description": "<div class=\"swade-core\"><p>10&rdquo; beam</p></div>"
-		},
-		"Flask (ceramic)": {
-			"name": "Flask (ceramic)"
-		},
-		"Flint and Steel": {
-			"name": "Flint and Steel"
-		},
-		"Flintlock Pistol": {
-			"name": "Flintlock Pistol",
-			"description": "<div class=\"swade-core\"><p>Black powder weapons are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 3.</p></div>",
-			"notes": "Black powder weapons are Reload 3.",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Shot (w/ powder)"
-		},
-		"GPS": {
-			"name": "GPS"
-		},
-		"Gatling": {
-			"name": "Gatling",
-			"description": "<div class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong> Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Their @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong> Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong> Machine guns are&nbsp;@Compendium[swade-core-rules.swade-rules.Reload]{Reload}&nbsp;2, which includes changing belts or drums, cocking, etc.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"ytyundkxtg": {
-						"name": "RoF 3 Attack"
-					},
-					"53ddkdbw3v": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Gatling (Laser)": {
-			"name": "Gatling (Laser)",
-			"description": "<div class=\"swade-core\">\n<p><strong>Minimum Rate of Fire:</strong> Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p>\n<p>@Compendium[swade-core-rules.swade-rules.Lasers (Futuristic) Table]{No Recoil, Overcharge, Cauterize}</p>\n</div>",
-			"notes": "No Recoil, Overcharge, Cauterize",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"1wmca7vx5i": {
-						"name": "RoF 4 Attack"
-					},
-					"whqv1usyq4": {
-						"name": "RoF 3 Attack"
-					},
-					"ylps4cskeu": {
-						"name": "RoF 2 Attack"
-					},
-					"1wqol5qn8h": {
-						"name": "Overcharge"
-					}
-				}
-			}
-		},
-		"Glock (9mm)": {
-			"name": "Glock (9mm)",
-			"description": "<div class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Goggles": {
-			"name": "Goggles"
-		},
-		"Good Meal (restaurant)": {
-			"name": "Good Meal (restaurant)"
-		},
-		"Grappling Hook": {
-			"name": "Grappling Hook"
-		},
-		"Greaves (Bronze Armor)": {
-			"name": "Greaves (Bronze Armor)",
-			"description": "<div class=\"swade-core\"><p>Typically only found in ancient times or pre-iron civilizations.</p></div>"
-		},
-		"Greaves (Plate Mail)": {
-			"name": "Greaves (Plate Mail)",
-			"description": "<div class=\"swade-core\"><p>Heavy steel armor made with &ldquo;plates&rdquo; of metal.</p></div>"
-		},
-		"H&K MP5": {
-			"name": "H&K MP5",
-			"description": "<div class=\"swade-core\"><p>Typical magazine sizes are listed with each weapon. Additional magazines are available at 10% of the weapon&rsquo;s cost and weigh about 1 lb each, fully loaded.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"xyaqn22hrj": {
-						"name": "RoF 3 Attack"
-					},
-					"yk1n6d9cj1": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Halberd": {
-			"name": "Halberd",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Reach]{Reach} 1, two hands</p></div>",
-			"notes": "Reach 1, two hands",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"pqye3bth39": {
-						"name": "One-handed"
-					}
-				}
-			}
-		},
-		"Hammer": {
-			"name": "Hammer"
-		},
-		"Handcuffs (manacles)": {
-			"name": "Handcuffs (manacles)"
-		},
-		"Heavy Flamethrower": {
-			"name": "Heavy Flamethrower",
-			"description": "<div class=\"swade-core\">\n<p>Vehicular flamethrowers have longer ranges than personal devices. The wielder can use the @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Cone Template} or arc a blast the size of a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} up to 18&rdquo; (36 yards) distant. (Use the center of the template for the Range.) This shot can @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Deviate}.</p>\n</div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"range": "Cone or MBT"
-		},
-		"Heavy Helm": {
-			"name": "Heavy Helm",
-			"description": "<div class=\"swade-core\"><p>Heavy steel armor made with &ldquo;plates&rdquo; of metal.</p></div>"
-		},
-		"Heavy Helm, Enclosed": {
-			"name": "Heavy Helm, Enclosed",
-			"description": "<div class=\"swade-core\">\n<p>Heavy steel armor made with &ldquo;plates&rdquo; of metal.</p>\n<p>&ndash;1 to vision-based @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls.</p>\n</div>",
-			"notes": "–1 to vision-based Notice rolls."
-		},
-		"Heavy Laser": {
-			"name": "Heavy Laser",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon (HW)}</p>\n</div>",
-			"notes": "Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Heavy Machine Gun": {
-			"name": "Heavy Machine Gun",
-			"description": "<div class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong>&nbsp;Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></div>",
-			"notes": "Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"slr23nl1ss": {
-						"name": "RoF 3 Attack"
-					},
-					"q3e75vog4f": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			}
-		},
-		"Hellfire": {
-			"name": "Hellfire",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}. A laser-guided missile fired from a vehicle-mounted launcher. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @Compendium[swade-core-rules.swade-rules.Hold]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @Compendium[swade-core-rules.swade-rules.Range]{Range} and any other relevant modifiers (including @Compendium[swade-core-rules.swade-rules.Speed]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness} of 8 (2).</p>\n</div>",
-			"notes": "Heavy Weapon. A laser-guided missile fired from a vehicle-mounted launcher.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Horse": {
-			"name": "Horse",
-			"description": "<div class=\"swade-core\">\n<p>See @Actor[RFfhBAdJgR2vIiCw]{Horse} for stats.</p>\n</div>"
-		},
-		"Hunting Rifle": {
-			"name": "Hunting Rifle",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire}</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"ikd1tshj7n": {
-						"name": "Snapfire"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Improvised Weapon (Heavy)": {
-			"name": "Improvised Weapon (Heavy)",
-			"description": "<div class=\"swade-core\">\n<h2>Improvised Weapons</h2>\n<p>Heroes often fight with objects that aren&rsquo;t intended for use as weapons. Torches, vases, chairs, tankards, bottles, tools, and other mundane items are frequently pressed into service in combat.</p>\n<p>Characters with improvised weapons count as armed but subtract 2 from attack rolls. @Compendium[swade-core-rules.swade-rules.Range]{Range}, @Compendium[swade-core-rules.swade-rules.Damage]{Damage} and @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} are determined by type:</p>\n<ul class=\"red-bullet-list\">\n<li><strong>LIGHT: </strong>Metal beer stein, fist-sized rock, pistol (as a club). Range 3/6/12, Damage Str+d4, Min Str d4.</li>\n<li><strong>MEDIUM: </strong>Bowling ball, submachine gun (as a club), wooden chair. Range 2/4/8, Damage Str+d6, Min. Str d6.</li>\n<li><strong>HEAVY: </strong>Head-size rock, metal chair, duffel bag full of guns. Range 1/2/4, Damage Str+d8, Min. Str d8.</li>\n</ul>\n<p>The GM can adjust the damage down a level or two if the item is softer than the examples above, like a duffel bag full of money.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"p0sizbjx38": {
-						"name": "Athletics"
-					}
-				}
-			}
-		},
-		"Improvised Weapon (Light)": {
-			"name": "Improvised Weapon (Light)",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"p0sizbjx38": {
-						"name": "Athletics"
-					}
-				}
-			}
-		},
-		"Improvised Weapon (Medium)": {
-			"name": "Improvised Weapon (Medium)",
-			"description": "<div class=\"swade-core\">\n<h2>Improvised Weapons</h2>\n<p>Heroes often fight with objects that aren&rsquo;t intended for use as weapons. Torches, vases, chairs, tankards, bottles, tools, and other mundane items are frequently pressed into service in combat.</p>\n<p>Characters with improvised weapons count as armed but subtract 2 from attack rolls. @Compendium[swade-core-rules.swade-rules.Range]{Range}, @Compendium[swade-core-rules.swade-rules.Damage]{Damage} and @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} are determined by type:</p>\n<ul class=\"red-bullet-list\">\n<li><strong>LIGHT: </strong>Metal beer stein, fist-sized rock, pistol (as a club). Range 3/6/12, Damage Str+d4, Min Str d4.</li>\n<li><strong>MEDIUM: </strong>Bowling ball, submachine gun (as a club), wooden chair. Range 2/4/8, Damage Str+d6, Min. Str d6.</li>\n<li><strong>HEAVY: </strong>Head-size rock, metal chair, duffel bag full of guns. Range 1/2/4, Damage Str+d8, Min. Str d8.</li>\n</ul>\n<p>The GM can adjust the damage down a level or two if the item is softer than the examples above, like a duffel bag full of money.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"p0sizbjx38": {
-						"name": "Athletics"
-					}
-				}
-			}
-		},
-		"Infantry Battle Suit": {
-			"name": "Infantry Battle Suit",
-			"description": "<div class=\"swade-core\"><p>A full suit of armor with boots and gloves.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p></div>"
-		},
-		"Infantry Battle Suit w/ Energy Skin": {
-			"name": "Infantry Battle Suit w/ Energy Skin",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Armor]{Armor} used by private or state armed forces.</p>\n<p>A full suit of armor with boots and gloves.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Energy Skin]{Energy Skin}:</strong> This armor is treated with an &ldquo;energy skin&rdquo; (or skein) to diffuse energy, reducing damage from lasers by 4. This costs 50% of the armor treated and is very shiny, subtracting 2 from @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} rolls based on vision.</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p>\n</div>",
-			"notes": "A full suit of armor with boots and gloves."
-		},
-		"Jacket (Cloth/Light Leather)": {
-			"name": "Jacket (Cloth/Light Leather)",
-			"description": "<div class=\"swade-core\"><p>Heavy winter clothing, supple leather armor, soft hides.</p></div>"
-		},
-		"Jacket (Thick Leather/Tough Hides)": {
-			"name": "Jacket (Thick Leather/Tough Hides)",
-			"description": "<div class=\"swade-core\"><p>Boiled leather, cuir bouilli, alligator hides.</p></div>"
-		},
-		"Katana": {
-			"name": "Katana",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Two Hands]{Two hands}</p>\n</div>",
-			"notes": "Two hands",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"casd2f6k9v": {
-						"name": "One-handed"
-					}
-				}
-			}
-		},
-		"Kentucky Rifle": {
-			"name": "Kentucky Rifle",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Reload]{Reload} 4. The tight rifling requires four actions to reload instead of the usual three.</p></div>",
-			"notes": "Reload 4. The tight rifling requires four actions to reload instead of the usual three.",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Shot (w/ powder)"
-		},
-		"Kevlar Riding Jacket": {
-			"name": "Kevlar Riding Jacket"
-		},
-		"Kevlar Riding Jeans": {
-			"name": "Kevlar Riding Jeans"
-		},
-		"Kevlar Vest": {
-			"name": "Kevlar Vest",
-			"description": "<div class=\"swade-core\">\n<p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p>\n</div>"
-		},
-		"Kevlar Vest with ceramic inserts": {
-			"name": "Kevlar Vest with ceramic inserts",
-			"description": "<div class=\"swade-core\"><p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p></div>"
-		},
-		"Kevlar helmet": {
-			"name": "Kevlar helmet",
-			"description": "<div class=\"swade-core\"><p><strong>@Compendium[swade-core-rules.swade-rules.Ballistic Protection]{Ballistic Protection}:</strong>Reduces the damage from bullets by 4. &ldquo;Bullets&rdquo; includes physical shot fired from a firearm.</p></div>"
-		},
-		"Lance": {
-			"name": "Lance",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{AP} 2 when charging, @Compendium[swade-core-rules.swade-rules.Reach]{Reach} 2, only usable in @Compendium[swade-core-rules.swade-rules.Mounted Combat]{Mounted Combat}</p>\n</div>",
-			"notes": "AP 2 when charging, Reach 2, only usable in mounted combat",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Lantern": {
-			"name": "Lantern",
-			"description": "<div class=\"swade-core\"><p>Four hours, 4&rdquo; radius</p></div>"
-		},
-		"Large Shield": {
-			"name": "Large Shield",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Medieval shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 10 and provide +2 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"jnkpnzaoje": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Laser Battery, Gatling": {
-			"name": "Laser Battery, Gatling",
-			"description": "<div class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></div>"
-		},
-		"Laser Battery, Pistol": {
-			"name": "Laser Battery, Pistol",
-			"description": "<div class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></div>"
-		},
-		"Laser Battery, Rifle / SMG": {
-			"name": "Laser Battery, Rifle / SMG",
-			"description": "<div class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></div>"
-		},
-		"Laser Sword": {
-			"name": "Laser Sword",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Laser/Red Dot Sight": {
-			"name": "Laser/Red Dot Sight",
-			"description": "<div class=\"swade-core\">\n<p>+1 to @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} at Short and Medium @Compendium[swade-core-rules.swade-rules.Range]{Range}.</p>\n</div>"
-		},
-		"Leather Riding Chaps": {
-			"name": "Leather Riding Chaps"
-		},
-		"Leggings (Chain Mail)": {
-			"name": "Leggings (Chain Mail)",
-			"description": "<div class=\"swade-core\"><p>Chain, splint, metal scale, ring mail, samurai armor.</p></div>"
-		},
-		"Leggings (Cloth/Light Leather)": {
-			"name": "Leggings (Cloth/Light Leather)",
-			"description": "<div class=\"swade-core\"><p>Heavy winter clothing, supple leather armor, soft hides.</p></div>"
-		},
-		"Leggings (Thick Leather/Tough Hides)": {
-			"name": "Leggings (Thick Leather/Tough Hides)",
-			"description": "<div class=\"swade-core\"><p>Boiled leather, cuir bouilli, alligator hides.</p></div>"
-		},
-		"Lighter": {
-			"name": "Lighter"
-		},
-		"Lineman's Telephone": {
-			"name": "Lineman's Telephone",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll to tap into a phone line.</p></div>"
-		},
-		"Lockpicks": {
-			"name": "Lockpicks"
-		},
-		"Long Bow": {
-			"name": "Long Bow",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Arrows/Bolts"
-		},
-		"M-16": {
-			"name": "M-16",
-			"description": "<div class=\"swade-core\"><p>The A-2 version can also fire a @Compendium[swade-core-rules.swade-rules.Three-Round Burst]{Three-Round Burst}.</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"r4k2ta3di3": {
-						"name": "RoF 3 Attack"
-					},
-					"5dm9tsph6p": {
-						"name": "RoF 2 Attack"
-					},
-					"dw89pbay4t": {
-						"name": "A-2 Three-Round Burst"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"M1 Garand": {
-			"name": "M1 Garand",
-			"description": "<div class=\"swade-core\"><p>The standard US infantry rifle in World War II.</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></div>",
-			"notes": ".30-06",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"M2 Browning": {
-			"name": "M2 Browning",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}</p>\n<hr />\n<p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Their @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 2, which includes changing belts or drums, cocking, etc.</p>\n</div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"7r05pvxs8m": {
-						"name": "RoF 3 Attack"
-					},
-					"jnh5swl3sr": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			},
-			"ammo": "Bullets, Large"
-		},
-		"M203 40MM": {
-			"name": "M203 40MM",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire}. A grenade launcher mounted on the bottom of an assault rifle. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</div>",
-			"notes": "MBT, Snapfire. A grenade launcher mounted on the bottom of an assault rifle.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"M60": {
-			"name": "M60",
-			"description": "<div class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Their @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"v72t1ul86x": {
-						"name": "RoF 3 Attack"
-					},
-					"flzlrmkgob": {
-						"name": "RoF 2 Attack"
-					},
-					"dw76k679ax": {
-						"name": "Snapfire RoF 3"
-					},
-					"twnpvhvce9": {
-						"name": "Snapfire RoF 2"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"M72 Law": {
-			"name": "M72 Law",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire}. The standard American anti-tank weapon in Vietnam. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</div>",
-			"notes": "Snapfire. The standard American anti-tank weapon in Vietnam.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"MG42": {
-			"name": "MG42",
-			"description": "<div class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Their @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"eknd2cr12u": {
-						"name": "RoF 4 Attack"
-					},
-					"28dl21hs2t": {
-						"name": "RoF 3 Attack"
-					},
-					"s0g8bd0c6s": {
-						"name": "RoF 2 Attack"
-					},
-					"9mumti5swo": {
-						"name": "Snapfire RoF 4"
-					},
-					"gwilt1hxuc": {
-						"name": "Snapfire RoF 3"
-					},
-					"sanqlfdue4": {
-						"name": "Snapfire RoF 2"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"MRE (Meal Ready to Eat)": {
-			"name": "MRE (Meal Ready to Eat)"
-		},
-		"Mace": {
-			"name": "Mace",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Maul": {
-			"name": "Maul",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Two Hands]{Two hands}, +2 damage to @Compendium[swade-core-rules.swade-rules.Breaking Things]{break objects}.</p>\n</div>",
-			"notes": "Two hands, +2 damage to break objects",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"au687uqfb3": {
-						"name": "One-handed"
-					}
-				}
-			}
-		},
-		"Medic Kit": {
-			"name": "Medic Kit",
-			"description": "<div class=\"swade-core\">\n<p>Five uses, +1 to @Compendium[swade-core-rules.swade-skills.Healing]{Healing} skill rolls; $25 to refill.</p>\n<p>Also see main @Compendium[swade-core-rules.swade-rules.Healing]{Healing} rules.</p>\n</div>"
-		},
-		"Medium Machine Gun": {
-			"name": "Medium Machine Gun",
-			"description": "<div class=\"swade-core\"><p><strong>Minimum Rate of Fire:</strong> Vehicular weapons with a @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3 or higher have a minimum Rate of Fire of 2.</p></div>",
-			"notes": "Heavy Weapon.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"81qhst5kyq": {
-						"name": "RoF 3 Attack"
-					},
-					"yjszf9r0co": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			}
-		},
-		"Medium Shield": {
-			"name": "Medium Shield",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Medieval shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 10 and provide +2 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"4j0g2h3w5k": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Minigun": {
-			"name": "Minigun",
-			"description": "<div class=\"swade-core\"><p>Minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} 3, requires backpack harness with ammo which weighs an additional 85 pounds when full (carries 4000 linked rounds).</p>\n<hr />\n<p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Their @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire} and Recoil penalties.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"vxu0ut9e9u": {
-						"name": "RoF 5 Attack"
-					},
-					"d37x9ivel8": {
-						"name": "RoF 4 Attack"
-					},
-					"sa4cmxswt8": {
-						"name": "RoF 3 Attack"
-					},
-					"pcj2gzzwrr": {
-						"name": "Snapfire RoF 5"
-					},
-					"zp3qqymkfs": {
-						"name": "Snapfire RoF 4"
-					},
-					"owz7czsqjn": {
-						"name": "Snapfire RoF 3"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Mk II (WW2 Pineapple)": {
-			"name": "Mk II (WW2 Pineapple)",
-			"description": "<div class=\"swade-core\">\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @Compendium[swade-core-rules.swade-rules.Range]{Extreme Range}. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<p>All grenades are @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @Compendium[swade-core-rules.swade-rules.Evasion]{Evaded}.</p>\n</div>",
-			"notes": "MBT",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Mk67 (Modern)": {
-			"name": "Mk67 (Modern)",
-			"description": "<div class=\"swade-core\">\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @Compendium[swade-core-rules.swade-rules.Range]{Extreme Range}. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}</p>\n<p>All grenades are @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @Compendium[swade-core-rules.swade-rules.Evasion]{Evaded}.</p>\n</div>",
-			"notes": "MBT",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Molecular Knife": {
-			"name": "Molecular Knife",
-			"description": "<div class=\"swade-core\"><p>Cannot be thrown</p></div>",
-			"notes": "Cannot be thrown",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Molecular Sword": {
-			"name": "Molecular Sword",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Motorcycle Helmet": {
-			"name": "Motorcycle Helmet"
-		},
-		"Natural Bite": {
-			"name": "Natural Bite",
-			"description": "<div class=\"swade-core\"><strong>BITE:</strong> The creature may bite a target it&rsquo;s grappled (most attackers can only crush their prey, see <strong>@Compendium[swade-core-rules.swade-rules.Grappling]{Grappling}</strong>).</div>",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Natural Claws": {
-			"name": "Natural Claws",
-			"description": "<div class=\"swade-core\"><strong>CLAWS:</strong> +2 to @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} (climbing) rolls on any rough or soft surface (not sheer steel, glass, etc.).</div>",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Natural Horns": {
-			"name": "Natural Horns",
-			"description": "<div class=\"swade-core\"><strong>HORNS:</strong> Add +4 @Compendium[swade-core-rules.swade-rules.Damage]{Damage} at the end of one @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} action in which it @Compendium[swade-core-rules.swade-rules.Movement]{Runs}, moves at least 5&Prime;(10 yards), and successfully hits with its horns.</div>",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Net (Weighted)": {
-			"name": "Net (Weighted)",
-			"description": "<div class=\"swade-core\"><p>A successful hit means the target is @Compendium[swade-core-rules.swade-rules.Bound and Entangled]{Entangled}. The net is @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 10 and vulnerable only to cutting attacks.</p></div>",
-			"notes": "A successful hit means the target is Entangled (see page 98). The net is Hardness 10 and vulnerable only to cutting attacks.",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Night Vision Goggles": {
-			"name": "Night Vision Goggles",
-			"description": "<div class=\"swade-core\"><p>No penalty for Dim or Dark @Compendium[swade-core-rules.swade-rules.Illumination]{Illumination}. For double the price the goggles are &ldquo;active&rdquo; and ignore all Illumination penalties.</p></div>"
-		},
-		"Oil": {
-			"name": "Oil",
-			"description": "<div class=\"swade-core\"><p>For lantern; one pint</p></div>"
-		},
-		"Panzerschreck": {
-			"name": "Panzerschreck",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire}. Literally, the &ldquo;tank terror&rdquo; rocket launcher used by German forces in World War II. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}.</p>\n</div>",
-			"notes": "MBT, Snapfire. Literally, the “tank terror” rocket launcher used by German forces in World War II.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Parabolic Microphone": {
-			"name": "Parabolic Microphone",
-			"description": "<div class=\"swade-core\"><p>Hear whispers up to 200 yards distant.</p></div>"
-		},
-		"Pepper Spray": {
-			"name": "Pepper Spray",
-			"description": "<div class=\"swade-core\">\n<p>Use @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} (or @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} if engaged). No @Compendium[swade-core-rules.swade-rules.Attacks]{Range Penalty} but max range is 2&Prime; (about 10 feet), Shots 5, victim must make @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} roll at &ndash;2 or be @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned}.</p>\n</div>",
-			"notes": "Use Shooting (or Fighting if engaged). No Range Penalty but max range is 2″ (about 10 feet), Shots 5, victim must make Vigor roll at –2 or be Stunned.",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"7q7m8whv0d": {
-						"name": "Fighting",
-						"shotsUsed": 1
-					}
-				}
-			},
-			"range": "Max. 2"
-		},
-		"Pike": {
-			"name": "Pike",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Reach]{Reach} 2, @Compendium[swade-core-rules.swade-rules.Two Hands]{two hands}</p>\n</div>",
-			"notes": "Reach 2, two hands",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"75qvseul8x": {
-						"name": "One-handed"
-					}
-				}
-			}
-		},
-		"Pistol (Laser)": {
-			"name": "Pistol (Laser)",
-			"description": "<div class=\"swade-core\">\n<p>Lasers fire intensely focused beams of light to penetrate and burn their targets.</p>\n<p><strong>Cauterize:</strong> Anyone Incapacitated by a laser blast adds +2 to his @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} rolls to keep from @Compendium[swade-core-rules.swade-rules.Damage Effects]{Bleeding Out}.</p>\n<p><strong>Overcharge:</strong>&nbsp;This weapon can overcharge to cause an extra d6 damage, but if any of the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} dice are a 1, the weapon must cool down for a full round before it can be fired again.</p>\n<p><strong>No Recoil:</strong>&nbsp;Pistols, SMGs, and rifles ignore the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Gatling lasers still take the penalty, however, which is why they&rsquo;re usually mounted on a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{tripod}.</p>\n</div>",
-			"notes": "Laser Battery, Pistol",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"l8016zc0cn": {
-						"name": "Overcharge"
-					}
-				}
-			},
-			"ammo": "Laser Battery, Pistol"
-		},
-		"Plate Barding (horse)": {
-			"name": "Plate Barding (horse)",
-			"description": "<div class=\"swade-core\"><p>Heavy steel armor made with &ldquo;plates&rdquo; of metal.</p></div>"
-		},
-		"Police Revolver": {
-			"name": "Police Revolver",
-			"description": "<div class=\"swade-core\"><p>Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Polymer Shield, large": {
-			"name": "Polymer Shield, large",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Polymer shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 10 and provide +4 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"00njamxonm": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Polymer Shield, medium": {
-			"name": "Polymer Shield, medium",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Polymer shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 10 and provide +4 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"8x1g4vg5j4": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Polymer Shield, small": {
-			"name": "Polymer Shield, small",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Polymer shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 10 and provide +4 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"x5phucsl3w": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Potato Masher (WW2)": {
-			"name": "Potato Masher (WW2)",
-			"description": "<div class=\"swade-core\">\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of Extreme Range (see @Compendium[swade-core-rules.swade-rules.Range]{Range}). @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<p>All grenades are @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @Compendium[swade-core-rules.swade-rules.Evasion]{Evaded}.</p>\n</div>",
-			"notes": "MBT",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Pump Action Shotgun": {
-			"name": "Pump Action Shotgun",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Shotguns]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"tts11rijqd": {
-						"name": "Short Range"
-					},
-					"ei40jb4zhw": {
-						"name": "Medium Range"
-					},
-					"p40x1h6ljf": {
-						"name": "Long Range"
-					},
-					"usc5qe0738": {
-						"name": "Slugs"
-					},
-					"2195beusva": {
-						"name": "Slugs"
-					}
-				}
-			},
-			"ammo": "Shotgun Shells"
-		},
-		"Quiver": {
-			"name": "Quiver",
-			"description": "<div class=\"swade-core\"><p>Holds 20 @Compendium[swade-core-rules.swade-equipment.Arrows/Bolts]{Arrows/Bolts}.</p></div>"
-		},
-		"Rapier": {
-			"name": "Rapier",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Parry]{Parry} +1</p></div>",
-			"notes": "Parry +1",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Rifle (Laser)": {
-			"name": "Rifle (Laser)",
-			"description": "<div class=\"swade-core\">\n<p>Lasers fire intensely focused beams of light to penetrate and burn their targets.</p>\n<p><strong>Cauterize:</strong> Anyone Incapacitated by a laser blast adds +2 to his @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} rolls to keep from @Compendium[swade-core-rules.swade-rules.Damage Effects]{Bleeding Out}.</p>\n<p><strong>Overcharge:</strong>&nbsp;This weapon can overcharge to cause an extra d6 damage, but if any of the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} dice are a 1, the weapon must cool down for a full round before it can be fired again.</p>\n<p><strong>No Recoil:</strong>&nbsp;Pistols, SMGs, and rifles ignore the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Gatling lasers still take the penalty, however, which is why they&rsquo;re usually mounted on a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{tripod}.</p>\n</div>",
-			"notes": "Laser Battery, SMG/Rifle",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"6w08dfsyjo": {
-						"name": "RoF 3 Attack"
-					},
-					"0bd81htr9r": {
-						"name": "RoF 2 Attack"
-					},
-					"2s7u2vhzwa": {
-						"name": "Overcharge"
-					}
-				}
-			},
-			"ammo": "Laser Battery, Rifle / SMG"
-		},
-		"Rifle Scope": {
-			"name": "Rifle Scope",
-			"description": "<div class=\"swade-core\">\n<p>Cancels 2 additional points of penalties when @Compendium[swade-core-rules.swade-rules.Aim]{Aiming}.</p>\n</div>"
-		},
-		"Riot Shield": {
-			"name": "Riot Shield",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Modern shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 12 and provide +2 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"rd7qecvrb4": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Robes": {
-			"name": "Robes",
-			"description": "<div class=\"swade-core\"><p>Heavy winter clothing, supple leather armor, soft hides.</p></div>"
-		},
-		"Rope, hemp": {
-			"name": "Rope, hemp",
-			"description": "<div class=\"swade-core\"><p>10&rdquo;/20 yards</p></div>"
-		},
-		"Rope, nylon": {
-			"name": "Rope, nylon",
-			"description": "<div class=\"swade-core\"><p>10&rdquo;/20 yards</p></div>"
-		},
-		"Ruger": {
-			"name": "Ruger",
-			"description": "<div class=\"swade-core\"><p>Semi-automatics are fed from a magazine. Additional magazines may be purchased for 10% of the weapon&rsquo;s cost. They weigh about 1 lb each, fully loaded.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Small"
-		},
-		"SAW": {
-			"name": "SAW",
-			"description": "<div class=\"swade-core\"><p>Machine guns are heavy, fully automatic weapons built to withstand prolonged fire. Most are fed by belts or drums and thus have far more ammo capacity than assault rifles, despite similar calibers and rates of fire.</p>\n<p><strong>Weapon Mount:</strong>&nbsp;Most machine-guns require a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{Bipod/Tripod} or vehicle mount to fire, which eliminates any Strength requirement and the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Their @Compendium[swade-core-rules.swade-rules.Minimum Strength]{Minimum Strength} is listed as &ldquo;NA,&rdquo; or &ldquo;Not Applicable.&rdquo; If a weapon has a Minimum Strength listed, it may be fired from the hip with the @Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire} and Recoil penalties.</p>\n<p><strong>Minimum Rate of Fire:</strong>&nbsp;Machine-guns have a minimum @Compendium[swade-core-rules.swade-rules.Rate of Fire]{Rate of Fire} of 2 unless otherwise noted.</p>\n<p><strong>Reloading:</strong>&nbsp;Machine guns are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 2, which includes changing belts or drums, cocking, etc.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"ajd7g8p0k5": {
-						"name": "RoF 4 Attack"
-					},
-					"nx78g0kg24": {
-						"name": "RoF 3 Attack"
-					},
-					"xkkhqb6oda": {
-						"name": "RoF 2 Attack"
-					},
-					"x71vppzidp": {
-						"name": "Snapfire RoF 4"
-					},
-					"n5xdh4yh9v": {
-						"name": "Snapfire RoF 3"
-					},
-					"riyq89ve2w": {
-						"name": "Snapfire RoF 2"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"SMG (Laser)": {
-			"name": "SMG (Laser)",
-			"description": "<div class=\"swade-core\">\n<p>Lasers fire intensely focused beams of light to penetrate and burn their targets.</p>\n<p><strong>Cauterize:</strong> Anyone Incapacitated by a laser blast adds +2 to his @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} rolls to keep from @Compendium[swade-core-rules.swade-rules.Damage Effects]{Bleeding Out}.</p>\n<p><strong>Overcharge:</strong>&nbsp;This weapon can overcharge to cause an extra d6 damage, but if any of the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} dice are a 1, the weapon must cool down for a full round before it can be fired again.</p>\n<p><strong>No Recoil:</strong>&nbsp;Pistols, SMGs, and rifles ignore the @Compendium[swade-core-rules.swade-rules.Recoil]{Recoil} penalty. Gatling lasers still take the penalty, however, which is why they&rsquo;re usually mounted on a @Compendium[swade-core-rules.swade-equipment.Bipod/Tripod]{tripod}.</p>\n</div>",
-			"notes": "Laser Battery, SMG/Rifle",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"imydg4hjq5": {
-						"name": "RoF 4 Attack"
-					},
-					"e3ym7r9j3x": {
-						"name": "RoF 3 Attack"
-					},
-					"2j8pylmbzt": {
-						"name": "RoF 2 Attack"
-					},
-					"wlryc5894c": {
-						"name": "Overcharge"
-					}
-				}
-			},
-			"ammo": "Laser Battery, Rifle / SMG"
-		},
-		"Saddle": {
-			"name": "Saddle"
-		},
-		"Sawed-Off Double-Barrel Shotgun": {
-			"name": "Sawed-Off Double-Barrel Shotgun",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Shotguns]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"k898kad686": {
-						"name": "Short Range"
-					},
-					"y8bmp1oiej": {
-						"name": "Medium Range"
-					},
-					"wrge5qeel2": {
-						"name": "Long Range"
-					},
-					"5wxefxe0wc": {
-						"name": "Double-Barrel Short Range"
-					},
-					"kjmyk2umxg": {
-						"name": "Double-Barrel Medium Range",
-						"rof": "2d6"
-					},
-					"lmznwdbi7o": {
-						"name": "Double-Barrel Long Range"
-					},
-					"93c4552pi8": {
-						"name": "Slugs"
-					},
-					"ikdais1qo4": {
-						"name": "Slugs"
-					},
-					"vm991u5st6": {
-						"name": "Double Barrel Slugs"
-					},
-					"jjtol5mi9q": {
-						"name": "Double Barrel Slugs"
-					}
-				}
-			},
-			"ammo": "Shotgun Shells"
-		},
-		"Sharps Big 50": {
-			"name": "Sharps Big 50",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Snapfire]{Snapfire}</p>\n<hr />\n<p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"zl56kx0g2u": {
-						"name": "Snapfire"
-					}
-				}
-			},
-			"ammo": "Bullets, Large"
-		},
-		"Shirt (Chain Mail)": {
-			"name": "Shirt (Chain Mail)",
-			"description": "<div class=\"swade-core\">\n<p>Chain, splint, metal scale, ring mail, samurai armor.</p>\n</div>"
-		},
-		"Shot (w/ powder)": {
-			"name": "Shot (w/ powder)",
-			"description": "<div class=\"swade-core\">\n<p>For black powder weapons</p>\n</div>"
-		},
-		"Shotgun Shells": {
-			"name": "Shotgun Shells",
-			"description": "<div class=\"swade-core\">\n<p>Standard buckshot</p>\n</div>"
-		},
-		"Shotgun Slugs": {
-			"name": "Shotgun Slugs",
-			"description": "<div class=\"swade-core\"><p>See @Compendium[swade-core-rules.swade-rules.Shotguns]{Shotguns}.</p></div>"
-		},
-		"Shovel": {
-			"name": "Shovel"
-		},
-		"Shrapnel Shot (Cannon)": {
-			"name": "Shrapnel Shot (Cannon)",
-			"description": "<div class=\"swade-core\"><p>Explosive shells filled with small metal balls that explode outward in a shower of debris. This is an @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attack} and uses the Medium Blast Template unless otherwise noted.</p></div>",
-			"notes": "50/100/200, 3d6, MBT"
-		},
-		"Sidewinder": {
-			"name": "Sidewinder",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}. A short range, heat-seeking missile fired from an aircraft. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Small Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @Compendium[swade-core-rules.swade-rules.Hold]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @Compendium[swade-core-rules.swade-rules.Range]{Range} and any other relevant modifiers (including @Compendium[swade-core-rules.swade-rules.Speed]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness} of 8 (2).</p>\n</div>",
-			"notes": "Heavy Weapon. A short range, heat-seeking missile fired from an aircraft.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Sling": {
-			"name": "Sling",
-			"actions": {
-				"skill": "Athletics"
-			},
-			"ammo": "Sling stones"
-		},
-		"Sling stones": {
-			"name": "Sling stones",
-			"description": "<div class=\"swade-core\">&nbsp;</div>"
-		},
-		"Small Shield": {
-			"name": "Small Shield",
-			"description": "<div class=\"swade-core\">\n<p>Shields add to a character&rsquo;s @Compendium[swade-core-rules.swade-rules.Characters]{Parry} as shown in the Parry rating. @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Cover} subtracts from ranged attacks from the front and shielded side (attacks from the rear or unprotected side ignore cover).</p>\n<hr />\n<p>Medieval shields are @Compendium[swade-core-rules.swade-rules.Breaking Things]{Hardness} 10 and provide +2 @Compendium[swade-core-rules.swade-rules.Armor]{Armor} should someone attempt to shoot through them (see @Compendium[swade-core-rules.swade-rules.Cover and Obstacles]{Obstacles}).</p>\n<p>While worn, shields can be used to bash for Str+d4 damage.</p>\n</div>",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"97x0icqf0a": {
-						"name": "Bash"
-					}
-				}
-			}
-		},
-		"Smith & Wesson": {
-			"name": "Smith & Wesson",
-			"description": "<div class=\"swade-core\"><p>Revolvers typically have six chambers that must be reloaded one bullet at a time, though separate cylinders called &ldquo;speed loaders&rdquo; are also available for more modern firearms for about 10% of the weapon&rsquo;s cost.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Smoke Grenade": {
-			"name": "Smoke Grenade",
-			"description": "<div class=\"swade-core\">\n<p>Creates an area of smoke in a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Large Blast Template} that obscures vision (&ndash;4).</p>\n<hr />\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @Compendium[swade-core-rules.swade-rules.Range]{Extreme Range}.</p>\n<p>All grenades are @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @Compendium[swade-core-rules.swade-rules.Evasion]{Evaded}.</p>\n</div>",
-			"notes": "Creates an area of smoke in a LBT that obscures vision (–4).",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Soap": {
-			"name": "Soap"
-		},
-		"Solid Shot (Cannon)": {
-			"name": "Solid Shot (Cannon)",
-			"description": "<div class=\"swade-core\"><p>Heavy balls of iron, lead, or stone designed to batter walls or plow through packed ranks of troops. To fire, the leader of the crew makes a @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll as usual. If successful, roll a die. If even, it bounces to another victim behind and within 6&rdquo; of the first and hits him as well. Continue in this way until the die roll is odd.</p></div>",
-			"notes": "50/100/200, 3d6+1, AP 4"
-		},
-		"Sparrow": {
-			"name": "Sparrow",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}. A medium range, radar-guided missile fired from an aircraft. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Small Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @Compendium[swade-core-rules.swade-rules.Hold]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @Compendium[swade-core-rules.swade-rules.Range]{Range} and any other relevant modifiers (including @Compendium[swade-core-rules.swade-rules.Speed]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness} of 8 (2).</p>\n</div>",
-			"notes": "Heavy Weapon. A medium range, radar-guided missile fired from an aircraft.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Spear": {
-			"name": "Spear",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Reach]{Reach} 1. @Compendium[swade-core-rules.swade-rules.Parry]{Parry} +1 if used @Compendium[swade-core-rules.swade-rules.Two Hands]{two-handed}</p>\n</div>",
-			"notes": "Reach 1. Parry +1 if used two-handed",
-			"actions": {
-				"skill": "Athletics",
-				"additional": {
-					"aryl7v6r72": {
-						"name": "Athletics (throwing)"
-					}
-				}
-			}
-		},
-		"Spear/Javelin": {
-			"name": "Spear/Javelin",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Spencer Carbine": {
-			"name": "Spencer Carbine",
-			"description": "<div class=\"swade-core\"><p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Springfield Model 1861": {
-			"name": "Springfield Model 1861",
-			"description": "<div class=\"swade-core\"><p>Black powder weapons are @Compendium[swade-core-rules.swade-rules.Reload]{Reload} 3.</p></div>",
-			"notes": "Black powder weapons are Reload 3.",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Shot (w/ powder)"
-		},
-		"Staff": {
-			"name": "Staff",
-			"description": "<div class=\"swade-core\">\n<p>+1 @Compendium[swade-core-rules.swade-rules.Parry]{Parry}, @Compendium[swade-core-rules.swade-rules.Reach]{Reach} 1, @Compendium[swade-core-rules.swade-rules.Two Hands]{two hands}</p>\n</div>",
-			"notes": "+1 Parry, Reach 1",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"1kz1l846vs": {
-						"name": "One-handed"
-					}
-				}
-			}
-		},
-		"Steyr AUG": {
-			"name": "Steyr AUG",
-			"description": "<div class=\"swade-core\"><p>May fire a @Compendium[swade-core-rules.swade-rules.Three-Round Burst]{Three-Round Burst}.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"8uz8v7onn3": {
-						"name": "RoF 3 Attack"
-					},
-					"u1x802d6ia": {
-						"name": "RoF 2 Attack"
-					},
-					"r3vehrgy0t": {
-						"name": "Three-Round Burst"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Streetsweeper Shotgun": {
-			"name": "Streetsweeper Shotgun",
-			"description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Shotguns]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"d7mti3a1d0": {
-						"name": "Short Range"
-					},
-					"zug7y41wrq": {
-						"name": "Medium Range"
-					},
-					"igj4e0kyzf": {
-						"name": "Long Range"
-					},
-					"h3gy1rp1yu": {
-						"name": "Slugs"
-					},
-					"imhxlkhief": {
-						"name": "Slugs"
-					}
-				}
-			},
-			"ammo": "Shotgun Shells"
-		},
-		"Stun Grenade": {
-			"name": "Stun Grenade",
-			"description": "<div class=\"swade-core\">\n<p>Targets must make a @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} roll (at &ndash;2 with a raise) or be @Compendium[swade-core-rules.swade-powers.Stun]{Stunned}.</p>\n<hr />\n<p>Grenades activate when their safety pin is pulled, then detonate a few seconds later. They are thrown with the @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} skill at the Ranges listed, and cannot make use of @Compendium[swade-core-rules.swade-rules.Range]{Extreme Range}. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Large Blast Template}</p>\n<p>All grenades are @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon} and detonate in the listed blast template (see @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attacks}). Grenades may be @Compendium[swade-core-rules.swade-rules.Evasion]{Evaded}.</p>\n</div>",
-			"notes": "Targets must make a Vigor roll (at –2 with a raise) or be Stunned.",
-			"actions": {
-				"skill": "Athletics"
-			}
-		},
-		"Stun Gun": {
-			"name": "Stun Gun",
-			"description": "<div class=\"swade-core\">\n<p>Uses @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}. @Compendium[swade-core-rules.swade-rules.Range]{Range} 1/2/4. Shots 3 before needing to be recharged for at least two hours. Victims must make a @Compendium[swade-core-rules.swade-rules.Traits]{Vigor} roll at &ndash;2 or be @Compendium[swade-core-rules.swade-rules.Stunned]{Stunned}.</p>\n</div>",
-			"notes": "Uses Shooting. Range 1/2/4. Shots 3 before needing to be recharged for at least two hours. Victims must make a Vigor roll at –2 or be Stunned.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Survival Knife": {
-			"name": "Survival Knife",
-			"description": "<div class=\"swade-core\"><p>Basic tools in handle add +1 to @Compendium[swade-core-rules.swade-skills.Survival]{Survival} rolls</p></div>",
-			"notes": "Basic tools in handle add +1 to Survival rolls",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Switchblade": {
-			"name": "Switchblade",
-			"description": "<div class=\"swade-core\">\n<p>&minus;2 to be @Compendium[swade-core-rules.swade-skills.Notice]{Noticed} if hidden</p>\n</div>",
-			"notes": "−2 to be Noticed if hidden",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Sword, Great": {
-			"name": "Sword, Great",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Two Hands]{Two hands}</p>\n</div>",
-			"notes": "Two hands",
-			"actions": {
-				"skill": "Fighting",
-				"additional": {
-					"2qjc4g4y1m": {
-						"name": "One-handed"
-					}
-				}
-			}
-		},
-		"Sword, Long": {
-			"name": "Sword, Long",
-			"description": "<div class=\"swade-core\"><p>Basic swords and scimitars</p></div>",
-			"notes": "Basic swords and scimitars",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Sword, Short": {
-			"name": "Sword, Short",
-			"description": "<div class=\"swade-core\"><p>Includes cavalry sabers</p></div>",
-			"notes": "Includes cavalry sabers",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"TOW Missile Launcher": {
-			"name": "TOW Missile Launcher",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}. A wire-guided missile fired from a portable or vehicle-mounted launcher. Doesn&rsquo;t require a lock&mdash;just a @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll, and can&rsquo;t be jammed. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}.</p>\n<hr />\n<p>Unless otherwise noted, missiles must &ldquo;lock&rdquo; onto their targets before they can be fired. This action is an opposed @Compendium[swade-core-rules.swade-skills.Electronics]{Electronics} roll versus the target&rsquo;s maneuvering skill (@Compendium[swade-core-rules.swade-skills.Boating]{Boating}, @Compendium[swade-core-rules.swade-skills.Driving]{Driving}, or @Compendium[swade-core-rules.swade-skills.Piloting]{Piloting}, as appropriate). Success gives the attacker a &ldquo;short&rdquo; lock and allows him to fire up to half the missiles his particular craft can fire at once. A raise is a more solid lock and allows him to fire all of them.</p>\n<p>The enemy attempts to evade each missile separately by making a maneuvering roll at &minus;4 (or &minus;2 if the target has substantial cover to hide behind&mdash;such as asteroids, skyscrapers, canyon walls, or even large enemy ships. A @Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} means the craft goes @Compendium[swade-core-rules.swade-tables.Out of Control]{Out of Control}.</p>\n<p><strong>Anti-Missile Systems:</strong> Warships and futuristic space vessels often have &ldquo;point defense&rdquo; systems to shoot down incoming missiles. Operators must be on @Compendium[swade-core-rules.swade-rules.Hold]{Hold} to shoot down missiles; automated systems attack automatically. The system grants a single @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll per missile at Short @Compendium[swade-core-rules.swade-rules.Range]{Range} and any other relevant modifiers (including @Compendium[swade-core-rules.swade-rules.Speed]{Speed}&mdash;missiles move at Mach 1, a &minus;6 penalty, unless otherwise noted). Unless otherwise noted, missiles are objects with a @Compendium[swade-core-rules.swade-rules.Breaking Things]{Toughness}&nbsp;of 8 (2).</p>\n</div>",
-			"notes": "Heavy Weapon. A wire-guided missile fired from a portable or vehicle-mounted launcher. Doesn’t require a lock—just a Shooting roll, and can’t be jammed.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Telephone Tap": {
-			"name": "Telephone Tap"
-		},
-		"Thick Coat, Leather Jacket": {
-			"name": "Thick Coat, Leather Jacket"
-		},
-		"Tommy Gun": {
-			"name": "Tommy Gun",
-			"description": "<div class=\"swade-core\">\n<p>Thompson submachine guns may also use a 50-round drum. This increases the weight by 2 lbs and each loaded drum costs $50.</p>\n<hr />\n<p>Typical magazine sizes are listed with each weapon. Additional magazines are available at 10% of the weapon&rsquo;s cost and weigh about 1 lb each, fully loaded.</p>\n<p>&nbsp;</p>\n</div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"ylhxrcrzpr": {
-						"name": "RoF 3 Attack"
-					},
-					"zum8xf76t6": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Tool Kit": {
-			"name": "Tool Kit"
-		},
-		"Torch": {
-			"name": "Torch",
-			"description": "<div class=\"swade-core\"><p>&nbsp;One hour, 4&rdquo; radius.</p></div>"
-		},
-		"Torpedo": {
-			"name": "Torpedo",
-			"description": "<div class=\"swade-core\">\n<p>Rocket launchers and early torpedoes are direct-fire weapons that explode on contact with their target. @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}. @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Large Blast Template}.</p>\n</div>",
-			"notes": "LBT",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Trail Rations": {
-			"name": "Trail Rations",
-			"description": "<div class=\"swade-core\"><p>5 meals; keeps one week.</p></div>"
-		},
-		"Transmitter Detector": {
-			"name": "Transmitter Detector"
-		},
-		"Trebuchet": {
-			"name": "Trebuchet",
-			"description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template}, @Compendium[swade-core-rules.swade-rules.Heavy Weapon (HW)]{Heavy Weapon}, @Compendium[swade-core-rules.swade-rules.Reload]{Reload} time is every 5 minutes with a crew of 4.</p>\n<hr />\n<p>Catapults are simple devices that hurl large stones at enemy defenses or ranks of troops. They normally require a crew of eight to load the projectile, crank down the lever that propels it, then sight and aim it. Firing can be done by a single person, but loading the projectile takes at least four.</p>\n</div>",
-			"notes": "MBT, Heavy Weapon, Reload time is every 5 minutes with a crew of 4.",
-			"actions": {
-				"skill": "Shooting"
-			}
-		},
-		"Umbrella": {
-			"name": "Umbrella"
-		},
-		"Uzi": {
-			"name": "Uzi",
-			"description": "<div class=\"swade-core\"><p>Typical magazine sizes are listed with each weapon. Additional magazines are available at 10% of the weapon&rsquo;s cost and weigh about 1 lb each, fully loaded.</p></div>",
-			"actions": {
-				"skill": "Shooting",
-				"additional": {
-					"t42xx1o1o9": {
-						"name": "RoF 3 Attack"
-					},
-					"y1b7ji2l4a": {
-						"name": "RoF 2 Attack"
-					}
-				}
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Vambraces (Bronze Armor)": {
-			"name": "Vambraces (Bronze Armor)",
-			"description": "<div class=\"swade-core\"><p>Typically only found in ancient times or pre-iron civilizations.</p></div>"
-		},
-		"Vambraces (Plate Mail)": {
-			"name": "Vambraces (Plate Mail)",
-			"description": "<div class=\"swade-core\"><p>Heavy steel armor made with &ldquo;plates&rdquo; of metal.</p></div>"
-		},
-		"War Horse": {
-			"name": "War Horse",
-			"description": "<div class=\"swade-core\">\n<p>See @Actor[YhXM3GoaSTkJKto3]{Horse, War} for stats.</p>\n</div>"
-		},
-		"Warhammer": {
-			"name": "Warhammer",
-			"description": "<div class=\"swade-core\">\n<p>Spiked, @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{AP} 1</p>\n</div>",
-			"notes": "Spiked, AP 1",
-			"actions": {
-				"skill": "Fighting"
-			}
-		},
-		"Whetstone": {
-			"name": "Whetstone"
-		},
-		"Whistle": {
-			"name": "Whistle"
-		},
-		"Winchester ‘73": {
-			"name": "Winchester ‘73",
-			"description": "<div class=\"swade-core\"><p>Additional magazines or clips cost 10% of the rifle and weigh 1 lb each.</p></div>",
-			"actions": {
-				"skill": "Shooting"
-			},
-			"ammo": "Bullets, Medium"
-		},
-		"Winter Boots": {
-			"name": "Winter Boots"
-		},
-		"Winter Gear (cloak/parka)": {
-			"name": "Winter Gear (cloak/parka)"
-		}
-	}
+    "label": "SWADE Equipment",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo",
+        "category": "system.category"
+    },
+    "entries": {
+        "Bullets, Medium": {
+            "name": "Bullets, Medium",
+            "description": "<article class=\"swade-core\">\n<p>9mm to .45 caliber</p>\n</article>",
+            "notes": "",
+            "category": "Bullet"
+        },
+        "War Horse": {
+            "name": "War Horse",
+            "description": "<article class=\"swade-core\">\n<p>See @Actor[YhXM3GoaSTkJKto3]{Horse, War} for stats.</p>\n</article>",
+            "notes": "",
+            "category": "Animals and Tack"
+        },
+        "Shovel": {
+            "name": "Shovel",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Bullets, Small": {
+            "name": "Bullets, Small",
+            "description": "<article class=\"swade-core\">\n<p>.22 to .32 caliber</p>\n</article>",
+            "notes": "",
+            "category": "Bullet"
+        },
+        "Night Vision Goggles": {
+            "name": "Night Vision Goggles",
+            "description": "<article class=\"swade-core\"><p>No penalty for Dim or Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination}. For double the price the goggles are &ldquo;active&rdquo; and ignore all Illumination penalties.</p></article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Saddle": {
+            "name": "Saddle",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Animals and Tack"
+        },
+        "\"Bug\" (Micro Transmitter)": {
+            "name": "\"Bug\" (Micro Transmitter)",
+            "description": "<article class=\"swade-core\">\n<p>12 hours of continuous use.</p>\n</article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Boots, Hiking": {
+            "name": "Boots, Hiking",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Clothing"
+        },
+        "Clothing, Formal": {
+            "name": "Clothing, Formal",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Clothing"
+        },
+        "Backpack": {
+            "name": "Backpack",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Soap": {
+            "name": "Soap",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Shot (w/ powder)": {
+            "name": "Shot (w/ powder)",
+            "description": "<article class=\"swade-core\">\n<p>For black powder weapons</p>\n</article>",
+            "notes": "",
+            "category": "Ammo"
+        },
+        "Elaborate Saddle": {
+            "name": "Elaborate Saddle",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Animals and Tack"
+        },
+        "Torch": {
+            "name": "Torch",
+            "description": "<article class=\"swade-core\"><p>&nbsp;One hour, 4&rdquo; radius.</p></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Flask (ceramic)": {
+            "name": "Flask (ceramic)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Handcuffs (manacles)": {
+            "name": "Handcuffs (manacles)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Computer, Laptop": {
+            "name": "Computer, Laptop",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Computers & Electronics"
+        },
+        "Stun Gun": {
+            "name": "Stun Gun",
+            "description": "<article class=\"swade-core\">\n<p>Uses @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}. @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range} 1/2/4. Shots 3 before needing to be recharged for at least two hours. Victims must make a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll at &ndash;2 or be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03stunned0000000]{Stunned}.</p>\n</article>",
+            "notes": "Uses Shooting. Range 1/2/4. Shots 3 before needing to be recharged for at least two hours. Victims must make a Vigor roll at –2 or be Stunned.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "1/2/4",
+            "ammo": "",
+            "category": "Personal Defense"
+        },
+        "Trail Rations": {
+            "name": "Trail Rations",
+            "description": "<article class=\"swade-core\"><p>5 meals; keeps one week.</p></article>",
+            "notes": "",
+            "category": "Food"
+        },
+        "Tool Kit": {
+            "name": "Tool Kit",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Lineman's Telephone": {
+            "name": "Lineman's Telephone",
+            "description": "<article class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll to tap into a phone line.</p></article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Candle": {
+            "name": "Candle",
+            "description": "<article class=\"swade-core\">\n<p>One hour, 2&rdquo; radius</p>\n</article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "MRE (Meal Ready to Eat)": {
+            "name": "MRE (Meal Ready to Eat)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Food"
+        },
+        "Computer, Hand held": {
+            "name": "Computer, Hand held",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Computers & Electronics"
+        },
+        "Oil": {
+            "name": "Oil",
+            "description": "<article class=\"swade-core\"><p>For lantern; one pint</p></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Goggles": {
+            "name": "Goggles",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Rope, hemp": {
+            "name": "Rope, hemp",
+            "description": "<article class=\"swade-core\"><p>10&rdquo;/20 yards</p></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Cellular Interceptor": {
+            "name": "Cellular Interceptor",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Canister Shot (Cannon)": {
+            "name": "Canister Shot (Cannon)",
+            "description": "<article class=\"swade-core\">\n<p>Grapeshot or canister is a shell that detonates inside the barrel of a cannon and fires out a spray of deadly balls or other debris like a giant shotgun. The attack is the size of a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template} and moves in a straight line up to 24&rdquo; (it affects [[/r d6]] targets if not using miniatures, or [[/r 2d6]] if they&rsquo;re tightly packed). Compare the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll to every target within using a base TN of 4, adjusted for each target&rsquo;s cover, special abilities like the @Compendium[swade-core-rules.swade-edges.Dodge]{Dodge} Edge, etc. A hit causes 2d6 damage and a raise causes 3d6.</p>\n</article>",
+            "notes": "24\" path, 2d6 damage, MBT",
+            "category": "Cannon"
+        },
+        "Telephone Tap": {
+            "name": "Telephone Tap",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Laser/Red Dot Sight": {
+            "name": "Laser/Red Dot Sight",
+            "description": "<article class=\"swade-core\">\n<p>+1 to @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} at Short and Medium @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}.</p>\n</article>",
+            "notes": "",
+            "category": "Firearms Accessories"
+        },
+        "Arrows/Bolts": {
+            "name": "Arrows/Bolts",
+            "description": "<article class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-personal-weapons.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-personal-weapons.Crossbow]{crossbow}</p>\n</article>",
+            "notes": "",
+            "category": "Ammo"
+        },
+        "Button Camera": {
+            "name": "Button Camera",
+            "description": "<article class=\"swade-core\"><p>12 hours of continuous use.</p></article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Rope, nylon": {
+            "name": "Rope, nylon",
+            "description": "<article class=\"swade-core\"><p>10&rdquo;/20 yards</p></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Lantern": {
+            "name": "Lantern",
+            "description": "<article class=\"swade-core\"><p>Four hours, 4&rdquo; radius</p></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Bullets, Large": {
+            "name": "Bullets, Large",
+            "description": "<article class=\"swade-core\">\n<p>.50 caliber and larger rounds</p>\n</article>",
+            "notes": "",
+            "category": "Bullet"
+        },
+        "GPS": {
+            "name": "GPS",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Computers & Electronics"
+        },
+        "Grappling Hook": {
+            "name": "Grappling Hook",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Laser Battery, Rifle / SMG": {
+            "name": "Laser Battery, Rifle / SMG",
+            "description": "<article class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></article>",
+            "notes": "",
+            "category": "Laser Battery"
+        },
+        "Laser Battery, Pistol": {
+            "name": "Laser Battery, Pistol",
+            "description": "<article class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></article>",
+            "notes": "",
+            "category": "Laser Battery"
+        },
+        "Solid Shot (Cannon)": {
+            "name": "Solid Shot (Cannon)",
+            "description": "<article class=\"swade-core\"><p>Heavy balls of iron, lead, or stone designed to batter walls or plow through packed ranks of troops. To fire, the leader of the crew makes a @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} roll as usual. If successful, roll a die. If even, it bounces to another victim behind and within 6&rdquo; of the first and hits him as well. Continue in this way until the die roll is odd.</p></article>",
+            "notes": "50/100/200, 3d6+1, AP 4",
+            "category": "Cannon"
+        },
+        "Clothing, Casual": {
+            "name": "Clothing, Casual",
+            "description": "",
+            "notes": "",
+            "category": "Clothing"
+        },
+        "Fast Food Meal": {
+            "name": "Fast Food Meal",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Food"
+        },
+        "Lockpicks": {
+            "name": "Lockpicks",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Whistle": {
+            "name": "Whistle",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Laser Battery, Gatling": {
+            "name": "Laser Battery, Gatling",
+            "description": "<article class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></article>",
+            "notes": "",
+            "category": "Laser Battery"
+        },
+        "Shotgun Slugs": {
+            "name": "Shotgun Slugs",
+            "description": "<article class=\"swade-core\"><p>See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns}.</p></article>",
+            "notes": "",
+            "category": "Shotgun"
+        },
+        "Umbrella": {
+            "name": "Umbrella",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Winter Gear (cloak/parka)": {
+            "name": "Winter Gear (cloak/parka)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Clothing"
+        },
+        "Flashlight": {
+            "name": "Flashlight",
+            "description": "<article class=\"swade-core\"><p>10&rdquo; beam</p></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Camouflage Fatigues": {
+            "name": "Camouflage Fatigues",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Clothing"
+        },
+        "Shrapnel Shot (Cannon)": {
+            "name": "Shrapnel Shot (Cannon)",
+            "description": "<article class=\"swade-core\"><p>Explosive shells filled with small metal balls that explode outward in a shower of debris. This is an @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Area Effect Attack} and uses the Medium Blast Template unless otherwise noted.</p></article>",
+            "notes": "50/100/200, 3d6, MBT",
+            "category": "Cannon"
+        },
+        "Transmitter Detector": {
+            "name": "Transmitter Detector",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Flint and Steel": {
+            "name": "Flint and Steel",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Blanket": {
+            "name": "Blanket",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Rifle Scope": {
+            "name": "Rifle Scope",
+            "description": "<article class=\"swade-core\">\n<p>Cancels 2 additional points of penalties when @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03aim00000000000]{Aiming}.</p>\n</article>",
+            "notes": "",
+            "category": "Firearms Accessories"
+        },
+        "Winter Boots": {
+            "name": "Winter Boots",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Clothing"
+        },
+        "Good Meal (restaurant)": {
+            "name": "Good Meal (restaurant)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Food"
+        },
+        "Bipod/Tripod": {
+            "name": "Bipod/Tripod",
+            "description": "<article class=\"swade-core\">\n<p>Takes an action to deploy. Negates @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} penalties.</p>\n</article>",
+            "notes": "",
+            "category": "Firearms Accessories"
+        },
+        "Computer, Desktop": {
+            "name": "Computer, Desktop",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Computers & Electronics"
+        },
+        "Crowbar": {
+            "name": "Crowbar",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Parabolic Microphone": {
+            "name": "Parabolic Microphone",
+            "description": "<article class=\"swade-core\"><p>Hear whispers up to 200 yards distant.</p></article>",
+            "notes": "",
+            "category": "Surveillance"
+        },
+        "Sling stones": {
+            "name": "Sling stones",
+            "description": "<article class=\"swade-core\">&nbsp;</article>",
+            "notes": "",
+            "category": "Ammo"
+        },
+        "Camera (regular)": {
+            "name": "Camera (regular)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Camera (disposable)": {
+            "name": "Camera (disposable)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Quiver": {
+            "name": "Quiver",
+            "description": "<article class=\"swade-core\"><p>Holds 20 @Compendium[swade-core-rules.swade-equipment.Arrows/Bolts]{Arrows/Bolts}.</p></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Canteen (waterskin)": {
+            "name": "Canteen (waterskin)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Medic Kit": {
+            "name": "Medic Kit",
+            "description": "<article class=\"swade-core\">\n<p>Five uses, +1 to @Compendium[swade-core-rules.swade-skills.Healing]{Healing} skill rolls; $25 to refill.</p>\n<p>Also see main @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing} rules.</p>\n</article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Pepper Spray": {
+            "name": "Pepper Spray",
+            "description": "<article class=\"swade-core\">\n<p>Use @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} (or @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} if engaged). No @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{Range Penalty} but max range is 2&Prime; (about 10 feet), Shots 5, victim must make @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Vigor} roll at &ndash;2 or be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03stunned0000000]{Stunned}.</p>\n</article>",
+            "notes": "Use Shooting (or Fighting if engaged). No Range Penalty but max range is 2″ (about 10 feet), Shots 5, victim must make Vigor roll at –2 or be Stunned.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "7q7m8whv0d": {
+                        "name": "Fighting"
+                    }
+                }
+            },
+            "range": "Max. 2",
+            "ammo": "",
+            "category": "Personal Defense"
+        },
+        "First Aid Kit": {
+            "name": "First Aid Kit",
+            "description": "<article class=\"swade-core\">\n<p>Three uses, see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing}.</p>\n</article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Hammer": {
+            "name": "Hammer",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Lighter": {
+            "name": "Lighter",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Shotgun Shells": {
+            "name": "Shotgun Shells",
+            "description": "<article class=\"swade-core\">\n<p>Standard buckshot</p>\n</article>",
+            "notes": "",
+            "category": "Shotgun"
+        },
+        "Bedroll": {
+            "name": "Bedroll",
+            "description": "<article class=\"swade-core\">\n<p>Sleeping bag; winterized</p>\n</article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Horse": {
+            "name": "Horse",
+            "description": "<article class=\"swade-core\">\n<p>See @Actor[RFfhBAdJgR2vIiCw]{Horse} for stats.</p>\n</article>",
+            "notes": "",
+            "category": "Animals and Tack"
+        },
+        "Camera (digital)": {
+            "name": "Camera (digital)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        },
+        "Whetstone": {
+            "name": "Whetstone",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "category": "Adventuring Gear"
+        }
+    }
 }

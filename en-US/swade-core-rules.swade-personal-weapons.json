@@ -1,164 +1,685 @@
 {
-	"label": "SWADE Personal Weapons",
-	"entries": {
-		"Axe, Battle": {
-			"name": "Axe, Battle"
-		},
-		"Axe, Great": {
-			"name": "Axe, Great"
-		},
-		"Axe, Hand": {
-			"name": "Axe, Hand"
-		},
-		"Axe, Throwing": {
-			"name": "Axe, Throwing"
-		},
-		"Bangstick": {
-			"name": "Bangstick"
-		},
-		"Bayonet": {
-			"name": "Bayonet"
-		},
-		"Billy Club/Baton": {
-			"name": "Billy Club/Baton"
-		},
-		"Blunderbuss": {
-			"name": "Blunderbuss"
-		},
-		"Bow": {
-			"name": "Bow"
-		},
-		"Brass Knuckles": {
-			"name": "Brass Knuckles"
-		},
-		"Brown Bess or Similar Muskets": {
-			"name": "Brown Bess or Similar Muskets"
-		},
-		"Chainsaw": {
-			"name": "Chainsaw"
-		},
-		"Club, Heavy": {
-			"name": "Club, Heavy"
-		},
-		"Club, Light": {
-			"name": "Club, Light"
-		},
-		"Compound Bow": {
-			"name": "Compound Bow"
-		},
-		"Crossbow": {
-			"name": "Crossbow"
-		},
-		"Crossbow (Hand Drawn)": {
-			"name": "Crossbow (Hand Drawn)"
-		},
-		"Crossbow, Heavy": {
-			"name": "Crossbow, Heavy"
-		},
-		"Dagger/Knife (melee)": {
-			"name": "Dagger/Knife (melee)"
-		},
-		"Dagger/Knife (Throwing)": {
-			"name": "Dagger/Knife (Throwing)"
-		},
-		"Flail": {
-			"name": "Flail"
-		},
-		"Flintlock Pistol": {
-			"name": "Flintlock Pistol"
-		},
-		"Halberd": {
-			"name": "Halberd"
-		},
-		"Improvised Weapon (Heavy)": {
-			"name": "Improvised Weapon (Heavy)"
-		},
-		"Improvised Weapon (Light)": {
-			"name": "Improvised Weapon (Light)"
-		},
-		"Improvised Weapon (Medium)": {
-			"name": "Improvised Weapon (Medium)"
-		},
-		"Katana": {
-			"name": "Katana"
-		},
-		"Kentucky Rifle": {
-			"name": "Kentucky Rifle"
-		},
-		"Lance": {
-			"name": "Lance"
-		},
-		"Laser Sword": {
-			"name": "Laser Sword"
-		},
-		"Long Bow": {
-			"name": "Long Bow"
-		},
-		"Mace": {
-			"name": "Mace"
-		},
-		"Maul": {
-			"name": "Maul"
-		},
-		"Molecular Knife": {
-			"name": "Molecular Knife"
-		},
-		"Molecular Sword": {
-			"name": "Molecular Sword"
-		},
-		"Natural Bite": {
-			"name": "Natural Bite"
-		},
-		"Natural Claws": {
-			"name": "Natural Claws"
-		},
-		"Natural Horns": {
-			"name": "Natural Horns"
-		},
-		"Net (Weighted)": {
-			"name": "Net (Weighted)"
-		},
-		"Pike": {
-			"name": "Pike"
-		},
-		"Rapier": {
-			"name": "Rapier"
-		},
-		"Sling": {
-			"name": "Sling"
-		},
-		"Spear": {
-			"name": "Spear"
-		},
-		"Spear/Javelin": {
-			"name": "Spear/Javelin"
-		},
-		"Springfield Model 1861": {
-			"name": "Springfield Model 1861"
-		},
-		"Staff": {
-			"name": "Staff"
-		},
-		"Survival Knife": {
-			"name": "Survival Knife"
-		},
-		"Switchblade": {
-			"name": "Switchblade"
-		},
-		"Sword, Great": {
-			"name": "Sword, Great"
-		},
-		"Sword, Long": {
-			"name": "Sword, Long"
-		},
-		"Sword, Short": {
-			"name": "Sword, Short"
-		},
-		"Unarmed": {
-			"name": "Unarmed"
-		},
-		"Warhammer": {
-			"name": "Warhammer"
-		}
-	}
+    "label": "SWADE Personal Weapons",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo",
+        "category": "system.category"
+    },
+    "entries": {
+        "Molecular Knife": {
+            "name": "Molecular Knife",
+            "description": "<article class=\"swade-core\"><p>Cannot be thrown</p></article>",
+            "notes": "Cannot be thrown",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Futuristic"
+        },
+        "Flintlock Pistol": {
+            "name": "Flintlock Pistol",
+            "description": "<article class=\"swade-core\"><p>Black powder weapons are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 3.</p></article>",
+            "notes": "Black powder weapons are Reload 3.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "5/10/20",
+            "ammo": "Shot (w/ powder)",
+            "category": "Blackpowder Weapons"
+        },
+        "Bayonet": {
+            "name": "Bayonet",
+            "description": "<article class=\"swade-core\">\n<p>Str+d6 and @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02parry000000000]{Parry} +1 attached to rifle, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{Reach} 1, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{two hands}</p>\n</article>",
+            "notes": "Str+d6 and Parry +1 attached to rifle, Reach 1, two hands",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "97tgmmqmxf": {
+                        "name": "Attached to Rifle"
+                    },
+                    "g4d7gbmnbf": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Modern"
+        },
+        "Natural Claws": {
+            "name": "Natural Claws",
+            "description": "<article class=\"swade-core\"><strong>CLAWS:</strong> +2 to @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} (climbing) rolls on any rough or soft surface (not sheer steel, glass, etc.).</article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Natural/Improvised Weapons"
+        },
+        "Sword, Long": {
+            "name": "Sword, Long",
+            "description": "<article class=\"swade-core\"><p>Basic swords and scimitars</p></article>",
+            "notes": "Basic swords and scimitars",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Axe, Great": {
+            "name": "Axe, Great",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02parry000000000]{Parry} &ndash;1, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{two hands}</p>\n</article>",
+            "notes": "Parry –1, two hands",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "kwepx6kqhf": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Survival Knife": {
+            "name": "Survival Knife",
+            "description": "<article class=\"swade-core\"><p>Basic tools in handle add +1 to @Compendium[swade-core-rules.swade-skills.Survival]{Survival} rolls</p></article>",
+            "notes": "Basic tools in handle add +1 to Survival rolls",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Modern"
+        },
+        "Maul": {
+            "name": "Maul",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{Two hands}, +2 damage to @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03breakingthin00]{break objects}.</p>\n</article>",
+            "notes": "Two hands, +2 damage to break objects",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "au687uqfb3": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Pike": {
+            "name": "Pike",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{Reach} 2, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{two hands}</p>\n</article>",
+            "notes": "Reach 2, two hands",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "75qvseul8x": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Improvised Weapon (Medium)": {
+            "name": "Improvised Weapon (Medium)",
+            "description": "<article class=\"swade-core\">\n<h2>Improvised Weapons</h2>\n<p>Heroes often fight with objects that aren&rsquo;t intended for use as weapons. Torches, vases, chairs, tankards, bottles, tools, and other mundane items are frequently pressed into service in combat.</p>\n<p>Characters with improvised weapons count as armed but subtract 2 from attack rolls. @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02damage00000000]{Damage} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} are determined by type:</p>\n<ul class=\"red-bullet-list\">\n<li><strong>LIGHT: </strong>Metal beer stein, fist-sized rock, pistol (as a club). Range 3/6/12, Damage Str+d4, Min Str d4.</li>\n<li><strong>MEDIUM: </strong>Bowling ball, submachine gun (as a club), wooden chair. Range 2/4/8, Damage Str+d6, Min. Str d6.</li>\n<li><strong>HEAVY: </strong>Head-size rock, metal chair, duffel bag full of guns. Range 1/2/4, Damage Str+d8, Min. Str d8.</li>\n</ul>\n<p>The GM can adjust the damage down a level or two if the item is softer than the examples above, like a duffel bag full of money.</p>\n</article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "Athletics"
+                    }
+                }
+            },
+            "range": "2/4/8",
+            "ammo": "",
+            "category": "Natural/Improvised Weapons"
+        },
+        "Long Bow": {
+            "name": "Long Bow",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "15/30/60",
+            "ammo": "Arrows/Bolts",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Sling": {
+            "name": "Sling",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "4/8/16",
+            "ammo": "Sling stones",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Net (Weighted)": {
+            "name": "Net (Weighted)",
+            "description": "<article class=\"swade-core\"><p>A successful hit means the target is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03boundandenta00]{Entangled}. The net is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03breakingthin00]{Hardness} 10 and vulnerable only to cutting attacks.</p></article>",
+            "notes": "A successful hit means the target is Entangled (see page 98). The net is Hardness 10 and vulnerable only to cutting attacks.",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "3/6/12",
+            "ammo": "",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Dagger/Knife (melee)": {
+            "name": "Dagger/Knife (melee)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "24m3p44ver": {
+                        "name": "Athletics (throwing)"
+                    }
+                }
+            },
+            "range": "3/6/12",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Blunderbuss": {
+            "name": "Blunderbuss",
+            "description": "<article class=\"swade-core\"><p>Black powder weapons are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 3.</p>\n<p>Treat as @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotgun}.</p></article>",
+            "notes": "Black powder weapons are Reload 3. Treat as Shotgun.",
+            "actions": {
+                "skill": "Shooting",
+                "additional": {
+                    "3xh91v7ntt": {
+                        "name": "Medium Range"
+                    },
+                    "i07k6eqydr": {
+                        "name": "Long Range"
+                    },
+                    "r5coi7165y": {
+                        "name": "Short Range"
+                    }
+                }
+            },
+            "range": "10/20/40",
+            "ammo": "Shot (w/ powder)",
+            "category": "Blackpowder Weapons"
+        },
+        "Natural Horns": {
+            "name": "Natural Horns",
+            "description": "<article class=\"swade-core\"><strong>HORNS:</strong> Add +4 @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02damage00000000]{Damage} at the end of one @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} action in which it @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Runs}, moves at least 5&Prime;(10 yards), and successfully hits with its horns.</article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Natural/Improvised Weapons"
+        },
+        "Spear": {
+            "name": "Spear",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{Reach} 1. @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02parry000000000]{Parry} +1 if used @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{two-handed}</p>\n</article>",
+            "notes": "Reach 1. Parry +1 if used two-handed",
+            "actions": {
+                "skill": "Athletics",
+                "additional": {
+                    "aryl7v6r72": {
+                        "name": "Athletics (throwing)"
+                    }
+                }
+            },
+            "range": "3/6/12",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Rapier": {
+            "name": "Rapier",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02parry000000000]{Parry} +1</p></article>",
+            "notes": "Parry +1",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Spear/Javelin": {
+            "name": "Spear/Javelin",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "3/6/12",
+            "ammo": "",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Staff": {
+            "name": "Staff",
+            "description": "<article class=\"swade-core\">\n<p>+1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02parry000000000]{Parry}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{Reach} 1, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{two hands}</p>\n</article>",
+            "notes": "+1 Parry, Reach 1",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "1kz1l846vs": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Improvised Weapon (Heavy)": {
+            "name": "Improvised Weapon (Heavy)",
+            "description": "<article class=\"swade-core\">\n<h2>Improvised Weapons</h2>\n<p>Heroes often fight with objects that aren&rsquo;t intended for use as weapons. Torches, vases, chairs, tankards, bottles, tools, and other mundane items are frequently pressed into service in combat.</p>\n<p>Characters with improvised weapons count as armed but subtract 2 from attack rolls. @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02damage00000000]{Damage} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} are determined by type:</p>\n<ul class=\"red-bullet-list\">\n<li><strong>LIGHT: </strong>Metal beer stein, fist-sized rock, pistol (as a club). Range 3/6/12, Damage Str+d4, Min Str d4.</li>\n<li><strong>MEDIUM: </strong>Bowling ball, submachine gun (as a club), wooden chair. Range 2/4/8, Damage Str+d6, Min. Str d6.</li>\n<li><strong>HEAVY: </strong>Head-size rock, metal chair, duffel bag full of guns. Range 1/2/4, Damage Str+d8, Min. Str d8.</li>\n</ul>\n<p>The GM can adjust the damage down a level or two if the item is softer than the examples above, like a duffel bag full of money.</p>\n</article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "Athletics"
+                    }
+                }
+            },
+            "range": "1/2/4",
+            "ammo": "",
+            "category": "Natural/Improvised Weapons"
+        },
+        "Compound Bow": {
+            "name": "Compound Bow",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "12/24/48",
+            "ammo": "Arrows/Bolts",
+            "category": "Ranged Weapons, Modern"
+        },
+        "Flail": {
+            "name": "Flail",
+            "description": "<article class=\"swade-core\">\n<p>Ignores @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02shields0000000]{shield}&nbsp;bonus</p>\n</article>",
+            "notes": "Ignores shield bonus",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Club, Heavy": {
+            "name": "Club, Heavy",
+            "description": "<article class=\"swade-core\"><p>A sign of low status or thuggery</p></article>",
+            "notes": "A sign of low status or thuggery",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Natural Bite": {
+            "name": "Natural Bite",
+            "description": "<article class=\"swade-core\"><strong>BITE:</strong> The creature may bite a target it&rsquo;s grappled (most attackers can only crush their prey, see <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03grappling00000]{Grappling}</strong>).</article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Natural/Improvised Weapons"
+        },
+        "Halberd": {
+            "name": "Halberd",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{Reach} 1, two hands</p></article>",
+            "notes": "Reach 1, two hands",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "pqye3bth39": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Dagger/Knife (Throwing)": {
+            "name": "Dagger/Knife (Throwing)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "24m3p44ver": {
+                        "name": "Athletics (throwing)"
+                    }
+                }
+            },
+            "range": "3/6/12",
+            "ammo": "",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Crossbow, Heavy": {
+            "name": "Crossbow, Heavy",
+            "description": "<article class=\"swade-core\"><p>Requires a windlass to load. @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 2.</p></article>",
+            "notes": "Requires a windlass to load. Reload 2",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "15/30/60",
+            "ammo": "",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Molecular Sword": {
+            "name": "Molecular Sword",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Futuristic"
+        },
+        "Laser Sword": {
+            "name": "Laser Sword",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Futuristic"
+        },
+        "Sword, Great": {
+            "name": "Sword, Great",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{Two hands}</p>\n</article>",
+            "notes": "Two hands",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "2qjc4g4y1m": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Bow": {
+            "name": "Bow",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "12/24/48",
+            "ammo": "Arrows/Bolts",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Lance": {
+            "name": "Lance",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armorpiercin00]{AP} 2 when charging, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reach000000000]{Reach} 2, only usable in @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03mountedcomba00]{Mounted Combat}</p>\n</article>",
+            "notes": "AP 2 when charging, Reach 2, only usable in mounted combat",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Chainsaw": {
+            "name": "Chainsaw",
+            "description": "<article class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.Trait Rolls]{Critical Failure} hits the user</p></article>",
+            "notes": "Critical Failure hits the user",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Modern"
+        },
+        "Sword, Short": {
+            "name": "Sword, Short",
+            "description": "<article class=\"swade-core\"><p>Includes cavalry sabers</p></article>",
+            "notes": "Includes cavalry sabers",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Improvised Weapon (Light)": {
+            "name": "Improvised Weapon (Light)",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "Athletics"
+                    }
+                }
+            },
+            "range": "3/6/12",
+            "ammo": "",
+            "category": "Natural/Improvised Weapons"
+        },
+        "Club, Light": {
+            "name": "Club, Light",
+            "description": "<article class=\"swade-core\"><p>A sign of low status or thuggery</p></article>",
+            "notes": "A sign of low status or thuggery",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Unarmed": {
+            "name": "Unarmed",
+            "description": "<article class=\"swade-core\"><p><strong>Unarmed Damage - </strong>An unarmed combatant rolls only his Strength die unless he has an @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edge} like <strong>@Compendium[swade-core-rules.swade-edges.Brawler]{Brawler} </strong>or <strong>@Compendium[swade-core-rules.swade-edges.Martial Artist]{Martial Artist}</strong> that grants him a damage die.</p></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Bangstick": {
+            "name": "Bangstick",
+            "description": "<article class=\"swade-core\"><p>A @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{shotgun} shell on a stick used in melee; must be reloaded with a fresh shell (one action)</p></article>",
+            "notes": "A shotgun shell on a stick used in melee; must be reloaded with a fresh shell (one action)",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Modern"
+        },
+        "Billy Club/Baton": {
+            "name": "Billy Club/Baton",
+            "description": "<article class=\"swade-core\"><p>Often carried by law enforcement</p></article>",
+            "notes": "Often carried by law enforcement",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Modern"
+        },
+        "Crossbow": {
+            "name": "Crossbow",
+            "description": "<article class=\"swade-core\">@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload}</article>",
+            "notes": "Hand-drawn",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "15/30/60",
+            "ammo": "Arrows/Bolts",
+            "category": "Ranged Weapons, Modern"
+        },
+        "Brass Knuckles": {
+            "name": "Brass Knuckles",
+            "description": "<article class=\"swade-core\"><p>Do not count as a weapon for @Compendium[swade-core-rules.swade-rules.Unarmed Defender]{Unarmed Defender}</p></article>",
+            "notes": "Do not count as a weapon for Unarmed Defender",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Modern"
+        },
+        "Warhammer": {
+            "name": "Warhammer",
+            "description": "<article class=\"swade-core\">\n<p>Spiked, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armorpiercin00]{AP} 1</p>\n</article>",
+            "notes": "Spiked, AP 1",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Axe, Throwing": {
+            "name": "Axe, Throwing",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Athletics"
+            },
+            "range": "3/6/12",
+            "ammo": "",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Springfield Model 1861": {
+            "name": "Springfield Model 1861",
+            "description": "<article class=\"swade-core\"><p>Black powder weapons are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 3.</p></article>",
+            "notes": "Black powder weapons are Reload 3.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "15/30/60",
+            "ammo": "Shot (w/ powder)",
+            "category": "Blackpowder Weapons"
+        },
+        "Crossbow (Hand Drawn)": {
+            "name": "Crossbow (Hand Drawn)",
+            "description": "<article class=\"swade-core\"><p>Hand-drawn.</p></article>",
+            "notes": "Hand-drawn",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "10/20/40",
+            "ammo": "Arrows/Bolts",
+            "category": "Ranged Weapons, Medieval"
+        },
+        "Axe, Battle": {
+            "name": "Axe, Battle",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Kentucky Rifle": {
+            "name": "Kentucky Rifle",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 4. The tight rifling requires four actions to reload instead of the usual three.</p></article>",
+            "notes": "Reload 4. The tight rifling requires four actions to reload instead of the usual three.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "15/30/60",
+            "ammo": "Shot (w/ powder)",
+            "category": "Blackpowder Weapons"
+        },
+        "Axe, Hand": {
+            "name": "Axe, Hand",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "New Action"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Katana": {
+            "name": "Katana",
+            "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02twohands000000]{Two hands}</p>\n</article>",
+            "notes": "Two hands",
+            "actions": {
+                "skill": "Fighting",
+                "additional": {
+                    "casd2f6k9v": {
+                        "name": "One-handed"
+                    }
+                }
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        },
+        "Brown Bess or Similar Muskets": {
+            "name": "Brown Bess or Similar Muskets",
+            "description": "<article class=\"swade-core\"><p>Black powder weapons are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02reload00000000]{Reload} 3.</p></article>",
+            "notes": "Black powder weapons are Reload 3.",
+            "actions": {
+                "skill": "Shooting"
+            },
+            "range": "10/20/40",
+            "ammo": "Shot (w/ powder)",
+            "category": "Blackpowder Weapons"
+        },
+        "Switchblade": {
+            "name": "Switchblade",
+            "description": "<article class=\"swade-core\">\n<p>&minus;2 to be @Compendium[swade-core-rules.swade-skills.Notice]{Noticed} if hidden</p>\n</article>",
+            "notes": "−2 to be Noticed if hidden",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Modern"
+        },
+        "Mace": {
+            "name": "Mace",
+            "description": "<article class=\"swade-core\"></article>",
+            "notes": "",
+            "actions": {
+                "skill": "Fighting"
+            },
+            "range": "",
+            "ammo": "",
+            "category": "Melee Weapons, Medieval"
+        }
+    }
 }
