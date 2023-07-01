@@ -1,0 +1,7 @@
+{
+    "mapping": {
+        "description": "system.description",
+        "requirements": "system.requirements.value",
+        "category": "system.category"
+    }
+}
