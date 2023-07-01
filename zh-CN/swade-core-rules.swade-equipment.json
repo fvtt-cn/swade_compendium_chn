@@ -10,7 +10,7 @@
                 "skill": "射击"
             },
             "name": "地狱火",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，从车载发射器上发射的激光制导导弹。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.破坏物体]{坚韧}为8(2)的物件。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，从车载发射器上发射的激光制导导弹。 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03hold0000000000]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03speed000000000]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{坚韧}为8(2)的物件。</p>\n</div>",
             "notes": "重武器，从车载发射器上发射的激光制导导弹。"
         },
         "Improvised Weapon (Medium)": {
@@ -23,11 +23,11 @@
                 }
             },
             "name": "临时武器 (重型)",
-            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@Compendium[swade-core-rules.swade-rules.射程]{射程}，@Compendium[swade-core-rules.swade-rules.伤害]{伤害}及@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>"
         },
         "Lance": {
             "name": "骑枪",
-            "description": "<div class=\"swade-core\">\n<p>冲锋时带有@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}2，@Compendium[swade-core-rules.swade-rules.触及]{触及}2，只能在@Compendium[swade-core-rules.swade-rules.骑乘战斗]{骑乘战斗}时使用。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>冲锋时带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}2，只能在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03mountedcomba00]{骑乘战斗}时使用。</p>\n</div>",
             "notes": "冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用",
             "actions": {
                 "skill": "格斗"
@@ -63,12 +63,12 @@
                 }
             },
             "name": "M60",
-            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
+            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
             "ammo": "中型子弹"
         },
         "Medic Kit": {
             "name": "医疗套件",
-            "description": "<div class=\"swade-core\">\n<p>使用次数5，@Compendium[swade-core-rules.swade-skills.治疗]{治疗}技能投骰+1，补充花费$25。</p>\n<p>参见主要@Compendium[swade-core-rules.swade-rules.恢复]{恢复}规则。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>使用次数5，@Compendium[swade-core-rules.swade-skills.治疗]{治疗}技能投骰+1，补充花费$25。</p>\n<p>参见主要@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03healing0000000]{恢复}规则。</p>\n</div>",
             "category": "冒险工具"
         },
         "Medium Machine Gun": {
@@ -84,12 +84,12 @@
                 "skill": "射击"
             },
             "name": "中型机枪",
-            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p></div>",
             "notes": "重武器。"
         },
         "Medium Shield": {
             "name": "中型盾牌",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则中世纪盾牌的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}为10，并提供+2@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则中世纪盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，并提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -106,7 +106,7 @@
         },
         "120mm Tank Gun (AP Rounds)": {
             "name": "120mm 坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}</p>\n</div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -119,7 +119,7 @@
         },
         "120mm Tank Gun (HE Rounds)": {
             "name": "120mm 坦克炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "notes": "中型爆发盖板，重武器。",
             "actions": {
                 "skill": "射击"
@@ -127,7 +127,7 @@
         },
         "125mm Tank Gun (AP Rounds)": {
             "name": "125mm 坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}</p>\n</div>",
             "notes": "重武器。",
             "actions": {
                 "skill": "射击",
@@ -139,7 +139,7 @@
             }
         },
         "125mm Tank Gun (HE Rounds)": {
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "actions": {
                 "skill": "射击"
             },
@@ -148,7 +148,7 @@
         },
         "2 pd AT Gun (AP Rounds)": {
             "name": "2磅反坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\"><p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p></div>",
             "notes": "重武器",
             "actions": {
                 "skill": "射击",
@@ -161,7 +161,7 @@
         },
         "2 pd AT Gun (HE Rounds)": {
             "name": "2磅反坦克炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "notes": "中型爆发盖板，重武器。",
             "actions": {
                 "skill": "射击"
@@ -169,7 +169,7 @@
         },
         "20mm Cannon": {
             "name": "20mm 加农炮",
-            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p></div>",
             "notes": "重型",
             "actions": {
                 "skill": "射击",
@@ -188,7 +188,7 @@
         },
         "25mm Cannon": {
             "name": "25mm 加农炮",
-            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p></div>",
             "notes": "重型",
             "actions": {
                 "skill": "射击",
@@ -204,7 +204,7 @@
         },
         "30mm Cannon": {
             "name": "30mm 加农炮",
-            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p></div>",
             "notes": "重武器",
             "actions": {
                 "skill": "射击",
@@ -220,7 +220,7 @@
         },
         "37mm AT Gun (AP Rounds)": {
             "name": "37mm 反坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\"><p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p></div>",
             "notes": "重武器",
             "actions": {
                 "additional": {
@@ -233,7 +233,7 @@
         },
         "37mm AT Gun (HE Rounds)": {
             "name": "37mm 反坦克炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "notes": "中型爆发盖板，重武器",
             "actions": {
                 "skill": "射击"
@@ -241,7 +241,7 @@
         },
         "40mm Cannon (AP Rounds)": {
             "name": "40mm 加农炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p>\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p>\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n</div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -263,7 +263,7 @@
         },
         "40mm Cannon (HE Rounds)": {
             "name": "40mm 加农炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p>\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p>\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "actions": {
                 "additional": {
                     "ek94a6scmn": {
@@ -282,7 +282,7 @@
         },
         "57mm AT Gun (AP Rounds)": {
             "name": "57mm 反坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\"><p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p></div>",
             "notes": "重武器",
             "actions": {
                 "skill": "射击",
@@ -295,7 +295,7 @@
         },
         "57mm AT Gun (HE Rounds)": {
             "name": "57mm 反坦克炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "notes": "中型爆发盖板，重武器",
             "actions": {
                 "skill": "射击"
@@ -303,7 +303,7 @@
         },
         "75mm Tank Gun (AP Rounds)": {
             "name": "75mm 坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}</p>\n</div>",
             "notes": "重武器",
             "actions": {
                 "skill": "射击",
@@ -316,7 +316,7 @@
         },
         "75mm Tank Gun (HE Rounds)": {
             "name": "75mm 坦克炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "notes": "中型爆发盖板，重武器",
             "actions": {
                 "skill": "射击"
@@ -324,7 +324,7 @@
         },
         "76mm Tank Gun (AP Rounds)": {
             "name": "76mm 坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}</p>\n</div>",
             "notes": "重武器。",
             "actions": {
                 "skill": "射击",
@@ -337,7 +337,7 @@
         },
         "76mm Tank Gun (HE Rounds)": {
             "name": "76mm 坦克炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "notes": "中型爆发盖板，重武器。",
             "actions": {
                 "skill": "射击"
@@ -345,7 +345,7 @@
         },
         "88mm Tank Gun (AP Rounds)": {
             "name": "88mm 坦克炮 (穿甲弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}</p>\n</div>",
             "notes": "重武器",
             "actions": {
                 "skill": "射击",
@@ -358,14 +358,14 @@
         },
         "88mm Tank Gun (HE Rounds)": {
             "name": "88mm 坦克炮 (高爆弹)",
-            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}弹或是@Compendium[swade-core-rules.swade-rules.高爆 (HE)]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p><strong>坦克与反坦克炮：</strong>能根据炮手的选择发射@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}弹或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02highexplosiv00]{高爆}弹。穿甲弹在接近时会造成额外伤害。如果在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的一半及以下的距离内开火，则武器的伤害骰子增加一枚。(举例而言，4d10+2变为5d10+2)。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n</div>",
             "notes": "中型爆发盖板，重武器",
             "actions": {
                 "skill": "射击"
             }
         },
         "Anti-Personnel Mine": {
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，@Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆发盖板}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{小型爆发盖板}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
             "notes": "重武器。",
             "actions": {
                 "skill": "格斗"
@@ -374,7 +374,7 @@
         },
         "Anti-Tank Mine": {
             "name": "反坦克地雷",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，穿甲5 VS ½载具@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值(向上取整)， @Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，穿甲5 VS ½载具@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值(向上取整)， @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
             "notes": "重武器，穿甲5 VS ½载具护甲值(向上取整)。",
             "actions": {
                 "skill": "格斗"
@@ -393,7 +393,7 @@
         },
         "Axe, Great": {
             "name": "巨斧",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.格挡]{格挡}&ndash;1，@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}&ndash;1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "格挡-1，双手",
             "actions": {
                 "skill": "格斗",
@@ -427,7 +427,7 @@
         },
         "Ballistic Shield": {
             "name": "防弹盾",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则现代盾牌的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}是12，同时提供+2@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则现代盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是12，同时提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "notes": "攻击方打算射穿防弹盾时，火器造成的伤害-4。",
             "actions": {
                 "skill": "格斗",
@@ -440,14 +440,14 @@
         },
         "Bangstick": {
             "name": "震爆杖",
-            "description": "<div class=\"swade-core\"><p>附有单发@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹}的杖(用于近战)，用完必须装填新的霰弹(一个动作)</p></div>",
+            "description": "<div class=\"swade-core\"><p>附有单发@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹}的杖(用于近战)，用完必须装填新的霰弹(一个动作)</p></div>",
             "notes": "附有单发霰弹的杖(用于近战)，用完必须装填新的霰弹(一个动作)",
             "actions": {
                 "skill": "格斗"
             }
         },
         "Barrett": {
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，@Compendium[swade-core-rules.swade-rules.猝射]{猝射}，装填时巴雷特使用满装填时重达2磅的10发可卸除式弹匣，其几乎都会配有@Compendium[swade-core-rules.swade-equipment.步枪瞄准镜]{步枪瞄准镜}。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}，装填时巴雷特使用满装填时重达2磅的10发可卸除式弹匣，其几乎都会配有@Compendium[swade-core-rules.swade-equipment.步枪瞄准镜]{步枪瞄准镜}。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p>\n</div>",
             "ammo": "大型子弹",
             "name": "巴雷特",
             "actions": {
@@ -461,11 +461,11 @@
         },
         "Battle Helmet": {
             "name": "战斗头盔",
-            "description": "<div class=\"swade-core\"><p>私人或国家武装力量使用的@Compendium[swade-core-rules.swade-rules.护甲]{护甲}。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
+            "description": "<div class=\"swade-core\"><p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
         },
         "Battle Helmet w/ Energy Skin": {
             "name": "战斗头盔 (带能量表皮)",
-            "description": "<div class=\"swade-core\">\n<p>私人或国家武装力量使用的@Compendium[swade-core-rules.swade-rules.护甲]{护甲}。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.能量表皮]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>"
         },
         "Bayonet": {
             "actions": {
@@ -480,11 +480,11 @@
                 "skill": "格斗"
             },
             "name": "刺刀",
-            "description": "<div class=\"swade-core\">\n<p>装配在步枪上时伤害为力量+d6且@Compendium[swade-core-rules.swade-rules.格挡]{格挡}+1，@Compendium[swade-core-rules.swade-rules.触及]{触及}1，@Compendium[swade-core-rules.swade-rules.双手]{双手}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>装配在步枪上时伤害为力量+d6且@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}。</p>\n</div>",
             "notes": "装配在步枪上时伤害为力量+d6且格挡+1，触及1，双手"
         },
         "Bazooka": {
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射}。二战中美军的标准反坦克武器。额外的火箭弹重9磅，二战时的费用为$50。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}。二战中美军的标准反坦克武器。额外的火箭弹重9磅，二战时的费用为$50。 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}。</p>\n</div>",
             "notes": "中型爆发盖板，猝射。二战中美军的标准反坦克武器。额外的火箭弹重9磅，二战时的费用为$50。",
             "actions": {
                 "skill": "射击"
@@ -509,7 +509,7 @@
         },
         "Bipod/Tripod": {
             "name": "双脚架/三脚架",
-            "description": "<div class=\"swade-core\">\n<p>架起需要使用一个动作，忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}及@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}减值。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>架起需要使用一个动作，忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}减值。</p>\n</div>",
             "category": "火器配件"
         },
         "Blanket": {
@@ -518,7 +518,7 @@
         },
         "Blunderbuss": {
             "name": "喇叭枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p>\n<p>视作@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹枪}。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p>\n<p>视作@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}。</p></div>",
             "notes": "黑火药武器的装填均为3。视作霰弹枪。",
             "actions": {
                 "skill": "射击",
@@ -538,16 +538,16 @@
         },
         "Body Armor": {
             "name": "护身服",
-            "description": "<div class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>",
             "notes": "以复杂聚合物及先进防弹纤维制作的轻便防护衣物。"
         },
         "Body Armor w/Energy Skin": {
             "name": "护身服(带能量表皮)",
-            "description": "<div class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.能量表皮]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>",
             "notes": "以复杂聚合物及先进防弹纤维制作的轻便防护衣物。"
         },
         "Natural Horns": {
-            "description": "<div class=\"swade-core\"><p><strong>角撞：</strong>在@Compendium[swade-core-rules.swade-rules.移动]{奔跑}，移动至少5英寸(10码)后成功以角击中的单个@Compendium[swade-core-rules.swade-skills.格斗]{格斗}动作最后的@Compendium[swade-core-rules.swade-rules.伤害]{伤害}+4。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>角撞：</strong>在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑}，移动至少5英寸(10码)后成功以角击中的单个@Compendium[swade-core-rules.swade-skills.格斗]{格斗}动作最后的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}+4。</p></div>",
             "name": "天武角撞",
             "actions": {
                 "skill": "格斗"
@@ -555,17 +555,17 @@
         },
         "Bombproof suit": {
             "name": "防爆服",
-            "description": "<div class=\"swade-core\">\n<p>防爆服除了没被覆盖的手部以外并不灵活。涉及手部灵活性以外的@Compendium[swade-core-rules.swade-rules.特性]{灵巧}及相关技能在穿戴该衣物时无法超过d6，同时@Compendium[swade-core-rules.swade-rules.移动]{移速}下降2(除去@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}减值外)。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>防爆服除了没被覆盖的手部以外并不灵活。涉及手部灵活性以外的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{灵巧}及相关技能在穿戴该衣物时无法超过d6，同时@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}下降2(除去@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}减值外)。</p>\n</div>",
             "notes": "防爆服除了没被覆盖的手部以外并不灵活。涉及手部灵活性以外的灵巧及相关技能在穿戴该衣物时无法超过d6，同时移速下降2(除去最低力量减值外)。"
         },
         "Bombs": {
             "name": "炸弹",
             "notes": "作为对所有不在其影响区域内的人的一次威吓考验",
-            "description": "<div class=\"swade-core\"><blockquote>\n<p>炸弹伤害：灰飞烟灭</p>\n<p>炸弹是对所有<em>不在</em>其影响区域内的人的一次@Compendium[swade-core-rules.swade-skills.威吓]{威吓}@Compendium[swade-core-rules.swade-rules.考验]{考验}</p>\n<p><cite>- 克林特·布莱克</cite></p>\n</blockquote></div>"
+            "description": "<div class=\"swade-core\"><blockquote>\n<p>炸弹伤害：灰飞烟灭</p>\n<p>炸弹是对所有<em>不在</em>其影响区域内的人的一次@Compendium[swade-core-rules.swade-skills.威吓]{威吓}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03test0000000000]{考验}</p>\n<p><cite>- 克林特·布莱克</cite></p>\n</blockquote></div>"
         },
         "Bouncing Betty": {
             "name": "跳雷",
-            "description": "<div class=\"swade-core\">\n<p>这些致命的反人员地雷会跳到空中并从约人头高的位置降下雨点般的弹片。面对这种装 置，只有穿戴全覆式的头顶防护才能提供@Compendium[swade-core-rules.swade-rules.护甲]{护甲}加值，单纯俯卧无法就这种致命的爆炸无法提供防护。使用@Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆发盖板}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>这些致命的反人员地雷会跳到空中并从约人头高的位置降下雨点般的弹片。面对这种装 置，只有穿戴全覆式的头顶防护才能提供@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}加值，单纯俯卧无法就这种致命的爆炸无法提供防护。使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{小型爆发盖板}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
             "notes": "这些致命的反人员地雷会跳到空中并从约人头高的位置降下雨点般的弹片。面对这种装置，只有穿戴全覆式的头顶防护才能提供护甲加值，单纯俯卧无法就这种致命的爆炸无法提供防护。",
             "actions": {
                 "skill": "格斗"
@@ -580,7 +580,7 @@
         },
         "Brass Knuckles": {
             "name": "黄铜指虎",
-            "description": "<div class=\"swade-core\"><p>判断是否时@Compendium[swade-core-rules.swade-rules.手无寸铁]{手无寸铁}不视作武器。</p></div>",
+            "description": "<div class=\"swade-core\"><p>判断是否时@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03unarmeddefen00]{手无寸铁}不视作武器。</p></div>",
             "notes": "判断是否时手无寸铁不视作武器",
             "actions": {
                 "skill": "格斗"
@@ -600,7 +600,7 @@
         },
         "Brown Bess or Similar Muskets": {
             "name": "棕管枪或类似的火枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></div>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
                 "skill": "射击"
@@ -609,7 +609,7 @@
         },
         "Browning Automatic Rifle": {
             "name": "勃朗宁自动步枪",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.射速]{射速}是1到3，使用弹匣(@Compendium[swade-core-rules.swade-rules.装填]{装填}所需动作从通常的两个变成一个)。</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速}是2。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是1到3，使用弹匣(@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}所需动作从通常的两个变成一个)。</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n</div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -673,13 +673,13 @@
         },
         "Canister Shot (Cannon)": {
             "name": "霰弹 (加农炮)",
-            "description": "<div class=\"swade-core\">\n<p>葡萄弹或是霰弹是一种会在加农炮管内爆炸的炮弹，其会像巨型霰弹枪一样射出一片致命的金属球或是其他碎片。这属于@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}攻击，并且至多会直线移动到24英寸远(如果不使用棋子则是会影响[[/r d6]]个目标，如果对方特别紧凑则是影响[[/r 2d6]]个目标)</p>\n<p>每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰单独结算，使用基础TN(4)并算上各目标的@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，出现优良则是3d6伤害。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>葡萄弹或是霰弹是一种会在加农炮管内爆炸的炮弹，其会像巨型霰弹枪一样射出一片致命的金属球或是其他碎片。这属于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}攻击，并且至多会直线移动到24英寸远(如果不使用棋子则是会影响[[/r d6]]个目标，如果对方特别紧凑则是影响[[/r 2d6]]个目标)</p>\n<p>每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰单独结算，使用基础TN(4)并算上各目标的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，出现优良则是3d6伤害。</p>\n</div>",
             "notes": "24\" path，2d6 damage，中型爆发盖板",
             "category": "加农炮"
         },
         "Cannon (12 lb), Canister": {
             "name": "加农炮 (12 磅)，霰弹",
-            "description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰失败则其偏移翻倍(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>霰弹：</strong>葡萄弹或是霰弹是一种会在加农炮管内爆炸的炮弹，其会像巨型霰弹枪一样射出一片致命的金属球或是其他碎片。这属于@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}攻击，并且至多会直线移动到24英寸远(如果不使用棋子则是会影响[[/r d6]]个目标，如果对方特别紧凑则是影响[[/r 2d6]]个目标)</p>\n<p>每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰单独结算，使用基础TN(4)并算上各目标的@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，出现优良则是3d6伤害。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，@Compendium[swade-core-rules.swade-rules.装填]{装填}为8，两名炮组成员能同时进行装填。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰失败则其偏移翻倍(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>霰弹：</strong>葡萄弹或是霰弹是一种会在加农炮管内爆炸的炮弹，其会像巨型霰弹枪一样射出一片致命的金属球或是其他碎片。这属于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}攻击，并且至多会直线移动到24英寸远(如果不使用棋子则是会影响[[/r d6]]个目标，如果对方特别紧凑则是影响[[/r 2d6]]个目标)</p>\n<p>每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰单独结算，使用基础TN(4)并算上各目标的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，出现优良则是3d6伤害。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}为8，两名炮组成员能同时进行装填。</p>\n</div>",
             "notes": "所有种类的炮弹都是重武器，装填为8，两名炮组成员能同时进行装填。",
             "actions": {
                 "skill": "射击",
@@ -697,7 +697,7 @@
         },
         "Cannon (12 lb), Shrapnel": {
             "name": "加农炮 (12 磅)，榴霰弹",
-            "description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰失败则其偏移翻倍(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>榴霰弹：</strong>这枚爆炸性的炮弹当中塞满了金属小球，其会在爆炸时向外炸出暴雨般的碎片。 除非另有说明，这是一次使用@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击}。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，@Compendium[swade-core-rules.swade-rules.装填]{装填}为8，两名炮组成员能同时进行装填。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰失败则其偏移翻倍(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>榴霰弹：</strong>这枚爆炸性的炮弹当中塞满了金属小球，其会在爆炸时向外炸出暴雨般的碎片。 除非另有说明，这是一次使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击}。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}为8，两名炮组成员能同时进行装填。</p>\n</div>",
             "notes": "所有种类的炮弹都是重武器，装填为8，两名炮组成员能同时进行装填。",
             "actions": {
                 "skill": "射击",
@@ -714,7 +714,7 @@
         },
         "Cannon (12 lb), Solid Shot": {
             "name": "加农炮 (12 磅)，实心弹",
-            "description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰失败则其偏移翻倍(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>实心弹：</strong>用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，@Compendium[swade-core-rules.swade-rules.装填]{装填}为8，两名炮组成员能同时进行装填。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>加农炮用于破坏城墙或是炸散大部队的阵线，由炮组的领队进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。</p>\n<p><strong>炮轰：</strong>假设大概知道目标所在位置，榴弹炮、迫击炮和臼炮能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外遭受-4减值，而且如果@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰失败则其偏移翻倍(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})。若是能获得精准坐标(比如配合侦查员)，则减值降至-2。</p>\n<p><strong>实心弹：</strong>用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p>\n<p><strong>注：</strong>所有种类的炮弹都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}为8，两名炮组成员能同时进行装填。</p>\n</div>",
             "notes": "所有种类的炮弹都是重武器，装填为8，两名炮组成员能同时进行装填。",
             "actions": {
                 "skill": "射击",
@@ -738,7 +738,7 @@
             "name": "盖帽 (布/薄皮)"
         },
         "Catapult": {
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}，@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，四人@Compendium[swade-core-rules.swade-rules.装填]{装填}时间需要5分钟。</p>\n<hr />\n<p>投石机是把大块石头抛向敌方防御工事以及部队阵列的简易装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但装填投射物至少需要四名人员。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，四人@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}时间需要5分钟。</p>\n<hr />\n<p>投石机是把大块石头抛向敌方防御工事以及部队阵列的简易装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但装填投射物至少需要四名人员。</p>\n</div>",
             "notes": "中型爆发盖板，重武器，四人装填时间需要5分钟。",
             "actions": {
                 "skill": "射击"
@@ -755,14 +755,14 @@
         },
         "Chainsaw": {
             "name": "链锯",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}会击中使用者。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}会击中使用者。</p></div>",
             "notes": "大失败会击中使用者",
             "actions": {
                 "skill": "格斗"
             }
         },
         "Claymore Mine": {
-            "description": "<div class=\"swade-core\">\n<p>阔剑地雷会炸出一片60度扇面的致命钢珠，12英寸(24码)内的所有人都会被自动命中，最远达50英寸(100码)内的其他所有目标须进行一次投骰，结果为奇数则也被命中。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{特殊范围效果伤害}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>阔剑地雷会炸出一片60度扇面的致命钢珠，12英寸(24码)内的所有人都会被自动命中，最远达50英寸(100码)内的其他所有目标须进行一次投骰，结果为奇数则也被命中。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{特殊范围效果伤害}。</p>\n<hr />\n<p>地雷是埋设在浅土下的爆炸物，当人员(反人员地雷)或是载具(反坦克地雷)在上经过时就会爆炸，并波及对应爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})的范围。</p>\n<p><strong>雷区：</strong>出于戏剧效果，踩上地雷的角色应当能进行一次@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰，成功则意味着其在移开脚步并引爆地雷前就能反应过来。要救下这个倒霉鬼需要一次-4的@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰，但失败就会马上引爆地雷。</p>\n</div>",
             "notes": "阔剑地雷会炸出一片60度扇面的致命钢珠，12英寸(24码)内的所有人都会被自动命中，最远达50英寸(100码)内的其他所有目标须进行一次投骰，结果为奇数则也被命中。",
             "actions": {
                 "skill": "格斗"
@@ -850,7 +850,7 @@
         },
         "Crossbow, Heavy": {
             "name": "重弩",
-            "description": "<div class=\"swade-core\"><p>需绞盘才能装弹，@Compendium[swade-core-rules.swade-rules.装填]{装填}2。</p></div>",
+            "description": "<div class=\"swade-core\"><p>需绞盘才能装弹，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}2。</p></div>",
             "notes": "需绞盘才能装弹，装填2",
             "actions": {
                 "skill": "射击"
@@ -902,7 +902,7 @@
         },
         "Double-Barrel Shotgun": {
             "name": "双管霰弹枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -951,12 +951,12 @@
         },
         "First Aid Kit": {
             "name": "急救包",
-            "description": "<div class=\"swade-core\">\n<p>使用次数3，见@Compendium[swade-core-rules.swade-rules.恢复]{恢复}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>使用次数3，见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03healing0000000]{恢复}。</p>\n</div>",
             "category": "冒险工具"
         },
         "Flail": {
             "name": "连枷",
-            "description": "<div class=\"swade-core\">\n<p>忽略@Compendium[swade-core-rules.swade-rules.盾牌]{盾牌}加值。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02shields0000000]{盾牌}加值。</p>\n</div>",
             "notes": "忽略盾牌加值",
             "actions": {
                 "skill": "格斗"
@@ -964,7 +964,7 @@
         },
         "Flamethrower": {
             "name": "喷火器",
-            "description": "<div class=\"swade-core\">\n<p>喷火器会将燃烧的液体或气体喷洒出去以焚烧目标，这属于@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，使用@Compendium[swade-core-rules.swade-rules.范围效果攻击]{锥形盖板}且可以被@Compendium[swade-core-rules.swade-rules.回避]{回避}。</p>\n<p>@Compendium[swade-core-rules.swade-rules.护甲]{护甲}如常提供保护，但可燃的目标可能会@Compendium[swade-core-rules.swade-rules.火焰]{着火}。</p>\n<p>载具喷火器见@Compendium[swade-core-rules.swade-equipment.重型喷火器]{重型喷火器}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>喷火器会将燃烧的液体或气体喷洒出去以焚烧目标，这属于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{锥形盖板}且可以被@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03evasion0000000]{回避}。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}如常提供保护，但可燃的目标可能会@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04fire0000000000]{着火}。</p>\n<p>载具喷火器见@Compendium[swade-core-rules.swade-equipment.重型喷火器]{重型喷火器}。</p>\n</div>",
             "actions": {
                 "skill": "射击"
             },
@@ -985,7 +985,7 @@
         },
         "Flintlock Pistol": {
             "name": "燧发手枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></div>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
                 "skill": "射击"
@@ -994,7 +994,7 @@
         },
         "Gatling": {
             "name": "加特林机枪",
-            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
+            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1014,11 +1014,11 @@
                 "skill": "运动"
             },
             "name": "柄式手雷",
-            "description": "<div class=\"swade-core\">\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@Compendium[swade-core-rules.swade-rules.射程]{射程})使用。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<p>所有的手雷都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，其爆炸范围对应的爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})已在下面列出。手雷能被@Compendium[swade-core-rules.swade-rules.回避]{回避}</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程})使用。 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<p>所有的手雷都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，其爆炸范围对应的爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})已在下面列出。手雷能被@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03evasion0000000]{回避}</p>\n</div>"
         },
         "Pump Action Shotgun": {
             "name": "泵动式霰弹枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1046,12 +1046,12 @@
                 "skill": "格斗"
             },
             "name": "刺剑",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.格挡]{格挡}+1</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1</p></div>",
             "notes": "格挡+1"
         },
         "Rifle (Laser)": {
             "name": "步枪 (激光)",
-            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@Compendium[swade-core-rules.swade-rules.伤害效果]{失血}的@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
             "notes": "激光枪电池，步枪/冲锋枪",
             "actions": {
                 "skill": "射击",
@@ -1071,7 +1071,7 @@
         },
         "Gatling (Laser)": {
             "name": "加特林 (激光)",
-            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@Compendium[swade-core-rules.swade-rules.伤害效果]{失血}的@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
             "notes": "无后座，超载，烧灼",
             "actions": {
                 "skill": "射击",
@@ -1137,7 +1137,7 @@
         },
         "Halberd": {
             "name": "战戟",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.触及]{触及}1，双手</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，双手</p></div>",
             "notes": "触及1，双手",
             "actions": {
                 "skill": "格斗",
@@ -1158,7 +1158,7 @@
         },
         "Heavy Flamethrower": {
             "name": "重型喷火器",
-            "description": "<div class=\"swade-core\">\n<p>车载喷火器比起单兵喷火器有着更远的射程。使用者可以使用@Compendium[swade-core-rules.swade-rules.范围效果攻击]{锥形盖板}，或是用@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}以弧线画出一个最远18英寸(36码)的爆发范围(使用盖板中心以计算距离)。该攻击可能会@Compendium[swade-core-rules.swade-rules.范围效果攻击]{偏移}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>车载喷火器比起单兵喷火器有着更远的射程。使用者可以使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{锥形盖板}，或是用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}以弧线画出一个最远18英寸(36码)的爆发范围(使用盖板中心以计算距离)。该攻击可能会@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{偏移}。</p>\n</div>",
             "actions": {
                 "skill": "射击"
             },
@@ -1175,14 +1175,14 @@
         },
         "Heavy Laser": {
             "name": "重型激光枪",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器 (HW)}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器 (HW)}</p>\n</div>",
             "notes": "重武器。",
             "actions": {
                 "skill": "射击"
             }
         },
         "Heavy Machine Gun": {
-            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@Compendium[swade-core-rules.swade-rules.射速]{射速}3或以上的载具武器其最低射速为2。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>最低射速：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}3或以上的载具武器其最低射速为2。</p></div>",
             "notes": "重武器。",
             "actions": {
                 "skill": "射击",
@@ -1199,7 +1199,7 @@
         },
         "Hunting Rifle": {
             "name": "狩猎步枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射}</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1212,7 +1212,7 @@
         },
         "Improvised Weapon (Heavy)": {
             "name": "临时武器 (重型)",
-            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@Compendium[swade-core-rules.swade-rules.射程]{射程}，@Compendium[swade-core-rules.swade-rules.伤害]{伤害}及@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -1235,11 +1235,11 @@
         },
         "Infantry Battle Suit": {
             "name": "步兵战斗服",
-            "description": "<div class=\"swade-core\"><p>配有靴子和手套的全套护甲。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
+            "description": "<div class=\"swade-core\"><p>配有靴子和手套的全套护甲。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
         },
         "Infantry Battle Suit w/ Energy Skin": {
             "name": "步兵战斗服(带能量表皮)",
-            "description": "<div class=\"swade-core\">\n<p>私人或国家武装力量使用的@Compendium[swade-core-rules.swade-rules.护甲]{护甲}。</p>\n<p>配有靴子和手套的全套护甲。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.能量表皮]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p>配有靴子和手套的全套护甲。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>",
             "notes": "配有靴子和手套的全套护甲。"
         },
         "Jacket (Cloth/Light Leather)": {
@@ -1252,7 +1252,7 @@
         },
         "Katana": {
             "name": "打刀",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "双手",
             "actions": {
                 "skill": "格斗",
@@ -1265,7 +1265,7 @@
         },
         "Kentucky Rifle": {
             "name": "肯塔基来复枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.装填]{装填}4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。</p></div>",
             "notes": "装填4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。",
             "actions": {
                 "skill": "射击"
@@ -1280,19 +1280,19 @@
         },
         "Kevlar Vest": {
             "name": "凯夫拉背心",
-            "description": "<div class=\"swade-core\">\n<p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>"
+            "description": "<div class=\"swade-core\">\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</div>"
         },
         "Kevlar Vest with ceramic inserts": {
             "name": "凯夫拉背心及陶制填充物",
-            "description": "<div class=\"swade-core\"><p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
+            "description": "<div class=\"swade-core\"><p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
         },
         "Kevlar helmet": {
             "name": "凯夫拉头盔",
-            "description": "<div class=\"swade-core\"><p><strong>@Compendium[swade-core-rules.swade-rules.防弹]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
+            "description": "<div class=\"swade-core\"><p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></div>"
         },
         "Large Shield": {
             "name": "大型盾牌",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则中世纪盾牌的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}为10，并提供+2@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则中世纪盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，并提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -1319,7 +1319,7 @@
         },
         "Laser/Red Dot Sight": {
             "name": "激光/红点瞄准器",
-            "description": "<div class=\"swade-core\">\n<p>短距及中距@Compendium[swade-core-rules.swade-rules.射程]{射程}的@Compendium[swade-core-rules.swade-skills.射击]{射击}+1。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>短距及中距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}的@Compendium[swade-core-rules.swade-skills.射击]{射击}+1。</p>\n</div>",
             "category": "火器配件"
         },
         "Leather Riding Chaps": {
@@ -1359,7 +1359,7 @@
         },
         "M-16": {
             "name": "M-16",
-            "description": "<div class=\"swade-core\"><p>A-2版同样能@Compendium[swade-core-rules.swade-rules.三连发]{三连发}。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
+            "description": "<div class=\"swade-core\"><p>A-2版同样能@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02threeroundbu00]{三连发}。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1387,7 +1387,7 @@
         },
         "M2 Browning": {
             "name": "M2 勃朗宁",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p>\n</div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1403,7 +1403,7 @@
         },
         "M203 40MM": {
             "name": "M203 40MM",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射}。搭载于突击步枪下方的榴弹发射器。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}。搭载于突击步枪下方的榴弹发射器。 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}。</p>\n</div>",
             "notes": "中型爆发盖板，猝射。搭载于突击步枪下方的榴弹发射器。",
             "actions": {
                 "skill": "射击"
@@ -1411,7 +1411,7 @@
         },
         "M72 Law": {
             "name": "M72 轻型反坦克武器",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射}。美军在越南的标准反坦克武器。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}。美军在越南的标准反坦克武器。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}。</p>\n</div>",
             "notes": "猝射。美军在越南的标准反坦克武器。",
             "actions": {
                 "skill": "射击"
@@ -1419,7 +1419,7 @@
         },
         "MG42": {
             "name": "MG42",
-            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
+            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1457,7 +1457,7 @@
         },
         "Maul": {
             "name": "大槌",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.双手]{双手}，@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体}时+2伤害。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{破坏物体}时+2伤害。</p>\n</div>",
             "notes": "双手，破坏物体时+2伤害",
             "actions": {
                 "skill": "格斗",
@@ -1470,7 +1470,7 @@
         },
         "Minigun": {
             "name": "旋管机枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.射速]{射速}下限3，需要额外准备满装填重达85磅的背负式供弹箱(内装4000发弹链式子弹)。</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}下限3，需要额外准备满装填重达85磅的背负式供弹箱(内装4000发弹链式子弹)。</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1498,7 +1498,7 @@
         },
         "Mk II (WW2 Pineapple)": {
             "name": "Mk II (二战菠萝)",
-            "description": "<div class=\"swade-core\">\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@Compendium[swade-core-rules.swade-rules.射程]{射程})使用。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<p>所有的手雷都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，其爆炸范围对应的爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})已在下面列出。手雷能被@Compendium[swade-core-rules.swade-rules.回避]{回避}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程})使用。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<p>所有的手雷都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，其爆炸范围对应的爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})已在下面列出。手雷能被@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03evasion0000000]{回避}</p>\n</div>",
             "notes": "中型爆发盖板",
             "actions": {
                 "skill": "运动"
@@ -1506,7 +1506,7 @@
         },
         "Mk67 (Modern)": {
             "name": "Mk67 (现代)",
-            "description": "<div class=\"swade-core\">\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@Compendium[swade-core-rules.swade-rules.射程]{射程})使用。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}</p>\n<p>所有的手雷都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，其爆炸范围对应的爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})已在下面列出。手雷能被@Compendium[swade-core-rules.swade-rules.回避]{回避}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程})使用。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}</p>\n<p>所有的手雷都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，其爆炸范围对应的爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})已在下面列出。手雷能被@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03evasion0000000]{回避}</p>\n</div>",
             "notes": "中型爆发盖板",
             "actions": {
                 "skill": "运动"
@@ -1531,7 +1531,7 @@
         },
         "Natural Bite": {
             "name": "天武噬咬",
-            "description": "<div class=\"swade-core\"><p><strong>噬咬：</strong>生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见<strong>@Compendium[swade-core-rules.swade-rules.擒抱]{擒抱}</strong>)。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>噬咬：</strong>生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03grappling00000]{擒抱}</strong>)。</p></div>",
             "actions": {
                 "skill": "格斗"
             }
@@ -1545,7 +1545,7 @@
         },
         "Net (Weighted)": {
             "name": "加重捕网",
-            "description": "<div class=\"swade-core\"><p>成功击中会让目标陷入@Compendium[swade-core-rules.swade-rules.束缚与纠缠]{纠缠}，捕网的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}为10，而且只会被挥砍武器所伤。</p></div>",
+            "description": "<div class=\"swade-core\"><p>成功击中会让目标陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{纠缠}，捕网的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，而且只会被挥砍武器所伤。</p></div>",
             "notes": "成功击中会让目标陷入纠缠，捕网的硬度为10，而且只会被挥砍武器所伤。",
             "actions": {
                 "skill": "运动"
@@ -1553,7 +1553,7 @@
         },
         "Night Vision Goggles": {
             "name": "夜视仪",
-            "description": "<div class=\"swade-core\"><p>不受昏暗和黑暗的@Compendium[swade-core-rules.swade-rules.照明]{照明}减值。如果是“主动式”夜视仪则价格翻倍，且忽略所有照明减值。</p></div>",
+            "description": "<div class=\"swade-core\"><p>不受昏暗和黑暗的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。如果是“主动式”夜视仪则价格翻倍，且忽略所有照明减值。</p></div>",
             "category": "监视工具"
         },
         "Oil": {
@@ -1563,7 +1563,7 @@
         },
         "Panzerschreck": {
             "name": "坦克杀手",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射}。字面意义上的“坦克噩梦”，德军在二战中使用的火箭筒。 @Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}。字面意义上的“坦克噩梦”，德军在二战中使用的火箭筒。 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}。</p>\n</div>",
             "notes": "中型爆发盖板，猝射。字面意义上的“坦克噩梦”，德军在二战中使用的火箭筒。",
             "actions": {
                 "skill": "射击"
@@ -1576,7 +1576,7 @@
         },
         "Pepper Spray": {
             "name": "胡椒喷雾",
-            "description": "<div class=\"swade-core\">\n<p>使用@Compendium[swade-core-rules.swade-skills.射击]{射击}(如果接战则是@Compendium[swade-core-rules.swade-skills.格斗]{格斗})。没有@Compendium[swade-core-rules.swade-rules.攻击]{射程减值}，但射程上线为2英寸(大约10英尺)，使用次数5，对象必须成功通过-2的@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰，否则会陷入@Compendium[swade-core-rules.swade-rules.震慑]{震慑}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>使用@Compendium[swade-core-rules.swade-skills.射击]{射击}(如果接战则是@Compendium[swade-core-rules.swade-skills.格斗]{格斗})。没有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03attacks0000000]{射程减值}，但射程上线为2英寸(大约10英尺)，使用次数5，对象必须成功通过-2的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰，否则会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03stunned0000000]{震慑}。</p>\n</div>",
             "notes": "使用射击(如果接战则是格斗)。没有射程减值，但射程上线为2英寸(大约10英尺)，使用次数5，对象必须成功通过-2的活力投骰，否则会陷入震慑。",
             "actions": {
                 "skill": "射击",
@@ -1592,7 +1592,7 @@
         },
         "Pike": {
             "name": "长矛",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.触及]{触及}2，@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "触及2，双手",
             "actions": {
                 "skill": "格斗",
@@ -1605,7 +1605,7 @@
         },
         "Pistol (Laser)": {
             "name": "手枪 (激光)",
-            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@Compendium[swade-core-rules.swade-rules.伤害效果]{失血}的@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
             "notes": "激光枪电池，手枪",
             "actions": {
                 "skill": "射击",
@@ -1631,7 +1631,7 @@
         },
         "Polymer Shield, large": {
             "name": "聚合物盾，大型",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则聚合物盾的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}是10，同时提供+4@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则聚合物盾的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是10，同时提供+4@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -1643,7 +1643,7 @@
         },
         "Polymer Shield, medium": {
             "name": "聚合物盾，中型",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则聚合物盾的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}是10，同时提供+4@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则聚合物盾的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是10，同时提供+4@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -1655,7 +1655,7 @@
         },
         "Polymer Shield, small": {
             "name": "聚合物盾，小型",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则聚合物盾的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}是10，同时提供+4@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则聚合物盾的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是10，同时提供+4@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -1680,12 +1680,12 @@
         },
         "Rifle Scope": {
             "name": "步枪瞄准镜",
-            "description": "<div class=\"swade-core\">\n<p>在@Compendium[swade-core-rules.swade-rules.瞄准]{瞄准}时额外降低2点减值。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03aim00000000000]{瞄准}时额外降低2点减值。</p>\n</div>",
             "category": "火器配件"
         },
         "Riot Shield": {
             "name": "镇暴盾",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则现代盾牌的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}是12，同时提供+2@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则现代盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是12，同时提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -1711,7 +1711,7 @@
         },
         "SAW": {
             "name": "SAW",
-            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。机枪的@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@Compendium[swade-core-rules.swade-rules.猝射]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@Compendium[swade-core-rules.swade-rules.射速]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@Compendium[swade-core-rules.swade-rules.装填]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
+            "description": "<div class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></div>",
             "actions": {
                 "additional": {
                     "ajd7g8p0k5": {
@@ -1739,7 +1739,7 @@
         },
         "SMG (Laser)": {
             "name": "冲锋枪 (激光)",
-            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@Compendium[swade-core-rules.swade-rules.伤害效果]{失血}的@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@Compendium[swade-core-rules.swade-rules.后坐力]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</div>",
             "notes": "激光枪电池，冲锋枪/步枪",
             "actions": {
                 "skill": "射击",
@@ -1766,7 +1766,7 @@
         },
         "Sawed-Off Double-Barrel Shotgun": {
             "name": "双短管霰弹枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1806,7 +1806,7 @@
             "ammo": "霰弹枪弹丸"
         },
         "Sharps Big 50": {
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.猝射]{猝射}</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1834,7 +1834,7 @@
         },
         "Shotgun Slugs": {
             "name": "霰弹枪独头弹",
-            "description": "<div class=\"swade-core\"><p>见@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹枪}。</p></div>",
+            "description": "<div class=\"swade-core\"><p>见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}。</p></div>",
             "category": "霰弹枪"
         },
         "Shovel": {
@@ -1843,13 +1843,13 @@
         },
         "Shrapnel Shot (Cannon)": {
             "name": "榴霰弹 (加农炮)",
-            "description": "<div class=\"swade-core\"><p>这枚爆炸性的炮弹当中塞满了金属小球，其会在爆炸时向外炸出暴雨般的碎片。 除非另有说明，这是一次使用@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击}。</p></div>",
+            "description": "<div class=\"swade-core\"><p>这枚爆炸性的炮弹当中塞满了金属小球，其会在爆炸时向外炸出暴雨般的碎片。 除非另有说明，这是一次使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击}。</p></div>",
             "notes": "50/100/200，3d6，中型爆发盖板",
             "category": "加农炮"
         },
         "Sidewinder": {
             "name": "响尾蛇",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}从飞行器上发射的短距热追踪导弹。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.破坏物体]{坚韧}为8(2)的物件。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}从飞行器上发射的短距热追踪导弹。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{小型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03hold0000000000]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03speed000000000]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{坚韧}为8(2)的物件。</p>\n</div>",
             "notes": "重武器，从飞行器上发射的短距热追踪导弹。",
             "actions": {
                 "skill": "射击"
@@ -1869,7 +1869,7 @@
         },
         "Small Shield": {
             "name": "小型盾牌",
-            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@Compendium[swade-core-rules.swade-rules.角色]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@Compendium[swade-core-rules.swade-rules.掩蔽与障碍]{障碍})，则中世纪盾牌的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}为10，并提供+2@Compendium[swade-core-rules.swade-rules.护甲]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则中世纪盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，并提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</div>",
             "actions": {
                 "additional": {
                     "97x0icqf0a": {
@@ -1889,7 +1889,7 @@
         },
         "Smoke Grenade": {
             "name": "烟雾弹",
-            "description": "<div class=\"swade-core\">\n<p>创造出阻碍视线(-4)的@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型爆发盖板}烟雾</p>\n<hr />\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@Compendium[swade-core-rules.swade-rules.射程]{射程})使用。</p>\n<p>所有的手雷都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，其爆炸范围对应的爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})已在下面列出。手雷能被@Compendium[swade-core-rules.swade-rules.回避]{回避}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>创造出阻碍视线(-4)的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{大型爆发盖板}烟雾</p>\n<hr />\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程})使用。</p>\n<p>所有的手雷都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，其爆炸范围对应的爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})已在下面列出。手雷能被@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03evasion0000000]{回避}</p>\n</div>",
             "notes": "创造出阻碍视线(-4)的大型爆发盖板烟雾。",
             "actions": {
                 "skill": "运动"
@@ -1907,7 +1907,7 @@
         },
         "Sparrow": {
             "name": "麻雀",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，从飞行器上发射的中距雷达制导导弹。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{小型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.破坏物体]{坚韧}为8(2)的物件。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，从飞行器上发射的中距雷达制导导弹。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{小型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03hold0000000000]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03speed000000000]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{坚韧}为8(2)的物件。</p>\n</div>",
             "notes": "重武器，从飞行器上发射的中距雷达制导导弹。",
             "actions": {
                 "skill": "射击"
@@ -1915,7 +1915,7 @@
         },
         "Spear": {
             "name": "矛",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.触及]{触及}1，若是@Compendium[swade-core-rules.swade-rules.双手]{双手}使用则@Compendium[swade-core-rules.swade-rules.格挡]{格挡}+1。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，若是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}使用则@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1。</p>\n</div>",
             "notes": "触及1，若是双手使用则格挡+1",
             "actions": {
                 "skill": "运动",
@@ -1942,7 +1942,7 @@
         },
         "Springfield Model 1861": {
             "name": "春田M1861式步枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></div>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
                 "skill": "射击"
@@ -1951,7 +1951,7 @@
         },
         "Staff": {
             "name": "长棍",
-            "description": "<div class=\"swade-core\">\n<p>+1 @Compendium[swade-core-rules.swade-rules.格挡]{格挡}，@Compendium[swade-core-rules.swade-rules.触及]{触及}1，@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>+1 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "+1格挡，触及1",
             "actions": {
                 "skill": "格斗",
@@ -1964,7 +1964,7 @@
         },
         "Steyr AUG": {
             "name": "斯太尔 AUG",
-            "description": "<div class=\"swade-core\"><p>可以@Compendium[swade-core-rules.swade-rules.三连发]{三连发}。</p></div>",
+            "description": "<div class=\"swade-core\"><p>可以@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02threeroundbu00]{三连发}。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -1983,7 +1983,7 @@
         },
         "Streetsweeper Shotgun": {
             "name": "清道夫霰弹枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></div>",
             "actions": {
                 "skill": "射击",
                 "additional": {
@@ -2008,7 +2008,7 @@
         },
         "Stun Grenade": {
             "name": "震撼手雷",
-            "description": "<div class=\"swade-core\">\n<p>目标必须成功通过一次@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰(出现优良则还要-2)否则会陷入@Compendium[swade-core-rules.swade-powers.震慑]{震慑}。</p>\n<hr />\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@Compendium[swade-core-rules.swade-rules.射程]{射程})使用。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型爆发盖板}</p>\n<p>所有的手雷都是@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，其爆炸范围对应的爆发盖板(见@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果攻击})已在下面列出。手雷能被@Compendium[swade-core-rules.swade-rules.回避]{回避}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>目标必须成功通过一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰(出现优良则还要-2)否则会陷入@Compendium[swade-core-rules.swade-powers.震慑]{震慑}。</p>\n<hr />\n<p>手雷只要拔出保险销就会激活，并在数秒后爆炸。根据列出的射程通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行投掷，而且无法在极限射程(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程})使用。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{大型爆发盖板}</p>\n<p>所有的手雷都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，其爆炸范围对应的爆发盖板(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击})已在下面列出。手雷能被@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03evasion0000000]{回避}</p>\n</div>",
             "notes": "目标必须成功通过一次活力投骰(出现优良则还要-2)否则会陷入震慑。",
             "actions": {
                 "skill": "运动"
@@ -2016,7 +2016,7 @@
         },
         "Stun Gun": {
             "name": "电击枪",
-            "description": "<div class=\"swade-core\">\n<p>使用@Compendium[swade-core-rules.swade-skills.射击]{射击}，@Compendium[swade-core-rules.swade-rules.射程]{射程}1/2/4，使用次数3，使用前需充电至少2小时。对象必须成功通过-2的@Compendium[swade-core-rules.swade-rules.特性]{活力}投骰，否则会陷入@Compendium[swade-core-rules.swade-rules.震慑]{震慑}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>使用@Compendium[swade-core-rules.swade-skills.射击]{射击}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}1/2/4，使用次数3，使用前需充电至少2小时。对象必须成功通过-2的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰，否则会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03stunned0000000]{震慑}。</p>\n</div>",
             "notes": "使用射击，射程1/2/4，使用次数3，使用前需充电至少2小时。对象必须成功通过-2的活力投骰，否则会陷入震慑。",
             "actions": {
                 "skill": "射击"
@@ -2041,7 +2041,7 @@
         },
         "Sword, Great": {
             "name": "巨剑",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "双手",
             "actions": {
                 "skill": "格斗",
@@ -2070,7 +2070,7 @@
         },
         "TOW Missile Launcher": {
             "name": "TOW 导弹发射器",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，可以通过便携发射器或是车载发射的线导导弹。不需要进行锁定———只须进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰，而且不会出现故障。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@Compendium[swade-core-rules.swade-rules.待机]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@Compendium[swade-core-rules.swade-rules.射程]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@Compendium[swade-core-rules.swade-rules.速度]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@Compendium[swade-core-rules.swade-rules.破坏物体]{坚韧}为8(2)的物件。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，可以通过便携发射器或是车载发射的线导导弹。不需要进行锁定———只须进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰，而且不会出现故障。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>除非另有说明，导弹必须“锁定”目标后才能发射。这个动作是以@Compendium[swade-core-rules.swade-skills.电子学]{电子学}对抗目标的机动技能(@Compendium[swade-core-rules.swade-skills.驾船]{驾船}，@Compendium[swade-core-rules.swade-skills.驾驶]{驾驶}或是@Compendium[swade-core-rules.swade-skills.航空]{航空}，酌情而定)。成功意味着攻击方能“仓促”锁定目标并得以一次性发射装置上最多一半的导弹。出现优良则代表锁定更为充分，这时能全弹发射。</p>\n<p>敌方能就每一枚导弹各自进行一次-4的机动投骰来尝试回避(如果目标有结实的掩体可供躲藏——比如小行星、大厦、崖壁甚至是大型敌舰，则只有-2)，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}意味着载具@Compendium[swade-core-rules.swade-tables.失控]{失控}。</p>\n<p><strong>反导弹系统：</strong>战舰和未来的太空船通常都有击落袭来导弹的“点防御”系统。操作员必须处于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03hold0000000000]{待机}才能击落导弹。如果是自动系统则会自行发起攻击。该系统会对每枚导弹单独提供一次在短距@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}进行@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰的机会，并算入其他相关调整值(包括速度。除非另有说明，导弹@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03speed000000000]{速度}达到1马赫时会带来-6减值)。除非另有说明，导弹是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{坚韧}为8(2)的物件。</p>\n</div>",
             "notes": "重武器，可以通过便携发射器或是车载发射的线导导弹。不需要进行锁定———只须进行一次射击投骰，而且不会出现故障。",
             "actions": {
                 "skill": "射击"
@@ -2110,7 +2110,7 @@
         },
         "Torpedo": {
             "name": "鱼雷",
-            "description": "<div class=\"swade-core\">\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{大型爆发盖板}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{大型爆发盖板}。</p>\n</div>",
             "notes": "LBT",
             "actions": {
                 "skill": "射击"
@@ -2127,7 +2127,7 @@
         },
         "Trebuchet": {
             "name": "抛石机",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}，@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}，四人@Compendium[swade-core-rules.swade-rules.装填]{装填}时间需要5分钟。</p>\n<hr />\n<p>投石机是把大块石头抛向敌方防御工事以及部队阵列的简易装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但装填投射物至少需要四名人员。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，四人@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}时间需要5分钟。</p>\n<hr />\n<p>投石机是把大块石头抛向敌方防御工事以及部队阵列的简易装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但装填投射物至少需要四名人员。</p>\n</div>",
             "notes": "中型爆发盖板，重武器，四人装填时间需要5分钟。",
             "actions": {
                 "skill": "射击"
@@ -2168,7 +2168,7 @@
         },
         "Warhammer": {
             "name": "战锤",
-            "description": "<div class=\"swade-core\">\n<p>带尖，@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}1</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>带尖，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}1</p>\n</div>",
             "notes": "带尖，穿甲1",
             "actions": {
                 "skill": "格斗"
@@ -2216,7 +2216,7 @@
         },
         "AT-4": {
             "name": "AT-4",
-            "description": "<div class=\"swade-core\">\n<p>现代美国重型反坦克武器。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@Compendium[swade-core-rules.swade-rules.重武器 (HW)]{重武器}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>现代美国重型反坦克武器。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}。</p>\n<hr />\n<p>火箭发射器和早期鱼雷是直射火力型武器，在与目标接触后就会爆炸。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}。</p>\n</div>",
             "notes": "中型爆发盖板，现代美国重型反坦克武器。",
             "actions": {
                 "skill": "射击"

@@ -3,77 +3,77 @@
     "entries": {
         "Battle Effects": {
             "name": "作战效果",
-            "description": "<div class=\"swade-core\">参见<b>@Compendium[swade-core-rules.swade-rules.大规模作战]{大规模作战}</b>来确定何时使用该随机表。</div>",
+            "description": "<div class=\"swade-core\">参见<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{大规模作战}</b>来确定何时使用该随机表。</div>",
             "results": {
-                "2-2": "<div class=\"swade-core\"><b>鼓舞：</b>对象奋不顾身的浴血奋战使部队士气大振，并促使他们顶着伤痛继续战斗。所属一方立刻恢复一个@Compendium[swade-core-rules.swade-rules.大规模作战]{兵力标识 }.</div>",
-                "3-4": "<div class=\"swade-core\"><b>威慑：</b>对象的凶猛吓坏了敌方，若对方指挥官该轮内被迫进行@Compendium[swade-core-rules.swade-rules.大规模作战]{士气 }考验，则其@Compendium[swade-core-rules.swade-rules.特性]{心魂 }投骰-2。</div>",
-                "5-9": "<div class=\"swade-core\"><b>英勇：</b>角色的@Compendium[swade-core-rules.swade-rules.援助]{援助 }投骰如常让指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战 }投骰+2。</div>",
-                "10-11": "<div class=\"swade-core\"><b>无双：</b>敌方在角色的猛攻下大惊失色，敌对指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战 }投骰总值-2。</div>",
-                "12-12": "<div class=\"swade-core\"><b>一人成军：</b>角色当下的壮举将会流芳百世，传唱千古。敌方军队立刻失去一个@Compendium[swade-core-rules.swade-rules.大规模作战]{兵力标识 }(这不会对其@Compendium[swade-core-rules.swade-skills.作战]{作战 }投骰造成减值，但即使胜出也要进行@Compendium[swade-core-rules.swade-rules.大规模作战]{士气 }检定)。</div>"
+                "2-2": "<div class=\"swade-core\"><b>鼓舞：</b>对象奋不顾身的浴血奋战使部队士气大振，并促使他们顶着伤痛继续战斗。所属一方立刻恢复一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{兵力标识}.</div>",
+                "3-4": "<div class=\"swade-core\"><b>威慑：</b>对象的凶猛吓坏了敌方，若对方指挥官该轮内被迫进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{士气}考验，则其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{心魂}投骰-2。</div>",
+                "5-9": "<div class=\"swade-core\"><b>英勇：</b>角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}投骰如常让指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰+2。</div>",
+                "10-11": "<div class=\"swade-core\"><b>无双：</b>敌方在角色的猛攻下大惊失色，敌对指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰总值-2。</div>",
+                "12-12": "<div class=\"swade-core\"><b>一人成军：</b>角色当下的壮举将会流芳百世，传唱千古。敌方军队立刻失去一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{兵力标识}(这不会对其@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰造成减值，但即使胜出也要进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{士气}检定)。</div>"
             }
         },
         "Creative Combat": {
             "name": "创新战斗",
-            "description": "<div class=\"swade-core\">创新战斗则藉由给予出现优良考验的额外好处而丰富了通俗游戏的体验。参见<b>@Compendium[swade-core-rules.swade-rules.创新战斗]{创新战斗}</b>来确定何时使用这些结果。</div>",
+            "description": "<div class=\"swade-core\">创新战斗则藉由给予出现优良考验的额外好处而丰富了通俗游戏的体验。参见<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04creativecomb00]{创新战斗}</b>来确定何时使用这些结果。</div>",
             "results": {
-                "2-2": "<div class=\"swade-core\"><b>恢复元气：</b>对方的反应让角色看到了希望，或是让后者得以喘息。人物能移除一个等级的@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏 }或是一个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }(由他选择)。若自己没有@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏 }或是@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }，则对方会遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }。</div>",
-                "3-3": "<div class=\"swade-core\"><b>灵感：</b>命运眷顾勇敢之人，聪明的角色获得一点@Compendium[swade-core-rules.swade-rules.助力点]{助力点 }.</div>",
-                "4-5": "<div class=\"swade-core\"><b>祸不单行：</b>目标同时陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{分神与脆弱 }.</div>",
-                "6-8": "<div class=\"swade-core\"><b>动摇：</b>角色遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }.</div>",
+                "2-2": "<div class=\"swade-core\"><b>恢复元气：</b>对方的反应让角色看到了希望，或是让后者得以喘息。人物能移除一个等级的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}或是一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}(由他选择)。若自己没有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}，则对方会遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}。</div>",
+                "3-3": "<div class=\"swade-core\"><b>灵感：</b>命运眷顾勇敢之人，聪明的角色获得一点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03bennies0000000]{助力点}.</div>",
+                "4-5": "<div class=\"swade-core\"><b>祸不单行：</b>目标同时陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神与脆弱}.</div>",
+                "6-8": "<div class=\"swade-core\"><b>动摇：</b>角色遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}.</div>",
                 "9-10": "<div class=\"swade-core\"><b>挫折：</b>目标遭受某种挫折。他可能会从边沿处跌落，手下对其失去信心(然后将其抛弃)，采取轻率鲁莽的举动，或只是为了尝试摆脱当前陷入的麻烦而失去其下一个回合。</div>",
-                "11-11": "<div class=\"swade-core\"><b>洞察：</b>角色对于目标的本质有了新的领悟。每遭遇一次，其能在任何直接攻击、影响或伤害同一对手的@Compendium[swade-core-rules.swade-rules.特性投骰]{特性投骰 }上+d6。若在同一遭遇中再次出现该结果，则对方会遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }。</div>",
-                "12-12": "<div class=\"swade-core\"><b>把握时机：</b>在角色结算完该回合后，其能马上获得额外一整个回合。这同样包括移动！若是愿意其将该回合用于@Compendium[swade-core-rules.swade-rules.待机]{待机 }。</div>"
+                "11-11": "<div class=\"swade-core\"><b>洞察：</b>角色对于目标的本质有了新的领悟。每遭遇一次，其能在任何直接攻击、影响或伤害同一对手的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{特性投骰}上+d6。若在同一遭遇中再次出现该结果，则对方会遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}。</div>",
+                "12-12": "<div class=\"swade-core\"><b>把握时机：</b>在角色结算完该回合后，其能马上获得额外一整个回合。这同样包括移动！若是愿意其将该回合用于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03hold0000000000]{待机}。</div>"
             }
         },
         "Dynamic Backlash": {
             "name": "动态反冲",
-            "description": "<div class=\"swade-core\">通常，在奥法技能检定上的大失败会导致疲乏。如果GM认为魔法应当支付更高的代价，则转而使用以下表格。参见<b>@Compendium[swade-core-rules.swade-rules.动态反冲]{动态反冲}</b></div>",
+            "description": "<div class=\"swade-core\">通常，在奥法技能检定上的大失败会导致疲乏。如果GM认为魔法应当支付更高的代价，则转而使用以下表格。参见<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04dynamicbackl00]{动态反冲}</b></div>",
             "results": {
-                "2-2": "<div class=\"swade-core\"><b>灾祸：</b>发生了可怕的差错。GM必须决定发生了什么，但以下是一些例子：新的永久性次要@Compendium[swade-core-rules.swade-rules.负赘]{负赘 }，数天内无法使用@Compendium[swade-core-rules.swade-rules.奇术]{奇术 }，或者某种爆炸。如有可能，反冲应符合设定基调。举例而言，如果角色是为了自己的能力染指黑暗力量，则他可能会受到腐化或是将某种邪祟之物召唤到这个世界上。如果他是一名奇异科学家，则设备可能会爆炸并在@Compendium[swade-core-rules.swade-rules.范围效果攻击]{中型爆散盖板 }内造成3d6伤害，又或者这名角色获得@Compendium[swade-core-rules.swade-hindrances.怪癖]{怪癖 }或是@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症 }负赘等其他“疯狂”。</div>",
-                "3-3": "<div class=\"swade-core\"><b>意外：</b>奇术如同获得优良般成功，但会影响另一名目标并造成更糟糕的结果。<i>@Compendium[swade-core-rules.swade-powers.矢箭]{矢箭 }</i>会随机击中一名盟友，<i>@Compendium[swade-core-rules.swade-powers.Boost/Lower Trait]{提升特性 }</i>性会提升敌人的@Compendium[swade-core-rules.swade-rules.特性]{技能或属性 }，等等。如果不存在可能的目标，则变成施术者会陷入@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }若奇术的@Compendium[swade-core-rules.swade-rules.奇术]{持续时间 }并非瞬间，那么就会以完整时间生效且只能被<i>d@Compendium[swade-core-rules.swade-powers.破袪]{破袪 }</i>消除(施术者不能自愿中止)。</div>",
-                "4-5": "<div class=\"swade-core\"><b>短路：</b>奇术失败，同时除投入的@Compendium[swade-core-rules.swade-rules.奇术]{奇术点 }点外还有额外1d6点@Compendium[swade-core-rules.swade-rules.奇术]{奇术点 }也会因此而浪费。</div>",
-                "6-8": "<div class=\"swade-core\"><b>震慑：</b>施术者陷入<b>@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }</b>。其在遭遇剩余时间里的奥法技能投骰-2(即使再次出现该结果，减值也维持在-2)。</div>",
-                "9-10": "<div class=\"swade-core\"><b>超载：</b>超出负荷的能量破坏了角色的神经，其受到等同于2d6加上所消耗@Compendium[swade-core-rules.swade-rules.奇术]{奇术点 }的伤害，包括玩家宣称要使用的任何@Compendium[swade-core-rules.swade-rules.奇术调整]{奇术调整 }。</div>",
-                "11-11": "<div class=\"swade-core\"><b>疲乏：</b>角色遭受@Compendium[swade-core-rules.swade-rules.疲乏]{疲乏 }。</div>",
-                "12-12": "<div class=\"swade-core\"><b>过充：</b>奇术抽取了周围大气中的能量，针对目标自动成功且获得@Compendium[swade-core-rules.swade-rules.特性投骰]{优良 }，同时施术者不消耗@Compendium[swade-core-rules.swade-rules.奇术]{奇术点 }!</div>"
+                "2-2": "<div class=\"swade-core\"><b>灾祸：</b>发生了可怕的差错。GM必须决定发生了什么，但以下是一些例子：新的永久性次要@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}，数天内无法使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}，或者某种爆炸。如有可能，反冲应符合设定基调。举例而言，如果角色是为了自己的能力染指黑暗力量，则他可能会受到腐化或是将某种邪祟之物召唤到这个世界上。如果他是一名奇异科学家，则设备可能会爆炸并在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆散盖板}内造成3d6伤害，又或者这名角色获得@Compendium[swade-core-rules.swade-hindrances.怪癖]{怪癖}或是@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症}负赘等其他“疯狂”。</div>",
+                "3-3": "<div class=\"swade-core\"><b>意外：</b>奇术如同获得优良般成功，但会影响另一名目标并造成更糟糕的结果。<i>@Compendium[swade-core-rules.swade-powers.矢箭]{矢箭}</i>会随机击中一名盟友，<i>@Compendium[swade-core-rules.swade-powers.Boost/Lower Trait]{提升特性}</i>性会提升敌人的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{技能或属性}，等等。如果不存在可能的目标，则变成施术者会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03stunned0000000]{震慑}若奇术的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{持续时间}并非瞬间，那么就会以完整时间生效且只能被<i>d@Compendium[swade-core-rules.swade-powers.破袪]{破袪}</i>消除(施术者不能自愿中止)。</div>",
+                "4-5": "<div class=\"swade-core\"><b>短路：</b>奇术失败，同时除投入的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术点}点外还有额外1d6点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术点}也会因此而浪费。</div>",
+                "6-8": "<div class=\"swade-core\"><b>震慑：</b>施术者陷入<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03stunned0000000]{震慑}</b>。其在遭遇剩余时间里的奥法技能投骰-2(即使再次出现该结果，减值也维持在-2)。</div>",
+                "9-10": "<div class=\"swade-core\"><b>超载：</b>超出负荷的能量破坏了角色的神经，其受到等同于2d6加上所消耗@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术点}的伤害，包括玩家宣称要使用的任何@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powermodifie00]{奇术调整}。</div>",
+                "11-11": "<div class=\"swade-core\"><b>疲乏：</b>角色遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}。</div>",
+                "12-12": "<div class=\"swade-core\"><b>过充：</b>奇术抽取了周围大气中的能量，针对目标自动成功且获得@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}，同时施术者不消耗@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术点}!</div>"
             }
         },
         "Fear Table": {
             "name": "Fear Table",
-            "description": "<div class=\"swade-core\">\n往随机表公式加入调整值，比如\"d20+2\"。或者，对于更简单的投骰，点击@Compendium[swade-core-rules.swade-macros.Fear Table]{恐惧表宏}显示弹窗填写调整值。如果你使用该宏来获取结果，则请无视该信息。你可以通过点击@Compendium[swade-core-rules.swade-rules.恐惧]{这里}以获得更多关于恐惧表的信息。</div>",
+            "description": "<div class=\"swade-core\">\n往随机表公式加入调整值，比如\"d20+2\"。或者，对于更简单的投骰，点击@Compendium[swade-core-rules.swade-macros.Fear Table]{恐惧表宏}显示弹窗填写调整值。如果你使用该宏来获取结果，则请无视该信息。你可以通过点击@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04fear0000000000]{这里}以获得更多关于恐惧表的信息。</div>",
             "results": {
-                "1-3": "<div class=\"swade-core\"><b>肾上腺素爆发：</b>角色的“战斗”本能占了上风。他在该动作内如同具有@Compendium[swade-core-rules.swade-rules.行动卡 (先攻)]{鬼牌 }般行动！</div>",
-                "4-6": "<div class=\"swade-core\"><b>分神：</b>角色在其下一回合结束前陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{分神 }。</div>",
-                "7-9": "<div class=\"swade-core\"><b>脆弱：</b>目标在其下一回合结束前陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{脆弱 }。</div>",
-                "10-12": "<div class=\"swade-core\"><b>动摇：</b>角色遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }。</div>",
-                "13-13": "<div class=\"swade-core\"><b>恐惧烙印：</b>角色陷入@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }，并且会在外表容貌上遭受一些变化：头发中多出一缕白丝，眼睛不断抽搐或是显现出其他次要的外在变化。</div>",
-                "14-15": "<div class=\"swade-core\"><b>惊惧：</b>角色在该次遭遇中的剩余时间内获得@Compendium[swade-core-rules.swade-hindrances.犹豫不决]{犹豫不决 } @Compendium[swade-core-rules.swade-rules.负赘]{负赘 }。如果其已经具有此负赘，则会变成陷入恐慌。</div>",
-                "16-17": "<div class=\"swade-core\"><b>恐慌：</b>角色马上会以全@Compendium[swade-core-rules.swade-rules.移动]{移速 }加上奔跑骰远离危险，并且遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }。</div>",
-                "18-19": "<div class=\"swade-core\"><b>次要恐惧症：</b>角色获得某种与精神创伤相关的次要@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症 } @Compendium[swade-core-rules.swade-rules.负赘]{负赘 }。</div>",
-                "20-21": "<div class=\"swade-core\"><b>主要恐惧症：</b>角色获得主要@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症 }@Compendium[swade-core-rules.swade-rules.负赘]{负赘 }。</div>",
-                "22-9999": "<div class=\"swade-core\"><b>心脏病：</b>角色被恐惧彻底压垮乃至心律不齐，其必须马上进行一次-2 的@Compendium[swade-core-rules.swade-rules.特性]{活力 }投骰。若是成功会陷入@Compendium[swade-core-rules.swade-rules.震慑]{震慑 }；若是失败则会@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }并在2d6 轮内死去。在后一种情况里，进行一次-4的@Compendium[swade-core-rules.swade-skills.医疗]{医疗 }投骰能挽救其性命，但角色仍会处于@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化 }。在这之后能如常对其进行治疗。</div>"
+                "1-3": "<div class=\"swade-core\"><b>肾上腺素爆发：</b>角色的“战斗”本能占了上风。他在该动作内如同具有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actioncardsi00]{鬼牌}般行动！</div>",
+                "4-6": "<div class=\"swade-core\"><b>分神：</b>角色在其下一回合结束前陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}。</div>",
+                "7-9": "<div class=\"swade-core\"><b>脆弱：</b>目标在其下一回合结束前陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{脆弱}。</div>",
+                "10-12": "<div class=\"swade-core\"><b>动摇：</b>角色遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}。</div>",
+                "13-13": "<div class=\"swade-core\"><b>恐惧烙印：</b>角色陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03stunned0000000]{震慑}，并且会在外表容貌上遭受一些变化：头发中多出一缕白丝，眼睛不断抽搐或是显现出其他次要的外在变化。</div>",
+                "14-15": "<div class=\"swade-core\"><b>惊惧：</b>角色在该次遭遇中的剩余时间内获得@Compendium[swade-core-rules.swade-hindrances.犹豫不决]{犹豫不决} @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}。如果其已经具有此负赘，则会变成陷入恐慌。</div>",
+                "16-17": "<div class=\"swade-core\"><b>恐慌：</b>角色马上会以全@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}加上奔跑骰远离危险，并且遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}。</div>",
+                "18-19": "<div class=\"swade-core\"><b>次要恐惧症：</b>角色获得某种与精神创伤相关的次要@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症} @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}。</div>",
+                "20-21": "<div class=\"swade-core\"><b>主要恐惧症：</b>角色获得主要@Compendium[swade-core-rules.swade-hindrances.恐惧症]{恐惧症}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}。</div>",
+                "22-9999": "<div class=\"swade-core\"><b>心脏病：</b>角色被恐惧彻底压垮乃至心律不齐，其必须马上进行一次-2 的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰。若是成功会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03stunned0000000]{震慑}；若是失败则会@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}并在2d6 轮内死去。在后一种情况里，进行一次-4的@Compendium[swade-core-rules.swade-skills.医疗]{医疗}投骰能挽救其性命，但角色仍会处于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}。在这之后能如常对其进行治疗。</div>"
             }
         },
         "Injury Table": {
             "name": "创伤表",
-            "description": "<div class=\"swade-core\">如果<b>@Compendium[swade-core-rules.swade-rules.伤害效果]{无力化}</b>且活力投骰失败，则使用该随机表。</div>",
+            "description": "<div class=\"swade-core\">如果<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}</b>且活力投骰失败，则使用该随机表。</div>",
             "results": {
                 "2-2": "<div class=\"swade-core\"><b>私处：</b>如果创伤是永久性的，若是不使用奇迹般的手术或者魔法就会彻底失去生育能力。该结果不会有其他效果。</div>",
                 "3-4": "<div class=\"swade-core\"><b>手臂：</b>对象再也无法使用其左手或是右手(若没有选定目标则随机投骰)。</div>",
-                "5-9": "<div class=\"swade-core\"><p><b>内脏：</b>人物体内某处受创，投[[1d6]]：</p><p>1–2\t<b>碎裂：</b>@Compendium[swade-core-rules.swade-rules.特性]{灵巧 }骰子类型下降一级(最低到d4)。</p><p>3–4\t<b>破裂：</b>@Compendium[swade-core-rules.swade-rules.特性]{活力 }骰子类型下降一级(最低到d4)。</p><p>5–6\t<b>爆裂：</b>@Compendium[swade-core-rules.swade-rules.特性]{力量 }骰子类型下降一级(最低到d4)。</p></div>",
-                "10-11": "<div class=\"swade-core\"><b>腿部：</b>获得@Compendium[swade-core-rules.swade-hindrances.缓慢]{缓慢 } @Compendium[swade-core-rules.swade-rules.负赘]{负赘 } (次要)，如果已经有@Compendium[swade-core-rules.swade-hindrances.缓慢]{缓慢 }负赘或是双腿受伤则是主要负赘。</div>",
-                "12-12": "<div class=\"swade-core\"><p><b>头部：</b>角色头部受到了痛苦的创伤，投[[1d6]] (见下)：</p><p>1–3 \t<b>骇人伤疤：</b>人物现在获得了@Compendium[swade-core-rules.swade-hindrances.丑陋]{丑陋 }(主要)@Compendium[swade-core-rules.swade-rules.负赘]{负赘 }.</p><p>4–5\t<b>瞎眼：</b>一只眼睛受损，获得@Compendium[swade-core-rules.swade-hindrances.独眼]{独眼 } @Compendium[swade-core-rules.swade-rules.负赘]{负赘 } (如原来只有独眼能用则是@Compendium[swade-core-rules.swade-powers.目盲]{目盲 }@Compendium[swade-core-rules.swade-rules.负赘]{负赘 })。</p><p>6 <b>脑残：</b>头部受到巨创，@Compendium[swade-core-rules.swade-rules.特性]{聪慧 }骰子类型下降一级(最低到d4)。</p></div>"
+                "5-9": "<div class=\"swade-core\"><p><b>内脏：</b>人物体内某处受创，投[[1d6]]：</p><p>1–2\t<b>碎裂：</b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{灵巧}骰子类型下降一级(最低到d4)。</p><p>3–4\t<b>破裂：</b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}骰子类型下降一级(最低到d4)。</p><p>5–6\t<b>爆裂：</b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}骰子类型下降一级(最低到d4)。</p></div>",
+                "10-11": "<div class=\"swade-core\"><b>腿部：</b>获得@Compendium[swade-core-rules.swade-hindrances.缓慢]{缓慢} @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘} (次要)，如果已经有@Compendium[swade-core-rules.swade-hindrances.缓慢]{缓慢}负赘或是双腿受伤则是主要负赘。</div>",
+                "12-12": "<div class=\"swade-core\"><p><b>头部：</b>角色头部受到了痛苦的创伤，投[[1d6]] (见下)：</p><p>1–3 \t<b>骇人伤疤：</b>人物现在获得了@Compendium[swade-core-rules.swade-hindrances.丑陋]{丑陋}(主要)@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}.</p><p>4–5\t<b>瞎眼：</b>一只眼睛受损，获得@Compendium[swade-core-rules.swade-hindrances.独眼]{独眼} @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘} (如原来只有独眼能用则是@Compendium[swade-core-rules.swade-powers.目盲]{目盲}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘})。</p><p>6 <b>脑残：</b>头部受到巨创，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{聪慧}骰子类型下降一级(最低到d4)。</p></div>"
             }
         },
         "Out of Control": {
             "name": "失控",
-            "description": "<div class=\"swade-core\">因为失控投骰造成的伤害不会再触发另一次失控投骰，但损伤会如常触发重创。参见@Compendium[swade-core-rules.swade-rules.追逐与载具{机动技能}以了解更多。</div>",
+            "description": "<div class=\"swade-core\">因为失控投骰造成的伤害不会再触发另一次失控投骰，但损伤会如常触发重创。参见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04chasesandveh00]{机动技能}以了解更多。</div>",
             "results": {
-                "2-2": "<div class=\"swade-core\"><b>主要碰撞：</b>载具上的所有对象陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{分神 }。载具受到D4个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }以及一个@Compendium[swade-core-rules.swade-tables.载具重创]{重创 }。</div>",
-                "3-4": "<div class=\"swade-core\"><b>次要碰撞：</b>载具受到一个@Compendium[swade-core-rules.swade-rules.伤害效果]{损伤 }以及一个@Compendium[swade-core-rules.swade-tables.载具重创]{重创 }。</div>",
-                "5-9": "<div class=\"swade-core\"><b>分神：</b>陆行载具漂移或是打滑，飞机或太空船意外地熄火、滑落、颠簸或旋转。其中的每个人都陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{分神 }，直到其下回合结束为止。</div>",
-                "10-11": "<div class=\"swade-core\"><b>脆弱：</b>载具及其上每个对象都陷入@Compendium[swade-core-rules.swade-rules.分神与脆弱]{脆弱 }，直到其下回合结束为止。</div>",
-                "12-12": "<div class=\"swade-core\"><b>故障：</b>某些东西被震松或是因为粗暴驾驶而损坏了，载具遭受一个@Compendium[swade-core-rules.swade-tables.载具重创]{重创 } (重投乘员结果)。</div>"
+                "2-2": "<div class=\"swade-core\"><b>主要碰撞：</b>载具上的所有对象陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}。载具受到D4个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}以及一个@Compendium[swade-core-rules.swade-tables.载具重创]{重创}。</div>",
+                "3-4": "<div class=\"swade-core\"><b>次要碰撞：</b>载具受到一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}以及一个@Compendium[swade-core-rules.swade-tables.载具重创]{重创}。</div>",
+                "5-9": "<div class=\"swade-core\"><b>分神：</b>陆行载具漂移或是打滑，飞机或太空船意外地熄火、滑落、颠簸或旋转。其中的每个人都陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}，直到其下回合结束为止。</div>",
+                "10-11": "<div class=\"swade-core\"><b>脆弱：</b>载具及其上每个对象都陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{脆弱}，直到其下回合结束为止。</div>",
+                "12-12": "<div class=\"swade-core\"><b>故障：</b>某些东西被震松或是因为粗暴驾驶而损坏了，载具遭受一个@Compendium[swade-core-rules.swade-tables.载具重创]{重创} (重投乘员结果)。</div>"
             }
         },
         "Reaction Table": {
@@ -91,13 +91,13 @@
         },
         "Vehicle Critical Hits": {
             "name": "载具重创",
-            "description": "<div class=\"swade-core\">参见@Compendium[swade-core-rules.swade-rules.追逐与载具{追逐与载具}</div>",
+            "description": "<div class=\"swade-core\">参见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04chasesandveh00]{追逐与载具}</div>",
             "results": {
                 "2-2": "<div class=\"swade-core\"><b>刮擦与凹陷：</b>攻击只是擦掉了点油漆或是干净利落地穿过了车体而没有击中任何人或击中任何关键部位，并没造成永久伤害。</div>",
-                "3-3": "<div class=\"swade-core\"><b>导向/牵引：</b>轮胎、轨道、船帆、推进器之类的被击中了。每发生一次该状况，@Compendium[swade-core-rules.swade-rules.载具]{操控性 }-1(减值至多为-4)。</div>",
-                "4-5": "<div class=\"swade-core\"><b>动力：</b>引擎、主帆、锅炉之类的被击中了。每发生一次该状况，最高速度减少10%(@Compendium[swade-core-rules.swade-rules.载具]{最高速度 }至多下降到60%)。</div>",
+                "3-3": "<div class=\"swade-core\"><b>导向/牵引：</b>轮胎、轨道、船帆、推进器之类的被击中了。每发生一次该状况，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03vehicles000000]{操控性}-1(减值至多为-4)。</div>",
+                "4-5": "<div class=\"swade-core\"><b>动力：</b>引擎、主帆、锅炉之类的被击中了。每发生一次该状况，最高速度减少10%(@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03vehicles000000]{最高速度}至多下降到60%)。</div>",
                 "6-8": "<div class=\"swade-core\"><b>底架：</b>载具主体部分遭受了攻击，没有特别影响。</div>",
-                "9-10": "<div class=\"swade-core\"><b>乘员：</b>直接伤害在减去载具的@Compendium[swade-core-rules.swade-rules.载具]{护甲 }(若对象所处位置适用)后再结算在随机一名乘员身上。@Compendium[swade-core-rules.swade-rules.范围效果攻击]{范围效果 }武器则会影响一片区域(GM决定)的所有人物。如果是由@Compendium[swade-core-rules.swade-rules.追逐与载具{碰撞 }造成，则成员们会遭受@Compendium[swade-core-rules.swade-rules.伤害效果]{动摇 }。</div>",
+                "9-10": "<div class=\"swade-core\"><b>乘员：</b>直接伤害在减去载具的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03vehicles000000]{护甲}(若对象所处位置适用)后再结算在随机一名乘员身上。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果}武器则会影响一片区域(GM决定)的所有人物。如果是由@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04chasesandveh00]{碰撞}造成，则成员们会遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}。</div>",
                 "11-11": "<div class=\"swade-core\"><b>武器：</b>某一随机武器被摧毁。如果没有武器，则视作为底架受创。</div>",
                 "12-12": "<div class=\"swade-core\"><b>系统：</b>载具的某一电子系统、安全气囊或是其他由GM决定的系统失灵。若没有任何特殊的设备，则视作为底架受创。</div>"
             }

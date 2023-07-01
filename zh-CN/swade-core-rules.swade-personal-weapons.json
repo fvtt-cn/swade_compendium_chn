@@ -18,7 +18,7 @@
         },
         "Axe, Great": {
             "name": "巨斧",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.格挡]{格挡}&ndash;1，@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}&ndash;1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "格挡-1，双手",
             "actions": {
                 "skill": "格斗",
@@ -51,7 +51,7 @@
         },
         "Bangstick": {
             "name": "震爆杖",
-            "description": "<div class=\"swade-core\"><p>附有单发@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹}的杖(用于近战)，用完必须装填新的霰弹(一个动作)</p></div>",
+            "description": "<div class=\"swade-core\"><p>附有单发@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹}的杖(用于近战)，用完必须装填新的霰弹(一个动作)</p></div>",
             "notes": "附有单发霰弹的杖(用于近战)，用完必须装填新的霰弹(一个动作)",
             "actions": {
                 "skill": "格斗"
@@ -71,7 +71,7 @@
                 "skill": "格斗"
             },
             "name": "刺刀",
-            "description": "<div class=\"swade-core\">\n<p>装配在步枪上时伤害为力量+d6且@Compendium[swade-core-rules.swade-rules.格挡]{格挡}+1，@Compendium[swade-core-rules.swade-rules.触及]{触及}1，@Compendium[swade-core-rules.swade-rules.双手]{双手}。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>装配在步枪上时伤害为力量+d6且@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}。</p>\n</div>",
             "notes": "装配在步枪上时伤害为力量+d6且格挡+1，触及1，双手",
             "category": "现代近战武器"
         },
@@ -86,7 +86,7 @@
         },
         "Blunderbuss": {
             "name": "喇叭枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p>\n<p>视作@Compendium[swade-core-rules.swade-rules.霰弹枪]{霰弹枪}。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p>\n<p>视作@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}。</p></div>",
             "notes": "黑火药武器的装填均为3。视作霰弹枪。",
             "actions": {
                 "skill": "射击",
@@ -115,7 +115,7 @@
         },
         "Brass Knuckles": {
             "name": "黄铜指虎",
-            "description": "<div class=\"swade-core\"><p>判断是否时@Compendium[swade-core-rules.swade-rules.手无寸铁]{手无寸铁}不视作武器。</p></div>",
+            "description": "<div class=\"swade-core\"><p>判断是否时@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03unarmeddefen00]{手无寸铁}不视作武器。</p></div>",
             "notes": "判断是否时手无寸铁不视作武器",
             "actions": {
                 "skill": "格斗"
@@ -124,7 +124,7 @@
         },
         "Brown Bess or Similar Muskets": {
             "name": "棕管枪或类似的火枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></div>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
                 "skill": "射击"
@@ -134,7 +134,7 @@
         },
         "Chainsaw": {
             "name": "链锯",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.特性投骰]{大失败}会击中使用者。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}会击中使用者。</p></div>",
             "notes": "大失败会击中使用者",
             "actions": {
                 "skill": "格斗"
@@ -187,7 +187,7 @@
         },
         "Crossbow, Heavy": {
             "name": "重弩",
-            "description": "<div class=\"swade-core\"><p>需绞盘才能装弹，@Compendium[swade-core-rules.swade-rules.装填]{装填}2。</p></div>",
+            "description": "<div class=\"swade-core\"><p>需绞盘才能装弹，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}2。</p></div>",
             "notes": "需绞盘才能装弹，装填2",
             "actions": {
                 "skill": "射击"
@@ -222,7 +222,7 @@
         },
         "Flail": {
             "name": "连枷",
-            "description": "<div class=\"swade-core\">\n<p>忽略@Compendium[swade-core-rules.swade-rules.盾牌]{盾牌}加值。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02shields0000000]{盾牌}加值。</p>\n</div>",
             "notes": "忽略盾牌加值",
             "actions": {
                 "skill": "格斗"
@@ -231,7 +231,7 @@
         },
         "Flintlock Pistol": {
             "name": "燧发手枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></div>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
                 "skill": "射击"
@@ -241,7 +241,7 @@
         },
         "Halberd": {
             "name": "战戟",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.触及]{触及}1，双手</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，双手</p></div>",
             "notes": "触及1，双手",
             "actions": {
                 "skill": "格斗",
@@ -255,7 +255,7 @@
         },
         "Improvised Weapon (Heavy)": {
             "name": "临时武器 (重型)",
-            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@Compendium[swade-core-rules.swade-rules.射程]{射程}，@Compendium[swade-core-rules.swade-rules.伤害]{伤害}及@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>",
             "actions": {
                 "skill": "格斗",
                 "additional": {
@@ -288,12 +288,12 @@
                 }
             },
             "name": "临时武器 (重型)",
-            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@Compendium[swade-core-rules.swade-rules.射程]{射程}，@Compendium[swade-core-rules.swade-rules.伤害]{伤害}及@Compendium[swade-core-rules.swade-rules.最低力量]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</div>",
             "category": "天生/临时武器"
         },
         "Katana": {
             "name": "打刀",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "双手",
             "actions": {
                 "skill": "格斗",
@@ -307,7 +307,7 @@
         },
         "Kentucky Rifle": {
             "name": "肯塔基来复枪",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.装填]{装填}4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。</p></div>",
             "notes": "装填4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。",
             "actions": {
                 "skill": "射击"
@@ -317,7 +317,7 @@
         },
         "Lance": {
             "name": "骑枪",
-            "description": "<div class=\"swade-core\">\n<p>冲锋时带有@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}2，@Compendium[swade-core-rules.swade-rules.触及]{触及}2，只能在@Compendium[swade-core-rules.swade-rules.骑乘战斗]{骑乘战斗}时使用。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>冲锋时带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}2，只能在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03mountedcomba00]{骑乘战斗}时使用。</p>\n</div>",
             "notes": "冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用",
             "actions": {
                 "skill": "格斗"
@@ -348,7 +348,7 @@
         },
         "Maul": {
             "name": "大槌",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.双手]{双手}，@Compendium[swade-core-rules.swade-rules.破坏物体]{破坏物体}时+2伤害。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{破坏物体}时+2伤害。</p>\n</div>",
             "notes": "双手，破坏物体时+2伤害",
             "actions": {
                 "skill": "格斗",
@@ -378,7 +378,7 @@
         },
         "Natural Bite": {
             "name": "天武噬咬",
-            "description": "<div class=\"swade-core\"><p><strong>噬咬：</strong>生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见<strong>@Compendium[swade-core-rules.swade-rules.擒抱]{擒抱}</strong>)。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>噬咬：</strong>生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03grappling00000]{擒抱}</strong>)。</p></div>",
             "actions": {
                 "skill": "格斗"
             },
@@ -393,7 +393,7 @@
             "category": "天生/临时武器"
         },
         "Natural Horns": {
-            "description": "<div class=\"swade-core\"><p><strong>角撞：</strong>在@Compendium[swade-core-rules.swade-rules.移动]{奔跑}，移动至少5英寸(10码)后成功以角击中的单个@Compendium[swade-core-rules.swade-skills.格斗]{格斗}动作最后的@Compendium[swade-core-rules.swade-rules.伤害]{伤害}+4。</p></div>",
+            "description": "<div class=\"swade-core\"><p><strong>角撞：</strong>在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑}，移动至少5英寸(10码)后成功以角击中的单个@Compendium[swade-core-rules.swade-skills.格斗]{格斗}动作最后的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}+4。</p></div>",
             "name": "天武角撞",
             "actions": {
                 "skill": "格斗"
@@ -402,7 +402,7 @@
         },
         "Net (Weighted)": {
             "name": "加重捕网",
-            "description": "<div class=\"swade-core\"><p>成功击中会让目标陷入@Compendium[swade-core-rules.swade-rules.束缚与纠缠]{纠缠}，捕网的@Compendium[swade-core-rules.swade-rules.破坏物体]{硬度}为10，而且只会被挥砍武器所伤。</p></div>",
+            "description": "<div class=\"swade-core\"><p>成功击中会让目标陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{纠缠}，捕网的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，而且只会被挥砍武器所伤。</p></div>",
             "notes": "成功击中会让目标陷入纠缠，捕网的硬度为10，而且只会被挥砍武器所伤。",
             "actions": {
                 "skill": "运动"
@@ -411,7 +411,7 @@
         },
         "Pike": {
             "name": "长矛",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.触及]{触及}2，@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "触及2，双手",
             "actions": {
                 "skill": "格斗",
@@ -428,7 +428,7 @@
                 "skill": "格斗"
             },
             "name": "刺剑",
-            "description": "<div class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-rules.格挡]{格挡}+1</p></div>",
+            "description": "<div class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1</p></div>",
             "notes": "格挡+1",
             "category": "中世纪近战武器"
         },
@@ -442,7 +442,7 @@
         },
         "Spear": {
             "name": "矛",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.触及]{触及}1，若是@Compendium[swade-core-rules.swade-rules.双手]{双手}使用则@Compendium[swade-core-rules.swade-rules.格挡]{格挡}+1。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，若是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}使用则@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1。</p>\n</div>",
             "notes": "触及1，若是双手使用则格挡+1",
             "actions": {
                 "skill": "运动",
@@ -463,7 +463,7 @@
         },
         "Springfield Model 1861": {
             "name": "春田M1861式步枪",
-            "description": "<div class=\"swade-core\"><p>黑火药武器的@Compendium[swade-core-rules.swade-rules.装填]{装填}均为3。</p></div>",
+            "description": "<div class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></div>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
                 "skill": "射击"
@@ -473,7 +473,7 @@
         },
         "Staff": {
             "name": "长棍",
-            "description": "<div class=\"swade-core\">\n<p>+1 @Compendium[swade-core-rules.swade-rules.格挡]{格挡}，@Compendium[swade-core-rules.swade-rules.触及]{触及}1，@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>+1 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "+1格挡，触及1",
             "actions": {
                 "skill": "格斗",
@@ -505,7 +505,7 @@
         },
         "Sword, Great": {
             "name": "巨剑",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-rules.双手]{双手}</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</div>",
             "notes": "双手",
             "actions": {
                 "skill": "格斗",
@@ -545,7 +545,7 @@
         },
         "Warhammer": {
             "name": "战锤",
-            "description": "<div class=\"swade-core\">\n<p>带尖，@Compendium[swade-core-rules.swade-rules.穿甲 (AP)]{穿甲}1</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>带尖，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}1</p>\n</div>",
             "notes": "带尖，穿甲1",
             "actions": {
                 "skill": "格斗"
