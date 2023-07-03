@@ -25,27 +25,28 @@
         },
         "Battle Helmet": {
             "name": "战斗头盔",
-            "description": "<article class=\"swade-core\"><p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></article>",
+            "description": "<article class=\"swade-core\"><p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
             "category": "未来"
         },
         "Battle Helmet w/ Energy Skin": {
             "name": "战斗头盔 (带能量表皮)",
-            "description": "<article class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</article>",
+            "description": "<article class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
             "category": "未来"
         },
         "Bike helmet": {
             "name": "自行车头盔",
-            "category": "现代"
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
         },
         "Body Armor": {
             "name": "护身服",
-            "description": "<article class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</article>",
+            "description": "<article class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
             "notes": "以复杂聚合物及先进防弹纤维制作的轻便防护衣物。",
             "category": "未来"
         },
         "Body Armor w/Energy Skin": {
             "name": "护身服(带能量表皮)",
-            "description": "<article class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</article>",
+            "description": "<article class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
             "notes": "以复杂聚合物及先进防弹纤维制作的轻便防护衣物。",
             "category": "未来"
         },
@@ -92,7 +93,8 @@
         },
         "Flak Jacket (Vietnam-era)": {
             "name": "防弹夹克 (越南战争时期)",
-            "category": "现代"
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
         },
         "Greaves (Bronze Armor)": {
             "name": "腿甲 (青铜护甲)",
@@ -117,12 +119,12 @@
         },
         "Infantry Battle Suit": {
             "name": "步兵战斗服",
-            "description": "<article class=\"swade-core\"><p>配有靴子和手套的全套护甲。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\"><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
+            "description": "<article class=\"swade-core\"><p>配有靴子和手套的全套护甲。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
             "category": "未来"
         },
         "Infantry Battle Suit w/ Energy Skin": {
             "name": "步兵战斗服(带能量表皮)",
-            "description": "<article class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p>配有靴子和手套的全套护甲。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</article>",
+            "description": "<article class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p>配有靴子和手套的全套护甲。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
             "notes": "配有靴子和手套的全套护甲。",
             "category": "未来"
         },
@@ -143,20 +145,22 @@
         },
         "Kevlar Riding Jacket": {
             "name": "凯夫拉骑手夹克",
-            "category": "现代"
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
         },
         "Kevlar Riding Jeans": {
             "name": "凯夫拉骑手裤子",
-            "category": "现代"
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
         },
         "Kevlar Vest": {
             "name": "凯夫拉背心",
-            "description": "<article class=\"swade-core\">\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p>\n</article>",
+            "description": "<article class=\"swade-core\">\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
             "category": "现代"
         },
         "Kevlar Vest with ceramic inserts": {
             "name": "凯夫拉背心及陶制填充物",
-            "description": "<article class=\"swade-core\"><p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></article>",
+            "description": "<article class=\"swade-core\"><p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
             "category": "现代"
         },
         "Large Shield": {
@@ -174,7 +178,8 @@
         },
         "Leather Riding Chaps": {
             "name": "皮马裤",
-            "category": "现代"
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
         },
         "Leggings (Chain Mail)": {
             "name": "护腿 (锁甲)",
@@ -206,7 +211,8 @@
         },
         "Motorcycle Helmet": {
             "name": "摩托车头盔",
-            "category": "现代"
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
         },
         "Plate Barding (horse)": {
             "name": "板甲马铠 (马)",
@@ -290,7 +296,8 @@
         },
         "Thick Coat, Leather Jacket": {
             "name": "厚外套，皮夹克",
-            "category": "现代"
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
         },
         "Vambraces (Bronze Armor)": {
             "name": "臂甲 (青铜护甲)",
