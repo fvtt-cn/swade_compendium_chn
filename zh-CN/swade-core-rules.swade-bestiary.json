@@ -6,7 +6,7 @@
     "entries": {
         "Alligator/Crocodile": {
             "name": "鳄鱼/短吻鳄",
-            "biography": "<div class=\"swade-core\">\n<p>鳄鱼与短吻鳄是大多数沼地类冒险的常客，以下数据代表了这两种常见的鳄鱼样例。在一些偏远的地区时而会有体型更大的种类。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili00]{水栖}：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}5。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}2：</strong>通常鳄鱼有12英尺长，皮糙肉厚，重量差不多在500磅左右。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>鳄鱼与短吻鳄是大多数沼地类冒险的常客，以下数据代表了这两种常见的鳄鱼样例。在一些偏远的地区时而会有体型更大的种类。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili00]{水栖}：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}5。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}2：</strong>通常鳄鱼有12英尺长，皮糙肉厚，重量差不多在500磅左右。</li>\n</ul>\n</article>",
             "items": {
                 "yu8mQgz9LsE64YCd": {
                     "name": "护甲 +2",
@@ -28,7 +28,7 @@
         },
         "Bear": {
             "name": "熊",
-            "biography": "<div class=\"swade-core\">\n<p>这个条目涵盖了较大的熊类，如灰熊、科迪亚克岛棕熊和北极熊。这些熊的偏好战法是抓住猎物，并以锐利的尖牙进行撕咬。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}2：</strong>这些生物站起来高度可达8英尺，重量超过1000磅。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>这个条目涵盖了较大的熊类，如灰熊、科迪亚克岛棕熊和北极熊。这些熊的偏好战法是抓住猎物，并以锐利的尖牙进行撕咬。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}2：</strong>这些生物站起来高度可达8英尺，重量超过1000磅。</li>\n</ul>\n</article>",
             "items": {
                 "T1ifBDtX5PnYfPri": {
                     "name": "噬咬/爪抓",
@@ -41,7 +41,7 @@
         },
         "Bull": {
             "name": "公牛",
-            "biography": "<div class=\"swade-core\">\n<p>公牛只有在被激怒时才会对人类有攻击性，当然，如果你已经需要在这里查数据，那就说明很可能它已经火冒三丈了。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}3：</strong>大多数公牛体重差不多有整整1吨。</li>\n</ul>\n<p>&nbsp;</p>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>公牛只有在被激怒时才会对人类有攻击性，当然，如果你已经需要在这里查数据，那就说明很可能它已经火冒三丈了。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}3：</strong>大多数公牛体重差不多有整整1吨。</li>\n</ul>\n<p>&nbsp;</p>\n</article>",
             "items": {
                 "eFPydHVL44FLxEW1": {
                     "name": "角撞",
@@ -54,7 +54,7 @@
         },
         "Cat, Small": {
             "name": "小猫",
-            "biography": "<div class=\"swade-core\">\n<p>这是普通的家猫，其可以作为施法者的魔宠，@Compendium[swade-core-rules.swade-edges.野兽大师]{野兽大师}的动物伙伴或者是<em>@Compendium[swade-core-rules.swade-powers.化形]{化形}</em>奇术的一种变化形态。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili20]{微光视觉}：</strong>猫忽略昏暗与黑暗的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}&minus;3 (超小型)：</strong>猫通常不到一英尺高。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>这是普通的家猫，其可以作为施法者的魔宠，@Compendium[swade-core-rules.swade-edges.野兽大师]{野兽大师}的动物伙伴或者是<em>@Compendium[swade-core-rules.swade-powers.化形]{化形}</em>奇术的一种变化形态。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili20]{微光视觉}：</strong>猫忽略昏暗与黑暗的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}&minus;3 (超小型)：</strong>猫通常不到一英尺高。</li>\n</ul>\n</article>",
             "items": {
                 "pJt2N7UPQ3W9z2La": {
                     "name": "噬咬/爪抓",
@@ -67,7 +67,7 @@
         },
         "Dire Wolf": {
             "name": "凶暴狼",
-            "biography": "<div class=\"swade-core\">\n<p>兽人经常将凶暴狼这种凶猛的大型犬类用作攻击犬，其也可能会在黑暗森林的最深处成群结队地游荡。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>疾速：</strong>d10 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑骰}。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>兽人经常将凶暴狼这种凶猛的大型犬类用作攻击犬，其也可能会在黑暗森林的最深处成群结队地游荡。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>疾速：</strong>d10 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑骰}。</li>\n</ul>\n</article>",
             "items": {
                 "vF7p7G1NlSGp47YB": {
                     "name": "噬咬",
@@ -80,7 +80,7 @@
         },
         "Dog / Wolf": {
             "name": "狗/狼",
-            "biography": "<div class=\"swade-core\">\n<p>大型攻击犬的数值见下，这包括罗威纳犬或杜宾犬，以及狼和鬣狗等等。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}&minus;1：</strong>这些犬类的头领能长到和普通人类的腰部一样粗壮，它们重约60磅。</li>\n<li><strong>疾速：</strong>d10 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑骰}。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>大型攻击犬的数值见下，这包括罗威纳犬或杜宾犬，以及狼和鬣狗等等。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}&minus;1：</strong>这些犬类的头领能长到和普通人类的腰部一样粗壮，它们重约60磅。</li>\n<li><strong>疾速：</strong>d10 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑骰}。</li>\n</ul>\n</article>",
             "items": {
                 "zSzxELVfxfIB5hTB": {
                     "name": "噬咬",
@@ -93,7 +93,7 @@
         },
         "Dragon": {
             "name": "龙",
-            "biography": "<div class=\"swade-core\">\n<p>龙是口吐火焰的怪物，其会给惨遭蹂躏的村庄带来毁灭和绝望。这种生物难以被打败，即使是对一队经验丰富的冒险者而言，其也是实打实的强敌。这些野兽颇为狡猾，它们会利用自身一切优势来对付那些妄想屠龙的家伙。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}(&minus;2)：</strong>任何看到巨龙的角色都必须进行一次-2的恐惧检定。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili12]{飞行}：</strong>龙能以24英寸的移速飞行。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili14]{顽强}：</strong>这种生物不会因为第二次遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}而受到损伤。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}8 (超大型)：</strong>龙是巨大的生物，从头到尾超过40英尺长，体重超过30000磅。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili27]{拍打}：</strong>龙在用爪子攻击时最多可忽略4点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{尺寸}减值。</li>\n</ul>\n<p>&nbsp;</p>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>龙是口吐火焰的怪物，其会给惨遭蹂躏的村庄带来毁灭和绝望。这种生物难以被打败，即使是对一队经验丰富的冒险者而言，其也是实打实的强敌。这些野兽颇为狡猾，它们会利用自身一切优势来对付那些妄想屠龙的家伙。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}(&minus;2)：</strong>任何看到巨龙的角色都必须进行一次-2的恐惧检定。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili12]{飞行}：</strong>龙能以24英寸的移速飞行。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili14]{顽强}：</strong>这种生物不会因为第二次遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}而受到损伤。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}8 (超大型)：</strong>龙是巨大的生物，从头到尾超过40英尺长，体重超过30000磅。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili27]{拍打}：</strong>龙在用爪子攻击时最多可忽略4点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{尺寸}减值。</li>\n</ul>\n<p>&nbsp;</p>\n</article>",
             "items": {
                 "L1to2JULbKVBprIk": {
                     "name": "护甲 +4",
@@ -121,7 +121,7 @@
         },
         "Drake": {
             "name": "龙兽",
-            "biography": "<div class=\"swade-core\">\n<p>龙兽是不会飞行的龙，且智力只有动物水平(而不是像真正的龙一样有着近似人类的觉知)，然而和它们的远亲相比，龙兽在正面战斗中更为好斗。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}：</strong>单单目睹龙兽就能让人心生畏惧。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili24]{强韧}：</strong>龙兽能够在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}之前承受1个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}6 (大型)：</strong>龙兽从头到尾长度超过20英尺。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>龙兽是不会飞行的龙，且智力只有动物水平(而不是像真正的龙一样有着近似人类的觉知)，然而和它们的远亲相比，龙兽在正面战斗中更为好斗。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}：</strong>单单目睹龙兽就能让人心生畏惧。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili24]{强韧}：</strong>龙兽能够在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}之前承受1个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}6 (大型)：</strong>龙兽从头到尾长度超过20英尺。</li>\n</ul>\n</article>",
             "items": {
                 "6i9w3B0KnUKwLlkg": {
                     "name": "护甲 +4",
@@ -149,7 +149,7 @@
         },
         "Elemental, Air": {
             "name": "气元素",
-            "biography": "<div class=\"swade-core\">\n<p>气元素显现为一股知性旋风。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>气态：</strong>可以穿越任何非固体表面，通过门窗上的裂缝，化作气泡在水中移动等等。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili12]{飞行}：</strong>气元素能以12英寸的移速飞行。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili19]{无敌}：</strong>免疫非魔法攻击。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>气元素显现为一股知性旋风。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>气态：</strong>可以穿越任何非固体表面，通过门窗上的裂缝，化作气泡在水中移动等等。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili12]{飞行}：</strong>气元素能以12英寸的移速飞行。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili19]{无敌}：</strong>免疫非魔法攻击。</li>\n</ul>\n</article>",
             "items": {
                 "RsjtBzG5SfJE5c6V": {
                     "name": "风爆",
@@ -167,7 +167,7 @@
         },
         "Elemental, Earth": {
             "name": "土元素",
-            "biography": "<div class=\"swade-core\">\n<p>土元素显现为五英尺高的，由石头和泥土混合而成的粗糙人形。它们虽然强而有力，但是也十分缓慢与笨重。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili03]{遁地}(10英寸)：</strong>土元素可以融入和离开地底。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili16]{免疫}：</strong>免疫基于土的攻击(包括投掷石块，或具备土、泥浆、石块或砂砾特效的奇术)。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili24]{强韧}：</strong>土元素能够在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}之前承受1个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}。</li>\n</ul>\n<p>&nbsp;</p>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>土元素显现为五英尺高的，由石头和泥土混合而成的粗糙人形。它们虽然强而有力，但是也十分缓慢与笨重。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili03]{遁地}(10英寸)：</strong>土元素可以融入和离开地底。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili16]{免疫}：</strong>免疫基于土的攻击(包括投掷石块，或具备土、泥浆、石块或砂砾特效的奇术)。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili24]{强韧}：</strong>土元素能够在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}之前承受1个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}。</li>\n</ul>\n<p>&nbsp;</p>\n</article>",
             "items": {
                 "kofVmif429XMkUyJ": {
                     "name": "护甲 +4",
@@ -183,7 +183,7 @@
         },
         "Elemental, Fire": {
             "name": "火元素",
-            "biography": "<div class=\"swade-core\">\n<p>火元素呈现为人形的火焰。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili16]{免疫}</strong><strong>：</strong>火元素免疫火焰以及基于高温的伤害。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>火元素呈现为人形的火焰。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili16]{免疫}</strong><strong>：</strong>火元素免疫火焰以及基于高温的伤害。</li>\n</ul>\n</article>",
             "items": {
                 "rUGKjno6anu3y9u5": {
                     "name": "炽炎之触",
@@ -204,7 +204,7 @@
         },
         "Elemental, Water": {
             "name": "水元素",
-            "biography": "<div class=\"swade-core\">\n<p>这些精魂是人形的水和泡沫。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili00]{水栖}：</strong>12英寸移速。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili16]{免疫}：</strong>免疫基于水的攻击。</li>\n<li><strong>渗透：</strong>水元素能如同经过@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{困难地形}一般挤过任何可穿透的缝隙。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>这些精魂是人形的水和泡沫。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili00]{水栖}：</strong>12英寸移速。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili06]{元素}：</strong>不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害，忽略1点损伤减值，无须呼吸，免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili16]{免疫}：</strong>免疫基于水的攻击。</li>\n<li><strong>渗透：</strong>水元素能如同经过@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{困难地形}一般挤过任何可穿透的缝隙。</li>\n</ul>\n</article>",
             "items": {
                 "VXQx2iAa8g84QDG8": {
                     "name": "扑击",
@@ -226,7 +226,7 @@
         },
         "Ghost": {
             "name": "鬼魂",
-            "biography": "<div class=\"swade-core\">\n<p>有时幽灵、阴影和鬼魂会从死亡中归来纠缠生者，或者完成一些未尽的遗愿。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili09]{灵态}：</strong>鬼魂可以随意变为不可见的无形存在，并且只有魔法攻击才能对其造成伤害。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}(&minus;2)：</strong>鬼魂在显现时会造成-2的恐惧检定。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>有时幽灵、阴影和鬼魂会从死亡中归来纠缠生者，或者完成一些未尽的遗愿。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili09]{灵态}：</strong>鬼魂可以随意变为不可见的无形存在，并且只有魔法攻击才能对其造成伤害。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}(&minus;2)：</strong>鬼魂在显现时会造成-2的恐惧检定。</li>\n</ul>\n</article>",
             "items": {
                 "Af2Td3DCwTojKSfo": {
                     "name": "投掷物件",
@@ -239,7 +239,7 @@
         },
         "Giant Worm": {
             "name": "巨蠕虫",
-            "biography": "<div class=\"swade-core\">\n<p>在人烟稀少的平原地区，时而存在着会在地下穿行，并将毫无防备的冒险者囫囵吞下的巨蠕虫。这些生物能够通过大地感知震动，在200码外就能听到人在行走，全长可达50英尺。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili03]{遁地}(20英寸)：</strong>巨蠕虫穿梭于地下，只有坚硬的顽石才能挡住其去路。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili14]{顽强}：</strong>这种生物不会因为第二次遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}而受到损伤。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}9 (超大型)：</strong>通常巨蠕虫长度超过50英尺，直径超过10英尺。</li>\n</ul>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>在人烟稀少的平原地区，时而存在着会在地下穿行，并将毫无防备的冒险者囫囵吞下的巨蠕虫。这些生物能够通过大地感知震动，在200码外就能听到人在行走，全长可达50英尺。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili03]{遁地}(20英寸)：</strong>巨蠕虫穿梭于地下，只有坚硬的顽石才能挡住其去路。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili14]{顽强}：</strong>这种生物不会因为第二次遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}而受到损伤。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}9 (超大型)：</strong>通常巨蠕虫长度超过50英尺，直径超过10英尺。</li>\n</ul>\n</article>",
             "items": {
                 "DacVx6ZRtL6QdyjR": {
                     "name": "护甲 +4",
@@ -265,7 +265,7 @@
         },
         "Goblin": {
             "name": "哥布林",
-            "biography": "<div class=\"swade-core\">\n<p>神话传说中的哥布林远比一些游戏和小说中所描绘的邪恶得多。在最早的传说当中，它们是可怕的生物，会在午夜潜入家里偷走并吃掉不安分的孩子。这里的数据既可以用于黑暗“童话”当中的哥布林，也可以用在当代角色扮演游戏中和兽人一同出没的哥布林。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili18]{红外感应}</strong>攻击温暖目标时忽略一半的照明减值。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}&minus;1：</strong>哥布林身高约3-4英尺。</li>\n</ul>\n<p>&nbsp;</p>\n</div>",
+            "biography": "<article class=\"swade-core\">\n<p>神话传说中的哥布林远比一些游戏和小说中所描绘的邪恶得多。在最早的传说当中，它们是可怕的生物，会在午夜潜入家里偷走并吃掉不安分的孩子。这里的数据既可以用于黑暗“童话”当中的哥布林，也可以用在当代角色扮演游戏中和兽人一同出没的哥布林。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili18]{红外感应}</strong>攻击温暖目标时忽略一半的照明减值。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}&minus;1：</strong>哥布林身高约3-4英尺。</li>\n</ul>\n<p>&nbsp;</p>\n</div>",
             "items": {
                 "hP5636DL0qeq1XDB": {
                     "name": "短矛",
