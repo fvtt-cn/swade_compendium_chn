@@ -14,7 +14,7 @@
         },
         "Arrogant": {
             "name": "傲慢",
-            "description": "<div class=\"swade-core\"><p>角色并非觉得自己天下无双——而是很肯定自己就是如此。无论是剑术、功夫或是绘画，都难有出其右者，而且他会抓住每个机会来炫耀自己。胜利也不能满足这位冠军。他想支配对手，证明自己盖世无双。这是那种会在决斗中缴械对方只是为了能一脸坏笑地捡起剑还给对方的家伙。傲慢的人物会在战斗时寻找最大的威胁，并从那些较弱的走狗中砍出一条路来——因为他们挡道了。</p></div>"
+            "description": "<article class=\"swade-core\"><p>角色并非觉得自己天下无双——而是很肯定自己就是如此。无论是剑术、功夫或是绘画，都难有出其右者，而且他会抓住每个机会来炫耀自己。胜利也不能满足这位冠军。他想支配对手，证明自己盖世无双。这是那种会在决斗中缴械对方只是为了能一脸坏笑地捡起剑还给对方的家伙。傲慢的人物会在战斗时寻找最大的威胁，并从那些较弱的走狗中砍出一条路来——因为他们挡道了。</p></article>"
         },
         "Bad Eyes": {
             "description": "<div class=\"swade-core\">\n<p>(次要或主要)</p>\n<p>角色的眼睛大不如前。其任何基于视觉的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{特性投骰} 都遭受-1减值(比如远程攻击或@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰)，若是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{主要}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}则为-2。 <br /></p>\n<p>若世设当中可以使用眼镜，那在佩戴时就能免受此减值。若眼镜在战斗中丢失或损坏(通常在受到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}、坠落，或是遭受某些外伤时有50%几率如此)，角色会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}(若为@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{主要}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}还会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{脆弱})，持续到其下回合结束时为止。</p>\n</div>",
@@ -25,7 +25,7 @@
             "name": "不幸"
         },
         "Big Mouth": {
-            "description": "<div class=\"swade-core\"><p>言多必失，这个角色的嘴巴却能装得下整支舰队。这张漏风的嘴巴没法守好秘密，不打自招，并说出最好在朋友之间保密的内容，而且时机通常糟糕透顶。</p></div>",
+            "description": "<article class=\"swade-core\"><p>言多必失，这个角色的嘴巴却能装得下整支舰队。这张漏风的嘴巴没法守好秘密，不打自招，并说出最好在朋友之间保密的内容，而且时机通常糟糕透顶。</p></article>",
             "name": "大嘴巴"
         },
         "Blind": {
@@ -34,14 +34,14 @@
         },
         "Bloodthirsty": {
             "name": "嗜血",
-            "description": "<div class=\"swade-core\"><p>这名角色在没有上级直接盯着的情况下永远都不留活口。冷酷无情如他会导致敌人以牙还牙，经常失去关键情报，不断树敌，并且让自己身陷与上司和官方的矛盾当中，具体根据世设而定。</p></div>"
+            "description": "<article class=\"swade-core\"><p>这名角色在没有上级直接盯着的情况下永远都不留活口。冷酷无情如他会导致敌人以牙还牙，经常失去关键情报，不断树敌，并且让自己身陷与上司和官方的矛盾当中，具体根据世设而定。</p></article>"
         },
         "Can't Swim": {
             "name": "不谙水性",
             "description": "<div class=\"swade-core\">\n<p>得益于交通便捷的海滩和湖泊、游泳池以及教育上的投入，21世纪大多数人都会游泳，而历史上那些并非在温暖水体附近长大的家伙对此可是力不从心。具备此@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{角色}游泳时@Compendium[swade-core-rules.swade-skills.运动]{运动}技能遭受-2减值，并且在水中每移动1英寸需要消耗3英寸@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}更多信息见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移动}</strong>和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04drowning000000]{溺水}。</p>\n</div>"
         },
         "Cautious": {
-            "description": "<div class=\"swade-core\"><p>这些规划狂就是克制和谨慎活生生的体现，从不仓促决定的他们喜欢在任何行动开始前进行琐碎而漫长的规划。</p></div>",
+            "description": "<article class=\"swade-core\"><p>这些规划狂就是克制和谨慎活生生的体现，从不仓促决定的他们喜欢在任何行动开始前进行琐碎而漫长的规划。</p></article>",
             "name": "慎重"
         },
         "Clueless": {
@@ -54,15 +54,15 @@
         },
         "Code of Honor": {
             "name": "荣耀信条",
-            "description": "<div class=\"swade-core\"><p>荣耀对于角色而言非常重要，言出必行，不会虐待杀害俘虏，并且通常会尝试按照自认为恰当的绅士或淑女风度为人处事。</p></div>"
+            "description": "<article class=\"swade-core\"><p>荣耀对于角色而言非常重要，言出必行，不会虐待杀害俘虏，并且通常会尝试按照自认为恰当的绅士或淑女风度为人处事。</p></article>"
         },
         "Curious": {
             "name": "好奇",
-            "description": "<div class=\"swade-core\"><p>好奇害死猫，也能要人命。好奇的角色会检查所有事物，并且总是想要知道任何奥秘或是秘密背地里潜藏着什么。</p></div>"
+            "description": "<article class=\"swade-core\"><p>好奇害死猫，也能要人命。好奇的角色会检查所有事物，并且总是想要知道任何奥秘或是秘密背地里潜藏着什么。</p></article>"
         },
         "Death Wish": {
             "name": "求死",
-            "description": "<div class=\"swade-core\"><p>求死并不意味着冒险者想要自杀——他也许只是认为自己的性命毫无价值，而不是具备高尚但明显是自寻死路的精神。求死的对象并不会毫无理由地抛弃生命，但若有机会完成目标，则其会采取一切行动——以及冒任何风险——以求予以实现。</p></div>"
+            "description": "<article class=\"swade-core\"><p>求死并不意味着冒险者想要自杀——他也许只是认为自己的性命毫无价值，而不是具备高尚但明显是自寻死路的精神。求死的对象并不会毫无理由地抛弃生命，但若有机会完成目标，则其会采取一切行动——以及冒任何风险——以求予以实现。</p></article>"
         },
         "Delusional": {
             "description": "<div class=\"swade-core\">\n<p>(次要或主要)</p>\n<p>角色相信一些其他人都觉得很奇怪的东西。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{次要}妄想没有害处，或者只是角色基本上不会四处声张。(政府在软饮里加镇定剂，狗能说话，我们都是某种奇妙游戏里面的人物等等)。</p>\n<p>若是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{主要}妄想，人物则会经常根据情况直抒己见，并且这偶尔还会招致危险。(政府是外星人在运作，医院会置人于死地，我对护甲过敏，丧尸是我的朋友)。</p>\n</div>",
@@ -70,7 +70,7 @@
         },
         "Doubting Thomas": {
             "name": "怀疑论者",
-            "description": "<div class=\"swade-core\"><p>有些人直至半个身子进了血盘大口里面才会相信超自然。怀疑论者会极尽一切来解释并合理化超自然现象，他们会径直走进自己所不相信的险境当中，并为每一个超自然事件寻找替代的解释。</p>\n<p>即使在面对不可置疑的事实后，怀疑论者最终会开始怀疑自己所见，并加以理性解释，或将事件划分为“独一无二”然后继续质疑另一个谜团。</p></div>"
+            "description": "<article class=\"swade-core\"><p>有些人直至半个身子进了血盘大口里面才会相信超自然。怀疑论者会极尽一切来解释并合理化超自然现象，他们会径直走进自己所不相信的险境当中，并为每一个超自然事件寻找替代的解释。</p>\n<p>即使在面对不可置疑的事实后，怀疑论者最终会开始怀疑自己所见，并加以理性解释，或将事件划分为“独一无二”然后继续质疑另一个谜团。</p></article>"
         },
         "Driven": {
             "name": "立志",
@@ -97,7 +97,7 @@
             "name": "听力不济"
         },
         "Heroic": {
-            "description": "<div class=\"swade-core\"><p>高贵的灵魂不会拒绝求助的呼声，角色不一定乐于如此，但总是会救援那些其认为无法自救的对象。角色会第一个冲进火场，通常为了丁点报酬或是不求回报地答应狩猎怪物，同时也很容易被悲情故事愚弄。</p></div>",
+            "description": "<article class=\"swade-core\"><p>高贵的灵魂不会拒绝求助的呼声，角色不一定乐于如此，但总是会救援那些其认为无法自救的对象。角色会第一个冲进火场，通常为了丁点报酬或是不求回报地答应狩猎怪物，同时也很容易被悲情故事愚弄。</p></article>",
             "name": "英雄本色"
         },
         "Hesitant": {
@@ -106,18 +106,18 @@
         },
         "Illiterate": {
             "name": "文盲",
-            "description": "<div class=\"swade-core\"><p>角色无法阅读，其会写自己的名字也能理解停止标记的含义，但也仅此而已。角色在数学上也知之甚少，也许他能做2+2=4，但乘法之类的就无能为力了。</p>\n<p>文盲角色无法阅读或书写任何语言，无论其实际能说多少语言皆是如此。</p></div>"
+            "description": "<article class=\"swade-core\"><p>角色无法阅读，其会写自己的名字也能理解停止标记的含义，但也仅此而已。角色在数学上也知之甚少，也许他能做2+2=4，但乘法之类的就无能为力了。</p>\n<p>文盲角色无法阅读或书写任何语言，无论其实际能说多少语言皆是如此。</p></article>"
         },
         "Impulsive": {
             "name": "意气用事",
-            "description": "<div class=\"swade-core\"><p>冒失鬼经常不加思考就扑了上去，其鲜少三思而后行。</p></div>"
+            "description": "<article class=\"swade-core\"><p>冒失鬼经常不加思考就扑了上去，其鲜少三思而后行。</p></article>"
         },
         "Jealous": {
             "description": "<div class=\"swade-core\">\n<p>(次要或主要)</p>\n<p>缺乏安全感使人嫉妒他人的成就，或者是这个不满的灵魂对于认为属于自己的东西表现出了过头的占有欲。他经常怨天尤人，闷闷不乐，觊觎他人的财产或荣耀，邀功请赏，违背命令，以及经常引起各种问题。</p>\n<p>若为@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{次要}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}，角色的嫉妒会集中在某一特定事物上(诸如开飞机这种\"无可比拟\"的技能或是谈情说爱)。</p>\n<p>若为@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{主要}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}，角色会嫉妒一切自认超过自己的家伙，他会一直污蔑对手，尝试抢过他们的风头，或是积极地密谋陷害威胁到自尊的对象。</p>\n</div>",
             "name": "嫉妒"
         },
         "Loyal": {
-            "description": "<div class=\"swade-core\"><p>这名忠诚的卫士能毫不犹豫地为自己的朋友两肋插刀。某些忠诚的英雄也许不会这样行动，但会在朋友受到威胁时第一个伸出援手。</p></div>",
+            "description": "<article class=\"swade-core\"><p>这名忠诚的卫士能毫不犹豫地为自己的朋友两肋插刀。某些忠诚的英雄也许不会这样行动，但会在朋友受到威胁时第一个伸出援手。</p></article>",
             "name": "忠诚"
         },
         "Mean": {
@@ -153,7 +153,7 @@
             "name": "异客"
         },
         "Overconfident": {
-            "description": "<div class=\"swade-core\"><p>角色战无不胜——至少他是这么想的，其认为自己几乎无所不能，而且从不会在挑战面前打退堂鼓。角色没有自杀倾向，但的确会采取超出常识的举动。</p></div>",
+            "description": "<article class=\"swade-core\"><p>角色战无不胜——至少他是这么想的，其认为自己几乎无所不能，而且从不会在挑战面前打退堂鼓。角色没有自杀倾向，但的确会采取超出常识的举动。</p></article>",
             "name": "自负"
         },
         "Pacifist": {
@@ -170,7 +170,7 @@
         },
         "Quirk": {
             "name": "怪癖",
-            "description": "<div class=\"swade-core\"><p>这个人物有一些通常而言会显得滑稽的小癖好，但这偶尔也会惹祸上身。举例而言，总是尝试把自己的姓名首字母刻敌人身上的剑客，总喜欢吹嘘自己的文化的矮人，不和下等人士用餐饮酒或社交往来的势利眼上流少女等等。</p></div>"
+            "description": "<article class=\"swade-core\"><p>这个人物有一些通常而言会显得滑稽的小癖好，但这偶尔也会惹祸上身。举例而言，总是尝试把自己的姓名首字母刻敌人身上的剑客，总喜欢吹嘘自己的文化的矮人，不和下等人士用餐饮酒或社交往来的势利眼上流少女等等。</p></article>"
         },
         "Ruthless": {
             "description": "<div class=\"swade-core\">\n<p>(次要或主要)</p>\n<p>这些狂徒为了达到目的几乎不择手段。若为@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{主要}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}，其会伤害所有挡路的家伙。若为@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{次要}负赘，对于并非直接和自己对立的家伙，其会在造成真正的伤害之前手下留情。</p>\n</div>",
@@ -194,7 +194,7 @@
         },
         "Stubborn": {
             "name": "顽固",
-            "description": "<div class=\"swade-core\"><p>顽固角色总是我行我素，拒不认错。哪怕犯下的错误已经是一目了然，他们仍会通过真假参半的强词夺理来予以辩解。</p></div>"
+            "description": "<article class=\"swade-core\"><p>顽固角色总是我行我素，拒不认错。哪怕犯下的错误已经是一目了然，他们仍会通过真假参半的强词夺理来予以辩解。</p></article>"
         },
         "Suspicious": {
             "name": "多疑",
