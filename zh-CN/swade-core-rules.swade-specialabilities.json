@@ -9,7 +9,7 @@
         },
         "Zombie": {
             "name": "行尸",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>行尸：</strong>巫妖乃是死灵法师中的翘楚，其通过<em>@Compendium[swade-core-rules.swade-powers.行尸]{行尸}</em>法术唤起的不死族永久存续，并且他们可以像唤起@Compendium[swade-core-rules.swade-bestiary.行尸]{行尸}一样唤起@Compendium[swade-core-rules.swade-bestiary.骷髅]{骷髅}，某些巫妖甚至已经建立了一整支听其差遣的不死军团。</li>\n</ul>\n</div>"
+            "description": "<article class=\"swade-core\">\n<ul>\n<li><strong>行尸：</strong>巫妖乃是死灵法师中的翘楚，其通过<em>@Compendium[swade-core-rules.swade-powers.行尸]{行尸}</em>法术唤起的不死族永久存续，并且他们可以像唤起@Compendium[swade-core-rules.swade-bestiary.行尸]{行尸}一样唤起@Compendium[swade-core-rules.swade-bestiary.骷髅]{骷髅}，某些巫妖甚至已经建立了一整支听其差遣的不死军团。</li>\n</ul>\n</article>"
         },
         "Wall Walker": {
             "name": "走壁",
@@ -68,7 +68,7 @@
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili12]{飞行}：</strong>以24英寸移速飞行。</li>\n</ul>\n</div>"
         },
         "Gaseous Form": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>气态：</strong>可以穿越任何非固体表面，通过门窗上的裂缝，化作气泡在水中移动等等。 </li>\n</ul>\n</div>",
+            "description": "<article class=\"swade-core\">\n<ul>\n<li><strong>气态：</strong>可以穿越任何非固体表面，通过门窗上的裂缝，化作气泡在水中移动等等。 </li>\n</ul>\n</article>",
             "name": "气态"
         },
         "Hardy": {
@@ -80,7 +80,7 @@
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili16]{免疫}：</strong>免疫基于水的攻击。</li>\n</ul>\n</div>"
         },
         "Infection": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>感染：</strong>任何被狼人杀死的对象都会有50%的几率复活成为狼人。这些角色每当满月之际都会强行化身为狼人，其只有在成为狼人[[/sr 1d6 # 成为狼人的年数]]年后才能控制自己的狼化症。</li>\n</ul>\n</div>",
+            "description": "<article class=\"swade-core\">\n<ul>\n<li><strong>感染：</strong>任何被狼人杀死的对象都会有50%的几率复活成为狼人。这些角色每当满月之际都会强行化身为狼人，其只有在成为狼人[[/sr 1d6 # 成为狼人的年数]]年后才能控制自己的狼化症。</li>\n</ul>\n</article>",
             "name": "感染"
         },
         "Infravision": {
@@ -104,7 +104,7 @@
             "name": "夜视"
         },
         "Ornery": {
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>犟脾气：</strong>骡子是倔强的生物，角色在骑乘骡子时，@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘}投骰必须减1。</li>\n</ul>\n</div>",
+            "description": "<article class=\"swade-core\">\n<ul>\n<li><strong>犟脾气：</strong>骡子是倔强的生物，角色在骑乘骡子时，@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘}投骰必须减1。</li>\n</ul>\n</article>",
             "name": "犟脾气"
         },
         "Poison": {
@@ -125,7 +125,7 @@
         },
         "Sire": {
             "name": "眷属",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>眷属： </strong>任何被吸血鬼杀死的对象都会有50% 的几率在[[/r 1d4]]天内复活成吸血鬼。</li>\n</ul>\n</div>"
+            "description": "<article class=\"swade-core\">\n<ul>\n<li><strong>眷属： </strong>任何被吸血鬼杀死的对象都会有50% 的几率在[[/r 1d4]]天内复活成吸血鬼。</li>\n</ul>\n</article>"
         },
         "Speed": {
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>疾速：</strong>d10@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑骰}。</li>\n</ul>\n</div>",
@@ -145,7 +145,7 @@
         },
         "Weakness": {
             "name": "弱点",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>弱点(非请勿进)：</strong>吸血鬼不被邀请则无法进入私人住所，但其能随意出入公共建筑。</li>\n</ul>\n</div>"
+            "description": "<article class=\"swade-core\">\n<ul>\n<li><strong>弱点(非请勿进)：</strong>吸血鬼不被邀请则无法进入私人住所，但其能随意出入公共建筑。</li>\n</ul>\n</article>"
         },
         "Aquatic": {
             "name": "水栖",
