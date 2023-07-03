@@ -117,7 +117,7 @@
         },
         "Infantry Battle Suit": {
             "name": "步兵战斗服",
-            "description": "<article class=\"swade-core\"><p>配有靴子和手套的全套护甲。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></article>",
+            "description": "<article class=\"swade-core\"><p>配有靴子和手套的全套护甲。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\"><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
             "category": "未来"
         },
         "Infantry Battle Suit w/ Energy Skin": {
@@ -138,7 +138,7 @@
         },
         "Kevlar helmet": {
             "name": "凯夫拉头盔",
-            "description": "<article class=\"swade-core\"><p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong>让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</p></article>",
+            "description": "<article class=\"swade-core\"><p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
             "category": "现代"
         },
         "Kevlar Riding Jacket": {
