@@ -13,11 +13,11 @@
         },
         "Boating": {
             "name": "驾船",
-            "description": "<div class=\"swade-core\"><p>拥有该技能的角色能操纵设定中绝大部分的普通舟艇或者船只，其同样知晓如何处理与这些载具相关的普通作业，诸如打结、扬帆或是顺水航行。</p></div>"
+            "description": "<article class=\"swade-core\"><p>拥有该技能的角色能操纵设定中绝大部分的普通舟艇或者船只，其同样知晓如何处理与这些载具相关的普通作业，诸如打结、扬帆或是顺水航行。</p></article>"
         },
         "Common Knowledge": {
             "name": "通用知识",
-            "description": "<div class=\"swade-core\"><p>角色在了解风土人情以及所在世界的情况时进行通用知识投骰，这包括礼仪、地理、文化、流行科技、人脉和风俗等等。</p></div>"
+            "description": "<article class=\"swade-core\"><p>角色在了解风土人情以及所在世界的情况时进行通用知识投骰，这包括礼仪、地理、文化、流行科技、人脉和风俗等等。</p></article>"
         },
         "Driving": {
             "name": "驾驶",
@@ -25,7 +25,7 @@
         },
         "Electronics": {
             "name": "电子学",
-            "description": "<div class=\"swade-core\">\n<p>电子学让角色得以使用复杂或是专业化设备，诸如控制面板、工业机械，或是未来设定中太空船上的传感系统。</p>\n<p>在设定中普及的电子装置或是家用电器不需要用到电子学，若是需要投骰，使用@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识}足矣。现代世设中的摄像机以及手机之类的也同理。</p>\n<p>修理任意损坏的电子设备需要用到@Compendium[swade-core-rules.swade-skills.修理]{修理}技能。</p>\n</div>"
+            "description": "<article class=\"swade-core\">\n<p>电子学让角色得以使用复杂或是专业化设备，诸如控制面板、工业机械，或是未来设定中太空船上的传感系统。</p>\n<p>在设定中普及的电子装置或是家用电器不需要用到电子学，若是需要投骰，使用@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识}足矣。现代世设中的摄像机以及手机之类的也同理。</p>\n<p>修理任意损坏的电子设备需要用到@Compendium[swade-core-rules.swade-skills.修理]{修理}技能。</p>\n</article>"
         },
         "Faith": {
             "name": "信仰",
@@ -65,7 +65,7 @@
         },
         "Occult": {
             "name": "神秘学",
-            "description": "<div class=\"swade-core\"><p>神秘学表现了被大多数人认为是天方夜谭的离奇知识与经验，这可用于破译奇异的象形符号，回忆超自然生物的信息，想起诸如狼人症或是吸血疫等怪病的治疗方法，或是施展仪式。</p>\n<p>在图书馆、报纸档案馆、古老典籍以及互联网等等当中寻找信息使用的是@Compendium[swade-core-rules.swade-skills.调查]{调查}技能。然而，如同说明，若是调查员的神秘学要更高，则能以此作为替代。</p></div>"
+            "description": "<article class=\"swade-core\"><p>神秘学表现了被大多数人认为是天方夜谭的离奇知识与经验，这可用于破译奇异的象形符号，回忆超自然生物的信息，想起诸如狼人症或是吸血疫等怪病的治疗方法，或是施展仪式。</p>\n<p>在图书馆、报纸档案馆、古老典籍以及互联网等等当中寻找信息使用的是@Compendium[swade-core-rules.swade-skills.调查]{调查}技能。然而，如同说明，若是调查员的神秘学要更高，则能以此作为替代。</p></article>"
         },
         "Performance": {
             "name": "表演",
@@ -81,7 +81,7 @@
         },
         "Psionics": {
             "name": "灵能",
-            "description": "<div class=\"swade-core\"><p>这个技能用于启动或操纵角色的灵能，见@Compendium[swade-core-rules.swade-edges.奥法背景 (灵能)]{奥法背景 (灵能)}专长。</p></div>"
+            "description": "<article class=\"swade-core\"><p>这个技能用于启动或操纵角色的灵能，见@Compendium[swade-core-rules.swade-edges.奥法背景 (灵能)]{奥法背景 (灵能)}专长。</p></article>"
         },
         "Repair": {
             "description": "<div class=\"swade-core\">\n<p>修理是拆解以及修补机械小装置、载具、 武器以及简单电子设备的能力，这也包括使用炸药和炸弹。</p>\n<p>修理需要多长时间取决于GM和作业复杂程度。在后启示录的设定里，修理小型汽车上的一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04chasesandveh00]{损伤}也许需要1小时。若是在当下要修理同一辆车上的一个损伤，而且角色还想上漆抛光之类的，则可能会需要4个小时。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{成功}意味着物品恢复功能，而出现在修理投骰上的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}则能让所需时间减半。</p>\n<p><strong>工具：</strong>若是角色搞不到基础工具，则投骰会遭受轻微@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{减值}(-1到-2)，如果这个装置需要特定器械，则会遭受严重减值(-3到-4)。</p>\n<p><strong>电子装置：</strong>修理能用于维修电子设备，但受角色的@Compendium[swade-core-rules.swade-skills.电子学]{电子学}技能所限制，使用其中最低的那个技能。</p>\n</div>",
@@ -133,7 +133,7 @@
         },
         "Academics": {
             "name": "人文",
-            "description": "<div class=\"swade-core\"><p>人文象征着文科、社会科学、文学、历史、考古等类似领域的学识。如果角色想去回忆玛雅日历何时结束或是背诵《麦克白》的某段台词，这就是要用到的技能。</p></div>"
+            "description": "<article class=\"swade-core\"><p>人文象征着文科、社会科学、文学、历史、考古等类似领域的学识。如果角色想去回忆玛雅日历何时结束或是背诵《麦克白》的某段台词，这就是要用到的技能。</p></article>"
         }
     },
     "label": "SWADE 技能"
