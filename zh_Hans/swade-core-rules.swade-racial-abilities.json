@@ -1,3 +1,7 @@
 {
-    "label": "SWADE 种族能力"
+    "label": "SWADE 种族能力",
+    "mapping": {
+        "category": "system.category",
+        "description": "system.description"
+    }
 }
