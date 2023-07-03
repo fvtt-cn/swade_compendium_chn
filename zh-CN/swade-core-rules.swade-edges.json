@@ -44,13 +44,13 @@
         },
         "Acrobat": {
             "name": "特技员",
-            "description": "<div class=\"swade-core\">\n<p>特技员就包括平衡、翻滚或擒抱的@Compendium[swade-core-rules.swade-skills.运动]{运动}总值免费获得一次重投。该专长不影响打断动作、攀爬，游泳或投掷的投骰。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>特技员就包括平衡、翻滚或擒抱的@Compendium[swade-core-rules.swade-skills.运动]{运动}总值免费获得一次重投。该专长不影响打断动作、攀爬，游泳或投掷的投骰。</p>\n</article>",
             "requirements": "入门，灵巧d8+，运动d8+",
             "category": "术业"
         },
         "Alertness": {
             "name": "警觉",
-            "description": "<div class=\"swade-core\">\n<p>角色洞若观火，明察秋毫，没有什么能逃过他的眼睛。通过目视，耳听或以其他方式感受周遭世界的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色洞若观火，明察秋毫，没有什么能逃过他的眼睛。通过目视，耳听或以其他方式感受周遭世界的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰+2。</p>\n</article>",
             "requirements": "入门",
             "category": "背景"
         },
@@ -73,7 +73,7 @@
             "category": "背景"
         },
         "Arcane Resistance": {
-            "description": "<div class=\"swade-core\"><p>魔法和超自然对该人物的影响大大减弱。无论是与生俱来、源自传承、或是历经训练，其对魔法、灵能、奇异科学以及其他超自然能量有着特别的抗性。</p>\n<p>以此角色为目标的奥法技能遭受<strong>-2</strong>减值(即使是盟友施放的也是如此！)，而且魔法伤害也会<strong>-2</strong>。</p></div>",
+            "description": "<article class=\"swade-core\"><p>魔法和超自然对该人物的影响大大减弱。无论是与生俱来、源自传承、或是历经训练，其对魔法、灵能、奇异科学以及其他超自然能量有着特别的抗性。</p>\n<p>以此角色为目标的奥法技能遭受<strong>-2</strong>减值(即使是盟友施放的也是如此！)，而且魔法伤害也会<strong>-2</strong>。</p></article>",
             "requirements": "入门，心魂d8+",
             "name": "奥法抗性",
             "category": "背景"
@@ -98,7 +98,7 @@
         },
         "Attractive": {
             "name": "魅力惊人",
-            "description": "<div class=\"swade-core\">\n<p>毫无疑问人们更愿意向外表对自己有吸引力的家伙伸出援手。若目标能被角色的类型(性别、性征、种族等等)所吸引，角色对其的@Compendium[swade-core-rules.swade-skills.表演]{表演}和@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+1。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>毫无疑问人们更愿意向外表对自己有吸引力的家伙伸出援手。若目标能被角色的类型(性别、性征、种族等等)所吸引，角色对其的@Compendium[swade-core-rules.swade-skills.表演]{表演}和@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+1。</p>\n</article>",
             "requirements": "入门，活力d6+",
             "category": "背景"
         },
@@ -170,7 +170,7 @@
         },
         "Charismatic": {
             "name": "亲和力",
-            "description": "<div class=\"swade-core\">\n<p>角色因某些理由广受欢迎。其可能是值得信赖或和蔼可亲，或只是表露出自信和好意。@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰免费获得一次重投。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色因某些理由广受欢迎。其可能是值得信赖或和蔼可亲，或只是表露出自信和好意。@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰免费获得一次重投。</p>\n</article>",
             "requirements": "入门，心魂d8+",
             "category": "背景"
         },
@@ -248,7 +248,7 @@
         },
         "Connections": {
             "name": "人脉",
-            "description": "<div class=\"swade-core\">\n<p>角色认识能在危难之刻给予援手的朋友或组织，这可以是黑社会、联邦调查局、工会甚至其他冒险者。人脉专长可以多次选择，每次都要选择一个新的组织或对象。每回游戏一次，只要角色能联系上对方，那就可以向朋友寻求一次帮助。 <br/><p>帮助取决于关系的本质(GM决定)，但通常都是贷款、装备、一小伙帮忙的战士、运输、情报、甚至可以是具备团队短板关键技能的专家，诸如骇客或是学者。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色认识能在危难之刻给予援手的朋友或组织，这可以是黑社会、联邦调查局、工会甚至其他冒险者。人脉专长可以多次选择，每次都要选择一个新的组织或对象。每回游戏一次，只要角色能联系上对方，那就可以向朋友寻求一次帮助。 <br/><p>帮助取决于关系的本质(GM决定)，但通常都是贷款、装备、一小伙帮忙的战士、运输、情报、甚至可以是具备团队短板关键技能的专家，诸如骇客或是学者。</p>\n</article>",
             "requirements": "入门",
             "category": "社交"
         },
@@ -338,7 +338,7 @@
         },
         "Fame": {
             "name": "小有名气",
-            "description": "<div class=\"swade-core\">\n<p>角色是某类颇有名气的家伙，其可以是特定领地内的有名诗人，摇滚小明星或受欢迎的B级片导演。</p>\n<p>当进行表演卖艺时(见<strong>@Compendium[swade-core-rules.swade-skills.表演]{表演}</strong>)，角色可以赚取双倍收入。如果目标态度是友善且知道角色是谁(一次@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识}投骰，视乎目标有多少可能知晓角色的名声予以调整)，则其能利用自己的名声使@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+1。</p>\n<p>@Compendium[swade-core-rules.swade-edges.小有名气]{小有名气}的缺点是人物经常会被认出来，其他人总想从他这里获得什么，可能会被粉丝或崇拜者跟踪，或是没法在不给自己带来麻烦的同时逃避工作、表演或其他职责。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色是某类颇有名气的家伙，其可以是特定领地内的有名诗人，摇滚小明星或受欢迎的B级片导演。</p>\n<p>当进行表演卖艺时(见<strong>@Compendium[swade-core-rules.swade-skills.表演]{表演}</strong>)，角色可以赚取双倍收入。如果目标态度是友善且知道角色是谁(一次@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识}投骰，视乎目标有多少可能知晓角色的名声予以调整)，则其能利用自己的名声使@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+1。</p>\n<p>@Compendium[swade-core-rules.swade-edges.小有名气]{小有名气}的缺点是人物经常会被认出来，其他人总想从他这里获得什么，可能会被粉丝或崇拜者跟踪，或是没法在不给自己带来麻烦的同时逃避工作、表演或其他职责。</p>\n</article>",
             "requirements": "入门",
             "category": "背景"
         },
@@ -355,7 +355,7 @@
             "category": "战斗"
         },
         "Famous": {
-            "description": "<div class=\"swade-core\">\n<p>这位角色的确非常有名，在诸如国家、大企业或著名媒体(电影或电视，音乐产业等等)这类大圈子里广为人知。角色表演卖艺时可以赚取正常收入的5倍，并且在影响认识自己的友善目标时@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+2。</p>\n<p>当然声名鹊起的代价也要更高，对象得在时间、工作任务、竞争对手、流言蜚语上付出更多精力，也无法混迹于人群中秘密行事。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>这位角色的确非常有名，在诸如国家、大企业或著名媒体(电影或电视，音乐产业等等)这类大圈子里广为人知。角色表演卖艺时可以赚取正常收入的5倍，并且在影响认识自己的友善目标时@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+2。</p>\n<p>当然声名鹊起的代价也要更高，对象得在时间、工作任务、竞争对手、流言蜚语上付出更多精力，也无法混迹于人群中秘密行事。</p>\n</article>",
             "requirements": "行家，小有名气",
             "name": "名声大噪",
             "category": "背景"
@@ -410,7 +410,7 @@
         },
         "Frenzy": {
             "name": "连击",
-            "description": "<div class=\"swade-core\">\n<p>拥有连击专长的角色可以在回合内的一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗}攻击中投出第二枚格斗骰。该额外的骰子可以根据角色选择针对相同或不同的目标，并分别进行结算。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>拥有连击专长的角色可以在回合内的一次@Compendium[swade-core-rules.swade-skills.格斗]{格斗}攻击中投出第二枚格斗骰。该额外的骰子可以根据角色选择针对相同或不同的目标，并分别进行结算。</p>\n</article>",
             "requirements": "行家，格斗d8+",
             "category": "战斗"
         },
@@ -446,13 +446,13 @@
         },
         "Humiliate": {
             "name": "羞辱",
-            "description": "<div class=\"swade-core\">\n<p>聪明而冷酷的家伙单凭简单的言辞或恰到好处的肢体语言就能摧毁敌人的自尊。角色可以免费重投一次@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄考验}。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>聪明而冷酷的家伙单凭简单的言辞或恰到好处的肢体语言就能摧毁敌人的自尊。角色可以免费重投一次@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄考验}。</p>\n</article>",
             "requirements": "入门，嘲弄d8+",
             "category": "社交"
         },
         "Improved Arcane Resistance": {
             "name": "精通奥法抗性",
-            "description": "<div class=\"swade-core\"><p>魔法和超自然对该人物的影响大大减弱。无论是与生俱来、源自传承、或是历经训练，其对魔法、灵能、奇异科学以及其他超自然能量有着特别的抗性。</p>\n<p>以此角色为目标的奥法技能遭受<strong>-4</strong>减值(即使是盟友施放的也是如此！)，而且魔法伤害也会<strong>-4</strong>。</p></div>",
+            "description": "<article class=\"swade-core\"><p>魔法和超自然对该人物的影响大大减弱。无论是与生俱来、源自传承、或是历经训练，其对魔法、灵能、奇异科学以及其他超自然能量有着特别的抗性。</p>\n<p>以此角色为目标的奥法技能遭受<strong>-4</strong>减值(即使是盟友施放的也是如此！)，而且魔法伤害也会<strong>-4</strong>。</p></article>",
             "requirements": "入门，奥法抗性",
             "category": "背景"
         },
@@ -542,7 +542,7 @@
         },
         "Investigator": {
             "name": "调查员",
-            "description": "<div class=\"swade-core\">\n<p>调查员花了大量时间研究古代传说、街头工作或推理可怕的谜团。其中一些是私家侦探，一些是在奇幻世界里的法师探员，一些则是好奇的大学教授——其偶尔发现了某些凡人不应知晓的事物。</p>\n<p>调查员在写字台上研究重要文件，在一大堆垃圾邮件中翻找出特定笔记，和在一大堆垃圾及残骸中搜寻物品时的@Compendium[swade-core-rules.swade-skills.调查]{调查}和@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>调查员花了大量时间研究古代传说、街头工作或推理可怕的谜团。其中一些是私家侦探，一些是在奇幻世界里的法师探员，一些则是好奇的大学教授——其偶尔发现了某些凡人不应知晓的事物。</p>\n<p>调查员在写字台上研究重要文件，在一大堆垃圾邮件中翻找出特定笔记，和在一大堆垃圾及残骸中搜寻物品时的@Compendium[swade-core-rules.swade-skills.调查]{调查}和@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰+2。</p>\n</article>",
             "requirements": "入门，聪慧d8+，调查d8+",
             "category": "术业"
         },
@@ -572,7 +572,7 @@
         },
         "Master": {
             "name": "大师水准",
-            "description": "<div class=\"swade-core\"><p>角色在投所选@Compendium[swade-core-rules.swade-edges.专家水准]{专家水准}特性时的不羁骰增长为d10。</p></div>",
+            "description": "<article class=\"swade-core\"><p>角色在投所选@Compendium[swade-core-rules.swade-edges.专家水准]{专家水准}特性时的不羁骰增长为d10。</p></article>",
             "requirements": "不羁角色，传奇，对应特性的专家水准",
             "category": "传奇"
         },
@@ -584,25 +584,25 @@
         },
         "Menacing": {
             "name": "凶神恶煞",
-            "description": "<div class=\"swade-core\">\n<p>若懂得如何利用，粗鄙野蛮也不总是坏事。凶神恶煞能让角色好好发挥自己的糟糕外表或是差劲态度，这货的@Compendium[swade-core-rules.swade-skills.威吓]{威吓}投骰+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>若懂得如何利用，粗鄙野蛮也不总是坏事。凶神恶煞能让角色好好发挥自己的糟糕外表或是差劲态度，这货的@Compendium[swade-core-rules.swade-skills.威吓]{威吓}投骰+2。</p>\n</article>",
             "requirements": "入门，下列负赘之一：嗜血、刻薄、无情、丑陋",
             "category": "社交"
         },
         "Mentalist": {
             "name": "控心师",
-            "description": "<div class=\"swade-core\">\n<p>不断与多个心灵的接触让这些灵能者善于发起或抵抗心灵攻击。</p>\n<p>无论是针对敌人使用奇术还是抵抗对手，控心者的@Compendium[swade-core-rules.swade-skills.灵能]{灵能}对抗投骰均+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>不断与多个心灵的接触让这些灵能者善于发起或抵抗心灵攻击。</p>\n<p>无论是针对敌人使用奇术还是抵抗对手，控心者的@Compendium[swade-core-rules.swade-skills.灵能]{灵能}对抗投骰均+2。</p>\n</article>",
             "requirements": "行家，奥法背景 (灵能)，灵能d6+",
             "category": "奇术"
         },
         "Mighty Blow": {
             "name": "强力一击",
-            "description": "<div class=\"swade-core\"><p>行动卡是鬼牌时，该轮第一次成功的@Compendium[swade-core-rules.swade-skills.格斗]{格斗}攻击造成的伤害翻倍。 </p></div>",
+            "description": "<article class=\"swade-core\"><p>行动卡是鬼牌时，该轮第一次成功的@Compendium[swade-core-rules.swade-skills.格斗]{格斗}攻击造成的伤害翻倍。 </p></article>",
             "requirements": "不羁角色，入门，格斗d8+",
             "category": "战斗"
         },
         "Mr. Fix It": {
             "name": "修理先生",
-            "description": "<div class=\"swade-core\">\n<p>角色@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰+2。若出现优良，则修理东西的时间为正常所需的一半。这意味着如果特定修理任务已经有说明优良能让耗时减半，那么修理先生出现优良时则只需要四分之一的时间就能完成工作。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰+2。若出现优良，则修理东西的时间为正常所需的一半。这意味着如果特定修理任务已经有说明优良能让耗时减半，那么修理先生出现优良时则只需要四分之一的时间就能完成工作。</p>\n</article>",
             "requirements": "入门，修理d8+",
             "category": "术业"
         },
@@ -686,7 +686,7 @@
         },
         "Scavenger": {
             "name": "破烂王",
-            "description": "<div class=\"swade-core\">\n<p>每遭遇一次，这名人物能发现、“蓦然”想起或找出一些急需的装备部件、一把弹药或其他有用的装置。</p>\n<p>GM决定怎样算作一次遭遇，并且能裁定可以找到什么以及无法找到什么。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>每遭遇一次，这名人物能发现、“蓦然”想起或找出一些急需的装备部件、一把弹药或其他有用的装置。</p>\n<p>GM决定怎样算作一次遭遇，并且能裁定可以找到什么以及无法找到什么。</p>\n</article>",
             "requirements": "入门，幸运",
             "category": "奇异"
         },
@@ -734,7 +734,7 @@
         },
         "Thief": {
             "name": "盗贼",
-            "description": "<div class=\"swade-core\">\n<p>精于欺诈、背叛和特技的盗贼在侦察陷阱、爬墙和开锁缺一不可的场合里是无价之宝。</p>\n<p>盗贼知晓如何利用墙上的突起和窗沿来攀爬最高的建筑物，并像猫一样在大街小巷中奔跑疾走，城市区域中用于攀爬的@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰+1。</p>\n<p>盗贼知晓如何利用城市街灯之间的阴影来隐藏自己的行动，城市环境中的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰+1。</p>\n<p>最后，毫无疑问，这些角色精于贼活，所有环境下的@Compendium[swade-core-rules.swade-skills.贼活]{贼活}投骰+1。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>精于欺诈、背叛和特技的盗贼在侦察陷阱、爬墙和开锁缺一不可的场合里是无价之宝。</p>\n<p>盗贼知晓如何利用墙上的突起和窗沿来攀爬最高的建筑物，并像猫一样在大街小巷中奔跑疾走，城市区域中用于攀爬的@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰+1。</p>\n<p>盗贼知晓如何利用城市街灯之间的阴影来隐藏自己的行动，城市环境中的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰+1。</p>\n<p>最后，毫无疑问，这些角色精于贼活，所有环境下的@Compendium[swade-core-rules.swade-skills.贼活]{贼活}投骰+1。</p>\n</article>",
             "requirements": "入门，灵巧d8+，潜行d6+，贼活d6+",
             "category": "术业"
         },
@@ -764,7 +764,7 @@
         },
         "Very Attractive": {
             "name": "魅力非凡",
-            "description": "<div class=\"swade-core\">\n<p>这名角色真是迷死人了，@Compendium[swade-core-rules.swade-skills.表演]{表演}和@Compendium[swade-core-rules.swade-skills.交涉]{交涉}加值上升至+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>这名角色真是迷死人了，@Compendium[swade-core-rules.swade-skills.表演]{表演}和@Compendium[swade-core-rules.swade-skills.交涉]{交涉}加值上升至+2。</p>\n</article>",
             "requirements": "入门，魅力惊人",
             "category": "背景"
         },
@@ -782,7 +782,7 @@
         },
         "Woodsman": {
             "name": "守林人",
-            "description": "<div class=\"swade-core\">\n<p>守林人是在荒野中比起城市里要更为自在的游侠、斥候和猎人，精于追踪和侦查，知晓如何靠山吃山连续生活数个月。</p>\n<p>守林人的@Compendium[swade-core-rules.swade-skills.生存]{生存}投骰以及在荒野中(不属于城市、废墟或地下)的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>守林人是在荒野中比起城市里要更为自在的游侠、斥候和猎人，精于追踪和侦查，知晓如何靠山吃山连续生活数个月。</p>\n<p>守林人的@Compendium[swade-core-rules.swade-skills.生存]{生存}投骰以及在荒野中(不属于城市、废墟或地下)的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰+2。</p>\n</article>",
             "requirements": "入门，心魂d6+，生存d8+",
             "category": "术业"
         },
