@@ -68,7 +68,7 @@
         },
         "Arcane Background (Psionics)": {
             "name": "奥法背景 (灵能)",
-            "description": "<article class=\"swade-core\">\n<ul>\n<li>奥法技能： @Compendium[swade-core-rules.swade-skills.灵能]{灵能} (聪慧)</li>\n<li>初始@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}：3</li>\n<li>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}: 10</li>\n</ul>\n<p>灵能力者通过深入挖掘心灵之力来操纵物质、阅读思维和实现其他神通。其中一些人是受雇于某一大型政府机关的特工，而其他人则通常在逃避机关的追捕！一些人也许经受了多年的训练，而一些人则是独立开发出了自己的惊人力量。 &nbsp;</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<ul>\n<li>奥法技能： @Compendium[swade-core-rules.swade-skills.灵能]{灵能} (聪慧)</li>\n<li>初始@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}：3</li>\n<li>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}: 10</li>\n</ul>\n<p>灵能力者通过深入挖掘心灵之力来操纵物质、阅读思维和实现其他神通。其中一些人是受雇于某一大型政府机关的特工，而其他人则通常在逃避机关的追捕！一些人也许经受了多年的训练，而一些人则是独立开发出了自己的惊人力量。 &nbsp;</p>\n<p>&nbsp;</p>\n</article>",
             "requirements": "入门",
             "category": "背景"
         },
@@ -104,7 +104,7 @@
         },
         "Beast Bond": {
             "name": "野兽联结",
-            "description": "<article class=\"swade-core\">\n<p>某些人物与其动物伙伴之间有着非凡的联结。这些角色可以为任何处于其控制下的动物使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03bennies0000000]{助力点}，包括坐骑、宠物、魔宠等等。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>某些人物与其动物伙伴之间有着非凡的联结。这些角色可以为任何处于其控制下的动物使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03bennies0000000]{助力点}，包括坐骑、宠物、魔宠等等。</p>\n</article>",
             "requirements": "入门",
             "category": "奇异"
         },
@@ -236,7 +236,7 @@
         },
         "Common Bond": {
             "name": "共同联结",
-            "description": "<article class=\"swade-core\"><p>无私的英雄和坚定的领袖们都知道最大的力量往往来自于伙伴，并愿意将自己的幸运、命运或福气分一点给那些支持着自己的搭档。拥有该专长的角色能自由地将自己的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03bennies0000000]{助力点}交给其他可以交流的角色。玩家应当解释这如何实现，从简单的一句鼓励到在背上一记问候的轻拍都可以。  </p></div>",
+            "description": "<article class=\"swade-core\"><p><span class=\"fontstyle0\">无私的英雄和坚定的领袖们都知道最大的力量往往来自于伙伴，并愿意将自己的幸运、命运或福气分一点给那些支持着自己的搭档。<br />拥有该专长的角色能自由地将自己的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03bennies0000000]{助力点}交给其他可以交流的角色。玩家应当解释这如何实现，从简单的一句鼓励到在背上一记问候的轻拍都可以。 </span></p></article>",
             "requirements": "不羁角色，入门，心魂d8+",
             "category": "社交"
         },
@@ -350,7 +350,7 @@
         },
         "Martial Warrior": {
             "name": "武斗家",
-            "description": "<article class=\"swade-core\">\n<p>这名战士经受了基础的武术训练，他的拳脚成为了武器(见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{天生武器}</strong>) )，因此总是视作具有武装。角色的拳脚攻击<strong>+2</strong>，造成<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}+d6</strong>伤害。若已经具备从<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili04]{爪抓}</strong>种族能力或是@Compendium[swade-core-rules.swade-edges.搏击手]{搏击手}专长处获得的力量伤害骰，则该伤害骰子类型上升一级。</p>\n<p>武术家专长<em>不会</em>增加诸如尖牙或角撞等其他天生武器的伤害。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p><span class=\"fontstyle0\">这名战士经受了基础的武术训练，他的拳脚成为了武器(见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{天生武器}</strong>) )，因此总是视作具有武装。角色的拳脚攻击<strong>+2</strong>，造成<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}+d6</strong>伤害。若已经具备从<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili04]{爪抓}</strong>种族能力或是@Compendium[swade-core-rules.swade-edges.搏击手]{搏击手}专长处获得的力量伤害骰，则该伤害骰子类型上升一级。</span></p>\n<p>武术家专长<em>不会</em>增加诸如尖牙或角撞等其他天生武器的伤害。</p>\n</article>",
             "requirements": "行家，武术家",
             "category": "战斗"
         },
@@ -548,7 +548,7 @@
         },
         "Iron Will": {
             "name": "钢铁意志",
-            "description": "<article class=\"swade-core\">\n<p>角色现在能将@Compendium[swade-core-rules.swade-edges.坚强意志]{坚强意志}的加值用于抵抗奇术效果。钢铁意志不与@Compendium[swade-core-rules.swade-edges.勇敢]{勇敢}专长叠加，也不会应用到奇术导致的后续投骰上(比如因伤害性@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}、@Compendium[swade-core-rules.swade-powers.恐惧]{恐惧}或类似状况而遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇})。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色现在能将@Compendium[swade-core-rules.swade-edges.坚强意志]{坚强意志}的加值用于抵抗奇术效果。钢铁意志不与@Compendium[swade-core-rules.swade-edges.勇敢]{勇敢}专长叠加，也不会应用到奇术导致的后续投骰上(比如因伤害性@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}、@Compendium[swade-core-rules.swade-powers.恐惧]{恐惧}或类似状况而遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇})。</p>\n<p>&nbsp;</p>\n</article>",
             "requirements": "行家，勇敢，坚强意志",
             "category": "社交"
         },
@@ -716,7 +716,7 @@
         },
         "Streetwise": {
             "name": "市井门道",
-            "description": "<article class=\"swade-core\">\n<p>拥有市井门道的角色知道如何找到当地黑市、进行销赃、规避当地法律(或是犯罪分子！)、风头正盛时保持低调、获得违法武器、找出哪个“大佬”在招打手等类似的可疑勾当。</p>\n<p>具备市井门道的角色在和可疑对象与犯罪分子进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04networking0000]{打点关系}的@Compendium[swade-core-rules.swade-skills.威吓]{威吓}和@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+2，同时与上述阴暗勾当相关的@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识}投骰+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p><span class=\"fontstyle0\">拥有市井门道的角色知道如何找到当地黑市、进行销赃、规避当地法律(或是犯罪分子！)、风头正盛时保持低调、获得违法武器、找出哪个“大佬”在招打手等类似的可疑勾当。<br /></span></p>\n<p><span class=\"fontstyle0\">具备市井门道的角色在和可疑对象与犯罪分子进行<span class=\"fontstyle2\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04networking0000]{打点关系}</span>的@Compendium[swade-core-rules.swade-skills.威吓]{威吓}和@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰+2，同时与上述阴暗勾当相关的@Compendium[swade-core-rules.swade-skills.通用知识]{通用知识}投骰+2。</p>\n</article>",
             "requirements": "入门，聪慧d6+",
             "category": "社交"
         },
@@ -740,7 +740,7 @@
         },
         "Tough As Nails": {
             "name": "比铁还硬",
-            "description": "<article class=\"swade-core\">\n<p>就算他人已经倒下，角色也能坚持下去，其在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}前能承受四个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}(损伤减值上限依然是-3)。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>就算他人已经倒下，角色也能坚持下去，其在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}前能承受四个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}(损伤减值上限依然是-3)。</p>\n</article>",
             "requirements": "传奇，活力d8+",
             "category": "传奇"
         },
@@ -794,7 +794,7 @@
         },
         "Work the Crowd": {
             "name": "推波助澜",
-            "description": "<article class=\"swade-core\">\n<p>如同@Compendium[swade-core-rules.swade-edges.推波助浪]{推波助浪}，但角色现在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}另一对象的援助动作至多可达两个。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>如同@Compendium[swade-core-rules.swade-edges.推波助浪]{推波助浪}，但角色现在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}另一对象的援助动作至多可达两个。</p>\n<p>&nbsp;</p>\n</article>",
             "requirements": "行家，推波助浪",
             "category": "社交"
         },
