@@ -2,7 +2,7 @@
     "entries": {
         "Horse": {
             "name": "马",
-            "description": "<div class=\"swade-core\">\n<p>数据见@Compendium[swade-core-rules.swade-bestiary.马]{马}。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>数据见@Compendium[swade-core-rules.swade-bestiary.马]{马}。</p>\n</article>",
             "category": "动物与挽具"
         },
         "Hellfire": {
@@ -35,7 +35,7 @@
         },
         "Lantern": {
             "name": "提灯",
-            "description": "<div class=\"swade-core\"><p>4小时，4英寸半径照明</p></div>",
+            "description": "<article class=\"swade-core\"><p>4小时，4英寸半径照明</p></article>",
             "category": "冒险工具"
         },
         "Laser Sword": {
@@ -101,7 +101,7 @@
         },
         "\"Bug\" (Micro Transmitter)": {
             "name": "\"窃听器\" (微型发信机)",
-            "description": "<div class=\"swade-core\">\n<p>可连续使用12小时。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>可连续使用12小时。</p>\n</article>",
             "category": "监视工具"
         },
         "120mm Tank Gun (AP Rounds)": {
@@ -382,7 +382,7 @@
         },
         "Arrows/Bolts": {
             "name": "箭/矢",
-            "description": "<div class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-equipment.弓]{弓}箭和@Compendium[swade-core-rules.swade-equipment.弩]{弩}矢</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>@Compendium[swade-core-rules.swade-equipment.弓]{弓}箭和@Compendium[swade-core-rules.swade-equipment.弩]{弩}矢</p>\n</article>",
             "category": "弹药"
         },
         "Axe, Battle": {
@@ -493,7 +493,7 @@
         },
         "Bedroll": {
             "name": "铺盖卷",
-            "description": "<div class=\"swade-core\">\n<p>睡袋；御寒被褥</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>睡袋；御寒被褥</p>\n</article>",
             "category": "冒险工具"
         },
         "Bike helmet": {
@@ -632,22 +632,22 @@
         },
         "Bullets, Large": {
             "name": "大型子弹",
-            "description": "<div class=\"swade-core\">\n<p>.50口径及以上。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>.50口径及以上。</p>\n</article>",
             "category": "子弹"
         },
         "Bullets, Medium": {
             "name": "中型子弹",
-            "description": "<div class=\"swade-core\">\n<p>9mm到.45口径。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>9mm到.45口径。</p>\n</article>",
             "category": "子弹"
         },
         "Bullets, Small": {
             "name": "小型子弹",
-            "description": "<div class=\"swade-core\">\n<p>.22到.32口径。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>.22到.32口径。</p>\n</article>",
             "category": "子弹"
         },
         "Button Camera": {
             "name": "钮扣摄像机",
-            "description": "<div class=\"swade-core\"><p>可连续使用12小时。</p></div>",
+            "description": "<article class=\"swade-core\"><p>可连续使用12小时。</p></article>",
             "category": "监视工具"
         },
         "Camera (digital)": {
@@ -668,7 +668,7 @@
         },
         "Candle": {
             "name": "蜡烛",
-            "description": "<div class=\"swade-core\">\n<p>1小时，2英寸半径照明</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>1小时，2英寸半径照明</p>\n</article>",
             "category": "冒险工具"
         },
         "Canister Shot (Cannon)": {
@@ -972,7 +972,7 @@
         },
         "Flashlight": {
             "name": "手电筒",
-            "description": "<div class=\"swade-core\"><p>光束10英寸远</p></div>",
+            "description": "<article class=\"swade-core\"><p>光束10英寸远</p></article>",
             "category": "冒险工具"
         },
         "Flask (ceramic)": {
@@ -1304,17 +1304,17 @@
         },
         "Laser Battery, Gatling": {
             "name": "激光枪电池，加特林",
-            "description": "<div class=\"swade-core\"><p>所列出武器的一个满装弹匣。</p></div>",
+            "description": "<article class=\"swade-core\"><p>所列出武器的一个满装弹匣。</p></article>",
             "category": "激光枪电池"
         },
         "Laser Battery, Pistol": {
             "name": "激光枪电池，手枪",
-            "description": "<div class=\"swade-core\"><p>所列出武器的一个满装弹匣。</p></div>",
+            "description": "<article class=\"swade-core\"><p>所列出武器的一个满装弹匣。</p></article>",
             "category": "激光枪电池"
         },
         "Laser Battery, Rifle / SMG": {
             "name": "激光枪电池，步枪/冲锋枪",
-            "description": "<div class=\"swade-core\"><p>所列出武器的一个满装弹匣。</p></div>",
+            "description": "<article class=\"swade-core\"><p>所列出武器的一个满装弹匣。</p></article>",
             "category": "激光枪电池"
         },
         "Laser/Red Dot Sight": {
@@ -1343,7 +1343,7 @@
         },
         "Lineman's Telephone": {
             "name": "线务员电话",
-            "description": "<div class=\"swade-core\"><p>进行@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰来接入电话线。</p></div>",
+            "description": "<article class=\"swade-core\"><p>进行@Compendium[swade-core-rules.swade-skills.修理]{修理}投骰来接入电话线。</p></article>",
             "category": "监视工具"
         },
         "Lockpicks": {
@@ -1558,7 +1558,7 @@
         },
         "Oil": {
             "name": "油",
-            "description": "<div class=\"swade-core\"><p>提灯用，一品脱</p></div>",
+            "description": "<article class=\"swade-core\"><p>提灯用，一品脱</p></article>",
             "category": "冒险工具"
         },
         "Panzerschreck": {
@@ -1571,7 +1571,7 @@
         },
         "Parabolic Microphone": {
             "name": "抛物面麦克风",
-            "description": "<div class=\"swade-core\"><p>最远能听到200码以外的低语</p></div>",
+            "description": "<article class=\"swade-core\"><p>最远能听到200码以外的低语</p></article>",
             "category": "监视工具"
         },
         "Pepper Spray": {
@@ -1675,7 +1675,7 @@
         },
         "Quiver": {
             "name": "箭袋",
-            "description": "<div class=\"swade-core\"><p>能装20支@Compendium[swade-core-rules.swade-equipment.箭/矢]{箭/矢}。</p></div>",
+            "description": "<article class=\"swade-core\"><p>能装20支@Compendium[swade-core-rules.swade-equipment.箭/矢]{箭/矢}。</p></article>",
             "category": "冒险工具"
         },
         "Rifle Scope": {
@@ -1701,12 +1701,12 @@
         },
         "Rope, hemp": {
             "name": "麻绳",
-            "description": "<div class=\"swade-core\"><p>10英寸/20码</p></div>",
+            "description": "<article class=\"swade-core\"><p>10英寸/20码</p></article>",
             "category": "冒险工具"
         },
         "Rope, nylon": {
             "name": "尼龙绳",
-            "description": "<div class=\"swade-core\"><p>10英寸/20码</p></div>",
+            "description": "<article class=\"swade-core\"><p>10英寸/20码</p></article>",
             "category": "冒险工具"
         },
         "SAW": {
@@ -1824,12 +1824,12 @@
         },
         "Shot (w/ powder)": {
             "name": "定装弹(带火药)",
-            "description": "<div class=\"swade-core\">\n<p>黑火药武器专用。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>黑火药武器专用。</p>\n</article>",
             "category": "弹药"
         },
         "Shotgun Shells": {
             "name": "霰弹枪弹丸",
-            "description": "<div class=\"swade-core\">\n<p>标准霰弹。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>标准霰弹。</p>\n</article>",
             "category": "霰弹枪"
         },
         "Shotgun Slugs": {
@@ -1864,7 +1864,7 @@
         },
         "Sling stones": {
             "name": "投石索弹丸",
-            "description": "<div class=\"swade-core\">&nbsp;</div>",
+            "description": "<article class=\"swade-core\">&nbsp;</article>",
             "category": "弹药"
         },
         "Small Shield": {
@@ -1901,7 +1901,7 @@
         },
         "Solid Shot (Cannon)": {
             "name": "实心弹 (加农炮)",
-            "description": "<div class=\"swade-core\"><p>用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p></div>",
+            "description": "<article class=\"swade-core\"><p>用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p></article>",
             "notes": "50/100/200，3d6+1, AP 4",
             "category": "加农炮"
         },
@@ -2105,7 +2105,7 @@
         },
         "Torch": {
             "name": "火把",
-            "description": "<div class=\"swade-core\"><p>4小时，4英寸半径照明</p></div>",
+            "description": "<article class=\"swade-core\"><p>4小时，4英寸半径照明</p></article>",
             "category": "冒险工具"
         },
         "Torpedo": {
@@ -2118,7 +2118,7 @@
         },
         "Trail Rations": {
             "name": "旅行干粮",
-            "description": "<div class=\"swade-core\"><p>使用次数5，保质期一周。</p></div>",
+            "description": "<article class=\"swade-core\"><p>使用次数5，保质期一周。</p></article>",
             "category": "食物"
         },
         "Transmitter Detector": {
@@ -2163,7 +2163,7 @@
         },
         "War Horse": {
             "name": "战马",
-            "description": "<div class=\"swade-core\">\n<p>数据见@Compendium[swade-core-rules.swade-bestiary.战马]{战马}。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>数据见@Compendium[swade-core-rules.swade-bestiary.战马]{战马}。</p>\n</article>",
             "category": "动物与挽具"
         },
         "Warhammer": {
