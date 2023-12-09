@@ -1,0 +1,313 @@
+{
+    "label": "SWADE 护甲",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo",
+        "category": "system.category"
+    },
+    "entries": {
+        "Ballistic Shield": {
+            "name": "防弹盾",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则现代盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是12，同时提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "notes": "攻击方打算射穿防弹盾时，火器造成的伤害-4。",
+            "actions": {
+                "skill": "格斗",
+                "additional": {
+                    "fseghrgaoh": {
+                        "name": "盾击"
+                    }
+                }
+            },
+            "category": "盾牌"
+        },
+        "Battle Helmet": {
+            "name": "战斗头盔",
+            "description": "<article class=\"swade-core\"><p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
+            "category": "未来"
+        },
+        "Battle Helmet w/ Energy Skin": {
+            "name": "战斗头盔 (带能量表皮)",
+            "description": "<article class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
+            "category": "未来"
+        },
+        "Bike helmet": {
+            "name": "自行车头盔",
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
+        },
+        "Body Armor": {
+            "name": "护身服",
+            "description": "<article class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
+            "notes": "以复杂聚合物及先进防弹纤维制作的轻便防护衣物。",
+            "category": "未来"
+        },
+        "Body Armor w/Energy Skin": {
+            "name": "护身服(带能量表皮)",
+            "description": "<article class=\"swade-core\">\n<p>以复杂聚合物及先进防弹纤维制作的轻便防护衣物。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
+            "notes": "以复杂聚合物及先进防弹纤维制作的轻便防护衣物。",
+            "category": "未来"
+        },
+        "Bombproof suit": {
+            "name": "防爆服",
+            "description": "<article class=\"swade-core\">\n<p>防爆服除了没被覆盖的手部以外并不灵活。涉及手部灵活性以外的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{灵巧}及相关技能在穿戴该衣物时无法超过d6，同时@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}下降2(除去@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}减值外)。</p>\n</article>",
+            "notes": "防爆服除了没被覆盖的手部以外并不灵活。涉及手部灵活性以外的灵巧及相关技能在穿戴该衣物时无法超过d6，同时移速下降2(除去最低力量减值外)。",
+            "category": "现代"
+        },
+        "Bronze Barding (horse)": {
+            "name": "青铜马甲 (马)",
+            "description": "<article class=\"swade-core\"><p>通常出现在铁器时代前的古代。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Bronze Corselet": {
+            "description": "<article class=\"swade-core\"><p>通常出现在铁器时代前的古代。</p></article>",
+            "name": "青铜胸甲",
+            "category": "中世纪与古代"
+        },
+        "Bronze Helmet": {
+            "name": "青铜头盔",
+            "description": "<article class=\"swade-core\"><p>通常出现在铁器时代前的古代。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Cap (Cloth/Light Leather)": {
+            "description": "<article class=\"swade-core\"><p>厚重冬装、软皮甲、软兽皮等。</p></article>",
+            "name": "盖帽 (布/薄皮)",
+            "category": "中世纪与古代"
+        },
+        "Cap (Thick Leather/Tough Hides)": {
+            "name": "盖帽 (厚皮/硬兽皮)",
+            "description": "<article class=\"swade-core\"><p>熟皮甲、硬化皮甲、鳄皮。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Chain Hood or Helm": {
+            "name": "锁子罩帽或头盔",
+            "description": "<article class=\"swade-core\"><p>锁甲、扎甲、金属鳞片、锁环、武士甲。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Corselet (Plate Mail)": {
+            "name": "胸甲 (板甲)",
+            "description": "<article class=\"swade-core\">\n<p>以金属“板”制作的重钢甲。</p>\n</article>",
+            "category": "中世纪与古代"
+        },
+        "Flak Jacket (Vietnam-era)": {
+            "name": "防弹夹克 (越南战争时期)",
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
+        },
+        "Greaves (Bronze Armor)": {
+            "name": "腿甲 (青铜护甲)",
+            "description": "<article class=\"swade-core\"><p>通常出现在铁器时代前的古代。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Greaves (Plate Mail)": {
+            "name": "腿甲 (板甲)",
+            "description": "<article class=\"swade-core\"><p>以金属“板”制作的重钢甲。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Heavy Helm": {
+            "name": "重型头盔",
+            "description": "<article class=\"swade-core\"><p>以金属“板”制作的重钢甲。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Heavy Helm, Enclosed": {
+            "name": "覆面重型头盔",
+            "description": "<article class=\"swade-core\">\n<p>以金属“板”制作的重钢甲。</p>\n<p>基于视觉的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}投骰-1。</p>\n</article>",
+            "notes": "基于视觉的察觉投骰-1。",
+            "category": "中世纪与古代"
+        },
+        "Infantry Battle Suit": {
+            "name": "步兵战斗服",
+            "description": "<article class=\"swade-core\"><p>配有靴子和手套的全套护甲。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
+            "category": "未来"
+        },
+        "Infantry Battle Suit w/ Energy Skin": {
+            "name": "步兵战斗服(带能量表皮)",
+            "description": "<article class=\"swade-core\">\n<p>私人或国家武装力量使用的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}。</p>\n<p>配有靴子和手套的全套护甲。</p>\n<p><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02energyskin0000]{能量表皮}：</strong>该护甲加上了一层可挡开能量的“能量表皮”(或能量层)，以此减少4点激光造成的伤害。这会让费用额外增加50%，而且护甲会非常闪亮，基于视觉的@Compendium[swade-core-rules.swade-skills.潜行]{潜行}投骰会-2。</p>\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
+            "notes": "配有靴子和手套的全套护甲。",
+            "category": "未来"
+        },
+        "Jacket (Cloth/Light Leather)": {
+            "name": "夹克 (布/薄皮)",
+            "description": "<article class=\"swade-core\"><p>厚重冬装、软皮甲、软兽皮等。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Jacket (Thick Leather/Tough Hides)": {
+            "name": "夹克 (厚皮/硬兽皮)",
+            "description": "<article class=\"swade-core\"><p>熟皮甲、硬化皮甲、鳄皮。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Kevlar helmet": {
+            "name": "凯夫拉头盔",
+            "description": "<article class=\"swade-core\"><p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
+            "category": "现代"
+        },
+        "Kevlar Riding Jacket": {
+            "name": "凯夫拉骑手夹克",
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
+        },
+        "Kevlar Riding Jeans": {
+            "name": "凯夫拉骑手裤子",
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
+        },
+        "Kevlar Vest": {
+            "name": "凯夫拉背心",
+            "description": "<article class=\"swade-core\">\n<p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p>\n</article>",
+            "category": "现代"
+        },
+        "Kevlar Vest with ceramic inserts": {
+            "name": "凯夫拉背心及陶制填充物",
+            "description": "<article class=\"swade-core\"><p><strong style=\"box-sizing: border-box; user-select: text; color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02ballisticpro00]{防弹}：</strong><span style=\"color: #191813; background-color: #dfe6f5;\">让子弹造成的伤害-4。“子弹”涵盖了火器中射出来的物理弹药。</span></p></article>",
+            "category": "现代"
+        },
+        "Large Shield": {
+            "name": "大型盾牌",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则中世纪盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，并提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "actions": {
+                "skill": "格斗",
+                "additional": {
+                    "jnkpnzaoje": {
+                        "name": "盾击"
+                    }
+                }
+            },
+            "category": "盾牌"
+        },
+        "Leather Riding Chaps": {
+            "name": "皮马裤",
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
+        },
+        "Leggings (Chain Mail)": {
+            "name": "护腿 (锁甲)",
+            "description": "<article class=\"swade-core\"><p>锁甲、扎甲、金属鳞片、锁环、武士甲。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Leggings (Cloth/Light Leather)": {
+            "name": "护腿 (布/薄皮)",
+            "description": "<article class=\"swade-core\"><p>厚重冬装、软皮甲、软兽皮等。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Leggings (Thick Leather/Tough Hides)": {
+            "name": "护腿 (厚皮/硬兽皮)",
+            "description": "<article class=\"swade-core\"><p>熟皮甲、硬化皮甲、鳄皮。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Medium Shield": {
+            "name": "中型盾牌",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则中世纪盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，并提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "actions": {
+                "skill": "格斗",
+                "additional": {
+                    "4j0g2h3w5k": {
+                        "name": "盾击"
+                    }
+                }
+            },
+            "category": "盾牌"
+        },
+        "Motorcycle Helmet": {
+            "name": "摩托车头盔",
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
+        },
+        "Plate Barding (horse)": {
+            "name": "板甲马铠 (马)",
+            "description": "<article class=\"swade-core\"><p>以金属“板”制作的重钢甲。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Polymer Shield, large": {
+            "name": "聚合物盾，大型",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则聚合物盾的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是10，同时提供+4@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "actions": {
+                "skill": "格斗",
+                "additional": {
+                    "00njamxonm": {
+                        "name": "盾击"
+                    }
+                }
+            },
+            "category": "盾牌"
+        },
+        "Polymer Shield, medium": {
+            "name": "聚合物盾，中型",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则聚合物盾的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是10，同时提供+4@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "actions": {
+                "skill": "格斗",
+                "additional": {
+                    "8x1g4vg5j4": {
+                        "name": "盾击"
+                    }
+                }
+            },
+            "category": "盾牌"
+        },
+        "Polymer Shield, small": {
+            "name": "聚合物盾，小型",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则聚合物盾的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是10，同时提供+4@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "actions": {
+                "skill": "格斗",
+                "additional": {
+                    "x5phucsl3w": {
+                        "name": "盾击"
+                    }
+                }
+            },
+            "category": "盾牌"
+        },
+        "Riot Shield": {
+            "name": "镇暴盾",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则现代盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}是12，同时提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "actions": {
+                "skill": "格斗",
+                "additional": {
+                    "rd7qecvrb4": {
+                        "name": "盾击"
+                    }
+                }
+            },
+            "category": "盾牌"
+        },
+        "Robes": {
+            "name": "长袍",
+            "description": "<article class=\"swade-core\"><p>厚重冬装、软皮甲、软兽皮等。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Shirt (Chain Mail)": {
+            "name": "衫 (锁甲)",
+            "description": "<article class=\"swade-core\">\n<p>锁甲、扎甲、金属鳞片、锁环、武士甲。</p>\n</article>",
+            "category": "中世纪与古代"
+        },
+        "Small Shield": {
+            "name": "小型盾牌",
+            "description": "<article class=\"swade-core\">\n<p>盾牌会让角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}获得如下加值。来自正面及持盾侧的远程攻击遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}减值(从背后或无防护的位置攻击则不受影响)。</p>\n<hr />\n<p>若对方想射穿盾牌(见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{障碍})，则中世纪盾牌的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，并提供+2@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}值。</p>\n<p>装备盾牌时，盾牌可用于盾击，伤害为力量+d4。</p>\n</article>",
+            "actions": {
+                "additional": {
+                    "97x0icqf0a": {
+                        "name": "盾击"
+                    }
+                },
+                "skill": "格斗"
+            },
+            "category": "盾牌"
+        },
+        "Thick Coat, Leather Jacket": {
+            "name": "厚外套，皮夹克",
+            "category": "现代",
+            "description": "<article class=\"swade-core\"></article>"
+        },
+        "Vambraces (Bronze Armor)": {
+            "name": "臂甲 (青铜护甲)",
+            "description": "<article class=\"swade-core\"><p>通常出现在铁器时代前的古代。</p></article>",
+            "category": "中世纪与古代"
+        },
+        "Vambraces (Plate Mail)": {
+            "name": "臂甲 (板甲)",
+            "description": "<article class=\"swade-core\"><p>以金属“板”制作的重钢甲。</p></article>",
+            "category": "中世纪与古代"
+        }
+    }
+}
