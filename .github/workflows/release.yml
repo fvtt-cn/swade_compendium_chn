@@ -32,7 +32,7 @@ jobs:
     # Rename and remove files
     - name: Tidy files
       id: tidy-files
-      run: rm zh-CN/___.json && mv zh-CN compendium
+      run: rm zh_Hans/___.json && mv zh_Hans compendium
 
     # Create a zip file with all files required by the module to add to the release
     - name: Create Artifact
