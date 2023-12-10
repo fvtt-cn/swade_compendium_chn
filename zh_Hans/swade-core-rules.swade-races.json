@@ -1,10 +1,6 @@
 {
     "mapping": {
-        "description": "system.description",
-        "embeddedAbilities": {
-            "path": "flags.swade.embeddedAbilities",
-            "converter": "translateEmbeddedAbilities"
-        }
+        "description": "system.description"
     },
     "entries": {
         "Android": {
