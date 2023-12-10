@@ -3,5 +3,14 @@
     "mapping": {
         "category": "system.category",
         "description": "system.description"
+    },
+    "entries": {
+        "Adaptable": {
+            "name": "适应",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Adaptable\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Adaptable]{Adaptable} (1): </span> The race has great variation among its people and cultures. Characters start with a free Novice @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edge} of their choice (and must meet all the Edge’s Requirements).</span</article>"
+        },
+        "Regeneration": {
+            "name": "再生"
+        }
     }
 }

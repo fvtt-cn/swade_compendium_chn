@@ -12,7 +12,7 @@
         "Axe, Battle": {
             "name": "战斧",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
@@ -21,7 +21,7 @@
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}&ndash;1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</article>",
             "notes": "格挡-1，双手",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "kwepx6kqhf": {
                         "name": "单手"
@@ -32,7 +32,7 @@
         },
         "Axe, Hand": {
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "p0sizbjx38": {
                         "name": "新动作"
@@ -45,7 +45,7 @@
         "Axe, Throwing": {
             "name": "投斧",
             "actions": {
-                "skill": "运动"
+                "trait": "运动"
             },
             "category": "中世纪远程武器"
         },
@@ -54,7 +54,7 @@
             "description": "<article class=\"swade-core\"><p>附有单发@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹}的杖(用于近战)，用完必须装填新的霰弹(一个动作)</p></article>",
             "notes": "附有单发霰弹的杖(用于近战)，用完必须装填新的霰弹(一个动作)",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "现代近战武器"
         },
@@ -68,7 +68,7 @@
                         "name": "附加在步枪上"
                     }
                 },
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "name": "刺刀",
             "description": "<article class=\"swade-core\">\n<p>装配在步枪上时伤害为力量+d6且@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}。</p>\n</article>",
@@ -80,7 +80,7 @@
             "description": "<article class=\"swade-core\"><p>经常被执法者携带。</p></article>",
             "notes": "经常被执法者携带",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "现代近战武器"
         },
@@ -89,7 +89,7 @@
             "description": "<article class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p>\n<p>视作@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}。</p></article>",
             "notes": "黑火药武器的装填均为3。视作霰弹枪。",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "r5coi7165y": {
                         "name": "近距"
@@ -108,7 +108,7 @@
         "Bow": {
             "name": "弓",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "箭/矢",
             "category": "中世纪远程武器"
@@ -118,7 +118,7 @@
             "description": "<article class=\"swade-core\"><p>判断是否时@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03unarmeddefen00]{手无寸铁}不视作武器。</p></article>",
             "notes": "判断是否时手无寸铁不视作武器",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "现代近战武器"
         },
@@ -127,7 +127,7 @@
             "description": "<article class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></article>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "定装弹(带火药)",
             "category": "黑火药武器"
@@ -137,7 +137,7 @@
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}会击中使用者。</p></article>",
             "notes": "大失败会击中使用者",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "现代近战武器"
         },
@@ -146,7 +146,7 @@
             "description": "<article class=\"swade-core\"><p>地位低下或凶徒的象征。</p></article>",
             "notes": "地位低下或凶徒的象征",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
@@ -155,14 +155,14 @@
             "description": "<article class=\"swade-core\"><p>地位低下或凶徒的象征。</p></article>",
             "notes": "地位低下或凶徒的象征",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
         "Compound Bow": {
             "name": "复合弓",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "箭/矢",
             "category": "现代远程武器"
@@ -170,7 +170,7 @@
         "Crossbow": {
             "name": "弩",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "箭/矢",
             "category": "现代远程武器"
@@ -180,7 +180,7 @@
             "description": "<article class=\"swade-core\"><p>手拉型</p></article>",
             "notes": "手拉型",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "箭/矢",
             "category": "中世纪远程武器"
@@ -190,14 +190,14 @@
             "description": "<article class=\"swade-core\"><p>需绞盘才能装弹，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}2。</p></article>",
             "notes": "需绞盘才能装弹，装填2",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "category": "中世纪远程武器"
         },
         "Dagger/Knife (melee)": {
             "name": "匕首/小刀 (近战)",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "24m3p44ver": {
                         "name": "运动(投掷)",
@@ -210,7 +210,7 @@
         "Dagger/Knife (Throwing)": {
             "name": "匕首/小刀 (投掷)",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "24m3p44ver": {
                         "name": "运动(投掷)",
@@ -225,7 +225,7 @@
             "description": "<article class=\"swade-core\">\n<p>忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02shields0000000]{盾牌}加值。</p>\n</article>",
             "notes": "忽略盾牌加值",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
@@ -234,7 +234,7 @@
             "description": "<article class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></article>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "定装弹(带火药)",
             "category": "黑火药武器"
@@ -244,7 +244,7 @@
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，双手</p></article>",
             "notes": "触及1，双手",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "pqye3bth39": {
                         "name": "单手"
@@ -257,7 +257,7 @@
             "name": "临时武器 (重型)",
             "description": "<article class=\"swade-core\">\n<h2>临时武器</h2>\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p>\n<p>具备临时武器的角色视作有武装，但攻击投骰要-2。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}根据类型决定：</p>\n<ul class=\"red-bullet-list\">\n<li><strong>轻型：</strong>金属啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li>\n<li><strong>中型：</strong>保龄球、冲锋枪(如同钝器)，木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li>\n<li><strong>重型：</strong>脑袋大的石块、金属椅、装满枪的野营包。射程1/2/4，伤害：力量+d8，最低力量d8。</li>\n</ul>\n<p>如果物品比起上述例子更为柔软(诸如装满钱的野营包)，则GM可以将伤害下调一到两级。</p>\n</article>",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "p0sizbjx38": {
                         "name": "运动"
@@ -269,7 +269,7 @@
         "Improvised Weapon (Light)": {
             "name": "临时武器 (轻型)",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "p0sizbjx38": {
                         "name": "运动"
@@ -280,7 +280,7 @@
         },
         "Improvised Weapon (Medium)": {
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "p0sizbjx38": {
                         "name": "运动"
@@ -296,7 +296,7 @@
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</article>",
             "notes": "双手",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "casd2f6k9v": {
                         "name": "单手"
@@ -310,7 +310,7 @@
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。</p></article>",
             "notes": "装填4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "定装弹(带火药)",
             "category": "黑火药武器"
@@ -320,13 +320,13 @@
             "description": "<article class=\"swade-core\">\n<p>冲锋时带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}2，只能在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03mountedcomba00]{骑乘战斗}时使用。</p>\n</article>",
             "notes": "冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
         "Laser Sword": {
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "name": "激光剑",
             "category": "未来近战武器"
@@ -334,7 +334,7 @@
         "Long Bow": {
             "name": "长弓",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "箭/矢",
             "category": "中世纪远程武器"
@@ -342,7 +342,7 @@
         "Mace": {
             "name": "硬头锤",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
@@ -351,7 +351,7 @@
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{破坏物体}时+2伤害。</p>\n</article>",
             "notes": "双手，破坏物体时+2伤害",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "au687uqfb3": {
                         "name": "单手"
@@ -365,14 +365,14 @@
             "description": "<article class=\"swade-core\"><p>无法投掷</p></article>",
             "notes": "无法投掷",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "未来近战武器"
         },
         "Molecular Sword": {
             "name": "单分子剑",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "未来近战武器"
         },
@@ -380,7 +380,7 @@
             "name": "天武噬咬",
             "description": "<article class=\"swade-core\"><p><strong>噬咬：</strong>生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03grappling00000]{擒抱}</strong>)。</p></article>",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "天生/临时武器"
         },
@@ -388,7 +388,7 @@
             "name": "天武爪抓",
             "description": "<article class=\"swade-core\"><p><strong>爪抓：</strong>所有在粗糙或柔软表面(不能是陡峭的钢铁，玻璃之类)的@Compendium[swade-core-rules.swade-skills.运动]{运动}(攀爬)投骰+2。</p></article>",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "天生/临时武器"
         },
@@ -396,7 +396,7 @@
             "description": "<article class=\"swade-core\"><p><strong>角撞：</strong>在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑}，移动至少5英寸(10码)后成功以角击中的单个@Compendium[swade-core-rules.swade-skills.格斗]{格斗}动作最后的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}+4。</p></article>",
             "name": "天武角撞",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "天生/临时武器"
         },
@@ -405,7 +405,7 @@
             "description": "<article class=\"swade-core\"><p>成功击中会让目标陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{纠缠}，捕网的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{硬度}为10，而且只会被挥砍武器所伤。</p></article>",
             "notes": "成功击中会让目标陷入纠缠，捕网的硬度为10，而且只会被挥砍武器所伤。",
             "actions": {
-                "skill": "运动"
+                "trait": "运动"
             },
             "category": "中世纪远程武器"
         },
@@ -414,7 +414,7 @@
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</article>",
             "notes": "触及2，双手",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "75qvseul8x": {
                         "name": "单手"
@@ -425,7 +425,7 @@
         },
         "Rapier": {
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "name": "刺剑",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1</p></article>",
@@ -436,7 +436,7 @@
             "ammo": "投石索弹丸",
             "name": "投石索",
             "actions": {
-                "skill": "运动"
+                "trait": "运动"
             },
             "category": "中世纪远程武器"
         },
@@ -445,7 +445,7 @@
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，若是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}使用则@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}+1。</p>\n</article>",
             "notes": "触及1，若是双手使用则格挡+1",
             "actions": {
-                "skill": "运动",
+                "trait": "运动",
                 "additional": {
                     "aryl7v6r72": {
                         "name": "运动(投掷)"
@@ -457,7 +457,7 @@
         "Spear/Javelin": {
             "name": "矛/标枪",
             "actions": {
-                "skill": "运动"
+                "trait": "运动"
             },
             "category": "中世纪远程武器"
         },
@@ -466,7 +466,7 @@
             "description": "<article class=\"swade-core\"><p>黑火药武器的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}均为3。</p></article>",
             "notes": "黑火药武器的装填均为3。",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "定装弹(带火药)",
             "category": "黑火药武器"
@@ -476,7 +476,7 @@
             "description": "<article class=\"swade-core\">\n<p>+1 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02parry000000000]{格挡}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}1，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</article>",
             "notes": "+1格挡，触及1",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "1kz1l846vs": {
                         "name": "单手"
@@ -490,7 +490,7 @@
             "description": "<article class=\"swade-core\"><p>多用途的基础工具，@Compendium[swade-core-rules.swade-skills.生存]{生存}投骰+1。</p></article>",
             "notes": "多用途的基础工具，生存投骰+1",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "现代近战武器"
         },
@@ -499,7 +499,7 @@
             "description": "<article class=\"swade-core\">\n<p>若是隐藏，将其找出的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}-2。</p>\n</article>",
             "notes": "若是隐藏，将其找出的察觉-2",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "现代近战武器"
         },
@@ -508,7 +508,7 @@
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</article>",
             "notes": "双手",
             "actions": {
-                "skill": "格斗",
+                "trait": "格斗",
                 "additional": {
                     "2qjc4g4y1m": {
                         "name": "单手"
@@ -522,7 +522,7 @@
             "description": "<article class=\"swade-core\"><p>基本的直剑和弯刀。</p></article>",
             "notes": "基本的直剑和弯刀",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
@@ -531,7 +531,7 @@
             "description": "<article class=\"swade-core\"><p>包括骑兵刀。</p></article>",
             "notes": "包括骑兵刀",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
@@ -539,7 +539,7 @@
             "name": "无武装攻击",
             "description": "<article class=\"swade-core\"><p><strong>无武装伤害 - </strong>没拿武器的战士只能以力量骰计算伤害，除非其具备<strong>@Compendium[swade-core-rules.swade-edges.搏击手]{搏击手}</strong>或<strong>@Compendium[swade-core-rules.swade-edges.武术家]{武术家}</strong>这种能给予一枚伤害骰的@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{专长}。</p></article>",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         },
@@ -548,7 +548,7 @@
             "description": "<article class=\"swade-core\">\n<p>带尖，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}1</p>\n</article>",
             "notes": "带尖，穿甲1",
             "actions": {
-                "skill": "格斗"
+                "trait": "格斗"
             },
             "category": "中世纪近战武器"
         }

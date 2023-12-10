@@ -224,7 +224,7 @@
             "description": "<article class=\"swade-core\">\n<p>(次要或主要)</p>\n<p>角色曾经犯下某些罪行，若是设定里的确存在法律和司法警察，一旦被当局发现就会锒铛入狱。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}等级取决于罪行严重程度以及追捕者有多积极。数次未付停车费的角色(在可能偶尔会被迫驾驶的游戏里)会具备@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{次要}负赘，而在主要战役区域外因为更为严重的罪行而遭到通缉的其他家伙也是如此。被控谋杀几乎在大多数设定(如果周遭有人寻求伸张正义或复仇)中都是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{主要}负赘。</p>\n</article>",
             "name": "通缉"
         },
-        "Yellow": {
+        "Timid": {
             "description": "<article class=\"swade-core\">\n<p>并非所有人都能心若冰清天塌不惊，这个角色见到血腥就会反胃，而且还会害怕受到伤害。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04fear0000000000]{恐惧}恐惧检定以及抵抗@Compendium[swade-core-rules.swade-skills.威吓]{威吓}时-2。</p>\n</article>",
             "name": "胆怯"
         },

@@ -13,7 +13,7 @@
             "name": "AK47",
             "description": "<article class=\"swade-core\"><p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "0n12mqjsi3": {
                         "name": "射速 3 攻击"
@@ -31,7 +31,7 @@
             "ammo": "大型子弹",
             "name": "巴雷特",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "k3lppdpumw": {
                         "name": "猝射"
@@ -44,7 +44,7 @@
             "name": "勃朗宁自动步枪",
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是1到3，使用弹匣(@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}所需动作从通常的两个变成一个)。</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n</article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "g2ebz1hc6j": {
                         "name": "射速 3 攻击"
@@ -68,7 +68,7 @@
             "name": "柯尔特 1911",
             "description": "<article class=\"swade-core\"><p>半自动手枪以弹匣装填。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "中型子弹",
             "category": "手枪"
@@ -77,7 +77,7 @@
             "name": "柯尔特维和者转轮枪",
             "description": "<article class=\"swade-core\"><p>转轮枪通常有6个膛室，每次必须一发一发地装填。 但是许多现代火器也有称为“快速装弹器”的分离式弹巢，可花费武器价格的10%购入。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "中型子弹",
             "category": "手枪"
@@ -87,7 +87,7 @@
             "description": "<article class=\"swade-core\">\n<p>转轮枪通常有6个膛室，每次必须一发一发地装填。 但是许多现代火器也有称为“快速装弹器”的分离式弹巢，可花费武器价格的10%购入。</p>\n<p>若是隐藏，将其找出的@Compendium[swade-core-rules.swade-skills.察觉]{察觉}-2。</p>\n</article>",
             "ammo": "中型子弹",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "category": "手枪"
         },
@@ -95,7 +95,7 @@
             "name": "沙漠之鹰",
             "description": "<article class=\"swade-core\"><p>半自动手枪以弹匣装填。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "大型子弹",
             "category": "手枪"
@@ -104,7 +104,7 @@
             "name": "双管霰弹枪",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "k898kad686": {
                         "name": "近距"
@@ -146,7 +146,7 @@
             "name": "加特林机枪",
             "description": "<article class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "ytyundkxtg": {
                         "name": "射速 3 攻击"
@@ -163,7 +163,7 @@
             "name": "格洛克 (9mm)",
             "description": "<article class=\"swade-core\"><p>半自动手枪以弹匣装填。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "中型子弹",
             "category": "手枪"
@@ -172,7 +172,7 @@
             "name": "H&K MP5",
             "description": "<article class=\"swade-core\"><p>每样武器都标有典型的弹匣容量。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "xyaqn22hrj": {
                         "name": "射速 3 攻击"
@@ -189,7 +189,7 @@
             "name": "狩猎步枪",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "ikd1tshj7n": {
                         "name": "猝射"
@@ -203,7 +203,7 @@
             "name": "M-16",
             "description": "<article class=\"swade-core\"><p>A-2版同样能@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02threeroundbu00]{三连发}。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "r4k2ta3di3": {
                         "name": "射速 3 攻击"
@@ -223,7 +223,7 @@
             "name": "M1 加兰德",
             "description": "<article class=\"swade-core\"><p>美国陆军二战时的标准步枪。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "中型子弹",
             "notes": ".30-06",
@@ -233,7 +233,7 @@
             "name": "M2 勃朗宁",
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p>\n</article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "7r05pvxs8m": {
                         "name": "射速 3 攻击"
@@ -248,7 +248,7 @@
         },
         "M60": {
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "v72t1ul86x": {
                         "name": "射速 3 攻击"
@@ -273,7 +273,7 @@
             "name": "MG42",
             "description": "<article class=\"swade-core\"><p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>最低射速：</strong>除非另有说明，否则机枪的最低@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}是2。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "eknd2cr12u": {
                         "name": "射速 4 攻击"
@@ -302,7 +302,7 @@
             "name": "旋管机枪",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}下限3，需要额外准备满装填重达85磅的背负式供弹箱(内装4000发弹链式子弹)。</p>\n<hr />\n<p>机枪是沉重的全自动武器，在设计上用于持续提供长时间的火力输出，其大部分需要弹链或是弹鼓进行装填，因此尽管口径和射速和突击步枪差不多，但弹容量要胜出一筹。</p>\n<p><strong>武器架：</strong>大部分机枪都需要架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{双脚架/三脚架}或是载具上开火，这样可以免于任何力量需求以及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}一般是“NA”，或是“不适用”。如果这把武器的确列出了最低力量，那就可以提在腰间开火，但是会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}及后坐力减值。</p>\n<p><strong>装填：</strong>机枪的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}是2，包括更换弹链、弹鼓以及拉栓等等。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "vxu0ut9e9u": {
                         "name": "射速 5 攻击"
@@ -332,7 +332,7 @@
             "description": "<article class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</article>",
             "notes": "激光枪电池，手枪",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "l8016zc0cn": {
                         "name": "过载"
@@ -346,7 +346,7 @@
             "name": "警用转轮枪",
             "description": "<article class=\"swade-core\"><p>转轮枪通常有6个膛室，每次必须一发一发地装填。 但是许多现代火器也有称为“快速装弹器”的分离式弹巢，可花费武器价格的10%购入。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "中型子弹",
             "category": "手枪"
@@ -355,7 +355,7 @@
             "name": "泵动式霰弹枪",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "tts11rijqd": {
                         "name": "近距"
@@ -382,7 +382,7 @@
             "description": "<article class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</article>",
             "notes": "激光枪电池，步枪/冲锋枪",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "6w08dfsyjo": {
                         "name": "射速 3 攻击"
@@ -402,7 +402,7 @@
             "description": "<article class=\"swade-core\"><p>半自动手枪以弹匣装填。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p></article>",
             "name": "鲁格",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "小型子弹",
             "category": "手枪"
@@ -431,7 +431,7 @@
                         "name": "猝射 射速 2"
                     }
                 },
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "中型子弹",
             "category": "机枪"
@@ -440,7 +440,7 @@
             "name": "双短管霰弹枪",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "k898kad686": {
                         "name": "近距"
@@ -481,7 +481,7 @@
         "Sharps Big 50": {
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "zl56kx0g2u": {
                         "name": "猝射"
@@ -497,7 +497,7 @@
             "description": "<article class=\"swade-core\">\n<p>激光武器会射出密集的光束来击穿并烧灼目标。</p>\n<p><strong>烧灼：</strong>任何被激光击中导致无力化的角色其进行避免@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰+2。</p>\n<p><strong>超载：</strong>该武器能通过超载来造成额外的d6伤害，但如果任意@Compendium[swade-core-rules.swade-skills.射击]{射击}骰出1，则武器必须冷却一整轮后才能继续射击。</p>\n<p><strong>无后座：</strong>激光手枪、激光冲锋枪和激光步枪忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}减值。然而加特林激光枪仍然会带有减值，这也是为什么其经常会架设在@Compendium[swade-core-rules.swade-equipment.双脚架/三脚架]{三脚架}上。</p>\n</article>",
             "notes": "激光枪电池，冲锋枪/步枪",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "imydg4hjq5": {
                         "name": "射速 4 攻击"
@@ -520,7 +520,7 @@
             "name": "史密斯&威森",
             "description": "<article class=\"swade-core\"><p>转轮枪通常有6个膛室，每次必须一发一发地装填。 但是许多现代火器也有称为“快速装弹器”的分离式弹巢，可花费武器价格的10%购入。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "ammo": "中型子弹",
             "category": "手枪"
@@ -530,7 +530,7 @@
             "description": "<article class=\"swade-core\"><p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></article>",
             "ammo": "中型子弹",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "category": "步枪"
         },
@@ -538,7 +538,7 @@
             "name": "斯太尔 AUG",
             "description": "<article class=\"swade-core\"><p>可以@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02threeroundbu00]{三连发}。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "8uz8v7onn3": {
                         "name": "射速 3 攻击"
@@ -558,7 +558,7 @@
             "name": "清道夫霰弹枪",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹枪}会射出一片弹丸(称“霰弹”或“散弹”)以增加命中目标的机会，这种冲击在接近时可谓所向披靡。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "d7mti3a1d0": {
                         "name": "近距"
@@ -584,7 +584,7 @@
             "name": "汤普森冲锋枪",
             "description": "<article class=\"swade-core\">\n<p>汤普森冲锋枪能使用50发的弹鼓，这会让其重量增加2磅，而且每个弹鼓的费用为$50。</p>\n<hr />\n<p>每样武器都标有典型的弹匣容量。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p>\n<p></p>\n</article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "ylhxrcrzpr": {
                         "name": "射速 3 攻击"
@@ -601,7 +601,7 @@
             "name": "Uzi",
             "description": "<article class=\"swade-core\"><p>每样武器都标有典型的弹匣容量。 额外弹匣能以武器费用的10%购入，每个装填满的弹匣重1磅。</p></article>",
             "actions": {
-                "skill": "射击",
+                "trait": "射击",
                 "additional": {
                     "t42xx1o1o9": {
                         "name": "射速 3 攻击"
@@ -619,7 +619,7 @@
             "name": "温切斯特73式步枪",
             "description": "<article class=\"swade-core\"><p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p></article>",
             "actions": {
-                "skill": "射击"
+                "trait": "射击"
             },
             "category": "步枪"
         }

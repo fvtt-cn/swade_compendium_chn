@@ -1,114 +1,88 @@
 {
-    "label": "SWADE Equipment",
-    "mapping": {
-        "description": "system.description",
-        "notes": "system.notes",
-        "actions": "system.actions",
-        "range": "system.range",
-        "ammo": "system.ammo",
-        "category": "system.category"
-    },
     "entries": {
         "Bullets, Medium": {
             "name": "Bullets, Medium",
             "description": "<article class=\"swade-core\">\n<p>9mm to .45 caliber</p>\n</article>",
-            "notes": "",
             "category": "Bullet"
         },
         "War Horse": {
             "name": "War Horse",
             "description": "<article class=\"swade-core\">\n<p>See @Actor[YhXM3GoaSTkJKto3]{Horse, War} for stats.</p>\n</article>",
-            "notes": "",
             "category": "Animals and Tack"
         },
         "Shovel": {
             "name": "Shovel",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Bullets, Small": {
             "name": "Bullets, Small",
             "description": "<article class=\"swade-core\">\n<p>.22 to .32 caliber</p>\n</article>",
-            "notes": "",
             "category": "Bullet"
         },
         "Night Vision Goggles": {
             "name": "Night Vision Goggles",
             "description": "<article class=\"swade-core\"><p>No penalty for Dim or Dark @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03illumination00]{Illumination}. For double the price the goggles are &ldquo;active&rdquo; and ignore all Illumination penalties.</p></article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Saddle": {
             "name": "Saddle",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Animals and Tack"
         },
         "\"Bug\" (Micro Transmitter)": {
             "name": "\"Bug\" (Micro Transmitter)",
             "description": "<article class=\"swade-core\">\n<p>12 hours of continuous use.</p>\n</article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Boots, Hiking": {
             "name": "Boots, Hiking",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Clothing"
         },
         "Clothing, Formal": {
             "name": "Clothing, Formal",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Clothing"
         },
         "Backpack": {
             "name": "Backpack",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Soap": {
             "name": "Soap",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Shot (w/ powder)": {
             "name": "Shot (w/ powder)",
             "description": "<article class=\"swade-core\">\n<p>For black powder weapons</p>\n</article>",
-            "notes": "",
             "category": "Ammo"
         },
         "Elaborate Saddle": {
             "name": "Elaborate Saddle",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Animals and Tack"
         },
         "Torch": {
             "name": "Torch",
             "description": "<article class=\"swade-core\"><p>&nbsp;One hour, 4&rdquo; radius.</p></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Flask (ceramic)": {
             "name": "Flask (ceramic)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Handcuffs (manacles)": {
             "name": "Handcuffs (manacles)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Computer, Laptop": {
             "name": "Computer, Laptop",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Computers & Electronics"
         },
         "Stun Gun": {
@@ -125,61 +99,51 @@
         "Trail Rations": {
             "name": "Trail Rations",
             "description": "<article class=\"swade-core\"><p>5 meals; keeps one week.</p></article>",
-            "notes": "",
             "category": "Food"
         },
         "Tool Kit": {
             "name": "Tool Kit",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Lineman's Telephone": {
             "name": "Lineman's Telephone",
             "description": "<article class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-skills.Repair]{Repair} roll to tap into a phone line.</p></article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Candle": {
             "name": "Candle",
             "description": "<article class=\"swade-core\">\n<p>One hour, 2&rdquo; radius</p>\n</article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "MRE (Meal Ready to Eat)": {
             "name": "MRE (Meal Ready to Eat)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Food"
         },
         "Computer, Hand held": {
             "name": "Computer, Hand held",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Computers & Electronics"
         },
         "Oil": {
             "name": "Oil",
             "description": "<article class=\"swade-core\"><p>For lantern; one pint</p></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Goggles": {
             "name": "Goggles",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Rope, hemp": {
             "name": "Rope, hemp",
             "description": "<article class=\"swade-core\"><p>10&rdquo;/20 yards</p></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Cellular Interceptor": {
             "name": "Cellular Interceptor",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Canister Shot (Cannon)": {
@@ -191,67 +155,56 @@
         "Telephone Tap": {
             "name": "Telephone Tap",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Laser/Red Dot Sight": {
             "name": "Laser/Red Dot Sight",
             "description": "<article class=\"swade-core\">\n<p>+1 to @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} at Short and Medium @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}.</p>\n</article>",
-            "notes": "",
             "category": "Firearms Accessories"
         },
         "Arrows/Bolts": {
             "name": "Arrows/Bolts",
             "description": "<article class=\"swade-core\">\n<p>Arrows for @Compendium[swade-core-rules.swade-personal-weapons.Bow]{bows}, bolts for @Compendium[swade-core-rules.swade-personal-weapons.Crossbow]{crossbow}</p>\n</article>",
-            "notes": "",
             "category": "Ammo"
         },
         "Button Camera": {
             "name": "Button Camera",
             "description": "<article class=\"swade-core\"><p>12 hours of continuous use.</p></article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Rope, nylon": {
             "name": "Rope, nylon",
             "description": "<article class=\"swade-core\"><p>10&rdquo;/20 yards</p></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Lantern": {
             "name": "Lantern",
             "description": "<article class=\"swade-core\"><p>Four hours, 4&rdquo; radius</p></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Bullets, Large": {
             "name": "Bullets, Large",
             "description": "<article class=\"swade-core\">\n<p>.50 caliber and larger rounds</p>\n</article>",
-            "notes": "",
             "category": "Bullet"
         },
         "GPS": {
             "name": "GPS",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Computers & Electronics"
         },
         "Grappling Hook": {
             "name": "Grappling Hook",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Laser Battery, Rifle / SMG": {
             "name": "Laser Battery, Rifle / SMG",
             "description": "<article class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></article>",
-            "notes": "",
             "category": "Laser Battery"
         },
         "Laser Battery, Pistol": {
             "name": "Laser Battery, Pistol",
             "description": "<article class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></article>",
-            "notes": "",
             "category": "Laser Battery"
         },
         "Solid Shot (Cannon)": {
@@ -263,61 +216,51 @@
         "Clothing, Casual": {
             "name": "Clothing, Casual",
             "description": "",
-            "notes": "",
             "category": "Clothing"
         },
         "Fast Food Meal": {
             "name": "Fast Food Meal",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Food"
         },
         "Lockpicks": {
             "name": "Lockpicks",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Whistle": {
             "name": "Whistle",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Laser Battery, Gatling": {
             "name": "Laser Battery, Gatling",
             "description": "<article class=\"swade-core\"><p>Provides one full magazine for the listed weapon</p></article>",
-            "notes": "",
             "category": "Laser Battery"
         },
         "Shotgun Slugs": {
             "name": "Shotgun Slugs",
             "description": "<article class=\"swade-core\"><p>See @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns}.</p></article>",
-            "notes": "",
             "category": "Shotgun"
         },
         "Umbrella": {
             "name": "Umbrella",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Winter Gear (cloak/parka)": {
             "name": "Winter Gear (cloak/parka)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Clothing"
         },
         "Flashlight": {
             "name": "Flashlight",
             "description": "<article class=\"swade-core\"><p>10&rdquo; beam</p></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Camouflage Fatigues": {
             "name": "Camouflage Fatigues",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Clothing"
         },
         "Shrapnel Shot (Cannon)": {
@@ -329,97 +272,81 @@
         "Transmitter Detector": {
             "name": "Transmitter Detector",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Flint and Steel": {
             "name": "Flint and Steel",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Blanket": {
             "name": "Blanket",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Rifle Scope": {
             "name": "Rifle Scope",
             "description": "<article class=\"swade-core\">\n<p>Cancels 2 additional points of penalties when @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03aim00000000000]{Aiming}.</p>\n</article>",
-            "notes": "",
             "category": "Firearms Accessories"
         },
         "Winter Boots": {
             "name": "Winter Boots",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Clothing"
         },
         "Good Meal (restaurant)": {
             "name": "Good Meal (restaurant)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Food"
         },
         "Bipod/Tripod": {
             "name": "Bipod/Tripod",
             "description": "<article class=\"swade-core\">\n<p>Takes an action to deploy. Negates @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03recoil00000000]{Recoil} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} penalties.</p>\n</article>",
-            "notes": "",
             "category": "Firearms Accessories"
         },
         "Computer, Desktop": {
             "name": "Computer, Desktop",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Computers & Electronics"
         },
         "Crowbar": {
             "name": "Crowbar",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Parabolic Microphone": {
             "name": "Parabolic Microphone",
             "description": "<article class=\"swade-core\"><p>Hear whispers up to 200 yards distant.</p></article>",
-            "notes": "",
             "category": "Surveillance"
         },
         "Sling stones": {
             "name": "Sling stones",
             "description": "<article class=\"swade-core\">&nbsp;</article>",
-            "notes": "",
             "category": "Ammo"
         },
         "Camera (regular)": {
             "name": "Camera (regular)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Camera (disposable)": {
             "name": "Camera (disposable)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Quiver": {
             "name": "Quiver",
             "description": "<article class=\"swade-core\"><p>Holds 20 @Compendium[swade-core-rules.swade-equipment.Arrows/Bolts]{Arrows/Bolts}.</p></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Canteen (waterskin)": {
             "name": "Canteen (waterskin)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Medic Kit": {
             "name": "Medic Kit",
             "description": "<article class=\"swade-core\">\n<p>Five uses, +1 to @Compendium[swade-core-rules.swade-skills.Healing]{Healing} skill rolls; $25 to refill.</p>\n<p>Also see main @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing} rules.</p>\n</article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Pepper Spray": {
@@ -441,49 +368,41 @@
         "First Aid Kit": {
             "name": "First Aid Kit",
             "description": "<article class=\"swade-core\">\n<p>Three uses, see @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03healing0000000]{Healing}.</p>\n</article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Hammer": {
             "name": "Hammer",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Lighter": {
             "name": "Lighter",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Shotgun Shells": {
             "name": "Shotgun Shells",
             "description": "<article class=\"swade-core\">\n<p>Standard buckshot</p>\n</article>",
-            "notes": "",
             "category": "Shotgun"
         },
         "Bedroll": {
             "name": "Bedroll",
             "description": "<article class=\"swade-core\">\n<p>Sleeping bag; winterized</p>\n</article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Horse": {
             "name": "Horse",
             "description": "<article class=\"swade-core\">\n<p>See @Actor[RFfhBAdJgR2vIiCw]{Horse} for stats.</p>\n</article>",
-            "notes": "",
             "category": "Animals and Tack"
         },
         "Camera (digital)": {
             "name": "Camera (digital)",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         },
         "Whetstone": {
             "name": "Whetstone",
             "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "category": "Adventuring Gear"
         }
     }

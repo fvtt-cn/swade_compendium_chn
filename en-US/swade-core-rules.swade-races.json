@@ -1,8 +1,4 @@
 {
-    "label": "swade-races.db",
-    "mapping": {
-        "description": "system.description"
-    },
     "entries": {
         "Guardians": {
             "name": "Guardians",

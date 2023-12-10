@@ -1,8 +1,4 @@
 {
-    "label": "SWADE Hindrances",
-    "mapping": {
-        "description": "system.description"
-    },
     "entries": {
         "Enemy": {
             "name": "Enemy",
@@ -140,8 +136,8 @@
             "name": "Clumsy",
             "description": "<article class=\"swade-core\">\n<p><span class=\"fontstyle0\">Your hero is an uncoordinated klutz who trips over air and is always the last one picked for sports. He subtracts 2 from @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} and @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} @Compendium[swade-core-rules.swade-rules.Trait Rolls]{rolls}.</span></p>\n</article>"
         },
-        "Yellow": {
-            "name": "Yellow",
+        "Timid": {
+            "name": "Timid",
             "description": "<article class=\"swade-core\">\n<p><span class=\"fontstyle0\">Not everyone has ice water in their veins. Your hero is squeamish at the sight of blood and gore and terrified of coming to harm. He subtracts 2 from @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{Fear}&nbsp;</span>checks and when resisting @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation}.</p>\n</article>"
         },
         "One Arm": {

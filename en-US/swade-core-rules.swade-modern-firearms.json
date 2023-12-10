@@ -1,13 +1,4 @@
 {
-    "label": "SWADE Modern Firearms",
-    "mapping": {
-        "description": "system.description",
-        "notes": "system.notes",
-        "actions": "system.actions",
-        "range": "system.range",
-        "ammo": "system.ammo",
-        "category": "system.category"
-    },
     "entries": {
         "Colt 1911": {
             "name": "Colt 1911",
