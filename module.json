@@ -24,15 +24,12 @@
     "./babele.js",
     "./setup.js"
   ],
-  "styles": [
-    "./swade-core.css"
-  ],
   "systems": [
     "swade"
   ],
-  "dependencies": [
+  "relationships.requires": [
     {
-      "name": "babele",
+      "id": "babele",
       "type": "module",
       "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
     }

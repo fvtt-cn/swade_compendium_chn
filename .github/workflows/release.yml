@@ -6,7 +6,7 @@ on:
 
 env:
   ZIP_FILENAME: "swade_compendium_chn"
-  PACKAGE_CONTENT: "module.json babele.js setup.js swade-core.css compendium/ lang/"
+  PACKAGE_CONTENT: "module.json babele.js setup.js compendium/ lang/"
   PACKAGE_ID: 1558
 
 
@@ -56,7 +56,7 @@ jobs:
     - name: Publish to Foundry VTT Repo
       id: publish_foundry_repo
       if: ${{ env.PACKAGE_ID }}
-      run: npx @ghost-fvtt/foundry-publish
+      run: npx @ghost-fvtt/foundry-publish --useNewPackageAdministrationInterface
       env:
         FVTT_MANIFEST_PATH: 'module.json'
         FVTT_PACKAGE_ID: ${{ env.PACKAGE_ID }}
