@@ -27,16 +27,6 @@
   "styles": [
     "./swade-core.css"
   ],
-  "packs": [
-    {
-      "name": "action-cards",
-      "label": "中文行动卡组",
-      "system": "swade",
-      "path": "packs/swade-action-deck.db",
-      "entity": "Cards",
-      "module": "swade_compendium_chn"
-    }
-  ],
   "systems": [
     "swade"
   ],
