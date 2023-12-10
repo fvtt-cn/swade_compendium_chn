@@ -121,7 +121,27 @@
         },
         "Poison": {
             "name": "毒素",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili22]{毒素}：</strong>GM选择毒蛇注入的是何种@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n</ul>\n</div>"
+            "description": "<article class=\"swade-core\"><p>像是蛇，蜘蛛等其他生物会通过噬咬或抓挠注入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒液}。生物必须至少给对象造成@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}才能使用该能力，后者必须进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰，遭受的调整值则是根据毒性值(会在生物的毒素能力旁边的括号内列出)而定，失败的效果详见<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04hazards0000000]{危难}</b>。</p></article>",
+            "actions": {
+                "additional": {
+                    "knockout": {
+                        "name": "昏厥毒素"
+                    },
+                    "lethal": {
+                        "name": "致命毒素"
+                    },
+                    "mild": {
+                        "name": "温和毒素"
+                    },
+                    "paralyzing": {
+                        "name": "麻痹毒素"
+                    },
+                    "resist": {
+                        "name": "抵抗(活力)",
+                        "override": "活力"
+                    }
+                }
+            }
         },
         "Poison (-4)": {
             "name": "毒素 (-4)",
@@ -177,39 +197,124 @@
         },
         "Disarm": {
             "name": "缴械",
-            "description": "<article class=\"swade-core\">\n<h2>缴械</h2>\n<p>角色能通过@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03attacks0000000]{近战或远程攻击}尝试让对手丢下武器(或别的物件)或是对此物造成伤害。</p>\n<p>攻击方必须首先攻击到物件、对象的肢体或是手部(见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}</strong>)。</p>\n<p>若此攻击命中该武器，攻击方如常就物品进行伤害投骰(不含优良效果或是绝佳，见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{破坏物体}</strong>)，防守方必须成功通过一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}投骰(等同于此伤害)，否则就要丢下该物品。</p>\n<p>若该攻击针对的是持用者且让其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{遭受动摇或损伤}，则命中肢体时防守方必须进行一次-2的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}投骰，倘若命中手部则是-4，此外结果还要如常加上任何损伤减值。失败则意味着其要丢下对应手持有的任何东西。</p>\n</article>"
+            "description": "<article class=\"swade-core\">\n<h2>缴械</h2>\n<p>角色能通过@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03attacks0000000]{近战或远程攻击}尝试让对手丢下武器(或别的物件)或是对此物造成伤害。</p>\n<p>攻击方必须首先攻击到物件、对象的肢体或是手部(见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}</strong>)。</p>\n<p>若此攻击命中该武器，攻击方如常就物品进行伤害投骰(不含优良效果或是绝佳，见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03breakingthin00]{破坏物体}</strong>)，防守方必须成功通过一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}投骰(等同于此伤害)，否则就要丢下该物品。</p>\n<p>若该攻击针对的是持用者且让其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{遭受动摇或损伤}，则命中肢体时防守方必须进行一次-2的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}投骰，倘若命中手部则是-4，此外结果还要如常加上任何损伤减值。失败则意味着其要丢下对应手持有的任何东西。</p>\n</article>",
+            "actions": {
+                "additional": {
+                    "disarmLimb": {
+                        "name": "缴械肢体(力量)",
+                        "override": "力量"
+                    },
+                    "disarmHand": {
+                        "override": "力量",
+                        "name": "缴械手部(力量)"
+                    }
+                }
+            }
         },
         "Grapple": {
             "name": "擒抱",
-            "description": "<article class=\"swade-core\">\n<h2>擒抱</h2>\n<p>擒抱要求攻守双方进行一次@Compendium[swade-core-rules.swade-skills.运动]{运动}对抗投骰。若攻击方胜出，敌方会陷入纠缠。若出现优良，对方会陷入束缚(对已经遭到纠缠的敌方取得成功则会让其陷入束缚)。见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{束缚与纠缠}</strong>。</p>\n<p>若是敌方遭到束缚，则<em>擒抱方</em>在维持擒抱期间也会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{脆弱}。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03gangingup00000]{围攻}加值可以在擒抱防守方时生效，但除非GM在特定情境下另作判断，否则其他战技不会起作用。</p>\n<p><strong>体型问题：</strong>若攻守双方之间的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{尺寸}有所差别，擒抱方必须从总值中减去对应差值(防守方无须如此)。</p>\n<p>生物通常无法擒抱体型比自身高2及以上的对手，除非其具备就自身体型而言格外杰出的触及或@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}(取决于GM)。</p>\n<p class=\"embedded-example\"><strong>例子：</strong>龙(超大型+4)尝试摁住一名半身人盗贼(中型)。超大型和中型的尺寸差值是4，因此龙必须在其@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰中减去4。<br />如果食人魔(中型)，尝试擒住一头大白鲨(大型+2)，则其必须在投骰中减去2。</p>\n<p><strong>紧勒：</strong>擒抱方能在其回合内以一个动作进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}对抗投骰以对自己正@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{束缚或纠缠}的对象造成伤害。若获得成功，则进行第二次力量投骰以计算伤害(若在首次投骰中出现优良则还会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03dealingdamag00]{奖励伤害})。</p>\n</article>"
+            "description": "<article class=\"swade-core\">\n<h2>擒抱</h2>\n<p>擒抱要求攻守双方进行一次@Compendium[swade-core-rules.swade-skills.运动]{运动}对抗投骰。若攻击方胜出，敌方会陷入纠缠。若出现优良，对方会陷入束缚(对已经遭到纠缠的敌方取得成功则会让其陷入束缚)。见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{束缚与纠缠}</strong>。</p>\n<p>若是敌方遭到束缚，则<em>擒抱方</em>在维持擒抱期间也会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{脆弱}。</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03gangingup00000]{围攻}加值可以在擒抱防守方时生效，但除非GM在特定情境下另作判断，否则其他战技不会起作用。</p>\n<p><strong>体型问题：</strong>若攻守双方之间的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{尺寸}有所差别，擒抱方必须从总值中减去对应差值(防守方无须如此)。</p>\n<p>生物通常无法擒抱体型比自身高2及以上的对手，除非其具备就自身体型而言格外杰出的触及或@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}(取决于GM)。</p>\n<p class=\"embedded-example\"><strong>例子：</strong>龙(超大型+4)尝试摁住一名半身人盗贼(中型)。超大型和中型的尺寸差值是4，因此龙必须在其@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰中减去4。<br />如果食人魔(中型)，尝试擒住一头大白鲨(大型+2)，则其必须在投骰中减去2。</p>\n<p><strong>紧勒：</strong>擒抱方能在其回合内以一个动作进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}对抗投骰以对自己正@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{束缚或纠缠}的对象造成伤害。若获得成功，则进行第二次力量投骰以计算伤害(若在首次投骰中出现优良则还会带有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03dealingdamag00]{奖励伤害})。</p>\n</article>",
+            "actions": {
+                "additional": {
+                    "crush": {
+                        "name": "紧勒"
+                    },
+                    "opposeGrapple": {
+                        "name": "对抗擒抱"
+                    }
+                },
+                "trait": "运动"
+            }
         },
         "Jump": {
             "name": "跳跃",
-            "description": "<article class=\"swade-core\"><p>角色能以一个自由动作水平跳跃1英寸(2码)或垂直跳跃0.5英寸。若角色能进行至少2英寸(4码)的助跑则能让跳跃距离翻倍。若人物愿意，其可以用一个动作进行一次@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰，以此让水平跳跃距离增加1英寸(出现优良则是2英寸)，如果是垂直则该加值减半。跳跃不能让角色该回合移动的总距离超过移速。</p></article>"
+            "description": "<article class=\"swade-core\"><p>角色能以一个自由动作水平跳跃1英寸(2码)或垂直跳跃0.5英寸。若角色能进行至少2英寸(4码)的助跑则能让跳跃距离翻倍。若人物愿意，其可以用一个动作进行一次@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰，以此让水平跳跃距离增加1英寸(出现优良则是2英寸)，如果是垂直则该加值减半。跳跃不能让角色该回合移动的总距离超过移速。</p></article>",
+            "actions": {
+                "trait": "运动"
+            }
         },
         "Natural Healing": {
             "name": "自然治疗",
-            "description": "<article class=\"swade-core\"><p>受到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}的角色每五天进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{活力}投骰。成功则移除1个损伤，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}移除2个。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}会让对象的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}增加一级——可能是感染、失血过多、伤口恶化等导致。若因此导致@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}，不要采用平时受到伤害时的规则。相反，对象的意识时有时无，并且每12小时进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{活力}投骰，失败就会死亡，成功意味着12小时后必须再进行投骰，出现@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}则角色才能得以稳定并恢复意识。盟友也可以如同<strong>失血</strong>中所述的那般尝试稳定这名角色的伤势。</p>\\n<p><strong>援助：</strong>别忘了在团队挨了一顿揍后使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}。具备@Compendium[swade-core-rules.swade-skills.治疗]{治疗}、@Compendium[swade-core-rules.swade-skills.生存]{生存}或其他技能的角色可以使用援助投骰来帮助同伴进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{活力}投骰以便恢复！</p></article>"
+            "description": "<article class=\"swade-core\"><p>受到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}的角色每五天进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{活力}投骰。成功则移除1个损伤，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}移除2个。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}会让对象的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}增加一级——可能是感染、失血过多、伤口恶化等导致。若因此导致@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}，不要采用平时受到伤害时的规则。相反，对象的意识时有时无，并且每12小时进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{活力}投骰，失败就会死亡，成功意味着12小时后必须再进行投骰，出现@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}则角色才能得以稳定并恢复意识。盟友也可以如同<strong>失血</strong>中所述的那般尝试稳定这名角色的伤势。</p>\\n<p><strong>援助：</strong>别忘了在团队挨了一顿揍后使用@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}。具备@Compendium[swade-core-rules.swade-skills.治疗]{治疗}、@Compendium[swade-core-rules.swade-skills.生存]{生存}或其他技能的角色可以使用援助投骰来帮助同伴进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{活力}投骰以便恢复！</p></article>",
+            "actions": {
+                "additional": {
+                    "heal": {
+                        "name": "治疗自身"
+                    }
+                },
+                "trait": "活力"
+            }
         },
         "Network (The Nice Way)": {
             "name": "打点关系(不错的途径)",
-            "description": "<article class=\"swade-core\"><p>角色通过@Compendium[swade-core-rules.swade-skills.交涉]{交涉}与各种社交圈进行往来以获得信息或帮助。当这样使用时，交涉就并非是单次的互动，而是数小时的社交、聊天、盛宴、畅饮、赠礼、行贿或娱乐。这代表花在办公室里的时间，一系列与要人的会面，或是一场菜肴酒水齐备的晚宴(最为常见)。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{成功}会让角色得到大部分想获得的东西，尽管可能花上了好一阵子，破了点费，或是欠下了需要偿还的人情。出现优良则要么是会获得更多所求的东西，要么是付出了更少的代价。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{失败}代表角色是白费力气，大失败则意味着他暂时中断了和某个团体的往来(取决于GM，但通常是一周)。</p>\\n<p><strong>有钱能使鬼推磨：</strong>俗话说得好，为人大方朋友广。有条件慷慨解囊的角色可以把钱花在更丰厚的贿赂、礼物或是交际时的餐饮上，以让其打点关系的尝试+2。</p>\\n<p>所要花费的金钱数量取决于GM、设定以及其参与交际的性质。大概的规则是，使用设定的起始资金，并在此之上进行适当调整。</p></article>"
+            "description": "<article class=\"swade-core\"><p>角色通过@Compendium[swade-core-rules.swade-skills.交涉]{交涉}与各种社交圈进行往来以获得信息或帮助。当这样使用时，交涉就并非是单次的互动，而是数小时的社交、聊天、盛宴、畅饮、赠礼、行贿或娱乐。这代表花在办公室里的时间，一系列与要人的会面，或是一场菜肴酒水齐备的晚宴(最为常见)。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{成功}会让角色得到大部分想获得的东西，尽管可能花上了好一阵子，破了点费，或是欠下了需要偿还的人情。出现优良则要么是会获得更多所求的东西，要么是付出了更少的代价。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{失败}代表角色是白费力气，大失败则意味着他暂时中断了和某个团体的往来(取决于GM，但通常是一周)。</p>\\n<p><strong>有钱能使鬼推磨：</strong>俗话说得好，为人大方朋友广。有条件慷慨解囊的角色可以把钱花在更丰厚的贿赂、礼物或是交际时的餐饮上，以让其打点关系的尝试+2。</p>\\n<p>所要花费的金钱数量取决于GM、设定以及其参与交际的性质。大概的规则是，使用设定的起始资金，并在此之上进行适当调整。</p></article>",
+            "actions": {
+                "additional": {
+                    "moneyTalks": {
+                        "name": "有钱能使鬼推磨"
+                    }
+                },
+                "trait": "交涉"
+            }
         },
         "Network (The Not-So-Nice Way)": {
             "name": "打点关系(没那么好的途径)",
-            "description": "<article class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-skills.威吓]{威吓}同样能用于收集信息，要求帮助或是提出需求，但这就没那么愉快了。</p>\\n<p>每次“街头工作”都要花上数个小时去威胁恐吓(通常不那么愉快)以迫使当地民众提供角色所需的东西。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{成功}会让角色得到大部分想获得的东西，尽管受害者可能会决定在之后加以报复。出现优良意味着角色能更快完成，或是能获得更多信息，又或者受害者过于畏惧或是事务缠身乃至于无法密谋报复。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{失败}则代表这个家伙不能获得任何有用的东西。大失败则意味着这晚过去后落得个鼻青脸肿的下场(参见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04bumpsandbrui00]{肿痛与擦伤}</strong>)。虽然可以改日再次进行沟通，但这次别人可能就会有所预备，恭候大驾了！</p>\\n<p><strong>诉诸暴力：</strong>莽汉能通过比平常更为暴力极端的方式提高成功几率。这会让其在一周内无法再次进行互动，但会让投骰+2。</p>\\n<p>同时这样也会提高风险。失败意味着这晚结束后会留下一身<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04bumpsandbrui00]{肿痛与擦伤}</strong>，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}则会导致更为严重的结果。GM可能会将这个行动拆解成真正的遭遇(可能还会是一场伏击！)，对象可能会触犯法律，返回时带有两级来自肿痛与擦伤的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}，或者其问题会招致更强大的敌人就此作出致命回应！</p></article>"
+            "description": "<article class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-skills.威吓]{威吓}同样能用于收集信息，要求帮助或是提出需求，但这就没那么愉快了。</p>\\n<p>每次“街头工作”都要花上数个小时去威胁恐吓(通常不那么愉快)以迫使当地民众提供角色所需的东西。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{成功}会让角色得到大部分想获得的东西，尽管受害者可能会决定在之后加以报复。出现优良意味着角色能更快完成，或是能获得更多信息，又或者受害者过于畏惧或是事务缠身乃至于无法密谋报复。</p>\\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{失败}则代表这个家伙不能获得任何有用的东西。大失败则意味着这晚过去后落得个鼻青脸肿的下场(参见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04bumpsandbrui00]{肿痛与擦伤}</strong>)。虽然可以改日再次进行沟通，但这次别人可能就会有所预备，恭候大驾了！</p>\\n<p><strong>诉诸暴力：</strong>莽汉能通过比平常更为暴力极端的方式提高成功几率。这会让其在一周内无法再次进行互动，但会让投骰+2。</p>\\n<p>同时这样也会提高风险。失败意味着这晚结束后会留下一身<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04bumpsandbrui00]{肿痛与擦伤}</strong>，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}则会导致更为严重的结果。GM可能会将这个行动拆解成真正的遭遇(可能还会是一场伏击！)，对象可能会触犯法律，返回时带有两级来自肿痛与擦伤的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}，或者其问题会招致更强大的敌人就此作出致命回应！</p></article>",
+            "actions": {
+                "additional": {
+                    "bustingHeads": {
+                        "name": "诉诸暴力"
+                    }
+                },
+                "trait": "威吓"
+            }
         },
         "Push": {
             "name": "推撞",
-            "description": "<article class=\"swade-core\">\n<h2>推撞</h2>\n<p>角色有时候会想推撞对手以将其撞离原位，撞至@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03prone000000000]{卧地}，甚至是撞进致命的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04hazards0000000]{险境}中。</p>\n<p>推撞敌方需要进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{对抗投骰}。攻击方若是成功就会将对手往后推1英寸(2码)；若是出现优良，距离就会提升至2英寸(4码)。如果攻击方的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{尺寸}大于敌方，则上述距离均会翻倍。</p>\n<p>遭到成功推撞的角色必须进行一次@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰(如果攻击方出现优良则还要-2)，否则将被撞至@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03prone000000000]{卧地}。</p>\n<p><strong>奔跑：</strong>如果攻击方在推撞前奔跑了至少2英寸(4码)，其投骰总值+2。</p>\n<p><strong>体型问题：</strong>生物通常不能推撞@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{体型}比自身高2以上的对手，除非其具备相较自己体型而言格外杰出的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}(GM判断)。</p>\n<p><strong>技能：</strong>攻守两方可根据自己选择使用@Compendium[swade-core-rules.swade-skills.运动]{运动}(而不是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量})进行投骰。</p>\n<p><strong>盾牌：</strong>攻守两方可在推撞时将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02shields0000000]{盾牌的格挡加值}附加到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}(或@Compendium[swade-core-rules.swade-skills.运动]{运动})投骰上。</p>\n</article>"
+            "description": "<article class=\"swade-core\">\n<h2>推撞</h2>\n<p>角色有时候会想推撞对手以将其撞离原位，撞至@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03prone000000000]{卧地}，甚至是撞进致命的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04hazards0000000]{险境}中。</p>\n<p>推撞敌方需要进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{对抗投骰}。攻击方若是成功就会将对手往后推1英寸(2码)；若是出现优良，距离就会提升至2英寸(4码)。如果攻击方的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{尺寸}大于敌方，则上述距离均会翻倍。</p>\n<p>遭到成功推撞的角色必须进行一次@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰(如果攻击方出现优良则还要-2)，否则将被撞至@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03prone000000000]{卧地}。</p>\n<p><strong>奔跑：</strong>如果攻击方在推撞前奔跑了至少2英寸(4码)，其投骰总值+2。</p>\n<p><strong>体型问题：</strong>生物通常不能推撞@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{体型}比自身高2以上的对手，除非其具备相较自己体型而言格外杰出的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}(GM判断)。</p>\n<p><strong>技能：</strong>攻守两方可根据自己选择使用@Compendium[swade-core-rules.swade-skills.运动]{运动}(而不是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量})进行投骰。</p>\n<p><strong>盾牌：</strong>攻守两方可在推撞时将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02shields0000000]{盾牌的格挡加值}附加到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}(或@Compendium[swade-core-rules.swade-skills.运动]{运动})投骰上。</p>\n</article>",
+            "actions": {
+                "additional": {
+                    "noProneRaise": {
+                        "name": "避免卧地(优良)",
+                        "override": "运动"
+                    },
+                    "opposeAth": {
+                        "name": "对抗(运动)",
+                        "override": "运动"
+                    },
+                    "opposeStr": {
+                        "name": "对抗(力量)"
+                    },
+                    "pushAth": {
+                        "name": "运动",
+                        "override": "运动"
+                    },
+                    "noProne": {
+                        "override": "运动",
+                        "name": "避免卧地"
+                    }
+                },
+                "trait": "力量"
+            }
         },
         "Suppressive Fire": {
             "name": "火力压制",
-            "description": "<article class=\\\"swade-core\\\">\\n<h2>火力压制</h2>\\n<p>火力压制可以将一门火器或是快速射击的武器转为@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击}。这牺牲了精准度并换来了冰雹般的弹幕，以让敌人不敢抬头。</p>\\n<p>武器的射击速度必须至少像转轮手枪一样快，而且每一发之间不需要装填。</p>\\n<p>火力压制消耗的子弹是其<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}</strong>通常对应数量的三倍，而且无论武器原来的射速为何，这总是会造成@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}(@Compendium[swade-core-rules.swade-edges.激情四射]{激情四射}专长，双脚架，三脚架能如常忽略后坐力)。</p>\\n<p>若要以此攻击，射击方将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}放置在桌面上，并进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰(不管@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}为何，只进行一次射击投骰——射速和下文的最大杀伤相关)。从盖板中心如常计算@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}等等。</p>\\n<p>接下来，把投骰总值和盖板里的每个目标进行比较，并考虑每个目标各自应用的任何调整值(@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}、@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长以及<em>@Compendium[swade-core-rules.swade-powers.偏斜]{偏斜}</em>奇术之类)。成功意味着目标陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}，出现@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}意味着他实际有所命中(火力压制无法获得奖励@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害})。</p>\\n<p><strong>最大杀伤：</strong>盖板里面的每个目标都会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}，但只有等同于武器@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}数量的目标会受到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}，攻击方可在其中选择命中了哪些目标。</p></article>"
+            "description": "<article class=\\\"swade-core\\\">\\n<h2>火力压制</h2>\\n<p>火力压制可以将一门火器或是快速射击的武器转为@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击}。这牺牲了精准度并换来了冰雹般的弹幕，以让敌人不敢抬头。</p>\\n<p>武器的射击速度必须至少像转轮手枪一样快，而且每一发之间不需要装填。</p>\\n<p>火力压制消耗的子弹是其<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}</strong>通常对应数量的三倍，而且无论武器原来的射速为何，这总是会造成@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}(@Compendium[swade-core-rules.swade-edges.激情四射]{激情四射}专长，双脚架，三脚架能如常忽略后坐力)。</p>\\n<p>若要以此攻击，射击方将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}放置在桌面上，并进行一次@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰(不管@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}为何，只进行一次射击投骰——射速和下文的最大杀伤相关)。从盖板中心如常计算@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02range000000000]{射程}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}等等。</p>\\n<p>接下来，把投骰总值和盖板里的每个目标进行比较，并考虑每个目标各自应用的任何调整值(@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}、@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长以及<em>@Compendium[swade-core-rules.swade-powers.偏斜]{偏斜}</em>奇术之类)。成功意味着目标陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}，出现@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}意味着他实际有所命中(火力压制无法获得奖励@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害})。</p>\\n<p><strong>最大杀伤：</strong>盖板里面的每个目标都会陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03distractedan00]{分神}，但只有等同于武器@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02rateoffire0000]{射速}数量的目标会受到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}，攻击方可在其中选择命中了哪些目标。</p></article>",
+            "actions": {
+                "trait": "射击"
+            }
         },
         "Treat Wounds": {
             "name": "治疗损伤",
-            "description": "<article class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-skills.治疗]{治疗}技能可用于移除@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}，每次尝试需要花费等于患者每损伤等级10分钟的时间。若没有基本的急救包或类似物资，则治疗投骰-1。</p>\\n<p>成功能移除1个损伤，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}则能移除2个。失败意味着没有移除任何损伤，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}则会让对象的损伤<em>增加</em>一级。</p>\\n<aside class=\\\"the-golden-hour\\\">\\n<h2>黄金时间</h2>\\n<p>挺过了初始外伤的患者们有1个小时去熬过最为凶险的创伤，如果其在此期间得到治疗护理则一般而言都能存活。然而，拖得越久，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}可能会越为致命。</p>\\n<p>在《狂野世界》中，我们大体上沿用了这个治疗理念。除了体现真实世界的概念外，其同时也提供了良好的游戏平衡以及戏剧性效果——因为团队必须决定是否要负伤前行。</p>\\n</aside>\\n<p><strong>黄金时间：</strong>一名角色只能在患者受伤后一小时内尝试对其治疗一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}。投骰失败意味着治疗者无法处理这些特定创伤。然而<em>不同</em>的角色可以对同一名患者进行另一次@Compendium[swade-core-rules.swade-skills.治疗]{治疗}投骰。</p>\\n<p>一旦@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}存续超过一小时后，就只有通过自然治疗或<em>@Compendium[swade-core-rules.swade-powers.治疗]{治疗}</em>奇术(使用<em>高等治疗</em>)才能恢复损伤。</p>\\n<p><strong>失血：</strong>@Compendium[swade-core-rules.swade-skills.治疗]{治疗}技能也可用于稳定<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}</strong>的对象。每次尝试都是一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actions0000000]{动作}，成功则能让对象稳定。</p>\\n<p><strong>无力化：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}对象恢复至少一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}就能移除该状态(若是被打至昏厥则还能恢复意识)。</p></article>"
+            "description": "<article class=\"swade-core\"><p>@Compendium[swade-core-rules.swade-skills.治疗]{治疗}技能可用于移除@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}，每次尝试需要花费等于患者每损伤等级10分钟的时间。若没有基本的急救包或类似物资，则治疗投骰-1。</p>\\n<p>成功能移除1个损伤，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{优良}则能移除2个。失败意味着没有移除任何损伤，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03traitrolls0000]{大失败}则会让对象的损伤<em>增加</em>一级。</p>\\n<aside class=\\\"the-golden-hour\\\">\\n<h2>黄金时间</h2>\\n<p>挺过了初始外伤的患者们有1个小时去熬过最为凶险的创伤，如果其在此期间得到治疗护理则一般而言都能存活。然而，拖得越久，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}可能会越为致命。</p>\\n<p>在《狂野世界》中，我们大体上沿用了这个治疗理念。除了体现真实世界的概念外，其同时也提供了良好的游戏平衡以及戏剧性效果——因为团队必须决定是否要负伤前行。</p>\\n</aside>\\n<p><strong>黄金时间：</strong>一名角色只能在患者受伤后一小时内尝试对其治疗一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}。投骰失败意味着治疗者无法处理这些特定创伤。然而<em>不同</em>的角色可以对同一名患者进行另一次@Compendium[swade-core-rules.swade-skills.治疗]{治疗}投骰。</p>\\n<p>一旦@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}存续超过一小时后，就只有通过自然治疗或<em>@Compendium[swade-core-rules.swade-powers.治疗]{治疗}</em>奇术(使用<em>高等治疗</em>)才能恢复损伤。</p>\\n<p><strong>失血：</strong>@Compendium[swade-core-rules.swade-skills.治疗]{治疗}技能也可用于稳定<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{失血}</strong>的对象。每次尝试都是一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actions0000000]{动作}，成功则能让对象稳定。</p>\\n<p><strong>无力化：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}对象恢复至少一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}就能移除该状态(若是被打至昏厥则还能恢复意识)。</p></article>",
+            "actions": {
+                "trait": "射击",
+                "additional": {
+                    "heal": {
+                        "name": "治疗选中目标"
+                    }
+                }
+            }
         }
     },
     "label": "SWADE 特殊能力"
