@@ -1,11 +1,20 @@
 {
-    "label": "SWADE Edges",
-    "mapping": {
-        "description": "system.description",
-        "requirements": "system.requirements.value",
-        "category": "system.category"
-    },
     "entries": {
+        "Jack of All Trades": {
+			"name": "Jack of All Trades",
+			"description": "<article class=\"swade-core\">\n<p>Through advanced schooling, book-learning, computer-enhanced skill programs, or just amazing intuitive perception, your hero has a talent for picking up skills on the fly. There&rsquo;s little he can&rsquo;t figure out given a little time and a dash of luck.</p>\n<p>The character makes a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts} roll as an action after observing or studying some subject. She gains a d4 in the relevant skill with success, or d6 with a raise. She may try again after an hour of study, trial and effort, or immersion if she fails or wants to try for a raise. This lasts until the character attempts to learn a different subject, whether she&rsquo;s successful or not.</p>\n</article>",
+			"category": "Edge Actions"
+		},
+		"Rabble Rouser": {
+			"name": "Rabble Rouser",
+			"description": "<article class=\"swade-core\">\n<p>This instigator knows how to rile up several enemies at once.</p>\n<p>As a limited action, a character with this Edge can make a social @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Test} with @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} or @Compendium[swade-core-rules.swade-skills.Taunt]{Taunt} against all enemies in a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}. The targets must be able to see and hear the hero clearly. Each defender resists and is affected by the Test separately.</p>\n</article>",
+			"category": "Edge Actions"
+		},
+		"Work the Room": {
+			"name": "Work the Room",
+			"description": "<article class=\"swade-core\">\n<p>Your hero&rsquo;s words don&rsquo;t just inspire those they&rsquo;re directed at&mdash;they often inspire others as well. As a limited action, you can use Work the Room to roll an additional skill die when @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03support0000000]{Supporting} with @Compendium[swade-core-rules.swade-skills.Persuasion]{Persuasion} or @Compendium[swade-core-rules.swade-skills.Performance]{Performance}. The additional die Supports any other ally who can see or hear your hero, and applies to their next action, whatever it may be.</p>\n</article>",
+			"category": "Edge Actions"
+		},
         "Trademark Weapon": {
             "name": "Trademark Weapon",
             "description": "<article class=\"swade-core\">\n<p><span class=\"fontstyle0\">The hero knows one unique weapon (Excalibur, Old Betsy, Sting) like the back of his hand. When using it, he adds +1 to his @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} (throwing), @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting}, or @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} rolls, and +1 to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Parry} when readied (even if it&rsquo;s a ranged weapon).</span></p>\n<p><span class=\"fontstyle0\">A fighter can take this Edge multiple times, applying it to a different weapon each time. If a Trademark Weapon is lost, he can replace it but the benefits don&rsquo;t kick in for a few days (however long the GM feels is dramatically appropriate).</span></p>\n</article>",

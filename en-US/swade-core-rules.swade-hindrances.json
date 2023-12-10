@@ -1,9 +1,9 @@
 {
-    "label": "SWADE Hindrances",
-    "mapping": {
-        "description": "system.description"
-    },
     "entries": {
+        "Timid": {
+			"name": "Timid",
+			"description": "<article class=\"swade-core\">\n<p>Not everyone has ice water in their veins. Your hero is squeamish at the sight of blood and gore and terrified of coming to harm. He subtracts 2 from @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{Fear}&nbsp;checks and when resisting @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation}.</p>\n</article>"
+		},
         "Enemy": {
             "name": "Enemy",
             "description": "<article class=\"swade-core\">\n<p><span class=\"fontstyle0\">Someone out there hates the character and wants him ruined, locked away, or dead. The value of the @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrance} depends on how powerful the enemy is and how often he might show up. A @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Minor} Enemy might be a lone gunslinger out for vengeance or a betrayed brotherhood that&rsquo;s deadly but appears rarely. A @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Major} </span><span class=\"fontstyle0\"><span class=\"fontstyle0\">Enemy</span> might represent powerful authorities, a band of outlaws, or a single very powerful and relentless rival.</span></p>\n<p><span class=\"fontstyle0\">If the enemy is one day defeated, the GM should gradually work in a replacement, or the hero may buy off the @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01hindrances0000]{Hindrance} by sacrificing an </span><span class=\"fontstyle0\">@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Advance}.</span></p>\n</article>"

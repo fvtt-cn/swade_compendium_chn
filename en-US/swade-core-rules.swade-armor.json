@@ -1,13 +1,4 @@
 {
-    "label": "SWADE Armor",
-    "mapping": {
-        "description": "system.description",
-        "notes": "system.notes",
-        "actions": "system.actions",
-        "range": "system.range",
-        "ammo": "system.ammo",
-        "category": "system.category"
-    },
     "entries": {
         "Infantry Battle Suit": {
             "name": "Infantry Battle Suit",

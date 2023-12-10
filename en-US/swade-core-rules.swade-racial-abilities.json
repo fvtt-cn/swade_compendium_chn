@@ -1,9 +1,4 @@
 {
-    "label": "swade-racial-abilities.db",
-    "mapping": {
-        "description": "system.description",
-        "category": "system.category"
-    },
     "entries": {
         "Adaptable": {
             "name": "Adaptable",

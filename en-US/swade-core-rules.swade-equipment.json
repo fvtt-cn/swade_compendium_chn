@@ -1,13 +1,4 @@
 {
-    "label": "SWADE Equipment",
-    "mapping": {
-        "description": "system.description",
-        "notes": "system.notes",
-        "actions": "system.actions",
-        "range": "system.range",
-        "ammo": "system.ammo",
-        "category": "system.category"
-    },
     "entries": {
         "Bullets, Medium": {
             "name": "Bullets, Medium",

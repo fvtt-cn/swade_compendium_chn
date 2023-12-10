@@ -1,13 +1,4 @@
 {
-    "label": "SWADE Special Weapons",
-    "mapping": {
-        "description": "system.description",
-        "notes": "system.notes",
-        "actions": "system.actions",
-        "range": "system.range",
-        "ammo": "system.ammo",
-        "category": "system.category"
-    },
     "entries": {
         "TOW Missile Launcher": {
             "name": "TOW Missile Launcher",

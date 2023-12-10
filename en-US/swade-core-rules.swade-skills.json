@@ -1,8 +1,4 @@
 {
-    "label": "swade-skills.db",
-    "mapping": {
-        "description": "system.description"
-    },
     "entries": {
         "Focus": {
             "name": "Focus",

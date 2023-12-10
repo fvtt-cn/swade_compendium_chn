@@ -1,6 +1,7 @@
 {
     "mapping": {
-        "description": "system.description"
+        "description": "system.description",
+        "actions": "system.actions"
     },
     "entries": {
         "Swarm": {
@@ -17,7 +18,18 @@
         },
         "Fear": {
             "name": "恐惧",
-            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}：</strong>任何看见此恐怖之物的对象必须进行一次恐惧检定。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili10]{恐惧}：</strong>任何看见此恐怖之物的对象必须进行一次恐惧检定。</li>\n</ul>\n</div>",
+            "actions":{
+                "additional": {
+                    "resist": {
+                        "name": "恐惧检定",
+                        "override": "心魂"
+                    },
+                    "macro": {
+                        "name": "恐惧投骰"
+                    }
+                }
+            }
         },
         "Burrow": {
             "name": "遁地",

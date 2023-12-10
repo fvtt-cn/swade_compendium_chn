@@ -1,13 +1,4 @@
 {
-    "label": "SWADE Personal Weapons",
-    "mapping": {
-        "description": "system.description",
-        "notes": "system.notes",
-        "actions": "system.actions",
-        "range": "system.range",
-        "ammo": "system.ammo",
-        "category": "system.category"
-    },
     "entries": {
         "Molecular Knife": {
             "name": "Molecular Knife",
