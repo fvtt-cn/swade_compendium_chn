@@ -1997,6 +1997,21 @@
                 }
             ],
             "category": "战斗"
+        },
+        "Work the Room": {
+            "description": "<article class=\\\"swade-core\\\">\\n<p>角色的话语不仅能激励指向的对象，还能鼓舞其他听众。每回合一次，角色在以@Compendium[swade-core-rules.swade-skills.交涉]{交涉}或@Compendium[swade-core-rules.swade-skills.表演]{表演}进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}时，可使用该专长额外投1枚技能骰。这枚额外的骰子可援助其他任一能看到或听见角色的盟友，并应用到对方下一个动作上(无论这会是什么动作)。</p>\\n</div>",
+            "name": "推波助浪",
+            "category": "专长动作"
+        },
+        "Jack of All Trades": {
+            "category": "专长动作",
+            "name": "万事通",
+            "description": "<article class=\\\"swade-core\\\">\\n<p>无论是高级教育、书本知识、计算机教学程序，或仅是惊人的直觉感知，这名角色都具有临阵磨枪的才能。只要给一点时间和运气，鲜有其无法处理的事情。</p>\\n<p>在观察和研究某对象后，角色能以一个动作进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{聪慧}投骰。若成功，在关联技能上会获得1枚d4，若为优良则是d6。如果失败或只是想获得优良，角色可在一小时的学习、试验、努力和专心研究后重新尝试。无论成功与否，这都会持续到其选择学习研究不同的对象为止。 <br/></p>\\n</div>"
+        },
+        "Rabble Rouser": {
+            "name": "煽风点火",
+            "category": "专长动作",
+            "description": "<article class=\\\"swade-core\\\">\\n<p>这名煽动者知晓如何一次性让数名敌人心浮气躁。</p>\\n<p>每回合一次，拥有该专长的角色能以@Compendium[swade-core-rules.swade-skills.威吓]{威吓}或@Compendium[swade-core-rules.swade-skills.嘲弄]{嘲弄}对@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}内的所有敌人进行一次社交@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03test0000000000]{考验}。目标必须能清楚地看到和听见该角色。各个防御方单独结算抵抗和影响。</p>\\n</div>"
         }
     },
     "label": "SWADE 专长",
