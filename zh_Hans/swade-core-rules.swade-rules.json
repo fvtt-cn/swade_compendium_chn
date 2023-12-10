@@ -653,6 +653,10 @@
                 "Blast Templates": {
                     "text": "<article class=\"swade-core\">\n<h2>爆发盖板</h2>\n<p>下列是以<em>英寸</em>为格子单位的爆发盖板大小。如果你使用的不是1英寸格子，要确保你的盖板有正确地进行缩放。</p>\n<p><em>请参照你偏好VTT的《狂野世界》文档以得知如何将其自动应用至桌面上。</em></p>\n<ul>\n<li>锥形盖板有9英寸长，最宽处有3英寸宽。</li>\n<li>大型爆发盖板直径6英寸</li>\n<li>中型爆发盖板直径4英寸。</li>\n<li>小型爆发盖板直径2英寸。</li>\n<li>转弯盖板是45度角。(已弃用)</li>\n</ul>\n<img src=\"modules/swade-core-rules/assets/art/burst-templates.webp\" alt=\"Small, Medium, and Large burst templates\" /><img src=\"modules/swade-core-rules/assets/art/cone-templates.webp\" alt=\"Cone Template measurement\" /></article>",
                     "name": "爆发盖板"
+                },
+                "Desperate Attack": {
+                    "name": "冒进攻击",
+                    "text": "<h2>冒进攻击</h2>\n<p>冒进攻击是拼命努力以达到目标为代价的动作。攻击者在任何一次@UUID[Compendium.swade-core-rules.swade-skills.Item.jixNprOk5ao0aDyI]{格斗}投骰中可以额外增加 +2 或 +4，并且如果他命中目标，则减少相同数值的伤害。这可以在每次攻击中（在投骰之前）决定，并且不能与 @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildattack0000]{不羁攻击} 结合使用。</p>"
                 }
             }
         },
