@@ -23,12 +23,12 @@
                     }
                 }
             },
-            "ammo": "中型子弹",
+            "ammo": "AK47弹匣",
             "category": "步枪"
         },
         "Barrett": {
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{重武器}，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02snapfire000000]{猝射}，装填时巴雷特使用满装填时重达2磅的10发可卸除式弹匣，其几乎都会配有@Compendium[swade-core-rules.swade-equipment.步枪瞄准镜]{步枪瞄准镜}。</p>\n<hr />\n<p>额外弹匣或弹夹能以步枪费用的10%购入，每个重1磅。</p>\n</article>",
-            "ammo": "大型子弹",
+            "ammo": "巴雷特弹匣",
             "name": "巴雷特",
             "actions": {
                 "trait": "射击",
@@ -70,7 +70,7 @@
             "actions": {
                 "trait": "射击"
             },
-            "ammo": "中型子弹",
+            "ammo": "柯尔特1911弹匣",
             "category": "手枪"
         },
         "Colt Peacemaker": {
@@ -165,7 +165,7 @@
             "actions": {
                 "trait": "射击"
             },
-            "ammo": "中型子弹",
+            "ammo": "格洛克(9mm)弹匣",
             "category": "手枪"
         },
         "H&K MP5": {
@@ -182,7 +182,7 @@
                     }
                 }
             },
-            "ammo": "中型子弹",
+            "ammo": "H&K MP5弹匣",
             "category": "冲锋枪"
         },
         "Hunting Rifle": {
@@ -216,7 +216,7 @@
                     }
                 }
             },
-            "ammo": "中型子弹",
+            "ammo": "M-16弹匣",
             "category": "步枪"
         },
         "M1 Garand": {
@@ -404,7 +404,7 @@
             "actions": {
                 "trait": "射击"
             },
-            "ammo": "小型子弹",
+            "ammo": "鲁格弹匣",
             "category": "手枪"
         },
         "SAW": {
@@ -551,7 +551,7 @@
                     }
                 }
             },
-            "ammo": "中型子弹",
+            "ammo": "斯太尔AUG弹匣",
             "category": "步枪"
         },
         "Streetsweeper Shotgun": {
@@ -594,7 +594,7 @@
                     }
                 }
             },
-            "ammo": "中型子弹",
+            "ammo": "汤姆逊冲锋枪弹匣",
             "category": "冲锋枪"
         },
         "Uzi": {
@@ -611,7 +611,7 @@
                     }
                 }
             },
-            "ammo": "中型子弹",
+            "ammo": "Uzi弹匣",
             "category": "冲锋枪"
         },
         "Winchester ‘73": {
