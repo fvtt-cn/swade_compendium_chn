@@ -7,10 +7,233 @@
     "entries": {
         "Adaptable": {
             "name": "适应",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Adaptable\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.Adaptable]{Adaptable} (1): </span> The race has great variation among its people and cultures. Characters start with a free Novice @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edge} of their choice (and must meet all the Edge’s Requirements).</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Adaptable\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.适应]{适应} (1): </span>该族裔有着丰富多彩的类型和文化。角色创建时可免费获得一个自选的入门@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000]{专长}(而且必须要满足该专长的所有需求)。</span</article>",
+            "category": "正"
         },
         "Regeneration": {
-            "name": "再生"
+            "name": "再生",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Regeneration\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.再生]{再生} (1): </span>该生物能快速恢复伤害。他能每天进行一次@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03healing0000000]{自然治疗}投骰(而不是每五天一次)。若是3点，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{永久性创伤}能在所有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}再生完毕后痊愈。在恢复(该生物每周能尝试一次)时把每个创伤视为一个额外的损伤。</span</article>",
+            "category": "正"
+        },
+        "Additional Action": {
+            "name": "额外行动",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Additional_Action\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.额外行动]{额外行动} (1): </span>该族裔有着额外的肢体，更快的反应或是过人的手眼协调。其每回合能忽略2点@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03multiactions00]{多重行动}减值。 </span</article>"
+        },
+        "Attribute Increase": {
+            "name": "属性提升",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Attribute_Increase\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.属性提升]{属性提升} (U): </span>在角色创建时，该族裔的特定@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{属性} (灵巧、聪慧、心魂、力量、活力)骰子类型上升一级，其同样让该特性的最大上限提高一级。</span</article>"
+        },
+        "Attribute Penalty": {
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Attribute_Penalty\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.属性减值]{属性减值}(每属性一次): </span>某一@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{属性} (而非其关联技能)遭受-1减值。若是3点，则遭受-2减值。若选取@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{力量}，则也会作用到对应伤害上。</span</article>",
+            "name": "属性减值"
+        },
+        "Aquatic": {
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Aquatic_Semi-Aquatic\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.水栖]{水栖/半水栖} (1): </span>若是1点，角色是半水栖生物，并且能在溺水检定前憋气15分钟。若是2点，角色是水栖生物，不会在含氧液体中溺水，并且在游泳时能以全移速移动(见<strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{移动}</strong>)。</span</article>",
+            "name": "水栖"
+        },
+        "Armor": {
+            "name": "护甲",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Armor\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.护甲]{护甲} (3): </span> 该族裔有着厚实的外皮，或是表面覆有诸如鳞片甚至是岩石这类坚硬的物质。每选一次都会让其@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{护甲}+2。</span</article>"
+        },
+        "Big": {
+            "name": "巨大",
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Big\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.巨大]{巨大} (1): </span>该族裔在世界上有着过人的体型。他在使用并非为自己族裔设计的装备时会在@UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{特性}投骰上-2，同时无法穿戴他族的护甲或衣服。其装备、食物以及衣物的价格是正常的两倍。</span</article>"
+        },
+        "Bite": {
+            "name": "噬咬",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Bite\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.噬咬]{噬咬} (1): </span>该族裔具备能造成力量+d4伤害的尖牙，更多内容见<strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03naturalweapo00]{天生武器}</strong>。</span</article>"
+        },
+        "Doesn't Breathe": {
+            "name": "无须呼吸",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Doesnt_Breathe\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.无须呼吸]{无须呼吸} (1): </span>该族裔不需要呼吸。人物不受吸入性@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{毒物}影响，不会@UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04drowning000000]{溺水}，也不会在真空中窒息(但仍会被冻僵)。</span</article>"
+        },
+        "Burrowing": {
+            "name": "遁地",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Burrowing\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.遁地]{遁地} (1): </span>该族裔能在松软的土壤下掘地而行，其能以正常移速的一半移动(无法奔跑)。通常他在遁地时无法遭到攻击，并且能藉由进行@Compendium[swade-core-rules.swade-skills.潜行]{潜行}VS@Compendium[swade-core-rules.swade-skills.察觉]{察觉}的对抗投骰来尝试对没有看到自己靠近的对手发动突袭。若为成功，遁地者在该轮内的攻击和伤害+2，如果获得优良则是+4(形成<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03thedrop0000000]{奇袭}</strong>)。</span</article>"
+        },
+        "Cannot Speak": {
+            "name": "无法言语",
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Cannot_Speak\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.无法言语]{无法言语} (1): </span>该族裔没有声带或是不能发出其他大部分族裔那样的声音。他能自然地和同族的成员沟通(藉由歌唱、信息素或肢体语言等等)，其他族裔无法说他们的“语言”，但藉由合适的@Compendium[swade-core-rules.swade-skills.语言]{语言}技能就可以试着去理解对方。该族裔<em>可以</em>听见并理解其他常规语言，并且能通过电子设备等类似方式与他人沟通。</span</article>"
+        },
+        "Claws": {
+            "category": "正",
+            "name": "爪抓",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Claws\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.爪抓]{爪抓} (1): </span>族裔具备能造成力量+d4伤害的利爪。多花1点可以让伤害增加到力量+d6，以及/或者获得@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}2。更多内容见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{天生武器}</strong>。</span</article>"
+        },
+        "Construct": {
+            "name": "构装体",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Construct\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.构装体]{构装体} (1): </span>构装体是以无机材料制作的人造生物。他们在从@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}中恢复时+2，忽略一级@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤调整值}，无须呼吸，免疫疾病和毒素。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}必须通过@Compendium[swade-core-rules.swade-skills.修理]{修理}技能才能修复，每次尝试需要消耗等同于当下损伤等级小时数的时间，同时忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03healing0000000]{“黄金时间”}。许多构装体都具有依赖族裔能力(负)，以此代表其对能源的需求。</span</article>"
+        },
+        "Dependency": {
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Dependency\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.依赖]{依赖} (1): </span>该族裔每24小时必须消耗某种与之相关的普通事物，或是与之接触1小时。举例而言，来自水世界的生物需要将自己浸没在水当中，植物角色需要阳光。否则角色每一天都会遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}，直到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}为止，并在接下来的一天后死亡。与对应事物每互动一小时可恢复一级疲乏。</span</article>",
+            "name": "依赖"
+        },
+        "Edge": {
+            "category": "正",
+            "name": "专长",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Edge\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.专长]{专长} (U): </span>该族裔的所有成员都具备设定中可用的同一天生@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000]{专长}。与适应不同，该能力忽略除其他专长外的任何需求。每超过入门一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01advancement000]{位阶}都会消耗额外同等数量的点数，上限为英杰位阶(5)。</span</article>"
+        },
+        "Flight": {
+            "name": "飞行",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Flight\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.飞行]{飞行} (1): </span>该族裔能以@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}6飞行(若为4点则是12)，并且能如常通过“奔跑”来移动额外距离。若是6点，该族裔能以移速24飞行并且能以“奔跑”来额外移动2d6英寸。通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行机动。飞行族裔均假定带有翅膀或某种可以作为目标或者被缠住的东西(被<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{束缚或纠缠}</strong>的角色无法飞行)。</span</article>"
+        },
+        "Frail": {
+            "name": "羸弱",
+            "category": "羸弱族裔能力",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Frail\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.羸弱]{羸弱} (2): </span>该生物比起大部分族裔更为孱弱，其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{坚韧}-1。</span</article>"
+        },
+        "Hardy": {
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Hardy\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.顽强]{顽强} (1):</span>战斗中第二次造成@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}的结果不会导致@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}。</span</article>",
+            "name": "顽强"
+        },
+        "Hindrance": {
+            "category": "负",
+            "name": "负赘",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Hindrance\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.负赘]{负赘} (U): </span>该族裔每具有一个天生次要@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}可换取1点，而一个主要负赘可以换取2点。这不会影响角色创建时选择其他负赘的能力。</span</article>"
+        },
+        "Horns": {
+            "name": "角撞",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Horns\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.角撞]{角撞} (1): </span>这种生物具备一到多根能造成力量+d4伤害的角(若为2点则是力量+d6)，更多内容见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{天生武器}</strong>。</span</article>"
+        },
+        "Immune to Poison or Disease": {
+            "category": "正",
+            "name": "免疫毒素或疾病",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Immune_Poison_Disease\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.免疫毒素或疾病]{免疫毒素或疾病} (2): </span>该族裔免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}(由你选择)，该能力可选择两次以同时获得这两个效果。</span</article>"
+        },
+        "Infravision": {
+            "name": "红外感应",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Infravision\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.红外感应]{红外感应} (1): </span> 无论是通过眼睛或是其他感官，这种生物都能“看”到热量。在攻击温暖目标(包括@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{隐形}存在)时能忽略一半的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。</span</article>"
+        },
+        "Leaper": {
+            "name": "腾跃",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Leaper\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.腾跃]{腾跃} (1): </span>角色能跳至<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移动}</strong>章节所述距离的两倍。此外，包含跳跃的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03wildattack0000]{不羁攻击}伤害从通常的+2变成+4(除非是距离太近或是受限于无法进行水平或垂直跳跃的空间内，GM判定)。</span</article>"
+        },
+        "Low Light Vision": {
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Low_Light_Vision\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.微光视觉]{微光视觉} (1): </span>该族裔忽略昏暗和黑暗@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}下的减值(但不包括漆黑)。</span</article>",
+            "category": "正",
+            "name": "微光视觉"
+        },
+        "No Vital Organs": {
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_No_Vital_Organs\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.无要害器官]{无要害器官} (1): </span>该族裔的要害器官藏得很深或是极端结实，又或者根本就没有要害器官。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}不会对其造成额外伤害。</span</article>",
+            "name": "无要害器官"
+        },
+        "Skill": {
+            "name": "技能",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Skill\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.技能]{技能} (每技能限一次): </span>角色初始会获得一个d4的族裔或文化的自有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{技能}。若为2点(若已经是核心技能则是1点)，则其初始就是d6且技能上限增加到d12+1。</span</article>"
+        },
+        "Pace": {
+            "name": "移速",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Pace\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.移速]{移速} (2): </span>角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}+2，且奔跑骰上升一个等级。</span</article>",
+            "category": "正"
+        },
+        "Parry": {
+            "name": "格挡",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Parry\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.格挡]{格挡} (3): </span>该生物的天生@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}+1。这可能是因为有着可以捲握的尾巴、额外的肢体、更快的反应或者甚至是潜在的异能感官。</span</article>"
+        },
+        "Poisonous Touch": {
+            "name": "毒性之触",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Poisonous_Touch\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.毒性之触]{毒性之触} (1): </span>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03touchattack000]{接触攻击}，噬咬或爪抓若是成功，对象必须成功通过@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{活力}投骰，否则将遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{温和毒素}效果的影响。若是3点则能让毒素升级成昏厥、致命或是麻痹，但每次使用都会导致角色@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}。角色总是能选择是否使用剧毒之触。</span</article>",
+            "category": "正"
+        },
+        "Poor Parry": {
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Poor_Parry\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.蹩脚格挡]{蹩脚格挡} (3): </span>该族裔在近战时难以保护自己，其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}-1。</span</article>",
+            "name": "蹩脚格挡"
+        },
+        "Power": {
+            "name": "奇术",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Power\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.奇术]{奇术} (U): </span>该族裔有着如同@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}般运作的天生能力。若是2点，其获得@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr01]{奥法背景 (异禀)}以及一个奇术，这象征了他异乎寻常的能力。第一次选择后每选一次都消耗1点并获得另一个奇术。这<em>不会</em>增加该族裔的奇术点——这需要@Compendium[swade-core-rules.swade-edges.奇术点]{奇术点}专长才行。</span</article>"
+        },
+        "Reduced Core Skills": {
+            "name": "核心技能减少",
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Reduced_Core_Skills\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.核心技能减少]{核心技能减少} (5): </span>该族裔开始时会少一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{核心技能}。该技能初始时不是d4，但可以如常换取。每个核心技能只能选一次。</span</article>"
+        },
+        "Reach": {
+            "category": "正",
+            "name": "触及",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Reach\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.触及]{触及} (3): </span>生物的长肢体或触手之类让其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}+1(第一次选择后每选一次都会再+1)。</span</article>"
+        },
+        "Racial Enemy": {
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Racial_Enemy\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.族裔夙敌]{族裔夙敌} (U): </span>该族裔讨厌设定中的另一个常见族裔。他们在和这些对手打交道时的@Compendium[swade-core-rules.swade-skills.交涉]{交涉}投骰遭受-2减值，同时可能一言不合就大打出手。每族裔只能选择一次。</span</article>",
+            "name": "族裔夙敌"
+        },
+        "Environmental Resistance": {
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Environmental_Resistance\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.环境抗性]{环境抗性} (U): </span>该族裔在抵抗单一负面环境效果时会获得+4加值，比如@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04heat0000000000]{高温}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04cold0000000000]{寒冷}、稀薄大气、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04radiation00000]{辐射}等等，同时该来源的伤害也会-4。</span</article>",
+            "name": "环境抗性"
+        },
+        "Reduced Pace": {
+            "category": "负",
+            "name": "移速减少",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Reduced_Pace\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.移速减少]{移速减少} (1): </span>若是-1点，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}-1，奔跑骰子类型下降一级(d4降至d4-1)。若是-2点，则需要额外再-2点移速，此外当移动和机动力是某个挑战的一部分时，在@Compendium[swade-core-rules.swade-skills.运动]{运动}投骰以及抵抗运动的投骰上-2(GM判断)。</span</article>"
+        },
+        "Size +1": {
+            "name": "体型+1",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Size_1\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.体型+1]{体型} +1 (3): </span>生物大于中型。每点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{体型}都会直接增加到坚韧上，同时会让最大力量上限提升一级。大型族裔在使用设计给传统类人种的装备时可能会遇到困难。关于体型的更多内容见@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06sizetable00000]{体型表}。</span</article>"
+        },
+        "Size -1": {
+            "name": "体型-1",
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Size_minus_1\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.体型-1]{体型-1} (1): </span>该族裔比起通常的要更为瘦小，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03sizeandscale00]{体型}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{坚韧}同时-1(见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06sizetable00000]{体型表}</strong>)。</span</article>"
+        },
+        "Skill Penalty": {
+            "name": "技能减值",
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Skill_Penalty\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.技能减值]{技能减值} (每技能一次): </span>该族裔在某个极为常用的技能上遭受-1减值(譬如@Compendium[swade-core-rules.swade-skills.格斗]{格斗}、@Compendium[swade-core-rules.swade-skills.交涉]{交涉})，在以飞机为主题的游戏里面甚至还可以是@Compendium[swade-core-rules.swade-skills.航空]{航空}(GM基于其设定进行判断)。若该技能没那么常用，或是只有在特定环境里才需要时，则减值会是-2。若是2点，则减值是-2/-4。</span</article>"
+        },
+        "Skill Bonus": {
+            "name": "技能加值",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Skill_Bonus\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.技能加值]{技能加值} (1/2): </span>该族裔的生物学特征让其在使用特定@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{技能}时会获得+1/+2。举例而言，能分泌信息素的族裔，在@Compendium[swade-core-rules.swade-skills.交涉]{交涉}上会获得+1加值。</span</article>"
+        },
+        "Sleep Reduction": {
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Sleep_Reduction\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.减少睡眠]{减少睡眠} (2): </span>该生物的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04sleep000000000]{睡眠}时间只有人类的一半。如果再次选择，则该生物永远不需要睡眠。</span</article>",
+            "category": "正",
+            "name": "减少睡眠"
+        },
+        "Super Powers": {
+            "name": "超能力",
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Super_Powers\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.超能力]{超能力} (1): </span>该族裔拥有来自《狂野世界·超能搭档》中的强大能力，费用为2——这代表了奥法背景(超能奇术)——加上所选奇术的实际费用(X)。确保在选择这项强大能力之前已经得到GM的允许。</span</article>"
+        },
+        "Toughness": {
+            "name": "坚韧",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Toughness\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.坚韧]{坚韧} (3): </span>角色有着硬化表皮、鳞片或是极端结实的纤维组织，基础@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{坚韧}+1。</span</article>",
+            "category": "正"
+        },
+        "Wall Walker": {
+            "category": "正",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Wall_Walker\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.走壁]{走壁} (1): </span>该族裔能在垂直表面如常行走，或是在颠倒表面上以一半@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}移动。</span</article>",
+            "name": "走壁"
+        },
+        "Environmental Weakness": {
+            "name": "环境弱点",
+            "category": "负",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Environmental_Weakness\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.环境弱点]{环境弱点} (U): </span>该族裔在抵抗某一特定环境效果时遭受-4减值(比如@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04heat0000000000]{高温}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04cold0000000000]{寒冷}之类)。如果遭受该类型的攻击，则减值会变成在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03dealingdamag00]{伤害}上的加值。</span</article>"
         }
     }
 }

@@ -14,7 +14,7 @@
         },
         "Creative Combat": {
             "name": "创新战斗",
-            "description": "<article class=\"swade-core\">创新战斗则藉由给予出现优良考验的额外好处而丰富了通俗游戏的体验。参见<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04creativecomb00]{创新战斗}</b>来确定何时使用这些结果。</article>",
+            "description": "<article class=\"swade-core\">创新战斗则藉由给予获得优良考验的额外好处而丰富了通俗游戏的体验。参见<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04creativecomb00]{创新战斗}</b>来确定何时使用这些结果。</article>",
             "results": {
                 "2-2": "<div class=\"swade-core\"><b>恢复元气：</b>对方的反应让角色看到了希望，或是让后者得以喘息。人物能移除一个等级的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}或是一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}(由他选择)。若自己没有@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}或是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}，则对方会遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}。</div>",
                 "3-3": "<div class=\"swade-core\"><b>灵感：</b>命运眷顾勇敢之人，聪明的角色获得一点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03bennies0000000]{助力点}.</div>",
