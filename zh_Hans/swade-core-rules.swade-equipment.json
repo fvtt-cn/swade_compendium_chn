@@ -509,7 +509,7 @@
         },
         "Bipod/Tripod": {
             "name": "双脚架/三脚架",
-            "description": "<div class=\"swade-core\">\n<p>架起需要使用一个动作，忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}减值。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>架起需要使用一个行动，忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03recoil00000000]{后坐力}及@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02minimumstren00]{最低力量}减值。</p>\n</div>",
             "category": "火器配件"
         },
         "Blanket": {
@@ -673,7 +673,7 @@
         },
         "Canister Shot (Cannon)": {
             "name": "霰弹 (加农炮)",
-            "description": "<div class=\"swade-core\">\n<p>葡萄弹或是霰弹是一种会在加农炮管内爆炸的炮弹，其会像巨型霰弹枪一样射出一片致命的金属球或是其他碎片。这属于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}攻击，并且至多会直线移动到24英寸远(如果不使用棋子则是会影响[[/r d6]]个目标，如果对方特别紧凑则是影响[[/r 2d6]]个目标)</p>\n<p>每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰单独结算，使用基础TN(4)并算上各目标的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，出现优良则是3d6伤害。</p>\n</div>",
+            "description": "<div class=\"swade-core\">\n<p>葡萄弹或是霰弹是一种会在加农炮管内爆炸的炮弹，其会像巨型霰弹枪一样射出一片致命的金属球或是其他碎片。这属于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{中型爆发盖板}攻击，并且至多会直线移动到24英寸远(如果不使用棋子则是会影响[[/r d6]]个目标，如果对方特别紧凑则是影响[[/r 2d6]]个目标)</p>\n<p>每个目标根据@Compendium[swade-core-rules.swade-skills.射击]{射击}投骰单独结算，使用基础TN(4)并算上各目标的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03coverandobst00]{掩蔽}以及诸如@Compendium[swade-core-rules.swade-edges.闪避]{闪避}专长之类的特殊能力等所带来的调整值。成功命中造成2d6伤害，获得优良则是3d6伤害。</p>\n</div>",
             "notes": "24\" path，2d6 damage，中型爆发盖板",
             "category": "加农炮"
         },
@@ -1108,7 +1108,7 @@
             "category": "食物"
         },
         "Grappling Hook": {
-            "name": "爪钩",
+            "name": "抓钩",
             "category": "冒险工具"
         },
         "Greaves (Bronze Armor)": {
@@ -1553,7 +1553,7 @@
         },
         "Night Vision Goggles": {
             "name": "夜视仪",
-            "description": "<div class=\"swade-core\"><p>不受昏暗和黑暗的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。如果是“主动式”夜视仪则价格翻倍，且忽略所有照明减值。</p></div>",
+            "description": "<div class=\"swade-core\"><p>不受昏暗和黑暗的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。如果是“主动式”夜视仪则价格加倍，且忽略所有照明减值。</p></div>",
             "category": "监视工具"
         },
         "Oil": {
