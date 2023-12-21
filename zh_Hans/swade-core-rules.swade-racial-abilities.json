@@ -7,7 +7,7 @@
     "entries": {
         "Adaptable": {
             "name": "适应",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Adaptable\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.适应]{适应} (1): </span>该族裔有着丰富多彩的类型和文化。角色创建时可免费获得一个自选的入门@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000]{专长}(而且必须要满足该专长的所有需求)。</span</article>",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Adaptable\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.适应]{适应} (1): </span>该族裔的成员和文化可谓丰富多彩。角色创建时可免费获得一个自选的入门@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000]{专长}(而且必须要满足该专长的所有需求)。</span</article>",
             "category": "正"
         },
         "Regeneration": {
@@ -63,12 +63,12 @@
         "Cannot Speak": {
             "name": "无法言语",
             "category": "负",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Cannot_Speak\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.无法言语]{无法言语} (1): </span>该族裔没有声带或是不能发出其他大部分族裔那样的声音。他能自然地和同族的成员沟通(藉由歌唱、信息素或肢体语言等等)，其他族裔无法说他们的“语言”，但藉由合适的@Compendium[swade-core-rules.swade-skills.语言]{语言}技能就可以试着去理解对方。该族裔<em>可以</em>听见并理解其他常规语言，并且能通过电子设备等类似方式与他人沟通。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Cannot_Speak\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.无法言语]{无法言语} (1): </span>该物种没有声带或是不能发出其他大部分族裔那样的声音。他能自然地和同族的成员沟通(藉由歌唱、信息素或肢体语言等等)，其他族裔无法说他们的“语言”，但藉由合适的@Compendium[swade-core-rules.swade-skills.语言]{语言}技能就可以试着去理解对方。该族裔<em>可以</em>听见并理解其他常规语言，并且能通过电子设备等类似方式与他人沟通。</span</article>"
         },
         "Claws": {
             "category": "正",
             "name": "爪抓",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Claws\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.爪抓]{爪抓} (1): </span>族裔具备能造成力量+d4伤害的利爪。多花1点可以让伤害增加到力量+d6，以及/或者获得@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}2。更多内容见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{天生武器}</strong>。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Claws\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.爪抓]{爪抓} (1): </span>这种生物具备能造成力量+d4伤害的利爪。多花1点可以让伤害增加到力量+d6，以及/或者获得@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02armorpiercin00]{穿甲}2。更多内容见<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03naturalweapo00]{天生武器}</strong>。</span</article>"
         },
         "Construct": {
             "name": "构装体",
@@ -77,18 +77,18 @@
         },
         "Dependency": {
             "category": "负",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Dependency\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.依赖]{依赖} (1): </span>该族裔每24小时必须消耗某种与之相关的普通事物，或是与之接触1小时。举例而言，来自水世界的生物需要将自己浸没在水当中，植物角色需要阳光。否则角色每一天都会遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}，直到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}为止，并在接下来的一天后死亡。与对应事物每互动一小时可恢复一级疲乏。</span</article>",
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Dependency\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.依赖]{依赖} (1): </span>这种生物每24小时必须消耗某种与之相关的普通事物，或是与之接触1小时。举例而言，来自水世界的生物需要将自己浸没在水当中，植物角色需要阳光。否则角色每一天都会遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}，直到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}为止，并在接下来的一天后死亡。与对应事物每互动一小时可恢复一级疲乏。</span</article>",
             "name": "依赖"
         },
         "Edge": {
             "category": "正",
             "name": "专长",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Edge\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.专长]{专长} (U): </span>该族裔的所有成员都具备设定中可用的同一天生@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000]{专长}。与适应不同，该能力忽略除其他专长外的任何需求。每超过入门一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01advancement000]{位阶}都会消耗额外同等数量的点数，上限为英杰位阶(5)。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Edge\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.专长]{专长} (U): </span>该物种的所有成员都具备设定中可用的同一天生@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01edges000000000]{专长}。与适应不同，该能力忽略除其他专长外的任何需求。每超过入门一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01advancement000]{位阶}都会消耗额外同等数量的点数，上限为英杰位阶(5)。</span</article>"
         },
         "Flight": {
             "name": "飞行",
             "category": "正",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Flight\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.飞行]{飞行} (1): </span>该族裔能以@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}6飞行(若为4点则是12)，并且能如常通过“奔跑”来移动额外距离。若是6点，该族裔能以移速24飞行并且能以“奔跑”来额外移动2d6英寸。通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行机动。飞行族裔均假定带有翅膀或某种可以作为目标或者被缠住的东西(被<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{束缚或纠缠}</strong>的角色无法飞行)。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Flight\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.飞行]{飞行} (1): </span>该族裔能以@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}6飞行(若为4点则是12)，并且能如常通过“奔跑”来移动额外距离。若是6点，该族裔能以移速24飞行并且能以“奔跑”来额外移动2d6英寸。通过@Compendium[swade-core-rules.swade-skills.运动]{运动}技能进行机动。飞行都假定是带有翅膀或某种可以作为目标或者被缠住的东西(被<strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03boundandenta00]{束缚或纠缠}</strong>的角色无法飞行)。</span</article>"
         },
         "Frail": {
             "name": "羸弱",
@@ -103,7 +103,7 @@
         "Hindrance": {
             "category": "负",
             "name": "负赘",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Hindrance\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.负赘]{负赘} (U): </span>该族裔每具有一个天生次要@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}可换取1点，而一个主要负赘可以换取2点。这不会影响角色创建时选择其他负赘的能力。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Hindrance\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.负赘]{负赘} (U): </span>这种生物每具有一个天生次要@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01hindrances0000]{负赘}可换取1点，而一个主要负赘可以换取2点。这不会影响角色创建时选择其他负赘的能力。</span</article>"
         },
         "Horns": {
             "name": "角撞",
@@ -163,12 +163,12 @@
         "Power": {
             "name": "奇术",
             "category": "正",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Power\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.奇术]{奇术} (U): </span>该族裔有着如同@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}般运作的天生能力。若是2点，其获得@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr01]{奥法背景 (异禀)}以及一个奇术，这象征了他异乎寻常的能力。第一次选择后每选一次都消耗1点并获得另一个奇术。这<em>不会</em>增加该族裔的奇术点——这需要@Compendium[swade-core-rules.swade-edges.奇术点]{奇术点}专长才行。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Power\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.奇术]{奇术} (U): </span>该族裔有着如同@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}般运作的天生能力。若是2点，其获得@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr01]{奥法背景 (异禀)}以及一项奇术，这象征了他异乎寻常的能力。第一次选择后每选一次都消耗1点并获得另一项奇术。这<em>不会</em>增加该族裔的奇术点——这需要@Compendium[swade-core-rules.swade-edges.奇术点]{奇术点}专长才行。</span</article>"
         },
         "Reduced Core Skills": {
             "name": "核心技能减少",
             "category": "负",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Reduced_Core_Skills\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.核心技能减少]{核心技能减少} (5): </span>该族裔开始时会少一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{核心技能}。该技能初始时不是d4，但可以如常换取。每个核心技能只能选一次。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Reduced_Core_Skills\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.核心技能减少]{核心技能减少} (5): </span>该物种开始时会少一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{核心技能}。该技能初始时不是d4，但可以如常换取。每个核心技能只能选一次。</span</article>"
         },
         "Reach": {
             "category": "正",
@@ -203,7 +203,7 @@
         "Skill Penalty": {
             "name": "技能减值",
             "category": "负",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Skill_Penalty\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.技能减值]{技能减值} (每技能一次): </span>该族裔在某个极为常用的技能上遭受-1减值(譬如@Compendium[swade-core-rules.swade-skills.格斗]{格斗}、@Compendium[swade-core-rules.swade-skills.交涉]{交涉})，在以飞机为主题的游戏里面甚至还可以是@Compendium[swade-core-rules.swade-skills.航空]{航空}(GM基于其设定进行判断)。若该技能没那么常用，或是只有在特定环境里才需要时，则减值会是-2。若是2点，则减值是-2/-4。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Skill_Penalty\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.技能减值]{技能减值} (每技能一次): </span>该物种在某个极为常用的技能上遭受-1减值(譬如@Compendium[swade-core-rules.swade-skills.格斗]{格斗}、@Compendium[swade-core-rules.swade-skills.交涉]{交涉})，在以飞机为主题的游戏里面甚至还可以是@Compendium[swade-core-rules.swade-skills.航空]{航空}(GM基于其设定进行判断)。若该技能没那么常用，或是只有在特定环境里才需要时，则减值会是-2。若是2点，则减值是-2/-4。</span</article>"
         },
         "Skill Bonus": {
             "name": "技能加值",
@@ -216,9 +216,9 @@
             "name": "减少睡眠"
         },
         "Super Powers": {
-            "name": "超能力",
+            "name": "超能奇术",
             "category": "正",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Super_Powers\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.超能力]{超能力} (1): </span>该族裔拥有来自《狂野世界·超能搭档》中的强大能力，费用为2——这代表了奥法背景(超能奇术)——加上所选奇术的实际费用(X)。确保在选择这项强大能力之前已经得到GM的允许。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Super_Powers\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.超能奇术]{超能奇术} (1): </span>该族裔拥有来自《狂野世界·超能搭档》中的强大能力，费用为2——这代表了奥法背景(超能奇术)——加上所选奇术的实际费用(X)。确保在选择这项强大能力之前已经得到GM的允许。</span</article>"
         },
         "Toughness": {
             "name": "坚韧",
@@ -233,7 +233,7 @@
         "Environmental Weakness": {
             "name": "环境弱点",
             "category": "负",
-            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Environmental_Weakness\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.环境弱点]{环境弱点} (U): </span>该族裔在抵抗某一特定环境效果时遭受-4减值(比如@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04heat0000000000]{高温}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04cold0000000000]{寒冷}之类)。如果遭受该类型的攻击，则减值会变成在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03dealingdamag00]{伤害}上的加值。</span</article>"
+            "description": "<article class=\"swade-core\">   <span class=\"SingleSource_SWADE_Racial_Environmental_Weakness\"><span class=\"lead-bold\">@Compendium[swade-core-rules.swade-racial-abilities.环境弱点]{环境弱点} (U): </span>该物种在抵抗某一特定环境效果时遭受-4减值(比如@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04heat0000000000]{高温}、@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04cold0000000000]{寒冷}之类)。如果遭受该类型的攻击，则减值会变成在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03dealingdamag00]{伤害}上的加值。</span</article>"
         }
     }
 }
