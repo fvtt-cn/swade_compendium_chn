@@ -5,11 +5,11 @@
             "name": "作战效果",
             "description": "<article class=\"swade-core\">参见<b>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{大规模作战}</b>来确定何时使用该随机表。</article>",
             "results": {
-                "2-2": "<div class=\"swade-core\"><b>鼓舞：</b>对象奋不顾身的浴血奋战使部队士气大振，并促使他们顶着伤痛继续战斗。所属一方立刻恢复一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{兵力标识}.</div>",
-                "3-4": "<div class=\"swade-core\"><b>威慑：</b>对象的凶猛吓坏了敌方，若对方指挥官该轮内被迫进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{士气}考验，则其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{心魂}投骰-2。</div>",
-                "5-9": "<div class=\"swade-core\"><b>英勇：</b>角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}投骰如常让指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰+2。</div>",
-                "10-11": "<div class=\"swade-core\"><b>无双：</b>敌方在角色的猛攻下大惊失色，敌对指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰总值-2。</div>",
-                "12-12": "<div class=\"swade-core\"><b>一人成军：</b>角色当下的壮举将会流芳百世，传唱千古。敌方军队立刻失去一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{兵力标识}(这不会对其@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰造成减值，但即使胜出也要进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{士气}检定)。</div>"
+                "2-2": "<div class=\"swade-core\"><b>鼓舞：</b>这名将士奋不顾身的浴血奋战使部队士气大振，并促使他们顶着伤痛继续战斗。所属一方立刻恢复一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{兵力标识}.</div>",
+                "3-4": "<div class=\"swade-core\"><b>威慑：</b>这名将士的凶猛吓坏了敌方，若对方指挥官该轮内被迫进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{士气}考验，则其@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{心魂}投骰-2。</div>",
+                "5-9": "<div class=\"swade-core\"><b>英勇：</b>角这名勇士的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03support0000000]{援助}投骰如常让指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰+2。</div>",
+                "10-11": "<div class=\"swade-core\"><b>无双：</b>敌方在这名将士的猛攻下大惊失色，敌对指挥官的@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰总值-2。</div>",
+                "12-12": "<div class=\"swade-core\"><b>一人成军：</b>这名将士当下的壮举将会流芳百世，传唱千古。敌方军队立刻失去一个@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{兵力标识}(这不会对其@Compendium[swade-core-rules.swade-skills.作战]{作战}投骰造成减值，但即使胜出也要进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04massbattles000]{士气}检定)。</div>"
             }
         },
         "Creative Combat": {
