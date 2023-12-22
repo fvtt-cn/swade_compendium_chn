@@ -977,7 +977,7 @@
         },
         "Gadgeteer": {
             "name": "奇械匠",
-            "description": "<article class=\"swade-core\">\n<p>某些机械大师能打造出与众不同的神奇设备。</p>\n<p>奇械匠可以消耗至多3点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}用某些合理的零部件来“临时拼凑”出一件奇械。这个奇械能启动设定中奇异科学家通常可用(@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01advancement000]{位阶}等同或更低)且奇术点消耗等于或小于3的任一@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}。</p>\n<p>这一奇术的总消耗(加上调整值后)不能超过制造设备时的奇术点消耗，制造者亦不能将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05trappings00000]{限制}应用到奇械上，不过只要其点数足够，那就可以制造多个奇械。</p>\n<p>制作以及启动某一奇械需要通过一次-2的@Compendium[swade-core-rules.swade-skills.奇异科学]{奇异科学}投骰，这将需要一整个回合，在此期间角色无法做其他任何事(该回合不能进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03multiactions00]{多重行动})，除此之外的机制均如同奇术正常启动那般。</p>\n<p>制造者直接通过自己的奇术点池来给奇械注入奇术点，但若是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{持续时间}用尽(这无法维持)，奇械就会碎落成零件散块。</p>\n<h2>例子</h2>\n<p>加布是<em>Weird West</em>里面的发明家。他想用<em>@Compendium[swade-core-rules.swade-powers.强化/削弱特性]{强化特性}</em>来帮助和巨大响尾蛇战斗的红，但他只会<em>@Compendium[swade-core-rules.swade-powers.爆裂]{爆裂}</em>和<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>这俩奇术。幸运的是加布是一位奇械匠，所以他将<em>提升特性 </em>做成了一件“电动生化鼓风机”。这件奇械最多能使用价值3奇术点的奇术，所以他将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05hinderorhurr00]{加快}调整添加到了奇术中，以同时让红的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}+2。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>某些机械大师能打造出与众不同的神奇设备。</p>\n<p>奇械匠可以消耗至多3@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}用某些合理的零部件来“临时拼凑”出一件奇械。这个奇械能启动设定中奇异科学家通常可用(@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01advancement000]{位阶}等同或更低)且奇术点消耗等于或小于3的任一@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{奇术}。</p>\n<p>这一奇术的总消耗(加上调整值后)不能超过制造设备时的奇术点消耗，制造者亦不能将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05trappings00000]{限制}应用到奇械上，不过只要其点数足够，那就可以制造多个奇械。</p>\n<p>制作以及启动某一奇械需要通过一次-2的@Compendium[swade-core-rules.swade-skills.奇异科学]{奇异科学}投骰，这将需要一整个回合，在此期间角色无法做其他任何事(该回合不能进行@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03multiactions00]{多重行动})，除此之外的机制均如同奇术正常启动那般。</p>\n<p>制造者直接通过自己的奇术点池来给奇械注入奇术点，但若是@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05powers00000000]{持续时间}用尽(这无法维持)，奇械就会碎落成零件散块。</p>\n<h2>例子</h2>\n<p>加布是<em>Weird West</em>里面的发明家。他想用<em>@Compendium[swade-core-rules.swade-powers.强化/削弱特性]{强化特性}</em>来帮助和巨大响尾蛇战斗的红，但他只会<em>@Compendium[swade-core-rules.swade-powers.爆裂]{爆裂}</em>和<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>这俩奇术。幸运的是加布是一位奇械匠，所以他将<em>提升特性 </em>做成了一件“电动生化鼓风机”。这件奇械最多能使用价值3奇术点的奇术，所以他将@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05hinderorhurr00]{加快}调整添加到了奇术中，以同时让红的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}+2。</p>\n</div>",
             "requirements": [
                 {
                     "type": "rank",
@@ -1232,7 +1232,7 @@
         },
         "Improved Rapid Recharge": {
             "name": "精通快速充能",
-            "description": "<article class=\"swade-core\">\n<p>角色现在每@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05activation0000]{休息}1小时就可以充能20点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色现在每@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05activation0000]{休息}1小时就可以充能20@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}。</p>\n</div>",
             "requirements": [
                 {
                     "type": "rank",
@@ -1509,7 +1509,7 @@
         },
         "Power Points": {
             "name": "奇术点",
-            "description": "<article class=\"swade-core\">\n<p>法师、奇异科学家和其他类型的奥法角色总是索求更多力量，这个专长能让其额外获得5点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}。 </p>\n<p>奇术点专长可以多次选择，但是每位阶内仅限一次。抵达传奇@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01advancement000]{位阶}后能随意选取，但每次只会额外给2奇术点。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>法师、奇异科学家和其他类型的奥法角色总是索求更多力量，这个专长能让其额外获得5@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}。 </p>\n<p>奇术点专长可以多次选择，但是每位阶内仅限一次。抵达传奇@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01advancement000]{位阶}后能随意选取，但每次只会额外给2奇术点。</p>\n</div>",
             "requirements": [
                 {
                     "type": "rank",
@@ -1524,7 +1524,7 @@
         },
         "Power Surge": {
             "name": "能量涌动",
-            "description": "<article class=\"swade-core\">\n<p>角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actioncardsi00]{行动卡}是鬼牌时就能恢复10点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}，这不会让奇术点超过通常上限。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>角色的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03actioncardsi00]{行动卡}是鬼牌时就能恢复10@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}，这不会让奇术点超过通常上限。</p>\n</div>",
             "requirements": [
                 {
                     "type": "rank",
@@ -1685,7 +1685,7 @@
         },
         "Soul Drain": {
             "name": "饮魂汲魄",
-            "description": "<article class=\"swade-core\">\n<p>走投无路时就要放手一搏。饮魂汲魄让奥法角色可以将肉体能量转换为奇术之力，其能通过遭受1级的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}来恢复至多5点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}。他可以选择额外遭受一级疲乏(至@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{力竭})额外再恢复5奇术点，但不能用以此让自己陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{无力化}。</p>\n<p>饮魂汲魄造成的疲乏来自内在深处，这只能自然治疗。<em>@Compendium[swade-core-rules.swade-powers.缓和]{缓和}</em>奇术和类似能力对此没有效果。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>走投无路时就要放手一搏。饮魂汲魄让奥法角色可以将肉体能量转换为奇术之力，其能通过遭受1级的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{疲乏}来恢复至多5@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}。他可以选择额外遭受一级疲乏(至@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{力竭})额外再恢复5奇术点，但不能用以此让自己陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03fatigue0000000]{无力化}。</p>\n<p>饮魂汲魄造成的疲乏来自内在深处，这只能自然治疗。<em>@Compendium[swade-core-rules.swade-powers.缓和]{缓和}</em>奇术和类似能力对此没有效果。</p>\n</div>",
             "requirements": [
                 {
                     "type": "rank",
@@ -1865,7 +1865,7 @@
         },
         "Wizard": {
             "name": "法师",
-            "description": "<article class=\"swade-core\">\n<p>魔法千般百样，玄妙神奇，而徜徉在无尽书册、卷轴和符咒之中的法师对自己的技艺可谓得心应手，有时其能从这些知识中召来变化万千的魔法。</p>\n<p>法师可以在施展奇术时额外消耗1点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}改变奇术的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05trappings00000]{特效}。举例而言，火球(<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>)可以塑造成闪电霹雳。若敌人对法术的通常特效具有特别的抗性或弱点，这个能力往往就会发挥重大作用。</p>\n</div>",
+            "description": "<article class=\"swade-core\">\n<p>魔法千般百样，玄妙神奇，而徜徉在无尽书册、卷轴和符咒之中的法师对自己的技艺可谓得心应手，有时其能从这些知识中召来变化万千的魔法。</p>\n<p>法师可以在施展奇术时额外消耗1@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05arcanebackgr00]{奇术点}改变奇术的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor05powers.JournalEntryPage.05trappings00000]{特效}。举例而言，火球(<em>@Compendium[swade-core-rules.swade-powers.爆发]{爆发}</em>)可以塑造成闪电霹雳。若敌人对法术的通常特效具有特别的抗性或弱点，这个能力往往就会发挥重大作用。</p>\n</div>",
             "requirements": [
                 {
                     "type": "rank",
