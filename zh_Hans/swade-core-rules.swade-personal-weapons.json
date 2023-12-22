@@ -35,7 +35,7 @@
                 "trait": "格斗",
                 "additional": {
                     "p0sizbjx38": {
-                        "name": "新动作"
+                        "name": "新行动"
                     }
                 }
             },
@@ -51,8 +51,8 @@
         },
         "Bangstick": {
             "name": "震爆杖",
-            "description": "<article class=\"swade-core\"><p>附有单发@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹}的杖(用于近战)，用完必须装填新的霰弹(一个动作)</p></article>",
-            "notes": "附有单发霰弹的杖(用于近战)，用完必须装填新的霰弹(一个动作)",
+            "description": "<article class=\"swade-core\"><p>附有单发@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03shotguns000000]{霰弹}的杖(用于近战)，用完必须装填新的霰弹(一个行动)</p></article>",
+            "notes": "附有单发霰弹的杖(用于近战)，用完必须装填新的霰弹(一个行动)",
             "actions": {
                 "trait": "格斗"
             },
@@ -292,7 +292,7 @@
             "category": "天生/临时武器"
         },
         "Katana": {
-            "name": "打刀",
+            "name": "武士刀",
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</article>",
             "notes": "双手",
             "actions": {
@@ -307,8 +307,8 @@
         },
         "Kentucky Rifle": {
             "name": "肯塔基来复枪",
-            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。</p></article>",
-            "notes": "装填4，膛线紧密到需要四个动作才能装填(而不是通常的三个动作)。",
+            "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reload00000000]{装填}4，膛线紧密到需要四个行动才能装填(而不是通常的三个行动)。</p></article>",
+            "notes": "装填4，膛线紧密到需要四个行动才能装填(而不是通常的三个行动)。",
             "actions": {
                 "trait": "射击"
             },
@@ -393,7 +393,7 @@
             "category": "天生/临时武器"
         },
         "Natural Horns": {
-            "description": "<article class=\"swade-core\"><p><strong>角撞：</strong>在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑}，移动至少5英寸(10码)后成功以角击中的单个@Compendium[swade-core-rules.swade-skills.格斗]{格斗}动作最后的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}+4。</p></article>",
+            "description": "<article class=\"swade-core\"><p><strong>角撞：</strong>在@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑}，移动至少5英寸(10码)后成功以角击中的单个@Compendium[swade-core-rules.swade-skills.格斗]{格斗}行动最后的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02damage00000000]{伤害}+4。</p></article>",
             "name": "天武角撞",
             "actions": {
                 "trait": "格斗"
@@ -410,7 +410,7 @@
             "category": "中世纪远程武器"
         },
         "Pike": {
-            "name": "长矛",
+            "name": "步战矛",
             "description": "<article class=\"swade-core\">\n<p>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02reach000000000]{触及}2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor02gear00.JournalEntryPage.02twohands000000]{双手}</p>\n</article>",
             "notes": "触及2，双手",
             "actions": {

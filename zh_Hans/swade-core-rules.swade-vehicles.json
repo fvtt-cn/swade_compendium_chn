@@ -236,7 +236,7 @@
         "Bicycle": {
             "name": "自行车",
             "trait": "驾驶",
-            "description": "<article class=\"swade-core\"><p>射击有50%几率会转而击中骑手，骑手的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑骰}结果翻倍。</p></article>"
+            "description": "<article class=\"swade-core\"><p>射击有50%几率会转而击中骑手，骑手的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}和@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{奔跑骰}结果加倍。</p></article>"
         },
         "Biplane": {
             "name": "双翼飞机",
