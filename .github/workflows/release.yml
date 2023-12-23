@@ -6,7 +6,7 @@ on:
 
 env:
   ZIP_FILENAME: "swade_compendium_chn"
-  PACKAGE_CONTENT: "module.json babele.js setup.js compendium/ lang/"
+  PACKAGE_CONTENT: "module.json babele.js setup.js compendium/ lang/cn.json"
   PACKAGE_ID: 1558
 
 
@@ -33,6 +33,10 @@ jobs:
     - name: Tidy files
       id: tidy-files
       run: rm zh_Hans/___.json && mv zh_Hans compendium
+
+    - name: Convert yml to json
+      id: yml2json
+      run: python utility/yml2json.py lang/cn.yml
 
     # Create a zip file with all files required by the module to add to the release
     - name: Create Artifact
