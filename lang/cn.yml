@@ -813,8 +813,8 @@ SWADE:
       Short: 锥形
       Long: 锥形盖板
     Stream:
-      Short: 流形
-      Long: 流形盖板
+      Short: 直线
+      Long: 直线盖板
     Available: 可用盖板
     Possible: 可能的盖板
   Category: 物品类别
