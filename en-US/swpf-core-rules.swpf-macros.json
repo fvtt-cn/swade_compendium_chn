@@ -1,0 +1,13 @@
+{
+  "label": "Macros",
+  "entries": {
+    "Fear Table (Savage Pathfinder)": {
+      "name": "Fear Table (Savage Pathfinder)",
+      "command": "swpfFearDialog(actor);"
+    },
+    "Patch All Actors (Savage Pathfinder)": {
+      "name": "Patch All Actors (Savage Pathfinder)",
+      "command": "patchActorsDialog();"
+    }
+  }
+}

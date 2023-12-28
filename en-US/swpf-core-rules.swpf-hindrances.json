@@ -1,0 +1,241 @@
+{
+  "label": "Hindrances",
+  "entries": {
+    "All Thumbs": {
+      "name": "All Thumbs",
+      "description": "<div class=\"swpf-core\">\n<p>Due to upbringing, lack of exposure, or pure bad luck, some individuals are \"all thumbs\" when it comes to mechanical or technological devices.</p>\n<p>All Thumbs inflicts a &minus;2 penalty when using mechanical or electrical devices. If the hero rolls a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Critical Failure} while using such a device (and it doesn&rsquo;t already have a built-in effect), it&rsquo;s broken. If the GM feels it&rsquo;s appropriate, it can be fixed with a @Compendium[swpf-core-rules.swpf-skills.Repair]{Repair} roll and 1d6 hours of work.</p>\n</div>"
+    },
+    "Anemic": {
+      "name": "Anemic",
+      "description": "<div class=\"swpf-core\">\n<p>Anemic characters are particularly susceptible to sickness, disease, environmental effects, and some poisons. They subtract 2 from @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} rolls made to resist @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{disease}, and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Fatigue} from environmental @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{hazards}.</p>\n</div>"
+    },
+    "Arrogant": {
+      "name": "Arrogant",
+      "description": "<div class=\"swpf-core\">\n<p>Arrogant heroes don&rsquo;t think they are the best &mdash; they know it. Whether it&rsquo;s swordsmanship, oration or painting, these characters flaunt their prowess every chance they get.</p>\n<p>Winning isn&rsquo;t enough for this champion. She wants to dominate opponents and prove there&rsquo;s no one better. Arrogant individuals look for the greatest threat in battle, taking on lesser minions only because they&rsquo;re in the way.</p>\n</div>"
+    },
+    "Bad Eyes": {
+      "name": "Bad Eyes",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero&rsquo;s eyes aren&rsquo;t what they used to be. The character suﬀers a &minus;1 penalty to any @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Trait roll} dependent on vision at a distance greater than 5\" (10 yards), or &minus;2 as a Major Hindrance.</p>\n<p>If eyeglasses are available, they negate the penalty when worn. If lost or broken during a combat (generally a 50% chance when he&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounded}, falls, or suffers some other trauma), the character is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted} (and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Vulnerable} if a Major Hindrance) until the end of his next turn.</p>\n</div>"
+    },
+    "Bad Luck": {
+      "name": "Bad Luck",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero is a little less lucky than most, getting one less @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Benny} per game session than normal. A character cannot have both Bad Luck and the @Compendium[swpf-core-rules.swpf-edges.Luck]{Luck} Edge.</p>\n</div>"
+    },
+    "Big Mouth": {
+      "name": "Big Mouth",
+      "description": "<div class=\"swpf-core\">\n<p>Loose lips sink ships, the saying goes. This hero&rsquo;s mouth could drown an armada.</p>\n<p>These blabbermouths can&rsquo;t keep a secret very well. They reveal plans and give away things best kept among friends, usually at the worst possible times.</p>\n</div>"
+    },
+    "Blind": {
+      "name": "Blind",
+      "description": "<div class=\"swpf-core\">\n<p>The individual is completely without sight, and suffers a &minus;6 to all physical tasks that require vision (GM&rsquo;s call). On the plus side, Blind characters gain their choice of a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edgesummarie00]{Edge} to compensate for this particularly difficult Hindrance.</p>\n</div>"
+    },
+    "Bloodthirsty": {
+      "name": "Bloodthirsty",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero never takes prisoners unless under the direct supervision of a superior. This cold-blooded ruthlessness causes enemies to respond in kind, which often costs vital information, creates constant enemies, and may get the hero (and companions) in trouble with superiors or the authorities.</p>\n</div>"
+    },
+    "Can't Swim": {
+      "name": "Can't Swim",
+      "description": "<div class=\"swpf-core\">\n<p>On Golarion, people who weren&rsquo;t raised around a temperate body of water aren't likely to know how to swim. Those with this Hindrance suffer a &minus;2 penalty to the @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} skill when swimming, and each inch moved in water costs 3&Prime; of Pace. See <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Movement}</strong> and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{Drowning} for more details.</p>\n</div>"
+    },
+    "Cautious": {
+      "name": "Cautious",
+      "description": "<div class=\"swpf-core\">\n<p>These planners personify restraint and carefulness. They never make rash decisions, preferring to plot things out in detail long before any action is taken.</p>\n</div>"
+    },
+    "Clueless": {
+      "name": "Clueless",
+      "description": "<div class=\"swpf-core\">\n<p>Clueless heroes don&rsquo;t pay much attention to the world around them and can&rsquo;t seem to find a haystack in a small pile of needles.</p>\n<p>The character suffers a &minus;1 penalty to @Compendium[swpf-core-rules.swpf-skills.Common Knowledge]{Common Knowledge} and @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} rolls.</p>\n</div>"
+    },
+    "Clumsy": {
+      "name": "Clumsy",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero is uncoordinated and often stumbles over her own feet. Subtract 2 from @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} and @Compendium[swpf-core-rules.swpf-skills.Stealth]{Stealth} rolls.</p>\n</div>"
+    },
+    "Code of Honor": {
+      "name": "Code of Honor",
+      "description": "<div class=\"swpf-core\">\n<p>Honor is very important to your character. She keeps her word, doesn&rsquo;t abuse or kill prisoners, and generally tries to treat others with due respect. She may have a prescribed code of conduct in line with the mores of a particular deity, cause, or social order.</p>\n</div>"
+    },
+    "Code of Honor (Paladin)": {
+      "name": "Code of Honor (Paladin)",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"paladin-code-of-honor\"><span class=\"list-heading\">Code of Honor:</span> All good paladins have the Code of Honor Hindrance. They strive to keep their word, won’t kill or abuse prisoners, and generally uphold the highest standards of etiquette and manners. This is in addition to their other Hindrances.</span></div>"
+    },
+    "Curious": {
+      "name": "Curious",
+      "description": "<div class=\"swpf-core\">\n<p>It killed the cat, and it might kill your hero as well. Curious characters stick their nose in others' business and always want to know what&rsquo;s behind a potential mystery or secret.</p>\n</div>"
+    },
+    "Death Wish": {
+      "name": "Death Wish",
+      "description": "<div class=\"swpf-core\">\n<p>Having a death wish doesn&rsquo;t mean an adventurer is suicidal &mdash; he might just think his life is worth less than some noble but clearly deadly goal.</p>\n<p>Those with a Death Wish don&rsquo;t throw their lives away for no reason, but when there&rsquo;s a chance to complete a goal they do anything &mdash; and take any risk &mdash; to achieve it.</p>\n</div>"
+    },
+    "Delusional": {
+      "name": "Delusional",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Your hero believes something considered quite strange by most others. Minor Delusions are harmless or the character generally keeps it to himself (the magistrate puts sleeping powder in the water supply, dogs can talk, we&rsquo;re all just characters in some bizarre game, etc.).</p>\n<p>With a Major Delusion, the hero expresses opinions on the situation frequently and it can occasionally lead to danger (all potions are deadly, armor gives me hives, zombies are my friends).</p>\n</div>"
+    },
+    "Driven": {
+      "name": "Driven",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>A @Compendium[swpf-core-rules.swpf-hindrances.Vow]{vow} is a commitment to others &mdash; driven characters want something for themselves. It may be to protect the realm, prove you&rsquo;re the best knucklebones player in the kingdom, or the best equestrian on Golarion.</p>\n<p>The Minor version shapes the character and influences decisions but either happens rarely or is fairly harmless. As a Major Hindrance it&rsquo;s an overriding desire that comes up frequently or causes peril for the hero and companions.</p>\n</div>"
+    },
+    "Elderly": {
+      "name": "Elderly",
+      "description": "<div class=\"swpf-core\">\n<p>Your adventurer is getting on in years. Reduce @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} by 1 and subtract 1 from running rolls (minimum 1). Elderly characters also suffer a &minus;1 penalty to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Agility, Strength, and Vigor} rolls, but not their linked skills.</p>\n<p>On the plus side, the wisdom of years grants the hero 5 extra skill points which may be used for any skills linked to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts}.</p>\n</div>"
+    },
+    "Enemy": {
+      "name": "Enemy",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Someone out there hates the character and wants him ruined, locked away, or dead. The value of the Hindrance depends on how powerful the enemy is and how often they might show up. A Minor Enemy might be a lone warrior out for vengeance or a betrayed brotherhood that&rsquo;s deadly but appears rarely. A Major Enemy might represent powerful authorities, a band of ruffians, or a single very powerful and relentless rival.</p>\n<p>If the enemy is one day defeated, the GM should gradually work in a replacement, or the hero may buy off the Hindrance by sacrificing an @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01advancement000]{Advance}.</p>\n</div>"
+    },
+    "Greedy": {
+      "name": "Greedy",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>A miser measures worth in material possessions or wealth. If a Minor Hindrance, the character argues bitterly for more than a fair share of any loot or reward the party might come across. As a Major Hindrance, he fights over anything that seems unfair, and may even kill for it.</p>\n</div>"
+    },
+    "Habit": {
+      "name": "Habit",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Your warrior has an annoying or dangerous compulsion. A Minor Habit irritates companions but isn&rsquo;t dangerous. Maybe the character picks her nose, can&rsquo;t stop fiddling with some item, says \"ummm\" in the middle of every sentence, or chews food with her mouth open.</p>\n<p>A Major Habit is a physical or mental addiction of some sort that is debilitating or possibly even deadly. This includes drug use, chronic drinking, or even a penchant for gambling with money stolen from allies.</p>\n<p>An addict who doesn&rsquo;t get his fix must make a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll every 24 hours he goes without or take a level of <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Fatigue}</strong>.</p>\n<p>Once every 24 hours, a @Compendium[swpf-core-rules.swpf-skills.Healing]{Healing} roll with some sort of appropriate medicine removes one level of Fatigue for four hours. After that the Fatigue returns and can only be recovered with the addicting substance.</p>\n</div>"
+    },
+    "Hard of Hearing": {
+      "name": "Hard of Hearing",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>As a Minor Hindrance, characters who've lost some of their hearing subtract 4 from @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} rolls made where hearing is involved. A Major Hindrance means the character is deaf. She cannot hear and automatically fails all Notice rolls that depend on being able to detect sound.</p>\n</div>"
+    },
+    "Heroic": {
+      "name": "Heroic",
+      "description": "<div class=\"swpf-core\">\n<p>This noble soul never says no to a person in need. She doesn&rsquo;t have to be happy about it, but will always come to the rescue of those who can&rsquo;t help themselves. She's the first one to run into a burning building, usually agrees to hunt monsters for little or no pay, and is generally a pushover for a sob story.</p>\n</div>"
+    },
+    "Hesitant": {
+      "name": "Hesitant",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero hesitates in stressful situations. Draw two @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Action Cards} in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{combat} and act on the lowest. If you draw a Joker, use it normally and ignore the Hindrance for the round (hence this being a Minor Hindrance, it actually increases your chances of drawing a Joker!)</p>\n<p>Hesitant characters cannot take the @Compendium[swpf-core-rules.swpf-edges.Quick]{Quick} or @Compendium[swpf-core-rules.swpf-edges.Level Headed]{Level Headed} Edges.</p>\n</div>"
+    },
+    "Illiterate": {
+      "name": "Illiterate",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero can't read. Perhaps he can sign his name or make his mark or recognize a single common word, but little else. He also knows very little math. He can probably figure 2 + 2 = 4, but multiplication and the like are beyond the pale.</p>\n</div>"
+    },
+    "Impulsive": {
+      "name": "Impulsive",
+      "description": "<div class=\"swpf-core\">\n<p>These daredevils almost always leap before they look. They rarely think things through before taking action, avoid complicated plans, and are at the head of any charge.</p>\n</div>"
+    },
+    "Jealous": {
+      "name": "Jealous",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Insecurity leads to envy of others&rsquo; accomplishments or belongings. Such individuals complain, pout, and claim credit for other&rsquo;s accomplishments.</p>\n<p>As a Minor Hindrance, the character&rsquo;s jealousy is focused on one particular subject (such as an \"unrivaled\" skill or a romantic interest), or comes up rarely. As a Major Hindrance, the character is jealous of anyone and everyone that outshines them. He consistently bad-mouths rivals, tries to upstage them, or actively plots to discredit anyone who threatens his ego.</p>\n</div>"
+    },
+    "Loyal": {
+      "name": "Loyal",
+      "description": "<div class=\"swpf-core\">\n<p>This stalwart defender risks her life for friends without hesitation. Some Loyal heroes may not <em>act</em> very nice, but are the first to come to their friends&rsquo; rescue when they&rsquo;re threatened.</p>\n</div>"
+    },
+    "Mean": {
+      "name": "Mean",
+      "description": "<div class=\"swpf-core\">\n<p>This curmudgeon is ill-tempered and disagreeable. He has trouble doing anything kind for anyone else, must be paid for services, and doesn&rsquo;t accept awards or favors graciously. Besides the obvious roleplaying issues, Mean characters subtract 1 from @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls.</p>\n</div>"
+    },
+    "Mild Mannered": {
+      "name": "Mild Mannered",
+      "description": "<div class=\"swpf-core\">\n<p>Your milquetoast just isn&rsquo;t threatening. Maybe the hero is a little doughy around the middle, has a kind face, or a soft voice. Whatever the issue, the character subtracts 2 when making @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation} rolls.</p>\n</div>"
+    },
+    "Mute": {
+      "name": "Mute",
+      "description": "<div class=\"swpf-core\">\n<p>Due to trauma or birth, your character has lost the ability to speak. She can write messages to others when needed, use sign language, or some combination of visual communication, but can't form or pronounce words.</p>\n<p>Vision-based communication may require a @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} roll to perceive correctly (@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{illumination} and similar penalties apply).</p>\n</div>"
+    },
+    "Obese": {
+      "name": "Obese",
+      "description": "<div class=\"swpf-core\">\n<p>Those who carry their weight well have the @Compendium[swpf-core-rules.swpf-edges.Brawny]{Brawny} Edge. Those who don&rsquo;t might be Obese. A character cannot be both Brawny and Obese, and this Hindrance can&rsquo;t increase your @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size} above +3.</p>\n<p>An Obese hero&rsquo;s Size (and therefore @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01makingcharac00]{Toughness}) increase by +1. Reduce @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} by 1, and decrease the running die one die type (minimum d4). @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Strength} is considered one die type less (minimum d4) for armor and worn gear (not weapons). The hero may also have difficulty finding armor or clothing that fits or entering confined spaces &mdash; GM's call, but tight dungeon corridors, twisting caverns, and the like are all likely to cause the hero problems.</p>\n</div>"
+    },
+    "Obligation": {
+      "name": "Obligation",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Your hero has a responsibility he attends to on a regular basis. He might have a job, volunteer at the local temple, take care of friends or family, and so on.</p>\n<p>The Obligation consumes about 20 hours most weeks, or 40+ for the Major version. Exactly what that entails should be discussed between the player and the Game Master.</p>\n</div>"
+    },
+    "One Arm": {
+      "name": "One Arm",
+      "description": "<div class=\"swpf-core\">\n<p>By birth or battle, your hero has lost an arm. Fortunately, the other arm is (now) the \"good\" one. Tasks that require two hands, such as some @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} rolls (GM&rsquo;s call) or using a two-handed weapon, suffer a &minus;4 penalty.</p>\n</div>"
+    },
+    "One Eye": {
+      "name": "One Eye",
+      "description": "<div class=\"swpf-core\">\n<p>This character lost an eye and has trouble with depth perception. Subtract 2 from any @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Trait roll} dependent on vision <em>and</em> more than 5&Prime; (10 yards) distant.</p>\n</div>"
+    },
+    "Outsider": {
+      "name": "Outsider",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>For reasons having little or nothing to do with the character&rsquo;s actions or behavior, she isn&rsquo;t accepted in many societies on Golarion. Locals are likely to raise prices on the individual, ignore pleas for help, and generally treat her poorly.</p>\n<p>Outsiders subtract 2 from @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls made to influence those who aren&rsquo;t their own kind. The Major version means most locals are @Compendium[swpf-core-rules.swpf-tables.Reaction]{Unfriendly} and bullies are likely to pick fights with her.</p>\n</div>"
+    },
+    "Overconfident": {
+      "name": "Overconfident",
+      "description": "<div class=\"swpf-core\">\n<p>There&rsquo;s nothing out there your hero can&rsquo;t defeat. At least that&rsquo;s what she thinks. She believes she can do most anything and never wants to retreat from a challenge. She's not suicidal, but certainly takes on more than common sense dictates.</p>\n</div>"
+    },
+    "Pacifist": {
+      "name": "Pacifist",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Your hero absolutely despises violence. Minor pacifism means the hero fights only when given no other choice and never allows the killing of prisoners or other defenseless victims.</p>\n<p>Major Pacifists won&rsquo;t fight living characters under <em>any</em> circumstances. They may defend themselves, but won&rsquo;t do anything to permanently harm sapient, living beings. They may use @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{nonlethal methods}, but only in self-defense or the defense of others.</p>\n<p>Note that undeniably evil creatures, undead, demons and the like are fair game even for Major Pacifists.</p>\n</div>"
+    },
+    "Phobia": {
+      "name": "Phobia",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Phobias are overwhelming and irrational fears that plague a hero&rsquo;s psyche.</p>\n<p>Whenever a character is in the presence of the phobia (GM&rsquo;s call, but generally sight), subtract 1 from all @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Trait rolls} for a Minor Hindrance and 2 for a Major.</p>\n<p>Phobias shouldn&rsquo;t be too obvious; everyone should be afraid of vampires, for example, so it&rsquo;s not a phobia, it&rsquo;s common sense. Instead, the phobia usually centers on some random element the mind associates with the event. Remember, phobias are <em>irrational</em> fears.</p>\n</div>"
+    },
+    "Poverty": {
+      "name": "Poverty",
+      "description": "<div class=\"swpf-core\">\n<p>It&rsquo;s said fools and their money are soon parted. Your hero is one of them. The character starts with half the usual starting funds and just can&rsquo;t seem to hang on to funds acquired after play begins. In general, the character halves the total funds every game week.</p>\n</div>"
+    },
+    "Quirk": {
+      "name": "Quirk",
+      "description": "<div class=\"swpf-core\">\n<p>This individual has some minor foible that is usually humorous but can occasionally cause real trouble. A swashbuckler may always try to slash a mark on foes, a dwarf may brag constantly about dwarven culture, or a snobby d&eacute;butante might not eat, drink, or socialize with the lower class, for example.</p>\n</div>"
+    },
+    "Ruthless": {
+      "name": "Ruthless",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>These fanatics will do most anything to accomplish their goals. As a Major Hindrance, Ruthless characters are willing to harm anyone who gets in the way. As a Minor Hindrance, these heroes stop short of true harm to anyone except those who directly oppose them.</p>\n</div>"
+    },
+    "Secret": {
+      "name": "Secret",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Your hero keeps a secret to protect himself or others. As a Minor Hindrance, the secret is troublesome or embarrassing but not life-threatening.</p>\n<p>The Major version would cause severe problems if discovered. If it ever becomes public knowledge, he should trade this Hindrance for @Compendium[swpf-core-rules.swpf-hindrances.Enemy]{Enemy}, @Compendium[swpf-core-rules.swpf-hindrances.Shamed]{Shamed}, @Compendium[swpf-core-rules.swpf-hindrances.Wanted]{Wanted}, or another appropriate Hindrance approved by the GM.</p>\n</div>"
+    },
+    "Shamed": {
+      "name": "Shamed",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Something haunts your adventurer. Maybe the hero failed to keep a @Compendium[swpf-core-rules.swpf-hindrances.Vow]{Vow}. Maybe the character was defeated in an honorable fight and ordered the death of the foe anyway for some greater principle. Maybe the hero isn&rsquo;t actually cowardly but once ran from a battle and left others to die.</p>\n<p>As a Minor Hindrance, the shameful circumstances aren&rsquo;t generally known &mdash; it just haunts him. He might go out of his way, against all reason, not to repeat the mistake. Or he might give in to the same set of circumstances and hate himself for it.</p>\n<p>As a Major Hindrance, the ill deed is well-known &mdash; or at least known among those the hero cares about. The other player characters should be told the tale as soon as possible (preferably at character creation). If not, it should be revealed by nonplayer characters at some point, and occasionally used against the hero.</p>\n</div>"
+    },
+    "Slow": {
+      "name": "Slow",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>A disability or past injury has hindered this adventurer's mobility. As a Minor Hindrance, reduce @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} by 1 and the running die one step (if already d4, reduce to d4&minus;1). As a Major Hindrance, reduce the running die a step, reduce Pace by 2, and subtract 2 from @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} rolls and rolls to resist Athletics (such as @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Tests} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Grappling}).</p>\n<p>Slow characters may not take the @Compendium[swpf-core-rules.swpf-edges.Fleet-Footed]{Fleet-Footed} Edge.</p>\n<p><strong>Prosthesis:</strong> A character with the Minor version of this Hindrance may have a prosthesis. If the prosthesis is lost, he suffers the effects of the Major version of Slow.</p>\n<p><strong>Wheelchairs:</strong> Wheelchairs are available in more enlightened areas of Golarion. Slow heroes may start with a manual wheelchair at no cost (100 gp to replace thereafter).</p>\n<p>Wheelchairs require reasonably smooth ground to operate on and have a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} equal to half the user's @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} die (max of 3, he cannot run).</p>\n</div>"
+    },
+    "Small": {
+      "name": "Small",
+      "description": "<div class=\"swpf-core\">\n<p>This adventurer is very skinny, very short, or both. <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size}</strong> is reduced by 1, which reduces @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01makingcharac00]{Toughness} as well.</p>\n<p>A player character's Size can&rsquo;t be reduced below &minus;1, but the Toughness penalty remains. A Small halfling, for example, remains Size &minus;1 and loses a point of Toughness.</p>\n</div>"
+    },
+    "Stubborn": {
+      "name": "Stubborn",
+      "description": "<div class=\"swpf-core\">\n<p>Stubborn individuals always want their way and never admit they&rsquo;re wrong. Even when it&rsquo;s painfully obvious they&rsquo;ve made a mistake they try to justify it with half-truths and rationalizations.</p>\n</div>"
+    },
+    "Suspicious": {
+      "name": "Suspicious",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Your character is suspicious of everyone. As a Minor Hindrance, this paranoia causes frequent trust issues. Suspicious characters might demand full payment before doing a task, want every agreement in writing, or believe even friends are out to get them.</p>\n<p>As a Major Hindrance, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Support} rolls to aid the distrustful individual are made at &minus;2.</p>\n</div>"
+    },
+    "Thin Skinned": {
+      "name": "Thin Skinned",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\nPersonal attacks really get under this individual&rsquo;s skin. As a Minor Hindrance, subtract 2 when resisting @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt} attacks. As a Major, subtract 4.</div>"
+    },
+    "Timid": {
+      "name": "Timid",
+      "description": "<div class=\"swpf-core\">\n<p>Not everyone has ice water in their veins. Your hero is squeamish at the sight of blood and gore and terrified of coming to harm. Subtract 2 from @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04fear0000000000]{Fear} checks as well as rolls to resist @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation}.</p>\n</div>"
+    },
+    "Tongue-Tied": {
+      "name": "Tongue-Tied",
+      "description": "<div class=\"swpf-core\">\n<p>Your adventurer flubs cool lines (or thinks of them afterwards!), goes off on tangents when trying to talk someone into something, and generally miscommunicates most everything they say.</p>\n<p>The hero suffers a &minus;1 penalty to @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation}, @Compendium[swpf-core-rules.swpf-skills.Performance]{Performance}, @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion}, and @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt} rolls that involve speech.</p>\n</div>"
+    },
+    "Ugly": {
+      "name": "Ugly",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>@Compendium[swpf-core-rules.swpf-edges.Attractive]{Attractive} people get all the breaks. This unfortunate individual isn&rsquo;t one of them. The character subtracts 1 from @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls, or 2 if taken as a Major Hindrance.</p>\n</div>"
+    },
+    "Vengeful": {
+      "name": "Vengeful",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Payback is&hellip;well&hellip;bad news for someone, and this adventurer is going to get it.</p>\n<p>As a Minor Hindrance, the hero usually seeks vengeance legally. The method varies by situation. Some plot and scheme for months while others demand immediate results.</p>\n<p>Those with the Major version of this Hindrance won&rsquo;t let anything prevent them from a reckoning. This doesn&rsquo;t mean they immediately resort to violence, but their actions always escalate until total and complete satisfaction is achieved.</p>\n</div>"
+    },
+    "Vow": {
+      "name": "Vow",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>The character has sworn an oath to someone or something they believe in.</p>\n<p>The danger in fulfilling the Vow and how often it might occur determines the level of the Hindrance. A Minor Vow might be to serve an order with a broad mandate that rarely conflicts with the party&rsquo;s goals.</p>\n<p>A Major Vow makes long-term and frequent demands on the servant&rsquo;s time and results in great risks to his life.</p>\n</div>"
+    },
+    "Vow (Major, Cleric)": {
+      "name": "Vow (Major, Cleric)",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"cleric-vow\"><span class=\"list-heading\">Vow</span> <strong>(Major):</strong> Clerics have a major vow to serve their deity. Those who wish to draw energy from divine sources must uphold the principles of their Domain. <br/>If the cleric violates their deity's trust  (GM's call) the cleric subtracts 2 from Faith rolls for a week. Truly sacrilegious acts might rob her of her powers entirely until she atones in some way.</span></div>"
+    },
+    "Vow (Major, Druid)": {
+      "name": "Vow (Major, Druid)",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"druid-vow\"><span class=\"list-heading\">Vow</span> <strong>(Major):</strong> Druids have a major vow to protect nature. Those drawing energy from divine sources must uphold the principles of the Nature Domain. <br/>If the druid violates her deity's trust  (GM's call) the druid subtracts 2 from Faith rolls for a week. Truly sacrilegious acts might rob her of her powers entirely until she atones in some way.</span></div>"
+    },
+    "Wanted": {
+      "name": "Wanted",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>Your hero has committed some crime and will be arrested if discovered by the authorities. The level of the Hindrance depends on how serious the crime was and how active the hunters are. A hero accused of theft may have only a Minor Hindrance, as might someone wanted for more serious crimes away from the main campaign area.</p>\n<p>Being accused of murder is a Major Hindrance in the \"civilized\" societies on Golarion if there&rsquo;s someone around to seek justice (or vengeance).</p>\n</div>"
+    },
+    "Young": {
+      "name": "Young",
+      "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\n<p>The hero is 12&ndash;15 years old (in human years &mdash; adjust this for other ancestries). He only has 4 points to adjust @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traits00000000]{attributes} instead of 5, and 10 skill points instead of 12. The youth may also have legal restrictions depending on any local customs (can&rsquo;t drink alcohol, can&rsquo;t carry a weapon, and so on).</p>\n<p>On the plus side, youths draw one extra @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Benny} at the beginning of each game session (this stacks with other Edges such @Compendium[swpf-core-rules.swpf-edges.Luck]{Luck} or @Compendium[swpf-core-rules.swpf-edges.Great Luck]{Great Luck}).</p>\n<p>Most Young characters should also take the @Compendium[swpf-core-rules.swpf-hindrances.Small]{Small} Hindrance, but it&rsquo;s not mandatory.</p>\n<p>As a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01makingcharac00]{Major} @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01hindrances0000]{Hindrance}, the character is Very Young (8 to 11 years old), getting only 3 points for @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traits00000000]{attributes} and 10 for skills, along with the @Compendium[swpf-core-rules.swpf-edges.Small]{Small} Hindrance. Very Young heroes draw two extra @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Bennies} at the start of each session.</p>\n</div>"
+    }
+  }
+}

@@ -1,0 +1,820 @@
+{
+  "label": "Ancestries & Abilities",
+  "entries": {
+    "Aberrant (Bloodline)": {
+      "name": "Aberrant (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>A bizarre and alien legacy taints the sorcerer&rsquo;s blood. Her strange form increases her Toughness by +1. <em>@Compendium[swpf-core-rules.swpf-powers.Bolt]{Bolt}, @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}, </em>and<em> @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}</em> spells must be cast with the Lingering Damage @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Power Modifier}, but cost the sorcerer only 1 additional @Compendium[swpf-core-rules.swpf-edges.Power Points]{Power Point} instead of 2.</p>\n<p>Finally, her long limbs give her Reach +1. In addition to allowing the sorcerer to attack at a distance, this can be used for determining a spell&rsquo;s Range or origin.</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> The character is never @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Surprised} and is immune to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{the Drop} unless @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Bound}. Her alien form grants her another point of Toughness.</li>\n</ul>\n</div>"
+    },
+    "Aberration (Type)": {
+      "name": "Aberration (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Rare creatures with bizarre anatomy, strange abilities, or other alien characteristics.</p>\n</div>"
+    },
+    "Abjuration (Favored)": {
+      "name": "Abjuration (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This is the school of protective magic. It's used to prevent harm and suppress other spells.<em> @Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane protection}, @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Sanctuary]{sanctuary}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Abjuration (Opposition)": {
+      "name": "Abjuration (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This is the school of protective magic. It's used to prevent harm and suppress other spells.<em> @Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane protection}, @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Sanctuary]{sanctuary}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Abyssal (Bloodline)": {
+      "name": "Abyssal (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>Generations ago, a demon corrupted the hero&rsquo;s heritage. She has environmental resistance to electricity, +1 Toughness, and sharp claws that cause Str+d4 damage.</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> The abyssal can conjure demons to aid her. The cost for <em>@Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em> is reduced by 2 (to a minimum of 1), and the entities summoned cause @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04fear0000000000]{Fear}. She also gains @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} to cold and fire.</li>\n</ul>\n</div>"
+    },
+    "Adaptability": {
+      "name": "Adaptability",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Adaptability:</span> Humans start with a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edges000000000]{Edge} (they must meet the requirements, as usual). They also gain a d6 in any one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Attribute} instead of a d4. This does <em>not</em> increase the attribute limit.</li>\n</ul>\n</div>"
+    },
+    "Agile": {
+      "name": "Agile",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Agile:</span> Elves are graceful and agile. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Agility} instead of a d4. This increases maximum Agility to d12+1.</li>\n</ul>\n</div>"
+    },
+    "All-Around Vision": {
+      "name": "All-Around Vision",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>A few creatures possess the remarkable ability to see in all directions, usually because of unique physical features. Creatures with All-Around Vision ignore one point of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Gang Up} bonuses, add +2 to @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} rolls made to resist attacks from @Compendium[swpf-core-rules.swpf-skills.Stealth]{Stealth}, and cannot be the target of a Sneak Attack.</p>\n</div>"
+    },
+    "Ancestry": {
+      "name": "Ancestry",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Many humanoids have universal features common to their ancestry. These include special @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000001]{abilities}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edges000000000]{Edges}, and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01hindrances0000]{Hindrances}. Goblins have @Compendium[swpf-core-rules.swpf-abilities.Darkvision]{Darkvision}, @Compendium[swpf-core-rules.swpf-abilities.Size]{Size} &minus;1, and @Compendium[swpf-core-rules.swpf-hindrances.Greedy]{Greedy} (Major), for example. Some non-humanoids and other creature types may also have a universal set of features&mdash; such as archons, demons, and devils&mdash; when there are different versions within a creature category.</p>\n<p>Instead of listing each of these features separately, they are listed together in one bullet in the creature&rsquo;s stat block, such as &ldquo;Ancestry (Goblin)&rdquo; or &ldquo;Archons.&rdquo;</p>\n</div>"
+    },
+    "Animal (Type)": {
+      "name": "Animal (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Any living vertebrate creature with no magical abilities and no innate language or culture. Smarts is relative to the animal world, as indicated by the (A) as a reminder of &ldquo;animal intelligence.&rdquo;</p>\n</div>"
+    },
+    "Aquatic": {
+      "name": "Aquatic",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">The creature is native to the water. It is a natural swimmer and cannot drown. Its @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} in water is specified after the Aquatic ability.</div>"
+    },
+    "Arcane (Bloodline)": {
+      "name": "Arcane (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>The sorcerer forms a magical bond with a creature or an object. Use the rules for the wizard&rsquo;s @Compendium[swpf-core-rules.swpf-edges.Wizard]{Arcane Bond}.</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> The sorcerer&rsquo;s connection to magic is incredibly strong. She gets a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{reroll} on any failed @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} roll.</li>\n</ul>\n</div>"
+    },
+    "Arcane Background (Cleric)": {
+      "name": "Arcane Background (Cleric)",
+      "category": "Cleric",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"cleric-arcane-background\">\n<li><span class=\"list-heading\">Arcane Background</span> <strong>(Cleric):</strong> Clerics use @Compendium[swpf-core-rules.swpf-skills.Faith]{Faith} as their arcane skill. On taking this Edge, a character gains 10 Power Points and must choose a Domain for the deity she serves from the list below. All clerics start with the <em>@Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em> power and two other powers from their available powers.</li>\n<li><span class=\"list-heading\">Available Powers:</span> Clerics have access to powers from the list below plus the powers listed  for their chosen Domain: <em>@Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em><em>, @Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Relief]{relief}, @Compendium[swpf-core-rules.swpf-powers.Resurrection]{resurrection}, @Compendium[swpf-core-rules.swpf-powers.Sanctuary]{sanctuary}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>. </li>\n</span></div>"
+    },
+    "Arcane Bond": {
+      "name": "Arcane Bond",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"wizard-arcane-bond\">\n<h3>Arcane Bond</h3>\n<p>Wizards immerse themselves in the study of eldritch lore and arcane theories. During these long hours they form a bond with a dependable item or friendly creature (a “familiar”). Choose one of the following options for your wizard:</p>\n<ul>\n<li><span class=\"list-heading\">Bonded Object:</span> The spellcaster possesses an amulet, ring, staff, wand, or weapon that adds +1 to all his Spellcasting totals when worn or in hand. If the object is lost or destroyed, the mage can replace it with a new object worth at least 500 gp.</li>\n<li><span class=\"list-heading\">Familiar:</span> The mage has a magical pet. See the sidebar below.</li>\n</ul>\n</span></div>"
+    },
+    "Arcane School": {
+      "name": "Arcane School",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"wizard-school\"><span class=\"list-heading\">School:</span> A wizard’s studies lead him down one of two paths— the “universalist” who dabbles in all the various “schools” of magic, or a “specialist” who focuses on one school at the expense of some others.<br/>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a −2 penalty to the wizard's arcane skill roll.<br/>Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</span></div>"
+    },
+    "Armor": {
+      "name": "Armor",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>A creature&rsquo;s Armor is written in parentheses next to its total Toughness, and already added in. Thick, leathery hide generally offers 2 points of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02armor000000000]{Armor}. Creatures like a stegosaurus generally have 4 or more points of protection. Supernatural creatures may have much higher Armor values. A living statue, for example, might have 8 points of Armor or more.</p>\n</div>"
+    },
+    "Armor Interference (Bard)": {
+      "name": "Armor Interference (Bard)",
+      "category": "Bard",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"bard-armor-interference\"><span class=\"list-heading\">Armor Interference</span> <strong>(Light):</strong> Bulky armor interferes with a bard’s grace and dexterity. They subtract 4 from their Performance rolls and from their Agility and Agility-based skill rolls if using medium or heavy armor or shields.</span></div>"
+    },
+    "Armor Interference (Druid)": {
+      "name": "Armor Interference (Druid)",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"druid-armor-interference\"><span class=\"list-heading\">Armor Interference</span> <strong>(Light):</strong> Bulky armor interferes with a druid’s ability to sense and commune with nature. They subtract 4 from their Faith rolls and from their Agility and Agility-based skill rolls if using medium or heavy armor or shields. Druids cannot use metal armor at all.</span></div>"
+    },
+    "Armor Interference (Wizard)": {
+      "name": "Armor Interference (Wizard)",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\"> <span data-embed-id=\"wizard-armor-interference\"> <span class=\"list-heading\">Armor Interference</span> <strong>(Any):</strong>  Like sorcerers, wizards must gesticulate in precise patterns. They subtract 4  from their Spellcasting rolls and from their Agility and Agility-based skill  rolls if using light, medium, or heavy armor or shields.</span></div>"
+    },
+    "Armor Restriction (Barbarian)": {
+      "name": "Armor Restriction (Barbarian)",
+      "category": "Barbarian",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"barbarian-armor-restriction\"><span class=\"list-heading\">Armor Restriction</span> <strong>(Medium):</strong> A barbarian’s fighting style requires great freedom of movement. They subtract 4 from Agility and Agility-based skill rolls when wearing heavy armor or using a heavy shield.</span></div>"
+    },
+    "Armor Restriction (Monk)": {
+      "name": "Armor Restriction (Monk)",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"monk-armor-restriction\"><span class=\"list-heading\">Armor Restriction</span> <strong>(Any):</strong> Monks must be completely unhindered to perform their complex maneuvers. They subtract 4 from Agility and Agility-based skill rolls if using  light, medium, or heavy armor or shields.</span></div>"
+    },
+    "Armor Restriction (Ranger)": {
+      "name": "Armor Restriction (Ranger)",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"ranger-armor-restriction\"><span class=\"list-heading\">Armor Restriction</span> <strong>(Medium):</strong> Rangers are agile and mobile fighters and scouts. They subtract 4 from Agility and Agility-based skill rolls when wearing heavy armor or using a heavy shield.</span></div>"
+    },
+    "Armor Restriction (Rogue)": {
+      "name": "Armor Restriction (Rogue)",
+      "category": "Rogue",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"rogue-armor-restriction\"><span class=\"list-heading\">Armor Restriction</span> <strong>(Light):</strong> Rogues are nimble and deadly acrobats. Bulky armor interferes with their abilities, so they subtract 4 from Agility and Agility-based skill rolls when wearing medium or heavy armor, or using medium or heavy shields.</span></div>"
+    },
+    "Armor Restriction (Sorcerer)": {
+      "name": "Armor Restriction (Sorcerer)",
+      "category": "Sorcerer",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"sorcerer-armor-interference\"><span class=\"list-heading\">Armor Interference</span> <strong>(Any):</strong> Sorcery requires rapid, intricate, and unhindered somatic movements. Sorcerers subtract 4 from their Spellcasting rolls and from their Agility and Agility-based skill rolls if using light, medium, or heavy armor or shields.</span></div>"
+    },
+    "Aura of Courage": {
+      "name": "Aura of Courage",
+      "category": "Paladin",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"paladin-aura-of-courage\"><span class=\"list-heading\">Aura of Courage:</span> As long as the paladin is conscious, all allies within 10” (20 yards) add +1 to their Fear checks.</span></div>"
+    },
+    "Bash": {
+      "name": "Bash",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Larger creatures often use their bodies or body parts to pummel their opponents during combat. See the creature&rsquo;s statistics for any special effects.</p>\n</div>"
+    },
+    "Bite": {
+      "name": "Bite",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>See <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Natural Weapons}</strong>.</p>\n</div>"
+    },
+    "Blindsense": {
+      "name": "Blindsense",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>A creature with this ability can perceive its environment using non-visual senses. This includes a keen sense of smell, echolocation, or sensing vibrations in the ground or even in the air. These creatures ignore <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em>, <em>@Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}</em>, and all @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} penalties.</p>\n</div>"
+    },
+    "Bloodline": {
+      "name": "Bloodline",
+      "category": "Sorcerer",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"sorcerer-bloodline\"><span class=\"list-heading\">Bloodline:</span> The sorcerer must choose a bloodline. Beneath each Bloodline description is also the additional special ability one gains when taking the Advanced Bloodline Edge.</span></div>"
+    },
+    "Breath Weapons": {
+      "name": "Breath Weapons",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Most dragons and other &ldquo;fire breathers&rdquo; use a Cone Template for their attacks (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Area Effect}</strong> attacks). A few specific creatures, such as blue and black dragons, use the Stream Template.</p>\n<p>All breath attacks may be Evaded (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Evasion}</strong>).</p>\n<p>Unless the creature&rsquo;s description says otherwise, breath attacks take the creature&rsquo;s entire turn&mdash; they can&rsquo;t perform @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Multi-Actions} in the same round they make a breath attack.</p>\n</div>"
+    },
+    "Burrow": {
+      "name": "Burrow",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>From massive worms to sand-dwelling humanoids, many creatures are able to burrow beneath the earth and move within it.</p>\n<p>Burrowers can tunnel underground and reappear elsewhere for devastating surprise attacks against their foes. The distance a creature can burrow on its turn is written immediately after its Burrow ability.</p>\n<p>A burrowing creature may tunnel as an action, and may erupt from the ground at any point within its burrowing @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} in the same turn. It cannot be attacked while beneath the earth unless the attacker has some special means of detecting it and penetrating the intervening dirt.</p>\n<p>Burrowing creatures erupt from beneath their opponents and may take them by @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{surprise}. If the target was unaware of the burrower&rsquo;s presence, the creature makes an @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{opposed} @Compendium[swpf-core-rules.swpf-skills.Stealth]{Stealth} roll versus the victim&rsquo;s @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice}. If the burrower wins, the target is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Vulnerable} <em>to it only</em>. With a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{raise}, the burrower gets @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{the drop}. Targets on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Hold} may attempt to interrupt the attack before it occurs.</p>\n<p>Burrowers can&rsquo;t usually surprise a foe once their presence is known, but can still burrow for protection and mobility.</p>\n</div>"
+    },
+    "Celestial (Bloodline)": {
+      "name": "Celestial (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>A celestial ancestor or divine intervention of some sort blessed this hero&rsquo;s bloodline. Her <em>@Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}, @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}, </em>and<em> @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}</em> spells cause +2 damage to evil creatures (this stacks with Champion, see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edgesummarie00]{Weird Edges}). She also gains @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} to cold and acid.</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> The celestial can extend or hide angel-like wings as a free action. While extended, she gains @Compendium[swpf-core-rules.swpf-abilities.Flight]{Flight} at @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} 12.</li>\n</ul>\n</div>"
+    },
+    "Channel Energy": {
+      "name": "Channel Energy",
+      "category": "Cleric",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"cleric-channel-energy\"><span class=\"list-heading\">Channel Energy:</span> Clerics can cast the <em>@Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em> power at a Range of Spirit rather than Touch. Their <em>healing</em> power also has the Additional Recipients Power Modifier, allowing them to heal nearby allies at the cost of one extra Power Point each.</span></div>"
+    },
+    "Civilization (Community, Nobility)": {
+      "name": "Civilization (Community, Nobility)",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Cities, towns, legacy, linage</li>\n<li><span class=\"list-heading\">Deities:</span> Abadar, Erastil</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Barrier]{Barrier}, @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language},</em><em> @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>.</li>\n</ul>\n</div>"
+    },
+    "Class Abilities": {
+      "name": "Class Abilities",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>When a creature has a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edgesummarie00]{Class Edge}, the specific features of the Edge are listed in a single bullet. A goblin warchanter, for example, has the Bard Class Edge, with all its features listed in a single bullet labeled &ldquo;<strong>Class Abilities (Bard)</strong>.&rdquo;</p>\n</div>"
+    },
+    "Claws": {
+      "name": "Claws",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>See <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Natural Weapons}</strong>.</p>\n</div>"
+    },
+    "Conjuration (Favored)": {
+      "name": "Conjuration (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school focuses on altering reality by creating, restoring or moving objects and creatures. <em>@Compendium[swpf-core-rules.swpf-powers.Barrier]{Barrier}, @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}, @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}, @Compendium[swpf-core-rules.swpf-powers.Healing]{healing}, @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}, @Compendium[swpf-core-rules.swpf-powers.Relief]{relief}, @Compendium[swpf-core-rules.swpf-powers.Resurrection]{resurrection}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior&rsquo;s gift}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Conjuration (Opposition)": {
+      "name": "Conjuration (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school focuses on altering reality by creating, restoring or moving objects and creatures. <em>@Compendium[swpf-core-rules.swpf-powers.Barrier]{Barrier}, @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}, @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}, @Compendium[swpf-core-rules.swpf-powers.Healing]{healing}, @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}, @Compendium[swpf-core-rules.swpf-powers.Relief]{relief}, @Compendium[swpf-core-rules.swpf-powers.Resurrection]{resurrection}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior&rsquo;s gift}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Construct": {
+      "name": "Construct",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Golems and other animated objects are collectively called &ldquo;constructs.&rdquo; Some are sentient beings while others are mere automatons following the will of their masters.</p>\n<p>Whatever their origin or material, constructs have several inherent advantages over creatures of flesh and blood.</p>\n<p>Constructs add +2 when attempting to recover from being @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}, ignore 1 point of Wound penalties, don&rsquo;t breathe or eat and are immune to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{disease} and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison}, don&rsquo;t @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{Bleed Out}, and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds} are removed with @Compendium[swpf-core-rules.swpf-skills.Repair]{Repair} instead of @Compendium[swpf-core-rules.swpf-skills.Healing]{Healing} with no @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{\"Golden Hour\"}</p>\n</div>"
+    },
+    "Construct (Type)": {
+      "name": "Construct (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>An artificially created object or creature.</p>\n</div>"
+    },
+    "Darkvision": {
+      "name": "Darkvision",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Some creatures on Golarion possess the extraordinary ability to see without a light source. Creatures with this ability ignore penalties for @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} up to 10&Prime; (20 yards).</p>\n</div>"
+    },
+    "Death": {
+      "name": "Death",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Birth, fate, prophecy, repose</li>\n<li><span class=\"list-heading\">Deities:</span> Norgorber, Pharasma, Urgathoa, Zon-Kuthon.</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}, @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}, @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}, @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}, @Compendium[swpf-core-rules.swpf-powers.Mind Wipe]{Mind Wipe}, @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}</em><em> </em>.</li>\n</ul>\n</div>"
+    },
+    "Destined (Bloodline)": {
+      "name": "Destined (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>The character is destined for great things. She gains one additional @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Benny} per session.</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> The hero starts with two extra Bennies per session.</li>\n</ul>\n</div>"
+    },
+    "Destruction (Evil, Madness)": {
+      "name": "Destruction (Evil, Madness)",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Destruction, hate, madness, violence</li>\n<li><span class=\"list-heading\">Deities:</span> Asmodeus, Gorum, Lamashtu, Nethys, Norgorber, Rovagug, Urgathoa, Zon-Kuthon</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Bolt]{Bolt}, @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}, @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}, @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}</em></li>\n</ul>\n</div>"
+    },
+    "Detect Evil": {
+      "name": "Detect Evil",
+      "category": "Paladin",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"paladin-detect-evil\"><span class=\"list-heading\">Detect Evil:</span> As an action, the Paladin can concentrate on any one object or individual within Smarts range to determine whether it’s Evil in nature. See the Cleric section for deities and their alignments.</span></div>"
+    },
+    "Divination (Favored)": {
+      "name": "Divination (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school focuses on predicting the future and learning the secrets held by others. <em>@Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{Detect/conceal Arcana}, @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}, @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}, @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Divination (Opposition)": {
+      "name": "Divination (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school focuses on predicting the future and learning the secrets held by others. <em>@Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{Detect/conceal Arcana}, @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}, @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}, @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Draconic (Bloodline)": {
+      "name": "Draconic (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>There&rsquo;s a dragon lurking somewhere in the family tree. Its scion gains claws (Str+d4), scaly skin (Armor +2), and +1 damage to powers with @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{trappings} suitable to her draconic bloodline.</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> The sorcerer&rsquo;s claws now add @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} +2 and she gains @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} common to her bloodline (acid for black, fire for red, etc.).</li>\n</ul>\n</div>"
+    },
+    "Dragon (Type)": {
+      "name": "Dragon (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>The family of legendary magical reptilian creatures, usually winged.</p>\n</div>"
+    },
+    "Dwarf": {
+      "name": "Dwarf",
+      "category": "Ancestries",
+      "description": "<div class=\"swpf-core\">\n<p>Dwarves are a stern and hardy folk, ensconced in cities carved from the hearts of mountains. A proud, warlike people, dwarves remain determined to repel the depredations of their ancestral enemies. They tolerate &ldquo;frail&rdquo; peoples, @Compendium[swpf-core-rules.swpf-abilities.Elf]{(elves}, @Compendium[swpf-core-rules.swpf-abilities.Gnome]{gnomes} and @Compendium[swpf-core-rules.swpf-abilities.Halfling]{halflings}) while they often bond with @Compendium[swpf-core-rules.swpf-abilities.Human]{humans}, whose industrious nature comes closest to dwarven ideals.</p>\n<p>Short and stocky, dwarves stand a foot or two shorter than most humans. Male and female dwarves pride themselves on the length of their hair. Men often decorate their beards with clasps and intricate braids. A clean shaven male dwarf is a sure sign of madness.</p>\n<p><strong>Languages:</strong> Common and Dwarven.</p>\n<p><strong>Age Range:</strong> Adult 45, old age 188, max age 250-450.</p>\n<p><strong>Dwarf Males:</strong> Height 3'11-4'5 and weight 164-206 (Average 4'2\" , 185 lbs).</p>\n<p><strong>Dwarf Females:</strong> Height: 3'9\"-4'3\" and weight 134-176 (Average 4'0\", 165 lbs).</p>\n<ul>\n<li><span class=\"list-heading\">Darkvision: </span> Dwarven eyes are accustomed to the dark of the underearth. Dwarves ignore penalties for @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} up to 10&rdquo; (20 yards).</li>\n<li><span class=\"list-heading\">Iron constitution:</span> Dwarves add +1 when resisting @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison}. They also add +1 when resisting or recovering from powers or abilities that state they work like a power.</li>\n<li><span class=\"list-heading\">Reduced Pace:</span> Decrease the character&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} by 1 and reduce the running die by one die type.</li>\n<li><span class=\"list-heading\">Stonecunning:</span> Dwarves grow up in halls and caverns of worked stone, and get a @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} roll at +2 as a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{free action} within 10 feet of unusual stonework such as traps and hidden doors. Success means they know something is off, and a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{raise} gives them more specific information such as how to trigger the trap or open the door.</li>\n<li><span class=\"list-heading\">Tough:</span> Stout and tough, Dwarves start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} instead of a d4. This increases maximum Vigor to d12+1. They treat their @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Strength} as one die type higher when determining <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Encumbrance}</strong> and Minimum Strength to use armor and equipment without penalty (but not weapons). This ability stacks with the @Compendium[swpf-core-rules.swpf-edges.Brawny]{Brawny} Edge if the dwarf has it.</li>\n</ul>\n</div>"
+    },
+    "Elemental": {
+      "name": "Elemental",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Air, earth, fire, and water form the basis of the elemental realms, wherein dwell strange, unfathomable creatures.</p>\n<p>Elementals have bodies of pure earth, water, air, or fire and are immune to damage, effects, or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}s that match their native element. They also ignore additional damage from @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Called Shots}, ignore one point of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} penalties, don&rsquo;t breathe or eat, are immune to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{disease} and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison}, and can only be healed via magic or natural @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{Healing}.</p>\n</div>"
+    },
+    "Elemental (Air, Earth, Fire, Water)": {
+      "name": "Elemental (Air, Earth, Fire, Water)",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Air, cold, earth, fire, heat, water</li>\n<li><span class=\"list-heading\">Deities:</span> Abadar, Asmodeus, Gozreh, Pharasma, Sarenrae, Shelyn, Torag</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Barrier]{Barrier}, @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}, @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}, @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}, @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}</em>.</li>\n</ul>\n</div>"
+    },
+    "Elemental (Bloodline)": {
+      "name": "Elemental (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>The mage&rsquo;s family was touched by a powerful elemental force. Choose one of the elements listed below. Your hero gains @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} to that element and one of the following abilities:</p>\n<ul>\n<li><strong>Air:</strong> @Compendium[swpf-core-rules.swpf-abilities.Flight]{Flight}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} 6.</li>\n<li><strong>Earth: </strong>Burrowing Pace 6 (see @Compendium[swpf-core-rules.swpf-powers.Burrow]{Burrow}).</li>\n<li><strong>Fire:</strong> +2 damage to damaging Powers with a fire @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}.</li>\n<li><strong>Water:</strong> Enemies are automatically @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Hindered} when affected by your powers.</li>\n</ul>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> Once per encounter, you can unleash an elemental blast as an action. This causes 3d6 damage, uses the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Cone Template}, and may be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Evaded}.</li>\n</ul>\n</div>"
+    },
+    "Elf": {
+      "name": "Elf",
+      "category": "Ancestries",
+      "description": "<div class=\"swpf-core\">\n<p>The long-lived elves are children of the natural world, superficially similar to fey creatures and yet distinct in important ways. Elves value their privacy and traditions. Although they are often slow to make friends, once an outsider is accepted as a comrade, such alliances can last for generations. Elves distrust @Compendium[swpf-core-rules.swpf-abilities.Half-Orc]{half-orcs} and display a fascination with @Compendium[swpf-core-rules.swpf-abilities.Human]{humans}, while remaining mostly indifferent to other peoples.</p>\n<p>Elves are tall, thin souls with pointed ears and deep-set eyes of various colors. Whether they hail from the deep forests or hidden valleys, elves are born more graceful than humans, though somewhat slighter. Elves are known for their patience and affinity for magic.</p>\n<p><strong>Languages:</strong> Common and Elven.</p>\n<p><strong>Age Range:</strong> Adult 115, old age, 263, max age 350-750.</p>\n<p><strong>Elf Males:</strong> Height 5'6-6'8 and weight 116-158 (Average 6'1\" , 127 lbs).</p>\n<p><strong>Elf Females:</strong> Height 5'6\"-6'4\" and weight 96-126 (Average 6'1\", 117 lbs).</p>\n<ul>\n<li><span class=\"list-heading\">Agile:</span> Elves are graceful and agile. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Agility} instead of a d4. This increases maximum Agility to d12+1.</li>\n<li><span class=\"list-heading\">Elven Magic:</span> Elves have an inherent connection to arcane energies. Elves get a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{reroll} when rolling to resist enemy powers.</li>\n<li><span class=\"list-heading\">Intelligence: </span>Elves are highly intelligent and long-lived. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts} instead of a d4. This increases maximum Smarts to d12+1.</li>\n<li><span class=\"list-heading\">Keen Senses:</span> Elves start with a d6 in @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} instead of a d4. This increases their maximum Notice to d12+1.</li>\n<li><span class=\"list-heading\">Low Light Vision: </span>Elven eyes amplify light. Others often claim they can see stars in the elves&rsquo; eyes. They ignore penalties for Dim and Dark @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination}.</li>\n<li><span class=\"list-heading\">Slender:</span> Slight of build and less robust than others, elves suffer &minus;1 Toughness and &ndash;1 to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} rolls.</li>\n</ul>\n</div>"
+    },
+    "Elven Magic": {
+      "name": "Elven Magic",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Elven Magic:</span> Half-elves have an inherent connection to arcane energies. They get a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{reroll} when rolling to resist enemy powers.</li>\n</ul>\n</div>"
+    },
+    "Enchantment (Favored)": {
+      "name": "Enchantment (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school focuses on predicting the future and learning the secrets held by others. <em>@Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{Detect/conceal Arcana}, @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}, @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}, @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Enchantment (Opposition)": {
+      "name": "Enchantment (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school focuses on predicting the future and learning the secrets held by others. <em>@Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{Detect/conceal Arcana}, @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}, @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}, @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Energy Drain": {
+      "name": "Energy Drain",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>With a successful touch or attack, a victim must make a resistance roll (usually with @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor}) or lose a die type in the targeted attribute.</p>\n<p>If the attack would reduce an attribute below d4, the victim is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} until healed or he recovers a lost die type (see below). If the targeted attribute was Vigor, he must make a Vigor roll at the end of his next turn or perish.</p>\n<p><strong>Recovery:</strong> Unless slain, a victim recovers one die type every 24 hours, or if given respite with the Restoration modifier of <em>@Compendium[swpf-core-rules.swpf-powers.Relief]{relief}</em>.</p>\n</div>"
+    },
+    "Environmental Resistance": {
+      "name": "Environmental Resistance",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>The creature is resistant (but not immune) to a particular type of energy or matter such as cold, heat, electricity, cold iron, etc.</p>\n<p>Damage from that source is reduced by 4, and the being adds +4 to resist matching @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{Hazards} and powers with a similar @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}.</p>\n</div>"
+    },
+    "Environmental Weakness": {
+      "name": "Environmental Weakness",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>The creature is susceptible to a particular type of energy or matter, such as cold, heat, electricity, cold iron, etc.</p>\n<p>The creature takes +4 damage from that source, and subtracts 4 when resisting @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{Hazards} or powers with a similar @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}.</p>\n</div>"
+    },
+    "Ethereal": {
+      "name": "Ethereal",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Ghosts, shadows, will-o&rsquo;-wisps, and similar intangible creatures have no form in the physical world (or can turn it on and off at will). They can pass through physical objects, cannot be harmed by non-magical attacks, and cannot even be seen unless they desire to be. Ethereal creatures are affected by magical items, weapons, and supernatural powers.</p>\n<p>Unless its description says otherwise, ethereal creatures can throw objects, wield weapons, or even push terrified heroes down long, dark stairs.</p>\n</div>"
+    },
+    "Evocation (Favored)": {
+      "name": "Evocation (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>Evocation magic taps into the unseen source of power to produce spectacular effects. <em>@Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}, @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}, @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}, @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}, @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Evocation (Opposition)": {
+      "name": "Evocation (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>Evocation magic taps into the unseen source of power to produce spectacular effects. <em>@Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}, @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}, @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}, @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}, @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Fast": {
+      "name": "Fast",
+      "category": "Barbarian",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"barbarian-fast\"><span class=\"list-heading\">Fast:</span> Barbarians are fast and durable runners. They increase their base Pace by +2. This doesn’t affect their running die, but does stack with Edges like Fleet-Footed or ancestral modifiers.</span></div>"
+    },
+    "Favored Enemy": {
+      "name": "Favored Enemy",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"ranger-favored-enemy\"><span class=\"list-heading\">Favored Enemy:</span> Rangers study their foes, learning their ways, how to find them, and how to defeat them. Choose a type of enemy from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore08bestia.JournalEntryPage.08bestiary000000]{Bestiary}. The ranger gets one free reroll when failing to track (Survival) or attack (Athletics (throwing), Fighting, Shooting) that type of being.</span></div>"
+    },
+    "Favored Terrain": {
+      "name": "Favored Terrain",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"ranger-favored-terrain\"><span class=\"list-heading\">Favored terrain:</span> Choose a terrain type (Arctic, Desert, Forest, Jungle, Plains, Hills/Mountains, Rivers/Seas, Swamp, Urban, or Underground). The ranger draws an additional Action Card for initiative when in his Favored Terrain. (This has no effect on the number of cards a Ranger can use, so a Level Headed character can still choose which card to use, while a Hesitant character must still take the worst card.)  </span></div>"
+    },
+    "Fear": {
+      "name": "Fear",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Particularly frightening monsters cause Fear checks to all who see them. Some truly terrifying monsters may inflict penalties on Fear checks as well. A creature with Fear &minus;2, for instance, causes those who see it to make their Fear checks at &minus;2. See the <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04fear0000000000]{Fear}</strong> rules for effects.</p>\n</div>"
+    },
+    "Fearless": {
+      "name": "Fearless",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Mindless creatures, such as some undead, constructs, and the like, don&rsquo;t suffer from the weaknesses of the mortal mind. Fearless creatures are immune to @Compendium[swpf-core-rules.swpf-abilities.Fear]{Fear} effects and @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation}. They may still be @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunted}, however (usually because it draws their attention rather than causing emotional distress).</p>\n</div>"
+    },
+    "Fey (Bloodline)": {
+      "name": "Fey (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>The capricious nature of the fey runs in this sorcerer&rsquo;s family. She ignores Difficult Terrain in the wilderness and has the &ldquo;laughing touch.&rdquo; If she successfully touches a target with her hands (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Touch Attack}), the target is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted}.</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">Advanced Form:</span> Victims of a fey&rsquo;s spell with a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{lingering} effect, such as <em>@Compendium[swpf-core-rules.swpf-powers.Blind]{blind}, @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{lower trait}, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun},</em> and the like, subtract 2 from any roll made to recover.</li>\n</ul>\n</div>"
+    },
+    "Fey (Type)": {
+      "name": "Fey (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Supernatural creatures, usually humanoid in appearance, with connections to nature or some other fantastical realm.</p>\n</div>"
+    },
+    "Flexibility": {
+      "name": "Flexibility",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Flexibility:</span> Half-elves start with a d6 in any one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Attribute} instead of a d4. This does <em>not</em> increase the attribute maximum.</li>\n</ul>\n</div>"
+    },
+    "Flight": {
+      "name": "Flight",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>The creature can fly at the listed @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace}. It uses its @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} to maneuver in chases or other situations.</p>\n<p>If a creature&rsquo;s Pace is at least 24 and it's flying, attackers subtract 1 when making attacks against it. If it&rsquo;s Pace is 48 or higher, attackers subtract 2.</p>\n</div>"
+    },
+    "Gargantuan": {
+      "name": "Gargantuan",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Gargantuan creatures are those that are at least @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore08bestia.JournalEntryPage.08sizetable00000]{Size} 12 or higher. They have Heavy Armor (not to be confused with the heavy category of personal armor), can take three additional @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds}, and their attacks count as @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Heavy Weapons}.</p>\n<p><strong>Stomp:</strong> A Gargantuan creature may stomp by using an @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{area effect} template (the size of the template is determined by the GM based on the monster&rsquo;s &ldquo;footprint&rdquo;). The attack ignores @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Scale} modifiers and is an @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{opposed} @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} vs @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Agility} roll (defenders roll individually). Those who can&rsquo;t get out of the way are stomped for damage equal to the monster&rsquo;s Strength damage.</p>\n</div>"
+    },
+    "Glory (Good, Healing)": {
+      "name": "Glory (Good, Healing)",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Healing, love, mercy, peace</li>\n<li><span class=\"list-heading\">Deities:</span> Cayden Cailean, Desna, Erastil, Gorum, Iomedae, Irori, Pharasma, Sarenrae, Shelyn, Torag.</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{arcane protection}, @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}, @Compendium[swpf-core-rules.swpf-powers.Beast Friend]{Beast Friend}, @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}, @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}, @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>.</li>\n</ul>\n</div>"
+    },
+    "Gnome": {
+      "name": "Gnome",
+      "category": "Ancestries",
+      "description": "<div class=\"swpf-core\">\n<p>Unknown forces drove the gnomes from that realm long ago, forcing them to seek refuge in this world. Despite this, the gnomes have never completely abandoned their fey roots. They are often regarded by other peoples as strange and unpredictable; as a result, gnomes sometimes have difficulty interacting with others even though they bear no particular animosity to anyone.</p>\n<p>Gnomes are small; they rarely exceed three feet tall. Their hair tends towards vibrant colors from the fiery orange of autumn leaves to the deep purple of wildflowers. Their facial features vary, although many have large mouths and eyes. Whimsical people, gnomes are known as tricksters who prefer action to inaction.</p>\n<p><strong>Languages:</strong> Common, Gnome, and Sylvan.</p>\n<p><strong>Age Range:</strong> Adult 45, old age 150, max age 200-500.</p>\n<p><strong>Gnome Males:</strong> Height 3'2-3'8 and weight 37-43 (Average 3'5\" , 40 lbs).</p>\n<p><strong>Gnome Females:</strong> Height 3'-3'6\" and weight 32-38 (Average 3'3\", 35 lbs).</p>\n<ul>\n<li><span class=\"list-heading\">GNOME MAGIC:</span> Gnomes can cast @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05cantrips000000]{cantrips} as if they knew each of the following powers:<em>@Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light}, @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound}, @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis},</em> and <em>@Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend}</em> using their @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts} (or @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{arcane skill} if they have one). They have 1 @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000001]{Power Point} for activating these cantrips, regained as usual (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05activation0000]{here}). Gnomes with an Arcane Background or Mystic Power add their bonus Power Point to their pool but must still learn the spells if they wish to cast them normally.</li>\n<li><span class=\"list-heading\">Keen Senses:</span> Gnomes start with a d6 in @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} instead of a d4. This increases their maximum Notice to d12+1.</li>\n<li><span class=\"list-heading\">Low Light Vision: </span>Gnome eyes amplify light. They ignore penalties for Dim and Dark @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination}.</li>\n<li><span class=\"list-heading\">Obsessive:</span> Gnomes start with a d4 in any one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts}-related skill.</li>\n<li><span class=\"list-heading\">Reduced Pace: </span>Decrease the character&rsquo;s Pace by 1 and reduce the running die by one die type.</li>\n<li><span class=\"list-heading\">Size &minus;1: </span>Averaging roughly three and a half feet tall, gnomes reduce their @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size} and Toughness by 1.</li>\n<li><span class=\"list-heading\">Tough:</span> Gnomes are surprisingly hardy despite their size and strength. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} instead of a d4. This increases maximum Vigor to d12+1.</li>\n</ul>\n</div>"
+    },
+    "Gnome Magic": {
+      "name": "Gnome Magic",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">GNOME MAGIC:</span> Gnomes can cast @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05cantrips000000]{cantrips} as if they knew each of the following powers:<em>@Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light}, @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound}, @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis},</em> and <em>@Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend}</em> using their @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts} (or @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{arcane skill} if they have one). They have 1 @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000001]{Power Point} for activating these cantrips, regained as usual (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05activation0000]{here}). Gnomes with an Arcane Background or Mystic Power add their bonus Power Point to their pool but must still learn the spells if they wish to cast them normally.</li>\n</ul>\n</div>"
+    },
+    "Half-Elf": {
+      "name": "Half-Elf",
+      "category": "Ancestries",
+      "description": "<div class=\"swpf-core\">\n<p>Half-elves gain the grace of their namesakes, but none of their elegant frailty. Many are well-adjusted progeny of loving unions between a @Compendium[swpf-core-rules.swpf-abilities.Human]{human} and an @Compendium[swpf-core-rules.swpf-abilities.Elf]{elf}, but some are shunned by one side of the family or the other. Others may even be mistreated. Hence, a half-elf understands loneliness, and knows that identity is less a product of ancestry than of life experience. As such, half-elves are often open to friendships and alliances with others, and less likely to rely on first impressions.</p>\n<p>Their lifespans are closer to their human lineage than those of their elven kin. They exhibit physical characteristics from both their parents, such as pointed ears and human eyes, usually with a pleasing overall effect.</p>\n<p><strong>Languages:</strong> Common and Elven.</p>\n<p><strong>Age Range:</strong> Adult 22, old age 93, max age 125-185.</p>\n<p><strong>Half-elf Males:</strong> Height 5'4-6'6 and weight 110-180 (Average 5'11\" , 155 lbs).</p>\n<p><strong>Half-elf Females:</strong> Height 5'2\"-6'4\" and weight 100-170 (Average 5'9\", 135 lbs).</p>\n<ul>\n<li><span class=\"list-heading\">Elven Magic:</span> Half-elves have an inherent connection to arcane energies. They get a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{reroll} when rolling to resist enemy powers.</li>\n<li><span class=\"list-heading\">Flexibility:</span> Half-elves start with a d6 in any one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Attribute} instead of a d4. This does <em>not</em> increase the attribute maximum.</li>\n<li><span class=\"list-heading\">Low Light Vision:</span> Half-elven eyes amplify light. They ignore penalties for Dim and Dark @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination}.</li>\n</ul>\n</div>"
+    },
+    "Half-Orc": {
+      "name": "Half-Orc",
+      "category": "Ancestries",
+      "description": "<div class=\"swpf-core\">\n<p>Half-orcs exhibit characteristics of their orc forebears as well as the other branch of their family tree (usually human). They are rarely the result of loving unions, a fact which causes others to distrust and even fear them. Half-orcs are sometimes accepted by orcish communities, but are usually shunned by most others, including @Compendium[swpf-core-rules.swpf-abilities.Human]{humans}, @Compendium[swpf-core-rules.swpf-abilities.Elf]{elves}, and @Compendium[swpf-core-rules.swpf-abilities.Dwarf]{dwarves}, because of longstanding enmity with their ancestors.</p>\n<p>Some half-orcs choose to live among non-orcish peoples, turning their backs on their belligerent roots and looking to redeem themselves. Many are heroic souls trying to prove themselves.</p>\n<p>Half-orcs stand between six and seven feet tall, with powerful builds. Their features are harsh and angular, like that of orcs. Their natural life-span is the same as humans, though it is rare when one dies of old age.</p>\n<p><strong>Languages:</strong> Common and Orc.</p>\n<p><strong>Age Range:</strong> Adult 15, old age 45, max age 60-80.</p>\n<p><strong>Half-orc Males:</strong> Height 5'-6'10 and weight 164-318 (Average 5'11\", 241 lbs).</p>\n<p><strong>Half-orc Females:</strong> Height 4'7\"-6'5\" and weight 124-278 (Average 5'6\", 201 lbs).</p>\n<ul>\n<li><span class=\"list-heading\">Darkvision:</span> Half-orcs ignore penalties for @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} up to 10&rdquo; (20 yards).</li>\n<li><span class=\"list-heading\">Intimidating:</span> By their very nature, half-orcs inspire fear and awe. They start with a d4 in @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation}. This increases maximum Intimidation to d12+1.</li>\n<li><span class=\"list-heading\">Orc Ferocity: </span>Half-orcs are as tough as old boots. They gain +1 Toughness.</li>\n<li><span class=\"list-heading\">Outsider (MINOR):</span> Most cultures are suspicious of half-orcs, and orcish societies distrust their human sides. They subtract 2 from all @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls and are often resented or belittled by others.</li>\n<li><span class=\"list-heading\">Strong: </span> Half-orcs possess some of the might of their orcish ancestry. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Strength} instead of a d4. This increases maximum Strength to d12+1.</li>\n</ul>\n</div>"
+    },
+    "Halfling": {
+      "name": "Halfling",
+      "category": "Ancestries",
+      "description": "<div class=\"swpf-core\">\n<p>Halflings are small, nimble people with fuzzy brown or black hair on their heads and feet. Their cheerful optimism (or wily cunning) gives them a &ldquo;never say die&rdquo; attitude that makes them a match for creatures twice their size. Halflings see no reason to invite trouble and tend to live in their own close-knit communities far off the beaten path. They possess a strong sense of humor, curiosity, and bravado&mdash; qualities which lead some halflings to lives of adventure.</p>\n<p>Halflings prefer to walk barefoot, leading to the bottoms of their feet being roughly calloused.</p>\n<p><strong>Languages:</strong> Common and Halfling.</p>\n<p><strong>Age Range:</strong> Adult 22, old age 75, max age100-200.</p>\n<p><strong>Halfling Males:</strong> Height 2'10-3'4 and weight 32-38 (Average 3'1\" , 35 lbs).</p>\n<p><strong>Halfling Females:</strong> Height 2'8\"-3'2\" and weight 27-33 (Average 2'11\", 30 lbs).</p>\n<ul>\n<li><span class=\"list-heading\">Agile:</span> Halflings are graceful and agile. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Agility} instead of a d4. This increases maximum Agility to d12+1.</li>\n<li><span class=\"list-heading\">Keen Senses:</span> Keen senses allow halflings to catch details others might miss. They start with a d6 in @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} instead of a d4. This increases maximum Notice to d12+1.</li>\n<li><span class=\"list-heading\">Lucky: </span>Halflings have a knack for surviving. They gain the @Compendium[swpf-core-rules.swpf-edges.Luck]{Luck} Edge. Even halfling @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Extras} gain this ability!</li>\n<li><span class=\"list-heading\">Reduced Pace:</span> Decrease @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} by 1 and reduce the running die by one die type.</li>\n<li><span class=\"list-heading\">Size &minus;1:</span> Halflings reduce their @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size} and Toughness by 1.</li>\n<li><span class=\"list-heading\">Sure-Footed:</span> Naturally graceful, halflings start with a d6 in @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} instead of a d4. This increases maximum Athletics to d12+1.</li>\n</ul>\n<div>&nbsp;</div>\n</div>"
+    },
+    "Hardy": {
+      "name": "Hardy",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Very tough or determined creatures do not fall from lesser injuries, no matter how many they suffer. A decisive blow is needed to put one of these tenacious creatures down.</p>\n<p>If the beast is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}, another Shaken result doesn&rsquo;t cause a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound}.</p>\n</div>"
+    },
+    "Horns": {
+      "name": "Horns",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>See <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Natural Weapons}</strong>.</p>\n</div>"
+    },
+    "Human": {
+      "name": "Human",
+      "category": "Ancestries",
+      "description": "<div class=\"swpf-core\">\n<p>Humans possess exceptional drive and ambition. They demonstrate a great capacity to endure hardships, as well as a penchant for expanding their territories. Humanity is often characterized by its tumultuousness and diversity; cultures range from small, nomadic tribes to peaceful agrarian villages and vast cosmopolitan (even decadent) cities and kingdoms.</p>\n<p>The physical characteristics of humans are as varied as the world&rsquo;s climes. From dark-skinned tribesmen of the southern continents to the pale and barbaric raiders of the northern lands, humans possess a wide variety of skin colors, body types, and facial features.</p>\n<p><strong>Language</strong><strong>s:</strong> Common.</p>\n<p><strong>Age Range:</strong> Adult 17, old age 53, max age 70-110</p>\n<p><strong>Human Males:</strong> Height 5'-6'6 and weight 130-220 (Average 5'9\" , 175 lb).</p>\n<p><strong>Human Females:</strong> Height 4'7\"-6'1\" and weight 95-185 (Average 5'4\", 140 lb).</p>\n<ul>\n<li><span class=\"list-heading\">Adaptability:</span> Humans start with a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edges000000000]{Edge} (they must meet the requirements, as usual). They also gain a d6 in any one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Attribute} instead of a d4. This does <em>not</em> increase the attribute limit.</li>\n</ul>\n</div>"
+    },
+    "Humanoid (Type)": {
+      "name": "Humanoid (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Biped creatures, with a human-like head, torso and limbs. Humanoids usually possess language and form cultures.</p>\n</div>"
+    },
+    "Illusion (Favored)": {
+      "name": "Illusion (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school deceives the senses or minds of others. These spells often cause people to see things that are not there, or not see things that are. <em>@Compendium[swpf-core-rules.swpf-powers.Disguise]{Disguise}, @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}, @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{Schools of Magic}</p>\n</div>"
+    },
+    "Illusion (Opposition)": {
+      "name": "Illusion (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school deceives the senses or minds of others. These spells often cause people to see things that are not there, or not see things that are. <em>@Compendium[swpf-core-rules.swpf-powers.Disguise]{Disguise}, @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}, @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{Schools of Magic}</p>\n</div>"
+    },
+    "Immunity": {
+      "name": "Immunity",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Creatures born in fire aren&rsquo;t affected by heat, and a horror made of pure lightning won&rsquo;t suffer from a <em>@Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}</em> attack with an electrical @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}. Immunities are to specific types of attacks, such as fire, cold, electricity, and so on. Such creatures don&rsquo;t have <strong>@Compendium[swpf-core-rules.swpf-abilities.Invulnerability]{Invulnerability}</strong> (see below), they just ignore damage and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stun} results from the specific attack types named.</p>\n</div>"
+    },
+    "Infection": {
+      "name": "Infection",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>A vampire&rsquo;s bite, a horrid spider-like creature that injects eggs into its victim&rsquo;s skin, or the scratches of certain vermin might all cause Infection.</p>\n<p>A character @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounded} by a creature with Infection must make a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll. Modifiers to the roll are listed in the creature&rsquo;s description, as are the effects of failure.</p>\n</div>"
+    },
+    "Infernal (Bloodline)": {
+      "name": "Infernal (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>A relative made a deal with dark forces in the distant past. The character gains @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} to fire, immunity to poison, and adds +1 to the damage of any attack powers with a fire @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}.</p>\n<ul>\n<li><span class=\"list-heading\">Advanced Form:</span> The infernal grows or hides giant bat wings as a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{free action}. Her wings grant her @Compendium[swpf-core-rules.swpf-abilities.Flight]{Flight} at @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} 12.</li>\n</ul>\n</div>"
+    },
+    "Innate Powers": {
+      "name": "Innate Powers",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Various creatures on Golarion have innate powers. These are usually magical abilities with \"spell-like\" effects or powers.</p>\n<p>Unless otherwise noted, activating an innate power is an @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{action} and doesn't require a roll. A minor ability \"casts\" the listed power with basic success, and a major ability casts as if with a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{raise}.</p>\n<p>If an ability requires a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Trait roll} instead, it's listed after the power (and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Critical Failure} causes @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Fatigue}). Those that don't require a Trait roll are simply described as minor or major, like so:</p>\n<ul>\n<li><span class=\"list-heading\">Innate Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{Invisibility} (@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Spirit})</em>, <em>@Compendium[swpf-core-rules.swpf-powers.Puppet]{minor puppet}.</em></li>\n</ul>\n<p><strong>Duration:</strong> Unless a creature's description lists a particular @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Duration}, Innate Powers may be maintained indefinitely, but terminate instantly if the creature is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned}.</p>\n</div>"
+    },
+    "Intelligence": {
+      "name": "Intelligence",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Intelligence: </span>Elves are highly intelligent and long-lived. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts} instead of a d4. This increases maximum Smarts to d12+1.</li>\n</ul>\n</div>"
+    },
+    "Intimidating": {
+      "name": "Intimidating",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Intimidating:</span> By their very nature, half-orcs inspire fear and awe. They start with a d4 in @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation}. This increases maximum Intimidation to d12+1.</li>\n</ul>\n</div>"
+    },
+    "Invulnerability": {
+      "name": "Invulnerability",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Invulnerable creatures ignore damage as listed in their description. Unless otherwise specified, they can be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned} but not @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounded} by other forms of damage. An ancient dark god given life by misguided cultists, for example, might only be vulnerable to relics of a rival deity.</p>\n</div>"
+    },
+    "Iron Constitution": {
+      "name": "Iron Constitution",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Iron constitution:</span> Dwarves add +1 when resisting @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison}. They also add +1 when resisting or recovering from powers or abilities that state they work like a power.</li>\n</ul>\n</div>"
+    },
+    "Keen Senses": {
+      "name": "Keen Senses",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Keen Senses:</span> Gnomes start with a d6 in @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} instead of a d4. This increases their maximum Notice to d12+1.</li>\n</ul>\n</div>"
+    },
+    "Knowledge": {
+      "name": "Knowledge",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Literacy, history, revealing secrets</li>\n<li><span class=\"list-heading\">Deities:</span> Calistria, Irori, Nethys, Norgorber, Pharasma</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{arcane protection}, @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}, @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}, @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}</em>.</li>\n</ul>\n</div>"
+    },
+    "Low Light Vision": {
+      "name": "Low Light Vision",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Low Light Vision ignores penalties for Dim and Dark @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} (but not Pitch Darkness).</p>\n</div>"
+    },
+    "Luck": {
+      "name": "Luck",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Chance, fortune, losing, winning</li>\n<li><span class=\"list-heading\">Deities:</span> Calistria, Desna, Shelyn</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}, @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}, @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}, @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}, @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}, @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}</em>.</li>\n</ul>\n</div>"
+    },
+    "Lucky": {
+      "name": "Lucky",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Lucky: </span>Halflings have a knack for surviving. They gain the @Compendium[swpf-core-rules.swpf-edges.Luck]{Luck} Edge. Even halfling @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Extras} gain this ability!</li>\n</ul>\n</div>"
+    },
+    "Magic (Rune)": {
+      "name": "Magic (Rune)",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Arcane power, reality, runes</li>\n<li><span class=\"list-heading\">Deities:</span> Asmodeus, Irori, Nethys, Urgathoa</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}, @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}, @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}, @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>.</li>\n</ul>\n</div>"
+    },
+    "Magical Beast (Type)": {
+      "name": "Magical Beast (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Similar to @Compendium[swpf-core-rules.swpf-abilities.Animal (Type)]{Animals}, creatures of this type possess some kind of magical or supernatural ability.</p>\n</div>"
+    },
+    "Martial Discipline": {
+      "name": "Martial Discipline",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"monk-martial-discipline\"><span class=\"list-heading\">Martial Discipline:</span> Monks hone their bodies to perfection, gaining an additional +1 Toughness if wearing no armor.</span></div>"
+    },
+    "Martial Flexibility": {
+      "name": "Martial Flexibility",
+      "category": "Fighter",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"fighting-martial-flexibility\"></span></div>"
+    },
+    "Mindless": {
+      "name": "Mindless",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>This creature is immune to <em>@Compendium[swpf-core-rules.swpf-powers.Puppet]{Puppet}</em>, @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation}, @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt}, and any attempts to manipulate it with any abilities that @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Tests} its @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts}.</p>\n</div>"
+    },
+    "Mobility": {
+      "name": "Mobility",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"monk-mobility\"><span class=\"list-heading\">Mobility:</span> Quick and nimble, monks increase their running die by one die type.</span></div>"
+    },
+    "Monstrous Humanoid (Type)": {
+      "name": "Monstrous Humanoid (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Similar to @Compendium[swpf-core-rules.swpf-abilities.Humanoid (Type)]{Humanoids}, these creatures have some monstrous features or characteristics, as well as magical or beastly abilities.</p>\n</div>"
+    },
+    "Natural Weapons": {
+      "name": "Natural Weapons",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Creatures with natural weapons such as fangs, claws, or horns may attack with any or all of them using their @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} skill. Damage is stated for character races and beasts in their various descriptions.</p>\n<p>Creatures with natural weapons are always considered armed. This means they aren&rsquo;t @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Unarmed Defender} and foes fighting with @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Two Weapons} gain no advantage against them. Here are additional notes for each type of attack:</p>\n<ul>\n<li><span class=\"list-heading\">BITE:</span> The creature may bite a target it has grappled (most attackers can only crush their prey, see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Grappling}</strong>).</li>\n<li><span class=\"list-heading\">CLAWS:</span> +2 to @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (climbing) rolls on any rough or soft surface (not sheer steel, glass, etc.).</li>\n<li><span class=\"list-heading\">HORNS:</span> Add +4 damage at the end of one @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} action in which it runs, moves at least 5&Prime;(10 yards), and successfully hits with its horns.</li>\n</ul>\n</div>"
+    },
+    "Nature (Animal, Plant, Weather)": {
+      "name": "Nature (Animal, Plant, Weather)",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Animals, plants, weather, seas</li>\n<li><span class=\"list-heading\">Deities:</span> Erastil, Gozreh, Rovagug</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Baleful Polymorph]{baleful polymorph}, @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Beast Friend]{Beast Friend}, @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}, @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}, @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, protection, @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}</em>.</li>\n</ul>\n</div>"
+    },
+    "Nature Bond": {
+      "name": "Nature Bond",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"druid-nature-bond\">\n<h3>Nature Bond</h3>\n<p>The bonds druids form with nature are deep and powerful. Choose one of these abilities:</p>\n<p><strong>Attuned:</strong> The druid gets one free reroll anytime she fails a Faith roll to activate a spell.</p>\n<p><strong>Beast Master:</strong>  The druid gains the Beast Master Edge, gaining an animal companion. This companion is a Wild Card.</p>\n</span></div>"
+    },
+    "Nature Sense": {
+      "name": "Nature Sense",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"druid-nature-sense\"><span class=\"list-heading\">Nature Sense:</span> Druids commune with nature and its spirits. Survival is linked to Spirit rather than Smarts. </span></div>"
+    },
+    "Necromancy (Favored)": {
+      "name": "Necromancy (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school manipulates the power of death, unlife, and the life force. <em> @Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}, @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain Power Points}, @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}, @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{lower Trait}, @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}. </em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Necromancy (Opposition)": {
+      "name": "Necromancy (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>This school manipulates the power of death, unlife, and the life force. <em> @Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}, @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain Power Points}, @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}, @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{lower Trait}, @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}. </em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Night Vision": {
+      "name": "Night Vision",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Some creatures thrive in the darkest depths of the night&mdash; or in underground caverns and dungeons. Creatures with night vision ignore all @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} penalties.</p>\n</div>"
+    },
+    "Obsessive": {
+      "name": "Obsessive",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Obsessive:</span> Gnomes start with a d4 in any one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Smarts}-related skill.</li>\n</ul>\n</div>"
+    },
+    "Ooze (Type)": {
+      "name": "Ooze (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Mindless amorphous creatures, Oozes often consume resources and pose environmental hazards to other creature types.</p>\n</div>"
+    },
+    "Orc Ferocity": {
+      "name": "Orc Ferocity",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Orc Ferocity: </span>Half-orcs are as tough as old boots. They gain +1 Toughness.</li>\n</ul>\n</div>"
+    },
+    "Outsider": {
+      "name": "Outsider",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Outsider (MINOR):</span> Most cultures are suspicious of half-orcs, and orcish societies distrust their human sides. They subtract 2 from all @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls and are often resented or belittled by others.</li>\n</ul>\n</div>"
+    },
+    "Outsider (Type)": {
+      "name": "Outsider (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Although these creatures resemble other types, their origin, or perhaps their composition, comes from beyond the Material Plane.</p>\n</div>"
+    },
+    "Pack Tactics": {
+      "name": "Pack Tactics",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>This creature applies its @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Gang Up} bonus to damage rolls as well as the usual bonus to @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}.</p>\n</div>"
+    },
+    "Paralysis": {
+      "name": "Paralysis",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Paralyzing poisons are covered under Poison, below. Other creatures might paralyze their victims with magic, electricity, or other sources. Victims @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounded} by a paralyzing effect are @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned} but can't attempt to recover for d4+1 rounds (or longer if otherwise specified).</p>\n</div>"
+    },
+    "Plant (Type)": {
+      "name": "Plant (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Creatures composed of vegetation, different than regular plant life, which are considered objects.</p>\n</div>"
+    },
+    "Poison": {
+      "name": "Poison",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Snakes, spiders, and other creatures inject poisonous venom via bite or scratch. To do so, the thing must cause at least a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} result to the victim, who then makes a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll modified by the strength of the poison (listed in parentheses after the creature&rsquo;s Poison ability). Effects of failure are described in more detail in the <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{Hazards}</strong> section.</p>\n</div>"
+    },
+    "Pounce": {
+      "name": "Pounce",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Predators often pounce on their prey to best bring their mass and claws to bear. If a creature with pounce makes a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wild Attack}, it adds +4 to its damage instead of +2 to one successful @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} attack.</p>\n</div>"
+    },
+    "Protection": {
+      "name": "Protection",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Protection, care-giving, shelter</li>\n<li><span class=\"list-heading\">Deities:</span> Abadar, Nethys, Shelyn, Torag</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{arcane protection}, @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}, @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}, @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>.</li>\n</ul>\n</div>"
+    },
+    "Rage": {
+      "name": "Rage",
+      "category": "Barbarian",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"barbarian-rage\">\n<li><span class=\"list-heading\">Rage:</span> Barbarians can call upon inner reserves of strength and ferocity in desperate circumstances. As a limited free action, a barbarian may “rage” voluntarily. If she’s Shaken or Wounded, she must make a Smarts roll or rage whether she wants to or not.<br/>Rage lasts five rounds. After the barbarian’s fifth turn raging, she takes a level of Fatigue that can only be recovered with an hour’s rest (generally no walking, riding, etc). <br/>An @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Exhausted} barbarian who rages is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} afterward. See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{here} for more on Fatigue.</li>\n</span></div>"
+    },
+    "Reduced Pace": {
+      "name": "Reduced Pace",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Reduced Pace: </span>Decrease the character&rsquo;s Pace by 1 and reduce the running die by one die type.</li>\n</ul>\n</div>"
+    },
+    "Regeneration": {
+      "name": "Regeneration",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Hydras, trolls, vampires, and other legendary creatures can Regenerate their injuries.</p>\n<p>Regeneration comes in two types: Fast and Slow.</p>\n<ul>\n<li><span class=\"list-heading\">Fast:</span> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounded} creatures make a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll every round&mdash; even after they&rsquo;ve been @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated}. @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Success} heals one Wound (or removes Incapacitated status), and a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{raise} heals an additional Wound. Wounds caused by some types of damage, listed in the creature&rsquo;s description, do not regenerate but may still heal naturally. Trolls cannot regenerate Wounds caused by flame, for example.</li>\n<li><span class=\"list-heading\">Slow:</span> The creature makes a natural @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{healing} roll once per day.</li>\n</ul>\n</div>"
+    },
+    "Rending Attack": {
+      "name": "Rending Attack",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Some creatures have especially vicious claws or weapons. Victims @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounded} by a rending attack are bleeding and must make a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll as a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{free action} at the beginning of their next turn.</p>\n<p>Failure causes one Wound and the victim must make another Vigor roll next turn. @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Success} means the victim doesn't suffer a Wound, but must make a Vigor roll again next turn. A @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{raise} stops the bleeding and no further rolls are required from that attack.</p>\n<p>A successful @Compendium[swpf-core-rules.swpf-skills.Healing]{Healing} roll also stops the bleeding.</p>\n</div>"
+    },
+    "Resilient": {
+      "name": "Resilient",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Some creatures, such as ogres or dire versions of common animals on Golarion, are tough to put down.</p>\n<p>Resilient Extras can take one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} before they&rsquo;re @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated}, Very Resilient Extras can take two. @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Wild Cards} can&rsquo;t be Resilient or Very Resilient. The abilities exist to bring select Extras a little closer to the heroes and villains who lead them.</p>\n</div>"
+    },
+    "Secret Language": {
+      "name": "Secret Language",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"druid-secret-language\"><span class=\"list-heading\">Secret Language:</span> All druids know the secret language known as druidic.</span></div>"
+    },
+    "Sharp Tongued": {
+      "name": "Sharp Tongued",
+      "category": "Bard",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"bard-sharp-tongued\"><span class=\"list-heading\">Sharp Tongued:</span> Bards may use Performance as @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt} to Test a foe. They may also ignore the Repetition advice given under @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Tests}, as long as they recite different verses, stanzas, lyrics, etc. Bards may also substitute Performance for Taunt to meet Edge Requirements.</span></div>"
+    },
+    "Size": {
+      "name": "Size",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Size grants a bonus to Toughness (or penalty for small creatures) and is a <em>guide</em> to the typical @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Strength} of creatures in that general range.</p>\n<p>Size is generally based on mass, but exceptions exist for extremely large but weak creatures, small but strong beings, etc.</p>\n<p>Scale Modifiers are explained under <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size &amp; Scale}</strong>.</p>\n<p><strong>Additional Wounds:</strong> Large creatures can take an additional @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound}, Huge can take two, and Gargantuan three. The maximum Wound penalty is always three. This stacks with <strong>@Compendium[swpf-core-rules.swpf-abilities.Resilient/Very Resilient]{Resilient/Very Resilient}</strong>.</p>\n<p>Such creatures typically have @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} equal to the additional @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds} granted by Size.</p>\n</div>"
+    },
+    "Size -1": {
+      "name": "Size -1",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Size &minus;1:</span> Halflings reduce their @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size} and Toughness by 1.</li>\n</ul>\n</div>"
+    },
+    "Slender": {
+      "name": "Slender",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Slender:</span> Slight of build and less robust than others, elves suffer &minus;1 Toughness and &ndash;1 to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} rolls.</li>\n</ul>\n</div>"
+    },
+    "Smite Evil": {
+      "name": "Smite Evil",
+      "category": "Paladin",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"paladin-smite-evil\"><span class=\"list-heading\">Smite Evil:</span> As a free action, a paladin can choose an enemy. If that enemy is evil, she gets a free reroll on any failed @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} rolls against that target for the remainder of the encounter. She may use this ability once per Rank per encounter.</span></div>"
+    },
+    "Sneak Attack": {
+      "name": "Sneak Attack",
+      "category": "Rogue",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"rogue-sneak-attack\"><span class=\"list-heading\">Sneak Attack:</span> Rogues add an additional d6 to their damage when they have the Drop on their victim, or the victim is Vulnerable. This applies to @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} attacks.</span></div>"
+    },
+    "Spellbooks": {
+      "name": "Spellbooks",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\"><p><span data-embed-id=\"wizard-spellbooks\"><span class=\"list-heading\">Spellbooks:</span> Wizards must keep and maintain spellbooks.</span><p> <p><span data-embed-id=\"wizard-spellbook-rules\">\n<h3>Spellbooks</h3>\n<p>@Compendium[swpf-core-rules.swpf-gear.Spellbook, Wizard (blank)]{Link to Journal Entry}</p><p>Wizard spells are strange, complex things that fade quickly from the minds of even the most accomplished casters. For this reason, each wizard maintains a spellbook with the spells he’s translated and acquired. He studies them daily, transcribing their mystical patterns onto his mind.</p>\n<p>The link to the book is far more than rote memorization— it is an arcane bond with the power and patterns within. If a wizard doesn’t have access to his spellbook, he may continue to cast normally until the next sunset or sunrise (whichever comes first). After that, the magical imprint on his mind fades and he can no longer cast them.</p>\n<p>Wizards may only carry one active spellbook at a time. The mountains of scrolls, magical notations, and research needed to prepare another cannot be carried with the wizard and must be stored safely somewhere. It takes a week of work and 500 gp to create a replacement spellbook once the wizard has access to his magical notes.</p>\n<p>When a wizard takes the New Powers Edge, he chooses any two powers as usual. If he has found any spells (including scrolls) through exploration or purchase, and it is of his Rank or less, he may take one of those as a bonus third power at that time as well</p>\n</span></p></p></p></div>"
+    },
+    "Stone Cunning": {
+      "name": "Stone Cunning",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Stonecunning:</span> Dwarves grow up in halls and caverns of worked stone, and get a @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} roll at +2 as a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{free action} within 10 feet of unusual stonework such as traps and hidden doors. Success means they know something is off, and a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{raise} gives them more specific information such as how to trigger the trap or open the door.</li>\n</ul>\n</div>"
+    },
+    "Strength": {
+      "name": "Strength",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Brawn, champions, contest</li>\n<li><span class=\"list-heading\">Deities:</span> Cayden Cailean, Gorum, Irori, Lamashtu, Urgathoa</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{arcane protection}, @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}, @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}, @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}, @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}.</em></li>\n</ul>\n</div>"
+    },
+    "Strong": {
+      "name": "Strong",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Strong: </span> Half-orcs possess some of the might of their orcish ancestry. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Strength} instead of a d4. This increases maximum Strength to d12+1.</li>\n</ul>\n</div>"
+    },
+    "Stun": {
+      "name": "Stun",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>A creature with this ability often has an electrical attack, mild toxin, mind lash, or similar @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}. When it successfully hits a character (even if it causes no damage), she must make a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll minus any listed penalties or be <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned}</strong>.</p>\n</div>"
+    },
+    "Stunning Fist": {
+      "name": "Stunning Fist",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"monk-stunning-fist\"><span class=\"list-heading\">STUNNING FIST:</span> When a monk hits a target with an Unarmed Strike and scores a raise, he may make the foe Distracted or  Vulnerable. This occurs even if the victim takes no damage or Soaks it (the states are applied after the victim attempts to Soak). </span></div>"
+    },
+    "Sun": {
+      "name": "Sun",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Light, radiance, warmth, life</li>\n<li><span class=\"list-heading\">Deities:</span> Iomedae, Sarenrae</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}, @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}, @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}, @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}</em>.</li>\n</ul>\n</div>"
+    },
+    "Sure-Footed": {
+      "name": "Sure-Footed",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Sure-Footed:</span> Naturally graceful, halflings start with a d6 in @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} instead of a d4. This increases maximum Athletics to d12+1.</li>\n</ul>\n<div>&nbsp;</div>\n</div>"
+    },
+    "Swallow Whole": {
+      "name": "Swallow Whole",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Certain massive creatures with gigantic maws can swallow their prey whole. This usually requires a successful @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Bite} attack. See the creature&rsquo;s description for details and how prey might escape this dire fate!</p>\n</div>"
+    },
+    "Swat": {
+      "name": "Swat",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>The creature has learned how to deal with pesky creatures smaller than itself. It ignores up 4 points of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Scale} penalties when attacking with certain abilities listed in its description (and only those specific abilities).</p>\n</div>"
+    },
+    "Tentacles": {
+      "name": "Tentacles",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>The creature has a number of &ldquo;tentacle actions&rdquo; specified in its description (usually 2 or 4) it may use once per turn. All of a creature's tentacle @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{actions} count as <em>one</em> of its three potential actions for the turn, and must stem from the tentacle in some way&mdash; usually a @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting}, or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Grappling} attack (GM&rsquo;s call). A giant octopus with four tentacle actions, for example, could make four attacks as one action and still have two actions left over.</p>\n<p>If the creature is a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Wild Card}, it rolls its @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Wild Die} with each tentacle action as usual.</p>\n<p>If the being performs other actions on its turn, such as @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunting} or casting a spell, these and the tentacle actions are affected by the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Multi-Action} penalty as usual.</p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Grappling} rolls made with tentacles get a +2 bonus, and its crushing attack causes the creature&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Strength} in damage unless otherwise listed.</p>\n<p>Severing a tentacle is a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Called Shot}. If damage exceeds the creature&rsquo;s Toughness, the limb is severed and the monster is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}. If it was already @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}, it takes a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound}.</p>\n</div>"
+    },
+    "Tough": {
+      "name": "Tough",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Tough:</span> Gnomes are surprisingly hardy despite their size and strength. They start with a d6 in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} instead of a d4. This increases maximum Vigor to d12+1.</li>\n</ul>\n</div>"
+    },
+    "Trample": {
+      "name": "Trample",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Elephants, rhinoceroses, and other large creatures can trample smaller victims under foot when moving at least 5&Prime; (10 yards) in a straight line. This usually applies only when the opponents are at least two @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore08bestia.JournalEntryPage.08sizetable00000]{sizes} smaller. See the creature's description for any special conditions or effects.</p>\n<p>The creature makes a single attack at &minus;2 and applies it to all victims in its movement path. Those it tramples may make an attack on it after if passes if desired (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Withdrawing From Melee}</strong>), unless it has @Compendium[swpf-core-rules.swpf-edges.Extraction]{Extraction} or a similar ability.</p>\n</div>"
+    },
+    "Transmutation (Favored)": {
+      "name": "Transmutation (Favored)",
+      "category": "Schools of Magic Favored",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>Transmutation changes the properties of some creature, thing, or condition. <em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost Trait}, @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}, @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}, @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Farsight]{farsight}, @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}, @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}, @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}, @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}, @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}, @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}, @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}, @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}, @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Transmutation (Opposition)": {
+      "name": "Transmutation (Opposition)",
+      "category": "Schools of Magic Opposition",
+      "description": "<div class=\"swpf-core\">\n<p>Specialists must choose one favored school and two opposition schools from the list @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{here}. They gain a free reroll on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional Power Point and suffer a &minus;2 penalty to the wizard's arcane skill roll.<br />Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em>.</p>\n<p>Transmutation changes the properties of some creature, thing, or condition. <em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost Trait}, @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}, @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}, @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Farsight]{farsight}, @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}, @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}, @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}, @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}, @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}, @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}, @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}, @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}, @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}.</em></p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{See Schools of Magic for more}.</p>\n</div>"
+    },
+    "Travel": {
+      "name": "Travel",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Freedom, liberation, wanderlust</li>\n<li><span class=\"list-heading\">Deities:</span> Abadar, Cayden Cailean, Desna</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Deflection]{Deflection}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}, @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}, @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}</em>.</li>\n</ul>\n</div>"
+    },
+    "Trickery": {
+      "name": "Trickery",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Chance, deception, secrets, stealth</li>\n<li><span class=\"list-heading\">Deities:</span> Asmodeus, Calistria, Lamashtu, Norgorber</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}, @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}, @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}, @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}, @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}, @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}</em>.</li>\n</ul>\n</div>"
+    },
+    "Unarmed Strike": {
+      "name": "Unarmed Strike",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"monk-unarmed-strike\"><span class=\"list-heading\">Unarmed Strike:</span> Monks gain +1 to Fighting attacks when attacking unarmed and AP +2. They cause Str+d4 damage with their hands, feet, or other <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Natural Weapons}</strong> (if they have such appendages). <br/>If the monk already has a Strength damage die from Claws (available to some ancestries), or the Brawler Edge, increase the damage a die type for each.<br/>Monks can apply the Trademark Weapon Edge to their unarmed attacks. <br/>Monks always count as armed. Some use regular weapons in their off-hand, but abilities that refer to their Unarmed Strike apply only to unarmed attacks as defined above.<br/>On a raise the monk rolls a d10 for his bonus damage.</span></div>"
+    },
+    "Undead": {
+      "name": "Undead",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Zombies, skeletons, and similar physical horrors are particularly difficult to destroy. In most cases, undead creatures are Evil, but there are exceptions. Below are the benefits of being such an abomination.</p>\n<ul>\n<li>Add +2 to Toughness and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Spirit} rolls to recover from being @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}, ignore additional damage from @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Called Shots}, ignore 1 point of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} penalties, don&rsquo;t breathe or eat and are immune to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{disease} and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison}, don&rsquo;t @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{Bleed Out}, ignore penalties for @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} up to 10&Prime;, and can only be healed with magical <em>@Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</em>.</li>\n</ul>\n</div>"
+    },
+    "Undead (Bloodline)": {
+      "name": "Undead (Bloodline)",
+      "category": "Bloodlines",
+      "description": "<div class=\"swpf-core\">\n<p>The taint of the grave runs through the character&rsquo;s bloodline. She gains @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} to cold and a +1 to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Soak rolls}.</p>\n<ul>\n<li><span class=\"list-heading\">Advanced Form:</span> The sorcerer is truly undead. She gains the full @Compendium[swpf-core-rules.swpf-abilities.Undead]{Undead} ability and the @Compendium[swpf-core-rules.swpf-hindrances.Outsider]{Outsider} (Major) and @Compendium[swpf-core-rules.swpf-hindrances.Ugly]{Ugly} (Major) Hindrance. The heroine might actually be attractive but she&rsquo;s still disturbing to the living!</li>\n</ul>\n</div>"
+    },
+    "Undead (Type)": {
+      "name": "Undead (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>A once-living creature reanimated by magical or supernatural force.</p>\n</div>"
+    },
+    "Unstoppable": {
+      "name": "Unstoppable",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>The creature has strong will, magical protections, or great mass. It takes a maximum of one Wound per attack no matter how many @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds} would normally be caused (after @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Soak rolls} are made). Certain Weaknesses or magic items ignore this ability, as does an attacker acting on a Joker.</p>\n</div>"
+    },
+    "Vermin (Type)": {
+      "name": "Vermin (Type)",
+      "category": "Special Abilities Types",
+      "description": "<div class=\"swpf-core\">\n<p>Living invertebrate creatures, from insects, to arachnids, and arthropods.</p>\n</div>"
+    },
+    "Very Resilient": {
+      "name": "Very Resilient",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Some creatures, such as ogres or dire versions of common animals on Golarion, are tough to put down.</p>\n<p>Resilient Extras can take one @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} before they&rsquo;re @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated}, Very Resilient Extras can take two. @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Wild Cards} can&rsquo;t be Resilient or Very Resilient. The abilities exist to bring select Extras a little closer to the heroes and villains who lead them.</p>\n</div>"
+    },
+    "Wall Walker": {
+      "name": "Wall Walker",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>A wall walker&rsquo;s movement rate when walking on walls is its standard @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Movement}. It may run as usual when walking on walls unless the specific creature&rsquo;s text says otherwise.</p>\n</div>"
+    },
+    "War": {
+      "name": "War",
+      "category": "Deities and Domains",
+      "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">Aspects:</span> Battle, bravery, victory</li>\n<li><span class=\"list-heading\">Deities:</span> Gorum, Iomedae, Rovagug, Urgathoa</li>\n<li><span class=\"list-heading\">Available Powers:</span> <em>@Compendium[swpf-core-rules.swpf-powers.Barrier]{Barrier}, @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}, @Compendium[swpf-core-rules.swpf-powers.Blind]{blind}, @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}, speed/sloth, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em></li>\n</ul>\n</div>"
+    },
+    "Weakness": {
+      "name": "Weakness",
+      "category": "Special Abilities",
+      "description": "<div class=\"swpf-core\">\n<p>Some creatures can only be hurt by certain substances, are debilitated by sunlight or holy symbols, or might perish immediately if affected by some holy relic, rare object, or magical item. A Weakness not covered by <strong>@Compendium[swpf-core-rules.swpf-abilities.Environmental Weakness]{Environmental Weakness}</strong> is listed here along with the specific rules and conditions required to trigger it.</p>\n</div>"
+    },
+    "Wilderness Stride": {
+      "name": "Wilderness Stride",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"ranger-wilderness-stride\"><span class=\"list-heading\">Wilderness Stride:</span> Rangers pass through rough terrain such as dense forest, rocky hills, or desert sands with ease. They ignore movement penalties for <strong>Difficult Ground</strong> (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Movement}).</span></div>"
+    }
+  }
+}

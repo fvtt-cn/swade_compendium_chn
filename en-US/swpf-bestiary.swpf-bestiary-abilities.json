@@ -1,0 +1,230 @@
+{
+  "label": "Special Abilities",
+  "entries": {
+    "Aberration (Type)": {
+      "name": "Aberration (Type)"
+    },
+    "All-Around Vision": {
+      "name": "All-Around Vision"
+    },
+    "Ancestry": {
+      "name": "Ancestry"
+    },
+    "Animal (Type)": {
+      "name": "Animal (Type)"
+    },
+    "Aquatic": {
+      "name": "Aquatic"
+    },
+    "Archons": {
+      "name": "Archons"
+    },
+    "Armor": {
+      "name": "Armor"
+    },
+    "Aura of Menace": {
+      "name": "Aura of Menace"
+    },
+    "Bash": {
+      "name": "Bash"
+    },
+    "Bite": {
+      "name": "Bite"
+    },
+    "Blindsense": {
+      "name": "Blindsense"
+    },
+    "Breath Weapons": {
+      "name": "Breath Weapons"
+    },
+    "Burrow": {
+      "name": "Burrow"
+    },
+    "Class Abilities": {
+      "name": "Class Abilities"
+    },
+    "Claws": {
+      "name": "Claws"
+    },
+    "Construct": {
+      "name": "Construct"
+    },
+    "Construct (Type)": {
+      "name": "Construct (Type)"
+    },
+    "Darkvision": {
+      "name": "Darkvision"
+    },
+    "Detect Evil": {
+      "name": "Detect Evil"
+    },
+    "Dragon (Type)": {
+      "name": "Dragon (Type)"
+    },
+    "Elemental": {
+      "name": "Elemental"
+    },
+    "Elemental Resistance": {
+      "name": "Elemental Resistance"
+    },
+    "Energy Drain": {
+      "name": "Energy Drain"
+    },
+    "Environmental Resistance": {
+      "name": "Environmental Resistance"
+    },
+    "Environmental Weakness": {
+      "name": "Environmental Weakness"
+    },
+    "Ethereal": {
+      "name": "Ethereal"
+    },
+    "Fear": {
+      "name": "Fear"
+    },
+    "Fearless": {
+      "name": "Fearless"
+    },
+    "Fey (Type)": {
+      "name": "Fey (Type)"
+    },
+    "Flight": {
+      "name": "Flight"
+    },
+    "Gargantuan": {
+      "name": "Gargantuan"
+    },
+    "Hardy": {
+      "name": "Hardy"
+    },
+    "Horns": {
+      "name": "Horns"
+    },
+    "Huge": {
+      "name": "Huge"
+    },
+    "Humanoid (Type)": {
+      "name": "Humanoid (Type)"
+    },
+    "Immunity": {
+      "name": "Immunity"
+    },
+    "Infection": {
+      "name": "Infection"
+    },
+    "Infestation": {
+      "name": "Infestation"
+    },
+    "Innate Powers": {
+      "name": "Innate Powers"
+    },
+    "Invulnerability": {
+      "name": "Invulnerability"
+    },
+    "Large": {
+      "name": "Large"
+    },
+    "Low Light Vision": {
+      "name": "Low Light Vision"
+    },
+    "Lycanthropy": {
+      "name": "Lycanthropy"
+    },
+    "Magical Beast (Type)": {
+      "name": "Magical Beast (Type)"
+    },
+    "Mindless": {
+      "name": "Mindless"
+    },
+    "Monstrous Humanoid (Type)": {
+      "name": "Monstrous Humanoid (Type)"
+    },
+    "Natural Weapons": {
+      "name": "Natural Weapons"
+    },
+    "Night Vision": {
+      "name": "Night Vision"
+    },
+    "Ooze (Type)": {
+      "name": "Ooze (Type)"
+    },
+    "Outsider (Type)": {
+      "name": "Outsider (Type)"
+    },
+    "Pack Tactics": {
+      "name": "Pack Tactics"
+    },
+    "Paralysis": {
+      "name": "Paralysis"
+    },
+    "Plant (Type)": {
+      "name": "Plant (Type)"
+    },
+    "Poison": {
+      "name": "Poison"
+    },
+    "Pounce": {
+      "name": "Pounce"
+    },
+    "Rage": {
+      "name": "Rage"
+    },
+    "Regeneration": {
+      "name": "Regeneration"
+    },
+    "Rending Attack": {
+      "name": "Rending Attack"
+    },
+    "Resilient": {
+      "name": "Resilient"
+    },
+    "Resilient/Very Resilient": {
+      "name": "Resilient/Very Resilient"
+    },
+    "Shape Change": {
+      "name": "Shape Change"
+    },
+    "Size": {
+      "name": "Size"
+    },
+    "Stun": {
+      "name": "Stun"
+    },
+    "Summon": {
+      "name": "Summon"
+    },
+    "Swallow Whole": {
+      "name": "Swallow Whole"
+    },
+    "Swat": {
+      "name": "Swat"
+    },
+    "Tentacles": {
+      "name": "Tentacles"
+    },
+    "Trample": {
+      "name": "Trample"
+    },
+    "Undead": {
+      "name": "Undead"
+    },
+    "Undead (Type)": {
+      "name": "Undead (Type)"
+    },
+    "Unstoppable": {
+      "name": "Unstoppable"
+    },
+    "Vermin (Type)": {
+      "name": "Vermin (Type)"
+    },
+    "Very Resilient": {
+      "name": "Very Resilient"
+    },
+    "Wall Walker": {
+      "name": "Wall Walker"
+    },
+    "Weakness": {
+      "name": "Weakness"
+    }
+  }
+}
