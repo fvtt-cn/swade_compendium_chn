@@ -15,7 +15,7 @@ def csv_to_json(csv_file, json_file):
 
     with open(json_file, 'w') as file:
         # 写入JSON文件
-        json.dump(data, file)
+        json.dump(data, file, ensure_ascii=False)
 
 if __name__ == '__main__':
     # 通过命令行参数获取CSV文件和JSON文件的路径
