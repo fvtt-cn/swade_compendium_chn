@@ -1,1 +1,83 @@
-{}
+{
+    "label": "技能",
+    "entries": {
+        "Academics": {
+            "name": "人文"
+        },
+        "Boating": {
+            "name": "驾船"
+        },
+        "Common Knowledge": {
+            "name": "通用知识"
+        },
+        "Driving": {
+            "name": "驾驶"
+        },
+        "Faith": {
+            "name": "信仰"
+        },
+        "Fighting": {
+            "name": "格斗"
+        },
+        "Gambling": {
+            "name": "赌博"
+        },
+        "Healing": {
+            "name": "治疗"
+        },
+        "Notice": {
+            "name": "察觉"
+        },
+        "Performance": {
+            "name": "表演"
+        },
+        "Persuasion": {
+            "name": "交涉"
+        },
+        "Riding": {
+            "name": "骑乘"
+        },
+        "Spellcasting": {
+            "name": "施法"
+        },
+        "Stealth": {
+            "name": "潜行"
+        },
+        "Science": {
+            "name": "科学"
+        },
+        "Shooting": {
+            "name": "射击"
+        },
+        "Survival": {
+            "name": "生存"
+        },
+        "Taunt": {
+            "name": "嘲弄"
+        },
+        "Thievery": {
+            "name": "贼活"
+        },
+        "Unskilled Attempt": {
+            "name": "未受训尝试"
+        },
+        "Athletics": {
+            "name": "运动"
+        },
+        "Battle": {
+            "name": "作战"
+        },
+        "Intimidation": {
+            "name": "威吓"
+        },
+        "Occult": {
+            "name": "神秘学"
+        },
+        "Piloting": {
+            "name": "航空"
+        },
+        "Repair": {
+            "name": "修理"
+        }
+    }
+}
