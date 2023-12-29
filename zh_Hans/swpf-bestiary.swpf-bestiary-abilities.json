@@ -1,3 +1,8 @@
 {
-    "label": "特殊能力"
+    "label": "特殊能力",
+    "entries": {
+        "Ancestry": {
+            "name": "族裔"
+        }
+    }
 }
