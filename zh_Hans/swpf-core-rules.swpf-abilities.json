@@ -3,6 +3,9 @@
     "entries": {
         "Luck": {
             "name": "幸运"
+        },
+        "Ancestry": {
+            "name": "族裔"
         }
     }
 }
