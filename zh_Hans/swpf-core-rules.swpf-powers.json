@@ -2,6 +2,18 @@
     "entries": {
         "Healing": {
             "name": "治疗"
+        },
+        "Arcane Protection": {
+            "name": "奥法防护"
+        },
+        "Barrier": {
+            "name": "屏障"
+        },
+        "Banish": {
+            "name": "放逐"
+        },
+        "Beast Friend": {
+            "name": "野兽同盟"
         }
     }
 }
