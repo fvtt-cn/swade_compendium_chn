@@ -1,1 +1,350 @@
-{}
+{
+    "label": "专长",
+    "entries": {
+        "Ace": {
+            "name": "王牌机师"
+        },
+        "Acrobat": {
+            "name": "特技员"
+        },
+        "Aristocrat": {
+            "name": "上流人士"
+        },
+        "Artificer": {
+            "name": "神器师"
+        },
+        "Brute": {
+            "name": "蛮勇"
+        },
+        "Calculating": {
+            "name": "谋定后动"
+        },
+        "Champion": {
+            "name": "勇士"
+        },
+        "Command Presence": {
+            "name": "指挥风度"
+        },
+        "Connections": {
+            "name": "人脉"
+        },
+        "Counterattack": {
+            "name": "反击"
+        },
+        "Danger Sense": {
+            "name": "危险感知"
+        },
+        "Dead Shot": {
+            "name": "死亡一射"
+        },
+        "Dodge": {
+            "name": "闪避"
+        },
+        "Elan": {
+            "name": "热忱"
+        },
+        "Extraction": {
+            "name": "脱身"
+        },
+        "Fame": {
+            "name": "小有名气"
+        },
+        "Famous": {
+            "name": "名声大噪"
+        },
+        "Feint": {
+            "name": "虚招"
+        },
+        "First Strike": {
+            "name": "先发制人"
+        },
+        "Followers": {
+            "name": "随从"
+        },
+        "Free Runner": {
+            "name": "自由跑者"
+        },
+        "Harder To Kill": {
+            "name": "死里逃生"
+        },
+        "Healer": {
+            "name": "治疗师"
+        },
+        "Holy/Unholy Warrior": {
+            "name": "神圣/邪恶战士"
+        },
+        "Humiliate": {
+            "name": "羞辱"
+        },
+        "Improved Arcane Resistance": {
+            "name": "精通奥法抗性"
+        },
+        "Improved Block": {
+            "name": "精通招架"
+        },
+        "Improved Counterattack": {
+            "name": "精通反击"
+        },
+        "Improved Dodge": {
+            "name": "精通闪避"
+        },
+        "Improved Extraction": {
+            "name": "精通脱身"
+        },
+        "Improved First Strike": {
+            "name": "精通先发制人"
+        },
+        "Improved Frenzy": {
+            "name": "精通连击"
+        },
+        "Improved Level Headed": {
+            "name": "精通沉稳冷静"
+        },
+        "Improved Nerves of Steel": {
+            "name": "精通钢铁神经"
+        },
+        "Improved Trademark Weapon": {
+            "name": "精通招牌武器"
+        },
+        "Improvisational Fighter": {
+            "name": "俯拾皆兵"
+        },
+        "Inspire": {
+            "name": "激励"
+        },
+        "Investigator": {
+            "name": "调查员"
+        },
+        "Iron Jaw": {
+            "name": "头铁"
+        },
+        "Iron Will": {
+            "name": "钢铁意志"
+        },
+        "Jack-Of-All-Trades": {
+            "name": "万事通"
+        },
+        "Level Headed": {
+            "name": "沉稳冷静"
+        },
+        "Linguist": {
+            "name": "语言学家"
+        },
+        "Master Tactician": {
+            "name": "战术大师"
+        },
+        "Menacing": {
+            "name": "凶神恶煞"
+        },
+        "Natural Leader": {
+            "name": "天生领袖"
+        },
+        "Nerves of Steel": {
+            "name": "钢铁神经"
+        },
+        "New Powers": {
+            "name": "新奇术"
+        },
+        "No Mercy": {
+            "name": "毫不留情"
+        },
+        "Professional": {
+            "name": "专业水准"
+        },
+        "Provoke": {
+            "name": "激怒"
+        },
+        "Quick": {
+            "name": "迅捷"
+        },
+        "Reliable": {
+            "name": "可靠"
+        },
+        "Retort": {
+            "name": "反驳"
+        },
+        "Scavenger": {
+            "name": "破烂王"
+        },
+        "Scholar": {
+            "name": "学者"
+        },
+        "Sidekick": {
+            "name": "助手"
+        },
+        "Soldier": {
+            "name": "士兵"
+        },
+        "Soul Drain": {
+            "name": "饮魂汲魄"
+        },
+        "Steady Hands": {
+            "name": "手稳"
+        },
+        "Streetwise": {
+            "name": "市井门道"
+        },
+        "Strong Willed": {
+            "name": "坚强意志"
+        },
+        "Sweep": {
+            "name": "横扫"
+        },
+        "Thief": {
+            "name": "盗贼"
+        },
+        "Tougher Than Nails": {
+            "name": "比钢还强"
+        },
+        "Very Attractive": {
+            "name": "魅力非凡"
+        },
+        "Weapon Master": {
+            "name": "武器大师"
+        },
+        "Wizard": {
+            "name": "法师"
+        },
+        "Work the Room": {
+            "name": "推波助浪"
+        },
+        "Alertness": {
+            "name": "警觉"
+        },
+        "Ambidextrous": {
+            "name": "双巧手"
+        },
+        "Arcane Background (Magic)": {
+            "name": "奥法背景 (魔法)"
+        },
+        "Arcane Background (Miracles)": {
+            "name": "奥法背景 (奇迹)"
+        },
+        "Arcane Resistance": {
+            "name": "奥法抗性"
+        },
+        "Assassin": {
+            "name": "刺客"
+        },
+        "Block": {
+            "name": "招架"
+        },
+        "Expert": {
+            "name": "专家水准"
+        },
+        "Fervor": {
+            "name": "热情洋溢"
+        },
+        "Fleet-Footed": {
+            "name": "飞毛腿"
+        },
+        "Attractive": {
+            "name": "魅力惊人"
+        },
+        "Beast Master": {
+            "name": "野兽大师"
+        },
+        "Bruiser": {
+            "name": "搏击师"
+        },
+        "Combat Acrobat": {
+            "name": "战斗特技"
+        },
+        "Concentration": {
+            "name": "聚精会神"
+        },
+        "Frenzy": {
+            "name": "连击"
+        },
+        "Great Luck": {
+            "name": "高等幸运"
+        },
+        "Improved Sweep": {
+            "name": "精通横扫"
+        },
+        "Marksman": {
+            "name": "神射手"
+        },
+        "Master of Arms": {
+            "name": "武器宗师"
+        },
+        "Mighty Blow": {
+            "name": "强力一击"
+        },
+        "Brawler": {
+            "name": "搏击手"
+        },
+        "Brawny": {
+            "name": "健壮"
+        },
+        "Channeling": {
+            "name": "导能"
+        },
+        "Charismatic": {
+            "name": "亲和力"
+        },
+        "Combat Reflexes": {
+            "name": "战斗反应"
+        },
+        "Command": {
+            "name": "指挥"
+        },
+        "Common Bond": {
+            "name": "共同联结"
+        },
+        "Fast Healer": {
+            "name": "快速痊愈"
+        },
+        "Giant Killer": {
+            "name": "巨物杀手"
+        },
+        "Hard To Kill": {
+            "name": "九死一生"
+        },
+        "Hold the Line!": {
+            "name": "死守不退"
+        },
+        "Killer Instinct": {
+            "name": "好胜心"
+        },
+        "Beast Bond": {
+            "name": "野兽联结"
+        },
+        "Bolster": {
+            "name": "加把劲"
+        },
+        "Brave": {
+            "name": "勇敢"
+        },
+        "Luck": {
+            "name": "幸运"
+        },
+        "Master": {
+            "name": "大师水准"
+        },
+        "Power Surge": {
+            "name": "能量涌动"
+        },
+        "Rabble-Rouser": {
+            "name": "煽风点火"
+        },
+        "Tough As Nails": {
+            "name": "比铁还硬"
+        },
+        "Power Points": {
+            "name": "奇术点"
+        },
+        "Tactician": {
+            "name": "战术家"
+        },
+        "Trademark Weapon": {
+            "name": "招牌武器"
+        },
+        "Woodsman": {
+            "name": "守林人"
+        },
+        "Work the Crowd": {
+            "name": "推波助澜"
+        }
+    }
+}
