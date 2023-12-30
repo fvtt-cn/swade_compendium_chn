@@ -7,7 +7,18 @@ function parseEmbeddedAbilities(value, translations, data, tc) {
 	});
 	return value;
 }
-
+const SWADE_ITEM_MAPPING = {
+  description: "system.description",
+  notes: "system.notes",
+  actions: "system.actions",
+  range: "system.range",
+  ammo: "system.ammo",
+  category: "system.category",
+};
+const SWADE_ITEM_CONVERTERS = Converters.fromPack(SWADE_ITEM_MAPPING, "Item");
+Babele.get().registerConverters({
+  SWADE_ITEM_CONVERTERS: SWADE_ITEM_CONVERTERS,
+});
 Babele.get().registerConverters({
   "translateEmbeddedAbilities": (value, translations, data, tc) => {
     return parseEmbeddedAbilities(value, translations, data, tc)
