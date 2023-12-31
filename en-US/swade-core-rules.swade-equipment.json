@@ -12,7 +12,6 @@
         },
         "Shovel": {
             "name": "Shovel",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Bullets, Small": {
@@ -27,7 +26,6 @@
         },
         "Saddle": {
             "name": "Saddle",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Animals and Tack"
         },
         "\"Bug\" (Micro Transmitter)": {
@@ -37,22 +35,18 @@
         },
         "Boots, Hiking": {
             "name": "Boots, Hiking",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Clothing"
         },
         "Clothing, Formal": {
             "name": "Clothing, Formal",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Clothing"
         },
         "Backpack": {
             "name": "Backpack",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Soap": {
             "name": "Soap",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Shot (w/ powder)": {
@@ -62,7 +56,6 @@
         },
         "Elaborate Saddle": {
             "name": "Elaborate Saddle",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Animals and Tack"
         },
         "Torch": {
@@ -72,17 +65,14 @@
         },
         "Flask (ceramic)": {
             "name": "Flask (ceramic)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Handcuffs (manacles)": {
             "name": "Handcuffs (manacles)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Computer, Laptop": {
             "name": "Computer, Laptop",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Computers & Electronics"
         },
         "Stun Gun": {
@@ -93,7 +83,6 @@
                 "skill": "Shooting"
             },
             "range": "1/2/4",
-            "ammo": "",
             "category": "Personal Defense"
         },
         "Trail Rations": {
@@ -103,7 +92,6 @@
         },
         "Tool Kit": {
             "name": "Tool Kit",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Lineman's Telephone": {
@@ -118,12 +106,10 @@
         },
         "MRE (Meal Ready to Eat)": {
             "name": "MRE (Meal Ready to Eat)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Food"
         },
         "Computer, Hand held": {
             "name": "Computer, Hand held",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Computers & Electronics"
         },
         "Oil": {
@@ -133,7 +119,6 @@
         },
         "Goggles": {
             "name": "Goggles",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Rope, hemp": {
@@ -143,7 +128,6 @@
         },
         "Cellular Interceptor": {
             "name": "Cellular Interceptor",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Surveillance"
         },
         "Canister Shot (Cannon)": {
@@ -154,7 +138,6 @@
         },
         "Telephone Tap": {
             "name": "Telephone Tap",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Surveillance"
         },
         "Laser/Red Dot Sight": {
@@ -189,12 +172,10 @@
         },
         "GPS": {
             "name": "GPS",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Computers & Electronics"
         },
         "Grappling Hook": {
             "name": "Grappling Hook",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Laser Battery, Rifle / SMG": {
@@ -215,22 +196,18 @@
         },
         "Clothing, Casual": {
             "name": "Clothing, Casual",
-            "description": "",
             "category": "Clothing"
         },
         "Fast Food Meal": {
             "name": "Fast Food Meal",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Food"
         },
         "Lockpicks": {
             "name": "Lockpicks",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Whistle": {
             "name": "Whistle",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Laser Battery, Gatling": {
@@ -245,12 +222,10 @@
         },
         "Umbrella": {
             "name": "Umbrella",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Winter Gear (cloak/parka)": {
             "name": "Winter Gear (cloak/parka)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Clothing"
         },
         "Flashlight": {
@@ -260,7 +235,6 @@
         },
         "Camouflage Fatigues": {
             "name": "Camouflage Fatigues",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Clothing"
         },
         "Shrapnel Shot (Cannon)": {
@@ -271,17 +245,14 @@
         },
         "Transmitter Detector": {
             "name": "Transmitter Detector",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Surveillance"
         },
         "Flint and Steel": {
             "name": "Flint and Steel",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Blanket": {
             "name": "Blanket",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Rifle Scope": {
@@ -291,12 +262,10 @@
         },
         "Winter Boots": {
             "name": "Winter Boots",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Clothing"
         },
         "Good Meal (restaurant)": {
             "name": "Good Meal (restaurant)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Food"
         },
         "Bipod/Tripod": {
@@ -306,12 +275,10 @@
         },
         "Computer, Desktop": {
             "name": "Computer, Desktop",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Computers & Electronics"
         },
         "Crowbar": {
             "name": "Crowbar",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Parabolic Microphone": {
@@ -326,12 +293,10 @@
         },
         "Camera (regular)": {
             "name": "Camera (regular)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Camera (disposable)": {
             "name": "Camera (disposable)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Quiver": {
@@ -341,7 +306,6 @@
         },
         "Canteen (waterskin)": {
             "name": "Canteen (waterskin)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Medic Kit": {
@@ -362,7 +326,6 @@
                 }
             },
             "range": "Max. 2",
-            "ammo": "",
             "category": "Personal Defense"
         },
         "First Aid Kit": {
@@ -372,12 +335,10 @@
         },
         "Hammer": {
             "name": "Hammer",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Lighter": {
             "name": "Lighter",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Shotgun Shells": {
@@ -397,12 +358,10 @@
         },
         "Camera (digital)": {
             "name": "Camera (digital)",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         },
         "Whetstone": {
             "name": "Whetstone",
-            "description": "<article class=\"swade-core\"></article>",
             "category": "Adventuring Gear"
         }
     }
