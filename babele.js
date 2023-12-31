@@ -29,14 +29,11 @@ const SWADE_ITEM_MAPPING = {
 };
 const SWADE_ITEM_CONVERTERS = Converters.fromPack(SWADE_ITEM_MAPPING, "Item");
 function SWADE_REQUIREMENTS_CONVERTER(value, translations) {
+  if (!translations)
+    return value
   const result = [];
-  for (let raw of value) {
-    const rawToR = {};
-    Object.assign(rawToR, raw);
-    if (rawToR.type=='rank')
-    result.push(rawToR);
-  }
   const other={type:'other',label:translations}
+  // console.log("SWADE_REQUIREMENTS_CONVERTER",value)
   result.push(other)
   return result;
 }
