@@ -1,5 +1,9 @@
 {
     "label": "族裔与能力",
+    "mapping": {
+        "category": "system.category",
+        "description": "system.description"
+    },
     "entries": {
         "Luck": {
             "name": "幸运"

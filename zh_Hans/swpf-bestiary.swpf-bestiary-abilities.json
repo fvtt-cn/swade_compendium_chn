@@ -1,5 +1,8 @@
 {
     "label": "特殊能力",
+    "mapping": {
+        "description": "system.description"
+    },
     "entries": {
         "Ancestry": {
             "name": "族裔"

@@ -1,5 +1,10 @@
 {
     "label": "专长",
+    "mapping": {
+        "description": "system.description",
+        "requirements": "system.requirements",
+        "category": "system.category"
+    },
     "entries": {
         "Ace": {
             "name": "王牌机师",
