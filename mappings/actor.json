@@ -1,5 +1,9 @@
 {
     "mapping": {
-        "biography": "system.details.biography.value"
+        "biography": "system.details.biography.value",
+        "items": {
+            "path": "items",
+            "converter": "SWADE_ITEM_CONVERTERS"
+        }
     }
 }
