@@ -1,7 +1,10 @@
 {
     "mapping": {
         "description": "system.description",
-        "requirements": "system.requirements.value",
+        "requirements": {
+            "path":"system.requirements",
+            "converter":"SWADE_REQUIREMENTS_CONVERTER"
+        },
         "category": "system.category"
     }
 }
