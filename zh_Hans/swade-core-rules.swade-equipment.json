@@ -2021,7 +2021,8 @@
             "actions": {
                 "skill": "射击"
             },
-            "category": "自我防卫"
+            "category": "自我防卫",
+            "range": "1/2/4"
         },
         "Survival Knife": {
             "name": "求生刀",
