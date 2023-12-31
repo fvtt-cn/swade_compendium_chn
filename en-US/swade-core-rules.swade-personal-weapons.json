@@ -7,8 +7,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Futuristic"
         },
         "Flintlock Pistol": {
@@ -37,19 +35,14 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Modern"
         },
         "Natural Claws": {
             "name": "Natural Claws",
             "description": "<article class=\"swade-core\"><strong>CLAWS:</strong> +2 to @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} (climbing) rolls on any rough or soft surface (not sheer steel, glass, etc.).</article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Natural/Improvised Weapons"
         },
         "Sword, Long": {
@@ -59,8 +52,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Axe, Great": {
@@ -75,8 +66,6 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Survival Knife": {
@@ -86,8 +75,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Modern"
         },
         "Maul": {
@@ -102,8 +89,6 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Pike": {
@@ -118,14 +103,11 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Improvised Weapon (Medium)": {
             "name": "Improvised Weapon (Medium)",
             "description": "<article class=\"swade-core\">\n<h2>Improvised Weapons</h2>\n<p>Heroes often fight with objects that aren&rsquo;t intended for use as weapons. Torches, vases, chairs, tankards, bottles, tools, and other mundane items are frequently pressed into service in combat.</p>\n<p>Characters with improvised weapons count as armed but subtract 2 from attack rolls. @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02damage00000000]{Damage} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} are determined by type:</p>\n<ul class=\"red-bullet-list\">\n<li><strong>LIGHT: </strong>Metal beer stein, fist-sized rock, pistol (as a club). Range 3/6/12, Damage Str+d4, Min Str d4.</li>\n<li><strong>MEDIUM: </strong>Bowling ball, submachine gun (as a club), wooden chair. Range 2/4/8, Damage Str+d6, Min. Str d6.</li>\n<li><strong>HEAVY: </strong>Head-size rock, metal chair, duffel bag full of guns. Range 1/2/4, Damage Str+d8, Min. Str d8.</li>\n</ul>\n<p>The GM can adjust the damage down a level or two if the item is softer than the examples above, like a duffel bag full of money.</p>\n</article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting",
                 "additional": {
@@ -135,13 +117,10 @@
                 }
             },
             "range": "2/4/8",
-            "ammo": "",
             "category": "Natural/Improvised Weapons"
         },
         "Long Bow": {
             "name": "Long Bow",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting"
             },
@@ -151,8 +130,6 @@
         },
         "Sling": {
             "name": "Sling",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Athletics"
             },
@@ -168,13 +145,10 @@
                 "skill": "Athletics"
             },
             "range": "3/6/12",
-            "ammo": "",
             "category": "Ranged Weapons, Medieval"
         },
         "Dagger/Knife (melee)": {
             "name": "Dagger/Knife (melee)",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting",
                 "additional": {
@@ -184,7 +158,6 @@
                 }
             },
             "range": "3/6/12",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Blunderbuss": {
@@ -212,12 +185,9 @@
         "Natural Horns": {
             "name": "Natural Horns",
             "description": "<article class=\"swade-core\"><strong>HORNS:</strong> Add +4 @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02damage00000000]{Damage} at the end of one @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} action in which it @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Runs}, moves at least 5&Prime;(10 yards), and successfully hits with its horns.</article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Natural/Improvised Weapons"
         },
         "Spear": {
@@ -233,7 +203,6 @@
                 }
             },
             "range": "3/6/12",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Rapier": {
@@ -243,19 +212,14 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Spear/Javelin": {
             "name": "Spear/Javelin",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Athletics"
             },
             "range": "3/6/12",
-            "ammo": "",
             "category": "Ranged Weapons, Medieval"
         },
         "Staff": {
@@ -270,14 +234,11 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Improvised Weapon (Heavy)": {
             "name": "Improvised Weapon (Heavy)",
             "description": "<article class=\"swade-core\">\n<h2>Improvised Weapons</h2>\n<p>Heroes often fight with objects that aren&rsquo;t intended for use as weapons. Torches, vases, chairs, tankards, bottles, tools, and other mundane items are frequently pressed into service in combat.</p>\n<p>Characters with improvised weapons count as armed but subtract 2 from attack rolls. @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}, @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02damage00000000]{Damage} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02minimumstren00]{Minimum Strength} are determined by type:</p>\n<ul class=\"red-bullet-list\">\n<li><strong>LIGHT: </strong>Metal beer stein, fist-sized rock, pistol (as a club). Range 3/6/12, Damage Str+d4, Min Str d4.</li>\n<li><strong>MEDIUM: </strong>Bowling ball, submachine gun (as a club), wooden chair. Range 2/4/8, Damage Str+d6, Min. Str d6.</li>\n<li><strong>HEAVY: </strong>Head-size rock, metal chair, duffel bag full of guns. Range 1/2/4, Damage Str+d8, Min. Str d8.</li>\n</ul>\n<p>The GM can adjust the damage down a level or two if the item is softer than the examples above, like a duffel bag full of money.</p>\n</article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting",
                 "additional": {
@@ -287,13 +248,10 @@
                 }
             },
             "range": "1/2/4",
-            "ammo": "",
             "category": "Natural/Improvised Weapons"
         },
         "Compound Bow": {
             "name": "Compound Bow",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting"
             },
@@ -308,8 +266,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Club, Heavy": {
@@ -319,19 +275,14 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Natural Bite": {
             "name": "Natural Bite",
             "description": "<article class=\"swade-core\"><strong>BITE:</strong> The creature may bite a target it&rsquo;s grappled (most attackers can only crush their prey, see <strong>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03grappling00000]{Grappling}</strong>).</article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Natural/Improvised Weapons"
         },
         "Halberd": {
@@ -346,14 +297,10 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Dagger/Knife (Throwing)": {
             "name": "Dagger/Knife (Throwing)",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting",
                 "additional": {
@@ -363,7 +310,6 @@
                 }
             },
             "range": "3/6/12",
-            "ammo": "",
             "category": "Ranged Weapons, Medieval"
         },
         "Crossbow, Heavy": {
@@ -374,29 +320,20 @@
                 "skill": "Shooting"
             },
             "range": "15/30/60",
-            "ammo": "",
             "category": "Ranged Weapons, Medieval"
         },
         "Molecular Sword": {
             "name": "Molecular Sword",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Futuristic"
         },
         "Laser Sword": {
             "name": "Laser Sword",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Futuristic"
         },
         "Sword, Great": {
@@ -411,14 +348,10 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Bow": {
             "name": "Bow",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting"
             },
@@ -433,8 +366,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Chainsaw": {
@@ -444,8 +375,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Modern"
         },
         "Sword, Short": {
@@ -455,14 +384,10 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Improvised Weapon (Light)": {
             "name": "Improvised Weapon (Light)",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting",
                 "additional": {
@@ -472,7 +397,6 @@
                 }
             },
             "range": "3/6/12",
-            "ammo": "",
             "category": "Natural/Improvised Weapons"
         },
         "Club, Light": {
@@ -482,19 +406,14 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Unarmed": {
             "name": "Unarmed",
             "description": "<article class=\"swade-core\"><p><strong>Unarmed Damage - </strong>An unarmed combatant rolls only his Strength die unless he has an @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edge} like <strong>@Compendium[swade-core-rules.swade-edges.Brawler]{Brawler} </strong>or <strong>@Compendium[swade-core-rules.swade-edges.Martial Artist]{Martial Artist}</strong> that grants him a damage die.</p></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Bangstick": {
@@ -504,8 +423,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Modern"
         },
         "Billy Club/Baton": {
@@ -515,8 +432,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Modern"
         },
         "Crossbow": {
@@ -537,8 +452,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Modern"
         },
         "Warhammer": {
@@ -548,19 +461,14 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Axe, Throwing": {
             "name": "Axe, Throwing",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Athletics"
             },
             "range": "3/6/12",
-            "ammo": "",
             "category": "Ranged Weapons, Medieval"
         },
         "Springfield Model 1861": {
@@ -587,13 +495,9 @@
         },
         "Axe, Battle": {
             "name": "Axe, Battle",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Kentucky Rifle": {
@@ -609,8 +513,6 @@
         },
         "Axe, Hand": {
             "name": "Axe, Hand",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting",
                 "additional": {
@@ -619,8 +521,6 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Katana": {
@@ -635,8 +535,6 @@
                     }
                 }
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         },
         "Brown Bess or Similar Muskets": {
@@ -657,19 +555,13 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Modern"
         },
         "Mace": {
             "name": "Mace",
-            "description": "<article class=\"swade-core\"></article>",
-            "notes": "",
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Melee Weapons, Medieval"
         }
     }

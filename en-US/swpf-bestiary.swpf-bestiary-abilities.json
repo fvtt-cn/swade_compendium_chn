@@ -90,8 +90,7 @@
 			"description": "<div class=\"swpf-core\">\n<p>Air, earth, fire, and water form the basis of the elemental realms, wherein dwell strange, unfathomable creatures.</p>\n<p>Elementals have bodies of pure earth, water, air, or fire and are immune to damage, effects, or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping}s that match their native element. They also ignore additional damage from @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Called Shots}, ignore one point of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} penalties, don&rsquo;t breathe or eat, are immune to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{disease} and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison}, and can only be healed via magic or natural @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{Healing}.</p>\n</div>"
 		},
 		"Elemental Resistance": {
-			"name": "Elemental Resistance",
-			"description": ""
+			"name": "Elemental Resistance"
 		},
 		"Energy Drain": {
 			"name": "Energy Drain",
@@ -142,8 +141,7 @@
 			"description": "<div class=\"swpf-core\">\n<p>See <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Natural Weapons}</strong>.</p>\n</div>"
 		},
 		"Huge": {
-			"name": "Huge",
-			"description": ""
+			"name": "Huge"
 		},
 		"Humanoid (Type)": {
 			"name": "Humanoid (Type)",
@@ -170,8 +168,7 @@
 			"description": "<div class=\"swpf-core\">\n<p>Invulnerable creatures ignore damage as listed in their description. Unless otherwise specified, they can be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned} but not @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounded} by other forms of damage. An ancient dark god given life by misguided cultists, for example, might only be vulnerable to relics of a rival deity.</p>\n</div>"
 		},
 		"Large": {
-			"name": "Large",
-			"description": ""
+			"name": "Large"
 		},
 		"Linnorm Common Abilities": {
 			"name": "Linnorm Common Abilities",

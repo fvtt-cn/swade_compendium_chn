@@ -8,7 +8,6 @@
                 "skill": "Shooting"
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Missiles"
         },
         "M203 40MM": {
@@ -19,7 +18,6 @@
                 "skill": "Shooting"
             },
             "range": "24/48/96",
-            "ammo": "",
             "category": "Rocket Launchers & Torpedoes"
         },
         "Heavy Machine Gun": {
@@ -38,7 +36,6 @@
                 }
             },
             "range": "50/100/200",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "75mm Tank Gun (AP Rounds)": {
@@ -54,7 +51,6 @@
                 }
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Torpedo": {
@@ -65,7 +61,6 @@
                 "skill": "Shooting"
             },
             "range": "300/600/1200",
-            "ammo": "",
             "category": "Rocket Launchers & Torpedoes"
         },
         "40mm Cannon (HE Rounds)": {
@@ -87,7 +82,6 @@
                 }
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Catapult": {
@@ -98,7 +92,6 @@
                 "skill": "Shooting"
             },
             "range": "24/48/96",
-            "ammo": "",
             "category": "Catapults"
         },
         "Mk II (WW2 Pineapple)": {
@@ -109,7 +102,6 @@
                 "skill": "Athletics"
             },
             "range": "4/8/16",
-            "ammo": "",
             "category": "Grenades"
         },
         "Bouncing Betty": {
@@ -119,8 +111,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Mines"
         },
         "40mm Cannon (AP Rounds)": {
@@ -145,7 +135,6 @@
                 }
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "88mm Tank Gun (AP Rounds)": {
@@ -161,7 +150,6 @@
                 }
             },
             "range": "100/200/400",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "25mm Cannon": {
@@ -180,7 +168,6 @@
                 }
             },
             "range": "50/100/200",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Trebuchet": {
@@ -191,7 +178,6 @@
                 "skill": "Shooting"
             },
             "range": "30/60/120",
-            "ammo": "",
             "category": "Catapults"
         },
         "Hellfire": {
@@ -202,7 +188,6 @@
                 "skill": "Shooting"
             },
             "range": "150/300/600",
-            "ammo": "",
             "category": "Missiles"
         },
         "Claymore Mine": {
@@ -212,8 +197,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Mines"
         },
         "2 pd AT Gun (AP Rounds)": {
@@ -229,7 +212,6 @@
                 }
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "20mm Cannon": {
@@ -251,7 +233,6 @@
                 }
             },
             "range": "50/100/200",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "57mm AT Gun (AP Rounds)": {
@@ -267,7 +248,6 @@
                 }
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "76mm Tank Gun (HE Rounds)": {
@@ -278,7 +258,6 @@
                 "skill": "Shooting"
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Stun Grenade": {
@@ -289,7 +268,6 @@
                 "skill": "Athletics"
             },
             "range": "5/10/20",
-            "ammo": "",
             "category": "Grenades"
         },
         "Anti-Personnel Mine": {
@@ -299,8 +277,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Mines"
         },
         "125mm Tank Gun (AP Rounds)": {
@@ -316,7 +292,6 @@
                 }
             },
             "range": "100/200/400",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "37mm AT Gun (AP Rounds)": {
@@ -332,7 +307,6 @@
                 }
             },
             "range": "50/100/200",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "120mm Tank Gun (HE Rounds)": {
@@ -343,7 +317,6 @@
                 "skill": "Shooting"
             },
             "range": "100/200/400",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "88mm Tank Gun (HE Rounds)": {
@@ -354,7 +327,6 @@
                 "skill": "Shooting"
             },
             "range": "100/200/400",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Smoke Grenade": {
@@ -365,18 +337,12 @@
                 "skill": "Athletics"
             },
             "range": "5/10/20",
-            "ammo": "",
             "category": "Grenades"
         },
         "Bombs": {
             "name": "Bombs",
             "description": "<article class=\"swade-core\"><blockquote>\n<p>Bomb Damage: All of it.</p>\n<p>A Bomb is just an @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03test0000000000]{Test} against everyone <em>not</em> in the affected area.</p>\n<p><cite>- Clint Black</cite></p>\n</blockquote></article>",
             "notes": "Acts as an Intimidation Test against everyone not in the affected area",
-            "actions": {
-                "skill": ""
-            },
-            "range": "",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Mk67 (Modern)": {
@@ -387,7 +353,6 @@
                 "skill": "Athletics"
             },
             "range": "5/10/20",
-            "ammo": "",
             "category": "Grenades"
         },
         "Cannon (12 lb), Canister": {
@@ -425,7 +390,6 @@
                 }
             },
             "range": "50/100/200",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "76mm Tank Gun (AP Rounds)": {
@@ -441,7 +405,6 @@
                 }
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "37mm AT Gun (HE Rounds)": {
@@ -452,7 +415,6 @@
                 "skill": "Shooting"
             },
             "range": "50/100/200",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Medium Machine Gun": {
@@ -471,7 +433,6 @@
                 }
             },
             "range": "30/60/120",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Anti-Tank Mine": {
@@ -481,8 +442,6 @@
             "actions": {
                 "skill": "Fighting"
             },
-            "range": "",
-            "ammo": "",
             "category": "Mines"
         },
         "Bazooka": {
@@ -493,7 +452,6 @@
                 "skill": "Shooting"
             },
             "range": "24/48/96",
-            "ammo": "",
             "category": "Rocket Launchers & Torpedoes"
         },
         "Potato Masher (WW2)": {
@@ -504,7 +462,6 @@
                 "skill": "Athletics"
             },
             "range": "5/10/20",
-            "ammo": "",
             "category": "Grenades"
         },
         "Cannon (12 lb), Solid Shot": {
@@ -534,7 +491,6 @@
                 "skill": "Shooting"
             },
             "range": "100/200/400",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "120mm Tank Gun (AP Rounds)": {
@@ -550,7 +506,6 @@
                 }
             },
             "range": "100/200/400",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "AT-4": {
@@ -561,7 +516,6 @@
                 "skill": "Shooting"
             },
             "range": "24/48/96",
-            "ammo": "",
             "category": "Rocket Launchers & Torpedoes"
         },
         "Cannon (12 lb), Shrapnel": {
@@ -586,12 +540,10 @@
         "Heavy Flamethrower": {
             "name": "Heavy Flamethrower",
             "description": "<article class=\"swade-core\">\n<p>Vehicular flamethrowers have longer ranges than personal devices. The wielder can use the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Cone Template} or arc a blast the size of a @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Medium Blast Template} up to 18&rdquo; (36 yards) distant. (Use the center of the template for the Range.) This shot can @Compendium[swade-core-rules.swade-rules.Area Effect Attacks]{Deviate}.</p>\n</article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting"
             },
             "range": "Cone or MBT",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "75mm Tank Gun (HE Rounds)": {
@@ -602,7 +554,6 @@
                 "skill": "Shooting"
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Heavy Laser": {
@@ -613,7 +564,6 @@
                 "skill": "Shooting"
             },
             "range": "150/300/600",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "57mm AT Gun (HE Rounds)": {
@@ -624,7 +574,6 @@
                 "skill": "Shooting"
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Panzerschreck": {
@@ -635,7 +584,6 @@
                 "skill": "Shooting"
             },
             "range": "15/30/60",
-            "ammo": "",
             "category": "Rocket Launchers & Torpedoes"
         },
         "M72 Law": {
@@ -646,18 +594,15 @@
                 "skill": "Shooting"
             },
             "range": "24/48/96",
-            "ammo": "",
             "category": "Rocket Launchers & Torpedoes"
         },
         "Flamethrower": {
             "name": "Flamethrower",
             "description": "<article class=\"swade-core\">\n<p>Flamethrowers propel incendiary liquid or gas to incinerate their targets. They are @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02heavyweaponh00]{Heavy Weapons}, use the @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Cone Template}, and may be @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03evasion0000000]{Evaded}.</p>\n<p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor} protects normally, but flammable targets may @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fire0000000000]{catch fire}.</p>\n<p>For vehicular flamethrowers, see @Compendium[swade-core-rules.swade-special-weapons.Heavy Flamethrower]{Heavy Flamethrower}.</p>\n</article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting"
             },
             "range": "Cone Template",
-            "ammo": "",
             "category": "Flamethrowers"
         },
         "Sidewinder": {
@@ -668,7 +613,6 @@
                 "skill": "Shooting"
             },
             "range": "100/200/400",
-            "ammo": "",
             "category": "Missiles"
         },
         "2 pd AT Gun (HE Rounds)": {
@@ -679,7 +623,6 @@
                 "skill": "Shooting"
             },
             "range": "75/150/300",
-            "ammo": "",
             "category": "Vehicular Weapons"
         },
         "Sparrow": {
@@ -690,7 +633,6 @@
                 "skill": "Shooting"
             },
             "range": "150/300/600",
-            "ammo": "",
             "category": "Missiles"
         }
     }
