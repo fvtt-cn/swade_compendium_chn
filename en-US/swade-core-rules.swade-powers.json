@@ -6,9 +6,7 @@
       "description": "<article class=\"swade-core\"> <p>Success with <em>arcane protection</em> means hostile powers suffer a −2 penalty (−4 with a raise) to affect this character. If the hostile power fails to affect the target due to this penalty, it still activates and consumes Power Points (and may still affect other targets). If the power causes harm, damage is also reduced a like amount for the protected target.</p> <p>Arcane protection stacks with @UUID[Compendium.swade-core-rules.swade-edges.Item.DmK4f86PtcCZPweS]{Arcane Resistance} should the recipient have both!</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1): </strong>The power may affect more than one target for 1 additional @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Point} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "Concentration, a dull glow around the protected character, a fetish",
-      "pp": 1
+      "trapping": "Concentration, a dull glow around the protected character, a fetish"
     },
     "Banish": {
       "name": "Banish",
@@ -16,17 +14,14 @@
       "range": "Sm",
       "rank": "Veteran",
       "duration": "Instant",
-      "trapping": "Holy items, arcane symbols, handful of salt",
-      "pp": 3
+      "trapping": "Holy items, arcane symbols, handful of salt"
     },
     "Barrier": {
       "name": "Barrier",
       "description": "<article class=\"swade-core\">\n<p><em>Barrier </em>creates a straight wall 5&Prime; (10 yards) long and 1&Prime; (two yards) tall, of immobile material that conforms to the surface it&rsquo;s cast upon. Thickness varies depending on what the wall is made of, but is usually a few inches.</p>\n<p>The wall has a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03breakingthin00]{Hardness} of 10, and may be destroyed as any other object (see @Compendium[swade-core-rules.swade-rules.Breaking Things]{Breaking Things}).</p>\n<p>When the spell expires or the wall is broken it crumbles to dust or dissipates. @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05trappings00000]{Trappings} are never left behind.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Damage (+1): </strong>The barrier causes 2d4 damage to anyone who contacts it</li>\n<li><strong>Hardened (+1): </strong>The wall is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03breakingthin00]{Hardness} 12.</li>\n<li><strong>Shaped (+2): </strong>The barrier forms a circle, square or other basic shape.</li>\n<li><strong>Size (+1): </strong>The length and height of the barrier doubles. &nbsp;</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Seasoned",
-      "duration": 5,
-      "trapping": "Fire, ice, thorns, force, bones, energy.",
-      "pp": 2
+      "trapping": "Fire, ice, thorns, force, bones, energy."
     },
     "Beast Friend": {
       "name": "Beast Friend",
@@ -34,8 +29,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "10 minutes",
-      "trapping": "The caster concentrates and gestures with his hands.",
-      "pp": 1
+      "trapping": "The caster concentrates and gestures with his hands."
     },
     "Blast": {
       "name": "Blast",
@@ -43,8 +37,7 @@
       "range": "Sm x 2",
       "rank": "Seasoned",
       "duration": "Instant",
-      "trapping": "Balls of fire, ice, light, darkness, colored bolts, swarm of insects",
-      "pp": 3
+      "trapping": "Balls of fire, ice, light, darkness, colored bolts, swarm of insects"
     },
     "Blind": {
       "name": "Blind",
@@ -52,8 +45,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Bright flash of light, sand in eyes, confusion",
-      "pp": 2
+      "trapping": "Bright flash of light, sand in eyes, confusion"
     },
     "Bolt": {
       "name": "Bolt",
@@ -61,8 +53,7 @@
       "range": "Sm x 2",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Fire, ice, light, darkness, colored bolts, a stream of insects",
-      "pp": 1
+      "trapping": "Fire, ice, light, darkness, colored bolts, a stream of insects"
     },
     "Boost/Lower Trait": {
       "name": "Boost/Lower Trait",
@@ -70,17 +61,14 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "5 (boost); Instant (lower)",
-      "trapping": "Physical change, glowing aura, potions",
-      "pp": 3
+      "trapping": "Physical change, glowing aura, potions"
     },
     "Burrow": {
       "name": "Burrow",
       "description": "<article class=\"swade-core\">\n<p><em>Burrow</em> allows the recipient to meld into raw earth. He can remain underground if he wants in a sort of \"limbo\" or&nbsp;<em>burrow</em> through the ground at half his normal @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Pace} (or full Pace with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise}). He may not run.&nbsp;</p>\n<p>A&nbsp;<em>burrowing </em>character may attempt to suprise a foe by making an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} versus @Compendium[swade-core-rules.swade-skills.Notice]{Notice} roll. If the burrower wins, the target is @Compendium[swade-core-rules.swade-rules.Distracted and Vulnerable]{Vulnerable} to <em>him only</em>. With a raise, the burrower gets @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03thedrop0000000]{The Drop}. Targets on @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03hold0000000000]{Hold} may attempt to interrupt the attack before it occurs.</p>\n<p>Burrowers can't usually @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03surprise000000]{surprise} a foe once their presence is known, but can still burrow for protection and mobility.&nbsp;</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1):</strong> The power may affect more than one target for 1 additional @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Point} each.</li>\n<li><strong>Power (+1):</strong> The caster can <em>burrow</em> through stone, concrete, or similar substances. (Some substances, like plastic, glass, solid lead, etc., might be resistant at the GM's discreation.)</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "Dissolving into the earth and appearing elsewhere.",
-      "pp": 2
+      "trapping": "Dissolving into the earth and appearing elsewhere."
     },
     "Burst": {
       "name": "Burst",
@@ -88,8 +76,7 @@
       "range": "Cone Template",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "A shower of flames, light or other matter of energy.",
-      "pp": 2
+      "trapping": "A shower of flames, light or other matter of energy."
     },
     "Confusion": {
       "name": "Confusion",
@@ -97,17 +84,14 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Until the end of the victim's next turn",
-      "trapping": "Hypnotic lights, brief illusions, loud noises.",
-      "pp": 1
+      "trapping": "Hypnotic lights, brief illusions, loud noises."
     },
     "Damage Field": {
       "name": "Damage Field",
       "description": "<article class=\"swade-core\">\n<p><em>Damage field </em>creates a dangerous aura around the recipient that harms foes foolish enough to get too close.<br /></p>\n<p>At the end of the affected character&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{turn}, all adjacent beings (including allies!) automatically take 2d4 @Compendium[swade-core-rules.swade-rules.Dealing Damage]{damage}.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Damage (+2):</strong> The <em>damage field</em> causes 2d6 @Compendium[swade-core-rules.swade-rules.Dealing Damage]{damage}.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Seasoned",
-      "duration": 5,
-      "trapping": "Fiery aura, spikes, electrical field",
-      "pp": 4
+      "trapping": "Fiery aura, spikes, electrical field"
     },
     "Darksight": {
       "name": "Darksight",
@@ -115,17 +99,14 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "One Hour",
-      "trapping": "Glowing eyes, dilated pupils, sonic sight",
-      "pp": 1
+      "trapping": "Glowing eyes, dilated pupils, sonic sight"
     },
     "Deflection": {
       "name": "Deflection",
       "description": "<article class=\"swade-core\">\n<p><em>Deflection </em>powers work in a variety of ways. Some manifestations actually deflect incoming @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{attacks}, others blur the target&rsquo;s form or produce illusionary effects. The end result is always the same, however&mdash;to misdirect incoming @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{attacks}. </p>\n<p>With success, foes must subtract 2 from either melee or ranged @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{attacks} (caster’s choice). With a raise, the penalty applies to both. An attacker using a ranged weapon in melee against the recipient suffers the penalty either way.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1):</strong> The power may effect more than one target for 1 additional @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Power Point} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "Mystical shield, gust of wind, phantom servant that intercepts missiles",
-      "pp": 3
+      "trapping": "Mystical shield, gust of wind, phantom servant that intercepts missiles"
     },
     "Detect/Conceal Arcana": {
       "name": "Detect/Conceal Arcana",
@@ -133,8 +114,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "5 (detect), one hour (conceal)",
-      "trapping": "Waving hands, whispered words.",
-      "pp": 2
+      "trapping": "Waving hands, whispered words."
     },
     "Disguise": {
       "name": "Disguise",
@@ -142,8 +122,7 @@
       "range": "Sm",
       "rank": "Seasoned",
       "duration": "10 minutes",
-      "trapping": "Malleable features, illusionary appearance, hair of new form",
-      "pp": 2
+      "trapping": "Malleable features, illusionary appearance, hair of new form"
     },
     "Dispel": {
       "name": "Dispel",
@@ -151,8 +130,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Waving hands, whispered words",
-      "pp": 1
+      "trapping": "Waving hands, whispered words"
     },
     "Divination": {
       "name": "Divination",
@@ -160,8 +138,7 @@
       "range": "Self",
       "rank": "Seasoned",
       "duration": "A brief conversation of about five minutes",
-      "trapping": "Seances, prayers, demonic interrogation.",
-      "pp": 5
+      "trapping": "Seances, prayers, demonic interrogation."
     },
     "Drain Power Points": {
       "name": "Drain Power Points",
@@ -169,26 +146,21 @@
       "range": "Sm",
       "rank": "Veteran",
       "duration": "Instant",
-      "trapping": "Prayer, whispered words, gestures",
-      "pp": 2
+      "trapping": "Prayer, whispered words, gestures"
     },
     "Elemental Manipulation": {
       "name": "Elemental Manipulation",
       "description": "<article class=\"swade-core\">\n<p>This power grants basic control over the four traditional elements: air, earth, fire, and water (the elements may vary depending on the setting). The power acts as if it has a d6 @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength}, or d8 with a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise}. </p>\n<p>Upon activation, the caster may choose one of the following effects:</p>\n<ul>\n<li><strong>Attack:</strong> The caster uses their activation roll as an attack roll, dealing 2d4 damage to a target (3d4 with a raise) within Range.</li>\n<li><strong>Move:</strong>The caster may move a cubic foot of air, earth (half that in stone), fire, or water up to the caster’s Smarts in any direction as a limited action.</li>\n<li><strong>Push:</strong> The elements buffet and move the target. The caster uses his activation roll in place of his Strength for a @UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03push0000000000]{Push}</li>\n<li><strong>Special Effects:</strong> The caster may use the elements to create an additional effect with the GM’s approval. Some examples are using air to blow out a torch, fan a flame, or cool someone down (reroll a Fatigue roll in oppressive heat). The caster may use earth to cover tracks, fix breaks in stone or earthen walls, or use fire to conjure flame about the size of a torch or spread existing flame. He may use water to conjure a quart of water (not “inside” objects or people) or purify a gallon of water per casting.</li>\n</ul>\n<p>After activation, each additional use of the effects above are an action. Roll a new arcane skill roll for Attack or Push (these rolls do not suffer Backlash for Critical Failures as they are not activation rolls).</p>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "A few simple gestures",
-      "pp": 1
+      "trapping": "A few simple gestures"
     },
     "Empathy": {
       "name": "Empathy",
       "description": "<article class=\"swade-core\">\n<p>A successful arcane skill vs Spirit roll gives the caster insight into a target’s basic emotions. This grants him a +1 bonus (+2 with a raise) to all Intimidation, Persuasion, Performance, or Taunt rolls against the target for the Duration of the power. The bonus does not apply to skill rolls made to activate powers. Empathy works on animals, a dding + 1 (+2 with a raise) to Riding or other rolls to interact with the creature.</p> <ul> <p><strong>Additional Recipients (+1):</strong> The power may affect more than one target for 1 additional Power Point each</p> </ul> </article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "Concentration, a warm or sympathetic smile, exchanging a pleasantry",
-      "pp": 1
+      "trapping": "Concentration, a warm or sympathetic smile, exchanging a pleasantry"
     },
     "Entangle": {
       "name": "Entangle",
@@ -196,8 +168,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Glue bomb, vines, handcuffs, webs.",
-      "pp": 2
+      "trapping": "Glue bomb, vines, handcuffs, webs."
     },
     "Environmental Protection": {
       "name": "Environmental Protection",
@@ -205,17 +176,14 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "One hour",
-      "trapping": "A mark on the forehead, potions, gills.",
-      "pp": 2
+      "trapping": "A mark on the forehead, potions, gills."
     },
     "Farsight": {
       "name": "Farsight",
       "description": "<article class=\"swade-core\">\n<p><em>Farsight </em>allows the recipient to see in detail over great distances. She can read lips or read fine print up to a mile distant.</p>\n<p>With a raise, she also halves @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{range penalties} for @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting}, @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} (throwing), or other abilities affected by @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03attacks0000000]{Range}.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1):</strong> The power may affect more than one target for 1 additional @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Point} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Seasoned",
-      "duration": 5,
-      "trapping": "Invisibly marked targets, guiding winds, eagle eyes",
-      "pp": 2
+      "trapping": "Invisibly marked targets, guiding winds, eagle eyes"
     },
     "Fear": {
       "name": "Fear",
@@ -223,26 +191,21 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Gestures, eldritch energy, cold chills",
-      "pp": 2
+      "trapping": "Gestures, eldritch energy, cold chills"
     },
     "Fly": {
       "name": "Fly",
       "description": "<article class=\"swade-core\">\n<p><em>Fly </em>allows a character to soar at @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Pace} 12&Prime;, or twice that with a raise (he may not @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Run}).</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+2):</strong> The power may affect more than one target for 2 additional @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Points} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Veteran",
-      "duration": 5,
-      "trapping": "Gusty winds, wings, broomsticks",
-      "pp": 3
+      "trapping": "Gusty winds, wings, broomsticks"
     },
     "Growth/Shrink": {
       "name": "Growth/Shrink",
       "description": "<article class=\"swade-core\">\n<p><em>Growth </em>increases the recipient&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Size} by 1 for every 2 @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Points} spent. Each increase in Size grants the target a one-step increase to @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} and 1 point of @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Toughness}. This does not increase @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Wounds} regardless of change to @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03sizeandscale00]{Scale}.</p>\n<p><em>Shrink </em>reduces the @Compendium[swade-core-rules.swade-rules.Size and Scale]{Size} of the subject one step for every 2 @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Power Points} spent to a maximum of Size -2 (approximately the size of a cat). Each step reduced decreases @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Strength} one die type (minimum of d4) and @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01characters0000]{Toughness} by 1 (minimum of 2). </p>\n<p>For unwilling targets, the caster&rsquo;s arcane skill roll is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed} by @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}.</p>\n</article>",
       "range": "Sm",
       "rank": "Seasoned",
-      "duration": 5,
-      "trapping": "Gestures, words of power, potions",
-      "pp": 2
+      "trapping": "Gestures, words of power, potions"
     },
     "Havoc": {
       "name": "Havoc",
@@ -250,8 +213,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Whirlwind, chaotic poltergeists, repulsion field",
-      "pp": 2
+      "trapping": "Whirlwind, chaotic poltergeists, repulsion field"
     },
     "Healing": {
       "name": "Healing",
@@ -259,35 +221,28 @@
       "range": "Touch",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Laying on hands, touching the victim with a holy symbol, prayer",
-      "pp": 3
+      "trapping": "Laying on hands, touching the victim with a holy symbol, prayer"
     },
     "Illusion": {
       "name": "Illusion",
       "description": "<article class=\"swade-core\">\n<p><em>Illusion </em>can be used to create a visual scene or replica of most anything the caster can imagine, but it is silent, intangible, and incapable of affecting the real world. For example, illusionary weapons pass through foes, one cannot sit in an illusionary chair, and an illusionary dog has no audible bark.</p>\n<p>Those who contact an <em>illusion </em>or doubt it&rsquo;s real make a @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts} roll as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} (at -2 if the power was activated with a raise). If @Compendium[swade-core-rules.swade-rules.Trait Rolls]{successful}, that individual is no longer subject to this casting.<br /></p>\n<p>The GM should make @Compendium[swade-core-rules.swade-rules.Trait Rolls]{group rolls} for @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Extras} as they point out the <em>illusion&rsquo;s </em>inconsistencies to each other.<br /></p>\n<p>The volume of the <em>illusion </em>must fit within a sphere the size of a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03areaeffectat00]{Medium Blast Template}&nbsp;(4&Prime; or eight yards in diameter).</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Sound (+1):</strong> The power generates sound appropriate to the <em>Illusion</em>. Illusionary allies may talk, illusionary crows caw, and so on. It may not mask or mute existing sound, however.&nbsp;</li>\n<li><strong>Strong (+2):</strong> @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Smarts} rolls to disbelieve the <em>illusion </em>are made at -2.&nbsp;</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "Magical spells, holograms, \"ethereal materializers\"",
-      "pp": 3
+      "trapping": "Magical spells, holograms, \"ethereal materializers\""
     },
     "Intangibility": {
       "name": "Intangibility",
       "description": "<article class=\"swade-core\">\n<p>With a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{successful} @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{arcane skill} roll, whoever receives this power becomes incorporeal. He is unable to affect the physical world, and it cannot affect him. He can travel through walls, and non-magical weapons pass straight through him. Any items carried at the time of casting are also incorporeal. </p>\n<p>While incorporeal, the character may affect other incorporeal beings (including himself), and he is still susceptible to supernatural attacks, including powers and enchanted items. With a raise on the activation roll, reduce the damage from supernatural attacks by 4.</p>\n<p>The being becomes corporeal when the power ends, but if within someone or something he’s shunted to the nearest open space and Stunned.</p>\n<p>If cast on an unwilling target, the victim resists with Spirit. If affected, he shakes off the effect with a Spirit roll as a free action at the end of his following turns.</p>\n</article>",
       "range": "Sm",
       "rank": "Veteran",
-      "duration": 5,
-      "trapping": "Ghost form, body of shadow, gaseous transformation",
-      "pp": 5
+      "trapping": "Ghost form, body of shadow, gaseous transformation"
     },
     "Invisibility": {
       "name": "Invisibility",
       "description": "<article class=\"swade-core\">\n<p>With a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{success}, the character and his personal items are transparent except for a vague blur or outline. Any @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{action} taken against him that requires sight is made at -4, or -6 with a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise}. The same penalty applies to @Compendium[swade-core-rules.swade-skills.Notice]{Notice} rolls to detect the unseen presence.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+3):</strong> The power may affect more than one target for 3 additional @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Power Points} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Seasoned",
-      "duration": 5,
-      "trapping": "Powder, potion, iridescent lights",
-      "pp": 5
+      "trapping": "Powder, potion, iridescent lights"
     },
     "Light / Darkness": {
       "name": "Light / Darkness",
@@ -295,8 +250,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "10 minutes",
-      "trapping": "Illusionary torch, sunlight, darkness, thick fogs",
-      "pp": 2
+      "trapping": "Illusionary torch, sunlight, darkness, thick fogs"
     },
     "Mind Link": {
       "name": "Mind Link",
@@ -304,8 +258,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "30 Minutes",
-      "trapping": "Headpieces, talismans, of Tao or other gods, crystals",
-      "pp": 1
+      "trapping": "Headpieces, talismans, of Tao or other gods, crystals"
     },
     "Mind Reading": {
       "name": "Mind Reading",
@@ -313,8 +266,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Psionic invasion, soulsight",
-      "pp": 2
+      "trapping": "Psionic invasion, soulsight"
     },
     "Mind Wipe": {
       "name": "Mind Wipe",
@@ -322,8 +274,7 @@
       "range": "Sm",
       "rank": "Veteran",
       "duration": "Instant",
-      "trapping": "A noxious drink, parasites, touching the target's temples",
-      "pp": 3
+      "trapping": "A noxious drink, parasites, touching the target's temples"
     },
     "Object Reading": {
       "name": "Object Reading",
@@ -331,26 +282,21 @@
       "range": "Touch",
       "rank": "Seasoned",
       "duration": "Special",
-      "trapping": "Touching the object, glowing hands",
-      "pp": 2
+      "trapping": "Touching the object, glowing hands"
     },
     "Protection": {
       "name": "Protection",
       "description": "<article class=\"swade-core\">\n<p> <em>Protection</em> creates a field of energy or armor around a character, giving him 2 points of @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Armor}. With a raise, the bonus is applied to @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02armor000000000]{Toughness} instead.</p>\n<p>Whether the <em>protection </em>is visible or not depends on the @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05trappings00000]{Trapping}&mdash;this is entirely up to the caster.</p>\n<p><em>Protection </em>stacks with all other armor, natural or worn, and is negated by @Compendium[swade-core-rules.swade-rules.Armor Piercing (AP)]{AP} as usual.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1):</strong> The power may affect additional targets at a cost of 1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Point} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "A mystical glow, hardened skin, ethereal armor, a mass of nanites",
-      "pp": 1
+      "trapping": "A mystical glow, hardened skin, ethereal armor, a mass of nanites"
     },
     "Puppet": {
       "name": "Puppet",
       "description": "<article class=\"swade-core\">\n<p><em>Puppet </em>is an @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{opposed roll} of the character&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{arcane skill} versus the target&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit}. With @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{success}, the victim automatically obeys commands that don&rsquo;t directly harm himself or those he cares about.</p>\n<p>With a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise}, the target is completely controlled, but gets an automatic @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{Spirit} roll as a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{free action} to avoid directly harming himself or those he cares about. If the <em>puppet</em>&rsquo;s resistance @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{succeeds}, he doesn&rsquo;t carry out that particular command but doesn&rsquo;t otherwise resist his master. With a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise}, he breaks the controller&rsquo;s hold and the power ends.<br /></p>\n<p>Commands are general, such as &ldquo;attack that person&rdquo; or &ldquo;open that door.&rdquo; The controller doesn&rsquo;t get to dictate how many @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03actions0000000]{actions} the victim uses in a turn, whether or not he uses his @Compendium[swade-core-rules.swade-edges.Sweep]{Sweep} Edge, etc.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+2):</strong> The caster may affect others at the cost of 2 @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Power Points} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Veteran",
-      "duration": 5,
-      "trapping": "Glowing eyes, trance-like state, a swinging pocket watch, voodoo dolls.",
-      "pp": 3
+      "trapping": "Glowing eyes, trance-like state, a swinging pocket watch, voodoo dolls."
     },
     "Relief": {
       "name": "Relief",
@@ -358,8 +304,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Prayer, tonics",
-      "pp": 1
+      "trapping": "Prayer, tonics"
     },
     "Resurrection": {
       "name": "Resurrection",
@@ -367,17 +312,14 @@
       "range": "Touch",
       "rank": "Heroic",
       "duration": "Instant",
-      "trapping": "Elaborate ceremonies, rare plants, magical amulets, divine intervention",
-      "pp": 30
+      "trapping": "Elaborate ceremonies, rare plants, magical amulets, divine intervention"
     },
     "Shape Change": {
       "name": "Shape Change",
       "description": "<article class=\"swade-core\">\n<p>This power allows the caster to take the form of other living creatures. She can only turn into the base form of such beings, not elite or alternative versions (so an orc is allowed but an orc chieftain is not). With a raise, the caster can increase the creature’s Strength and Vigor by one die type each.\n<p>The size of the new form is limited by the caster’s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Rank}:</p>\n<table style=\" \" border=\"1\">\n<tbody>\n<tr style=\"\">\n<td style=\" text-align: center; \" colspan=\"3\"><strong>Shape Change</strong></td>\n</tr>\n<tr style=\"\">\n<td style=\"  text-align: center;\"><strong>Cost</strong></td>\n<td style=\"  text-align: center;\"><strong>Rank</strong></td>\n<td style=\"  text-align: center;\"><strong>Size</strong></td>\n</tr>\n<tr style=\"\">\n<td style=\"  text-align: center;\">3</td>\n<td style=\"  text-align: center;\">Novice</td>\n<td style=\"  text-align: center;\">Size -4 to Size -1</td>\n</tr>\n<tr style=\"\">\n<td style=\"  text-align: center;\">5</td>\n<td style=\"  text-align: center;\">Seasoned</td>\n<td style=\"  text-align: center;\">Size 0</td>\n</tr>\n<tr style=\"\">\n<td style=\"  text-align: center;\">8</td>\n<td style=\"  text-align: center;\">Veteran</td>\n<td style=\"  text-align: center;\">Size 1 to 2</td>\n</tr>\n<tr style=\"\">\n<td style=\"  text-align: center;\">11</td>\n<td style=\"  text-align: center;\">Heroic</td>\n<td style=\"  text-align: center;\">Size 3 to 4</td>\n</tr>\n<tr style=\"\">\n<td style=\"  text-align: center;\">15</td>\n<td style=\"  text-align: center;\">Legendary</td>\n<td style=\"  text-align: center;\">Size 5 to 10</td>\n</tr>\n</tbody>\n</table>\n<p>Held and worn items are assumed into the new form and reappear when the power ends.</p>\n<p>While transformed, the character retains his Edges and Hindrances, and his Smarts, Spirit, and their linked skills. He gains the creature’s Agility, Strength, Vigor, and linked skills, as well as any powers common to that creature (fire breathing for dragons, flight for pegasi, etc). The caster does not gain a target’s Power Points if it has them—he retains his own.</p>\n<p>His ability to use devices and communicate is limited to those of his form—goblins can speak and therefore cast spells but bears and tigers cannot. The caster may maintain powers cast before the shape change regardless of form.</p>\n<p><strong>Wound Effects</strong>: The caster cannot benefit from a creature’s additional Wounds or Wound reduction abilities like @UUID[Compendium.swade-core-rules.swade-specialabilities.Item.ckc8WGlXl9uWsyWH]{Resilient}, Very Resilient, or Unstoppable, or extra Wounds from Large or Huge @Compendium[swade-core-rules.swade-rules.Size and Scale]{Scale} creatures.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Speech (+1):</strong> The recipient retains the power of speech (but still cannot activate @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05powers00000000]{powers}).</li>\n</ul>\n</article>",
       "range": "Self",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "\"Morphing\", talismans, tattoos",
-      "pp": 3
+      "trapping": "\"Morphing\", talismans, tattoos"
     },
     "Sloth/Speed": {
       "name": "Sloth/Speed",
@@ -385,8 +327,7 @@
       "range": "Sm",
       "rank": "Seasoned",
       "duration": "Instant (slot); 5 (speed)",
-      "trapping": "Slowing time, blurred motion, a slippery patch of oil or ice",
-      "pp": 2
+      "trapping": "Slowing time, blurred motion, a slippery patch of oil or ice"
     },
     "Slumber": {
       "name": "Slumber",
@@ -394,17 +335,14 @@
       "range": "Sm",
       "rank": "Seasoned",
       "duration": "One hour",
-      "trapping": "A lullaby, blowing powder or sand at targets",
-      "pp": 2
+      "trapping": "A lullaby, blowing powder or sand at targets"
     },
     "Smite": {
       "name": "Smite",
       "description": "<article class=\"swade-core\">\n<p>This power is cast on a weapon of some sort. If it&rsquo;s a ranged weapon, it affects one entire magazine, 20 bolts, shells, or arrows, or one full &ldquo;load&rdquo; of ammunition (the GM determines the exact quantity for unusual weapons). While the power is in effect, the weapon&rsquo;s @Compendium[swade-core-rules.swade-rules.Dealing Damage]{damage} is increased by +2, or +4 with a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise}.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1):</strong> The power may affect more than one target for 1 additional @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Point} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "A colored glow, runes, sigils, crackling energy, barbs grow from the blade",
-      "pp": 2
+      "trapping": "A colored glow, runes, sigils, crackling energy, barbs grow from the blade"
     },
     "Sound/Silence": {
       "name": "Sound/Silence",
@@ -412,8 +350,7 @@
       "range": "Smarts x5 (Sound); Smarts (Silence)",
       "rank": "Novice",
       "duration": "Instant (Sound); 5 (Silence)",
-      "trapping": "Magical effects, a brief ripple in the air, a bell or chime that starts or stops ringing",
-      "pp": 1
+      "trapping": "Magical effects, a brief ripple in the air, a bell or chime that starts or stops ringing"
     },
     "Speak Language": {
       "name": "Speak Language",
@@ -421,8 +358,7 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "10 minutes",
-      "trapping": "Words, pictures, hand motions",
-      "pp": 1
+      "trapping": "Words, pictures, hand motions"
     },
     "Stun": {
       "name": "Stun",
@@ -430,26 +366,21 @@
       "range": "Sm",
       "rank": "Novice",
       "duration": "Instant",
-      "trapping": "Bolts of energy, stun bombs, sonic booms, burst of blinding light",
-      "pp": 2
+      "trapping": "Bolts of energy, stun bombs, sonic booms, burst of blinding light"
     },
     "Summon Ally": {
       "name": "Summon Ally",
       "description": "<article class=\"swade-core\">\n<p>This power allows the character to summon a magical servant from nothing. The ally typically takes the form of a basic humanoid of the appropriate @Compendium[swade-core-rules.swade-rules.Size and Scale]{Size} but can appear differently based on the caster&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05trappings00000]{trappings}. It materializes anywhere in @UUID[Compendium.swade-core-rules.swade-rules.swadecor02gear00.JournalEntryPage.02range000000000]{Range}, and with a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise} on the @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{arcane skill} roll, it&rsquo;s @Compendium[swade-core-rules.swade-rules.Special Ability (Resilient or Very Resilient)]{Resilient}) as well.</p>\n<p>The ally acts on its creator&rsquo;s @Compendium[swade-core-rules.swade-rules.Action Cards (Initiative)]{Action Card} and follows her commands to the best of its ability. It has no personality, creativity, or emotions. When the power ends or the ally is @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Incapacitated}, it fades into nothingness, leaving no trace behind.</p>\n<p>The type of servant that can be summoned depends on the caster&rsquo;s @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Rank}. With the GM&rsquo;s approval, the player may swap abilities. If a hero wants an attendant in the form of a @Compendium[swade-core-rules.swade-bestiary.Dog / Wolf]{wolf}, for example, the caster might exchange the @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} skill for @Compendium[swade-core-rules.swade-skills.Survival]{Survival} so that the &ldquo;animal&rdquo; can track its foes.</p>\n<table style=\"\" border=\"1\">\n<tbody>\n<tr>\n<td style=\" text-align: center;\" colspan=\"3\">SUMMON ALLY</td>\n</tr>\n<tr>\n<td style=\" text-align: center;\"><strong>Rank</strong></td>\n<td style=\" text-align: center;\"><strong>Cost</strong></td>\n<td style=\" text-align: center;\"><strong>Servant</strong></td>\n</tr>\n<tr>\n<td style=\" text-align: center;\">Novice</td>\n<td style=\" text-align: center;\">1</td>\n<td style=\" text-align: center;\">Attendant</td>\n</tr>\n<tr>\n<td style=\" text-align: center;\">Seasoned</td>\n<td style=\" text-align: center;\">3</td>\n<td style=\" text-align: center;\">Bodyguard</td>\n</tr>\n<tr>\n<td style=\" text-align: center;\">Veteran</td>\n<td style=\" text-align: center;\">5</td>\n<td style=\" text-align: center;\">Mirror Self*</td>\n</tr>\n<tr>\n<td style=\" text-align: center;\">Heroic</td>\n<td style=\" text-align: center;\">7</td>\n<td style=\" text-align: center;\">Sentinel</td>\n</tr>\n</tbody>\n</table>\n<p>*<em>Mirror Self costs +2 power points per </em><em>Rank above Veteran to a maximum of 10 </em><em>PPs at Legendary</em></p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Bite/Claw (+1):&nbsp;</strong> The ally can bite or claw at Str+d6</li>\n<li><strong>Flight (+2):</strong> The ally can fly at @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Pace} 12</li>\n<li><strong>Mind Rider (+1):</strong> The caster can communicate and sense through the ally.</li>\n</ul>\n<h2>&nbsp;</h2>\n<h2>STATBLOCKS</h2>\n<p><strong>Attendant</strong></p>\n<p><strong>Attributes: </strong>Agility d4, Smarts d4, Spirit d4, Strength d4, Vigor d4<br /><strong>Skills:</strong>&nbsp;@Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} d4, @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} d4, @Compendium[swade-core-rules.swade-skills.Notice]{Notice} d4, @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} d4, @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} d6<br /><strong>Pace: </strong>4; <strong>Parry: </strong>4; <strong>Toughness: </strong>4<br /><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>Claw: </strong>Str+d4.<br /></li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.Special Ability (Construct)]{Construct}: </strong>+2 to recover from being @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Shaken}; ignore 1 point of @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03damageeffect00]{Wound penalties}; doesn&rsquo;t breathe, immune to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04poison00000000]{poison} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04disease0000000]{disease}.</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.Special Ability (Fearless)]{Fearless}: </strong>Immune to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{fear} and @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation}.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Bodyguard</strong></p>\n<p><strong>Attributes: </strong>Agility d6, Smarts d4, Spirit d6, Strength d6, Vigor d6<br /><strong>Skills:&nbsp;</strong>@Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} d6, @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} d6, @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} d6, @Compendium[swade-core-rules.swade-skills.Notice]{Notice} d4, @Compendium[swade-core-rules.swade-skills.Shooting]{Shooting} d4, @Compendium[swade-core-rules.swade-skills.Stealth]{Stealth} d4<br /><strong>Pace: </strong>6; <strong>Parry: </strong>5; <strong>Toughness: </strong>7 (2)<br /><strong>Edges: </strong>@Compendium[swade-core-rules.swade-edges.First Strike]{First Strike}<br /><strong>Gear: </strong>Melee attack (Str+d6).<br /><strong>Special Abilities:</strong><br /></p>\n<ul>\n<li><strong>Armor +2: </strong>Hardened skin.<br /></li>\n<li><strong><strong>@Compendium[swade-core-rules.swade-rules.Special Ability (Construct)]{Construct}:</strong> </strong>See Attendant.<br /></li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.Special Ability (Fearless)]{Fearless}: </strong>Immune to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{fear} and @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation}.</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Mirror Self<br /></strong>The ally is a clone of the caster except: it&rsquo;s an @Compendium[swade-core-rules.swade-rules.Wild Cards and Extras]{Extras}; it has the same number of current @Compendium[swade-core-rules.swade-rules.Arcane Backgrounds]{Power Points} as the caster after subtracting for this casting; it cannot use the <em>summon ally </em>power; its @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{skills} (but not @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01traits00000000]{attributes}) are one die type less (minimum d4) than the original; it has identical mundane equipment (no magical qualities, disappears when the power expires); has the @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili05]{Construct} and @UUID[Compendium.swade-core-rules.swade-rules.swadecor06bestia.JournalEntryPage.06specialabili11]{Fearless} abilities.<br /></p>\n<p>&nbsp;</p>\n<p><strong>Sentinel<br />Attributes: </strong>Agility d6, Smarts d6, Spirit d8, Strength d12+2, Vigor d10<br /><strong>Skills:&nbsp;</strong>@Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} d6, @Compendium[swade-core-rules.swade-skills.Fighting]{Fighting} d10, @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation} d10, @Compendium[swade-core-rules.swade-skills.Notice]{Notice} d8<br /><strong>Pace: </strong>6; <strong>Parry: </strong>7; <strong>Toughness: </strong>13 (4)<br /><strong>Edges: </strong>@Compendium[swade-core-rules.swade-edges.Arcane Resistance]{Arcane Resistance}, @Compendium[swade-core-rules.swade-edges.Improved Sweep]{Sweep (Improved)}.<br /><strong>Gear: </strong>Melee attack (Str+d8).<br /><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>Armor +4: </strong>Stone skin.</li>\n<li><strong><strong>@Compendium[swade-core-rules.swade-rules.Special Ability (Construct)]{Construct}:</strong> </strong>See Attendant.</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.Special Ability (Fearless)]{Fearless}: </strong>Immune to @UUID[Compendium.swade-core-rules.swade-rules.swadecor04theadv.JournalEntryPage.04fear0000000000]{fear} and @Compendium[swade-core-rules.swade-skills.Intimidation]{Intimidation}.</li>\n<li><strong>@Compendium[swade-core-rules.swade-rules.Size and Scale]{Size} 2: </strong>Sentinels are 8' tall and very dense.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "Clay figure that grows into a servant, a tattoo that comes to life.",
-      "pp": 1
+      "trapping": "Clay figure that grows into a servant, a tattoo that comes to life."
     },
     "Telekinesis": {
       "name": "Telekinesis",
       "description": "<article class=\"swade-core\">\n<p><em>Telekinesis </em> is the ability to move objects or creatures (including oneself) with arcane will. It has a Strength of d10, or d12 with a raise. On activation, the caster may immediately perform one of the “uses” below. Subsequent uses are actions and use the arcane skill (but are not activation rolls and therefore not subject to Backlash from Critical Failures).</p>\n<p>Unwilling beings targeted by telekinesis resist the caster’s arcane skill with an opposed Spirit roll when first targeted, and at the start of each of their turns thereafter until they’re released. Successful resistance does not mean the spell fails–the caster may try again on his next turn.</p>\n<p><strong>Uses:</strong></p>\n<li><strong>Bash:</strong> The target may be bashed into the floor, ceiling, or walls for Str+d6 damage.</li>\n<li><strong>Change Targets:</strong> The caster may release a victim or tool as a free action. Picking up a new weapon is a free action. Selecting a new unwilling target is an action and is resisted as above.</li>\n<li><strong>Manipualte:</strong> The caster may use tools to perform simple tasks or wield a weapon, using the caster’s arcane skill. (This doesn’t alter the caster’s Parry if wielding a weapon if his arcane skill is different from his Fighting skill.)</li>\n<li><strong>Move:</strong> The target or tool may be moved up to the caster’s Smarts as a limited free action.</li>\n</article>",
       "range": "Sm x2",
       "rank": "Seasoned",
-      "duration": 5,
-      "trapping": "A wave of the hand, magic wand, steely gaze",
-      "pp": 5
+      "trapping": "A wave of the hand, magic wand, steely gaze"
     },
     "Teleport": {
       "name": "Teleport",
@@ -457,26 +388,21 @@
       "range": "Sm",
       "rank": "Seasoned",
       "duration": "Instant",
-      "trapping": "A cloud of smoke, \"phasing\" out, change into a bolt of lightning",
-      "pp": 2
+      "trapping": "A cloud of smoke, \"phasing\" out, change into a bolt of lightning"
     },
     "Wall Walker": {
       "name": "Wall Walker",
       "description": "<article class=\"swade-core\">\n<p><em>Wall walker&nbsp;</em>allows the recepient to walk on vertical or horizontal surfaces. With @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{success}, she moves at half her normal @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Pace}. With a @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03traitrolls0000]{raise}, she may move at full @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{Pace} and even @UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03movement000000]{run}.</p>\n<p>If forced to make an @Compendium[swade-core-rules.swade-skills.Athletics]{Athletics} roll to climb or hang on to the a surface, she adds +4 to the total.</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1):</strong> The caster may affect others at the cost of 1 @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Point} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Novice",
-      "duration": 5,
-      "trapping": "Spider-like visage, prickly hairs on hands and feet",
-      "pp": 2
+      "trapping": "Spider-like visage, prickly hairs on hands and feet"
     },
     "Warrior's Gift": {
       "name": "Warrior's Gift",
       "description": "<article class=\"swade-core\">\n<p>With a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{successful} @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{arcane skill} roll, the recipient gains the benefits of a single Combat @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Edge} chosen by the caster. The caster (not the recipient) must have the same @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01advancement000]{Rank} or higher as the Edge&rsquo;s Requirements. With a @Compendium[swade-core-rules.swade-rules.Trait Rolls]{raise}, the recipient gains the Improved version of the Edge (if there is one, and even if he doesn&rsquo;t meet the @UUID[Compendium.swade-core-rules.swade-rules.swadecor01charac.JournalEntryPage.01edges000000000]{Rank Requirement}).</p>\n<p><strong>Modifiers</strong></p>\n<ul>\n<li><strong>Additional Recipients (+1): </strong>The power may affect more than one target for 1 additional @UUID[Compendium.swade-core-rules.swade-rules.swadecor05powers.JournalEntryPage.05arcanebackgr00]{Power Point} each.</li>\n</ul>\n</article>",
       "range": "Sm",
       "rank": "Seasoned",
-      "duration": 5,
-      "trapping": "Gestures, prayer, whispered words, concentration",
-      "pp": 4
+      "trapping": "Gestures, prayer, whispered words, concentration"
     },
     "Zombie": {
       "name": "Zombie",
@@ -484,8 +410,7 @@
       "range": "Sm",
       "rank": "Veteran",
       "duration": "One hour",
-      "trapping": "Carving symbols on corpses, throwing bones, graveyards, \"leather\" books",
-      "pp": 3
+      "trapping": "Carving symbols on corpses, throwing bones, graveyards, \"leather\" books"
     }
   }
 }
