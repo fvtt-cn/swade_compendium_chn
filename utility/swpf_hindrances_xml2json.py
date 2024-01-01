@@ -1,0 +1,40 @@
+import json
+import sys
+from bs4 import BeautifulSoup
+
+def extract_data(html_file, json_file):
+    # 读取HTML文件
+    with open(html_file, 'r', encoding='utf-8') as f:
+        html_content = f.read()
+    soup = BeautifulSoup(html_content, 'html.parser')
+
+    # 读取JSON文件
+    with open(json_file, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    entries = data.get("entries", {})
+    for element in soup.find_all('h3'):
+        id_str = element['id']
+        id = id_str.strip().replace('-', ' ').title()
+
+        # 查找相应的对象并处理<div>块
+        target_obj = entries.get(id)
+        if target_obj is not None:
+            div_element = element.find_next_sibling('div')
+            if div_element is not None:
+                target_obj['description'] = str(div_element)
+                target_obj['name'] = element.text.strip()
+    # 更新JSON文件中的entries字段
+    data['entries'] = entries
+
+    # 将处理结果保存回JSON文件
+    with open(json_file, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
+
+if __name__ == '__main__':
+    # 从命令行参数获取文件名
+    html_file = sys.argv[1]
+    json_file = sys.argv[2]
+
+    # 调用函数进行处理
+    extract_data(html_file, json_file)
