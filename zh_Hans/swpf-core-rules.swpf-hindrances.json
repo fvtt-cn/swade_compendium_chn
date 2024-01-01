@@ -201,8 +201,8 @@
             "description": "<div class=\"swpf-core\">\n<p>(次要或主要)</p><p>角色对所有人都心存怀疑。若为次要负赘，这个疑神疑鬼的家伙经常会引起信任问题：在进行任务前索要全额报仇，每个承诺都要立字为据，甚至相信朋友会对自己不利。</p>\n<p>若为主要负赘，针对疑心病人物的援助投骰还会-2。</p>\n</div>"
         },
         "Thin Skinned": {
-            "name": "Thin Skinned",
-            "description": "<div class=\"swpf-core\">\n<p>(MINOR OR MAJOR)</p>\nPersonal attacks really get under this individual&rsquo;s skin. As a Minor Hindrance, subtract 2 when resisting @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt} attacks. As a Major, subtract 4.</div>"
+            "name": "脸皮薄",
+            "description": "<div class=\"swpf-core\">\n<p>(次要或主要)</p>\n<p>人身攻击能轻易让这个家伙恼羞成怒。若为次要负赘，角色抵抗嘲弄攻击时会-2。若为主要则是-4。</p>\n</div>"
         },
         "Timid": {
             "name": "胆怯",
