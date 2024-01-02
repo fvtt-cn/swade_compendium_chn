@@ -6,7 +6,7 @@
     "entries": {
         "Academics": {
             "name": "人文",
-            "description": "<div class=\"swpf-core\">\n<p>人文象征着艺术、历史、考古、宗教以及类似领域的学识，或是找出这些信息的能力。若是冒险者打算调查天帝历(Imperial Calendar)何时开始，复诵《七天大智书》(Azvadeva          Pujila)里面的语句，或是通过专业的语言学去破译失传的语言，这就是要用到的技能。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>人文象征着艺术、历史、考古、宗教以及类似领域的学识，或是找出这些信息的能力。若是冒险者打算调查天帝历(Imperial Calendar)何时开始，复诵《七天大智书》(Azvadeva Pujila)里面的语句，或是通过专业的语言学去破译失传的语言，这就是要用到的技能。</p>\n</div>"
         },
         "Athletics": {
             "name": "运动",
