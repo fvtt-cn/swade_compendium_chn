@@ -8,3419 +8,718 @@
     "entries": {
         "Ace": {
             "name": "王牌机师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and",
-                    "type": "attribute"
-                }
-            ],
             "category": "术业专长"
         },
         "Acrobat": {
             "name": "特技员",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "value": 8,
-                    "combinator": "and",
-                    "selector": "athletics"
-                }
-            ],
             "category": "术业专长"
         },
         "Aristocrat": {
             "name": "上流人士",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Artificer": {
             "name": "神器师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "Brute": {
             "name": "蛮勇",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "strength",
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "attribute"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Calculating": {
             "name": "谋定后动",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Champion": {
             "name": "勇士",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and",
-                    "type": "attribute"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "奇异专长"
         },
         "Command Presence": {
             "name": "指挥风度",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "combinator": "and",
-                    "selector": "command"
-                }
-            ],
             "category": "领导力专长"
         },
         "Connections": {
             "name": "人脉",
-            "category": "社交专长",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ]
+            "category": "社交专长"
         },
         "Counterattack": {
             "name": "反击",
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Danger Sense": {
             "name": "危险感知",
-            "category": "奇异专长",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ]
+            "category": "奇异专长"
         },
         "Dead Shot": {
             "name": "死亡一射",
-            "requirements": [
-                {
-                    "type": "wildCard",
-                    "combinator": "and"
-                },
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "athletics",
-                    "value": 8,
-                    "combinator": "or"
-                },
-                {
-                    "type": "skill",
-                    "selector": "shooting",
-                    "value": 8,
-                    "combinator": "or"
-                }
-            ],
             "category": "战斗专长"
         },
         "Dodge": {
             "name": "闪避",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Elan": {
             "name": "热忱",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "combinator": "and",
-                    "value": 8
-                }
-            ],
             "category": "背景专长"
         },
         "Extraction": {
             "name": "脱身",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Fame": {
             "name": "小有名气",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Famous": {
             "name": "名声大噪",
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "edge",
-                    "selector": "fame",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Feint": {
             "name": "虚招",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "First Strike": {
             "name": "先发制人",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Followers": {
             "name": "随从",
-            "requirements": [
-                {
-                    "type": "wildCard",
-                    "combinator": "and"
-                },
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Free Runner": {
             "name": "自由跑者",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "athletics",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Harder To Kill": {
             "name": "死里逃生",
-            "category": "战斗专长",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "hard-to-kill",
-                    "combinator": "and"
-                }
-            ]
+            "category": "战斗专长"
         },
         "Healer": {
             "name": "治疗师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "奇异专长"
         },
         "Holy/Unholy Warrior": {
             "name": "神圣/邪恶战士",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "arcane-background-miracles",
-                    "combinator": "and"
-                },
-                {
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "skill",
-                    "selector": "faith"
-                }
-            ],
             "category": "奇术专长"
         },
         "Humiliate": {
             "name": "羞辱",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "taunt",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Improved Arcane Resistance": {
             "name": "精通奥法抗性",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "arcane-resistance",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Improved Block": {
             "name": "精通招架",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "block",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved Counterattack": {
             "name": "精通反击",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "counterattack",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved Dodge": {
             "name": "精通闪避",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "dodge",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved Extraction": {
             "name": "精通脱身",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "extraction",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved First Strike": {
             "name": "精通先发制人",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "first-strike",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved Frenzy": {
             "name": "精通连击",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "frenzy",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved Level Headed": {
             "name": "精通沉稳冷静",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "level-headed",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved Nerves of Steel": {
             "name": "精通钢铁神经",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "nerves-of-steel",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improved Trademark Weapon": {
             "name": "精通招牌武器",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "trademark-weapon",
-                    "type": "edge",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Improvisational Fighter": {
             "name": "俯拾皆兵",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank",
-                    "value": 1
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Inspire": {
             "name": "激励",
-            "category": "领导力专长",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "command",
-                    "combinator": "and"
-                }
-            ]
+            "category": "领导力专长"
         },
         "Investigator": {
             "name": "调查员",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "research",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Iron Jaw": {
             "name": "头铁",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "combinator": "and",
-                    "value": 8
-                }
-            ],
             "category": "战斗专长"
         },
         "Iron Will": {
             "name": "钢铁意志",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank",
-                    "value": 1
-                },
-                {
-                    "type": "edge",
-                    "selector": "brave",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "strong-willed",
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Jack-Of-All-Trades": {
             "name": "万事通",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 10,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Level Headed": {
             "name": "沉稳冷静",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Linguist": {
             "name": "语言学家",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "smarts",
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "attribute"
-                }
-            ],
             "category": "背景专长"
         },
         "Master Tactician": {
             "name": "战术大师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and",
-                    "value": 2
-                },
-                {
-                    "type": "edge",
-                    "selector": "tactician",
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Menacing": {
             "name": "凶神恶煞",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "hindrance",
-                    "selector": "bloodthirsty",
-                    "combinator": "or"
-                },
-                {
-                    "type": "hindrance",
-                    "selector": "mean",
-                    "combinator": "or"
-                },
-                {
-                    "type": "hindrance",
-                    "combinator": "or",
-                    "selector": "ruthless"
-                },
-                {
-                    "type": "hindrance",
-                    "selector": "ugly",
-                    "combinator": "or"
-                }
-            ],
             "category": "社交专长"
         },
         "Natural Leader": {
             "name": "天生领袖",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "command",
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Nerves of Steel": {
             "name": "钢铁神经",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "value": 8,
-                    "combinator": "and",
-                    "type": "attribute",
-                    "selector": "vigor"
-                }
-            ],
             "category": "战斗专长"
         },
         "New Powers": {
             "name": "新奇术",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "No Mercy": {
             "name": "毫不留情",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Professional": {
             "name": "专业水准",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Provoke": {
             "name": "激怒",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "taunt",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Quick": {
             "name": "迅捷",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Reliable": {
             "name": "可靠",
-            "category": "社交专长",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ]
+            "category": "社交专长"
         },
         "Retort": {
             "name": "反驳",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "skill",
-                    "selector": "taunt",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Scavenger": {
             "name": "破烂王",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "combinator": "and",
-                    "type": "edge",
-                    "selector": "luck"
-                }
-            ],
             "category": "奇异专长"
         },
         "Scholar": {
             "name": "学者",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "research",
-                    "combinator": "and",
-                    "type": "skill",
-                    "value": 8
-                }
-            ],
             "category": "术业专长"
         },
         "Sidekick": {
             "name": "助手",
-            "category": "领导力专长",
-            "requirements": [
-                {
-                    "type": "wildCard",
-                    "combinator": "and"
-                },
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                }
-            ]
+            "category": "领导力专长"
         },
         "Soldier": {
             "name": "士兵",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "attribute",
-                    "selector": "strength"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Soul Drain": {
             "name": "饮魂汲魄",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "Steady Hands": {
             "name": "手稳",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Streetwise": {
             "name": "市井门道",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "smarts",
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "attribute"
-                }
-            ],
             "category": "社交专长"
         },
         "Strong Willed": {
             "name": "坚强意志",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Sweep": {
             "name": "横扫",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "strength",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Thief": {
             "name": "盗贼",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "stealth",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "thievery",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Tougher Than Nails": {
             "name": "比钢还强",
-            "requirements": [
-                {
-                    "value": 4,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "edge",
-                    "selector": "tough-as-nails",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 12,
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Very Attractive": {
             "name": "魅力非凡",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "attractive",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Weapon Master": {
             "name": "武器大师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 12,
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Wizard": {
             "name": "法师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "attribute",
-                    "selector": "smarts"
-                },
-                {
-                    "type": "skill",
-                    "selector": "occult",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "法师"
         },
         "Work the Room": {
             "name": "推波助浪",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Alertness": {
             "name": "警觉",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Ambidextrous": {
             "name": "双巧手",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Arcane Background (Magic)": {
             "name": "奥法背景 (魔法)",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                }
-            ],
             "category": "背景专长"
         },
         "Arcane Background (Miracles)": {
             "name": "奥法背景 (奇迹)",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Arcane Resistance": {
             "name": "奥法抗性",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Assassin": {
             "name": "刺客",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "sneak-attack-ability",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Block": {
             "name": "招架",
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Expert": {
             "name": "专家水准",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "professional",
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Fervor": {
             "name": "热情洋溢",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "command",
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Fleet-Footed": {
             "name": "飞毛腿",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "combinator": "and",
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 6
-                }
-            ],
             "category": "背景专长"
         },
         "Attractive": {
             "name": "魅力惊人",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Beast Master": {
             "name": "野兽大师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "奇异专长"
         },
         "Bruiser": {
             "name": "搏击师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "brawler",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Combat Acrobat": {
             "name": "战斗特技",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank",
-                    "value": 1
-                },
-                {
-                    "type": "edge",
-                    "selector": "acrobat",
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Concentration": {
             "name": "聚精会神",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "Frenzy": {
             "name": "连击",
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Great Luck": {
             "name": "高等幸运",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "luck",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Improved Sweep": {
             "name": "精通横扫",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "sweep",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Marksman": {
             "name": "神射手",
-            "requirements": [
-                {
-                    "value": 1,
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "athletics",
-                    "value": 8,
-                    "combinator": "or"
-                },
-                {
-                    "combinator": "or",
-                    "type": "skill",
-                    "selector": "shooting",
-                    "value": 8
-                }
-            ],
             "category": "战斗专长"
         },
         "Master of Arms": {
             "name": "武器宗师",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "combinator": "and",
-                    "selector": "weapon-master"
-                }
-            ],
             "category": "领导力专长"
         },
         "Mighty Blow": {
             "name": "强力一击",
-            "requirements": [
-                {
-                    "type": "wildCard",
-                    "combinator": "and"
-                },
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Brawler": {
             "name": "搏击手",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "strength",
-                    "value": 8,
-                    "combinator": "and",
-                    "type": "attribute"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Brawny": {
             "name": "健壮",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "strength",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Channeling": {
             "name": "导能",
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "Charismatic": {
             "name": "亲和力",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Combat Reflexes": {
             "name": "战斗反应",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Command": {
             "name": "指挥",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Common Bond": {
             "name": "共同联结",
-            "requirements": [
-                {
-                    "type": "wildCard",
-                    "combinator": "and"
-                },
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "combinator": "and",
-                    "value": 8
-                }
-            ],
             "category": "社交专长"
         },
         "Fast Healer": {
             "name": "快速痊愈",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Giant Killer": {
             "name": "巨物杀手",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank",
-                    "value": 2
-                }
-            ],
             "category": "战斗专长"
         },
         "Hard To Kill": {
             "name": "九死一生",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "value": 8,
-                    "combinator": "and",
-                    "selector": "spirit"
-                }
-            ],
             "category": "战斗专长"
         },
         "Hold the Line!": {
             "name": "死守不退",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "command",
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Killer Instinct": {
             "name": "好胜心",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Beast Bond": {
             "name": "野兽联结",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇异专长"
         },
         "Bolster": {
             "name": "加把劲",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Brave": {
             "name": "勇敢",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Luck": {
             "name": "幸运",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ],
             "category": "背景专长"
         },
         "Master": {
             "name": "大师水准",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "wildCard"
-                },
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "expert",
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Power Surge": {
             "name": "能量涌动",
-            "requirements": [
-                {
-                    "type": "wildCard",
-                    "combinator": "and"
-                },
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "Rabble-Rouser": {
             "name": "煽风点火",
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank",
-                    "value": 1
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Tough As Nails": {
             "name": "比铁还硬",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 4,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Power Points": {
             "name": "奇术点",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "Tactician": {
             "name": "战术家",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "command",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "battle",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "领导力专长"
         },
         "Trademark Weapon": {
             "name": "招牌武器",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Woodsman": {
             "name": "守林人",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "survival",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Work the Crowd": {
             "name": "推波助澜",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "work-the-room",
-                    "combinator": "and"
-                }
-            ],
             "category": "社交专长"
         },
         "Advanced Bloodline": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "sorcerer",
-                    "combinator": "and"
-                }
-            ],
             "category": "术士"
         },
         "Arcane Archer": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "shooting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Arcane Archer II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "arcane-archer",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Arcane Archer III": {
-            "requirements": [
-                {
-                    "value": 2,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "edge",
-                    "selector": "arcane-archer-ii",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Arcane Armor": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "armor-interference",
-                    "combinator": "and"
-                }
-            ],
             "category": "奇术专长"
         },
         "Arcane Background (Druid)": {
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "value": 6,
-                    "combinator": "and",
-                    "selector": "survival"
-                }
-            ],
             "category": "德鲁伊"
         },
         "Arcane Background (Sorcerer)": {
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "combinator": "and",
-                    "selector": "spirits",
-                    "value": 6
-                }
-            ],
             "category": "术士"
         },
         "Arcane Background (Wizard)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "occult",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "法师"
         },
         "Arcane Mastery (Sorcerer)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "sorcerer",
-                    "combinator": "and"
-                }
-            ],
             "category": "术士"
         },
         "Arcane Mastery (Wizard)": {
-            "requirements": [
-                {
-                    "value": 2,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "edge",
-                    "selector": "wizard",
-                    "combinator": "and"
-                }
-            ],
             "category": "法师"
         },
         "Arcane Trickster": {
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "thievery",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Arcane Trickster II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "arcane-trickster",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Arcane Trickster III": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "arcane-trickster-ii",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Assassin II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "assassin",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Assassin III": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "combinator": "and",
-                    "type": "edge",
-                    "selector": "assassin-ii"
-                }
-            ],
             "category": "进阶专长"
         },
         "Barbarian": {
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "strength",
-                    "combinator": "and",
-                    "value": 6
-                },
-                {
-                    "type": "attribute",
-                    "selector": "vigor",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "野蛮人"
         },
         "Bard": {
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "common-knowledge",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "吟游诗人"
         },
         "Born in the Saddle": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "athletics",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Cleric": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "occult",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "牧师"
         },
         "Countersong": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "bard",
-                    "combinator": "and"
-                }
-            ],
             "category": "吟游诗人"
         },
         "Deadly Blow": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "fighter",
-                    "combinator": "and"
-                }
-            ],
             "category": "战士"
         },
         "Destroy Undead": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "cleric",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "牧师"
         },
         "Dirge of Doom": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "bard",
-                    "combinator": "and"
-                }
-            ],
             "category": "吟游诗人"
         },
         "Divine Mastery (Cleric)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "cleric",
-                    "combinator": "and"
-                }
-            ],
             "category": "牧师"
         },
         "Divine Mastery (Druid)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "druid",
-                    "combinator": "and"
-                }
-            ],
             "category": "德鲁伊"
         },
         "Dragon Disciple": {
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "occult",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Dragon Disciple II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "dragon-disciple",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Druid": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "survival",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "德鲁伊"
         },
         "Duelist": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "value": 8,
-                    "combinator": "and",
-                    "type": "attribute",
-                    "selector": "agility"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Duelist II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "duelist",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "进阶专长"
         },
         "Duelist III": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "duelist-ii",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Eldritch Inspiration": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "wizard",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "法师"
         },
         "Eldritch Knight": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "arcane-background-any-or-mystic-powers-any",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Eldritch Knight II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "eldritch-knight",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Eldritch Knight III": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "eldritch-knight-ii",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Favored Powers (Cleric)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "cleric",
-                    "combinator": "and"
-                }
-            ],
             "category": "牧师"
         },
         "Favored Powers (Druid)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "druid",
-                    "combinator": "and"
-                }
-            ],
             "category": "德鲁伊"
         },
         "Favored Powers (Sorcerer)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "sorcerer",
-                    "combinator": "and"
-                }
-            ],
             "category": "术士"
         },
         "Favored Powers (Wizard)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "wizard",
-                    "combinator": "and"
-                }
-            ],
             "category": "法师"
         },
         "Fighter": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "strength",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "value": 6,
-                    "combinator": "or",
-                    "type": "skill",
-                    "selector": "athletics"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 6,
-                    "combinator": "or"
-                },
-                {
-                    "type": "skill",
-                    "selector": "shooting",
-                    "value": 6,
-                    "combinator": "or"
-                }
-            ],
             "category": "战士"
         },
         "Fix It": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "repair",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Formation Fighter": {
-            "requirements": [
-                {
-                    "type": "edge",
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Great Ki": {
-            "requirements": [
-                {
-                    "value": 2,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "edge",
-                    "selector": "monk",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "mystic-powers-monk",
-                    "combinator": "and"
-                }
-            ],
             "category": "武僧"
         },
         "Improved Rapid Shot": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "shooting",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Intimidating Glare": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and",
-                    "value": 2
-                },
-                {
-                    "type": "edge",
-                    "combinator": "and",
-                    "selector": "barbarian"
-                }
-            ],
             "category": "野蛮人"
         },
         "Loremaster": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "smarts",
-                    "type": "attribute",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "academics",
-                    "value": 8,
-                    "combinator": "or"
-                },
-                {
-                    "type": "skill",
-                    "selector": "common-knowledge",
-                    "value": 8,
-                    "combinator": "or"
-                },
-                {
-                    "type": "skill",
-                    "selector": "occult",
-                    "value": 8,
-                    "combinator": "or"
-                }
-            ],
             "category": "进阶专长"
         },
         "Loremaster II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "combinator": "and",
-                    "type": "edge",
-                    "selector": "loremaster"
-                }
-            ],
             "category": "进阶专长"
         },
         "Loremaster III": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "combinator": "and",
-                    "type": "edge",
-                    "selector": "loremaster-ii"
-                }
-            ],
             "category": "进阶专长"
         },
         "Martial Flexibility (Improved)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "fighter",
-                    "combinator": "and"
-                }
-            ],
             "category": "战士"
         },
         "Martial Prowess": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "fighter",
-                    "combinator": "and"
-                }
-            ],
             "category": "战士"
         },
         "Master Hunter": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "ranger",
-                    "combinator": "and"
-                }
-            ],
             "category": "游侠"
         },
         "Mercy": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "paladin",
-                    "combinator": "and"
-                }
-            ],
             "category": "圣武士"
         },
         "Monk": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "武僧"
         },
         "Mount": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "paladin",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "圣武士"
         },
         "Mystic Powers (Monk)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "monk",
-                    "combinator": "and"
-                }
-            ],
             "category": "武僧"
         },
         "Mystic Powers (Paladin)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "paladin",
-                    "combinator": "and"
-                }
-            ],
             "category": "圣武士"
         },
         "Mystic Powers (Ranger)": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and",
-                    "value": 2
-                },
-                {
-                    "type": "edge",
-                    "selector": "ranger",
-                    "combinator": "and"
-                }
-            ],
             "category": "游侠"
         },
         "Mystic Theurge": {
-            "requirements": [
-                {
-                    "value": 1,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "other",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Mystic Theurge II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "mystic-theurge",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Mystic Theurge III": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "mystic-theurge-ii",
-                    "combinator": "and",
-                    "type": "edge"
-                }
-            ],
             "category": "进阶专长"
         },
         "Opportunist": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "rogue",
-                    "combinator": "and"
-                }
-            ],
             "category": "游荡者"
         },
         "Paladin": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "strength",
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "attribute"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "spirit",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "hindrance",
-                    "selector": "vow",
-                    "combinator": "and"
-                }
-            ],
             "category": "圣武士"
         },
         "Pathfinder Chronicler": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "survival",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "value": 8,
-                    "combinator": "or",
-                    "type": "skill",
-                    "selector": "common-knowledge"
-                },
-                {
-                    "type": "skill",
-                    "selector": "occult",
-                    "value": 8,
-                    "combinator": "or"
-                }
-            ],
             "category": "进阶专长"
         },
         "Pathfinder Chronicler II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "pathfinder-chronicler",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Pathfinder Chronicler III": {
-            "requirements": [
-                {
-                    "value": 2,
-                    "combinator": "and",
-                    "type": "rank"
-                },
-                {
-                    "type": "edge",
-                    "selector": "pathfinder-chronicler-ii",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Powerful Blow": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "barbarian",
-                    "type": "edge",
-                    "combinator": "and"
-                }
-            ],
             "category": "野蛮人"
         },
         "Quarry": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "ranger",
-                    "combinator": "and"
-                }
-            ],
             "category": "游侠"
         },
         "Ranger": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "value": 6,
-                    "combinator": "or",
-                    "selector": "athletics"
-                },
-                {
-                    "type": "skill",
-                    "selector": "fighting",
-                    "value": 6,
-                    "combinator": "or"
-                },
-                {
-                    "type": "skill",
-                    "selector": "shooting",
-                    "value": 6,
-                    "combinator": "or"
-                },
-                {
-                    "type": "skill",
-                    "selector": "survival",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "游侠"
         },
         "Rapid Reload": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "selector": "shooting",
-                    "value": 6,
-                    "combinator": "and",
-                    "type": "skill"
-                }
-            ],
             "category": "战斗专长"
         },
         "Rapid Shot": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "shooting",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Rogue": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "notice",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "stealth",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "游荡者"
         },
         "Shadowdancer": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "performance",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "thievery",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Shadowdancer II": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "selector": "shadowdancer-ii",
-                    "type": "edge",
-                    "combinator": "and"
-                }
-            ],
             "category": "进阶专长"
         },
         "Sorcerer": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "smarts",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "spirits",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "术士"
         },
         "Strength Surge": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "barbarian",
-                    "combinator": "and"
-                }
-            ],
             "category": "野蛮人"
         },
         "Trap Sense": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "combinator": "and",
-                    "type": "edge",
-                    "selector": "rogue"
-                }
-            ],
             "category": "游荡者"
         },
         "Troubadour": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "stealth",
-                    "value": 6,
-                    "combinator": "and"
-                },
-                {
-                    "type": "skill",
-                    "selector": "thievery",
-                    "value": 6,
-                    "combinator": "and"
-                }
-            ],
             "category": "术业专长"
         },
         "Two-Weapon Fighting": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                },
-                {
-                    "type": "attribute",
-                    "selector": "agility",
-                    "value": 8,
-                    "combinator": "and"
-                }
-            ],
             "category": "战斗专长"
         },
         "Uncanny Reflexes": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "rogue",
-                    "combinator": "and"
-                }
-            ],
             "category": "游荡者"
         },
         "Wholeness of Body": {
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "monk",
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "combinator": "and",
-                    "selector": "mystic-powers-monk"
-                }
-            ],
             "category": "武僧"
         },
         "Wild Shape": {
-            "requirements": [
-                {
-                    "combinator": "and",
-                    "type": "rank",
-                    "value": 1
-                },
-                {
-                    "type": "edge",
-                    "selector": "druid",
-                    "combinator": "and"
-                }
-            ],
             "category": "德鲁伊"
         },
         "Arcane Background (Bard)": {
-            "category": "吟游诗人",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "combinator": "and"
-                }
-            ]
+            "category": "吟游诗人"
         },
         "Dragon Disciple III": {
-            "category": "进阶专长",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 3,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "dragon-disciple-ii",
-                    "combinator": "and"
-                }
-            ]
+            "category": "进阶专长"
         },
         "Inspire Heroics": {
-            "category": "吟游诗人",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 1,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "bard",
-                    "combinator": "and"
-                }
-            ]
+            "category": "吟游诗人"
         },
         "Shadowdancer III": {
-            "category": "进阶专长",
-            "requirements": [
-                {
-                    "type": "rank",
-                    "value": 2,
-                    "combinator": "and"
-                },
-                {
-                    "type": "edge",
-                    "selector": "shadowdancer-ii",
-                    "combinator": "and"
-                }
-            ]
+            "category": "进阶专长"
         }
     }
 }
