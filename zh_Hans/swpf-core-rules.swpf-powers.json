@@ -76,7 +76,7 @@
         "Boost/Lower Trait": {
             "name": "强化/削弱特性",
             "description": "<div class=\"swpf-core\"><h3 id=\"boost-lower-trait\">强化/削弱特性 BOOST/LOWER TRAIT</h3><p><strong>位阶：</strong>入门</p><p><strong>奇术点：</strong>2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>5(<em>强化</em>)；瞬间(<em>削弱</em>)</p><p><strong>学派：</strong>变化系(<em>强化</em>)；死灵系(<em>削弱</em>)</p><p><strong>特效：</strong>外表改变，发亮灵气，药剂。</p><hr><p>角色能以该奇术增加或减少目标的特性(属性或技能)。</p><p><em>强化</em>一名盟友的特性能让所选的特性骰子类型上升一级，优良则上升两级。</p><p><em>削弱</em>一名敌人的特性则持续时间是瞬间，成功会使所选的属性或技能骰子类型下降一级，优良则让骰子类型下降两级(下限为d4)。对象在自己接下来的所有回合结束时将自动尝试以一个自由行动进行一次心魂投骰来摆脱该效果。成功会使受影响的特性骰上升一级，优良则移除整个效果。</p><p>多次对同一特性施术其效果不会叠加(结果取最高)，但多次施放可以影响<em>不同</em>的特性。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li><li class=\"star-icon\"><span class=\"list-heading\">高等强化/削弱特性(+2)：</span><em>强化特性</em>成功可让选定特性每轮免费获得一次重投，若为优良则是每行动一次。<em>削弱特性</em>会对受影响的特性投骰造成-2减值。</li><li><span class=\"list-heading\">强劲(+1)：</span>仅限<em>削弱特性</em>，摆脱该效果的心魂投骰-2。</li></ul></div>",
-            "duration": "5(<em>强化</em>)；瞬间(<em>削弱</em>)",
+            "duration": "5(强化)；瞬间(削弱)",
             "range": "聪慧",
             "rank": "入门",
             "trapping": "表改变，发亮灵气，药剂。"
@@ -156,7 +156,7 @@
         "Detect/Conceal Arcana": {
             "name": "侦测/隐藏奥法",
             "description": "<div class=\"swpf-core\"><h3 id=\"detect-conceal-arcana\">侦测/隐藏奥法 DETECT/CONCEAL ARCANA</h3><p><strong>位阶：</strong>入门</p><p><strong>奇术点：</strong>2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>5(<em>侦测</em>)；1小时(<em>隐藏</em>)</p><p><strong>学派：</strong>预言系(<em>侦测</em>)；幻术系(<em>隐藏</em>)</p><p><strong>特效：</strong>挥动双手，低语咒文。</p><hr><p><em>侦测奥法</em>能让对象在5轮内能看到和发现视线里所有超自然人物、物件或效果。这包括<em>隐形</em>的敌人、人或物上附着的魔法等等。若为优良，施术者还能知晓魔法的基本类型。</p><p>作用于超自然生物时，施术者能得知其启动的奇术以及奥法能力。若获得优良，则还会知晓对应生物类别的常规弱点，然而其无法揭露特殊单位的弱点(如有)，这通常必须得要通过研究或是反复试验方能加以发现。</p><p><strong>不可见生物：</strong><em>侦测奥法</em>也能让角色在攻击藏于魔法黑暗、<em>隐形</em>或类似能力中的敌人时忽略至多4点减值(优良则是所有减值)。</p><p><em>隐藏奥法</em>则会在1小时内防止侦测魔法能力作用于一个中型及以下尺寸的生物或物品(见167页的<strong>侦测魔法</strong>以及245页的<strong>体型表</strong>)。更为庞大的生物则根据尺寸调整值增加对应消耗(大型+2奇术点，超大型+4奇术点，巨型+6奇术点)。</p><p>若是成功，则尝试对此生物或物品进行<em>侦测奥法</em>会遭受-2减值(优良则是-4)。若是<em>侦测奥法</em>失败，则角色这次施术就看不出端倪，而且除非出现明显的相关佐证(举例而言，来自不可见敌人的攻击)，否则不会意识到有所隐藏。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术就可以多影响1位观察者(<em>侦测</em>)或是1件物品(<em>隐藏</em>)。</li><li><span class=\"list-heading\">阵营感知(+1)：</span>施术者能感知射程内超自然善良(或邪恶)存在的确切位置，启动时带有阵营感知的<em>侦测奥法</em>不需要视觉线就能定位生物。</li><li><span class=\"list-heading\">范围效果(+1/+2)：</span>仅限<em>隐藏</em>，+1奇术点能影响中型爆发盖板球形范围内所有单位，+2奇术点则变成大型爆发盖板。</li><li><span class=\"list-heading\">鉴识(+1)：</span>施术者能鉴识某一魔法物品上的力量以及运作机理。</li><li><span class=\"list-heading\">强劲(+1)：</span>仅限<em>隐藏</em>，看穿<em>隐藏</em>的<em>侦测</em>投骰-2，这会与施术时获得优良所带来的额外减值叠加。</li></ul></div>",
-            "duration": "5(<em>侦测</em>)；1小时(<em>隐藏</em>)",
+            "duration": "5(侦测)；1小时(隐藏)",
             "range": "聪慧",
             "rank": "入门",
             "trapping": "挥动双手，低语咒文。"
@@ -419,7 +419,7 @@
         "Sloth/Speed": {
             "name": "滞缓/加速",
             "description": "<div class=\"swpf-core\"><h3 id=\"sloth-speed\">滞缓/加速 SLOTH/SPEED</h3><p><strong>位阶：</strong>行家</p><p><strong>奇术点：</strong>2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>瞬间(<em>滞缓</em>)；5(<em>加速</em>)</p><p><strong>学派：</strong>变化系</p><p><strong>特效：</strong>时间减缓，动作残影。</p><hr><p><em>滞缓</em>会将目标总移动减半(向上取整)。若获得优良，则会使移动也需要一个行动。目标在自己接下来的所有回合结束时将自动尝试进行一次心魂投骰来摆脱<em>滞缓</em>的效果。</p><p><em>加速</em>会让目标的移动(基本移速以及奔跑)加倍。获得优良则角色还会忽略奔跑的-2减值。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li><span class=\"list-heading\">额外对象(+1)：</span>仅限<em>加速</em>。每额外消耗1奇术点，该奇术可以多影响1个目标。</li><li><span class=\"list-heading\">范围效果(+2/+3)：</span>仅限<em>滞缓</em>。+2奇术点能影响中型爆发盖板内所有单位，+3奇术点则效果范围上升到大型爆发盖板。</li><li><span class=\"list-heading\">冲刺(+2)：</span>仅限<em>加速</em>。对象无须投奔跑骰，自动取最大结果。</li><li><span class=\"list-heading\">迅疾(+2)：</span>仅限<em>加速</em>。角色每回合的总多重行动减值-2(能无减值进行两个行动，或是各-2进行三个行动)。</li><li><span class=\"list-heading\">强劲(+1)：</span>仅限<em>滞缓</em>。摆脱<em>滞缓</em>效果的心魂投骰-2。</li></ul></div>",
-            "duration": "瞬间(<em>滞缓</em>)；5(<em>加速</em>)",
+            "duration": "瞬间(滞缓)；5(加速)",
             "range": "聪慧",
             "rank": "行家",
             "trapping": "时间减缓，动作残影。"
@@ -443,7 +443,7 @@
         "Sound/Silence": {
             "name": "发声/沉默",
             "description": "<div class=\"swpf-core\"><h3 id=\"sound-silence\">发声/沉默 SOUND/SILENCE</h3><p><strong>位阶：</strong>入门</p><p><strong>奇术点：</strong>1</p><p><strong>射程：</strong>聪慧x5(<em>发声</em>)；聪慧(<em>沉默</em>)</p><p><strong>持续时间：</strong>瞬间(<em>发声</em>)；5(<em>沉默</em>)</p><p><strong>学派：</strong>幻术系</p><p><strong>特效：</strong>魔法效果，空中的短促波纹，开始或停止鸣响的铃铛或编钟。</p><hr><p><em>发声</em>会模仿任何已知的声音或人声，并让其自射程内的某个点发出，音量最高可达大声呼喊的程度。如果用于考验，防守方则必须以聪慧对抗施术投骰。</p><p><em>沉默</em>则相反，其能在大型爆发盖板内压制音量最高等同于大喊的所有声音。这会让所有效果范围内的察觉投骰-4，尝试听到范围内的声音也是如此。优良则会彻底压制盖板内的所有声音(注意，施放法术时通常需要发声)。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高等发声/沉默(+1)：</span>用于抵抗考验(或是目标调整)的聪慧投骰-2。</li><li><span class=\"list-heading\">可动(+1)：</span>施术者每一轮可以将效果范围移动至多等同于奥法技能骰子类型数的距离。 </li><li><span class=\"list-heading\">目标(+0)：</span>施术者不再是在效果范围内施放<em>沉默</em>，而是变成每消耗1奇术点就能影响射程内的一个目标，非自愿目标以心魂进行抵抗(若施术者获得优良则还要-2)。</li></ul></div>",
-            "duration": "瞬间(<em>发声</em>)；5(<em>沉默</em>)",
+            "duration": "瞬间(发声)；5(沉默)",
             "range": "聪慧x5(<em>发声</em>)；聪慧(<em>沉默</em>)",
             "rank": "入门",
             "trapping": "魔法效果，空中的短促波纹，开始或停止鸣响的铃铛或编钟。"
