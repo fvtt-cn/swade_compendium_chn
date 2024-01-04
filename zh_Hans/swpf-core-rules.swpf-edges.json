@@ -8,95 +8,118 @@
     "entries": {
         "Ace": {
             "name": "王牌机师",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>王牌机师是与其载具有着特殊共鸣的驾驶员。其任何驾船、驾驶和航空投骰忽略2点减值，并且可以使用助力点以对应的驾船、驾驶或航空技能(而不是活力)来给任何处于自己操作或命令下的载具化解伤害，每次成功和优良都能抵消1个损伤。\n</p>\n</div>"
         },
         "Acrobat": {
             "name": "特技员",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>特技员在包括平衡、翻滚或擒抱的运动总值免费获得一次重投。该专长不影响打断行动、攀爬，游泳或投掷的投骰。</p>\n</div>"
         },
         "Aristocrat": {
             "name": "上流人士",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色生来就是特权阶级，或是在之后的人生里进入了这个阶级，其不一定有钱，但仍是这个世界精英社交圈中的一员。</p>\n<p>上流人士与本地精英、贵族或其他上流人士打点关系(见160页)时交涉+2。此外在掌握上流阶层礼仪，辨别家族谱系或纹章，或是回想关于某人身份的流言时的通用知识投骰+2</p>\n</div>"
         },
         "Artificer": {
             "name": "神器师",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>那些萦绕着超自然力量的个体有时能找到将力量注入物品之中的方法，其可以将寻常利器转变为魔法刀剑，赠给朋友超凡药水，甚至是用神力恩赐祝福出圣遗物。神器师可以制造<strong>奥法装置</strong>并将其交给盟友，见172页。如有可能，这个装置会反映出创造者的背景。吟游诗人的奥法装置可以是艺术品，像是会唱歌的剑，魔法乐器，或是一首史诗等等。\n</p>\n</div>"
         },
         "Brute": {
             "name": "蛮勇",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>相较协调性和灵活性，蛮勇的家伙更重视核心力量和块头大小，其在升级时可以将力量视为运动的关联属性(而非灵巧)。该角色也能选择用力量来抵抗运动考验。</p>\n<p>最后，蛮勇角色所有投掷物品的短距射程+1，中距射程则此调整加倍，长距射程则再加倍。举例而言，若投掷物品的射程为3/6/12，则蛮勇角色的对应射程会变成4/8/16。</p>\n</div>"
         },
         "Calculating": {
             "name": "谋定后动",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色只需要花上数秒观察敌人的行动就能为自己带来很大优势。若角色的行动卡是5或以下，其就能在该回合内的一个行动上忽略至多2点减值，这包括了多重行动、掩蔽、射程甚至是损伤减值。</p>\n</div>"
         },
         "Champion": {
             "name": "勇士",
-            "category": "奇异专长"
+            "category": "奇异专长",
+            "description": "<div class=\"swpf-core\">\n\n\n<p>勇士是被选召为特定神明或信仰而战的圣洁(或亵渎)男女，其中大多数都是自愿准备为伟业牺牲自我的虔诚灵魂，但也有一部分属于生来就要背负这个角色，因此颇不情愿地走上这条道路。</p>\n<p>勇士与黑暗之力(或善良之力)斗争，在攻击超自然邪恶(如果角色属于邪恶那针对的就是善良)生物时伤害+2，这个加值会应用于范围效果伤害、远程攻击、奇术等等。</p>\n<p>GM必须裁定这个加值对什么敌人有效，通常而言这是指任何生于魔法或拥有超自然能力的邪恶(或是善良！)生物。</p>\n</div>"
         },
         "Command Presence": {
             "name": "指挥风度",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>宏亮的声音、干练的命令、天生的气质，甚至只是单纯的训练有素都能让人们奋起而战。具有该专长的角色指挥范围变成10英寸(20码)。</p>\n</div>"
         },
         "Connections": {
             "name": "人脉",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色认识能在危难之刻给予援手的朋友或组织，这可以是城市守卫、公会、富婆贵族，乃至其他冒险者。</p>\n<p>人脉专长可以多次选择，每次都要选择一个新的组织或关系人。每回游戏一次，只要角色能联系上对方，那就可以向朋友寻求一次帮助。</p>\n<p>帮助取决于关系对象的本质(GM决定)，但通常都是贷款、装备、一小伙帮忙的战士、运输、情报、甚至可以是具备团队短板关键技能的专家，诸如追踪者或者学者。</p>\n</div>"
         },
         "Counterattack": {
             "name": "反击",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>拥有该专长的角色能抓准敌人的失误立刻予以回敬。每轮一次(若未陷入动摇或震慑)，角色可以向对自己发起格斗攻击但失手的对象进行一次<strong>自由攻击</strong>(133页)。反击会立刻发生，这会发生在该行动卡内对该角色的其他攻击(如有)之前。\n</p>\n</div>"
         },
         "Danger Sense": {
             "name": "危险感知",
-            "category": "奇异专长"
+            "category": "奇异专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色能在坏事发生前一刻有所察觉。当因<strong>突袭</strong>(见139页)而进行投骰时，为了能在第一轮行动的察觉投骰+2。若获得优良，角色在遭遇开始时处于待机。</p>\n<p>在其他没有包含在突袭规则的情景中(狙击、陷坑、毒饮等等)，危险感知也能让角色进行一次-2的察觉投骰(若通常允许察觉投骰则还会+2)以发现危机并采取合适行动。若这是一次攻击并且此角色成功通过了察觉投骰，则敌人不会对其构成奇袭。\n</p>\n</div>"
         },
         "Dead Shot": {
             "name": "死亡一射",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>行动卡是鬼牌时，该轮内第一次成功的运动(投掷)或射击投骰造成的总伤害加倍。</p>\n</div>"
         },
         "Dodge": {
             "name": "闪避",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色可以预判攻击或在弹幕下闪展腾挪。除非对象遭到突袭或是对此毫无意识，否则闪避专长能让所有针对该角色的远程攻击-2。无论如何，闪避<em>不会</em>和实际的掩蔽叠加。</p>\n</div>"
         },
         "Elan": {
             "name": "热忱",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>热忱代表能量或精神，具备此专长的角色在艰难关头能奋起爆发，使用助力点重投特性时的结果+2。这个加值只在重投时生效，其无法用于伤害投骰(因为不是特性投骰)，也不能用于化解投骰(除非消耗<em>另一点</em>助力点来重投活力检定)。\n</p>\n</div>"
         },
         "Extraction": {
             "name": "脱身",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>当角色撤出近战时，邻接的攻击方能对其进行一次格斗自由攻击(见141页<strong>撤出近战</strong>)。这对大多数人而言非常危险，但对这名狡猾角色来说则并非如此。当移动远离邻接敌人时，对方其中一员(由玩家选择)无法进行格斗自由攻击。\n</p>\n</div>"
         },
         "Fame": {
             "name": "小有名气",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色是某类颇有名气的家伙，其可以是特定领地内的有名诗人，拯救城镇的勇者或是娱乐孩童而饱受爱戴的法师。</p>\n<p>当进行表演卖艺时(见35页<strong>表演</strong>)，角色可以赚取双倍收入。如果目标态度是友善且知道角色是谁(一次通用知识投骰，视乎目标有多少可能知晓角色的名声予以调整)，则其能利用自己的名声使交涉投骰+1。\n</p>\n<p>小有名气的缺点是人物经常会被认出来，其他人总想从他这里获得什么，可能会被粉丝或崇拜者跟踪，或是没法在不给自己带来麻烦的同时逃避工作、表演或其他职责。</p>\n</div>"
         },
         "Famous": {
             "name": "名声大噪",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>这位角色的确非常有名，其在诸如城市、王国或是饱受欢迎的旅行表演等大圈子里广为人知。角色表演卖艺时可以赚取正常收入的5倍，并且在影响认识自己的友善目标时交涉投骰+2。</p>\n<p>当然声名鹊起的代价也要更高，对象得在时间、工作任务、竞争对手、流言蜚语上付出更多精力，也无法混迹于人群中秘密行事。</p>\n</div>"
         },
         "Feint": {
             "name": "虚招",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>当用格斗技能进行<strong>考验</strong>(140页)时，可以选择让敌人用聪慧(而不是灵巧)来进行对抗。</p>\n</div>"
         },
         "First Strike": {
             "name": "先发制人",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>每轮一次，只要角色未陷入动摇或震慑，则可以在某一敌人移动进入触及后立刻向对方进行一次格斗自由攻击(见133页<strong>自由攻击</strong>)。</p>\n</div>"
         },
         "Followers": {
             "name": "随从",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>每次选择该专长，都会出现五名愿意与角色并肩作战的随从。即使失去了任意一员，最后总会有其他人来予以接替(需要多久取决于GM和环境)。</p>\n<p>随从必须加以照顾，并且通常他们也希望能分到一部分战利品、宝物或其他角色获得的奖励。另一方面，他们也会完全忠于自己的任务。随从不会置生死于度外，但也愿意在为角色效力时不断以身犯险。</p>\n<p>随从使用144页的<strong>士兵</strong>数据，角色也可以酌情为其提供装备。如有需要，也可以采用143页的<strong>盟友</strong>规则来各自赋予他们独特的个性。</p>\n</div>"
         },
         "Free Runner": {
             "name": "自由跑者",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名胆大过人的角色善于奔跑跑、跳跃、游泳、攀越墙体与障碍、穿过拥挤的城市街道，甚至是用船上的吊索摆荡。角色徒步时能以全移速在上述环境当中移动。同时，只要是凭借手脚就能跳上、蹬跳或是游过的障碍，则其在攀爬和通过障碍的运动投骰上就会获得+2。\n</p>\n</div>"
         },
         "Harder To Kill": {
             "name": "死里逃生",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>若探索者真的“被杀”，投1枚骰子。若是奇数，那么角色如常死亡；若是偶数，则是陷入无力化，但免于一死。角色可能会遭到俘虏、被扒光所有东西、被误判为已死，但他终归能活下来。</p>\n</div>"
         },
         "Healer": {
             "name": "治疗师",
-            "category": "奇异专长"
+            "category": "奇异专长",
+            "description": "<div class=\"swpf-core\">\n<p>拥有该专长的角色所有治疗投骰都能免费获得一次重投，无论其本质是自然还是魔法治疗皆是如此。</p>\n</div>"
         },
         "Holy/Unholy Warrior": {
             "name": "神圣/邪恶战士",
@@ -104,39 +127,48 @@
         },
         "Humiliate": {
             "name": "羞辱",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>聪明而冷酷的家伙单凭简单的言辞或恰到好处的肢体语言就能摧毁敌人的自尊。角色的嘲弄考验免费获得一次重投。</p>\n</div>"
         },
         "Improved Arcane Resistance": {
             "name": "精通奥法抗性",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>如上所述，不过奥法技能投骰和伤害的减值会上升至4点。</p>\n</div>"
         },
         "Improved Block": {
             "name": "精通招架",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色的格挡加值现在达到+2，针对其的围攻加值-2。</p>\n</div>"
         },
         "Improved Counterattack": {
             "name": "精通反击",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>如上，但角色每轮可以至多就三次失手的攻击进行自由攻击。</p>\n</div>"
         },
         "Improved Dodge": {
             "name": "精通闪避",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色在回避范围效果攻击时+2，见132页<strong>回避</strong>。</p>\n</div>"
         },
         "Improved Extraction": {
             "name": "精通脱身",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>至多三名敌人(由玩家选择)无法因角色移动撤出近战而对其进行自由攻击。</p>\n</div>"
         },
         "Improved First Strike": {
             "name": "精通先发制人",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>如上，但角色每回合可以对至多三名敌人进行攻击。</p>\n</div>"
         },
         "Improved Frenzy": {
             "name": "精通连击",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名战士同一回合内可以在至多两次格斗攻击中投出额外的格斗骰。</p>\n<p><strong><em>例子*</em></strong>：战士对巨蝎进行攻击。拥有精通连击专长的他决定攻击三次(带有常规减值的多重行动)。她进行格斗技能投骰，并在第一次和第二次攻击上各投了一枚额外的骰子。他的第三次格斗投骰不会获得额外的骰子。*\n</p>\n</div>"
         },
         "Improved Level Headed": {
             "name": "精通沉稳冷静",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>如上，不过角色可以额外抽两张行动卡并选择保留任意一张。</p>\n</div>"
         },
         "Improved Nerves of Steel": {
             "name": "精通钢铁神经",
@@ -144,51 +176,63 @@
         },
         "Improved Trademark Weapon": {
             "name": "精通招牌武器",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>如上，但使用该武器时的加值提升至+2。</p>\n</div>"
         },
         "Improvisational Fighter": {
             "name": "俯拾皆兵",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>英雄们经常发现自己要通过非战斗用的装备或家具部件来进行打斗。具有该专长的斗士善于使用临时武器，持用时忽略通常的-2减值，详细见134页的<strong>临时武器</strong>。</p>\n</div>"
         },
         "Inspire": {
             "name": "激励",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>杰出的领队能给予周遭成员过人的勇气和坚定的决心。角色能以一个限定行动投骰作战技能来援助一项特性投骰，并应用到指挥范围内的<em>所有</em>龙套盟友身上。举例而言，领队可以援助范围内的所有射击攻击，或是所有从动摇中恢复的心魂投骰。源自该专长的加值不会与其他的叠加。\n</p>\n</div>"
         },
         "Investigator": {
             "name": "调查员",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>调查员花了大量时间研究古代传说、街头工作或推理格拉利昂最大的谜团。他们在写字台上研究重要文件，在一大堆垃圾邮件中翻找出特定笔记，和在一大堆垃圾及残骸中搜寻物品时的人文和察觉投骰+2。</p>\n</div>"
         },
         "Iron Jaw": {
             "name": "头铁",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>凶猛至极的打击也难以撼动这名角色，化解投骰和避免<strong>昏厥打击</strong>(见132页)的活力投骰都获得+2。</p>\n</div>"
         },
         "Iron Will": {
             "name": "钢铁意志",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色现在能将坚强意志的加值用于抵抗奇术效果。钢铁意志不与勇敢专长叠加，也不会应用到奇术导致的后续投骰上(比如因伤害性奇术、恐惧或类似状况而遭受动摇。</p>\n</div>"
         },
         "Jack-Of-All-Trades": {
             "name": "万事通",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class\"swpf-core\"><p>无论是深入学习、钻研书籍，或仅是惊人的直觉感知，这名角色都具备临阵磨枪的才能。只要给一点时间和运气，鲜有其无法处理的事情。</p><p>在观察和研究某对象后，角色能以一个行动进行一次聪慧投骰。若成功，在关联技能上会获得1枚d4，若为优良则是d6。如果失败或只是想获得优良，角色可在一小时的学习、试验、努力和专心研究后重新尝试。无论成功与否，这都会持续到其选择学习研究不同的对象为止。</p></div>"
         },
         "Level Headed": {
             "name": "沉稳冷静",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>在其他人匆忙奔向掩护的时候还能保持冷静的家伙才会成为致命精兵，具备该专长的角色进入战斗时额外抽一张行动卡并任选一张加以使用。</p>\n</div>"
         },
         "Linguist": {
             "name": "语言学家",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>有语言天赋的家伙才能走遍世界。角色开始游戏时就会自动掌握等同聪慧骰子类型一半数量的语言，而选取此专长则数量则会变成与聪慧骰子类型一致，见35页的<strong>常见语言</strong>表。</p>\n</div>"
         },
         "Master Tactician": {
             "name": "战术大师",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>战术家现在每轮一共能额外获得2张可以分配的行动卡。</p>\n</div>"
         },
         "Menacing": {
             "name": "凶神恶煞",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>若懂得如何利用，粗鄙野蛮也不总是坏事。凶神恶煞能让角色好好发挥自己的糟糕外表或是差劲态度，这货的威吓投骰+2。</p>\n</div>"
         },
         "Natural Leader": {
             "name": "天生领袖",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名领袖已经多次证明了自己，并获得了战友们的一致认可。所有写着只对龙套有效的领导力专长现在对不羁角色(包括玩家角色)同样有效。</p>\n</div>"
         },
         "Nerves of Steel": {
             "name": "钢铁神经",
@@ -196,530 +240,768 @@
         },
         "New Powers": {
             "name": "新奇术",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>奥法角色可以通过选取这个专长来习得两个新奇术(该专长可以多次选择)，选择的奇术必须在对应奥法背景的可选范围之内，且要等于或低于其位阶。</p>\n<p>角色可以将获取一个新奇术换成给某一已有奇术添加一个新特效。举例而言，可以给现有的火焰<em>矢弹</em>添加冰特效，这样角色就能在火焰和寒冰特效中自由地来回切换。</p>\n<p>如果法师选取了该专长，其能选择如常学习两个奇术，若是已经在取得的卷轴或法术书中发现了奇术，则可以额外加上第三个奇术。法师会将三个奇术全部抄入法术书中，原来从中获取知识的卷轴或法术书则会加入到自己的笔记研究收藏当中，以备将来需要制作替代法术书。\n</p>\n</div>"
         },
         "No Mercy": {
             "name": "毫不留情",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名杀手使用助力点重投伤害时，最终结果获得+2。</p>\n</div>"
         },
         "Professional": {
             "name": "专业水准",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色在对应技能或属性(自选)上成为了一名专家，这能让此特性及其上限增长一级(举例而言，d12+1会变成d12+2)。该专长只能就每一项特性选取一次。</p>\n</div>"
         },
         "Provoke": {
             "name": "激怒",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>精明的角色能够操纵敌人，让对方把注意力放在自己身上以保护盟友。每回合一次，当角色用嘲弄技能进行考验并且获得优良时(见140页<strong>考验</strong>)，就可以选择激怒敌人。</p>\n<p>除去所有成功和优良的通常效果以外，敌人在影响其他并非激怒自己的目标时遭受-2减值。这个减值和分神叠加，但不会因多次激怒而叠加。</p>\n<p>激怒一直持续到抽出鬼牌、他人激怒了该目标或遭遇结束为止。激怒能和<strong>煽风点火</strong>(见下)组合使用。</p>\n</div>"
         },
         "Quick": {
             "name": "迅捷",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>迅捷的角色有着闪电般的反射和冷静的头脑。当获得一张为5或更小的行动卡时，可以将其弃掉然后重抽一张，直到获得大于5的行动卡为止。</p>\n<p>同时具备沉稳冷静和迅捷这两个专长的角色首先抽取额外的行动卡，并且选择使用其中一张，若所选的卡小于等于5，就能用迅捷专长进行重抽，直到替换卡大于等于6为止。</p>\n</div>"
         },
         "Reliable": {
             "name": "可靠",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>大家清楚在需要帮助时可以依靠这名角色，其任意援助投骰免费获得一次重投。</p>\n</div>"
         },
         "Retort": {
             "name": "反驳",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名善于舌战的辩论者能在傻瓜们反应过来之前就把他们的唇枪舌剑原数奉还。拥有反驳的角色在抵抗威吓或嘲弄考验时若是获得优良，则对方就会陷入分神。</p>\n</div>"
         },
         "Scavenger": {
             "name": "破烂王",
-            "category": "奇异专长"
+            "category": "奇异专长",
+            "description": "<div class=\"swpf-core\">\n<p>每遭遇一次，这名角色能发现、“蓦然”想起或找出一些急需的装备部件、半袋箭矢或其他有用的装置。GM决定怎样算作一次遭遇，并且能裁定可以找到什么以及无法找到什么。</p>\n</div>"
         },
         "Scholar": {
             "name": "学者",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>博学的教授、刻苦的学生和业余爱好者能花费大量的时间和精力去钻研特定科目，身为对应领域专家的他们在擅长的范围内几乎没有回答不出的问题。</p>\n<p>在下列技能中选择其一：人文、作战、神秘学、科学或游戏中可用且基于聪慧的任一“知识”类技能，使用此技能时结果+2。</p>\n<p>这个专长可以多次选取，每次都需要针对不同的技能。</p>\n</div>"
         },
         "Sidekick": {
             "name": "助手",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>一次又一次地成功战胜邪恶的角色会成为其他人眼中的偶像。最终，这些年轻狂热者中的一员会尝试加入英雄的史诗任务当中。</p>\n<p>角色获得一名入门位阶的助手。助手是不羁角色，每回游戏开始时有两点助力点，能够升级，具有和其导师互为补足的能力。玩家就和控制其他盟友一样控制助手，不过对方偶尔会惹麻烦——诸如被俘、闯入不应涉足的危险当中等等。玩家应当时刻做好准备，因为这个专长偶尔会变成负赘！\n</p>\n<p>若助手死亡，除非角色再次选取这个专长，否则不会有人前来接替。幸运的是，角色总是可以如同本身具有共同联结专长那般为自己的助手使用助力点。不过助手得要实际选取了这个专长才能对导师做同样的事情</p>\n</div>"
         },
         "Soldier": {
             "name": "士兵",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>专业士兵习惯携带沉重负载，也能忍耐艰苦的环境。在习惯当前装备一定天数后(GM决定)，其在决定<strong>负载</strong>(见104页)和无减值使用护甲、武器、装备的<strong>最低力量</strong>(见83页)时视为力量骰子类型上升一级(这会和健壮专长叠加)。\n</p>\n<p>同时，角色在环境危难(见151页<strong>危难</strong>)中求生时进行的活力投骰免费获得一次重投。</p>\n<p>该专长对护甲干扰或护甲限制无效。</p>\n</div>"
         },
         "Soul Drain": {
             "name": "饮魂汲魄",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>每日一次，饮魂汲魄让角色能以一个限定自由行动遭受一级疲乏来恢复至多5奇术点，或者其可以选择遭受两级疲乏(至力竭)来恢复10奇术点，但不能用以此让自己陷入无力化。</p></div>"
         },
         "Steady Hands": {
             "name": "手稳",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>在马背或是移动的车顶上开火是一门学问，但这名冒险者已经摸到了窍门，其忽略<strong>不稳平台</strong>减值(见141页)。这在奔跑时同样有所帮助，通常的减值从-2降至-1(见123页<strong>移动</strong>)。\n</p>\n</div>"
         },
         "Streetwise": {
             "name": "市井门道",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>拥有市井门道的角色知道如何找到当地黑市、进行销赃、规避当地法律(或是犯罪分子！)、风头正盛时保持低调、获得违法武器、找出哪个“大佬”在招打手等类似的可疑勾当。</p>\n<p>市井门道角色在和可疑对象与犯罪分子进行<strong>打点关系</strong>(见160页)的威吓和交涉投骰+2，同时与上述阴暗勾当相关的通用知识投骰+2。</p>\n</div>"
         },
         "Strong Willed": {
             "name": "坚强意志",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>人物的意志遭受攻击时，自信乃是予以抵抗的强力护甲，抵抗以聪慧和心魂进行的考验时结果+2。</p>\n</div>"
         },
         "Sweep": {
             "name": "横扫",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>某些英雄一口气干翻若干敌人。横扫让角色能使用双手武器以一个限定行动进行一次格斗攻击，并以-2减值应用到触及内所有目标上(敌友不分)，命中每个敌人的伤害单独结算。</p>\n<p><strong>注意</strong>：某些生物即使没有双手武器也会具有横扫专长。这种情况下是它们的体型、修长肢体或其他优势使其能进行横扫攻击。</p>\n</div>"
         },
         "Thief": {
             "name": "盗贼",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>精于欺诈、背叛和特技的盗贼在侦察陷阱、爬墙和开锁缺一不可的场合里是无价之宝。</p>\n<p>盗贼知晓如何利用墙上的突起和窗沿来攀爬最高的建筑物，并像猫一样在大街小巷中奔跑疾走，在城市区域中用于攀爬的运动投骰+1。</p>\n<p>盗贼还知晓如何利用城市街灯之间的阴影来隐藏自己的行动，城市环境中的潜行投骰+1。</p>\n<p>最后，毫无疑问，这些角色精于贼活，所有环境下的贼活投骰+1。</p>\n</div>"
         },
         "Tougher Than Nails": {
             "name": "比钢还强",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色能在无力化前承受五个损伤！最大损伤减值依然是-3。</p>\n</div>"
         },
         "Very Attractive": {
             "name": "魅力非凡",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名角色真是迷死人了，表演和交涉加值上升至+2。</p>\n</div>"
         },
         "Weapon Master": {
             "name": "武器大师",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名武士的格挡+1，而且格斗投骰的奖励伤害骰从d6变成d8(见125页<strong>奖励伤害</strong>)。角色必须具有武装才能获得这些好处，但这也包括了爪抓或是其他可视为武器的能力。</p>\n</div>"
         },
         "Wizard": {
             "name": "法师",
-            "category": "法师"
+            "category": "法师",
+            "description": "<div class=\"swpf-core\">\n<p>无上伟力的秘密隐藏于世俗的面纱之后。秘仪和奥术境界的奇迹呼唤着野心家——以及智者——前去掌握真正的力量，这就是法师之道。</p>\n<p>这些魔法使研究、收集并觊觎深奥的知识。有些人选择成为特定魔法领域的大师，另一些拥抱多样性的人则沉醉在种种魔法的无限奇迹当中。不论如何，精明过人的法师既能痛击敌寇，又可以强化盟友，而且还能随心所欲地塑造世界。</p>\n<ul>\n<li><span class=\"list-heading\">)：</span>法师们使用施法作为自身的奥法技能。选取该专长的角色获得10奇术点和下表中的3个奇术。</li>\n<li>\n<strong>可选奇术</strong>：<em>奥法防护</em>、<em>恶意变形</em>、<em>放逐</em>、<em>屏障</em>、<em>野兽同盟</em>、<em>爆发</em>、<em>目盲</em>、<em>矢弹</em>、<em>强化/削弱特性</em>、<em>遁地</em>、<em>爆裂</em>、<em>困惑</em>、<em>创造物品</em>、<em>诅咒</em>、<em>致伤领域</em>、<em>暗视</em>、<em>偏斜</em>、<em>侦测/隐藏奥法</em>、<em>易容</em>、<em>破袪</em>、<em>预言</em>、<em>抽取奇术点</em>、<em>元素操纵</em>、<em>共感</em>、<em>纠缠</em>、<em>环境防护</em>、<em>远视</em>、<em>恐惧</em>、<em>飞行</em>、<em>放大/缩小</em>、<em>劫动</em>、<em>幻象</em>、<em>无形</em>、<em>隐形</em>、<em>光亮/黑暗</em>、<em>定位</em>、<em>心灵链接</em>、<em>读心</em>、<em>心智抹除</em>、<em>读物</em>、<em>异界誓缚</em>、<em>异界传送</em>、<em>防护</em>、<em>傀儡</em>、<em>探知</em>、<em>化形</em>、<em>滞缓/加速</em>、<em>沉眠</em>、<em>痛击</em>、<em>发声/沉默</em>、<em>通晓语言</em>、<em>震慑</em>、<em>召唤盟友</em>、<em>念动</em>、<em>传送</em>、<em>时间停止</em>、<em>走壁</em>、<em>天赐勇武</em>、<em>祈愿</em>、<em>行尸</em>\n</li>\n<li><span class=\"list-heading\">奥法联结：</span>法师与某一生物或物品之间形成了强烈的魔法联结，见下述的<strong>奥法联结</strong>。</li>\n<li><span class=\"list-heading\">护甲干扰(任意)：</span>法师和术士一样必须精确地比划手势，在使用轻型、中型或重型护甲或时盾牌时的施法投骰、灵巧与基于灵巧的技能投骰-4。</li>\n<li>\n<strong>学派</strong>：法师的钻研会通往两条道路之一：涉足各个学派的“通才法师”，或者以其他学派为代价专攻一项的“专精法师”。专精法师必须在174页的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。\n</li>\n<li><span class=\"list-heading\">法术书：</span>法师必须保有并打理好法术书(见70页)。</li>\n</ul>\n<h4 id=\"arcane-bond\">奥法联结 ARCANE BOND</h4>\n<p>法师沉浸在诡异知识和奥术理论的研究当中，并在这漫长的时光中会与某一可靠的物件或友好的生物(“魔宠”)建立联结，为法师在以下选择其一：</p>\n<ul>\n<li><span class=\"list-heading\">联结物件：</span>这名施法者具备一件护符、戒指、法杖、魔杖或武器，当将其佩戴或握持在手时，所有的施法结果+1。如果该物件遗失或遭到摧毁，魔法师能以一件价值至少500GP的新物件予以代替。\n</li>\n<li><span class=\"list-heading\">魔宠：</span>魔法师具有一只魔法宠物，见70页的边栏。</li>\n</ul>\n</div>"
         },
         "Work the Room": {
             "name": "推波助浪",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\"><p>角色的话语不仅能激励指向的对象，还能鼓舞其他听众。每回合一次，角色在以交涉或表演进行援助时，可使用该专长额外投1枚技能骰。这枚额外的骰子可援助其他任一能看到或听见角色的盟友，并应用到对方下一个行动上(无论这会是什么行动)。</p></div>"
         },
         "Alertness": {
             "name": "警觉",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色洞若观火，明察秋毫，没有什么能逃过他的眼睛。通过目视，耳听或以其他方式感受周遭世界的察觉投骰+2。</p>\n</div>"
         },
         "Ambidextrous": {
             "name": "双巧手",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名武者的左手和右手一样熟练，忽略<strong>副手</strong>减值(见136页)。若双手各持握武器，则可以将两把武器的格挡加值(如有)叠加。</p>\n</div>"
         },
         "Arcane Background (Magic)": {
             "name": "奥法背景 (魔法)",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\"><p>暴露于奇异能量之下，在魔法学院进修，或者神圣/超凡存在的恩赐有时会让角色获得属于自己的奇术能力。</p><p>如果想玩基于原版探索者游戏系统角色职业的吟游诗人、牧师、德鲁伊、术士或是法师，见从43页开始的职业专长。若想打造自己独有的魔法师或是神职者，则使用以下规则：</p><p><strong>奥法背景(魔法)</strong>：魔法师使用施法作为自身的奥法技能，并且具有护甲干扰(轻型)，这意味着在是使用中型或重型护甲或是盾牌时施法、灵巧以及基于灵巧的技能投骰-4。选取该专长可获得三个起始奇术以及10奇术点。</p><p>魔法师的<strong>可选奇术</strong>包括：<em>奥法防护</em>、<em>恶意变形</em>、<em>放逐</em>、<em>屏障</em>、<em>野兽同盟</em>、<em>爆发</em>、<em>目盲</em>、<em>矢弹</em>、<em>强化/削弱特性</em>、<em>遁地</em>、<em>爆裂</em>、<em>困惑</em>、<em>创造物品</em>、<em>诅咒</em>、<em>致伤领域</em>、<em>暗视</em>、<em>偏斜</em>、<em>侦测/隐藏奥法</em>、<em>易容</em>、<em>破袪</em>、<em>预言</em>、<em>抽取奇术点</em>、<em>元素操纵</em>、<em>共感</em>、<em>纠缠</em>、<em>环境防护</em>、<em>远视</em>、<em>恐惧</em>、<em>飞行</em>、<em>放大/缩小</em>、<em>劫动</em>、<em>幻象</em>、<em>无形</em>、<em>隐形</em>、<em>光亮/黑暗</em>、<em>定位</em>、<em>心灵链接</em>、<em>读心</em>、<em>心智抹除</em>、<em>读物</em>、<em>异界传送</em>、<em>防护</em>、<em>傀儡</em>、<em>缓和</em>、<em>探知</em>、<em>化形</em>、<em>滞缓/加速</em>、<em>沉眠</em>、<em>痛击</em>、<em>发声/沉默</em>、<em>通晓语言</em>、<em>震慑</em>、<em>召唤盟友</em>、<em>念动</em>、<em>传送</em>、<em>时间停止</em>、<em>走壁</em>、<em>天赐武勇</em>、<em>祈愿</em>、<em>行尸</em>。</p></div>"
         },
         "Arcane Background (Miracles)": {
             "name": "奥法背景 (奇迹)",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\"><p><strong>奥法背景(奇迹)</strong>：神职者使用信仰作为自身的奥法技能，并且必须选择某一<strong>领域</strong>(见50页)。选取该专长可获得10奇术点以及三个位于牧师可用奇术列表或是所选领域当中的奇术，同时还会就所侍奉的神祇而获得誓言(主要)。</p></div>"
         },
         "Arcane Resistance": {
             "name": "奥法抗性",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>魔法和超自然对该人物的影响大大减弱。无论是与生俱来、源自传承、或是历经训练，角色魔法以及其他超自然能量有着特别的抗性。</p>\n<p>以此角色为目标的敌性奥法能力遭受-2减值，而且魔法伤害也会-2，这包括了<em>痛击</em>奇术或是伤害附魔(211页)这类赋予到武器上的魔法加值。</p>\n</div>"
         },
         "Assassin": {
             "name": "刺客",
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>具备此专长的角色擅长暗中潜入并执行冷酷而高效的谋杀，其将自身视作雕琢死亡的匠人。</p>\n<ul>\n<li>\n<strong>夺命攻击</strong>：若刺客击中自己构成奇袭的活物并且(在进行化解后)造成了至少一个损伤，则这名敌人必须成功通过一次活力投骰，否则就会死亡。若是刺客杀死了自己构成奇袭的受害者或使其陷入无力化，对方将会悄无声息地倒下。根据不同环境，附近的人员甚至可能得过一会儿才会注意到这一情况。\n</li>\n</ul>\n</div>"
         },
         "Block": {
             "name": "招架",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>藉由激烈战斗所积累的经验，英雄学会了在残酷的贴身战斗中保护自己。角色的格挡+1，任何针对其的围攻加值-1。</p>\n</div>"
         },
         "Expert": {
             "name": "专家水准",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>如同专业水准专长，该特性及其上限再增长一级。</p>\n</div>"
         },
         "Fervor": {
             "name": "热情洋溢",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>伟大领袖发出的简短指示有时可以一锤定音。具备这项能力的指挥官可以让部属斗志昂扬。范围内的龙套格斗伤害投骰+1。</p>\n</div>"
         },
         "Fleet-Footed": {
             "name": "飞毛腿",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\"><p>角色的移速+2，奔跑骰上升1级(举例而言，从d6变成d8)。</p></div>"
         },
         "Attractive": {
             "name": "魅力惊人",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>毫无疑问人们更愿意向外表对自己有吸引力的家伙伸出援手。若目标能被角色的类型(性别、性征、种族等等)所吸引，角色对其的表演和交涉投骰+1。</p>\n</div>"
         },
         "Beast Master": {
             "name": "野兽大师",
-            "category": "奇异专长"
+            "category": "奇异专长",
+            "description": "<div class=\"swpf-core\">\n<p>动物容易很快和这名角色打成一片，它们不会攻击该角色，除非后者首先发动攻击或因某些理由遭到激怒。</p>\n<p>野兽大师的“动物魅力”强大到引来了某只忠诚的动物。这通常是一只体型为0或更小的动物，具体交由GM决定。</p>\n<p>这只动物只是龙套，不会在位阶或能力上得到增长。若宠物丢失或被杀，角色可以在1d4天内获得另一只替代动物。</p>\n<p><strong>增强伙伴</strong>：野兽大师可以多次选取，每次额外选取时，可在下列效果中选择其一：</p>\n<ul>\n<li>额外获得一只宠物。</li>\n<li>让某一宠物的一项特性骰子类型上升一级(每宠物限一项特性)。</li>\n<li>让角色能获得宠物体型的上限+1，上限为3。</li>\n<li>让某一宠物成为不羁角色(英雄本身必须达到英杰位阶)。\n</li></ul></div>"
         },
         "Bruiser": {
             "name": "搏击师",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色的坚韧额外再+1，拳头和爪抓造成伤害的骰子类型再上升一级。</p>\n</div>"
         },
         "Combat Acrobat": {
             "name": "战斗特技",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名腾挪矫捷的角色只要意识到了攻击、能合理移动，而且没有遭受任何负载或最低力量减值时，针对自身的攻击就会-1。</p>\n</div>"
         },
         "Concentration": {
             "name": "聚精会神",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>通过训练和专注，施术者能高效地引导奥法之力。所有非瞬间奇术的基础持续时间加倍(维持奇术也包括在内)。</p>\n</div>"
         },
         "Frenzy": {
             "name": "连击",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>拥有连击专长的角色可以在回合内的一次标准格斗攻击中投出第二枚格斗骰(源自连击的额外骰子不可被加至限定行动上)。该额外的骰子可以根据角色选择针对相同或不同的目标，并分别进行结算。</p>\n</div>"
         },
         "Great Luck": {
             "name": "高等幸运",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>玩家每回游戏开始时额外获得的助力点从一点变成两点。</p>\n</div>"
         },
         "Improved Sweep": {
             "name": "精通横扫",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>如上，不过这片死亡旋风没有-2减值。</p>\n</div>"
         },
         "Marksman": {
             "name": "神射手",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色在远程武器上有所天赋。若没有在回合内移动且第一个行动没有用超过1的射速进行射击，角色就能在运动(投掷)或射击投骰上获得+1，或是忽略至多2点来自定点打击、掩蔽、射程、尺寸或速度的减值。这算作次级瞄准战技，因此无法与瞄准叠加。神射手无法应用到回合内除首次攻击外的其他攻击上，包括以速射专长或类似能力进行的攻击。\n</p>\n</div>"
         },
         "Master of Arms": {
             "name": "武器宗师",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\"><p>角色的格挡额外再+1，格斗奖励伤害骰现在达到d10。</p></div>"
         },
         "Mighty Blow": {
             "name": "强力一击",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>行动卡是鬼牌时，该轮第一次成功的格斗攻击造成的伤害加倍。</p>\n</div>"
         },
         "Brawler": {
             "name": "搏击手",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>拳重如铁锤，爪利似镰刀，身坚若磐石。搏击手的坚韧+1，拳脚以及爪抓(如有)攻击命中时投骰力量+d4。若已有从<strong>爪抓</strong>(240页)上获得的伤害骰，武僧的无武装攻击能力等等，则改为伤害骰子类型上升1级。搏击手专长不会让角色的拳头变成<strong>天生武器</strong>(136页)。\n</p>\n</div>"
         },
         "Brawny": {
             "name": "健壮",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>这个大块头非常高大或是非常健硕，其体型+1(坚韧也因此+1)，并在决定<strong>负载</strong>(见104页)和无减值使用护甲、武器、装备的<strong>最低力量</strong>(见104页)时，力量骰子类型视为要高一级。\n</p>\n<p>健壮不能使角色体型超过+3，并且不影响护甲干扰或是护甲限制。</p>\n</div>"
         },
         "Channeling": {
             "name": "导能",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色在奥法技能投骰(或启动/使用奥法装置的投骰)获得优良时，可以让奇术点消耗-1。这个专长<em>可以</em>将消耗降低至0。</p>\n</div>"
         },
         "Charismatic": {
             "name": "亲和力",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色因某些理由广受欢迎。其可能是值得信赖或和蔼可亲，或只是表露出自信和好意。交涉投骰免费获得一次重投。</p>\n</div>"
         },
         "Combat Reflexes": {
             "name": "战斗反应",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色能很快从震惊或者是伤痛中恢复过来，尝试从动摇或震慑中恢复的投骰+2。</p>\n</div>"
         },
         "Command": {
             "name": "指挥",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>指挥是在激战正酣时给与盟友明确指示和支援的基本能力。指挥范围内的所有龙套尝试从动摇或是震慑中恢复的心魂或是活力投骰各自+1。</p>\n</div>"
         },
         "Common Bond": {
             "name": "共同联结",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>无私的英雄和坚定的领袖们都知道最大的力量往往来自于伙伴，并愿意将自己的幸运、命运或福气分一点给那些支持着自己的搭档。具备该专长的角色能自由地将自己的助力点交给其他可以交流的角色。玩家应当解释这如何实现，从简单的一句鼓励到在背上一记问候的轻拍都可以。\n</p>\n</div>"
         },
         "Fast Healer": {
             "name": "快速痊愈",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>受过此等祝福的角色自然治疗活力投骰+2，并且检定从每五天一次变成每三天一次(见128页<strong>治疗</strong>)。</p>\n</div>"
         },
         "Giant Killer": {
             "name": "巨物杀手",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>越大的东西越难杀死，至少对大多数人而言是这样，但这名英雄知晓如何找到这些大块头的弱点。当角色攻击体型比其高3及以上(见138页<strong>体型</strong>)的生物时，伤害+1d6。人类(体型0)在对抗体型3或更大的生物时能获得该加值。\n</p>\n</div>"
         },
         "Hard To Kill": {
             "name": "九死一生",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名冒险者的命比九命猫还要硬。进行活力投骰以避免<strong>失血</strong>(见126页)时可以忽略损伤减值。</p>\n</div>"
         },
         "Hold the Line!": {
             "name": "死守不退",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\"><p>死守不退能让所有在这名角色指挥下的龙套意志更为坚定，坚韧+1。</p></div>"
         },
         "Killer Instinct": {
             "name": "好胜心",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名角色厌恶失败，发起的任何对抗考验免费获得一次重投。</p>\n</div>"
         },
         "Beast Bond": {
             "name": "野兽联结",
-            "category": "奇异专长"
+            "category": "奇异专长",
+            "description": "<div class=\"swpf-core\">\n<p>某些人物和与其动物伙伴之间有着非凡的联结。这些角色可以为任何处于其控制下的动物使用助力点，包括坐骑、宠物、魔宠等等。</p>\n</div>"
         },
         "Bolster": {
             "name": "加把劲",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\">\n<p>贬低或羞辱敌人都能提振盟友们的精神。对敌人进行的考验成功时，角色可以移除一名盟友身上的<strong>分神</strong>或<strong>脆弱</strong>状态(见131页)。</p>\n</div>"
         },
         "Brave": {
             "name": "勇敢",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>拥有此专长的对象要么已经学会了控制住恐惧，要么就是经历了过多恐怖而变得麻木。这些勇敢探索者的恐惧检定+2，并且<strong>恐惧表</strong>(见150页)结果-2。</p>\n</div>"
         },
         "Luck": {
             "name": "幸运",
-            "category": "背景专长"
+            "category": "背景专长",
+            "description": "<div class=\"swpf-core\">\n<p>这位冒险者似乎被命运、因果、神明或其他角色相信(或相信角色！)的外力祝福过，每回游戏开始时额外获得1点助力点，这让其在处理重任时比大多数人更容易成功，并在难以置信的危险当中存活下来。</p>\n</div>"
         },
         "Master": {
             "name": "大师水准",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色在投所选特性时的不羁骰增长为d10。</p>\n</div>"
         },
         "Power Surge": {
             "name": "能量涌动",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>角色的行动卡是鬼牌时就能恢复10奇术点，这不会让奇术点超过通常上限。</p>\n</div>"
         },
         "Rabble-Rouser": {
             "name": "煽风点火",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\"><p>这名煽动者知晓如何一次性让数名敌人心浮气躁。拥有该专长的角色能以一个限定行动用威吓或嘲弄对中型爆发盖板内所有敌人进行一次社交考验。目标必须能清楚地看到和听见该角色。各个防御方单独结算抵抗和影响。</p></div>"
         },
         "Tough As Nails": {
             "name": "比铁还硬",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>就算他人已经倒下，角色也能坚持下去，其在无力化前能承受四个损伤(损伤减值上限依然是-3)。</p>\n</div>"
         },
         "Power Points": {
             "name": "奇术点",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>法师、术士和其他类型的奥法角色总是索求更多力量，这个专长能让其额外获得5奇术点。奇术点专长可以多次选择，但是每位阶内仅限一次。抵达传奇位阶后能随意选取，但每次只会额外给2奇术点。</p>\n</div>"
         },
         "Tactician": {
             "name": "战术家",
-            "category": "领导力专长"
+            "category": "领导力专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名指挥官对于小队战术胸有成竹，可以在瞬息万变的战场中相机而动。战术家在战斗或追逐的每一轮里都能额外抽取1张行动卡，这要与其自己的卡分开处理。在每轮开始，他可以弃掉这张卡或将其交给一名指挥范围内的龙套盟友。玩家或GM操控的接收方角色可以选择接受并更换掉自己当前的行动卡，否则就要将其舍弃。\n</p>\n<p><strong>突袭</strong>：战术家在遭到突袭时不会获得额外行动卡，但若是愿意则可将其交给一名遭到突袭的盟友！</p>\n</div>"
         },
         "Trademark Weapon": {
             "name": "招牌武器",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名角色对一件独有武器(亚瑟王的湖中剑，大卫·克洛科特的爱枪老贝西，比尔博的刺针剑)如臂指使。使用此武器时，运动(投掷)、格斗或射击投骰获得+1，并且在预备完毕时(即便是远程武器)还能让格挡获得+1。角色可以多次选择该专长，每次都要应用到不同的武器上。若招牌武器遗失，角色可以更换一把，但数天内不会有所好处(或是由GM根据剧情决定一个合适的时长)。\n</p>\n</div>"
         },
         "Woodsman": {
             "name": "守林人",
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>守林人是在荒野中比起城市里要更为自在的游侠、斥候和猎人，精于追踪和侦查，知晓如何靠山吃山连续生活数个月。</p>\n<p>守林人的生存投骰以及在荒野中(不属于城市、废墟或地下)的潜行投骰+2。</p></div>"
         },
         "Work the Crowd": {
             "name": "推波助澜",
-            "category": "社交专长"
+            "category": "社交专长",
+            "description": "<div class=\"swpf-core\"><p>如同推波助浪，但角色现在援助另一对象的援助行动至多可达两个。</p></div>"
         },
         "Advanced Bloodline": {
-            "category": "术士"
+            "category": "术士",
+            "description": "<div class=\"swpf-core\">\n<p>获得自己血脉中列出的额外能力(见66页)。</p>\n</div>",
+            "name": "高级血脉"
         },
         "Arcane Archer": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>魔射手会运用魔法能量增强手中的弓箭或弩矢，并能自动将一种“特质”附加在射出的箭矢上(每次射击时指定)。魔射手初始能习得的特质如下：</p>\n<ul>\n<li><span class=\"list-heading\">增幅：</span>魔射手的箭矢在射击和伤害上获得+1。</li>\n<li><span class=\"list-heading\">特效：</span>魔射手的箭矢会带有一种环境特效(火焰、寒冷、黑暗等等)。</li>\n</ul>\n</div>",
+            "name": "魔射手"
         },
         "Arcane Archer II": {
-            "category": "进阶专长"
+            "name": "魔射手II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><p>魔射手获得两项新的特质：</p><ul><li><span class=\"list-heading\">相位箭：</span>每遭遇一次，魔射手能够射出一枚径直穿透任何非魔法障碍的箭矢，忽略掩蔽或隐蔽带来的减值。</li><li><span class=\"list-heading\">箭雨：</span>每遭遇一次，魔射手能附魔一枚箭矢，使其发射时分裂增加，并在大型爆发盖板内如雨落下。这次攻击投骰会影响位于盖板内的所有对象，伤害单独结算投骰。</li></ul></div>"
         },
         "Arcane Archer III": {
-            "category": "进阶专长"
+            "name": "魔射手III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><p>魔射手获得两项新的特质：</p><ul><li><span class=\"list-heading\">灌法</span>：每回合一次，魔射手能够将任何范围效果类奇术灌注于一枚箭矢中，并以射击来“施放”这个法术，使用弓的射程取代奇术原本的射程。法术的效果范围将以箭矢的落点为中心，即便这通常是必须以施法者为中心也是如此。如果箭矢射失，则法术失效。灌注的法术不能进行减耗或应用射程调整。</li><li><span class=\"list-heading\">死亡箭：</span>每天一次，魔射手能够射出一枚满盈死亡能量的可怕箭矢。因这枚箭矢而遭受动摇或损伤的目标必须成功通过一次活力投骰，否则就会死亡！死亡箭对构装体或不死生物无效。</li></ul></div>"
         },
         "Arcane Armor": {
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\">\n<p>护甲干扰视作高一级，因此角色可将护甲干扰(任意)上升到(轻型)，这样使用轻甲和盾牌时就能免于减值。奥法护甲可以多次选择。</p>\n</div>",
+            "name": "奥法护甲"
         },
         "Arcane Background (Druid)": {
-            "category": "德鲁伊"
+            "name": "奥法背景(德鲁伊)",
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\">\n<p>德鲁伊使用信仰作为自身的奥法技能，选取该专长的角色会获得3个初始奇术和10奇术点。</p>\n</div>"
         },
         "Arcane Background (Sorcerer)": {
-            "category": "术士"
+            "name": "奥法背景(术士)",
+            "category": "术士",
+            "description": "<div class=\"swpf-core\">\n<p>术士使用施法作为自身的奥法技能，但其关联属性从聪慧变成心魂(如有兼职基于聪慧的施法者，则取两种属性中的较高者)。选取该专长的角色获得15奇术点以及下表中的2个起始奇术。</p>\n</div>"
         },
         "Arcane Background (Wizard)": {
-            "category": "法师"
+            "name": "奥法背景(法师)",
+            "category": "法师",
+            "description": "<div class=\"swpf-core\">\n<p>法师们使用施法作为自身的奥法技能。选取该专长的角色获得10奇术点和下表中的3个奇术。</p>\n</div>"
         },
         "Arcane Mastery (Sorcerer)": {
-            "category": "术士"
+            "name": "奥术精擅(术士)",
+            "category": "术士",
+            "description": "<div class=\"swpf-core\"><p>真正理解魔法能量需要练习与经验。选取该专长的对象能选用所有奇术的史诗奇术调整(见第5章<strong>奇术</strong>)。</p></div>"
         },
         "Arcane Mastery (Wizard)": {
-            "category": "法师"
+            "name": "奥术精擅(法师)",
+            "category": "法师",
+            "description": "<div class=\"swpf-core\"><p>真正理解魔法能量需要练习与经验。选取该专长的法师能够能选用所有奇术的史诗奇术调整(见第5章<strong>奇术</strong>)。</p></div>"
         },
         "Arcane Trickster": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>这些奇异的盗贼能够将奥法中最为精妙的一面与诡计和手上功夫融为一体。</p>\n<ul>\n<li><span class=\"list-heading\">远程花招：</span>诡术师能在5英寸(10码)的范围内使用贼活(带有-2减值)，遭到远程操作的物件重量不能超过5磅。</li>\n<li><span class=\"list-heading\">即兴偷袭：</span>每遭遇一次，诡术师能够在敌人没有陷入脆弱或自己构成奇袭时对其使用偷袭能力。</li>\n</ul>\n</div>",
+            "name": "诡术师"
         },
         "Arcane Trickster II": {
-            "category": "进阶专长"
+            "name": "诡术师II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">隐形盗贼：</span>每天一次，角色能以一个自由行动施展基础消耗为1奇术点的<em>隐形</em>。这次施法不需要进行奥法技能投骰，而且自动获得优良。诡术师能如常使用奇术调整或消耗奇术点来维持法术。该专长不会让诡术师获得<em>隐形</em>法术，其必须另外选取。</li></ul></div>"
         },
         "Arcane Trickster III": {
-            "category": "进阶专长"
+            "name": "诡术师III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">惊异法术：</span>诡术师的攻击性法术能获得偷袭能力的好处。</li></ul></div>"
         },
         "Assassin II": {
-            "category": "进阶专长"
+            "name": "刺客II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">藏身于无：</span>刺客能神奇地在众目睽睽下进行躲藏。只要刺客不进行移动也不发出声音，便则会被视作<em>隐形</em>(-4)。</li><li><span class=\"list-heading\">毒素抗性：</span>刺客抵抗毒素的投骰获得+4。</li></ul></div>"
         },
         "Assassin III": {
-            "category": "进阶专长"
+            "name": "刺客III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">告死天使：</span>刺客可以神秘地将致命的死亡能量融入到攻击当中。若选择这样做，则其亲手杀死的受害者将化为尘埃，无法复生。这个能力每天只能使用一次。</li><li><span class=\"list-heading\">迅捷刺杀：</span>每天一次，刺客能以一个自由行动选定某一敌人构成奇袭，即使目标完全能意识到其存在也是如此。</li></ul></div>"
         },
         "Barbarian": {
-            "category": "野蛮人"
+            "category": "野蛮人",
+            "description": "<div class=\"swpf-core\">\n<p>对某些人而言，怒火就是一切，这穿插在同族的道途当中，蕴含在沸腾的激情里面，喷薄在战斗的呼号之中，冲突乃是这些凶暴灵魂的信条。这些狂野的战士鄙夷守卫或是军旅的专业生涯，对他们而言，战斗本身就是其意义所在。</p>\n<p>这些被称为野蛮人的战斗狂对于战术、备战和战争的规条知之甚少，对置生死于度外的他们而言，唯有交锋的瞬间才是真实的。野蛮人的心脏中搏动着不屈的原始灵魂，那些胆敢直面其怒火的家伙可得当心了。</p>\n<ul>\n<li><span class=\"list-heading\">护甲限制(中型)：</span>野蛮人的战斗方式极其需要自如移动，在穿着重型护甲或是使用重型盾牌时的灵巧投骰以及基于灵巧的技能投骰-4。</li>\n<li><span class=\"list-heading\">快速：</span>坚忍的野蛮人健步如飞，其基础移速+2。这不会影响角色的奔跑骰，但仍会和诸如飞毛腿之类的专长或是族裔调整值叠加。</li>\n<li>\n<strong>狂暴</strong>：野蛮人能在危急关头唤起体内潜藏的力量和凶性。野蛮人能使用一个限定自由行动自愿“狂暴”。若是角色遭受动摇或是损伤，则其无论愿意与否都必须成功通过一次聪慧投骰，否则就会进入狂暴。狂暴持续五轮，在野蛮人狂暴的第五轮后，其会承受一级疲乏，该疲乏只能通过一小时的休息才能恢复(通常而言不能行走，骑乘等等)。陷入力竭的狂暴野蛮人之后会陷入无力化，更多内容见132页的疲乏。在狂暴时，野蛮人会获得以下能力：\n<ul>\n<li><span class=\"list-heading\">狂怒：</span>角色的力量骰子类型上升一级，每次攻击都必须是<strong>不羁攻击</strong>(见141页)，而且无法使用任何需要专注超过数秒的技能或是能力(GM判断)。\n</li>\n<li><span class=\"list-heading\">暴怒：</span>角色忽略两点损伤和疲乏减值(这会与任何降低这些减值的能力叠加)。</li>\n<li>\n<strong>一莽无前</strong>：若野蛮人狂暴时的格斗投骰出现大失败，其会随机命中攻击范围内某一目标(<em>不能</em>是初始目标)，不分敌我。若没有可用的目标，则角色会伤到自己并遭受肿痛与擦伤(见151页)。\n</li>\n</ul>\n</li>\n</ul>\n</div>",
+            "name": "野蛮人"
         },
         "Bard": {
-            "category": "吟游诗人"
+            "category": "吟游诗人",
+            "description": "<div class=\"swpf-core\">\n<p>格拉里昂的吟游诗人将英豪与悲剧的史诗传说带到民众面前，为数不少的成员都以其横溢的才华而声名远扬，但也有一些意识到了自己对英勇的冒险者团队而言是何等重要。这些吟游诗人会在严峻时刻鼓舞盟友，哄骗敌人，并且往往会一手持剑一手拿琴抗击邪恶。\n</p>\n<p>吟游诗人通过引亢高歌，吟诵诗词或是复颂传奇来施放法术，他们往往博学多才，而且会云游四海去学习低俗小调、宏大历史以及传奇故事。</p>\n<p>盟友得要听得见吟游诗人才能从后者各种能力中获益。</p>\n<ul>\n<li><span class=\"list-heading\">奥法背景(吟游诗人)：</span>吟游诗人使用表演作为自身的奥法技能，并且会具备3个初始奇术以及10奇术点。</li>\n<li>\n<strong>可选奇术</strong>：<em>奥法防护</em>、<em>放逐</em>、<em>野兽同盟</em>、<em>强化/削弱属性</em>、<em>困惑</em>、<em>偏斜</em>、<em>侦测/隐藏奥法</em>、<em>创造物品</em>、<em>破袪</em>、<em>预言</em>、<em>抽取奇术点</em>、<em>共感</em>、<em>恐惧</em>、<em>治疗</em>、<em>幻象</em>、<em>心灵链接</em>、<em>读心</em>、<em>读物</em>、<em>傀儡</em>、<em>滞缓/加速</em>、<em>沉眠</em>、<em>发声/沉默</em>、<em>通晓语言</em>、<em>震慑</em>、<em>召唤盟友</em>、<em>传送</em>、<em>天赐勇武</em>。\n</li>\n<li><span class=\"list-heading\">护甲干扰(轻型)：</span>笨重的护甲会影响吟游诗人的优雅和灵活性，在使用中型或重型护甲或是盾牌时的表演投骰、灵巧以及基于灵巧的技能投骰-4。</li>\n<li>\n<strong>唇枪舌剑</strong>：吟游诗人能将表演当成嘲弄来使用以向敌方发起考验，而且只要角色每次吟诵的韵文、诗节、歌词等等都不尽相同，则其能忽略考验中(见140页)针对重复使用的建议。吟游诗人在判断专长需求时也能用表演代替嘲弄。\n</li>\n</ul>\n</div>",
+            "name": "吟游诗人"
         },
         "Born in the Saddle": {
-            "category": "术业专长"
+            "name": "生于鞍座",
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\"><p>当身处快马或其他异种坐骑背上时，这名角色感觉坐在鞍座上比用双脚站立更加自在。这个专长让角色能在任意骑乘投骰上免费获得一次重投，同时其坐骑移速+2且奔跑骰上升一级。</p></div>"
         },
         "Cleric": {
-            "category": "牧师"
+            "category": "牧师",
+            "description": "<div class=\"swpf-core\">\n<p>很多人在神圣的信仰与奇迹当中找到了更为远大的意义。祭司蒙召前去侍奉超越凡俗理解的大能，他们全员都会在精神层面上满足民众们的需求。牧师不仅是单纯的传教士，其更是神祇的使者。尽管牧师的能力彼此相近，但其也会因侍奉神祇的不同而体现出巨大差异——有些人提供医治和救赎，有些人裁断律法与真理，有些人则是散布着冲突和堕落。\n</p>\n<ul>\n<li>\n<strong>奥法背景(牧师)</strong>：牧师们使用信仰作为自身的奥法技能。选取该专长的角色可获得10奇术点，且必须从50-51页的列表中选择一项所侍奉神祇的领域。所有牧师初始都会具备<em>治疗</em>奇术，以及另外两个来自可选奇术中的奇术。\n</li>\n<li>\n<strong>可选奇术</strong>：牧师可以选用下列奇术以及所选领域中列出的奇术：<em>放逐</em>、<em>强化/削弱特性</em>、<em>创造物品</em>、<em>暗视</em>、<em>破袪</em>，<em>预言</em>、<em>共感</em>、<em>治疗</em>、<em>光亮/黑暗</em>、<em>缓和</em>、<em>复生</em>、<em>庇护</em>、<em>沉眠</em>、<em>痛击</em>、<em>发声/沉默</em>。\n</li>\n<li><span class=\"list-heading\">引导能量：</span>牧师在施放<em>治疗</em>奇术时能将射程从接触变成心魂，而且<em>治疗</em>奇术还带有额外对象奇术调整，因此其能就每名对象额外消耗1奇术点来治疗附近的盟友。\n</li>\n<li>\n<strong>誓言(主要)</strong>：牧师们具备侍奉自身神祇的主要誓言，希望从神圣源泉中汲取能量的牧师必须遵守其领域的准则。如果牧师辜负了神祇的信任(GM裁定)，则一周之内的信仰投骰-2。彻底的亵渎行为可能还会完全剥夺牧师的力量，直到其以某种方式赎罪为止。\n</li>\n</ul>\n</div>",
+            "name": "牧师"
         },
         "Countersong": {
-            "category": "吟游诗人"
+            "category": "吟游诗人",
+            "description": "<div class=\"swpf-core\">\n<p>吟游诗人以及5英寸(10码)内的所有盟友在对抗或是尝试摆脱敌性法术效果时免费获得一次重投。这包括摆脱诸如<em>目盲</em>、<em>削弱特性</em>或是<em>震慑</em>等任何魔法效果。破咒曲无法帮助目标抵抗或是摆脱自然效果。\n</p>\n</div>",
+            "name": "破咒曲"
         },
         "Deadly Blow": {
-            "category": "战士"
+            "category": "战士",
+            "description": "<div class=\"swpf-core\">\n<p>战士所有成功的运动(投掷)，格斗或射击投骰的伤害均+1。</p>\n</div>",
+            "name": "致命打击"
         },
         "Destroy Undead": {
-            "category": "牧师"
+            "category": "牧师",
+            "description": "<div class=\"swpf-core\">\n<p>牧师能以一个行动消耗2奇术点在以自己为中心的中型爆发盖板里面引导正能量。盖板中的所有不死生物必须成功通过一次心魂骰，否则会受到一个损伤(可如常进行化解)。</p>\n</div>",
+            "name": "消灭亡灵"
         },
         "Dirge of Doom": {
-            "category": "吟游诗人"
+            "name": "末日挽歌",
+            "category": "吟游诗人",
+            "description": "<div class=\"swpf-core\"><p>这首险恶的歌谣会将恐惧打入与吟游诗人为敌的家伙心中。根据角色的判断，任何吟游诗人视线当中且距离10英寸(20码)以内的敌方若使用助力点进行化解，或是就特性或伤害进行重投时，其最终结果-2。</p></div>"
         },
         "Divine Mastery (Cleric)": {
-            "category": "牧师"
+            "name": "神术精擅(牧师)",
+            "category": "牧师",
+            "description": "<div class=\"swpf-core\"><p>神祇赐予了麾下牧师更多的力量与威能用以施行神迹。选取该专长的牧师能使用所有奇术的史诗奇术调整(见175页)。</p></div>"
         },
         "Divine Mastery (Druid)": {
-            "category": "德鲁伊"
+            "name": "神术精擅(德鲁伊)",
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\"><p>大自然将更多的威能与力量赐给了自己的保护者。选取该专长的德鲁伊能使用所有奇术的史诗奇术调整(见175页)。</p></div>"
         },
         "Dragon Disciple": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>这些接受了自身龙类血统的施法者习得了引导其中力量的方法，并因此而成为了令人畏惧的战士。他们不仅掌握了绝顶术士的百般技艺，还可以向敌人倾泻龙类的狂怒伟力。</p>\n<ul>\n<li>\n<strong>吐息攻击</strong>：每遭遇一次，龙脉门徒能以一个限定行动进行一次范围为锥形盖板的吐息攻击。这次攻击造成3d6伤害并且可以被回避。根据角色传承的龙种类别，这次攻击会带有下述效果之一：火(对象可能着火，154页)，酸(持续伤害，170页)，电(穿着金属护甲的对象+2伤害)或寒冷(对象直到其下一回合结束为止受到妨碍，170页)。\n</li>\n</ul>\n</div>",
+            "name": "龙脉门徒"
         },
         "Dragon Disciple II": {
-            "category": "进阶专长"
+            "name": "龙脉门徒II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">龙翼：</span>龙脉门徒的身体覆有更多鳞片，双目似兽，甚至还可能长出小型犄角。最终，背后将会展开一对赋予飞行能力(移速8)的鳞翼。</li></ul></div>"
         },
         "Druid": {
-            "category": "德鲁伊"
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\">\n<p>在纯洁与瑰丽的大自然当中存在着比文明奇迹更为伟大的力量，这些原始的魔法由称为德鲁伊的平衡侍从所守护，与野兽为友的他们操控自然之力来保护大地免受外人威胁。</p>\n<p>非凡威能正是德鲁伊敬奉的奖赏：独一无二的变形能力，强大猛兽的友谊，以及呼唤自然之怒的力量。这些无上的忿怒之力如风暴、如地震、如火山，带有早已被文明忘却的太古智慧。</p>\n<ul>\n<li><span class=\"list-heading\">奥法背景(德鲁伊)：</span>德鲁伊使用信仰作为自身的奥法技能，选取该专长的角色会获得3个初始奇术和10奇术点。</li>\n<li><span class=\"list-heading\">可选奇术：</span>德鲁伊的法术是从牧师的可选奇术(48页)和自然领域(50页)当中进行选取。</li>\n<li><span class=\"list-heading\">护甲干扰(轻型)：</span>笨重的护甲会干扰德鲁伊感受自然以及与之交流的能力，在使用中型、重型护甲或盾牌时的信仰投骰、灵巧以及基于灵巧的技能投骰均-4。德鲁伊完全无法使用金属护甲。</li>\n<li><span class=\"list-heading\">自然联结：</span>德鲁伊可以将自己与大自然或某一特殊的动物伙伴进行适配，见下文的<strong>自然联结</strong>。</li>\n<li><span class=\"list-heading\">自然智识：</span>德鲁伊与自然及其精魂亲近相通，生存技能关联属性由聪慧变为心魂。</li>\n<li><span class=\"list-heading\">秘密语言：</span>所有德鲁伊都掌握一门称为德鲁伊语的秘密语言。</li>\n<li>\n<strong>誓言(主要)</strong>：德鲁伊具备保护自然的主要誓言，那些从神圣源泉中汲取能量的德鲁伊必须遵守自然领域的准则。如果德鲁伊辜负了神祇的信任(GM裁定)，则一周之内的信仰投骰-2。彻底的亵渎行为可能还会完全剥夺德鲁伊的力量，直到其以某种方式赎罪为止。\n</li>\n<li><span class=\"list-heading\">荒野畅行：</span>德鲁伊能轻易穿过诸如密林、崎岖山丘或沙漠之类的地形，其忽略困难地形减值(见124页)。</li>\n</ul>\n<h4 id=\"nature-bond\">自然联结 NATURE BOND</h4>\n<p>德鲁伊与大自然之间有着深远而强大的联结，在下列能力中选择其一：</p>\n<ul>\n<li><span class=\"list-heading\">适配者：</span>德鲁伊施放法术的信仰投骰若是失败可免费获得一次重投。</li>\n<li><span class=\"list-heading\">野兽大师：</span>德鲁伊获得野兽大师专长以及一名动物伙伴，这名伙伴是不羁角色。</li>\n</ul>\n</div>",
+            "name": "德鲁伊"
         },
         "Duelist": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>在优雅剑术上登峰造极的决斗家能娴熟地运用还击挡住来犯的袭击并阻碍对手行动。</p>\n<ul>\n<li><span class=\"list-heading\">精准打击：</span>决斗家能够使用最低力量为d6或以下的单手穿刺武器使出精准打击，这会让总伤害获得+2。</li>\n<li><span class=\"list-heading\">应敌格挡：</span>若决斗家在此回合中尚未行动，其能在敌人宣告要对其进行格斗攻击后但进行投骰前宣告使用防御战技，决斗家弃掉自己当前的行动卡，并且本回合中的格挡加值从+4变成+6。</li>\n</ul>\n</div>",
+            "name": "决斗家"
         },
         "Duelist II": {
-            "category": "进阶专长"
+            "name": "决斗家II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">致残打击：</span>因决斗家而遭受动摇或损伤的敌人在得以恢复之前移速减少2。对象同一时间只会承受一次致残打击的效果，并且移速无法降低到1以下。</li></ul></div>"
         },
         "Duelist III": {
-            "category": "进阶专长"
+            "name": "决斗家III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">箭：</span>决斗家现在能够挡开弓箭、弩矢和投掷武器。敌人针对决斗家的运动(投掷)或射击投骰-2，这会与闪避以及类似能力叠加，但会在决斗家遭到突袭、陷入束缚、没有意识到攻击或遇到其他通常而言无法格挡投射物的情况时失效。</li></ul></div>"
         },
         "Eldritch Inspiration": {
-            "category": "法师"
+            "category": "法师",
+            "description": "<div class=\"swpf-core\">\n<p>强大的法师在法术书里面收录的高深知识让其得以随心所欲地驾驭魔法伟力。只要法师的身上带着法术书，就能使用一点助力点来施放契合或低于其位阶的任意奇术。该奇术可被如常维持，但在事后就会遭到遗忘(这名法师不会将其加入自己的奇术列表)。\n</p>\n</div>",
+            "name": "惊世灵感"
         },
         "Eldritch Knight": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>同时接受武艺与奥法训练的精英战士掌握了如何利用自己在这两者上的非凡造诣。这些称作奥法骑士的英雄们多才多艺，通常在武技和奥法上均有所建树。</p>\n<ul>\n<li><span class=\"list-heading\">奥法充能：</span>每当奥法骑士在造成伤害的运动(投掷)、格斗、射击或奥法技能等这类攻击投骰上获得优良时，就会获得1奇术点。</li>\n</ul>\n</div>",
+            "name": "奥法骑士"
         },
         "Eldritch Knight II": {
-            "category": "进阶专长"
+            "name": "奥法骑士II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">奥法打击：</span>奥法骑士能够在进行一次攻击投骰后使用2奇术点让这次投骰的总值+2。</li></ul></div>"
         },
         "Eldritch Knight III": {
-            "category": "进阶专长"
+            "name": "奥法骑士III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">精通奥法打击：</span>奥法骑士能在成功进行一次攻击投骰后使用2奇术点让这次攻击的伤害+2。</li></ul></div>"
         },
         "Favored Powers (Cleric)": {
-            "category": "牧师"
+            "name": "偏好奇术(牧师)",
+            "category": "牧师",
+            "description": "<div class=\"swpf-core\"><p>牧师对于某些核心奇术可谓得心应手，并能快速轻易地予以施放。牧师在施放<em>治疗</em>、<em>庇护</em>和<em>痛击</em>时可以通过一个限定自由行动忽略至多两点<em>任意</em>减值(多重行动、损伤、疲乏等)。该专长不会让牧师获得这些奇术，其必须另外选取。</p></div>"
         },
         "Favored Powers (Druid)": {
-            "category": "德鲁伊"
+            "name": "偏好奇术(德鲁伊)",
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\"><p>德鲁伊对于某些核心奇术可谓得心应手，并能快速轻易地予以施放。德鲁伊在施放<em>纠缠</em>、<em>痛击</em>和<em>防护</em>时可以通过一个限定自由行动忽略至多两点<em>任意</em>减值(多重行动，损伤，疲乏等)。该专长不会让德鲁伊获得这些奇术，其必须另外选取。</p></div>"
         },
         "Favored Powers (Sorcerer)": {
-            "category": "术士"
+            "name": "偏好奇术(术士)",
+            "category": "术士",
+            "description": "<div class=\"swpf-core\"><p>术士对于某些奇术可谓得心应手，并能快速轻易地予以施放。术士在施放<em>矢弹</em>、<em>元素操纵</em>或<em>防护</em>时可以通过一个限定自由行动忽略至多两点任意减值(多重行动，损伤，疲乏等)。</p><p>该专长不会让术士获得这些奇术，其必须另外选取。</p></div>"
         },
         "Favored Powers (Wizard)": {
-            "category": "法师"
+            "name": "偏好奇术(法师)",
+            "category": "法师",
+            "description": "<div class=\"swpf-core\"><p>法师对于某些奇术可谓得心应手，并能快速轻易地予以施放。在施放<em>奥法防护</em>、<em>偏斜</em>与<em>破袪</em>时可以通过一个限定自由行动忽略至多两点任意减值(多重行动，损伤，疲乏等)。该专长不会让法师获得这些奇术，其必须另外选取。</p></div>"
         },
         "Fighter": {
-            "category": "战士"
+            "category": "战士",
+            "description": "<div class=\"swpf-core\">\n<p>有些人为了荣耀、财富或复仇而拿起武器，而另一些人则是为了证明自己、守护他人或仅仅是因为别无所长而投身战斗。还有些人则是学习兵器技艺来在战斗中锻炼筋骨，并在战火的洪炉当中证明自身的才干。</p>\n<p>作为战阵主宰的战士们风格各异。有人能使百兵，有人独爱一械。无论战术为何，护身却敌的战士骁勇善斗，几乎不会临阵脱逃。他们往往会带头冲锋——尽管乐在其中，但也不会执着于此。</p>\n<p>这些训练精熟的斗士能将凡铁化作兵刃，以此征服王国，斩妖除魔或是振奋军心，挡其路者必然大难临头。</p>\n<ul>\n<li><span class=\"list-heading\">灵活武艺：</span>每遭遇一次，战士能以一个限定自由行动来选择获得单个战斗专长的好处，其必须满足该专长的所有需求，所选专长的好处会在5轮后结束。</li>\n</ul>\n</div>",
+            "name": "战士"
         },
         "Fix It": {
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名角色乃是机关装置的天才，修理投骰+2，若获得优良，则修理东西的时间为正常所需的一半。这意味着如果特定修理任务已经有说明优良能让耗时减半，那么能工巧匠获得优良时则只需要四分之一的时间就能完成工作。</p>\n</div>",
+            "name": "能工巧匠"
         },
         "Formation Fighter": {
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名角色接受过与他人并肩作战的训练，彼此凭借协同的打击来压倒共同的敌人。角色自身与其盟友的围攻加值额外+1。无论有多少结阵士卒站在一起，围攻加值的上限依然是+4。</p>\n</div>",
+            "name": "结阵士卒"
         },
         "Great Ki": {
-            "category": "武僧"
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\">\n<p>武僧进一步滋养精炼自身的真气，并将以下法术加入到秘源奇术专长当中：<em>强化特性</em>(力量)、<em>防护</em>、<em>走壁</em>、<em>天赐勇武</em>。</p>\n</div>",
+            "name": "高等气功"
         },
         "Improved Rapid Shot": {
-            "category": "战斗专长"
+            "name": "精通速射",
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\"><p>这名射手练习过快速而准确地射击。若角色装备有能通过一个自由行动进行装填的武器，并且拥有足够的箭矢，则该回合内可以让任一次射击攻击中的武器射速+1。速射可与快速装填一起使用。</p></div>"
         },
         "Intimidating Glare": {
-            "category": "野蛮人"
+            "category": "野蛮人",
+            "description": "<div class=\"swpf-core\">\n<p>残暴野蛮人的视线可怖凶蛮，这足以撼动所有不够坚定的灵魂。</p>\n<p>当野蛮人的行动卡是J或以上时，其能通过一个限定自由行动进行一次威吓投骰，此时角色会忽略通常针对重复所使用的建议(见140页)，若是愿意如此则可恐吓威胁或是破口大骂，但通常角色那可怕的目光就足以让对方体若筛糠。</p>\n</div>",
+            "name": "裂胆怒目"
         },
         "Loremaster": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>作为奥法和秘传知识的收集者，这名角色视追求智慧洞见高于一切。总是沉浸在文字之中的博学士比任何人都清楚知识就是力量。</p>\n<ul>\n<li><span class=\"list-heading\">学识丰富：</span>进行人文、通用知识、神秘学或科学投骰时免费获得一次重投。</li>\n</ul>\n</div>",
+            "name": "博学士"
         },
         "Loremaster II": {
-            "category": "进阶专长"
+            "name": "博学士II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><p>博学士对于旅途和冒险中的一切有着特殊的洞见。</p><ul><li><span class=\"list-heading\">秘闻绝学：</span>在GM允许的情况下，博学士可以获取一项任意核心职业专长中其尚未具备的能力。举例而言，可以选获取德鲁伊的荒野畅行能力、游荡者的偷袭能力或是牧师的引导能量能力。这不会赋予使用该能力所需要其他任何特性、专长或规则。</li></ul></div>"
         },
         "Loremaster III": {
-            "category": "进阶专长"
+            "name": "博学士III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">学识渊博：</span>博学士习得任意两个在战役中可选的新奇术。倘若奇术依赖于博学士不能使用的机制，那他就无法进行施放，但其若是愿意仍能学习这些法术。</li></ul></div>"
         },
         "Martial Flexibility (Improved)": {
-            "category": "战士"
+            "name": "精通灵活武艺",
+            "category": "战士",
+            "description": "<div class=\"swpf-core\"><p>战士能获得两个战斗专长的好处(仍受灵活武艺的通常限制)，其可同时选取两个战斗专长，或是在后续的回合当中才单独用一个限定自由行动获得另一个专长。</p></div>"
         },
         "Martial Prowess": {
-            "category": "战士"
+            "category": "战士",
+            "description": "<div class=\"swpf-core\">\n<p>战士就任意失败的运动(投掷)、格斗或射击投骰免费获得一次重投。</p>\n</div>",
+            "name": "超绝武艺"
         },
         "Master Hunter": {
-            "category": "游侠"
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\">\n<p>游侠现在成为了所选猎物的致命天敌，针对自身宿敌的运动(投掷)，格斗或射击攻击成功时会额外获得1d6伤害。</p>\n</div>",
+            "name": "狩猎大师"
         },
         "Mercy": {
-            "category": "圣武士"
+            "category": "圣武士",
+            "description": "<div class=\"swpf-core\">\n<p>圣武士能以一个行动给位于等同其心魂射程内的任一角色降下“恩惠”，这能移除下列状态之一：分神，脆弱或动摇。</p>\n</div>",
+            "name": "恩惠"
         },
         "Monk": {
-            "category": "武僧"
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\">\n<p>对于真正的高手而言，武学更在战阵之上——这是一种生活方式，一种信条，一层心境。这些武师探寻着剑盾之外的战法，从自身当中发掘出比起百般兵刃不遑多让的致命武器。</p>\n<p>遵循古老理念的武僧坚持着严格的武技训练，将自己的身躯锤炼成战争兵器。武僧行于戒律与平衡之道：于心，于息，于体。</p>\n<ul>\n<li><span class=\"list-heading\">护甲限制(任意)：</span>武僧必须无拘无束才能施展出复杂的战技，在使用轻型，中型或重型护甲或盾牌时的灵巧和基于灵巧的技能投骰均-4。</li>\n<li><span class=\"list-heading\">武艺训练：</span>武僧们将自己的身体锻至完美，在未着护甲时坚韧额外获得+1。</li>\n<li><span class=\"list-heading\">灵活移动：</span>机敏快速的武僧其奔跑骰的骰子类型提升一级。</li>\n<li><span class=\"list-heading\">震慑拳：</span>当武僧以无武装攻击命中目标并得到优良时，其能使敌方陷入分神或是脆弱，即使对象未受到伤害或成功予以化解也能生效(这个状态在对象尝试进行化解后才生效)。</li>\n<li>\n<strong>无武装打击</strong>：武僧进行无武装攻击时的格斗+1，穿甲+2，其能用手，脚或其他天生武器(如有这类肢体，见136页)造成力量+d4的伤害。如果武僧已经从爪抓(某些族裔可选)或搏击手专长中获得了力量伤害骰，则伤害骰子类型提升一级。武僧可以将招牌武器专长应用到自身的无武装攻击上。武僧总是视同有武装。尽管能以副手使用常规武器，但是与无武装打击相关的能力只能应用在如上定义的无武装攻击当中。武僧在获得优良时投d10作为奖励伤害。\n</li>\n</ul>\n</div>",
+            "name": "武僧"
         },
         "Mount": {
-            "category": "圣武士"
+            "category": "圣武士",
+            "description": "<div class=\"swpf-core\">\n<p>圣武士与其当前拥有的坐骑之间建立了某种神圣联结，这通常是一匹马或小马，但在得到GM同意的前提下也能是体型3及以下的任意坐骑。通过建立联结，该坐骑会获得两次升级(特性或适当的专长，GM裁定)，同时具有强韧特殊能力。其能通过一个限定行动召唤而出。如果是在战斗当中，则其会在下一轮开始时出现，并与圣武士共用一张行动卡。若坐骑死亡，则圣武士也能获取并联结另一匹坐骑，但同时至多只能有一匹联结坐骑。\n</p>\n</div>",
+            "name": "坐骑"
         },
         "Mystic Powers (Monk)": {
-            "category": "武僧"
+            "name": "秘源奇术(武僧)",
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\"><p>武僧能以一个限定自由行动使用一项下述的“气功”奇术：<em>强化特性</em>(仅限灵巧、运动、格斗和潜行)、<em>偏斜</em>、<em>痛击</em>和<em>加速</em>，尽管全都只能对自身施放，但武僧不会从这个限制当中获得好处(见168页)。</p><p>武僧拥有10点可以正常充能(见169页)的专用奇术点，其能以奇术的常规消耗如同奥法技能投骰成功那般自动启动奇术，或是额外消耗2奇术点视作获得优良，同时能随意使用可选用的奇术调整(如常消耗)。特定法术的更多信息参见第5章。</p><p>秘源奇术无法满足专长所要求的奥法背景需求。如果武僧同时拥有奥法背景，则与之对应的专长和能力都不能用于秘源奇术(反之亦然)。</p></div>"
         },
         "Mystic Powers (Paladin)": {
-            "category": "圣武士"
+            "name": "秘源奇术(圣武士)",
+            "category": "圣武士",
+            "description": "<div class=\"swpf-core\"><p>圣武士能以一个限定自由行动召来下述奇迹之一：<em>强化特性</em>(仅限格斗、力量和活力)、<em>治疗</em>、<em>缓和</em>与<em>痛击</em>。<em>强化特性</em>和<em>痛击</em>仅限自身，然而圣武士不会从这个限制当中获得好处(见168页)。圣武士拥有10点可以正常充能(见169页)的专用奇术点，其能以奇术的常规消耗如同奥法技能投骰成功那般自动启动奇术，或是额外消耗2奇术点视作获得优良，同时能随意使用可选用的奇术调整(如常消耗)。特定法术的更多信息参见第5章。</p><p>秘源奇术无法满足专长所要求的奥法背景需求。如果圣武士同时拥有奥法背景，则与之对应的专长和能力都不能用于秘源奇术(反之亦然)。</p></div>"
         },
         "Mystic Powers (Ranger)": {
-            "category": "游侠"
+            "name": "秘源奇术(游侠)",
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\"><p>游侠能以一个限定自由行动施放下述奇术之一：<em>野兽同盟</em>、<em>强化特性</em>(仅运动、格斗和射击)、<em>纠缠</em>和<em>天赐勇武</em>。<em>强化特性</em>和<em>天赐勇武</em>仅限自身，但游侠不会这个限制当中获得好处(见168页)。</p><p>游侠拥有10点能正常充能(见169页)的专用奇术点，其能以奇术的常规消耗如同奥法技能投骰成功那般自动启动奇术，或是额外消耗2奇术点视作获得优良，同时能随意使用可选用的奇术调整(如常消耗)。特定法术的更多信息参见第5章。</p><p>秘源奇术无法满足专长所要求的奥法背景需求。如果游侠同时拥有奥法背景，则与之对应的专长和能力都不能用于秘源奇术(反之亦然)。</p></div>"
         },
         "Mystic Theurge": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>无论源泉是奥术抑或神术，秘术师都突破了自身魔法能力的界限。</p>\n<ul>\n<li>\n<strong>双法合璧</strong>：秘术师能够以一个限定行动施放两个法术。秘术师必须使用两个不同的奥法技能，并如常宣称要施放的法术和所有奇术调整，然后就两个法术分别进行投骰(不羁骰可以替换两者其中之一)。若是两个奥法技能的骰子类型相同，则可以使用不同颜色的骰子来方便区分。这两个法术必须分别计算消耗，大失败的效果如常适用，但不会叠加。\n<em>例子：秘术师用施法(d8)来施展矢弹，同时用信仰(d10)来施展治疗。她投一枚d8，一枚d10，以及不羁骰，不羁骰可以替换这两个技能骰子中的任意一枚。同时施展两个法术如常消耗奇术点，并且可以随意各自应用奇术调整。</em>\n</li>\n</ul>\n</div>",
+            "name": "秘术师"
         },
         "Mystic Theurge II": {
-            "category": "进阶专长"
+            "name": "秘术师II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">法术协同：</span>秘术师使用双法合璧能力时每个法术的消耗各减少1奇术点(下限为1)。</li></ul></div>"
         },
         "Mystic Theurge III": {
-            "category": "进阶专长"
+            "name": "秘术师III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">法术无界：</span>角色的职业能力现在能应用于其他职业所赋予的任何法术。</li></ul></div>"
         },
         "Opportunist": {
-            "category": "游荡者"
+            "category": "游荡者",
+            "description": "<div class=\"swpf-core\">\n<p>当某一目标从游荡者处<strong>撤出近战</strong>(见141页)时，即使其具备脱身或精通脱身，游荡者也能进行一次自由攻击。如果敌方不具备这两项专长，则遭到这种自由攻击时视作脆弱。</p>\n</div>",
+            "name": "见缝插针"
         },
         "Paladin": {
-            "category": "圣武士"
+            "category": "圣武士",
+            "description": "<div class=\"swpf-core\">\n<p>神祇之力只在少数够格的人身上闪耀。这些被称作圣武士的高贵灵魂将自己的利刃与生命都投入到了对抗邪恶的战斗当中。身为骑士，圣战军与执法者，圣武士所追求的并不只是传播公道正义，而是将所奉神祇的谆谆教诲落到实处，他们为了追求崇高的目标而坚守着牢不可破的道德法则与纪律戒令。\n</p>\n<p>作为侍奉的奖赏，这些神圣的勇士得到了协助其完成天命的祝福恩赐。他们获得了用以抗击邪恶，治疗盟友和激励信徒的能力，他们的信念使其与尚待拯救的灵魂交锋对弈。圣武士能承受住对信仰的无尽挑战与无穷诱惑，并奋不顾身地履行义举，守护正道。\n</p>\n<ul>\n<li><span class=\"list-heading\">勇气灵光：</span>只要圣武士还有意识，10英寸(20码)内的盟友进行恐惧检定时获得+1。</li>\n<li><span class=\"list-heading\">荣耀信条：</span>所有的善良圣武士都具有荣耀信条负赘：言出必行，绝不虐俘杀囚，而且通常会维持最高标准的礼仪与教养。这属于其他负赘之外的额外负赘。</li>\n<li><span class=\"list-heading\">侦测邪恶：</span>圣武士能以一个行动专注于聪慧射程内的某一物件或是生物，以此判断其本质上是否邪恶，神祇与阵营见51页。</li>\n<li>\n<strong>制裁邪恶</strong>：圣武士能以一个自由行动选定某一敌人，若其为邪恶存在，则圣武士在本次遭遇剩下的时间内针对该目标的运动(投掷)，格斗或射击投骰在失败时免费获得一次重投。圣武士在单次遭遇中使用该能力的次数等同于其位阶数。\n</li>\n</ul>\n</div>",
+            "name": "圣武士"
         },
         "Pathfinder Chronicler": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>这些英雄乃是勇敢的探险者，也是失落遗忘知识的追寻者，他们正是冒险者的写照，旅行于世界各地，探寻秘传的真理、晦涩的魔法、尘世的遗迹和无人领略的风景。</p>\n<ul>\n<li>\n<strong>老马识途</strong>：在引导大家前往已知的或标注于地图上的地点时，探索者司书能够将团队的速度提升10%，见165页的<strong>旅行</strong>。探索者司书知晓何处是最安全的路径，而何处又需要格外留心。若是GM正在就遭遇进行抽卡并得到了<strong>遇敌</strong>结果(见165页)，则探索者司书能成功通过一次-2的聪慧投骰来弃掉此卡并换成牌组中下一张卡。\n</li>\n</ul>\n</div>",
+            "name": "探索者司书"
         },
         "Pathfinder Chronicler II": {
-            "category": "进阶专长"
+            "name": "探索者司书II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">史诗传说：</span>探索者司书可以朗诵震撼人心的史诗。每回游戏一次，在队伍休息时，每名听见这篇史诗的不羁角色盟友会获得1点助力点。</li></ul></div>"
         },
         "Pathfinder Chronicler III": {
-            "category": "进阶专长"
+            "name": "探索者司书III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">祈唤传奇：</span>游戏中每周一次，探索者司书能神奇地召唤出格拉里昂上五名早已身殁的伟大英雄“投影”。投影会呈现出凡人的外形，数据列在右侧边栏当中，其能存在1个小时。</li></ul><aside class=\"sidebar\"><h1>投影<h4><p>投影的外形是来自精灵、矮人、人类或其他种族的格拉里昂英雄，沉默不语、形态飘忽。除非身处最为模糊的环境当中，否则投影不会被误认为是活物。投影从黑暗中现身，当存在于凡世的时间告罄时，其又会消失在黑暗之中。投影存在于此世时具有物理形体，但只具备真实原型的一小部分能力。</p><p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d8，活力d8</p><p><strong>技能</strong>：运动d6，格斗d8，威吓d6，察觉d4，潜行d6</p><p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：8(2)</p><p><strong>负赘</strong>：无</p><p><strong>专长</strong>：无</p><p><strong>装备</strong>：皮甲(+2)，长剑(力量+d8)</p><p><strong>特殊能力</strong>：</p><ul><li><span class=\"list-heading\">构装体：</span>从动摇中恢复时+2；无须呼吸；免疫毒素和疾病。</li><li><span class=\"list-heading\">无畏：</span>投影免疫恐惧和威吓。</li></ul></aside></div>"
         },
         "Powerful Blow": {
-            "category": "野蛮人"
+            "category": "野蛮人",
+            "description": "<div class=\"swpf-core\">\n<p>野蛮人那凶狠的不羁攻击所造成的伤害从+2变成+4，详见141页的不羁攻击。</p>\n</div>",
+            "name": "猛力打击"
         },
         "Quarry": {
-            "category": "游侠"
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\">\n<p>游侠的专精得到了扩展，额外的敌人和地形得以纳入在内，额外选择一种敌人和地形类别，以此作为自身的宿敌和偏好地形。该专长每位阶只能选取一次。</p>\n</div>",
+            "name": "狩猎目标"
         },
         "Ranger": {
-            "category": "游侠"
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\">\n<p>对于那些享受刺激狩猎的家伙而言，世上无非只有猎手和猎物而已。从斥候、追踪者，乃至赏金猎人，全体游侠都身居猎手的角度，重视使用武器的造诣，擅于追踪最为难以捉摸的猎物，坚持不懈的训练使其可以击败多种猎物。</p>\n<p>这些猎人颇有见识、耐心过人、技巧娴熟，追猎的对象从人类、野兽到怪物不一而足。有些游侠为了保护边境而追踪尾随危险生物，另一些人则是深入了危险荒野去追捕更为狡诈的猎物——甚至是逃犯。</p>\n<ul>\n<li><span class=\"list-heading\">护甲限制(中型)：</span>游侠是灵活机动的战士与斥候，在穿着重型护甲或使用重型盾牌时的灵巧与基于灵巧的技能-4。</li>\n<li>\n<strong>宿敌</strong>：游侠会研究自己的敌人，学习对方的习惯，如何找到对方，如何击败对方。游侠从244页的列表中选择一种敌人类别，在针对该类别生物的追踪(生存)或攻击(运动(投掷)，格斗，射击)投骰失败时免费获得一次重投。\n</li>\n<li>\n<strong>偏好地形</strong>：游侠选择一种地形类别(极地，沙漠，森林，丛林，平原，丘陵/山脉，河流/海洋，沼泽，城市或地下)，在处于自己的偏好地形时能额外抽取一张行动卡来决定先攻(这不会影响游侠的可用行动卡数量，因而沉稳冷静角色依然能选取使用哪一张卡，而犹豫不决的角色必须选取最低的那张卡)。\n</li>\n<li><span class=\"list-heading\">荒野畅行：</span>游侠能轻易通过穿过诸如密林，崎岖山丘或沙漠之类的地形，忽略<strong>困难地形</strong>减值(见124页)。</li>\n</ul>\n</div>",
+            "name": "游侠"
         },
         "Rapid Reload": {
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名斗士能让远程武器的装填值减少1，见137页<strong>装填</strong>。使用弩(装填值为1或2)的射手经常会选取此专长，而装填值为1的武器可通过此专长以一个自由行动进行装填。</p>\n<p>若武器的装填值已被降低至自由行动，则具有该专长的角色能就此武器使用速射。</p>\n</div>",
+            "name": "快速装填"
         },
         "Rapid Shot": {
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\">\n<p>这名射手练习过快速而准确地射击。若角色装备有能通过一个自由行动进行装填的武器，并且拥有足够的箭矢，则该回合内可以让任一次射击攻击中的武器射速+1。速射可与快速装填一起使用。</p>\n</div>",
+            "name": "速射"
         },
         "Rogue": {
-            "category": "游荡者"
+            "category": "游荡者",
+            "description": "<div class=\"swpf-core\">\n<p>对于那些靠机智谋生的家伙而言，生活就是无穷无尽的冒险。永远离危险只有一步之遥的游荡者仰仗着自己的狡黠、技艺与魅力来获得命运的青睐。由于不清楚会遇上什么，往往会做好一切准备的他们处于需要而成为了熟练的布局者，灵活的杂耍员或是暗影中的尾行者。他们是小偷，是赌徒，是说客，是强盗和赏金猎人，也是探险家与调查员。\n</p>\n<p>尽管许多游荡者喜爱城镇里的机遇，也有一些家伙愿意投身旅行。他们辗转迁徙，结识异邦人士，并为了无尽的财富直面奇险。但最终，所有游荡者都希望能掌握自己的命运，并以自己的方式生活。</p>\n<ul>\n<li><span class=\"list-heading\">护甲限制(轻型)：</span>游荡者是机敏而致命的特技好手，笨重的护甲会影响他们的发挥，所以在穿着中型或重型护甲，或者使用中型或重型盾牌时的灵巧与基于灵巧的技能投骰-4。</li>\n<li><span class=\"list-heading\">偷袭：</span>游荡者在攻击能构成奇袭或陷入脆弱的对象时，伤害额外增加1d6，这能应用于运动(投掷)，格斗或射击攻击上。</li>\n</ul>\n</div>",
+            "name": "游荡者"
         },
         "Shadowdancer": {
-            "category": "进阶专长"
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\">\n<p>这些钟情于阴影的角色拥抱了黑暗的优势，以此化身为操弄诡计和诈术的艺术家。</p>\n<ul>\n<li><span class=\"list-heading\">高等黑暗视觉：</span>与阴影位面的强力联结使这名角色甚至在漆黑一片当中也能看到至多20英寸(40码)远，并忽略因此造成的所有照明减值。这可以看穿通常会阻挡黑暗视觉的效果。</li>\n</ul>\n</div>",
+            "name": "影舞者"
         },
         "Shadowdancer II": {
-            "category": "进阶专长"
+            "name": "影舞者II",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">暗影斗篷：</span>黑暗环绕保护着自己的选民。当影舞者在昏暗或黑暗照明环境中遭受损伤时，其能免费尝试一次-2的化解，这并不视为使用助力点。</li></ul></div>"
         },
         "Sorcerer": {
-            "category": "术士"
+            "category": "术士",
+            "description": "<div class=\"swpf-core\">\n<p>身为魔法血脉的后裔，命运的走卒或仅仅是偶然得到无常魔法的青睐，术士在探寻自身以发掘超凡绝伦的奥术，他们所开发的力量对大部分凡人而言难以想象，同时这些遭到魔法染指的灵魂必须学着去驾驭这种与生俱来的力量。</p>\n<p>有些人寻求控制自身的能力，另一些人则屈服于魔法，任由其主宰自己的生活。术士的生活乃至呼吸都是其他施法者穷尽一生以求掌握的事物，对这些人而言，魔法不仅是有用的工具或是研究的领域——而是生命本身。</p>\n<ul>\n<li>\n<strong>奥法背景(术士)</strong>：术士使用施法作为自身的奥法技能，但其关联属性从聪慧变成心魂(如有兼职基于聪慧的施法者，则取两种属性中的较高者)。选取该专长的角色获得15奇术点以及下表中的2个起始奇术。\n</li>\n<li>\n<strong>可选奇术</strong>：<em>奥法防护</em>、<em>恶意变形</em>、<em>放逐</em>、<em>屏障</em>、<em>野兽同盟</em>、<em>爆发</em>、<em>目盲</em>、<em>矢弹</em>、<em>强化/削弱特性</em>、<em>遁地</em>、<em>爆裂</em>、<em>困惑</em>、<em>创造物品</em>、<em>诅咒</em>、<em>致伤领域</em>、<em>暗视</em>、<em>偏斜</em>、<em>侦测/隐藏奥法</em>、<em>易容</em>、<em>破袪</em>、<em>预言</em>、<em>抽取奇术点</em>、<em>元素操纵</em>、<em>共感</em>、<em>纠缠</em>、<em>环境防护</em>、<em>远视</em>、<em>恐惧</em>、<em>飞行</em>、<em>放大/缩小</em>、<em>劫动</em>、<em>幻象</em>、<em>无形</em>、<em>隐形</em>、<em>光亮/黑暗</em>、<em>定位</em>、<em>心灵链接</em>、<em>读心</em>、<em>心智抹除</em>、<em>读物</em>、<em>异界誓缚</em>、<em>异界传送</em>、<em>防护</em>、<em>傀儡</em>、<em>探知</em>、<em>化形</em>、<em>滞缓/加速</em>、<em>沉眠</em>、<em>痛击</em>、<em>发声/沉默</em>、<em>通晓语言</em>、<em>震慑</em>、<em>召唤盟友</em>、<em>念动</em>、<em>传送</em>、<em>时间停止</em>、<em>走壁</em>、<em>天赐勇武</em>、<em>祈愿</em>、<em>行尸</em>\n</li>\n<li><span class=\"list-heading\">护甲干扰(任意)：</span>施术需要快速复杂且不受阻碍的身体运动，术士在使用轻型、中型或重型护甲或是盾牌时的施法投骰、灵巧与基于灵巧的技能投骰-4。</li>\n<li><span class=\"list-heading\">血脉：</span>术士必须选择一种血脉(见66页)。每种血脉描述下方还有选取高级血脉专长(见下)时会获得的额外特殊能力。</li>\n</ul>\n</div>",
+            "name": "术士"
         },
         "Strength Surge": {
-            "category": "野蛮人"
+            "category": "野蛮人",
+            "description": "<div class=\"swpf-core\">\n<p>野蛮人的狂暴突破了桎梏！角色狂暴时的力量骰子类型提升从一级变成两级，这能超越角色的族裔上限。</p>\n</div>",
+            "name": "力大无穷"
         },
         "Trap Sense": {
-            "category": "游荡者"
+            "category": "游荡者",
+            "description": "<div class=\"swpf-core\">\n<p>游荡者擅于发现并战胜最为巧妙的圈套与陷阱。只要周边5英寸(10码)范围内存在蓄势待发且可侦测的陷阱，游荡者就能获得一次察觉投骰。前提是未遭受动摇或震慑，且陷阱必须在视线内。这与危险感知的机制大体相似，但只能应用在机械和魔法陷阱上。\n</p>\n<p>陷阱详述见156页。</p>\n<p>如果陷阱已被发现且能被回避，则游荡者与得到其警告的对象能在回避时忽略2点回避减值。如果该陷阱通常无法被回避，则得到警告的对象也能如常以-2减值进行回避。</p>\n<p><strong>解除陷阱</strong>：具有陷阱感知的游荡者在尝试解除陷阱时忽略至多2点贼活减值。</p>\n</div>",
+            "name": "陷阱感知"
         },
         "Troubadour": {
-            "category": "术业专长"
+            "category": "术业专长",
+            "description": "<div class=\"swpf-core\">\n<p>游唱歌手环游世界，学习文化、礼仪、历史，尤其是传说。角色的通用知识投骰+2，并能以表演替换作战来使用领导力专长或需要作战的专长。</p>\n</div>",
+            "name": "游唱歌手"
         },
         "Two-Weapon Fighting": {
-            "category": "战斗专长"
+            "name": "双武器战斗",
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\"><p>若角色以一个行动进行格斗攻击，后面又以一个行动用<em>另一只手</em>进行格斗攻击，则第二次攻击不会招致多重行动减值。除非角色具有双巧手(94页)，否则<strong>副手</strong>减值依然生效。</p><p>角色可选择两手各进行一次格斗或射击攻击，两手各进行一次运动(投掷)攻击，或是上述任意组合(取决于预备好的武器)。</p><p><strong><em>例子*</em></strong>：战士一手持长剑，另一只手持匕首。具有双武器战斗的他用一个行动以剑进行格斗投骰，然后用匕首进行第二次格斗投骰或运动(投掷)投骰，两者均不承受多重行动减值。*</p></div>"
         },
         "Uncanny Reflexes": {
-            "category": "游荡者"
+            "category": "游荡者",
+            "description": "<div class=\"swpf-core\">\n<p>游荡者可以出神入化地躲避范围攻击与范围效果，在进行回避尝试(见132页)时忽略通常的-2灵巧减值。游荡者还能在对抗通常不能回避的范围效果攻击或效果(如<em>爆裂</em>或<em>爆发</em>，甚至是<em>困惑</em>等施放时带有范围效果调整的类似法术)时获得一次回避尝试(具有通常的-2减值)。\n</p>\n</div>",
+            "name": "离奇反射"
         },
         "Wholeness of Body": {
-            "category": "武僧"
+            "name": "混元体",
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\"><p>武僧能使用2奇术点进行化解投骰，这并不视作使用助力点。</p></div>"
         },
         "Wild Shape": {
-            "category": "德鲁伊"
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\">\n<p>德鲁伊获得<em>化形</em>法术(如果尚未具备)，且施放此奇术时持续时间加倍。在化形成类别为动物的生物时，德鲁伊的位阶视作高出一级。</p>\n</div>",
+            "name": "自然变身"
         },
         "Arcane Background (Bard)": {
-            "category": "吟游诗人"
+            "name": "奥法背景(吟游诗人)",
+            "category": "吟游诗人",
+            "description": "<div class=\"swpf-core\">\n<p>吟游诗人使用表演作为自身的奥法技能，并且会具备3个初始奇术以及10奇术点。</p>\n</div>"
         },
         "Dragon Disciple III": {
-            "category": "进阶专长"
+            "name": "龙脉门徒III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><p>龙脉门徒的转化已经大功告成，其生物类型永久变为龙类。</p><ul><li><span class=\"list-heading\">态：</span>每天两次，龙脉门徒能够以一个限定行动变化成与血脉对应的龙类。这会让体型变为3，力量变为d12，活力变为d10。角色具备4护甲，噬咬和爪抓攻击会造成力量+d8伤害(带有穿甲2)，而且龙翼也会成长到适应此形态的程度。倘若角色还不具备常见于对应龙类血统中的环境抗性(蓝龙是电，红龙是火等等)，则龙类形态也会赋予此好处。角色的衣物、装备与魔法物品都会融入到当前形态当中，无法为其提供增益。角色至多能维持此形态五分钟，并且可以通过承受一级疲乏来将持续时间额外延长五分钟。处于龙类形态的角色依然能说话和施法。</li></ul></div>"
         },
         "Inspire Heroics": {
-            "category": "吟游诗人"
+            "category": "吟游诗人",
+            "description": "<div class=\"swpf-core\">\n<p>吟游诗人能凭借勇猛果敢的传说故事来激励同伴。每战斗遭遇一次(GM判断)，吟游诗人能使用1枚助力点来换取5枚提振点，这是一个限定自由行动。</p>\n<p>在遭遇剩余的时间内，吟游诗人能将提振点给予除自身以外位于聪慧射程内的任何对象。这能在任何时候进行(只要吟游诗人保有意识)。对象必须马上予以使用——提振点无法保留。</p>\n<p>每个提振点都能让角色重投一次特性或是伤害投骰。即使现场存在多名吟游诗人，单次特性或是伤害投骰也只能从一枚提振点当中获益一次。如果还要进行重投则需要使用助力点或是特殊能力。</p>\n<p>提振点并不是助力点，因此无法触发使用助力点的专长(诸如热忱)，而且不能另作他用(诸如抽取新的行动卡或是化解伤害)。</p>\n</div>",
+            "name": "提振英勇"
         },
         "Shadowdancer III": {
-            "category": "进阶专长"
+            "name": "影舞者III",
+            "category": "进阶专长",
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">)：</span>影舞者能以一个限定自由行动施展下列法术之一：<em>爆发</em>、<em>幻象</em>、<em>召唤盟友</em>或<em>传送</em>(限自身)，以上这些均具有阴影特效。影舞者拥有10点可以正常充能(见169页)的专用奇术点，其能以奇术的常规消耗如同奥法技能投骰成功那般自动启动奇术，或是额外消耗2奇术点视作获得优良，特定法术的更多信息参见第5章。同时影舞者能随意使用可选用的奇术调整(如常消耗)。<em>爆发</em>仍然需要视线，但只要目标的任何部分可见并处于射程内就会自动命中。秘源奇术无法满足专长所要求的奥法背景需求。如果影舞者同时拥有奥法背景，则与之对应的专长和能力都不能用于秘源奇术(反之亦然)。</li></ul></div>"
         }
     }
 }
