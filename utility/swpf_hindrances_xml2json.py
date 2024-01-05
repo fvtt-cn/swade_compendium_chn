@@ -2,6 +2,16 @@ import json
 import sys
 from bs4 import BeautifulSoup
 
+def title_case(id_str, ignore_list):
+    id_words = id_str.split()
+
+    # 首字母大写处理
+    for i in range(len(id_words)):
+        if id_words[i] not in ignore_list:
+            id_words[i] = id_words[i].capitalize()
+
+    return ' '.join(id_words)
+
 def extract_data(html_file, json_file):
     # 读取HTML文件
     with open(html_file, 'r', encoding='utf-8') as f:
@@ -13,14 +23,14 @@ def extract_data(html_file, json_file):
         data = json.load(f)
 
     entries = data.get("entries", {})
-    for element in soup.find_all('h3'):
+    for element in soup.find_all('h4'):
         id_str = element['id']
-        id = id_str.strip().replace('-', ' ').title()
+        id = title_case(id_str.strip().replace('-', ' '), ['in','of','the', 'and'])
 
         # 查找相应的对象并处理<div>块
         target_obj = entries.get(id)
         if target_obj is not None:
-            div_element = element.find_next_sibling('div')
+            div_element = element.find_next_sibling('div', class_='swpf-core')
             if div_element is not None:
                 target_obj['description'] = str(div_element)
                 target_obj['name'] = element.text.strip()
