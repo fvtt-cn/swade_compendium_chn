@@ -123,7 +123,8 @@
         },
         "Holy/Unholy Warrior": {
             "name": "神圣/邪恶战士",
-            "category": "奇术专长"
+            "category": "奇术专长",
+            "description": "<div class=\"swpf-core\"><p>信徒在侍奉神明时总会面临千难万险，为了渡过难关，善良(或邪恶)之力会赐下奇迹以及将恩惠转化为超自然防护的能力。这位选民在进行化解投骰后消耗奇术点来让结果获得等同数量的加值，上限是+4。</p></div>"
         },
         "Humiliate": {
             "name": "羞辱",
@@ -172,7 +173,8 @@
         },
         "Improved Nerves of Steel": {
             "name": "精通钢铁神经",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\"><p>角色可以忽略2点损伤减值。</p></div>"
         },
         "Improved Trademark Weapon": {
             "name": "精通招牌武器",
@@ -236,7 +238,8 @@
         },
         "Nerves of Steel": {
             "name": "钢铁神经",
-            "category": "战斗专长"
+            "category": "战斗专长",
+            "description": "<div class=\"swpf-core\"><p>角色学会了如何在剧痛下作战，忽略1点损伤减值。</p></div>"
         },
         "New Powers": {
             "name": "新奇术",
