@@ -86,9 +86,7 @@
         "Backpack": {
             "name": "Backpack",
             "category": "Adventuring Gear",
-            "description": "<div class=\"swpf-core\"><em><strong>Notes:</strong></em> Halves the effective weight of contents.</div>",
-            "notes": "Halves the effective weight of contents."
-        },
+            "description": "<div class=\"swpf-core\"><em><strong>Notes:</strong></em> Halves the effective weight of contents.</div>"        },
         "Bag of Holding, Major": {
             "name": "Bag of Holding, Major",
             "category": "Wonderous Items",
@@ -112,9 +110,7 @@
         "Ballista": {
             "name": "Ballista",
             "category": "Siege Engines",
-            "description": "<div class=\"swpf-core\">\n<p>A ballista is a mechanical engine designed to fire a massive crossbow bolt. One person can fire the device@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{(Shooting)}. One person can reload, although it&rsquo;s faster with two people.</p>\n<p><em><strong>Notes:</strong></em> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Heavy Weapon}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} time is 5 minutes for a solo operator, or 2 minutes with a crew of 2.</p>\n</div>",
-            "notes": "Heavy Weapon, Reload time is 5 min for solo operation, or 2 minutes for a group of 2"
-        },
+            "description": "<div class=\"swpf-core\">\n<p>A ballista is a mechanical engine designed to fire a massive crossbow bolt. One person can fire the device@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{(Shooting)}. One person can reload, although it&rsquo;s faster with two people.</p>\n<p><em><strong>Notes:</strong></em> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Heavy Weapon}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} time is 5 minutes for a solo operator, or 2 minutes with a crew of 2.</p>\n</div>"        },
         "Banded Mail of Luck": {
             "name": "Banded Mail of Luck",
             "category": "Armor and Shields",
@@ -172,9 +168,7 @@
         "Bolas": {
             "name": "Bolas",
             "category": "Ranged Weapons",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A target hit with a raise is Entangled (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Bound &amp; Entangled}). Bolas are Hardness 8.</p>\n</div>",
-            "notes": "A target hit with a raise is Entangled. Hardness 8"
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A target hit with a raise is Entangled (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Bound &amp; Entangled}). Bolas are Hardness 8.</p>\n</div>"        },
         "Bolts": {
             "name": "Bolts",
             "category": "Ranged Weapons Ammunition",
@@ -249,9 +243,7 @@
         "Caltrops": {
             "name": "Caltrops",
             "category": "Adventuring Gear",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> One batch covers a Small Blast Template, two a Medium, and three a Large. Counts as Difficult Ground; anyone moving through the area must make an @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} roll or be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}. A @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Critical Failure} causes a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} to the feet (&ndash;2 Pace until healed).</p>\n</div>",
-            "notes": "1x batch covers SBT, 2x for MBT, 3x for LBT, Difficult Ground Athletics roll or Shaken, Crit Failure causes Wound."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> One batch covers a Small Blast Template, two a Medium, and three a Large. Counts as Difficult Ground; anyone moving through the area must make an @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} roll or be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}. A @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Critical Failure} causes a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} to the feet (&ndash;2 Pace until healed).</p>\n</div>"        },
         "Candle (1 hr, 2\" radius)": {
             "name": "Candle (1 hr, 2\" radius)",
             "category": "Adventuring Gear"
@@ -329,9 +321,7 @@
         "Climber's Kit (negate 2 penalty)": {
             "name": "Climber's Kit (negate 2 penalty)",
             "category": "Tools and Kits",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Rope, pitons, crampons, @Compendium[swpf-core-rules.swpf-gear.Hammer]{hammer}, and other gear used for climbing. This kit allows the user to ignore up to 2 points of penalty when climbing.</p>\n</div>",
-            "notes": "Rope, pitons, crampons, hammer, and other climbing gear. Ignore 2 points penalties when climbing."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Rope, pitons, crampons, @Compendium[swpf-core-rules.swpf-gear.Hammer]{hammer}, and other gear used for climbing. This kit allows the user to ignore up to 2 points of penalty when climbing.</p>\n</div>"        },
         "Cloak of Displacement": {
             "name": "Cloak of Displacement",
             "category": "Wonderous Items",
@@ -376,21 +366,15 @@
         "Crossbow (Heavy)": {
             "name": "Crossbow (Heavy)",
             "category": "Ranged Weapons",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Requires a windlass to load. @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} 2.</p>\n</div>",
-            "notes": "reload 2 (needs windlass)"
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Requires a windlass to load. @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} 2.</p>\n</div>"        },
         "Crossbow (Heavy, repeating)": {
             "name": "Crossbow (Heavy, repeating)",
             "category": "Ranged Weapons",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} 2 for a case of 5 bolts, or 2 for a single bolt.</p>\n</div>",
-            "notes": "reload 2"
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} 2 for a case of 5 bolts, or 2 for a single bolt.</p>\n</div>"        },
         "Crossbow (Light)": {
             "name": "Crossbow (Light)",
             "category": "Ranged Weapons",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} 1. Hand-drawn.</p>\n</div>",
-            "notes": "Reload 1. Hand drawn"
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload} 1. Hand-drawn.</p>\n</div>"        },
         "Crossbow (Light, repeating)": {
             "name": "Crossbow (Light, repeating)",
             "category": "Ranged Weapons",
@@ -423,9 +407,7 @@
         "Disguise Kit (free Performance reroll)": {
             "name": "Disguise Kit (free Performance reroll)",
             "category": "Tools and Kits",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Make up, prosthetics, and false hair. Grants a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{reroll} on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Performance} rolls while using a disguise.</p>\n</div>",
-            "notes": "Make up, prosthetics, and false hair. Grants free reroll on Performance rolls while using a disguise."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Make up, prosthetics, and false hair. Grants a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{reroll} on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Performance} rolls while using a disguise.</p>\n</div>"        },
         "Dog, guard": {
             "name": "Dog, guard",
             "category": "Animals and Tack",
@@ -463,9 +445,7 @@
         "Everburning Torch": {
             "name": "Everburning Torch",
             "category": "Wonderous Items",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A \"torch\" permanently enchanted with <em>light.</em> It does not burn and emits no heat.</p>\n</div>",
-            "notes": "A \"torch\" permanently enchanted with light. It does not burn and emits no heat."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A \"torch\" permanently enchanted with <em>light.</em> It does not burn and emits no heat.</p>\n</div>"        },
         "Eyes of the Eagle": {
             "name": "Eyes of the Eagle",
             "category": "Wonderous Items",
@@ -474,9 +454,7 @@
         "Falchion": {
             "name": "Falchion",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, may be used @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands} (if so, it causes +1 damage)</div>",
-            "notes": "+1 if used in 2 hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, may be used @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands} (if so, it causes +1 damage)</div>"        },
         "Feather Token, Anchor": {
             "name": "Feather Token, Anchor",
             "category": "Wonderous Items",
@@ -571,9 +549,7 @@
         "Flail": {
             "name": "Flail",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">Ignores shield bonus</div>",
-            "notes": "ignores shield bonus"
-        },
+            "description": "<div class=\"swpf-core\">Ignores shield bonus</div>"        },
         "Flail (Heavy)": {
             "name": "Flail (Heavy)",
             "category": "Melee Weapons",
@@ -605,9 +581,7 @@
         "Glaive": {
             "name": "Glaive",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>",
-            "notes": "two hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>"        },
         "Gloves of Storing": {
             "name": "Gloves of Storing",
             "category": "Wonderous Items",
@@ -634,9 +608,7 @@
         "Guisarme": {
             "name": "Guisarme",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>",
-            "notes": "two hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>"        },
         "Halberd": {
             "name": "Halberd",
             "category": "Melee Weapons",
@@ -694,9 +666,7 @@
         "Healer's Kit (-1 healing w/o)": {
             "name": "Healer's Kit (-1 healing w/o)",
             "category": "Tools and Kits",
-            "description": "<div class=\"swpf-core\">\n<p><strong><em>Notes:</em></strong> Rudimentary medical equipment including salves and dressings. &nbsp;(-1 healing w/o) @Compendium[swpf-core-rules.swpf-gear.Healer&rsquo;s Kit]{Healer&rsquo;s kit}.</p>\n</div>",
-            "notes": "Rudimentary medical equipment including salves and dressings. -1 Healing without it."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><strong><em>Notes:</em></strong> Rudimentary medical equipment including salves and dressings. &nbsp;(-1 healing w/o) @Compendium[swpf-core-rules.swpf-gear.Healer&rsquo;s Kit]{Healer&rsquo;s kit}.</p>\n</div>"        },
         "Heavy Breastplate": {
             "name": "Heavy Breastplate",
             "category": "Armor"
@@ -891,9 +861,7 @@
         "Katana": {
             "name": "Katana",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>",
-            "notes": "two hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>"        },
         "Lamp, Small (3\" radius)": {
             "name": "Lamp, Small (3\" radius)",
             "category": "Adventuring Gear"
@@ -901,9 +869,7 @@
         "Lance": {
             "name": "Lance",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 2 when charging, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 2, only usable in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{mounted combat}</div>",
-            "notes": "AP 2 when charging. Only usable in mounted combat"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 2 when charging, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 2, only usable in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{mounted combat}</div>"        },
         "Lantern of Revealing": {
             "name": "Lantern of Revealing",
             "category": "Wonderous Items",
@@ -969,9 +935,7 @@
         "Maul": {
             "name": "Maul",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 2, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}, +2 damage to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{break objects}</div>",
-            "notes": "Two Hands. +2 damage to break objects"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 2, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}, +2 damage to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{break objects}</div>"        },
         "Meal, common (per day)": {
             "name": "Meal, common (per day)",
             "category": "Food and Drink"
@@ -1104,9 +1068,7 @@
         "Pike": {
             "name": "Pike",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1 when set, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 2, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>",
-            "notes": "two hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1 when set, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 2, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>"        },
         "Platinum": {
             "name": "Platinum",
             "category": "Treasure"
@@ -1254,9 +1216,7 @@
         "Ram": {
             "name": "Ram",
             "category": "Siege Engines",
-            "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">A ram is a movable scaffold with a heavy wooden pole suspended by rope or chains. A crew of at least two is needed to swing the ram pole to batter another object. Up to eight people can swing the ram, with the leader making the attack roll and others providing @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Support}.</span></p>\n<p><strong><em>Notes:</em></strong> Not a ranged weapon, used to batter objects. See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Breaking Things}.</p>\n</div>",
-            "notes": "Not a ranged weapon, used to batter objects. See Breaking Things, page 130"
-        },
+            "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">A ram is a movable scaffold with a heavy wooden pole suspended by rope or chains. A crew of at least two is needed to swing the ram pole to batter another object. Up to eight people can swing the ram, with the leader making the attack roll and others providing @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Support}.</span></p>\n<p><strong><em>Notes:</em></strong> Not a ranged weapon, used to batter objects. See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Breaking Things}.</p>\n</div>"        },
         "Ranseur": {
             "name": "Ranseur",
             "category": "Melee Weapons",
@@ -1265,9 +1225,7 @@
         "Rapier": {
             "name": "Rapier",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Parry} +1</div>",
-            "notes": "Parry +1"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Parry} +1</div>"        },
         "Rhino Hide": {
             "name": "Rhino Hide",
             "category": "Armor and Shields",
@@ -1446,9 +1404,7 @@
         "Saddle, war (free reroll Riding)": {
             "name": "Saddle, war (free reroll Riding)",
             "category": "Animals and Tack",
-            "description": "<div class=\"swpf-core\">\n<p>Saddle, war (free reroll on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Riding} roll to stay in saddle)</p>\n</div>",
-            "notes": "Free reroll on Riding roll to stay in saddle"
-        },
+            "description": "<div class=\"swpf-core\">\n<p>Saddle, war (free reroll on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Riding} roll to stay in saddle)</p>\n</div>"        },
         "Saddlebags (empty)": {
             "name": "Saddlebags (empty)",
             "category": "Animals and Tack"
@@ -1456,9 +1412,7 @@
         "Sap": {
             "name": "Sap",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Nonlethal damage}</div>",
-            "notes": "Non-Lethal damage (pg 136)"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Nonlethal damage}</div>"        },
         "Scale, Merchant's": {
             "name": "Scale, Merchant's",
             "category": "Tools and Kits"
@@ -1594,9 +1548,7 @@
         "Scythe": {
             "name": "Scythe",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>",
-            "notes": "two hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>"        },
         "Sealing Wax, stick": {
             "name": "Sealing Wax, stick",
             "category": "Adventuring Gear"
@@ -1681,9 +1633,7 @@
         "Spear, Short": {
             "name": "Spear, Short",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">One-handed</div>",
-            "notes": "one-handed"
-        },
+            "description": "<div class=\"swpf-core\">One-handed</div>"        },
         "Spell Component Pouch": {
             "name": "Spell Component Pouch",
             "category": "Tools and Kits"
@@ -1699,9 +1649,7 @@
         "Spiked Chain": {
             "name": "Spiked Chain",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, ignores shield bonus, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>",
-            "notes": "two hands, ignores shield bonus"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, ignores shield bonus, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>"        },
         "Spyglass (Notice +2 at range)": {
             "name": "Spyglass (Notice +2 at range)",
             "category": "Tools and Kits"
@@ -1753,9 +1701,7 @@
         "Staff/Quarterstaff": {
             "name": "Staff/Quarterstaff",
             "category": "Staves",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Parry} +1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>",
-            "notes": "Parry +1, Two Hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Parry} +1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands}</div>"        },
         "Starknife": {
             "name": "Starknife",
             "category": "Ranged Weapons"
@@ -1768,9 +1714,7 @@
         "Sunrod": {
             "name": "Sunrod",
             "category": "Alchemical Items",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A gold-tipped iron rod that provides normal light in a 30 foot radius for six hours. It increases illumination one level for another 30' beyond that. It emits no heat, and counts as sunlight.</p>\n</div>",
-            "notes": "A gold-tipped iron rod that provides normal light in a 30 foot radius for six hours. It increases illumination one level for another 30' beyond that. It emits no heat, and counts as sunlight."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A gold-tipped iron rod that provides normal light in a 30 foot radius for six hours. It increases illumination one level for another 30' beyond that. It emits no heat, and counts as sunlight.</p>\n</div>"        },
         "Sustaining Spoon": {
             "name": "Sustaining Spoon",
             "category": "Wonderous Items",
@@ -1784,9 +1728,7 @@
         "Sword, Bastard": {
             "name": "Sword, Bastard",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, may be used @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands} (if so, it causes +1 damage)</div>",
-            "notes": "+1 if used in 2 hands"
-        },
+            "description": "<div class=\"swpf-core\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{AP} 1, may be used @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Two Hands} (if so, it causes +1 damage)</div>"        },
         "Sword, Great": {
             "name": "Sword, Great",
             "category": "Melee Weapons",
@@ -1803,9 +1745,7 @@
         "Tanglefoot Bag": {
             "name": "Tanglefoot Bag",
             "category": "Alchemical Items",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A Size 3 or smaller victim hit by this small sack of sticky materials is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted} for five rounds and must make an @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} roll or be stuck to the ground (@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Entangled}) as well.</p>\n</div>",
-            "notes": "A Size 3 or smaller victim hit by this small sack of sticky materials is Distracted for five rounds and must make an Athletics roll or be stuck to the ground (Entangled) as well."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A Size 3 or smaller victim hit by this small sack of sticky materials is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted} for five rounds and must make an @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} roll or be stuck to the ground (@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Entangled}) as well.</p>\n</div>"        },
         "Tent, canvas (2 person)": {
             "name": "Tent, canvas (2 person)",
             "category": "Adventuring Gear"
@@ -1813,21 +1753,15 @@
         "Thieves' Tools (-2 Thievery w/o)": {
             "name": "Thieves' Tools (-2 Thievery w/o)",
             "category": "Tools and Kits",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Picks and spikes, oil flasks, grease, silk rope, gloves. &ndash;2 @Compendium[swpf-core-rules.swpf-skills.Thievery]{Thievery} without them.</p>\n</div>",
-            "notes": "Picks and spikes, oil flasks, grease, silk rope, gloves, -2 Thievery without them."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> Picks and spikes, oil flasks, grease, silk rope, gloves. &ndash;2 @Compendium[swpf-core-rules.swpf-skills.Thievery]{Thievery} without them.</p>\n</div>"        },
         "Thunderstone": {
             "name": "Thunderstone",
             "category": "Alchemical Items",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> An enchanted rock that explodes with a deafening boom when struck against a hard surface. Anyone in the template must make a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll or be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} as well as deafened for one hour.</p>\n</div>",
-            "notes": "An enchanted rock that explodes with a deafening boom when struck against a hard surface. Anyone in the template must make a Vigor roll or be Shaken as well as deafened for one hour."
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> An enchanted rock that explodes with a deafening boom when struck against a hard surface. Anyone in the template must make a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll or be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} as well as deafened for one hour.</p>\n</div>"        },
         "Tindertwig": {
             "name": "Tindertwig",
             "category": "Alchemical Items",
-            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A thin stick that alights with flame when struck against a hard surface. It allows torches and other flammable substances to be lit in a single action.</p>\n</div>",
-            "notes": "A thin stick that alights with flame when struck against a hard surface. It allows torches and other flammable substances to be lit in a single action"
-        },
+            "description": "<div class=\"swpf-core\">\n<p><em><strong>Notes:</strong></em> A thin stick that alights with flame when struck against a hard surface. It allows torches and other flammable substances to be lit in a single action.</p>\n</div>"        },
         "Torch (1 hour, 4\" radius)": {
             "name": "Torch (1 hour, 4\" radius)",
             "category": "Adventuring Gear"
@@ -1999,9 +1933,7 @@
         "Whip": {
             "name": "Whip",
             "category": "Melee Weapons",
-            "description": "<div class=\"swpf-core\">\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Parry} -1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 2, With a raise on the attack roll the victim is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Entangled} instead of rolling bonus damage.</p>\n</div>",
-            "notes": "Parry -1, With a raise on the attack roll the victim is Entangled instead of rolling bonus damage."
-        },
+            "description": "<div class=\"swpf-core\">\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Parry} -1, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} 2, With a raise on the attack roll the victim is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Entangled} instead of rolling bonus damage.</p>\n</div>"        },
         "Whistle, ceramic": {
             "name": "Whistle, ceramic",
             "category": "Adventuring Gear"
