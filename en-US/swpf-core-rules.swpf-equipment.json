@@ -44,8 +44,7 @@
         "Antitoxin, Vial": {
             "name": "Antitoxin, Vial",
             "category": "Alchemical Items",
-            "description": "<div class=\"swpf-core\">\n<p><strong>Notes: </strong>Grants a +4 bonus to resist @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison} for 1 hour.</p>\n</div>",
-            "notes": "Grants a +4 bonus to resist poison for one hour."
+            "description": "<div class=\"swpf-core\">\n<p><strong>Notes: </strong>Grants a +4 bonus to resist @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{poison} for 1 hour.</p>\n</div>"
         },
         "Armor Spikes": {
             "name": "Armor Spikes",
