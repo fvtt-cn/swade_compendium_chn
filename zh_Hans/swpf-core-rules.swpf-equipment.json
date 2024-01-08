@@ -52,8 +52,7 @@
         "Antitoxin, Vial": {
             "name": "解毒剂(瓶装)",
             "category": "炼金物品",
-            "description": "<div class=\"swpf-core\">\n<p>一小时内抵抗毒素获得+4加值。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>一小时内抵抗毒素获得+4加值。</p>\n</div>"
         },
         "Armor Spikes": {
             "name": "甲刺",
