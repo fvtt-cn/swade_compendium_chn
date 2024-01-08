@@ -1292,91 +1292,91 @@
             "name": "法术反制戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>空白的法术反制戒指可以存入单个对其施放的奇术(包含调整)。若是对佩戴者施放此奇术，则这次施术失败且戒指会再次变回空白。</p>\n<p><strong>价格</strong>：4,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>破祛</em>；2,000gp。</p>\n</div>",
-            "notes": "An empty ring of counterspells can have a single power (including modifiers) cast on it. If anyone casts this power on the wearer, the casting fails and the ring is once again empty."
+            "notes": ""
         },
         "Ring of Energy Resistance": {
             "name": "能量抗性戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>这枚秘银箍环能针对单一能量类型提供环境抗性，这要在制作时予以确定(若是觅得而来则由GM判定)。</p>\n<p><strong>价格</strong>：6,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>环境防护</em>；3,000gp。</p>\n</div>",
-            "notes": "This mithral band grants environmental resistance against a single energy type."
+            "notes": ""
         },
         "Ring of Evasion": {
             "name": "反射闪避戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>这枚戒指能让穿戴者在回避投骰上免费获得一次重投。</p>\n<p><strong>价格</strong>：25,000，<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：12,500gp。</p>\n</div>",
-            "notes": "This ring grants the wearer a free reroll on Evasion rolls."
+            "notes": ""
         },
         "Ring of Feather Falling": {
             "name": "羽落戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>佩戴者坠落时高度一律视同不多于两码。</p>\n<p><strong>价格</strong>：2,200gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,100gp。</p>\n</div>",
-            "notes": "The wearer treats any fall as if it were no more than two yards in height."
+            "notes": ""
         },
         "Ring of Invisibility": {
             "name": "隐形戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>佩戴者获得高级<em>隐形</em>(延长)，其能将该戒指取下然后再戴上来重新启动此奇术。</p>\n<p><strong>价格</strong>：20,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>隐形</em>；10,000gp。</p>\n</div>",
-            "notes": "-6 to be hit and Noticed for 5 minutes. Can take the ring off and put it back on to reactivate."
+            "notes": ""
         },
         "Ring of Protection, Major": {
-            "name": "高级Ring of Protection",
+            "name": "高级防护戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Protection</h3>\n<p>This ring offers continual magical defense in the form of minor or major Protection. Note that this doesn&rsquo;t stack with the <em>Protection</em> spell.</p>\n<p><strong>Price:</strong> 4,000 gp (Minor), 10,000 gp (Major); <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>Protection;</em> 2,000 gp (Minor), 5,000 (Major).</p>\n</div>",
-            "notes": "Protection Power does not stack"
+            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>",
+            "notes": ""
         },
         "Ring of Protection, Minor": {
-            "name": "次级Ring of Protection",
+            "name": "次级防护戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Protection</h3>\n<p>This ring offers continual magical defense in the form of minor or major Protection. Note that this doesn&rsquo;t stack with the <em>Protection</em> spell.</p>\n<p><strong>Price:</strong> 4,000 gp (Minor), 10,000 gp (Major); <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>Protection;</em> 2,000 gp (Minor), 5,000 (Major).</p>\n</div>",
-            "notes": "Protection Power does not stack."
+            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>",
+            "notes": ""
         },
         "Ring of Regeneration": {
             "name": "再生戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>佩戴者在戴有此戒指时每天可以尝试进行一次自然治疗投骰。这甚至能使已经受伤或失去的肢体及器官重新长出。这枚戒指对于佩戴前就已经遭受的损伤没有效果。</p>\n<p><strong>价格</strong>：90,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：45,000gp。</p>\n</div>",
-            "notes": "When worn, the wearer may attempt a natural healing roll once per day. This can even regrow limbs or organs if they’ve been severed or lost. The ring has no effect on Wounds taken before it was worn."
+            "notes": ""
         },
         "Ring of Spell Storing": {
             "name": "储法戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>该戒指能同时只能存有对其施放的单个奇术。佩戴者能以一个行动激活存在其中的法术，获得一次以d12奥法技能进行施术的机会(如同由不羁角色予以施放)。该法术的持续时间不可以被延长或维持。</p>\n<p><strong>价格</strong>：18,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：9,000gp。</p>\n</div>",
-            "notes": "This ring can have a single power cast upon it at a time. As an action, the wearer can invoke the spell held within, allowing one chance to cast it with an arcane skill of d12 (as if cast by a Wild Card)."
+            "notes": ""
         },
         "Ring of Sustenance": {
             "name": "维生戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>这枚戒指在佩戴一整周后会为佩戴者提供维生养分，同时还能消除身体和精神的疲劳，所以佩戴者每天只需睡两小时便能获得八小时的好处。如果戒指被取下，所有者必须再佩戴一周来与其重新同步。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,250gp。</p>\n</div>",
-            "notes": "After a full week of being worn, this ring provides its wearer with life-sustaining nourishment. It also refreshes the body and mind, so its wearer need only sleep two hours per day to gain the benefit of eight hours. If the ring is removed, the owner must wear it for another week to re-attune it to himself."
+            "notes": ""
         },
         "Ring of Telekinesis": {
             "name": "念动戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>该戒指会让佩戴者获得次级<em>念动</em>。</p>\n<p><strong>价格</strong>：75,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>念动</em>；37,500gp。</p>\n</div>",
-            "notes": "Range Smarts x2 mentally move objects or creatures with a Strength d10 and moved Smarts per turn. Unwilling targets resist with opposed Spirit roll."
+            "notes": ""
         },
         "Ring of Three Wishes": {
             "name": "三愿戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>这枚戒指带有三颗红宝石，每颗红宝石都储存着一发<em>祈愿</em>。每用掉一发祈愿，对应的红宝石就会化作尘土。这枚戒指在用完所有的祈愿之后就不再带有魔力。</p>\n<p><strong>价格</strong>：120,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>祈愿</em>；97,500gp。</p>\n</div>",
-            "notes": "Three rubies hold three wishes, each destroyed when a wish is used."
+            "notes": ""
         },
         "Ring of Water Walking": {
             "name": "水上行走戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>这枚戒指通常由珊瑚或带有波浪图案装饰的泛蓝金属制成，其能让佩戴者得以走过任何液体(如同其是坚实地面一般)。</p>\n<p><strong>价格</strong>：15,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：7,500gp。</p>\n</div>",
-            "notes": "This ring allows the wearer to walk across any liquid as if it were firm ground."
+            "notes": ""
         },
         "Ring of the Ram": {
             "name": "公羊戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>佩戴者能以一个限定自由行动命令该戒指显现出一股勉强可辨的公羊状力场来攻击敌人。此力场会打击单个目标，并造成每发充能1d6伤害，每次使用上限是3发充能，射程是10英寸(20码)。任何遭到此公羊击中的对象都会被击退2d6英寸。(体型3或以上的生物免疫此后续效果。)\n</p>\n<p>每枚新造的戒指具备25发充能，这枚戒指在所有的充能消耗殆尽后就会变为非魔法物品。</p>\n<p><strong>价格</strong>：8,600gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>矢弹</em>，<em>强化特性</em>；4,300gp。</p>\n</div>",
-            "notes": "As a limited action, force strikes a single target, dealing 1d6 damage per charge, up to a maximum of 3 charges per use. This has a range of 10” (20 yards). Anyone struck by the ram is knocked back 2d6\". Size 3+ immune and 25 charges."
+            "notes": ""
         },
         "Ring of the Skillful": {
             "name": "多才多艺戒指",
             "category": "戒指",
             "description": "<div class=\"swpf-core\">\n<p>该戒指会给予单个技能+1加值，这要在制作时决定。该加值不会影响攻击投骰或用于启动奇术的投骰。</p>\n<p><strong>价格</strong>：10,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：5,000gp。</p>\n</div>",
-            "notes": "The ring grants a +1 bonus to a single skill, chosen at creation. The bonus does not affect attack rolls or rolls to activate powers."
+            "notes": ""
         },
         "Robe of Blending": {
             "name": "混迹法袍",
