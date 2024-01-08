@@ -1234,92 +1234,77 @@
         "Ring of Counterspells": {
             "name": "Ring of Counterspells",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Counterspells</h3>\n<p>An empty ring of counterspells can have a single power (including modifiers) cast on it. If anyone casts this power on the wearer, the casting fails and the ring is once again empty.</p>\n<p><strong>Price:</strong> 4,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Dispel]{Dispel};</em> 2,000 gp.</p>\n</div>",
-            "notes": "An empty ring of counterspells can have a single power (including modifiers) cast on it. If anyone casts this power on the wearer, the casting fails and the ring is once again empty."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Counterspells</h3>\n<p>An empty ring of counterspells can have a single power (including modifiers) cast on it. If anyone casts this power on the wearer, the casting fails and the ring is once again empty.</p>\n<p><strong>Price:</strong> 4,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Dispel]{Dispel};</em> 2,000 gp.</p>\n</div>"
         },
         "Ring of Energy Resistance": {
             "name": "Ring of Energy Resistance",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Energy Resistance</h3>\n<p>This mithral band grants @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} against a single energy type, determined at creation (GM&rsquo;s call if found).</p>\n<p><strong>Price:</strong> 6,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em> @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{Environmental Protection} </em>; 3,000 gp.</p>\n</div>",
-            "notes": "This mithral band grants environmental resistance against a single energy type."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Energy Resistance</h3>\n<p>This mithral band grants @Compendium[swpf-core-rules.swpf-abilities.Environmental Resistance]{environmental resistance} against a single energy type, determined at creation (GM&rsquo;s call if found).</p>\n<p><strong>Price:</strong> 6,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em> @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{Environmental Protection} </em>; 3,000 gp.</p>\n</div>"
         },
         "Ring of Evasion": {
             "name": "Ring of Evasion",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Evasion</h3>\n<p>This ring grants the wearer a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Reroll} on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Evasion} rolls.</p>\n<p><strong>Price:</strong> 25,000; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 12,500 gp.</p>\n</div>",
-            "notes": "This ring grants the wearer a free reroll on Evasion rolls."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Evasion</h3>\n<p>This ring grants the wearer a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Reroll} on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Evasion} rolls.</p>\n<p><strong>Price:</strong> 25,000; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 12,500 gp.</p>\n</div>"
         },
         "Ring of Feather Falling": {
             "name": "Ring of Feather Falling",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Feather Falling</h3>\n<p>The wearer treats any fall as if it were no more than two yards in height.</p>\n<p><strong>Price:</strong> 2,200 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 1,100 gp.</p>\n</div>",
-            "notes": "The wearer treats any fall as if it were no more than two yards in height."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Feather Falling</h3>\n<p>The wearer treats any fall as if it were no more than two yards in height.</p>\n<p><strong>Price:</strong> 2,200 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 1,100 gp.</p>\n</div>"
         },
         "Ring of Invisibility": {
             "name": "Ring of Invisibility",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">RING OF INVISIBILITY</h3>\n<p>The wearer gains major <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em> with the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Duration} modifier. The wearer can take the ring off and put it back on to reactivate the power.</p>\n<p><strong>Price:</strong> 20,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{Invisibility};</em> 10,000 gp.</p>\n</div>",
-            "notes": "-6 to be hit and Noticed for 5 minutes. Can take the ring off and put it back on to reactivate."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">RING OF INVISIBILITY</h3>\n<p>The wearer gains major <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em> with the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Duration} modifier. The wearer can take the ring off and put it back on to reactivate the power.</p>\n<p><strong>Price:</strong> 20,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{Invisibility};</em> 10,000 gp.</p>\n</div>"
         },
         "Ring of Protection, Major": {
             "name": "Ring of Protection, Major",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Protection</h3>\n<p>This ring offers continual magical defense in the form of minor or major @Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}. Note that this doesn&rsquo;t stack with the <em>Protection</em> spell.</p>\n<p><strong>Price:</strong> 4,000 gp (Minor), 10,000 gp (Major); <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Protection]{Protection};</em> 2,000 gp (Minor), 5,000 (Major).</p>\n</div>",
-            "notes": "Protection Power does not stack"
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Protection</h3>\n<p>This ring offers continual magical defense in the form of minor or major @Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}. Note that this doesn&rsquo;t stack with the <em>Protection</em> spell.</p>\n<p><strong>Price:</strong> 4,000 gp (Minor), 10,000 gp (Major); <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Protection]{Protection};</em> 2,000 gp (Minor), 5,000 (Major).</p>\n</div>"
         },
         "Ring of Protection, Minor": {
             "name": "Ring of Protection, Minor",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Protection</h3>\n<p>This ring offers continual magical defense in the form of minor or major @Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}. Note that this doesn&rsquo;t stack with the <em>Protection</em> spell.</p>\n<p><strong>Price:</strong> 4,000 gp (Minor), 10,000 gp (Major); <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Protection]{Protection};</em> 2,000 gp (Minor), 5,000 (Major).</p>\n</div>",
-            "notes": "Protection Power does not stack."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Protection</h3>\n<p>This ring offers continual magical defense in the form of minor or major @Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}. Note that this doesn&rsquo;t stack with the <em>Protection</em> spell.</p>\n<p><strong>Price:</strong> 4,000 gp (Minor), 10,000 gp (Major); <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Protection]{Protection};</em> 2,000 gp (Minor), 5,000 (Major).</p>\n</div>"
         },
         "Ring of Regeneration": {
             "name": "Ring of Regeneration",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Regeneration</h3>\n<p>When worn, the wearer may attempt a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{Natural Healing} roll once per day. This can even regrow limbs or organs if they&rsquo;ve been severed or lost.</p>\n<p>The ring has no effect on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds} taken before it was worn.</p>\n<p><strong>Price:</strong> 90,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 45,000 gp.</p>\n</div>",
-            "notes": "When worn, the wearer may attempt a natural healing roll once per day. This can even regrow limbs or organs if they’ve been severed or lost. The ring has no effect on Wounds taken before it was worn."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Regeneration</h3>\n<p>When worn, the wearer may attempt a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{Natural Healing} roll once per day. This can even regrow limbs or organs if they&rsquo;ve been severed or lost.</p>\n<p>The ring has no effect on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds} taken before it was worn.</p>\n<p><strong>Price:</strong> 90,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 45,000 gp.</p>\n</div>"
         },
         "Ring of Spell Storing": {
             "name": "Ring of Spell Storing",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Spell Storing</h3>\n<p>This ring can have a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powersummari00]{single power} cast upon it at a time. As an action, the wearer can invoke the spell held within, allowing one chance to cast it with an arcane skill of d12 (as if cast by a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Wild Card}). The spell&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Duration} cannot be extended or maintained.</p>\n<p><strong>Price:</strong> 18,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 9,000 gp.</p>\n</div>",
-            "notes": "This ring can have a single power cast upon it at a time. As an action, the wearer can invoke the spell held within, allowing one chance to cast it with an arcane skill of d12 (as if cast by a Wild Card)."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Spell Storing</h3>\n<p>This ring can have a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powersummari00]{single power} cast upon it at a time. As an action, the wearer can invoke the spell held within, allowing one chance to cast it with an arcane skill of d12 (as if cast by a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Wild Card}). The spell&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Duration} cannot be extended or maintained.</p>\n<p><strong>Price:</strong> 18,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 9,000 gp.</p>\n</div>"
         },
         "Ring of Sustenance": {
             "name": "Ring of Sustenance",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Sustenance</h3>\n<p>After a full week of being worn, this ring provides its wearer with life-sustaining @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{nourishment}. It also refreshes the body and mind, so its wearer need only @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{sleep} two hours per day to gain the benefit of eight hours.</p>\n<p>If the ring is removed, the owner must wear it for another week to re-attune it to himself.</p>\n<p><strong>Price:</strong> 2,500 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 1,250 gp.</p>\n</div>",
-            "notes": "After a full week of being worn, this ring provides its wearer with life-sustaining nourishment. It also refreshes the body and mind, so its wearer need only sleep two hours per day to gain the benefit of eight hours. If the ring is removed, the owner must wear it for another week to re-attune it to himself."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Sustenance</h3>\n<p>After a full week of being worn, this ring provides its wearer with life-sustaining @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{nourishment}. It also refreshes the body and mind, so its wearer need only @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{sleep} two hours per day to gain the benefit of eight hours.</p>\n<p>If the ring is removed, the owner must wear it for another week to re-attune it to himself.</p>\n<p><strong>Price:</strong> 2,500 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 1,250 gp.</p>\n</div>"
         },
         "Ring of Telekinesis": {
             "name": "Ring of Telekinesis",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Telekinesis</h3>\n<p>This ring grants the wearer minor <em>@Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}</em>.</p>\n<p><strong>Price:</strong> 75,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Telekinesis]{Telekinesis};</em> 37,500 gp.</p>\n</div>",
-            "notes": "Range Smarts x2 mentally move objects or creatures with a Strength d10 and moved Smarts per turn. Unwilling targets resist with opposed Spirit roll."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Telekinesis</h3>\n<p>This ring grants the wearer minor <em>@Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}</em>.</p>\n<p><strong>Price:</strong> 75,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Telekinesis]{Telekinesis};</em> 37,500 gp.</p>\n</div>"
         },
         "Ring of Three Wishes": {
             "name": "Ring of Three Wishes",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Three Wishes</h3>\n<p>This ring is set with three rubies. Each ruby stores a <em>@Compendium[swpf-core-rules.swpf-powers.Wish]{Wish}</em>. When a wish is used, that ruby crumbles to dust. When all wishes are used, the ring is no longer magical.</p>\n<p><strong>Price:</strong> 120,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Wish]{Wish};</em> 97,500 gp.</p>\n</div>",
-            "notes": "Three rubies hold three wishes, each destroyed when a wish is used."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Three Wishes</h3>\n<p>This ring is set with three rubies. Each ruby stores a <em>@Compendium[swpf-core-rules.swpf-powers.Wish]{Wish}</em>. When a wish is used, that ruby crumbles to dust. When all wishes are used, the ring is no longer magical.</p>\n<p><strong>Price:</strong> 120,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Wish]{Wish};</em> 97,500 gp.</p>\n</div>"
         },
         "Ring of Water Walking": {
             "name": "Ring of Water Walking",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Water Walking</h3>\n<p>Often made of coral or bluish metal decorated with wave motifs, this ring allows the wearer to walk across any liquid as if it were firm ground.</p>\n<p><strong>Price:</strong> 15,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 7,500 gp.</p>\n</div>",
-            "notes": "This ring allows the wearer to walk across any liquid as if it were firm ground."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of Water Walking</h3>\n<p>Often made of coral or bluish metal decorated with wave motifs, this ring allows the wearer to walk across any liquid as if it were firm ground.</p>\n<p><strong>Price:</strong> 15,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 7,500 gp.</p>\n</div>"
         },
         "Ring of the Ram": {
             "name": "Ring of the Ram",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of the Ram</h3>\n<p>As a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{limited actions}, the wearer can command the ring to manifest a barely discernible ram-like force to batter foes. The force strikes a single target, dealing 1d6 damage per charge, up to a maximum of 3 charges per use. This has a range of 10&rdquo; (20 yards). Anyone struck by the ram is knocked back 2d6&rdquo; (creatures of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size} 3 or more are immune to the latter effect).</p>\n<p>A newly created ring has 25 charges. When all the charges are expended, the ring becomes a nonmagical item.</p>\n<p><strong>Price:</strong> 8,600 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em> @Compendium[swpf-core-rules.swpf-powers.Bolt]{Bolt}, @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost Trait} </em> ; 4,300 gp.</p>\n</div>",
-            "notes": "As a limited action, force strikes a single target, dealing 1d6 damage per charge, up to a maximum of 3 charges per use. This has a range of 10” (20 yards). Anyone struck by the ram is knocked back 2d6\". Size 3+ immune and 25 charges."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of the Ram</h3>\n<p>As a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{limited actions}, the wearer can command the ring to manifest a barely discernible ram-like force to batter foes. The force strikes a single target, dealing 1d6 damage per charge, up to a maximum of 3 charges per use. This has a range of 10&rdquo; (20 yards). Anyone struck by the ram is knocked back 2d6&rdquo; (creatures of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size} 3 or more are immune to the latter effect).</p>\n<p>A newly created ring has 25 charges. When all the charges are expended, the ring becomes a nonmagical item.</p>\n<p><strong>Price:</strong> 8,600 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> <em> @Compendium[swpf-core-rules.swpf-powers.Bolt]{Bolt}, @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost Trait} </em> ; 4,300 gp.</p>\n</div>"
         },
         "Ring of the Skillful": {
             "name": "Ring of the Skillful",
             "category": "Rings",
-            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of the Skillful</h3>\n<p>The ring grants a +1 bonus to a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{single skill}, chosen at creation. The bonus does not affect attack rolls or rolls to activate powers.</p>\n<p><strong>Price:</strong> 10,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 5,000 gp.</p>\n</div>",
-            "notes": "The ring grants a +1 bonus to a single skill, chosen at creation. The bonus does not affect attack rolls or rolls to activate powers."
+            "description": "<div class=\"swpf-core\">\n<h3 class=\"item\">Ring of the Skillful</h3>\n<p>The ring grants a +1 bonus to a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{single skill}, chosen at creation. The bonus does not affect attack rolls or rolls to activate powers.</p>\n<p><strong>Price:</strong> 10,000 gp; <strong>Weight:</strong> &mdash;.</p>\n<p><strong>Craft:</strong> 5,000 gp.</p>\n</div>"
         },
         "Robe of Blending": {
             "name": "Robe of Blending",
