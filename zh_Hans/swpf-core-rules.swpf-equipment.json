@@ -44,7 +44,6 @@
             "name": "次级天生防护护符",
             "category": "奇物",
             "description": "<div class=\"swpf-core\"><p>这枚通常由骨头或兽鳞打造的护符会使佩戴者的肉体更为坚韧。佩戴者的化解投骰会获得加值，该加值为+1(次级)或+2(高级)。</p><p><strong>价格</strong>：18,000gp(次级)、32,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>强化特性</em>；9,000gp(次级)、18,000gp(高级)。</p></div>"
-
         },
         "Amulet of the Planes": {
             "name": "位面护符",
@@ -491,32 +490,32 @@
             "notes": ""
         },
         "Feather Token, Anchor": {
-            "name" :"羽符(锚)",
+            "name": "羽符(锚)",
             "category": "奇物",
             "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>锚</strong>：制造出一个锚，这可以将船只定在水中(即使是在湍急的河流中也是如此)，至多能使其在一天内无法移动。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
         },
         "Feather Token, Bird": {
-            "name" :"羽符(鸟)",
+            "name": "羽符(鸟)",
             "category": "奇物",
             "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>鸟</strong>：制造出一只鸟，这能将一端简短的手写消息准确无误地送至指定目标。这枚羽符会生效到直至送达信息为止。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
         },
         "Feather Token, Fan": {
-            "name" :"羽符(扇)",
+            "name": "羽符(扇)",
             "category": "奇物",
             "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>扇</strong>：形成一把巨大的扇子，其产生的微风力度足以推动船只(大约25英里/小时)。这股风不会与现有风速累计。然而此羽符可以用于削弱现有的风力，创造出一片相对平静或轻微的风区(但风暴中的波浪大小不受影响)。这把扇子至多可以使用八小时，而且在陆地上不起作用。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
         },
         "Feather Token, Swan Boat": {
-            "name" :"羽符(天鹅船)",
+            "name": "羽符(天鹅船)",
             "category": "奇物",
             "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>天鹅船</strong>：形成一条天鹅状的船，这能在水上以12移速移动，其能运载八匹马及装备，32个人类大小的角色，或是任何等值的组合。船能维持一天。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
         },
         "Feather Token, Tree": {
-            "name" :"羽符(树)",
+            "name": "羽符(树)",
             "category": "奇物",
             "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>树</strong>：凭空长出一棵大橡树(树干直径5英尺，60英尺高，树冠直径40英尺)，这是一个瞬时效果。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
         },
         "Feather Token, Whip": {
-            "name" :"羽符(鞭)",
+            "name": "羽符(鞭)",
             "category": "奇物",
             "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>鞭</strong>：这会转变成一条大皮鞭！其能如同舞空武器(见211页)般自主攻击。具有d8格斗，并造成2d4非致命伤害。这条鞭子至多持续一小时。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
         },
@@ -1155,114 +1154,114 @@
         "Potion of Damage Field w/Damage": {
             "name": "Damage Field w/Damage药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Damage Field]{Damage Field}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Damage Field]{Damage Field}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "At the end of your turn, all adjacent beings automatically take 2d6 damage for 5 rounds."
         },
         "Potion of Major Healing": {
             "name": "高级Healing药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Restores 2 Wounds less than an hour old."
         },
         "Potion of Major Protection": {
             "name": "高级Protection药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Grants 2 points of Toughness for 5 rounds."
         },
         "Potion of Major Relief and Restoration": {
             "name": "高级Relief and Restoration药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Relief]{Relief}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Relief]{Relief}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Removes two of Shaken, Distracted, or Vulnerable and two die types from energy draining effects."
         },
         "Potion of Major Wall Walker": {
             "name": "高级Wall Walker药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{Wall Walker}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Wall Walker]{Wall Walker}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Walk on vertical or horizontal surfaces at full Pace and can even run for 5 rounds."
         },
         "Potion of Minor Arcane Protection": {
             "name": "次级Arcane Protection药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Hostile powers suffer a -2 penalty to affect this character and hostile power damage for 5 rounds."
         },
         "Potion of Minor Boost Trait": {
             "name": "次级Boost Trait药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost/Lower Trait}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost/Lower Trait}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Increase the selected Trait one die for 5 rounds."
         },
         "Potion of Minor Darksight": {
             "name": "次级Darksight药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Darksight]{Darksight}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Darksight]{Darksight}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Ignore up to 4 points of Illumination penalties for one hour."
         },
         "Potion of Minor Empathy": {
             "name": "次级Empathy药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Empathy]{Empathy}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Empathy]{Empathy}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Gain +1 bonus to Intimidation, Persuasion, Performance, Taunt, and Riding rolls for 5 rounds."
         },
         "Potion of Minor Environmental Protection": {
             "name": "次级Environmental Protection药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{Environmental Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{Environmental Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "You can breathe, speak, survive fatal effects, and move at your normal Pace in fatal environments for one hour."
         },
         "Potion of Minor Fly": {
             "name": "次级Fly药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Fly]{Fly}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Fly]{Fly}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "You can soar at Pace 12 for 5 rounds."
         },
         "Potion of Minor Growth": {
             "name": "次级Growth药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{Growth/Shrink}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{Growth/Shrink}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Gain Size +2 (two steps increase to Strength and 2 points of Toughness) for 5 rounds."
         },
         "Potion of Minor Healing": {
             "name": "次级Healing药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>"
         },
         "Potion of Minor Healing and Neutralize Poison or Disease": {
             "name": "次级Healing and Neutralize Poison or Disease药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Remove one Wound and negate any poison or disease less than an hour old."
         },
         "Potion of Minor Intangibility": {
             "name": "次级Intangibility药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Intangibility]{Intangibility}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Intangibility]{Intangibility}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Unable to affect the physical world and it cannot affect you. Can travel through walls. Still affected by supernatural and magic attacks. Lasts 5 rounds."
         },
         "Potion of Minor Protection": {
             "name": "次级Protection药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Grants 2 points of Armor for 5 rounds."
         },
         "Potion of Minor Relief and Restoration": {
             "name": "次级Relief and Restoration药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Relief]{Relief}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Relief]{Relief}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Removes one of Shaken, Distracted, or Vulnerable and one die types from energy draining effects."
         },
         "Potion of Minor Speed": {
             "name": "次级Speed药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Doubles movement (basic Pace and running) for 5 rounds."
         },
         "Potion of Minor Speed and Quickness": {
             "name": "次级Speed and Quickness药水",
             "category": "药水",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Doubles movement (basic Pace and running) and total MAP each turn is reduced by 2 for 5 rounds."
         },
         "Pouch, belt": {
@@ -1500,19 +1499,19 @@
         "Scroll of Blast": {
             "name": "Blast卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "2d6 damage to MBT, 3d6 on a raise."
         },
         "Scroll of Blind": {
             "name": "Blind卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Blind]{Blind}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Inflicts –2/–4 penalty to all actions on victims, use Vigor to shake off as a free action at the end of each turn."
         },
         "Scroll of Bolt": {
             "name": "Bolt卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Bolt]{Bolt}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Bolt]{Bolt}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "2d6 ranged attack, 3d6 with a raise at Smarts x2 range"
         },
         "Scroll of Bolt, AP": {
@@ -1524,91 +1523,91 @@
         "Scroll of Deflection": {
             "name": "Deflection卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Deflection]{Deflection}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Deflection]{Deflection}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Foes must subtract 2 from either melee or ranged attacks (caster’s choice). With a raise, the penalty applies to both. Lasts 5 rounds."
         },
         "Scroll of Detect Arcana": {
             "name": "Detect Arcana卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{Detect/Conceal Arcana}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{Detect/Conceal Arcana}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "See and detect all supernatural persons, objects, or effects in sight for five rounds. This includes invisible foes (offset 4 penalties), enchantments on people or items, and so on. With a raise, knows the type of enchantment as well."
         },
         "Scroll of Dispel": {
             "name": "Dispel卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Dispel]{Dispel}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Dispel]{Dispel}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Opposed roll of arcane skills. If used to counter, be on Hold and interrupt foe. No effect on permanent enchantments or natural abilities."
         },
         "Scroll of Fear": {
             "name": "Fear卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Fear]{Fear}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Fear]{Fear}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Targets in LBT makes a Fear check. Extras who fail are Panicked and Wild Cards roll on the Fear Table. With a raise, the Fear roll is at −2 and Wild Cards add +2 to Fear Table results."
         },
         "Scroll of Growth": {
             "name": "Growth卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{Growth/Shrink}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{Growth/Shrink}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Increase the recipient’s Size by 2, Strength by 2 dice, and 2 points of Toughness."
         },
         "Scroll of Healing": {
             "name": "Healing卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Success removes one Wound, and a raise removes two Wounds less than an hour old."
         },
         "Scroll of Illusion": {
             "name": "Illusion卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Illusion]{Illusion}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Illusion]{Illusion}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "MBT Illusion can be used to create a visual/audio scene of most anything the caster can imagine, intangible, and incapable of affecting the real world. Those who contact an illusion or doubt it’s real make a Smarts roll as a free action (at −2 if the power was activated with a raise). Lasts 5 rounds."
         },
         "Scroll of Invisibility": {
             "name": "Invisibility卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Invisibility]{Invisibility}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Invisibility]{Invisibility}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "For 5 rounds, sight actions and Notice against you are made at −4, or −6 with a raise."
         },
         "Scroll of Lower Trait": {
             "name": "Lower Trait卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost/Lower Trait}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost/Lower Trait}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Lower a Trait one die or two with a raise, opposed by Spirit as a free action at the end of the target's turn."
         },
         "Scroll of Sloth": {
             "name": "Sloth卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Halves targets movement (makes it an action with raise), Spirit roll to resist at end of each turn"
         },
         "Scroll of Slumber": {
             "name": "Slumber卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Slumber]{Slumber}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Slumber]{Slumber}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Spirit roll (at −2 if caster got a raise) or fall asleep for one hour. Very loud noises or physical interaction, grant another Spirit roll."
         },
         "Scroll of Smite": {
             "name": "Smite卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Smite]{Smite}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Smite]{Smite}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Cast on weapon or full quiver. Weapon's damage increased by +2 (+4 on raise) for 5 rounds."
         },
         "Scroll of Stun": {
             "name": "Stun卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Stun]{Stun}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Stun]{Stun}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Victims in MBT must make a Vigor roll (−2 with a raise) or be Stunned."
         },
         "Scroll of Teleport": {
             "name": "Teleport卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Teleport]{Teleport}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Teleport]{Teleport}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Disappear and instantly reappear up to 12″ (24 yards) distant, or double that with a raise."
         },
         "Scroll of Zombie": {
             "name": "Zombie卷轴",
             "category": "卷轴",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Zombie]{Zombie}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Zombie]{Zombie}</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "Animates a corpse with Smarts, Spirit, and related skills at d4, one of them d6 with a raise."
         },
         "Scythe": {
@@ -1886,123 +1885,123 @@
             "category": "冒险工具"
         },
         "Wand of Banish": {
-            "name": "Banish魔杖",
+            "name": "放逐魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Banish]{Banish}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.放逐]{放逐}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Opposed arcane roll vs Spirit. Success Shakens and each raise causes a Wound. Incapacitated returns to native dimension."
         },
         "Wand of Blast": {
-            "name": "Blast魔杖",
+            "name": "爆发魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.爆发]{爆发}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. 3d6 damage to MBT, 4d6 on a raise."
         },
         "Wand of Bolt": {
-            "name": "Bolt魔杖",
+            "name": "矢弹魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Bolt]{Bolt}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.矢弹]{矢弹}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. 2d6 AP 2 ranged attack, 3d6 with a raise."
         },
         "Wand of Boost Trait": {
-            "name": "Boost Trait魔杖",
+            "name": "强化特性魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost/Lower Trait}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.强化/削弱特性]{强化/削弱特性}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Raise the specified Trait one die or two with a raise."
         },
         "Wand of Deflection": {
-            "name": "Deflection魔杖",
+            "name": "偏斜魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Deflection]{Deflection}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.偏斜]{偏斜}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. For 5 rounds, foes subtract 2 from either melee or ranged attacks (caster’s choice). With a raise, the penalty applies to both."
         },
         "Wand of Detect Arcana": {
-            "name": "Detect Arcana魔杖",
+            "name": "侦测奥法魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{Detect/Conceal Arcana}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.侦测/隐藏奥法]{侦测/隐藏奥法}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. See and detect all supernatural persons, objects, or effects in sight for five rounds. This includes invisible foes (offset 4 penalties), enchantments on people or items, and so on. With a raise, knows the type of enchantment as well."
         },
         "Wand of Disguise": {
-            "name": "Disguise魔杖",
+            "name": "易容魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Disguise]{Disguise}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.易容]{易容}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Appears as another person of the same Size and shape, including clothing. It does not confer any abilities. If questioned Notice at -2 (-4 with a raise). Lasts 10 minutes."
         },
         "Wand of Dispel": {
-            "name": "Dispel魔杖",
+            "name": "破袪魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Dispel]{Dispel}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.破袪]{破袪}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Opposed roll of arcane skills. If used to counter, be on Hold and interrupt foe. No effect on permanent enchantments or natural abilities."
         },
         "Wand of Entangle": {
-            "name": "Entangle魔杖",
+            "name": "纠缠魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Entangle]{Entangle}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.纠缠]{纠缠}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Targets in MBT are Entangled. With a raise, they're Bound. Hardness 8"
         },
         "Wand of Fly": {
-            "name": "Fly魔杖",
+            "name": "飞行魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Fly]{Fly}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.飞行]{飞行}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Character soars at Pace 12, or 24 with a raise (may not run) for 5 rounds."
         },
         "Wand of Havoc": {
-            "name": "Havoc魔杖",
+            "name": "劫动魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Havoc]{Havoc}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Havoc]{Havoc}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. MBT within Range, or Cone from caster and is Distracted and makes Strength roll (-2 on raise and -2 if airborne) or hurled 2d6\" directly away."
         },
         "Wand of Healing": {
-            "name": "Healing魔杖",
+            "name": "治疗魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Healing]{Healing}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Removes one Wound, raise removes two within first hour. May be cast additional times to remove additional Wounds."
         },
         "Wand of Invisibility": {
-            "name": "Invisibility魔杖",
+            "name": "隐形魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Invisibility]{Invisibility}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Invisibility]{Invisibility}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. For 5 rounds, sight actions and Notice against you are made at −4, or −6 with a raise."
         },
         "Wand of Lower Trait": {
-            "name": "Lower Trait魔杖",
+            "name": "削弱特性魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost/Lower Trait}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost/Lower Trait}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Lower the specified Trait one die or two with a raise, opposed by Spirit -2 as a free action at the end of the target's turn."
         },
         "Wand of Protection": {
-            "name": "Protection魔杖",
+            "name": "防护魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Protection]{Protection}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Gain 2 points of Armor, with a raise gain 2 points of Toughness instead."
         },
         "Wand of Quickness": {
-            "name": "Quickness魔杖",
+            "name": "迅疾魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Sloth/Speed}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Speed doubles movement (raise ignores running penalty) and -2 penalties to MAP."
         },
         "Wand of Shrink": {
-            "name": "Shrink魔杖",
+            "name": "缩小魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{Growth/Shrink}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{Growth/Shrink}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Reduce Size, Strength, and Toughness by 1 for 5 rounds. Opposed by Spirit if unwilling."
         },
         "Wand of Slumber": {
-            "name": "Slumber魔杖",
+            "name": "沉眠魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Slumber]{Slumber}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Slumber]{Slumber}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Spirit roll (at −2 if caster got a raise) or fall asleep for one hour. Very loud noises or physical interaction, grant another Spirit roll."
         },
         "Wand of Speak Language": {
-            "name": "Speak Language魔杖",
+            "name": "通晓语言魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Speak Language]{Speak Language}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Speak Language]{Speak Language}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Speak, read, and write a sapient language for 10 minutes. Raise allows use of slangs and dialects as well."
         },
         "Wand of Wall Walker": {
-            "name": "Wall Walker魔杖",
+            "name": "走壁魔杖",
             "category": "魔杖",
-            "description": "<div class=\"swpf-core\">\n<p>See power: @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{Wall Walker}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：@Compendium[swpf-core-rules.swpf-powers.Wall Walker]{Wall Walker}</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
             "notes": "25 charges. Moves half Pace on vertical or horizontal surfaces, full Pace and even run with a raise for 5 rounds."
         },
         "Warhammer": {
