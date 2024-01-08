@@ -18,8 +18,7 @@
         "Adventurer's Kit": {
             "name": "冒险者套件",
             "category": "工具与套件",
-            "description": "<div class=\"swpf-core\">\n<p>背包、铺盖卷、蜡烛、粉笔、额外衣物、燧石与钢片、爪钩、牛眼提灯、小镜子、麻绳、油、铲子、肥皂、火炬x3、水袋、磨刀石、1周份食物。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>背包、铺盖卷、蜡烛、粉笔、额外衣物、燧石与钢片、爪钩、牛眼提灯、小镜子、麻绳、油、铲子、肥皂、火炬x3、水袋、磨刀石、1周份食物。</p>\n</div>"
         },
         "Alchemists Fire": {
             "name": "炽火胶",
