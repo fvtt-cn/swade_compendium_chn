@@ -1,15 +1,824 @@
 {
     "label": "族裔与能力",
     "mapping": {
-        "category": "system.category",
-        "description": "system.description"
+        "description": "system.description",
+        "category": "system.category"
     },
     "entries": {
-        "Luck": {
-            "name": "幸运"
+        "Aberrant (Bloodline)": {
+            "name": "异怪(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>术士的血脉遭到了奇诡异形残余的玷污。术士的奇怪形态会让坚韧+1，施放<em>矢弹</em>、<em>爆发</em>和<em>爆裂</em>法术时必须带有持续伤害奇术调整(170页)，但术士额外消耗的奇术点从2点变成1点。然后，术士的增长肢体会让触及+1，除了能在远处攻击之外，还能用于决定法术的射程或源点。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>此角色永远不会遭到突袭，而且除非遭到束缚，否则还会免疫奇袭。术士的怪异形态会让坚韧再+1。</li></ul></div>"
+        },
+        "Aberration (Type)": {
+            "name": "异怪(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>R解剖结构奇异，能力古怪或是具有异型特质的稀有生物。</p>\n</div>"
+        },
+        "Abjuration (Favored)": {
+            "name": "防护系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>防护系</strong>：用于避免损害或是压制其他法术的防护性魔法学派。<em>奥法防护</em>、<em>放逐</em>、<em>破袪</em>、<em>偏斜</em>、<em>环境防护</em>、<em>防护</em>、<em>庇护</em>。</em></p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Abjuration (Opposition)": {
+            "name": "防护系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>防护系</strong>：用于避免损害或是压制其他法术的防护性魔法学派。<em>奥法防护</em>、<em>放逐</em>、<em>破袪</em>、<em>偏斜</em>、<em>环境防护</em>、<em>防护</em>、<em>庇护</em>。</em></p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Abyssal (Bloodline)": {
+            "name": "深渊(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>某位恶魔在数代以前污染了角色的传承。角色获得电环境抗性，+1坚韧，以及能造成力量+d4伤害的利爪。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>深渊可以召来恶魔予以协助。召唤盟友的消耗减少2(下限为1)，且召唤出的实体会造成恐惧。术士还会获得寒冷和火焰环境抗性。</li></ul></div>"
+        },
+        "Adaptability": {
+            "name": "适应",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">适应：</span>人类起始免费获得一项专长(必须如常满足对应的需求)，同时任一属性从d4变成d6，这<em>不会</em>提升对应属性的上限。</li>\n</ul>\n</div>"
+        },
+        "Agile": {
+            "name": "机敏",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">机敏：</span>精灵优雅而灵巧，起始的灵巧从d4变成d6，灵巧上限也因此提升到d12+1。</li>\n</ul>\n</div>"
+        },
+        "All-Around Vision": {
+            "name": "全域视野",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\"><p>某些生物具备看向所有方向的能力(通常是因为独特的身体特征所致)，具备全域视野的生物忽略一点围攻加值，抵抗潜行攻击的察觉投骰+2，并且不能成为偷袭的目标。</p></div>"
         },
         "Ancestry": {
-            "name": "族裔"
+            "name": "族裔",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>大部分类人生物都具备在同一族裔中颇为普遍的特殊能力，专长和负赘。举例而言，地精具备黑暗视觉，体型-1和贪婪(主要)。其他非类人生物和生物类别在同一分类下的不同变体当中也能具有通用的特征组合——诸如亚空天族，恶魔和魔鬼等等。这些特征不会单独列出，而是在生物数值的某一条目下展示，诸如\"族裔(地精)\"这样。\n</p>\n</div>"
+        },
+        "Animal (Type)": {
+            "name": "动物(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>任何没有魔法能力、内生语言或文化的活体脊椎生物，聪慧也是相对动物世界而言的，并会以(A)的标注提醒这属于\"动物的智力\"。</p>\n</div>"
+        },
+        "Aquatic": {
+            "name": "水栖",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>生物栖息在水中，其天生擅长游泳，而且不会溺水。该生物在水中的移速会在水栖能力后阐明。</p>\n</div>"
+        },
+        "Arcane (Bloodline)": {
+            "name": "奥秘(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>术士与某一生物或物件建立了魔法联结，使用68页法师的<strong>奥法联结</strong>规则。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士与魔法的联系无比强烈，在任何施法投骰失败时免费获得一次重投。</li></ul></div>"
+        },
+        "Arcane Background (Cleric)": {
+            "name": "奥法背景(牧师)",
+            "category": "牧师",
+            "description": "<div class=\"swpf-core\"><li><span class=\"list-heading\">奥法背景(牧师)</span>牧师们使用信仰作为自身的奥法技能。选取该专长的角色可获得10奇术点，且必须从50-51页的列表中选择一项所侍奉神祇的领域。所有牧师初始都会具备<em>治疗</em>奇术，以及另外两个来自可选奇术中的奇术。</li>\n<li><span class=\"list-heading\">可选奇术：</span>牧师可以选用下列奇术以及所选领域中列出的奇术：<em>放逐</em>、<em>强化/削弱特性</em>、<em>创造物品</em>、<em>暗视</em>、<em>破袪</em>，<em>预言</em>、<em>共感</em>、<em>治疗</em>、<em>光亮/黑暗</em>、<em>缓和</em>、<em>复生</em>、<em>庇护</em>、<em>沉眠</em>、<em>痛击</em>、<em>发声/沉默</em>。</li>\n</div>"
+        },
+        "Arcane Bond": {
+            "name": "奥法联结",
+            "category": "法师",
+            "description": "<div class=\"swpf-core\"><p>法师沉浸在诡异知识和奥术理论的研究当中，并在这漫长的时光中会与某一可靠的物件或友好的生物(“魔宠”)建立联结，为法师在以下选择其一：</p><ul><li><span class=\"list-heading\">联结物件：</span>这名施法者具备一件护符、戒指、法杖、魔杖或武器，当将其佩戴或握持在手时，所有的施法结果+1。如果该物件遗失或遭到摧毁，魔法师能以一件价值至少500GP的新物件予以代替。</li><li><span class=\"list-heading\">魔宠：</span>魔法师具有一只魔法宠物。</li></ul><h3>魔宠</h3><div class=\"swpf-core\"><p>“魔宠”是小型动物(体型-2或-3)，这些忠诚的宠物或魔法伙伴会效忠于特定的施法者。</p><p>魔宠忠于主人，但并非奴隶。它们除了非常聪明外与种群中的其他成员并无不同，而且偶尔会因为自身与生俱来的本能而三心两意。举例而言，猫可能会因为追逐老鼠或打盹而中断自己的任务，而鹰则几乎总会因为突然的动静而有所分心。</p><p>魔宠是能承受多个损伤的不羁角色，而且能在特性投骰中使用不羁骰。它们不会获得助力点，但魔法师能将自己的助力点用在其身上。</p><p>魔宠能明白主人的言语，反之亦然(其他人只会听见生物的自然声响)，但内容限定为其种群成员能明白的范畴。</p><p>魔宠自身具备5奇术点，虽然它不能施法，但魔法师能将这些奇术点当作自己的那般加以抽用。这些奇术点以与法师相同的速率单独充能。</p><p>魔宠与法师之间的联结使其免疫<em>野兽同盟</em>奇术。</p><p>如果魔宠死亡，角色会自动陷入震慑(无论距离多远)，他能在10天后召唤另一只魔宠，若是愿意则还能更改类别。</p><p>魔宠不会升级，而是在主人的每个位阶(包括入门)及传奇后的每4次升级获得下列优势之一：</p><ul><li>主人可以使用将魔宠的感官当成自己的那般加以使用，最大距离为10英里。这样做时他会陷入分神和脆弱。</li><li>法师能将魔宠的某一特性骰子类型提升一级(每项特性至多一次)。</li><li>魔宠获得一项专长，这对魔宠的物种而言必须要合理(GM裁定)，同时须如常满足需求。</li></ul></div>\n</div>"
+        },
+        "Arcane School": {
+            "name": "奥法学派",
+            "category": "法师",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">学派：</span>法师的钻研会通往两条道路之一：涉足各个学派的“通才法师”，或者以其他学派为代价专攻一项的“专精法师”。专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</div>"
+        },
+        "Armor": {
+            "name": "护甲",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>生物的护甲会算入总坚韧当中，并在旁边以括号标出。厚实的外皮通常会提供2点护甲，诸如剑龙这类的生物则通常具有4点或以上的护甲。超自然生物甚至还会有更高的护甲值。举例而言，活化雕像可能有着8点或以上的护甲。</p>\n</div>"
+        },
+        "Armor Interference (Bard)": {
+            "name": "护甲干扰(吟游诗人)",
+            "category": "吟游诗人",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲干扰(轻型)：</span>笨重的护甲会影响吟游诗人的优雅和灵活性，在使用中型或重型护甲或是盾牌时的表演投骰、灵巧以及基于灵巧的技能投骰-4。</div>"
+        },
+        "Armor Interference (Druid)": {
+            "name": "护甲干扰(德鲁伊)",
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲干扰(轻型)：</span>笨重的护甲会干扰德鲁伊感受自然以及与之交流的能力，在使用中型、重型护甲或盾牌时的信仰投骰、灵巧以及基于灵巧的技能投骰均-4。德鲁伊完全无法使用金属护甲。</div>"
+        },
+        "Armor Interference (Wizard)": {
+            "name": "护甲干扰(法师)",
+            "category": "法师",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲干扰(任意)：</span>法师和术士一样必须精确地比划手势，在使用轻型、中型或重型护甲或时盾牌时的施法投骰、灵巧与基于灵巧的技能投骰-4。</div>"
+        },
+        "Armor Restriction (Barbarian)": {
+            "name": "护甲限制(野蛮人)",
+            "category": "野蛮人",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲限制(中型)：</span>野蛮人的战斗方式极其需要自如移动，在穿着重型护甲或是使用重型盾牌时的灵巧投骰以及基于灵巧的技能投骰-4。</div>"
+        },
+        "Armor Restriction (Monk)": {
+            "name": "护甲限制(武僧)",
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲限制(任意)：</span>武僧必须无拘无束才能施展出复杂的战技，在使用轻型，中型或重型护甲或盾牌时的灵巧和基于灵巧的技能投骰均-4。</div>"
+        },
+        "Armor Restriction (Ranger)": {
+            "name": "护甲限制(游侠)",
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲限制(中型)：</span>游侠是灵活机动的战士与斥候，在穿着重型护甲或使用重型盾牌时的灵巧与基于灵巧的技能-4。</div>"
+        },
+        "Armor Restriction (Rogue)": {
+            "name": "护甲限制(游荡者)",
+            "category": "游荡者",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲限制(轻型)：</span>游荡者是机敏而致命的特技好手，笨重的护甲会影响他们的发挥，所以在穿着中型或重型护甲，或者使用中型或重型盾牌时的灵巧与基于灵巧的技能投骰-4。</div>"
+        },
+        "Armor Restriction (Sorcerer)": {
+            "name": "护甲干扰(术士)",
+            "category": "术士",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">护甲干扰(任意)：</span>施术需要快速复杂且不受阻碍的身体运动，术士在使用轻型、中型或重型护甲或是盾牌时的施法投骰、灵巧与基于灵巧的技能投骰-4。</div>"
+        },
+        "Aura of Courage": {
+            "name": "勇气灵光",
+            "category": "圣武士",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">勇气灵光：</span>只要圣武士还有意识，10英寸(20码)内的盟友进行恐惧检定时获得+1。</div>"
+        },
+        "Bash": {
+            "name": "捶打",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>大型生物通常会在战斗中以身体或是身体某部分捶向对手，特殊效果见生物的具体数值。</p>\n</div>"
+        },
+        "Bite": {
+            "name": "噬咬",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>见<strong>天生武器</strong>(第8页)。</p>\n</div>"
+        },
+        "Blindsense": {
+            "name": "盲感",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>具备这类能力的生物能使用非视觉感官来感知周遭的环境，这涵盖了敏锐的嗅觉，回声定位，或是感知地面乃至空气中颤动的能力。生物能忽略<em>隐形</em>，<em>幻象</em>以及所有照明减值。</p>\n</div>"
+        },
+        "Bloodline": {
+            "name": "血脉",
+            "category": "术士",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">血脉：</span>术士必须选择一种血脉(见66页)。每种血脉描述下方还有选取高级血脉专长时会获得的额外特殊能力。</div>"
+        },
+        "Breath Weapons": {
+            "name": "吐息武器",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>大部分龙类以及其他\"喷火生物\"在攻击时使用锥形盖板(见《狂野世界·探索者》的<strong>范围效果攻击</strong>)，诸如蓝龙和黑龙等特定部分生物则是使用直线盖板。除非另有说明，吐息攻击都是可以被回避的(见《狂野世界·探索者》的<strong>回避</strong>)，而且其会花费该生物一整个回合——生物在吐息攻击的同一轮内无法进行多重行动。\n</p>\n</div>"
+        },
+        "Burrow": {
+            "name": "遁地",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>从大型蠕虫到栖息在沙中的类人怪物，许多生物能潜入地下并穿行其中。</p>\n<p>遁地生物能在地底下挖出通道并从别处现身以向猝不及防的敌人发起突袭。生物在其回合内能遁地的距离将会写在遁地能力旁边。遁地生物能使用一个行动掘入地面，并能在同一回合中，于掘地移速范围内的任一点从地底下扑出。当其潜伏在地底时，除非具备某些可以侦察并能穿透两者之间土层攻击的特殊方法，否则遁地者无法遭到攻击。\n</p>\n<p>遁地生物自下方扑向对手时可攻其不备。如果目标并未意识到遁地者的存在，则遁地生物进行一次潜行VS对象察觉的对抗投骰(见《狂野世界·探索者》中的<strong>潜行时攻击</strong>)。处于待机的目标能尝试在攻击得手前进行打断。\n</p>\n<p>遁地者在暴露后通常无法再次突袭对手，但其仍能藉由遁地来保护自己或进行移动。</p>\n</div>"
+        },
+        "Celestial (Bloodline)": {
+            "name": "天界(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>角色的血脉得到了天界祖先或是某种神圣力量的祝福，<em>矢弹</em>，<em>爆发</em>和<em>爆裂</em>法术对邪恶生物造成的伤害+2(能与勇士叠加)，而且还会获得寒冷和酸环境抗性。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>天界术士能以一个自由行动展开或收起天使般的翅膀，展开翅膀时获得移速12的飞行。</li></ul></div>"
+        },
+        "Channel Energy": {
+            "name": "引导能量",
+            "category": "牧师",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">引导能量：</span>牧师在施放<em>治疗</em>奇术时能将射程从接触变成心魂，而且<em>治疗</em>奇术还带有额外对象奇术调整，因此其能就每名对象额外消耗1奇术点来治疗附近的盟友。</div>"
+        },
+        "Civilization (Community, Nobility)": {
+            "name": "文明(团队，高贵)",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>治疗、爱慕、慈悲、和平</li><li><span class=\"list-heading\">神祇：</span>凯登·凯连、黛丝娜、埃拉斯蒂尔、古拉姆、艾奥梅黛、义洛理、法莱斯玛、莎伦莱、纱琳、托拉格</li><li><span class=\"list-heading\">可选奇术：</span><em>奥法防护</em>、<em>屏障</em>、<em>野兽同盟</em>、<em>爆裂</em>、<em>致伤领域</em>、<em>偏斜</em>、<em>飞行</em>、<em>放大/缩小</em>、<em>滞缓/加速</em>、<em>召唤盟友</em></li></ul>\n</div>"
+        },
+        "Class Abilities": {
+            "name": "职业能力",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>若是某一生物具备职业专长，则这个专长的特质只会简短列出以作提醒。举例而言，地精战歌手具有吟游诗人职业专长，其所有特质都会简略地总结成\"职业能力(吟游诗人)\"。</p>\n</div>"
+        },
+        "Claws": {
+            "name": "爪抓",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>见<strong>天生武器</strong>(第8页)。</p>\n</div>"
+        },
+        "Conjuration (Favored)": {
+            "name": "咒法系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>咒法系</strong>：专注于通过创造、复原以及移动物件和生物来改变现实的学派。<em>屏障</em>、<em>创造物品</em>、<em>致伤领域</em>、<em>治疗</em>、<em>异界誓缚</em>、<em>异界传送</em>、<em>缓和</em>、<em>复生</em>、<em>召唤盟友</em>、<em>传送</em>、<em>天赐勇武</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Conjuration (Opposition)": {
+            "name": "咒法系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>咒法系</strong>：专注于通过创造、复原以及移动物件和生物来改变现实的学派。<em>屏障</em>、<em>创造物品</em>、<em>致伤领域</em>、<em>治疗</em>、<em>异界誓缚</em>、<em>异界传送</em>、<em>缓和</em>、<em>复生</em>、<em>召唤盟友</em>、<em>传送</em>、<em>天赐勇武</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Construct": {
+            "name": "构装体",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>魔像以及其他活化物体统称为\"构装体\"，其中一些是知性存在，而其他的则不过是服从主人意志的自动机械。无论构装体的起源或材料为何，其比起有血有肉的生物具备几项天然优势。</p>\n<p>构装体在尝试从动摇当中恢复时+2，忽略1点损伤减值，不需要呼吸或进食，免疫疾病和毒素，不会失血。移除损伤需要修理而非治疗，而且不受“黄金时间”限制。</p>\n</div>"
+        },
+        "Construct (Type)": {
+            "name": "构装体(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>人为创造的物件或是生物。</p>\n</div>"
+        },
+        "Darkvision": {
+            "name": "黑暗视觉",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>格拉里昂中的部分生物具备能在毫无光源的情况下视物的超凡能力，具备该能力的生物能忽略最远10英寸(20码)的照明减值。</p>\n</div>"
+        },
+        "Death": {
+            "name": "死亡",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>诞生、命运、预言、安眠</li><li><span class=\"list-heading\">神祇：</span>诺格巴、法莱斯玛、厄加图娅、宗-库山</li><li><span class=\"list-heading\">可选奇术：</span><em>目盲</em>、<em>矢弹</em>、<em>诅咒</em>、<em>致伤领域</em>、<em>抽取奇术点</em>、<em>恐惧</em>、<em>心智抹除</em>、<em>异界誓缚</em>、<em>防护</em>、<em>行尸</em></li></ul>\n</div>"
+        },
+        "Destined (Bloodline)": {
+            "name": "命运(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>这名角色注定要成就伟业，每回游戏额外获得1点助力点。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>该英雄每回游戏开始时额外获得2点助力点。</li></ul></div>"
+        },
+        "Destruction (Evil, Madness)": {
+            "name": "毁灭(邪恶，疯狂)",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>诞生、命运、预言、安眠</li><li><span class=\"list-heading\">神祇：</span>诺格巴、法莱斯玛、厄加图娅、宗-库山</li><li><span class=\"list-heading\">可选奇术：</span><em>目盲</em>、<em>矢弹</em>、<em>诅咒</em>、<em>致伤领域</em>、<em>抽取奇术点</em>、<em>恐惧</em>、<em>心智抹除</em>、<em>异界誓缚</em>、<em>防护</em>、<em>行尸</em></li></ul>\n</div>"
+        },
+        "Detect Evil": {
+            "name": "侦测邪恶",
+            "category": "圣武士",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">侦测邪恶：</span>圣武士能以一个行动专注于聪慧射程内的某一物件或是生物，以此判断其本质上是否邪恶，神祇与阵营见51页。</div>"
+        },
+        "Divination (Favored)": {
+            "name": "预言系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>预言系</strong>：专注于预测未来或是知晓他人秘密的学派。<em>侦测奥法</em>、<em>预言</em>、<em>定位</em>、<em>心灵链接</em>、<em>读心</em>、<em>读物</em>、<em>探知</em>、<em>通晓语言</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Divination (Opposition)": {
+            "name": "预言系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>预言系</strong>：专注于预测未来或是知晓他人秘密的学派。<em>侦测奥法</em>、<em>预言</em>、<em>定位</em>、<em>心灵链接</em>、<em>读心</em>、<em>读物</em>、<em>探知</em>、<em>通晓语言</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Draconic (Bloodline)": {
+            "name": "龙脉(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>术士的家谱某处有龙类蛰伏，其后裔获得爪抓(力量+d4)，覆鳞表皮(护甲+2)，同时特效与龙类血脉相符的奇术伤害+1。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士的爪抓现在带有+2穿甲，且获得与血脉相同的环境抗性(黑龙为酸，红龙为火焰，等等)。</li></ul></div>"
+        },
+        "Dragon (Type)": {
+            "name": "龙类(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>奇的魔法爬行类生物家族，通常长翼。</p>\n</div>"
+        },
+        "Dwarf": {
+            "name": "矮人",
+            "category": "族裔",
+            "description": "<div class=\"swpf-core\">\n<p>坚韧而强壮的矮人栖息于群山深处开凿出来的城市当中，自负而尚武的他们长久以来一直抵御着族裔夙敌的掠袭。矮人能勉强忍受“软弱”的家伙(精灵、侏儒和半身人)，与此同时他们与人类有着密切的往来，因为后者勤勉的天性与矮人的理念最为接近。</p><p>这群矮壮的家伙在站立时要比大部分人类矮上一两英尺，同时不论男女都以长发为荣。男性矮人常常把胡须打理成紧扣而精美的扎辫，只有疯掉的男性矮人才会把下巴剃得一干二净。</p><p><strong>语言：</span>通用语和矮人语。</p><p><strong>年龄范围：</span>45岁成年，188岁老年，年龄上限250-450。</p><p><strong>男性矮人：</span>高度3尺11寸-4尺5寸，重量164-206磅(平均4尺2寸，185磅)。</p><p><strong>女性矮人：</span>高度3尺9寸-4尺3寸，重量134-176磅(平均4尺，165磅)。</p><ul><li><span class=\"list-heading\">黑暗视觉：</span>矮人的眼睛适应了地底的黑暗，忽略至多10英寸远的照明减值。</li><li><span class=\"list-heading\">铁打之躯：</span>矮人在抵抗毒素时+1，同时在抵抗或是摆脱奇术以及声明机制如同奇术的能力时+1。</li><li><span class=\"list-heading\">移速减少：</span>角色移速-1，同时奔跑骰下降一级。</li><li><span class=\"list-heading\">石材敏锐：</span>矮人在以加工石材构筑的厅堂和洞穴当中生活，其能以一个自由行动对10英尺内的异常石制品(诸如陷阱或是密门)进行一次+2的察觉投骰。成功意味着能发现不对劲，而优良则能揭示出更为具体的信息，诸如怎样激活陷阱或是开启密门等等。</li><li><span class=\"list-heading\">健硕：</span>强壮精悍的矮人起始活力从d4变成d6，这也让活力上限提升到d12+1。在决定<strong>负载</strong>(见104页)以及无减值使用护甲和装备(不含武器)时，力量骰子类型视作上升一级。这项能力与蛮勇专长叠加(如有)。</li></ul>\n</div>"
+        },
+        "Elemental": {
+            "name": "元素",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>气、土、火、水是元素领域的根基，其中栖息着高深莫测的奇异生命。</p>\n<p>元素有着纯粹以土、水、气或火构筑的身躯，因此忽略定点打击的额外伤害，忽略1点损伤减值，不需要呼吸或进食，免疫疾病和毒素，其只能通过魔法或自然治疗来疗伤。</p>\n</div>"
+        },
+        "Elemental (Air, Earth, Fire, Water)": {
+            "name": "元素(气，土，火，水)",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>气、寒冷、土、火、炎热、水</li><li><span class=\"list-heading\">神祇：</span>阿巴达尔、阿斯摩蒂斯、哥兹莱、法莱斯玛、莎伦莱、纱琳、托拉格</li><li><span class=\"list-heading\">可选奇术：</span><em>屏障</em>、<em>爆发</em>、<em>遁地</em>、<em>爆裂</em>、<em>致伤领域</em>、<em>偏斜</em>、<em>元素操纵</em>、<em>环境防护</em>、<em>劫动</em>、<em>无形</em></li></ul>\n</div>"
+        },
+        "Elemental (Bloodline)": {
+            "name": "元素(血脉)",
+            "category": "血脉",
+            "description": "<ul><li><span class=\"list-heading\">气：</span>飞行，移速 6。</li><li><span class=\"list-heading\">土：</span>移速6的遁地(178页) 。</li><li><span class=\"list-heading\">火：</span>具有火焰特效的奇术伤害+2。</li><li><span class=\"list-heading\">水：</span>受角色奇术影响的敌人自动遭受妨碍(如同调整)。<li class=\"star-icon\"><span class=\"list-heading\"></span>高级形态：</span>每遭遇一次，角色能以一个行动释放元素爆发。这能造成3d6伤害，使用锥形盖板，可被回避。</li></ul>"
+        },
+        "Elf": {
+            "name": "精灵",
+            "category": "族裔",
+            "description": "<div class=\"swpf-core\">\n<p>长生的精灵乃是自然世界的子嗣，表面上其与精类生物相差无几，但两者在关键的部分却有所区别。重视私隐和传统的他们虽然得花很长时间去缔结友谊，然而一旦外来者被接纳为同伴，则这种纽带能延续数代之久。精灵不信任半兽人，他们对人类有着别样的钟情，而对于其他家伙则漠不关心。</p><p>精灵是耳朵长尖，双眼深陷，瞳孔多彩的瘦高生灵。尽管无论来自深幽密林或是避世村落的精灵都略微纤细，但其生来都比人类更为优雅。此外精灵也因为其耐心和对魔法的亲和性而闻名。</p><p><strong>语言：</span>通用语和精灵语。</p><p><strong>年龄范围：</span>115岁成年，263岁老年，年龄上限350-750。</p><p><strong>男性精灵：</span>高度5尺6寸-6尺8寸，重量116-158磅(平均6尺1寸，127磅)。</p><p><strong>女性精灵：</span>高度5尺6寸-6尺4寸，重量96-126磅(平均6尺1寸，117磅)。</p><ul><li><span class=\"list-heading\">机敏：</span>精灵优雅而灵巧，起始的灵巧从d4变成d6，灵巧上限也因此提升到d12+1。</li><li><span class=\"list-heading\">精灵魔法：</span>精灵天生就与奥法能量有所连结，用于抵抗敌性奇术的投骰免费获得一次重投。</li><li><span class=\"list-heading\">聪颖：</span>长寿的精灵聪颖过人，其起始的聪慧从d4变成d6，这也让其聪慧上限提升到d12+1。</li><li><span class=\"list-heading\">敏锐感官：</span>精灵起始的察觉从d4变成d6，这也让察觉上限提升到d12+1。</li><li><span class=\"list-heading\">微光视觉：</span>精灵的眼睛能放大光线，其他种族经常宣称自己能在精灵的眼眸中看到闪烁星辰。忽略昏暗和黑暗造成的照明减值。</li><li><span class=\"list-heading\">纤细：</span>体格瘦长的精灵比起其他族裔要更为孱弱，坚韧-1，同时活力投骰-1。</li></ul>\n</div>"
+        },
+        "Elven Magic": {
+            "name": "精灵魔法",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">精灵魔法：</span>精灵与半精灵天生就与奥法能量有所连结，用于抵抗敌性奇术的投骰免费获得一次重投。</li>\n</ul>\n</div>"
+        },
+        "Enchantment (Favored)": {
+            "name": "惑控系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>惑控系</strong>：影响他人心灵以及左右乃至控制其行为的学派。<em>野兽同盟</em>、<em>困惑</em>、<em>共感</em>、<em>心智抹除</em>、<em>傀儡</em>、<em>沉眠</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Enchantment (Opposition)": {
+            "name": "惑控系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>惑控系</strong>：影响他人心灵以及左右乃至控制其行为的学派。<em>野兽同盟</em>、<em>困惑</em>、<em>共感</em>、<em>心智抹除</em>、<em>傀儡</em>、<em>沉眠</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Energy Drain": {
+            "name": "能量流失",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>只要成功进行接触或是攻击，则对象必须成功通过一次投骰(通常是活力)才能抵抗，否则目标属性骰子类型下降一级。若是这次攻击让某一属性降到d4以下，则对象会陷入无力化，直到获得治疗或是下降的骰子类型得到恢复(见下)为止。如果目标属性是活力，则其下回合必须成功通过一次活力投骰，否则就会死亡。\n</p>\n<p><strong>恢复</strong>：除非对象死亡，否则其能每24小时或是经由应用复原调整的<em>缓和</em>恢复一级骰子类型。</p>\n</div>"
+        },
+        "Environmental Resistance": {
+            "name": "环境抗性",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>生物对特定类型的能量或是物质有抵抗力(但并非免疫)，诸如寒冷、炎热、钢铁等等。源自这些来源的伤害减少4点，同时在抵抗对应危难或是有着相似特效的奇术时+4。</p>\n</div>"
+        },
+        "Environmental Weakness": {
+            "name": "环境弱点",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>生物更容易受到特定类型的能量或是物质所影响，诸如寒冷、炎热、钢铁等等。源自这些来源的伤害增加4点，同时在抵抗对应危难或是有着相似特效的奇术时-4。</p>\n</div>"
+        },
+        "Ethereal": {
+            "name": "灵态",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>鬼魂、幽影、鬼火以及类似的无形生物没有在物质世界的形体(或是能随意来回切换)，它们能通过一个自由行动进行实体化和隐形(反之亦然)，只有魔法物品，魔法武器和超自然力量才能对其造成影响。</p>\n<p>除非描述中另有说明，否则灵态生物能投掷物件，持用武器，甚至可以将英雄自楼梯上推落。</p>\n</div>"
+        },
+        "Evocation (Favored)": {
+            "name": "塑能系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>塑能系</strong>：塑能系魔法利用无形的力量源泉来产生惊人效果。<em>爆发</em>、<em>矢弹</em>、<em>爆裂</em>、<em>劫动</em>、<em>光亮/黑暗</em>、<em>震慑</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Evocation (Opposition)": {
+            "name": "塑能系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>塑能系</strong>：塑能系魔法利用无形的力量源泉来产生惊人效果。<em>爆发</em>、<em>矢弹</em>、<em>爆裂</em>、<em>劫动</em>、<em>光亮/黑暗</em>、<em>震慑</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Fast": {
+            "name": "快速",
+            "category": "野蛮人",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">快速：</span>坚忍的野蛮人健步如飞，其基础移速+2。这不会影响角色的奔跑骰，但仍会和诸如飞毛腿之类的专长或是族裔调整值叠加。</div>"
+        },
+        "Favored Enemy": {
+            "name": "宿敌",
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">宿敌：</span>游侠会研究自己的敌人，学习对方的习惯，如何找到对方，如何击败对方。游侠从244页的列表中选择一种敌人类别，在针对该类别生物的追踪(生存)或攻击(运动(投掷)，格斗，射击)投骰失败时免费获得一次重投。</div>"
+        },
+        "Favored Terrain": {
+            "name": "偏好地形",
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">偏好地形：</span>游侠选择一种地形类别(极地，沙漠，森林，丛林，平原，丘陵/山脉，河流/海洋，沼泽，城市或地下)，在处于自己的偏好地形时能额外抽取一张行动卡来决定先攻(这不会影响游侠的可用行动卡数量，因而沉稳冷静角色依然能选取使用哪一张卡，而犹豫不决的角色必须选取最低的那张卡)。</div>"
+        },
+        "Fear": {
+            "name": "恐惧",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>特别骇人的怪物能让所有看到自身的对象进行恐惧检定，而尤为恐怖的怪物还会让该恐惧检定遭受减值。举例而言，一头具有恐惧-2的生物会让所有看到自己的对象进行-2的恐惧检定。具体效果见《狂野世界·探索者》中的<strong>恐惧</strong>规则。\n</p>\n</div>"
+        },
+        "Fearless": {
+            "name": "无畏",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>没有心智的生物和构装体之类的不具备凡物心灵的弱点。无畏的生物免疫威吓和恐惧效果。然而，它们仍然可能会受到嘲弄影响(通常是吸引了其注意力，而不是造成了情绪压力)</p>\n</div>"
+        },
+        "Fey (Bloodline)": {
+            "name": "精类(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>精类那变化无常的本质闯入了术士的家系当中。术士在荒野中能忽视困难地形，并具有“欢笑之触”。若成功使用双手触碰某一目标(见140页接触攻击)，则该目标陷入分神。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>精类术士的法术对象带有持续效果，如</em>目盲<em>，</em>削弱特性<em>，</em>震慑*等等，且从中恢复的任何投骰-2。</li></ul></div>"
+        },
+        "Fey (Type)": {
+            "name": "精类(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>通常有着类人生物外表的超自然生物，与自然或是其他奇异国度有所关联。</p>\n</div>"
+        },
+        "Flexibility": {
+            "name": "灵活多变",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">灵活多变：</span>半精灵起始任一属性从d4变成d6，这<em>不会</em>提升对应属性的上限。</li>\n</ul>\n</div>"
+        },
+        "Flight": {
+            "name": "飞行",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>该生物能以列出的移速飞行，其在需要进行投骰时使用运动以作机动。若是某一生物的移速至少达到24，则攻击方在对其进行攻击时-1，若是移速达到48及以上，则攻击方-2。</p>\n</div>"
+        },
+        "Gargantuan": {
+            "name": "巨型",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>巨型生物是那些体型至少为12或以上的生物，其具备重护甲，能额外承受三个损伤，而且攻击算作重武器。</p>\n<p><strong>踩踏</strong>：巨型生物能使用范围效果盖板(具体盖板尺寸由GM根据怪物\"脚印\"的大小而定)进行踩踏。防守方必须成功进行回避，否则就会受到列出的伤害。</p>\n</div>"
+        },
+        "Glory (Good, Healing)": {
+            "name": "荣耀(善良，治疗)",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>治疗、爱慕、慈悲、和平</li><li><span class=\"list-heading\">神祇：</span>凯登·凯连、黛丝娜、埃拉斯蒂尔、古拉姆、艾奥梅黛、义洛理、法莱斯玛、莎伦莱、纱琳、托拉格</li><li><span class=\"list-heading\">可选奇术：</span><em>奥法防护</em>、<em>屏障</em>、<em>野兽同盟</em>、<em>爆裂</em>、<em>致伤领域</em>、<em>偏斜</em>、<em>飞行</em>、<em>放大/缩小</em>、<em>滞缓/加速</em>、<em>召唤盟友</em></li></ul>\n</div>"
+        },
+        "Gnome": {
+            "name": "侏儒",
+            "category": "族裔",
+            "description": "<div class=\"swpf-core\">\n<p>侏儒的起源可以追溯到精类的神秘国度，那里色彩斑斓、绿野广袤、情感四溢。许久之前，未知的伟力将侏儒逐出了这个领域，并迫使后者在这个世界上颠沛流离。尽管如此，侏儒仍未完全背弃自身的精类根源。其他人通常会认为侏儒古怪而多变，而结果就是哪怕他们没对任何人抱有特别的敌意，侏儒在和他族打交道时仍然颇为不易。</p><p>细小的侏儒鲜少能长到超过三尺，他们的发色通常鲜明亮丽，从秋叶般的火红到野花般的深紫等到不一而足，同时虽然脸部特征多变迥异，但很多侏儒的嘴巴和眼目都比较大。怪诞的侏儒通常都是行动派的捣蛋鬼。</p><p><strong>语言：</span>通用语、侏儒语和木族语。</p><p><strong>年龄范围：</span>45岁成年，150岁老年，年龄上限200-500。</p><p><strong>男性侏儒：</span>高度3尺2寸-3尺8寸，重量37-43磅(平均3尺5寸，40磅)。</p><p><strong>女性侏儒：</span>高度3尺-3尺6寸，重量32-38磅(平均3尺3寸，35磅)。</p><ul><li><span class=\"list-heading\">侏儒魔法：</span>侏儒能如同知晓以下奇术那般使用聪慧(或是奥法技能，如有)来施放戏法(见171页)：<em>光亮</em>、<em>发声</em>、<em>念动</em>、<em>野兽同盟</em>。侏儒具备1点可用于启动这些戏法的奇术点，而且其能如常恢复(见169页)。具备奥法背景或秘源奇术的侏儒能将该奖励奇术点加入奇术点池当中，但必须习得这些法术方可如常施放。</li><li><span class=\"list-heading\">敏锐感官：</span>侏儒起始的察觉从d4变成d6，这也让察觉上限提升到d12+1。</li><li><span class=\"list-heading\">微光视觉：</span>侏儒的眼睛能放大光线，忽略昏暗和黑暗造成的照明减值。</li><li><span class=\"list-heading\">痴迷：</span>侏儒起始可在任一与聪慧关联的技能上具备d4。</li><li><span class=\"list-heading\">移速减少：</span>角色移速-1，同时奔跑骰下降一级。</li><li><span class=\"list-heading\">体型-1：</span>侏儒通常大概有三英尺半高，体型和坚韧-1。</li><li><span class=\"list-heading\">健硕：</span>尽管体型和力量并不如人，但侏儒却惊人的强壮，起始的活力从d4变成d6，活力上限也因此提升到d12+1。</li></ul>\n</div>"
+        },
+        "Gnome Magic": {
+            "name": "侏儒魔法",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">侏儒魔法：</span>侏儒能如同知晓以下奇术那般使用聪慧(或是奥法技能，如有)来施放戏法(见171页)：<em>光亮</em>、<em>发声</em>、<em>念动</em>、<em>野兽同盟</em>。侏儒具备1点可用于启动这些戏法的奇术点，而且其能如常恢复(见169页)。具备奥法背景或秘源奇术的侏儒能将该奖励奇术点加入奇术点池当中，但必须习得这些法术方可如常施放。</li>\n</ul>\n</div>"
+        },
+        "Half-Elf": {
+            "name": "半精灵",
+            "category": "族裔",
+            "description": "<div class=\"swpf-core\">\n<p>半精灵具备同名族裔的魅力，但丝毫没有后者的优雅和纤细。大部分能适应社会的半精灵都是人类和精灵之间的爱情结晶，但仍有一些遭到家庭中的一方或是其他人所排斥，更有甚者还会惨遭虐待。因此，理解孤独的半精灵清楚人生历练比起族裔血缘更能决定身份自我，所以半精灵经常和他族建立友谊和纽带，并且鲜少因为第一印象而先入为主。</p><p>半精灵的寿命比起精灵亲族更接近人类血亲，他们同时具备双亲的外在特征，诸如尖耳朵和人类的双瞳，而且整体效果非常赏心悦目。</p><p><strong>语言：</span>通用语和精灵语。</p><p><strong>年龄范围：</span>22岁成年，93岁老年，年龄上限125-185。</p><p><strong>男性半精灵：</span>高度5尺4寸-6尺6寸，重量110-180磅(平均5尺11寸，155磅)。</p><p><strong>女性半精灵：</span>高度5尺2寸-6尺4寸，重量100-170磅(平均5尺9寸，135磅)。</p><ul><li><span class=\"list-heading\">精灵魔法：</span>半精灵天生就与奥法能量有所连结，用于抵抗敌性奇术的投骰免费获得一次重投。</li><li><span class=\"list-heading\">灵活多变：</span>半精灵起始任一属性从d4变成d6，这<em>不会</em>提升对应属性的上限。</li><li><span class=\"list-heading\">微光视觉：</span>半精灵的眼睛能放大光线，忽略昏暗和黑暗造成的照明减值。</li></ul>\n</div>"
+        },
+        "Half-Orc": {
+            "name": "半兽人",
+            "category": "族裔",
+            "description": "<div class=\"swpf-core\">\n<p>半兽人同时显现出兽人先祖和家系中其他分支(通常是人类)的特征，他们鲜少作为爱情的结晶而诞生，因此他族并不信任半兽人，甚至还会对后者抱有恐惧。虽然半兽人有时会得到兽人社群的接纳，但别的家伙则通常会对其敬而远之——这里面也包括了人类、精灵和矮人，三者长久以来都对半兽人的先祖抱有莫大恨意。</p><p>有些半兽人选择与非兽人的家伙一同生活，背弃了好战本源的他们为了寻求救赎而尝试去证明自身，其中不少都具备着高贵的灵魂。</p><p>体格强壮的半兽人在站立时有六到七英尺高，和其他兽人一样，他们五官粗糙，棱角分明。半兽人的寿命和人类相仿，但鲜少有活到晚年的例子。</p><p><strong>语言：</span>通用语和兽人语。</p><p><strong>年龄范围：</span>15岁成年，45岁老年，年龄上限60-80。</p><p><strong>男性半兽人：</span>高度5尺6寸-6尺10寸，重量164-318磅(平均5尺11寸，241磅)。</p><p><strong>女性半兽人：</span>高度4尺7寸-6尺5寸，重量124-278磅(平均5尺6寸，201磅)。</p><ul><li><span class=\"list-heading\">黑暗视觉：</span>半兽人忽略至多10英寸远的照明减值。</li><li><span class=\"list-heading\">威慑力：</span>半兽人自身就能带来敬畏和恐惧，起始带有d4威吓，这也让威吓的上限提升到d12+1。</li><li><span class=\"list-heading\">兽人凶猛：</span>半兽人就和老旧的靴子一样结实，坚韧+1。</li><li><span class=\"list-heading\">异客(次要)：</span>半兽人在许多文化中都不受待见，同时兽人社群也不信任其人类的一面。半兽人所有的交涉投骰-2，同时经常招致他人的怨恨或是白眼。</li><li><span class=\"list-heading\">强壮：</span>半兽人获得了兽人先祖的部分力气，起始的力量从d4变成d6，力量上限也因此提升到d12+1。</li></ul>\n</div>"
+        },
+        "Halfling": {
+            "name": "半身人",
+            "category": "族裔",
+            "description": "<div class=\"swpf-core\">\n<p><strong>语言：</span>通用语和半身人语。</p><p><strong>年龄范围：</span>22岁成年，75老年，年龄上限100-200。</p><p><strong>男性半身人：</span>高度2尺10寸-3尺4寸，重量32-38磅(平均3尺1寸，35磅)。</p><p><strong>女性半身人：</span>高度2尺8寸-3尺2寸，重量27-33磅(平均2尺11寸，30磅)。</p><ul><li><span class=\"list-heading\">机敏：</span>半身人优雅而机敏，起始的灵巧从d4变成d6，灵巧上限也因此提升到d12+1。</li><li><span class=\"list-heading\">敏锐感官：</span>半身人的敏锐感官让其能注意到他人遗漏的细节，起始的察觉从d4变成d6，察觉上限也因此提升到d12+1。</li><li><span class=\"list-heading\">走运：</span>半身人深谙求生之道，其获得幸运专长，即使是半身人龙套也会具备这项能力！</li><li><span class=\"list-heading\">移速减少：</span>移速-1，同时奔跑骰下降一级。</li><li><span class=\"list-heading\">体型-1：</span>半身人的体型和坚韧-1。</li><li><span class=\"list-heading\">脚踏实地：</span>天生优雅的半身人其起始运动从d4变成d6，运动上限也因此提升到d12+1。</li></ul>\n</div>"
+        },
+        "Hardy": {
+            "name": "顽强",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>这些非常坚忍的生物需要沉重的打击才能干翻，另一次导致动摇的结果不会对这些坚毅的猛兽造成损伤。</p>\n</div>"
+        },
+        "Horns": {
+            "name": "角撞",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>见<strong>天生武器</strong>(第8页)。</p>\n</div>"
+        },
+        "Human": {
+            "name": "人类",
+            "category": "族裔",
+            "description": "<div class=\"swpf-core\">\n<p>人类具备非凡的动力和野心，其展现出了克服艰险的强大能力以及开疆拓土的过人欲望。躁动而多样乃是人类的特征，其文明从小型的游牧部族，爱好和平的农耕村落到博采各界文化(乃至颓废)的广大城市和王国等等不一而足。</p><p>人类的外表特征就和世界的气候一般多变，从南方大陆的黑肤部落民到北地苍白的蛮人骑手，这只族裔具备各种肤色，体态和五官特征。</p><p><strong>语言：</span>通用语。</p><p><strong>年龄范围：</span>17岁成年，53岁老年，年龄上限70-110。</p><p><strong>男性人类：</span>高度5尺-6尺6寸，重量130-220磅(平均5尺9寸，175磅)。</p><p><strong>女性人类：</span>高度4尺7寸-6尺1寸，重量95-185磅(平均5尺4寸，140磅)。</p><ul><li><span class=\"list-heading\">适应：</span>人类起始免费获得一项专长(必须如常满足对应的需求)，同时任一属性从d4变成d6，这<em>不会</em>提升对应属性的上限。</li></ul>\n</div>"
+        },
+        "Humanoid (Type)": {
+            "name": "类人生物(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>具有脑袋、身躯和四肢的双足生物，类人生物通常具有语言并构建了种种文化。</p>\n</div>"
+        },
+        "Illusion (Favored)": {
+            "name": "幻术系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>幻术系</strong>：欺骗他人感官和心智的学派，这种法术通常会让人看见不存在的事物，或是视而不见。<em>隐藏奥法</em>、<em>易容</em>、<em>幻象</em>、<em>隐形</em>、<em>发声/沉默</em>。</p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{Schools of Magic}</p>\n</div>"
+        },
+        "Illusion (Opposition)": {
+            "name": "幻术系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>幻术系</strong>：欺骗他人感官和心智的学派，这种法术通常会让人看见不存在的事物，或是视而不见。<em>隐藏奥法</em>、<em>易容</em>、<em>幻象</em>、<em>隐形</em>、<em>发声/沉默</em>。</p>\n<p>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{Schools of Magic}</p>\n</div>"
+        },
+        "Immunity": {
+            "name": "免疫",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>诞生在火焰中的生物不会受到炎热影响，纯粹以闪电构成的怪物不会受到具有电击特效的矢弹奇术攻击影响。此外免疫也会涵盖相关类型的攻击，举例而言，免疫基于寒冷的效果与攻击的怪物同时也会忽略带有寒霜或是冰雪特效的奇术。</p>\n<h2 id=\"other-special-abilities\">其他特殊能力 OTHER SPECIAL ABILITIES</h2>\n<p>本章节中列出的特殊能力涵盖了一大票怪物以及NPC的常见特点，这会有助于GM琢磨出创造敌人或是对其他探索者产品里面的内容进行转化的方法。当然本书中的许多生物也会具备罕见或是独特的特殊能力，因而在创造或是转化怪物时可以快速将它们浏览一遍，并根据需要进行糅合与配对。\n</p>\n</div>"
+        },
+        "Infection": {
+            "name": "感染",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>感染的范例包括吸血鬼的噬咬，可怖怪物注入受害者皮下的卵，乃至是染疫老鼠的抓挠。若具有感染能力的生物给对象造成动摇或是损伤时，则后者必须进行一次活力投骰。生物的描述当中会写出这次投骰的调整值以及失败的后果。</p>\n</div>"
+        },
+        "Infernal (Bloodline)": {
+            "name": "炼狱(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>某名血亲在远古时与黑暗力量进行了交易。这名角色获得火焰环境抗性，免疫毒素，任何具有火焰特效的攻性奇术伤害+1。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>地狱术士以一个自由行动长出或收起巨大的蝠翼，蝠翼能赋予移速12的飞行。</li></ul></div>"
+        },
+        "Innate Powers": {
+            "name": "内生奇术",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>格拉里昂上为数不少的生物都具备内生奇术，这些通常都是带有\"类法术\"效果的魔法能力或是奇术。</p>\n<p>启动某一内生奇术需要一个行动，并且诸如射程，视觉线等奇术规则也会如常应用。</p>\n<p><strong>自动成功的奇术</strong>：这些奇术不需要投骰就能启动。次级奇术启动时视为成功，高级奇术启动时视为优良。即使正常而言某个奇术需要进行攻击投骰也是如此</p>\n<p>举例而言，只要目标有任何一部分可见且位于射程之内时，次级<em>矢弹</em>就可以忽略掩蔽，闪避专长等类似效果自动命中。</p>\n<p><strong>对抗性奇术</strong>：目标仍须抵抗这些奇术。次级奇术的抵抗目标值是4(因为这视作成功)，高级奇术的抵抗目标值是8(因为这视作优良)。</p>\n<p>高级<em>傀儡</em>意味着对象必须成功通过一次目标值为8的心魂检定，否则就会遭到迷惑。</p>\n<p><strong>需要投骰的奇术</strong>：如果某一能力的确<em>需要</em>进行特性投骰，则对应的技能或是属性会列在奇术后的括号里面，格式如下：<em>隐形</em>(火焰；真实；心魂)。</p>\n<p>如同其他奇术一样，大失败会导致疲乏。</p>\n<p><strong>持续时间</strong>：生物无须消耗奇术点就能维持内生奇术。</p>\n<p><strong>奇术调整</strong>：除非能力中另有说明，否则内生奇术无法应用奇术调整。</p>\n</div>"
+        },
+        "Intelligence": {
+            "name": "聪颖",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">聪颖：</span>长寿的精灵聪颖过人，其起始的聪慧从d4变成d6，这也让其聪慧上限提升到d12+1。</li>\n</ul>\n</div>"
+        },
+        "Intimidating": {
+            "name": "威慑力",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">威慑力：</span>半兽人自身就能带来敬畏和恐惧，起始带有d4威吓，这也让威吓的上限提升到d12+1。</li>\n</ul>\n</div>"
+        },
+        "Invulnerability": {
+            "name": "无敌",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>无敌的生物忽略其描述中列出的伤害。除非另有说明，否则它们仍可以被其他形式的伤害所动摇或震慑，但不会因此受到损伤。 举例而言，由秘教信众所唤醒的古神其唯一的弱点可能会是另一名敌对神祇的遗物。</p>\n</div>"
+        },
+        "Iron Constitution": {
+            "name": "铁打之躯",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">铁打之躯：</span>矮人在抵抗毒素时+1，同时在抵抗或是摆脱奇术以及声明机制如同奇术的能力时+1。</li>\n</ul>\n</div>"
+        },
+        "Keen Senses": {
+            "name": "敏锐感官",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">敏锐感官：</span>起始的察觉从d4变成d6，这也让察觉上限提升到d12+1。</li>\n</ul>\n</div>"
+        },
+        "Knowledge": {
+            "name": "知识",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>识字、历史、揭示秘密</li><li><span class=\"list-heading\">神祇：</span>卡莉斯翠、义洛理、内希斯、诺格巴、法莱斯玛</li><li><span class=\"list-heading\">可选奇术：</span><em>奥法防护</em>、<em>侦测/隐藏奥法</em>、<em>抽取奇术点</em>、<em>定位</em>、<em>心灵链接</em>、<em>读心</em>、<em>读物</em>、<em>防护</em>、<em>探知</em>、<em>通晓语言</em></li></ul>\n</div>"
+        },
+        "Low Light Vision": {
+            "name": "微光视觉",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>微光视觉忽略昏暗与黑暗的照明减值(不包括漆黑)。</p>\n</div>"
+        },
+        "Luck": {
+            "name": "机运",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>机会、财富、失败、得胜</li><li><span class=\"list-heading\">神祇：</span>卡莉斯翠、黛丝娜、纱琳</li><li><span class=\"list-heading\">可选奇术：</span><em>目盲</em>、<em>困惑</em>、<em>诅咒</em>、<em>偏斜</em>、<em>易容</em>、<em>抽取奇术点</em>、<em>幻象</em>、<em>读心</em>、<em>读物</em>、<em>傀儡</em></li></ul>\n</div>"
+        },
+        "Lucky": {
+            "name": "走运",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">走运：</span>半身人深谙求生之道，其获得幸运专长，即使是半身人龙套也会具备这项能力！</li>\n</ul>\n</div>"
+        },
+        "Magic (Rune)": {
+            "name": "魔法(符文)",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>机会、财富、失败、得胜</li><li><span class=\"list-heading\">神祇：</span>卡莉斯翠、黛丝娜、纱琳</li><li><span class=\"list-heading\">可选奇术：</span><em>目盲</em>、<em>困惑</em>、<em>诅咒</em>、<em>偏斜</em>、<em>易容</em>、<em>抽取奇术点</em>、<em>幻象</em>、<em>读心</em>、<em>读物</em>、<em>傀儡</em></li></ul>\n</div>"
+        },
+        "Magical Beast (Type)": {
+            "name": "魔法兽(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>与动物类似，这种类别下的生物具备某种魔法或是超自然能力。</p>\n</div>"
+        },
+        "Martial Discipline": {
+            "name": "武艺训练",
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">武艺训练：</span>武僧们将自己的身体锻至完美，在未着护甲时坚韧额外获得+1。</div>"
+        },
+        "Martial Flexibility": {
+            "name": "灵活武艺",
+            "category": "战士",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">灵活武艺：</span>每遭遇一次，战士能以一个限定自由行动来选择获得单个战斗专长的好处，其必须满足该专长的所有需求，所选专长的好处会在5轮后结束。</div>"
+        },
+        "Mindless": {
+            "name": "无心智",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>该生物免疫<em>傀儡</em>，威吓，嘲弄等任何需要其聪慧进行检定以免遭到操弄的能力。</p>\n</div>"
+        },
+        "Mobility": {
+            "name": "灵活移动",
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">灵活移动：</span>机敏快速的武僧其奔跑骰的骰子类型提升一级。</div>"
+        },
+        "Monstrous Humanoid (Type)": {
+            "name": "人形怪物(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>与类人生物相近，这些生物具备某种怪物般的特征，同时还有着魔法与野兽般的能力。</p>\n</div>"
+        },
+        "Natural Weapons": {
+            "name": "天生武器",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>具有诸如獠牙、利爪、坚角等天生武器的生物能通过格斗技能以其中之一或是全部进行攻击，其伤害会在各个不同的角色族裔以及野兽的描述当中予以标明。</p>\n<p>具有天生武器的生物总是被视为有武装，这意味着它们并非手无寸铁，而且持双武器的对手与其对战时不会取得优势。除此之外，每种攻击还具备其他特质：</p>\n<ul>\n<li><strong>噬咬</strong>：生物能对遭到自己擒抱的目标进行噬咬(而不是只能紧勒猎物，见《狂野探索者》当中的<strong>擒抱</strong>)。</li>\n<li><strong>爪抓</strong>：所有在粗糙或柔软表面(不能是陡峭的钢铁，玻璃之类)的运动(攀爬)投骰+2。</li>\n<li><strong>角撞</strong>：在奔跑，移动至少5英寸(10码)后成功以角击中的单个格斗行动最后的伤害+4。</li>\n</ul>\n</div>"
+        },
+        "Nature (Animal, Plant, Weather)": {
+            "name": "自然(动物，植物，天气)",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>动物、植物、天气、海洋</li><li><span class=\"list-heading\">神祇：</span>埃拉斯蒂尔、哥兹莱、拉瓦古格</li><li><span class=\"list-heading\">可选奇术：</span><em>恶意变形</em>、<em>屏障</em>、<em>野兽同盟</em>、<em>爆裂</em>、<em>元素操纵</em>、<em>纠缠</em>、<em>环境防护</em>、<em>防护</em>、<em>化形</em>、<em>召唤盟友</em>、<em>走壁</em></li></ul>\n</div>"
+        },
+        "Nature Bond": {
+            "name": "自然联结",
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\"><p>德鲁伊与大自然之间有着深远而强大的联结，在下列能力中选择其一：</p><ul><li><span class=\"list-heading\">适配者：</span>德鲁伊施放法术的信仰投骰若是失败可免费获得一次重投。</li><li><span class=\"list-heading\">野兽大师：</span>德鲁伊获得野兽大师专长以及一名动物伙伴，这名伙伴是不羁角色。</li></ul></div>"
+        },
+        "Nature Sense": {
+            "name": "自然智识",
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">自然智识：</span>德鲁伊与自然及其精魂亲近相通，生存技能关联属性由聪慧变为心魂。</div>"
+        },
+        "Necromancy (Favored)": {
+            "name": "死灵系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>死灵系</strong>：操纵生死以及不死之力的学派。<em>目盲</em>、<em>诅咒</em>、<em>抽取奇术点</em>、<em>恐惧</em>、<em>削弱特性</em>、<em>行尸</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Necromancy (Opposition)": {
+            "name": "死灵系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>死灵系</strong>：操纵生死以及不死之力的学派。<em>目盲</em>、<em>诅咒</em>、<em>抽取奇术点</em>、<em>恐惧</em>、<em>削弱特性</em>、<em>行尸</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Night Vision": {
+            "name": "暗夜视觉",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>有些生物是在至黑深夜或是地下的洞穴地牢当中得以繁育生息，具备暗夜视觉的生物忽略所有照明减值。</p>\n</div>"
+        },
+        "Obsessive": {
+            "name": "痴迷",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">痴迷：</span>侏儒起始可在任一与聪慧关联的技能上具备d4。</li>\n</ul>\n</div>"
+        },
+        "Ooze (Type)": {
+            "name": "泥怪(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>无心智的不定形生物，摄食资源的泥怪会对其他类别的生物构成环境危害。</p>\n</div>"
+        },
+        "Orc Ferocity": {
+            "name": "兽人凶猛",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">兽人凶猛：</span>半兽人就和老旧的靴子一样结实，坚韧+1。</li>\n</ul>\n</div>"
+        },
+        "Outsider": {
+            "name": "异客",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">异客(次要)：</span>半兽人在许多文化中都不受待见，同时兽人社群也不信任其人类的一面。半兽人所有的交涉投骰-2，同时经常招致他人的怨恨或是白眼。</li>\n</ul>\n</div>"
+        },
+        "Outsider (Type)": {
+            "name": "异界生物(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>尽管这些生物与其他类别颇为相近，但是其起源或者构成来自于物质位面之外。</p>\n</div>"
+        },
+        "Pack Tactics": {
+            "name": "群体战术",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>这种生物的围攻加值能同时应用到攻击投骰以及格斗伤害上。</p>\n</div>"
+        },
+        "Paralysis": {
+            "name": "麻痹",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>麻痹性的毒素囊括在毒素当中，而其他生物可能会通过魔法或是电击等种种手段来麻痹对象。对象在因为麻痹性效果而遭受动摇或是损伤时会陷入震慑，而且在d4+1轮(如果另有说明时间可能更长)内无法尝试恢复。</p>\n</div>"
+        },
+        "Plant (Type)": {
+            "name": "植物(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>由草木构成的生物，有别于被视为物件的普通植物生命。</p>\n</div>"
+        },
+        "Poison": {
+            "name": "毒素",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>像是蛇，蜘蛛等其他生物会通过噬咬或抓挠注入毒液。生物必须至少给对象造成动摇才能使用该能力，后者必须进行一次活力投骰，遭受的调整值则是根据毒性值(会在生物的毒素能力旁边的括号内列出)而定，失败的效果详见《狂野世界·探索者》中的<strong>危难</strong>。\n</p>\n</div>"
+        },
+        "Pounce": {
+            "name": "猛扑",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>掠食者通常会最大限度地利用自身的体重和利爪来袭击猎物，具备猛扑的生物在进行不羁攻击时，单次成功格斗攻击增加的伤害从+2变成+4。</p>\n</div>"
+        },
+        "Protection": {
+            "name": "保护",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>保护、看护、庇佑</li><li><span class=\"list-heading\">神祇：</span>阿巴达尔、内希斯、纱琳、托拉格</li><li><span class=\"list-heading\">可选奇术：</span><em>奥法防护</em>、<em>屏障</em>、<em>偏斜</em>、<em>侦测/隐藏奥法</em>、<em>环境防护</em>、<em>无形</em>、<em>隐形</em>、<em>傀儡</em>、<em>防护</em>、<em>召唤盟友</em></li></ul>\n</div>"
+        },
+        "Rage": {
+            "name": "狂暴",
+            "category": "野蛮人",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\"><strong>狂暴</strong>：野蛮人能在危急关头唤起体内潜藏的力量和凶性。野蛮人能使用一个限定自由行动自愿“狂暴”。若是角色遭受动摇或是损伤，则其无论愿意与否都必须成功通过一次聪慧投骰，否则就会进入狂暴。狂暴持续五轮，在野蛮人狂暴的第五轮后，其会承受一级疲乏，该疲乏只能通过一小时的休息才能恢复(通常而言不能行走，骑乘等等)。陷入力竭的狂暴野蛮人之后会陷入无力化，更多内容见132页的疲乏。在狂暴时，野蛮人会获得以下能力：<ul><li><span class=\"list-heading\">狂怒：</span>角色的力量骰子类型上升一级，每次攻击都必须是<strong>不羁攻击</strong>(见141页)，而且无法使用任何需要专注超过数秒的技能或是能力(GM判断)。</li><li><span class=\"list-heading\">暴怒：</span>角色忽略两点损伤和疲乏减值(这会与任何降低这些减值的能力叠加)。</li><li><span class=\"list-heading\">一莽无前</span>：若野蛮人狂暴时的格斗投骰出现大失败，其会随机命中攻击范围内某一目标(<em>不能</em>是初始目标)，不分敌我。若没有可用的目标，则角色会伤到自己并遭受肿痛与擦伤(见151页)。</li></ul></span>\n</div>"
+        },
+        "Reduced Pace": {
+            "name": "移速减少",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">移速减少：</span>角色移速-1，同时奔跑骰下降一级。</li>\n</ul>\n</div>"
+        },
+        "Regeneration": {
+            "name": "再生",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>多头蛇、巨魔、吸血鬼等其他传说中的生物能再生伤势，再生分快速和缓慢：</p>\n<ul>\n<li>\n<strong>快速</strong>：受到损伤的生物每轮进行一次活力投骰——即使其已经陷入无力化也是如此。成功则能治好一个损伤(或是移除无力化状态)，获得优良则会额外再治好一个损伤。根据生物的描述，由某种伤害造成的损伤不会再生，但仍然能自然治疗。举例而言，巨魔无法再生因火焰造成的损伤。\n</li>\n<li><strong>缓慢</strong>：该生物每天可进行一次自然治疗投骰。</li>\n</ul>\n</div>"
+        },
+        "Rending Attack": {
+            "name": "撕裂",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\"><p>因为撕裂攻击而遭受动摇或是损伤的任何对象都会开始出血，其下回合开始时必须进行一次活力投骰。失败会受到一个损伤，而且下回合必须再进行一次活力投骰。成功则对象不会受到损伤，但在下回合时仍须再进行一次活力投骰。只有获得优良才能停止出血且不需要就该次攻击进行其他投骰。</p><p>成功的治疗投骰同样能阻止出血。</p></div>"
+        },
+        "Resilient": {
+            "name": "强韧",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\"><p>某些精英龙套比起普通同类更为坚韧，这可能包括特殊培育的兽人，特别强壮的恶棍和保镖，或是格拉里昂上普通动物的巨化种和凶暴种。</p><p>强韧的龙套在陷入无力化前能承受一个损伤，非常强韧的龙套能承受两个。不羁角色无法获得强韧或非常强韧，因为该能力是为了缩小特定龙套和领头英雄/反派之间的差距。</p></div>"
+        },
+        "Secret Language": {
+            "name": "秘密语言",
+            "category": "德鲁伊",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">秘密语言：</span>所有德鲁伊都掌握一门称为德鲁伊语的秘密语言。</div>"
+        },
+        "Sharp Tongued": {
+            "name": "唇枪舌剑",
+            "category": "吟游诗人",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\"唇枪舌剑：</span>吟游诗人能将表演当成嘲弄来使用以向敌方发起考验，而且只要角色每次吟诵的韵文、诗节、歌词等等都不尽相同，则其能忽略考验中(见140页)针对重复使用的建议。吟游诗人在判断专长需求时也能用表演代替嘲弄。</div>"
+        },
+        "Size": {
+            "name": "体型",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>体型会为坚韧提供加值(对于小型生物则是减值)，而且其也能为生物的通常力量提供大致<em>参考</em>。</p>\n<p>虽然体型一般取决于质量本身，但也有着特别庞大而弱小的生物，以及小巧而强悍的存在等例外。如果生物没有标出体型，则其体型为0，若是生物的体型并非中型，这也会在体型条目后的括号当中列出。</p>\n<p><strong>额外承伤数</strong>：大型的生物能额外承受一个损伤，超大型能额外承受两个，而巨型能额外承受三</p>\n<p>个，但损伤减值上限永远是3。这可以和<strong>强韧/非常强韧</strong>叠加(见上文)。</p>\n<p>这些生物通常具备由体型赋予，且等值于额外承伤数的触及。</p>\n</div>"
+        },
+        "Size -1": {
+            "name": "体型-1",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">体型-1：</span>半身人的体型和坚韧-1。</li>\n</ul>\n</div>"
+        },
+        "Slender": {
+            "name": "纤细",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">纤细：</span>体格瘦长的精灵比起其他族裔要更为孱弱，坚韧-1，同时活力投骰-1。</li>\n</ul>\n</div>"
+        },
+        "Smite Evil": {
+            "name": "制裁邪恶",
+            "category": "圣武士",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">制裁邪恶：</span>圣武士能以一个自由行动选定某一敌人，若其为邪恶存在，则圣武士在本次遭遇剩下的时间内针对该目标的运动(投掷)，格斗或射击投骰在失败时免费获得一次重投。圣武士在单次遭遇中使用该能力的次数等同于其位阶数。</div>"
+        },
+        "Sneak Attack": {
+            "name": "偷袭",
+            "category": "游荡者",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">偷袭：</span>游荡者在攻击能构成奇袭或陷入脆弱的对象时，伤害额外增加1d6，这能应用于运动(投掷)，格斗或射击攻击上。</div>"
+        },
+        "Spellbooks": {
+            "name": "法术书",
+            "category": "法师",
+            "description": "<div class=\"swpf-core\"><p><span class=\"list-heading\">法术书：</span>法师必须保有并打理好法术书。</span></p><p>法师的法术奇怪而复杂，即使是造诣再高的施法者也会轻易将其忘却。因此每名法师都持有一本法术书，里面记载了转译获得的法术。法师每天都要予以学习，将其神秘的样式铭刻在脑海中。</p><p>与这本书的链接远不止是死记硬背——而是与里面的秘力和模式实现奥法上的联结。如果法师无法使用自己的法术书，则其在下一次日落或日出(取其先者)前还能如常施法，而法师脑海中的魔法刻印在那之后就会消逝不见，他也不能再次施法。</p><p>法师同时只能携带一本激活的法术书。准备另一本则需要堆积成山的卷轴、魔法笔记和研究，法师无法将这些东西带在身边，而是必须存放在安全的场所。只要法师能够使用自己的魔法笔记，就能花费一周时间和500GP来创建一本替补法术书。</p><p>当法师选取新奇术专长时能如常选取任意两个奇术。如果在探索中找到或购得某些法术(包括卷轴)，且该法术契合或低于其位阶，则能选取其中之一作为奖励获得的第三个奇术。</p></div>"
+        },
+        "Stone Cunning": {
+            "name": "石材敏锐",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">石材敏锐：</span>矮人在以加工石材构筑的厅堂和洞穴当中生活，其能以一个自由行动对10英尺内的异常石制品(诸如陷阱或是密门)进行一次+2的察觉投骰。成功意味着能发现不对劲，而优良则能揭示出更为具体的信息，诸如怎样激活陷阱或是开启密门等等。</li>\n</ul>\n</div>"
+        },
+        "Strength": {
+            "name": "力量",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>膂力、勇士、角逐</li><li><span class=\"list-heading\">神祇：</span>凯登·凯连、古拉姆、义洛理、拉玛什图、厄加图娅</li><li><span class=\"list-heading\">可选奇术：</span><em>奥法防护</em>、<em>遁地</em>、<em>抽取奇术点</em>、<em>放大/缩小</em>、<em>劫动</em>、<em>防护</em>、<em>滞缓/加速</em>、<em>震慑</em>、<em>走壁</em>、<em>天赐勇武</em></li></ul>\n</div>"
+        },
+        "Strong": {
+            "name": "强壮",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">异客(次要)：</span>半兽人在许多文化中都不受待见，同时兽人社群也不信任其人类的一面。半兽人所有的交涉投骰-2，同时经常招致他人的怨恨或是白眼。</li><li><span class=\"list-heading\">强壮：</span>半兽人获得了兽人先祖的部分力气，起始的力量从d4变成d6，力量上限也因此提升到d12+1。</li>\n</ul>\n</div>"
+        },
+        "Stun": {
+            "name": "震慑",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>具备这种能力的生物通常具备电流攻击、温和毒素、心灵鞭挞或是类似特效，当其成功击中角色(即使没造成伤害)时，对方也必须成功通过一次活力投骰，同时还要遭受任何列出的减值，否则会遭到<strong>震慑</strong>(见《狂野世界·探索者》)。\n</p>\n</div>"
+        },
+        "Stunning Fist": {
+            "name": "震慑拳",
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">震慑拳：</span>当武僧以无武装攻击命中目标并得到优良时，其能使敌方陷入分神或是脆弱，即使对象未受到伤害或成功予以化解也能生效(这个状态在对象尝试进行化解后才生效)。</div>"
+        },
+        "Sun": {
+            "name": "太阳",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>光明、光辉、温暖、生命</li><li><span class=\"list-heading\">神祇：</span>艾奥梅黛、莎伦莱</li><li><span class=\"list-heading\">可选奇术：</span><em>目盲</em>、<em>矢弹</em>、<em>困惑</em>、<em>致伤领域</em>、<em>抽取奇术点</em>、<em>环境防护</em>、<em>飞行</em>、<em>幻象</em>、<em>防护</em>、<em>震慑</em></li></ul>\n</div>"
+        },
+        "Sure-Footed": {
+            "name": "脚踏实地",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">脚踏实地：</span>天生优雅的半身人其起始运动从d4变成d6，运动上限也因此提升到d12+1。</li>\n</ul>\n</div>"
+        },
+        "Swallow Whole": {
+            "name": "囫囵活吞",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>该生物在成功进行一次噬咬攻击时，对象必须成功通过一次回避投骰，否则就会遭到囫囵活吞。在该生物后续的回合结束时，所有遭到活吞的对象都必须成功通过一次-2的活力投骰，否则就会因为食道的挤压和酸性胆汁而受到一个损伤，这会一直持续到其得到释放或是死亡为止。\n</p>\n<p>若是从内部(忽略护甲！)让该生物遭受动摇或是损伤，所有对象都能立刻进行一次运动投骰以求逃脱。若是从外部让该生物遭受动摇或是损伤，则逃脱的投骰要-2。</p>\n<p>合适的考验(像是刺激其鼻部，用法术效果或是毒素让其极端反胃等等，GM判断)也许能让这只猛兽咳嗽，打喷嚏或是呕吐，这也可以让所有位于其中的对象得以进行一次运动投骰以求逃脱。</p>\n</div>"
+        },
+        "Swat": {
+            "name": "拍打",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>该生物习得了如何捕猎或是对付更小的对手，其在攻击比自己小的生物时最多能忽略4点尺寸减值。</p>\n</div>"
+        },
+        "Tentacles": {
+            "name": "触手",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>该生物有数个“触手行动”，其在描述中有所详述(通常是2或4) ，每回合只能使用一次。</p>\n<p>所有触手行动合起来算作生物在该回合内可能进行的三行动<em>之一</em>，这些行动必须经由触手通过某种方式进行——通常是格斗，射击，或擒抱攻击(GM判断)。举例而言，具备四个触手行动的巨章鱼能使用一个行动进行四次攻击，同时还剩下两个行动可用。\n</p>\n<p>如果这个生物是一名不羁角色，则其如常为每个触手行动投不羁骰。</p>\n<p>如果回合内还要进行其他行动，诸如嘲弄或是施法，则这些行动以及触手行动都要如常遭受多重行动减值。</p>\n<p>以触手进行的擒抱投骰会获得+2加值，而紧勒攻击除非另有说明，否则会造成等同于生物力量的伤害。</p>\n<p>弄断一条触手需要定点打击，若伤害超过了生物的坚韧，则该肢体会遭到切断且怪物遭受动摇。若其已经动摇，则会受到一个损伤。</p>\n</div>"
+        },
+        "Tough": {
+            "name": "健硕",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<ul>\n<li><span class=\"list-heading\">健硕：</span>起始的活力从d4变成d6，活力上限也因此提升到d12+1。<strong>矮人：</strong>在决定<strong>负载</strong>(见104页)以及无减值使用护甲和装备(不含武器)时，力量骰子类型视作上升一级。这项能力与蛮勇专长叠加(如有)。</li>\n</ul>\n</div>"
+        },
+        "Trample": {
+            "name": "践踏",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>大象、犀牛等其他大型生物在直线移动至少5英寸(10码)时能践踏脚下较小的对象，这只能应用到体型至少比自身低2的对手上，其他条件见生物描述。</p>\n<p>在生物途中的任何对象必须成功回避，否则就会受到列出的伤害，而遭到践踏的对象如有可能则可以在其经过后进行攻击(见《狂野世界·探索者》的<strong>撤出近战</strong>)——除非生物具备脱身或类似能力。</p>\n</div>"
+        },
+        "Transmutation (Favored)": {
+            "name": "变化系(偏好)",
+            "category": "偏好魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>变化系</strong>：变化系会改变生物、事物以及状况的性质。<em>恶意变形</em>、<em>强化特性</em>、<em>遁地</em>、<em>暗视</em>、<em>元素操纵</em>、<em>纠缠</em>、<em>远视</em>、<em>飞行</em>、<em>放大/缩小</em>、<em>无形</em>、<em>化形</em>、<em>滞缓/加速</em>、<em>痛击</em>、<em>念动</em>、<em>时间停止</em>、<em>走壁</em>、<em>天赐勇武</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Transmutation (Opposition)": {
+            "name": "变化系(对立)",
+            "category": "对立魔法学派",
+            "description": "<div class=\"swpf-core\">\n<p>专精法师必须在@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{这里}的列表中选择一个偏好学派和两个对立学派，在施放偏好学派的法术(而非启动物品)时奥法技能投骰免费获得一次重投，但施放对立学派的法术时需要额外消耗1奇术点，且奥法技能投骰会遭受-2。法师会在他们的奇术列表中以星号标记对立法术，像这样：<em>放逐*</em>。</p>\n<p><strong>变化系</strong>：变化系会改变生物、事物以及状况的性质。<em>恶意变形</em>、<em>强化特性</em>、<em>遁地</em>、<em>暗视</em>、<em>元素操纵</em>、<em>纠缠</em>、<em>远视</em>、<em>飞行</em>、<em>放大/缩小</em>、<em>无形</em>、<em>化形</em>、<em>滞缓/加速</em>、<em>痛击</em>、<em>念动</em>、<em>时间停止</em>、<em>走壁</em>、<em>天赐勇武</em>。</p>\n<p>详见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{魔法学派}。</p>\n</div>"
+        },
+        "Travel": {
+            "name": "旅行",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>自由、解放、漫游欲</li><li><span class=\"list-heading\">神祇：</span>阿巴达尔、凯登·凯连、黛丝娜</li><li><span class=\"list-heading\">可选奇术：</span><em>偏斜</em>、<em>环境防护</em>、<em>飞行</em>、<em>无形</em>、<em>定位</em>、<em>异界传送</em>、<em>探知</em>、<em>滞缓/加速</em>、<em>通晓语言</em>、<em>传送</em></li></ul>\n</div>"
+        },
+        "Trickery": {
+            "name": "诡术",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>机会、欺骗、秘密、潜行</li><li><span class=\"list-heading\">神祇：</span>阿斯摩蒂斯、卡莉斯翠、拉玛什图、诺格巴</li><li><span class=\"list-heading\">可选奇术：</span><em>目盲</em>、<em>困惑</em>、<em>偏斜</em>、<em>侦测/隐藏奥法</em>、<em>易容</em>、<em>幻象</em>、<em>隐形</em>、<em>傀儡</em>、<em>通晓语言</em>、<em>时间停止</em></li></ul>\n</div>"
+        },
+        "Unarmed Strike": {
+            "name": "无武装打击",
+            "category": "武僧",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">无武装打击：</span>武僧进行无武装攻击时的格斗+1，穿甲+2，其能用手，脚或其他天生武器(如有这类肢体，见136页)造成力量+d4的伤害。如果武僧已经从爪抓(某些族裔可选)或搏击手专长中获得了力量伤害骰，则伤害骰子类型提升一级。武僧可以将招牌武器专长应用到自身的无武装攻击上。武僧总是视同有武装。尽管能以副手使用常规武器，但是与无武装打击相关的能力只能应用在如上定义的无武装攻击当中。武僧在获得优良时投d10作为奖励伤害。</div>"
+        },
+        "Undead": {
+            "name": "不死生物",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>行尸、骷髅以及类似的有形怪物特别难以消灭。不死生物在大多数情况下都是邪恶的，但也存在例外。以下是这些亵渎造物的优势。</p>\n<ul>\n<li>坚韧+2，从动摇中恢复的心魂投骰+2，忽略定点打击造成的额外伤害，忽略1点损伤减值，不需要呼吸和进食，免疫疾病与毒素，不会失血，忽略至多10英寸远的照明减值，只能通过魔法<em>治疗</em>。\n</li></ul></div>"
+        },
+        "Undead (Bloodline)": {
+            "name": "亡灵(血脉)",
+            "category": "血脉",
+            "description": "<div class=\"swpf-core\">><p>坟墓的污染奔涌在角色的血脉之中。获得寒冷环境抗性，化解投骰+1。 </p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士成为了真正的不死生物。获得完整的不死生物能力以及异客(主要)和丑陋(主要)负赘。即使这名角色实际上也许颇为诱人，但仍能让生者感到不安。</li></ul></div>"
+        },
+        "Undead (Type)": {
+            "name": "不死生物(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>通过某种魔法或是超自然力量重新唤起的死亡生物。</p>\n</div>"
+        },
+        "Unstoppable": {
+            "name": "势不可挡",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n\n\n<p>这种生物具备顽强的意志，魔法的保护或是巨大的外形，每次攻击最多只能对其造成一个损伤——无论这下(进行化解投骰后)通常能造成多少损伤皆是如此。</p>\n<p>若是攻击方的行动卡是鬼牌则能忽略此规则。同时根据生物描述所示，某些魔法物品或是生物弱点也许能击破势不可挡能力。</p>\n</div>"
+        },
+        "Vermin (Type)": {
+            "name": "虫类(类别)",
+            "category": "生物类别",
+            "description": "<div class=\"swpf-core\">\n<p>从昆虫到蛛形纲乃至节肢动物等任何活体无脊椎生物。</p>\n</div>"
+        },
+        "Very Resilient": {
+            "name": "非常强韧",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\"><p>某些精英龙套比起普通同类更为坚韧，这可能包括特殊培育的兽人，特别强壮的恶棍和保镖，或是格拉里昂上普通动物的巨化种和凶暴种。</p><p>强韧的龙套在陷入无力化前能承受一个损伤，非常强韧的龙套能承受两个。不羁角色无法获得强韧或非常强韧，因为该能力是为了缩小特定龙套和领头英雄/反派之间的差距。</p></div>"
+        },
+        "Wall Walker": {
+            "name": "走壁",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>某些生物具备在墙上行走的能力，其能自如地在颠倒或垂直的表面上行走。</p>\n<p>走壁生物在墙上行走的移动速度等同于其标准移速。除非特定生物描述中另有说明，否则其在走壁时能如常奔跑。</p>\n</div>"
+        },
+        "War": {
+            "name": "战争",
+            "category": "神祇与领域",
+            "description": "<div class=\"swpf-core\">\n<ul><li><span class=\"list-heading\">象征：</span>战斗、英勇、胜利</li><li><span class=\"list-heading\">神祇：</span>古拉姆、艾奥梅黛、拉瓦古格、厄加图娅</li><li><span class=\"list-heading\">可选奇术：</span><em>屏障</em>、<em>爆发</em>、<em>目盲</em>、<em>困惑</em>、<em>偏斜</em>、<em>恐惧</em>、<em>滞缓/加速</em>、<em>震慑</em>、<em>召唤盟友</em>、<em>天赐勇武</em></li></ul>\n</div>"
+        },
+        "Weakness": {
+            "name": "弱点",
+            "category": "特殊能力",
+            "description": "<div class=\"swpf-core\">\n<p>某些生物只会受到特定物质的伤害，或是在阳光或圣徽下变得虚弱，甚至于会在某些神圣遗物、稀有物件或是魔法道具的影响下立刻消亡。<strong>环境弱点</strong>(11页)以外的弱点会连带触发的特殊规则条件在此一同列出。\n</p>\n</div>"
+        },
+        "Wilderness Stride": {
+            "name": "荒野畅行",
+            "category": "游侠",
+            "description": "<div class=\"swpf-core\"><span class=\"list-heading\">荒野畅行：</span>游侠能轻易通过穿过诸如密林，崎岖山丘或沙漠之类的地形，忽略<strong>困难地形</strong>减值(见124页)。</div>"
         }
     }
 }
