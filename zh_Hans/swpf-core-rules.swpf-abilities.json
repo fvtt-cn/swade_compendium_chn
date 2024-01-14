@@ -8,7 +8,7 @@
         "Aberrant (Bloodline)": {
             "name": "异怪(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>术士的血脉遭到了奇诡异形残余的玷污。术士的奇怪形态会让坚韧+1，施放<em>矢弹</em>、<em>爆发</em>和<em>爆裂</em>法术时必须带有持续伤害奇术调整(170页)，但术士额外消耗的奇术点从2点变成1点。然后，术士的增长肢体会让触及+1，除了能在远处攻击之外，还能用于决定法术的射程或源点。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>此角色永远不会遭到突袭，而且除非遭到束缚，否则还会免疫奇袭。术士的怪异形态会让坚韧再+1。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>术士的血脉遭到了奇诡异形残余的玷污。术士的奇怪形态会让坚韧+1，施放<em>矢弹</em>、<em>爆发</em>和<em>爆裂</em>法术时必须带有持续伤害奇术调整(170页)，但术士额外消耗的奇术点从2点变成1点。然后，术士的增长肢体会让触及+1，除了能在远处攻击之外，还能用于决定法术的射程或源点。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>此角色永远不会遭到突袭，而且除非遭到束缚，否则还会免疫奇袭。术士的怪异形态会让坚韧再+1。</li></ul></div>"
         },
         "Aberration (Type)": {
             "name": "异怪(类别)",
@@ -28,7 +28,7 @@
         "Abyssal (Bloodline)": {
             "name": "深渊(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>某位恶魔在数代以前污染了角色的传承。角色获得电环境抗性，+1坚韧，以及能造成力量+d4伤害的利爪。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>深渊可以召来恶魔予以协助。召唤盟友的消耗减少2(下限为1)，且召唤出的实体会造成恐惧。术士还会获得寒冷和火焰环境抗性。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>某位恶魔在数代以前污染了角色的传承。角色获得电环境抗性，+1坚韧，以及能造成力量+d4伤害的利爪。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>深渊可以召来恶魔予以协助。召唤盟友的消耗减少2(下限为1)，且召唤出的实体会造成恐惧。术士还会获得寒冷和火焰环境抗性。</li></ul></div>"
         },
         "Adaptability": {
             "name": "适应",
@@ -63,12 +63,12 @@
         "Arcane (Bloodline)": {
             "name": "奥秘(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>术士与某一生物或物件建立了魔法联结，使用68页法师的<strong>奥法联结</strong>规则。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士与魔法的联系无比强烈，在任何施法投骰失败时免费获得一次重投。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>术士与某一生物或物件建立了魔法联结，使用68页法师的<strong>奥法联结</strong>规则。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士与魔法的联系无比强烈，在任何施法投骰失败时免费获得一次重投。</li></ul></div>"
         },
         "Arcane Background (Cleric)": {
             "name": "奥法背景(牧师)",
             "category": "牧师",
-            "description": "<div class=\"swpf-core\"><li><span class=\"list-heading\">奥法背景(牧师)</span>牧师们使用信仰作为自身的奥法技能。选取该专长的角色可获得10奇术点，且必须从50-51页的列表中选择一项所侍奉神祇的领域。所有牧师初始都会具备<em>治疗</em>奇术，以及另外两个来自可选奇术中的奇术。</li>\n<li><span class=\"list-heading\">可选奇术：</span>牧师可以选用下列奇术以及所选领域中列出的奇术：<em>放逐</em>、<em>强化/削弱特性</em>、<em>创造物品</em>、<em>暗视</em>、<em>破袪</em>，<em>预言</em>、<em>共感</em>、<em>治疗</em>、<em>光亮/黑暗</em>、<em>缓和</em>、<em>复生</em>、<em>庇护</em>、<em>沉眠</em>、<em>痛击</em>、<em>发声/沉默</em>。</li>\n</div>"
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">奥法背景(牧师)</span>牧师们使用信仰作为自身的奥法技能。选取该专长的角色可获得10奇术点，且必须从50-51页的列表中选择一项所侍奉神祇的领域。所有牧师初始都会具备<em>治疗</em>奇术，以及另外两个来自可选奇术中的奇术。</li>\n<li><span class=\"list-heading\">可选奇术：</span>牧师可以选用下列奇术以及所选领域中列出的奇术：<em>放逐</em>、<em>强化/削弱特性</em>、<em>创造物品</em>、<em>暗视</em>、<em>破袪</em>，<em>预言</em>、<em>共感</em>、<em>治疗</em>、<em>光亮/黑暗</em>、<em>缓和</em>、<em>复生</em>、<em>庇护</em>、<em>沉眠</em>、<em>痛击</em>、<em>发声/沉默</em>。</li></ul>\n</div>"
         },
         "Arcane Bond": {
             "name": "奥法联结",
@@ -163,7 +163,7 @@
         "Celestial (Bloodline)": {
             "name": "天界(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>角色的血脉得到了天界祖先或是某种神圣力量的祝福，<em>矢弹</em>，<em>爆发</em>和<em>爆裂</em>法术对邪恶生物造成的伤害+2(能与勇士叠加)，而且还会获得寒冷和酸环境抗性。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>天界术士能以一个自由行动展开或收起天使般的翅膀，展开翅膀时获得移速12的飞行。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>角色的血脉得到了天界祖先或是某种神圣力量的祝福，<em>矢弹</em>，<em>爆发</em>和<em>爆裂</em>法术对邪恶生物造成的伤害+2(能与勇士叠加)，而且还会获得寒冷和酸环境抗性。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>天界术士能以一个自由行动展开或收起天使般的翅膀，展开翅膀时获得移速12的飞行。</li></ul></div>"
         },
         "Channel Energy": {
             "name": "引导能量",
@@ -218,7 +218,7 @@
         "Destined (Bloodline)": {
             "name": "命运(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>这名角色注定要成就伟业，每回游戏额外获得1点助力点。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>该英雄每回游戏开始时额外获得2点助力点。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>这名角色注定要成就伟业，每回游戏额外获得1点助力点。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>该英雄每回游戏开始时额外获得2点助力点。</li></ul></div>"
         },
         "Destruction (Evil, Madness)": {
             "name": "毁灭(邪恶，疯狂)",
@@ -243,7 +243,7 @@
         "Draconic (Bloodline)": {
             "name": "龙脉(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>术士的家谱某处有龙类蛰伏，其后裔获得爪抓(力量+d4)，覆鳞表皮(护甲+2)，同时特效与龙类血脉相符的奇术伤害+1。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士的爪抓现在带有+2穿甲，且获得与血脉相同的环境抗性(黑龙为酸，红龙为火焰，等等)。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>术士的家谱某处有龙类蛰伏，其后裔获得爪抓(力量+d4)，覆鳞表皮(护甲+2)，同时特效与龙类血脉相符的奇术伤害+1。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士的爪抓现在带有+2穿甲，且获得与血脉相同的环境抗性(黑龙为酸，红龙为火焰，等等)。</li></ul></div>"
         },
         "Dragon (Type)": {
             "name": "龙类(类别)",
@@ -268,7 +268,7 @@
         "Elemental (Bloodline)": {
             "name": "元素(血脉)",
             "category": "血脉",
-            "description": "<ul><li><span class=\"list-heading\">气：</span>飞行，移速 6。</li><li><span class=\"list-heading\">土：</span>移速6的遁地(178页) 。</li><li><span class=\"list-heading\">火：</span>具有火焰特效的奇术伤害+2。</li><li><span class=\"list-heading\">水：</span>受角色奇术影响的敌人自动遭受妨碍(如同调整)。<li class=\"star-icon\"><span class=\"list-heading\"></span>高级形态：</span>每遭遇一次，角色能以一个行动释放元素爆发。这能造成3d6伤害，使用锥形盖板，可被回避。</li></ul>"
+            "description": "<div class=\"swpf-core\"><ul><li><span class=\"list-heading\">气：</span>飞行，移速 6。</li><li><span class=\"list-heading\">土：</span>移速6的遁地(178页) 。</li><li><span class=\"list-heading\">火：</span>具有火焰特效的奇术伤害+2。</li><li><span class=\"list-heading\">水：</span>受角色奇术影响的敌人自动遭受妨碍(如同调整)。<li class=\"star-icon\"><span class=\"list-heading\"></span>高级形态：</span>每遭遇一次，角色能以一个行动释放元素爆发。这能造成3d6伤害，使用锥形盖板，可被回避。</li></ul></div>"
         },
         "Elf": {
             "name": "精灵",
@@ -348,7 +348,7 @@
         "Fey (Bloodline)": {
             "name": "精类(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>精类那变化无常的本质闯入了术士的家系当中。术士在荒野中能忽视困难地形，并具有“欢笑之触”。若成功使用双手触碰某一目标(见140页接触攻击)，则该目标陷入分神。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>精类术士的法术对象带有持续效果，如</em>目盲<em>，</em>削弱特性<em>，</em>震慑*等等，且从中恢复的任何投骰-2。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>精类那变化无常的本质闯入了术士的家系当中。术士在荒野中能忽视困难地形，并具有“欢笑之触”。若成功使用双手触碰某一目标(见140页接触攻击)，则该目标陷入分神。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>精类术士的法术对象带有持续效果，如</em>目盲<em>，</em>削弱特性<em>，</em>震慑*等等，且从中恢复的任何投骰-2。</li></ul></div>"
         },
         "Fey (Type)": {
             "name": "精类(类别)",
@@ -443,7 +443,7 @@
         "Infernal (Bloodline)": {
             "name": "炼狱(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>某名血亲在远古时与黑暗力量进行了交易。这名角色获得火焰环境抗性，免疫毒素，任何具有火焰特效的攻性奇术伤害+1。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>地狱术士以一个自由行动长出或收起巨大的蝠翼，蝠翼能赋予移速12的飞行。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>某名血亲在远古时与黑暗力量进行了交易。这名角色获得火焰环境抗性，免疫毒素，任何具有火焰特效的攻性奇术伤害+1。</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>地狱术士以一个自由行动长出或收起巨大的蝠翼，蝠翼能赋予移速12的飞行。</li></ul></div>"
         },
         "Innate Powers": {
             "name": "内生奇术",
@@ -778,7 +778,7 @@
         "Undead (Bloodline)": {
             "name": "亡灵(血脉)",
             "category": "血脉",
-            "description": "<div class=\"swpf-core\">><p>坟墓的污染奔涌在角色的血脉之中。获得寒冷环境抗性，化解投骰+1。 </p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士成为了真正的不死生物。获得完整的不死生物能力以及异客(主要)和丑陋(主要)负赘。即使这名角色实际上也许颇为诱人，但仍能让生者感到不安。</li></ul></div>"
+            "description": "<div class=\"swpf-core\"><p>坟墓的污染奔涌在角色的血脉之中。获得寒冷环境抗性，化解投骰+1。 </p><ul><li class=\"star-icon\"><span class=\"list-heading\">高级形态：</span>术士成为了真正的不死生物。获得完整的不死生物能力以及异客(主要)和丑陋(主要)负赘。即使这名角色实际上也许颇为诱人，但仍能让生者感到不安。</li></ul></div>"
         },
         "Undead (Type)": {
             "name": "不死生物(类别)",
