@@ -1,0 +1,190 @@
+{
+    "label": "Bestiary",
+    "entries": {
+        "Airship (Dirigible)": {
+            "name": "Airship (Dirigible)"
+        },
+        "Alchemical Dragon": {
+            "name": "Alchemical Dragon"
+        },
+        "Alligator/crocodile": {
+            "name": "Alligator/crocodile",
+            "description": "<div class=\"swade-core\">\n<h3 class=\"bold\">Description:</h3>\n<p class=\"savagedus-bio\">Alligators and crocodiles lurk in the wetlands of Golarion, usually freshwater but sometimes in brackish or saltwater. The statistics here represent an average specimen of either species. Much larger versions are often found in more remote areas. Type: Neutral Animal (Alligator/Crocodile) Attributes: Agility d6, Smarts d4 (A), Spirit d6, Strength d10, Vigor d8</p>\n</div>"
+        },
+        "Amiri": {
+            "name": "Amiri",
+            "description": "<p>Fiery of heart and fierce in battle, Amiri demands respect. Those who offend the barbarian soon learn the wrath of her blood rage. She wields an over-sized bastard sword, her mostprized possession, won from a frost giant years ago. Other than this, Amiri shows no interest in material belongings. She spends freely whenever chance provides, embracing life in the moment and expecting a noble death with the dawn of every day.</p>"
+        },
+        "Bear": {
+            "name": "熊 BEAR",
+            "description": "<div class=\"swpf-core\">\n<p>这个条目涵盖了诸如灰熊、黑熊和北极熊等凶猛的大型熊类。所有这些熊类的偏好战术都是擒抱住猎物后再用致命的尖牙加以啃咬。</p>\n<p><strong>类别</strong>：中立动物(熊)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d8，力量d12，活力d10</p>\n<p><strong>技能</strong>：运动d6，格斗d8，威吓d6，察觉d8，潜行d6</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：6；<strong>坚韧</strong>：11(2)</p>\n<p><strong>专长</strong>：蛮勇</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：厚实外皮</li>\n<li><strong>噬咬/爪抓</strong>：力量+d6，穿甲2。</li>\n<li><strong>擒抱</strong>：若是熊的爪抓攻击造成动摇或是损伤，则其能马上以一个自由行动尝试对其进行擒抱(+2)。</li>\n<li><strong>微光视觉</strong>：熊忽略昏暗与黑暗的照明减值。</li>\n<li><strong>体型2</strong>：这种生物站起来足有8英尺高，重量能超过1000磅。</li>\n</ul>\n</div>"
+        },
+        "Bird Of Prey": {
+            "name": "Bird Of Prey",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers eagles, hawks, and similar large birds of prey, collectively termed \"raptors.\" Their talons and hooked-beaks can rip through flesh with ease. These nocturnal or diurnal hunters sometimes serve humanoid masters on Golarion. They prefer to seize and carry off smaller quarry, although some are known to attack livestock. Type: Neutral Animal (Bird of Prey)</p></div>"
+        },
+        "Boar": {
+            "name": "野猪 BOAR",
+            "description": "<div class=\"swpf-core\">\n<p>这个条目涵盖了各种各样的野生猪类，其通常只有在发情期或是自卫时才会变得颇为危险。特定的类人生物有时候会将这些杂食动物作为护卫，战兽或是处理垃圾的牲口。</p>\n<p><strong>类别</strong>：中立动物(野猪)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d8，力量d10，活力d8</p>\n<p><strong>技能</strong>：运动d6，格斗d6，察觉d6</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：5；<strong>坚韧</strong>：7(1)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+1</strong>：厚实外皮</li>\n<li><strong>微光视觉</strong>：野猪忽略昏暗与黑暗的照明减值。</li>\n<li><strong>顽强</strong>：另一次造成动摇的结果不会对野猪造成损伤。</li>\n<li><strong>獠牙</strong>：力量+d4(视作角撞)。</li>\n</ul>\n</div>"
+        },
+        "Carriage": {
+            "name": "Carriage"
+        },
+        "Cart": {
+            "name": "Cart"
+        },
+        "Cat, Large": {
+            "name": "Cat, Large",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers a variety of big cats, from mountain lions, to leopards, and cheetahs. Type: Neutral Animal (Cat, Large)</p></div>"
+        },
+        "Cat, Small": {
+            "name": "Cat, Small",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This is an ordinary house cat, the sort that might be a familiar for a spellcaster, a Beast Master's animal friend, or an alternate form for the shape change power. Type: Neutral Animal (Cat, Small)</p></div>"
+        },
+        "Dog/wolf": {
+            "name": "Dog/wolf",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">The stats below are for large attack dogs, as well as wolves, hyenas, and the like. Type: Neutral Animal (Dog/Wolf)</p></div>"
+        },
+        "Experienced Soldier": {
+            "name": "Experienced Soldier",
+            "description": ""
+        },
+        "Ezren": {
+            "name": "Ezren",
+            "description": ""
+        },
+        "Galley": {
+            "name": "Galley"
+        },
+        "Glider": {
+            "name": "Glider"
+        },
+        "Harsk": {
+            "name": "Harsk",
+            "description": ""
+        },
+        "Horse, Heavy": {
+            "name": "Horse, Heavy",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">These beasts are meant for labor or carrying heavy riders. The smaller \"pony\" version is Size 2, Strength d10, and Vigor d8. If trained for combat, increase Fighting to d6. Type: Neutral Animal (Horse, Heavy)</p></div>"
+        },
+        "Horse, Light": {
+            "name": "Horse, Light",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">Riding horses compromise speed with carrying capacity. The smaller \"pony\" version is Size 1 and Strength d10. If trained for combat, increase Fighting to d6. Type: Neutral Animal (Horse, Light)</p></div>"
+        },
+        "Keelboat": {
+            "name": "Keelboat"
+        },
+        "Kyra": {
+            "name": "Kyra",
+            "description": ""
+        },
+        "Lem": {
+            "name": "Lem",
+            "description": ""
+        },
+        "Lini": {
+            "name": "Lini",
+            "description": ""
+        },
+        "Lion": {
+            "name": "狮子 LION",
+            "description": "<div class=\"swpf-core\">\n<p>这些丛林王者乃是凶猛的掠食者，在猎物没法找到任何掩护的开阔草原上则更是如此。</p>\n<p><strong>类别</strong>：中立动物(狮子)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d6(A)，心魂d10，力量d12，活力d8</p>\n<p><strong>技能</strong>：运动d10，格斗d8，威吓d6，察觉d8，潜行d10</p>\n<p><strong>移速</strong>：8；<strong>格挡</strong>：6；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：精通连击</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d6，穿甲2。</li>\n<li><strong>微光视觉</strong>：狮子忽略昏暗与黑暗照明减值。</li>\n<li><strong>猛扑</strong>：狮子会最大限度地利用自身体重和利爪来袭击猎物。若是狮子进行不羁攻击，其增加的伤害从+2变成+4。</li>\n<li><strong>体型1</strong>：雄狮通常约有400磅重。</li>\n</ul>\n</div>"
+        },
+        "Longship": {
+            "name": "Longship"
+        },
+        "Merisiel": {
+            "name": "Merisiel",
+            "description": ""
+        },
+        "Mule": {
+            "name": "骡 MULE",
+            "description": "<div class=\"swpf-core\">\n<p>骡是驴和马的杂交，其通常用来驮重货或拉车。和任何有趣的宠物一样，GM应当表现出一点点骡子的个性，而首先想到的莫过于“倔得像头骡”。</p>\n<p><strong>类别</strong>：中立动物(骡)</p>\n<p><strong>属性</strong>：灵巧d4，聪慧d4(A)，心魂d6，力量d8，活力d8</p>\n<p><strong>技能</strong>：运动d4，察觉d4</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：2；<strong>坚韧</strong>：8</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>踢击</strong>：力量。</li>\n<li><strong>犟脾气</strong>：骡子是倔强的生物，角色在骑乘骡子时，骑乘投骰必须-1。</li>\n<li><strong>体型2</strong>：骡子矮壮结实，体重通常不超过1000磅。</li>\n</ul>\n</div>"
+        },
+        "Rowboat": {
+            "name": "Rowboat"
+        },
+        "Sailing Ship": {
+            "name": "Sailing Ship"
+        },
+        "Sailing Sloop": {
+            "name": "Sailing Sloop"
+        },
+        "Sajan": {
+            "name": "Sajan",
+            "description": ""
+        },
+        "Seelah": {
+            "name": "Seelah",
+            "description": ""
+        },
+        "Seoni": {
+            "name": "Seoni",
+            "description": ""
+        },
+        "Shark": {
+            "name": "鲨鱼 SHARK",
+            "description": "<div class=\"swpf-core\">\n<p>格拉里昂的大海中遨游着诸如牛鲨这种危险掠食者以及近似的鱼类。</p>\n<p><strong>类别</strong>：中立动物(鲨鱼)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d6，力量d8(牛鲨为d10)，活力d8</p>\n<p><strong>技能</strong>：运动d8，格斗d8，察觉d12，潜行d8</p>\n<p><strong>移速</strong>：-；<strong>格挡</strong>：6；<strong>坚韧</strong>：8(1)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+1</strong>：结实外皮。</li>\n<li><strong>水栖</strong>：移速10。</li>\n<li><strong>噬咬</strong>：力量+d6，穿甲2。</li>\n<li><strong>体型1</strong>：鲨鱼体重可达500磅。</li>\n</ul>\n</div>"
+        },
+        "Skeleton, Human": {
+            "name": "Skeleton, Human",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile works for most man-sized humanoid skeletons. Sometimes, these undead have weapons and armor. Type: Evil Undead (Skeleton)</p></div>"
+        },
+        "Sled": {
+            "name": "Sled"
+        },
+        "Snake, Constrictor": {
+            "name": "Snake, Constrictor",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">Pythons, boa constrictors, and other snakes over 15′ long are rarely deadly to man in the real world because they aren't particularly aggressive. On Golarion, however, such snakes might be guardians, familiars, or just plain carnivorous hunters. Type: Neutral Animal (Constrictors)</p></div>"
+        },
+        "Snake, Venomous": {
+            "name": "Snake, Venomous",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">These stats cover a variety of medium-sized snakes with extremely deadly poison. Such venomous snakes usually live solitary lives, although it's possible to stumble into a nest of poisonous vipers. Type: Neutral Animal (Venomous)</p></div>"
+        },
+        "Soldier": {
+            "name": "Soldier",
+            "description": ""
+        },
+        "Summon Ally: Attendant": {
+            "name": "Summon Ally: Attendant",
+            "description": "<div class=\"swpf-core\">\n<p><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Claws]{Claw}:</strong> Str+d4.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Construct]{Construct}:</strong> +2 to recover from being Shaken; ignore 1 point of Wound penalties; doesn&rsquo;t breathe, immune to poison and disease.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Fearless]{Fearless}:</strong> Immune to fear and Intimidation.</li>\n</ul>\n</div>"
+        },
+        "Summon Ally: Bodyguard": {
+            "name": "Summon Ally: Bodyguard",
+            "description": "<div class=\"swpf-core\">\n<p><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Armor]{Armor} +2:</strong> Hardened skin.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Construct]{Construct}:</strong> See Attendant.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Fearless]{Fearless}:</strong> Immune to fear and Intimidation.</li>\n</ul>\n</div>"
+        },
+        "Summon Ally: Sentinel": {
+            "name": "Summon Ally: Sentinel",
+            "description": "<div class=\"swpf-core\">\n<p><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Armor]{Armor} +4:</strong> Stone skin.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Construct]{Construct}:</strong> See Attendant.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Fearless]{Fearless}:</strong> Immune to fear and Intimidation.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Size]{Size} 2:</strong> Sentinels are 8<em>&rsquo;</em> tall and very dense.</li>\n</ul>\n</div>"
+        },
+        "Swarm": {
+            "name": "集群 SWARM",
+            "description": "<div class=\"swpf-core\">\n<p>有时最致命的敌人可能是一大堆群聚的小东西，此处所述的集群可以是任何存在：咬人的蚂蚁，蜇人的黄蜂乃至于肮脏的老鼠。集群的占据面积如同大型、中型或是小型爆发盖板，其每轮都能攻击身处其中的所有对象。集群在陷入无力化时就会分崩离析。\n   </p>\n<p>集群仅有进行移动和叮蛰的智力，因而其应该不能进行多重行动或考验等等。</p>\n<p><strong>类别</strong>：中立动物或虫类(集群)</p>\n<p><strong>属性</strong>：灵巧d10，聪慧d4(A)，心魂d12，力量d8，活力d10</p>\n<p><strong>技能</strong>：察觉d6</p>\n<p><strong>移速</strong>：10；<strong>格挡</strong>：4；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li>\n<strong>叮蛰</strong>：集群每轮会造成不计其数的细小叮蛰，其自动命中(除非遭受动摇)，且在集群的回合结束时对每个身处盖板内的对象造成2d4伤害。伤害会作用在护甲最薄弱的部位(但若穿着全封闭式的衣装则能对此免疫)。\n      </li>\n<li><strong>分裂</strong>：某些集群会在受到损伤后会分裂成两个更小的集群(取决于GM)。在受到损伤时将集群的爆发盖板的大小下降一级，已经是小型的集群则会遭到消灭。</li>\n<li>\n<strong>集群</strong>：从动摇中恢复+2，格挡+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。范围效果武器能如常生效，角色也能在每轮通过踩踏造成等同于力量的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。\n      </li>\n</ul>\n</div>"
+        },
+        "Town/City Guard": {
+            "name": "Town/City Guard",
+            "description": "<div class=\"swade-core\">\n<h3 class=\"bold\">Description:</h3>\n<p class=\"savagedus-bio\">These are everyday regular town or city patrols. Type: Any Humanoid (Human)</p>\n</div>"
+        },
+        "Townsfolk": {
+            "name": "Townsfolk",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers everything from farmers, to merchants, and artisans. They are everyday folks, not soldiers or town guards. Their attributes and skills may vary as needed. For example, artisans probably have Repair d6, while a stableboy probably has Riding d4. Their gear represents only what might be in hand whenever any unplanned combat takes place. Townsfolk rarely wear armor. Type: Any Humanoid (Human)</p></div>"
+        },
+        "Valeros": {
+            "name": "Valeros",
+            "description": ""
+        },
+        "Wagon, Heavy": {
+            "name": "Wagon, Heavy"
+        },
+        "Wagon, Light": {
+            "name": "Wagon, Light"
+        },
+        "Warship (Galleon)": {
+            "name": "Warship (Galleon)"
+        },
+        "Zombie, Human": {
+            "name": "Zombie, Human",
+            "description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers most any man-sized humanoid zombie. Type: Evil Undead (Zombie)</p></div>"
+        }
+    }
+}

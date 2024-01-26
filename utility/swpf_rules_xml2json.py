@@ -21,18 +21,20 @@ def extract_data(html_file, json_file):
     # 读取JSON文件
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
-
+    entryelem = soup.find('h1')
+    entry = title_case(entryelem['id'].strip().replace('-', ' '), ['in','of','the', 'and'])
     entries = data.get("entries", {})
-    for element in soup.find_all('h3'):
+    for element in soup.find_all('h2'):
         id_str = element['id']
         id = title_case(id_str.strip().replace('-', ' '), ['in','of','the', 'and'])
 
         # 查找相应的对象并处理<div>块
-        target_obj = entries.get(id)
+        target_obj = entries[entry]['pages'].get(id)
+        entries[entry]['name'] = entryelem.text.strip()
         if target_obj is not None:
             div_element = element.find_next_sibling('div', class_='swpf-core')
             if div_element is not None:
-                target_obj['description'] = str(div_element)
+                target_obj['text'] = str(div_element)
                 target_obj['name'] = element.text.strip()
     # 更新JSON文件中的entries字段
     data['entries'] = entries
