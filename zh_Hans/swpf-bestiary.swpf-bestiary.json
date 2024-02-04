@@ -58,8 +58,8 @@
             "description": "<div class=\"swpf-core\">\n<p>四足的犬魔很可能与格拉里昂上的地精有所关系，这种邪恶的混种在自然形态下类似于狼与地精的杂交产物——而且其还能变成两者中的任一形态。</p>\n<p>犬魔会前往物质位面并以凡生的血肉和灵魂为食——尤其是类人生物，与拉玛什图(Lamashtu)有所关联的它们经常会与这名女神的信众沆瀣一气。</p>\n<p><strong>类别</strong>：邪恶异界生物(犬魔)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d6，心魂d8，力量d10，活力d8</p>\n<p><strong>技能</strong>：运动d8，通用知识d6，格斗d8，威吓d8，察觉d8，施法d6，潜行d8，生存d6</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：6；<strong>坚韧</strong>：9(3)</p>\n<p><strong>专长</strong>：奥法背景(魔法)，先发制人</p>\n<p><strong>奇术</strong>：<em>偏斜</em>，<em>傀儡</em>，<em>传送</em>；<strong>奇术点</strong>：10</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+3</strong>：炼狱表皮</li>\n<li><strong>噬咬/爪抓</strong>：力量+d6。</li>\n<li><strong>黑暗视觉</strong>：犬魔忽略至多10英寸远的照明减值。</li>\n<li><strong>顽强</strong>：另一次造成动摇的结果不会对其造成损伤。</li>\n<li><strong>内生奇术</strong>：次级<em>飞行</em>(仅能上下漂浮)，次级<em>化形</em>(地精或是狼)\n<strong>语言</strong>：通用语，地精语，炼狱语\n</li>\n</ul>\n</div>"
         },
         "Barghest, greater": {
-            "name": "Barghest, greater",
-            "description": "<div class=\"swpf-core\">\n<p>Having consumed enough flesh and souls, a few barghest return to the Abysswhere they transform into greater barghests. Even fewer return to the material plan to feast yet again.</p>\n</div>"
+            "name": "大犬魔 BARGHEST, GREATER",
+            "description": "<div class=\"swpf-core\">\n         <p>在吞噬了足够多的血肉和灵魂后，部分犬魔会回归深渊并在那里蜕变成大犬魔，而重返物质位面进行觅食的则寥寥无几。</p>\n         <p><strong>类别</strong>：邪恶异界生物(大犬魔)</p>\n         <p><strong>属性</strong>：灵巧d8，聪慧d10，心魂d10，力量d12+1，活力d10</p>\n         <p><strong>技能</strong>：运动d10，通用知识d6，格斗d10，威吓d8，察觉d8，交涉d8，施法d8，潜行d6，生存d8</p>\n         <p><strong>移速</strong>：7；<strong>格挡</strong>：7；<strong>坚韧</strong>：12(4)</p>\n         <p><strong>专长</strong>：奥法背景(魔法)，先发制人，连击</p>\n         <p><strong>奇术</strong>：<em>强化特性</em>，<em>偏斜</em>，<em>放大</em>，<em>傀儡</em>，<em>传送</em>；<strong>奇术点</strong>：15\n         </p>\n         <p><strong>特殊能力</strong>：</p>\n         <ul>\n            <li><strong>护甲+4</strong>：炼狱表皮</li>\n            <li><strong>噬咬/爪抓</strong>：力量+d8，穿甲2。</li>\n            <li><strong>黑暗视觉</strong>：大犬魔忽略至多10英寸远的照明减值。</li>\n            <li><strong>环境弱点</strong>：魔法武器</li>\n            <li><strong>顽强</strong>：另一次造成动摇的结果不会对大犬魔造成损伤。</li>\n            <li><strong>内生奇术</strong>：次级<em>飞行</em>(仅能上下漂浮)，次级<em>隐形</em>，次级<em>化形</em>(地精或是狼)</li>\n            <li><strong>体型1</strong>：大犬魔是平均重达400磅的巨大生物。\n               <strong>语言</strong>：通用语，地精语，炼狱语\n            </li>\n         </ul>\n      </div>"
         },
         "Basilisk": {
             "name": "石化蜥蜴 BASILISK",
@@ -94,7 +94,7 @@
             "description": "<div class=\"swpf-core\">\n<p>如同黑龙，但进行以下升级：</p>\n<p><strong>类别</strong>：邪恶龙类(黑龙)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d8，通用知识d4，格斗d6，威吓d6，察觉d6，交涉d4，潜行d12</p>\n<p><strong>移速</strong>：9；<strong>格挡</strong>：5；<strong>坚韧</strong>：6(2)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>吐息武器(酸)</strong>：直线盖板，伤害2d6，可在水下吐息。</li>\n<li><strong>护甲+2</strong>：覆鳞表皮</li>\n<li><strong>噬咬/爪抓</strong>：力量+d6。</li>\n<li><strong>飞行</strong>：移速12</li>\n<li><strong>强韧</strong>：雏龙在陷入无力化前能承受一个损伤。</li>\n<li><strong>体型-1</strong>：雏龙是小巧的生物\n<strong>语言</strong>：龙语\n</li>\n</ul>\n</div>"
         },
         "Black pudding": {
-            "name": "Black pudding",
+            "name": "黑布丁怪 BLACK PUDDING",
             "description": "<div class=\"swpf-core\"><p>\nSomewhat common on Golarion, these dreaded oozes inhabit caves and tunnelsfrom Varisia to the Darklands. They scavenge for organic material, consumingall manner of refuse but also attacking creatures—especially creatures thatpossess metallic substances.\n</p>\n<p>\nBlack pudding can reproduce by breaking off pieces of themselves, which growover a month’s time into a full-sized creature. They appear as dark,amorphous blobs but can alter their shape to fit into tight spaces, and toattack with their ability to envelop an opponent.\n</p></div>"
         },
         "Blue Dragon": {
@@ -154,7 +154,7 @@
             "description": "<div class=\"swpf-core\">\n<p>这种危险的沿海掠食者外表像是海豹，但其长着鱼鳍，同时大嘴里面满是一排排鲨鱼般的利齿。这种猎手倾向于在领土内活动，它们偏好于潜伏在岸线附近，而且无论在淡水抑或咸水当中都能繁衍生息。</p>\n<p><strong>类别</strong>：中立魔法兽(鲨海豹)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d8，格斗d8，察觉d6，潜行d8</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：6；<strong>坚韧</strong>：6(1)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+1</strong>：皮糙肉厚</li>\n<li><strong>水栖</strong>：移速6</li>\n<li><strong>噬咬</strong>：力量+d6，穿甲2。</li>\n<li><strong>暗夜视觉</strong>：鲨海豹忽略所有照明减值。</li>\n<li><strong>狂暴</strong>：如同《狂野世界·探索者》当中的野蛮人职业专长。</li>\n<li>\n<strong>撕裂</strong>：因为噬咬攻击而遭受动摇或是损伤的任何对象都会开始大量出血，其下回合开始时必须进行一次活力投骰。失败则对象会受到一个损伤，成功能避免受到损伤，但对象在下回合时必须再次进行投骰。只有获得优良或是成功的治疗才能停止出血。\n</li>\n<li><strong>强韧</strong>：鲨海豹能在陷入无力化前承受一个损伤。</li>\n<li><strong>咆哮</strong>：鲨海豹能以一个自由行动进行咆哮，所有听到咆哮的对象必须成功通过一次心魂投骰，否则就会陷入动摇。</li>\n</ul>\n</div>"
         },
         "Captain of the guard": {
-            "name": "Captain of the guard",
+            "name": "守卫队长 CAPTAIN OF THE GUARD",
             "description": "<div class=\"swpf-core\"><p>\nThese stats represent a typical leader of guardsmen, with the Fighter ClassEdge.\n</p></div>"
         },
         "Cat, Large": {
@@ -226,7 +226,7 @@
             "description": "<div class=\"swpf-core\">\n<p>死网蛛骸是一只巨大蜘蛛的外壳，里面住着成千上万的活蜘蛛，每一只都是大小不一的普通蜘蛛。聚在一起的它们构筑起了某种不死生物群集意识。这头巨大蜘蛛的外骨骼里里外外都爬满了蜘蛛，后者一同协力编织复杂的蛛网以及捕捉猎物，同时群集的侵染能力足以对任何敌人造成威胁。\n</p>\n<p>死网蛛骸会在隧道、洞窟或是茂密的森林当中筑巢——只要能编织陷阱捕获猎物以此喂养声势浩大的蛛群，任何地方都可以安家。</p>\n<p><strong>类别</strong>：中立不死生物(死网蛛骸)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d8，力量d12+2，活力d10</p>\n<p><strong>技能</strong>：运动d8，格斗d8，察觉d8，潜行d8</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：6；<strong>坚韧</strong>：11(2)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：不死生物外骨骼</li>\n<li><strong>噬咬</strong>：力量+d6，穿甲2。</li>\n<li><strong>黑暗视觉</strong>：死网蛛骸忽略至多10英寸远的照明减值。</li>\n<li><strong>侵染</strong>：一大群毒蜘蛛在这具外骨骼的底下筑巢，其会环绕在死网蛛骸周边中型爆发盖板的范围之内。位于该区域的任何对象在其回合开始时必须进行回避，否则就会受到2d6伤害。</li>\n<li><strong>毒素(-1)</strong>：死网蛛骸的噬咬会注入致命毒素。</li>\n<li><strong>体型2</strong>：这具外骨骼足有10英尺长。</li>\n</ul>\n</div>"
         },
         "Dog/Wolf": {
-            "name": "Dog/Wolf",
+            "name": "狗/狼",
             "description": "<div class=\"swpf-core\"><p>\nThe stats below are for large attack dogs, as well as wolves, hyenas, andthe like.\n</p></div>"
         },
         "Doppelganger": {
@@ -338,7 +338,7 @@
             "description": "<div class=\"swpf-core\">\n<p>如同可怖石雕一般的石像鬼乃是耐心的长翼掠食者，这些邪恶的生物经常栖息在天然岩层或是人造石建筑的高处——两边对其而言都如鱼得水。除了最为敏锐的观察者之外，它们在一动不动时足以骗过所有人的耳目。虽然石像鬼不需要进食，但其经常出于莫名的理由猎杀捕食。从瓦瑞西亚(Varisia)到阿维斯坦(Avistan)乃至各个大陆上都有石像鬼出没，它们会在荒郊野外和具有石质建筑的城市当中安家。\n</p>\n<p><strong>类别</strong>：邪恶人形怪物(石像鬼)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d8，活力d8</p>\n<p><strong>技能</strong>：运动d8，格斗d6，察觉d6，潜行d8</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：5；<strong>坚韧</strong>：10(4)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+4</strong>：石质躯体</li>\n<li><strong>伪装</strong>：石像鬼与天然石材浑然一体，其在合适环境当中的潜行投骰+4。</li>\n<li><strong>黑暗视觉</strong>：石像鬼忽略至多10英寸远的照明减值。</li>\n<li><strong>环境弱点</strong>：魔法武器</li>\n<li><strong>飞行</strong>：移速9\n<strong>语言</strong>：通用语\n</li>\n</ul>\n</div>"
         },
         "Gelatinous cube": {
-            "name": "Gelatinous cube",
+            "name": "胶质怪 GELATINOUS CUBE",
             "description": "<div class=\"swpf-core\"><p>\nThese mindless predators and scavengers roam the Darklands. They consume anyorganic material. Sometimes materials they can’t digest—such as metal orstone—remain inside the cube. This includes the possessions of past humanoidvictims.\n</p>\n<p>\nThe large cubes of ooze are usually 3-4 yards per side, although they areknown to grow larger and their shape is malleable as they move throughtunnels and caverns.\n</p>\n<p>\nScholars debate the origin of the creatures. Wealthy and powerful people goto great lengths to capture and use them as guardians.\n</p></div>"
         },
         "Ghast": {
@@ -502,11 +502,11 @@
             "description": "<div class=\"swpf-core\">\n<p>大地精乃是更为高大的地精表亲，其体型与人类相仿。这些生物和较小亲族的不同在于重视社会结构及组织，其有着严格的行为规范、传统的过渡礼仪与部族法规。大多数大地精生活在荒野当中的军事化社群内，其偏好安居在丘陵地带，尤以阿维斯坦(Avistan)，安多安(Andoran)和天夏(Tianxia)为甚。由于战争是大地精主要的生存手段，因而士兵在所有大地精据点当中都享有很高的地位。这些生物会袭击并掠夺附近的聚居地，除了带走战利品之外还经常抓捕奴隶。\n</p>\n<p><strong>类别</strong>：邪恶类人生物(大地精)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d6，心魂d6，力量d8，活力d8</p>\n<p><strong>技能</strong>：运动d6，通用知识d6，格斗d6，察觉d6，交涉d4，射击d6，潜行d6</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：8(2)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>装备</strong>：长剑(力量+d8)，标枪(2)(射程4/8/16，伤害为力量+d6)，皮甲(+2)</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>黑暗视觉</strong>：大地精忽略至多10英寸远的照明减值。\n<strong>语言</strong>：通用语，地精语\n</li>\n</ul>\n</div>"
         },
         "Horse, Heavy": {
-            "name": "Horse, Heavy",
+            "name": "重型马",
             "description": "<div class=\"swpf-core\"><p>\nThese beasts are meant for labor or carrying heavy riders. The smaller\"pony\" version is Size 2, Strength d10, and Vigor d8.\n</p>\n<p>\nIf trained for combat, increase Fighting to d6.\n</p></div>"
         },
         "Horse, Light": {
-            "name": "Horse, Light",
+            "name": "轻型马",
             "description": "<div class=\"swpf-core\"><p>\nRiding horses compromise speed with carrying capacity. The smaller\"pony\" version is Size 1 and Strength d10.\n</p>\n<p>\nIf trained for combat, increase Fighting to d6.\n</p></div>"
         },
         "Hound Archon": {
@@ -638,8 +638,8 @@
             "description": "<div class=\"swpf-core\">\n<p>食人魔这种秽恶的生物以残忍与恶毒而为人所知，其具有粗长的手臂，肌肉虬结的躯干，对于高大外形而言似乎过于短小的粗腿，以及由细小眼睛和饕餮大嘴构成的可憎面貌。这些巨大生物以部落形式栖息在格拉里昂的山脉洞穴当中。食人魔身高超过10英尺，体重约为650磅，它们在化外之地更为常见，尤以瓦瑞西亚(Varisia)和阿维斯坦(Avistan)的荒野为甚。食人魔部落视力量、繁殖和狩猎造诣高于一切。许多食人魔社会都崇拜拉玛什图(Lamashtu)。\n</p>\n<p><strong>类别</strong>：邪恶类人生物(食人魔)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d12，活力d8</p>\n<p><strong>技能</strong>：运动d6，通用知识d4，格斗d8，威吓d8，察觉d6，交涉d4，潜行d4</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：6；<strong>坚韧</strong>：10(2)</p>\n<p><strong>负赘</strong>：刻薄</p>\n<p><strong>专长</strong>：连击</p>\n<p><strong>装备</strong>：巨连枷(力量+d8，忽略盾牌)，厚皮甲背心(+2)，标枪(射程3/6/12，伤害为力量+d6)</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>族裔(食人魔)</strong>：凶神恶煞，暗夜视觉，强韧，体型2。\n<strong>语言</strong>：巨人语。\n</li>\n</ul>\n</div>"
         },
         "Ogre Mage, Oni": {
-            "name": "Ogre Mage, Oni",
-            "description": "<div class=\"swpf-core\">\n<p>Although these evil outsiders usually manifest in the form of an ogre, theyare truly fiendish spirits with powerful magical abilities. They often takecommand of ogre tribes, pressing the brutes into servitude. They are alsoknown to subjugate other humanoid settlements, ruling without mercy anddemanding all manners of tribute.</p>\n<p>Whatever the reason for leaving the lower planes, an ogre mage indulges itsdestructive lusts while on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane}. They gravitate to Inner Searegion, wreaking havoc from Tian Xia to Cheliax. They usually have ornatearmor and weapons, forged at the expense of whatever society they havecommandeered.</p>\n</div>"
+            "name": "恶鬼食人魔法师 OGRE MAGE, ONI",
+            "description": "<div class=\"swpf-core\">\n         <p>尽管这些邪恶的异界生物经常以食人魔的形式显现，但其实际上是具有强大魔法能力的魔族精魂，它们经常统御着食人魔部落以强迫这些蛮族成为奴隶，已知其也会去征服别的类人生物聚居地，在无情统治的同时索取各种各样的贡品。无论离开下层位面的原因为何，物质位面的食人魔法师都会大肆放纵其破坏欲望，它们被吸引到了内海地区，并从天夏(Tian\n            Xia)一直把浩劫带到了切利亚斯(Cheliax)。食人魔法师那华丽的护甲与武器都是通过榨取强占的各个社会才得以打造。</p>\n         <p><strong>类别</strong>：邪恶异界生物(恶鬼食人魔法师)</p>\n         <p><strong>属性</strong>：灵巧d8，聪慧d6，心魂d8，力量d12+1，活力d12+1</p>\n         <p><strong>技能</strong>：运动d6，通用知识d6，格斗d8，威吓d8，察觉d8，神秘学d6，交涉d6，施法d8，潜行d6</p>\n         <p><strong>移速</strong>：7；<strong>格挡</strong>：6；<strong>坚韧</strong>：14(4)</p>\n         <p><strong>专长</strong>：奥法背景(魔法)，奥法抗性，连击</p>\n         <p><strong>奇术</strong>：<em>无形</em>，<em>傀儡</em>；<strong>奇术点</strong>：10</p>\n         <p><strong>装备</strong>：巨剑(力量+d10，穿甲2)，复合长弓(射程12/24/48，力量+d8，穿甲1)，锁甲衫(+3)</p>\n         <p><strong>特殊能力</strong>：</p>\n         <ul>\n            <li><strong>护甲+1</strong>：厚实外皮。</li>\n            <li><strong>化形</strong>：这种生物能以一个限定行动进行一次施法投骰来变成任一体型在-2到4之间的类人生物，变回来也需要一次投骰。</li>\n            <li><strong>飞行</strong>：移速10。</li>\n            <li><strong>顽强</strong>：这种生物遭受另一次动摇时不会受到损伤。</li>\n            <li><strong>内生奇术</strong>：高级<em>黑暗</em>，次级<em>隐形</em>(仅限自身)。</li>\n            <li><strong>暗夜视觉</strong>：食人魔法师忽略所有照明减值。</li>\n            <li><strong>强韧</strong>：食人魔法师在陷入无力化前能承受一个损伤。</li>\n            <li><strong>体型2</strong>：食人魔法师直立约9英尺高，体重约有1000磅。\n               <strong>语言</strong>：通用语，巨人语。\n            </li>\n         </ul>\n      </div>"
         },
         "Ogre Spider": {
             "name": "食人魔蛛 OGRE SPIDER",
@@ -650,15 +650,15 @@
             "description": "<div class=\"swpf-core\">\n<p>兽人乃是残忍的绿皮类人生物，其具有猪一般的特征：吻部、长牙，有时候还有着獠牙。他们的双眼明亮锐利，体格也稍比大部分人类略胜一筹。兽人是重视力量和战斗能力的部落生物，其社会往往由能慑服弱者的最强战士所主宰。兽人战帮会袭击任何邻近的社群——甚至包括其他兽人的聚居地。脾气暴躁的他们鲜少会留俘虏。大多数兽人崇拜拉瓦古格(Rovagug)，但也有一些家伙会敬奉诸如拉玛什图(Lamashtu)之类的其他神祇，其栖息在格拉里昂上的各个地区，常住于幽暗地域(Darklands)。\n</p>\n<p><strong>类别</strong>：邪恶类人生物(兽人)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d8，活力d6</p>\n<p><strong>技能</strong>：运动d6，通用知识d4，格斗d6，威吓d6，察觉d6，射击d6，潜行d6</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：8(2)</p>\n<p><strong>专长</strong>：蛮勇</p>\n<p><strong>装备</strong>：弯刃大刀(力量+d8，穿甲1)，标枪(射程4/8/16，伤害为力量+d6)，轻型皮甲(+2)</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>族裔(兽人)</strong>：黑暗视觉，体型1，弱点(光亮)</li>\n<li><strong>弱点(光亮)</strong>：位于亮光中的兽人所有需要视觉的特性投骰-1。\n<strong>语言</strong>：通用语，兽人语。\n</li>\n</ul>\n</div>"
         },
         "Orc, Berserker": {
-            "name": "Orc, Berserker",
+            "name": "兽人野蛮人 ORC BERSERKER",
             "description": "<div class=\"swpf-core\"><p>\nOrcs are brutal green-skinned humanoids with pig-like features, includingsnouts, long teeth, and sometimes tusks. They have beady eyes and framesslightly larger than most humans.\n</p>\n<p>\nOrcs are tribal creatures who value strength and combat ability. Theirsocieties are usually dominated by the strongest warriors, who subjugate themeek. Orc bands raid any neighboring communities—even other orc settlements.They have foul temperaments and rarely take prisoners.\n</p>\n<p>\nMost orcs worship Rovagug, though some follow other gods such as Lamashtu.They inhabit many areas of Golarion, usually in the Darklands.\n</p></div>"
         },
         "Orc, Chieftain": {
-            "name": "Orc, Chieftain",
+            "name": "兽人酋长 ORC, CHIEFTAIN",
             "description": "<div class=\"swpf-core\"><p>\nThe leader of a small orc clan is always the most deadly brute in the bunch.Orc chieftains on Golarion generally have a magical item or two, as well assuperior armor and weaponry, at least compared to their subjects.\n</p></div>"
         },
         "Orc, Skoll": {
-            "name": "Orc, Skoll",
+            "name": "兽人狼骑兵 ORC SKOLL",
             "description": "<div class=\"swpf-core\"><p>\nOrcs are brutal green-skinned humanoids with pig-like features, includingsnouts, long teeth, and sometimes tusks. They have beady eyes and framesslightly larger than most humans.\n</p>\n<p>\nOrcs are tribal creatures who value strength and combat ability. Theirsocieties are usually dominated by the strongest warriors, who subjugate themeek. Orc bands raid any neighboring communities—even other orc settlements.They have foul temperaments and rarely take prisoners.\n</p>\n<p>\nMost orcs worship Rovagug, though some follow other gods such as Lamashtu.They inhabit many areas of Golarion, usually in the Darklands.\n</p></div>"
         },
         "Otyugh": {
@@ -670,8 +670,8 @@
             "description": "<div class=\"swpf-core\">\n<p>这种以凶猛和好斗而闻名的魔法掠食者其外表如同巨猫头鹰和凶暴熊杂交的产物，关于它们的起源众说纷纭。枭熊偏好栖息在森林当中，但有时候也出没于幽暗地域(Darklands)当中。成对的枭熊配偶会为保护后代而战斗至死。\n</p>\n<p><strong>类别</strong>：中立魔法兽(枭熊)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d8，力量d10，活力d10</p>\n<p><strong>技能</strong>：运动d6，格斗d8，察觉d10，潜行d6，生存d6</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：6；<strong>坚韧</strong>：10(1)</p>\n<p><strong>负赘</strong>：忠诚</p>\n<p><strong>专长</strong>：警觉</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+1</strong>：厚实外皮。</li>\n<li><strong>噬咬/爪抓</strong>：力量+d6，穿甲2。</li>\n<li><strong>精通擒抱</strong>：若是枭熊针对体型等同或小于自身的目标的爪抓攻击获得优良，则其能立刻以自由行动尝试进行一次擒抱(+2)。</li>\n<li><strong>暗夜视觉</strong>：这种生物忽略所有照明减值。</li>\n<li><strong>强韧</strong>：枭熊在陷入无力化前能承受一个损伤。</li>\n<li><strong>体型2</strong>：枭熊直立时高8到10英尺，体重可达1500磅。</li>\n</ul>\n</div>"
         },
         "Phase spider": {
-            "name": "Phase spider",
-            "description": "<div class=\"swpf-core\">\n<p>This large spider-like monster has an eerie, humanoid face surrounded by ashaggy mane of fur.</p>\n<p>Phase spiders are voracious predators from the Ethereal @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} who hunt on the Material Plane. When prey is located, the spider shifts to the Ethereal Plane to prepare an ambush. They like to @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{shift} to the Material Plane, bite the victim, then retreat back to the Ethereal Plane to wait for the poison to take effect.</p>\n<p>Phase spiders are the natural enemy of another denizen of the EtherealPlane&mdash;the xill. The two cultures have long fought a bloody war with no realprospect of a resolution anytime soon.</p>\n</div>"
+            "name": "相位蜘蛛 PHASE SPIDER",
+            "description": "<div class=\"swpf-core\">\n         <p>这种蜘蛛般的大型怪物长着一张怪异的人脸，周遭长着一圈蓬松的绒发。相位蜘蛛乃是从灵界(Ethereal Plane)前来物质位面(Material\n            Plane)捕猎的贪婪掠食者。相位蜘蛛在锁定猎物时会传送到灵界准备伏击，它们喜欢先传送到物质位面，咬向猎物，然后撤回灵界等待毒素发作。相位蜘蛛是另一类灵界居民——锡尔族的天敌。两族长久以来一直血战不休，而且丝毫没有决出胜负的迹象。\n         </p>\n         <p><strong>类别</strong>：中立魔法兽(相位蜘蛛)</p>\n         <p><strong>属性</strong>：灵巧d10，聪慧d6，心魂d6，力量d12，活力d8</p>\n         <p><strong>技能</strong>：运动d8，格斗d8，察觉d6，潜行d8</p>\n         <p><strong>移速</strong>：7；<strong>格挡</strong>：6；<strong>坚韧</strong>：9(2)</p>\n         <p><strong>专长</strong>：迅捷</p>\n         <p><strong>特殊能力</strong>：</p>\n         <ul>\n            <li><strong>护甲+2</strong>：厚实外皮。</li>\n            <li><strong>噬咬</strong>：力量+d6，穿甲2。</li>\n            <li><strong>灵界伏击</strong>：在从灵界向物质位面的对手发起伏击时，对方避免突袭的察觉投骰-4。</li>\n            <li><strong>幻化灵体</strong>：相位蜘蛛能以一个自由行动从灵界传送到物质位面，而传送回去则需要一个行动，其位于灵界时只有魔法攻击才能对它造成伤害。</li>\n            <li><strong>暗夜视觉</strong>：相位蜘蛛忽略所有照明减值。</li>\n            <li><strong>毒素(-2)</strong>：相位蜘蛛的噬咬带有致命毒素。</li>\n            <li><strong>体型1</strong>：相位蜘蛛长达8英尺，体重在700磅左右。</li>\n            <li><strong>走壁</strong>：相位蜘蛛能以全移速在墙壁和天花板上移动。\n               <strong>语言</strong>：邪灵语。\n            </li>\n         </ul>\n      </div>"
         },
         "Phoenix": {
             "name": "火凤 PHOENIX",
@@ -694,8 +694,8 @@
             "description": "<div class=\"swpf-core\">\n<p>当某个邪恶施法者尝试召唤魔宠时，这种长翼的迷你恶魔就会因此出现在物质位面。尽管它们通常都会侍奉主子，然而已知也存在着自由之身的小恶魔</p>\n<p>尽管体型小巧，但这些多才多艺的生物对上任何家伙都能构成实实在在的威胁。除了带毒的利爪和魔法能力之外，小恶魔还具备着与生俱来的恶毒秉性。</p>\n<p><strong>类别</strong>：邪恶异界生物(小恶魔)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4，心魂d6，力量d4-2，活力d6</p>\n<p><strong>技能</strong>：运动d8，通用知识d4，格斗d6，察觉d6，神秘学d6，交涉d4，潜行d10</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：5；<strong>坚韧</strong>：6(4)</p>\n<p><strong>专长</strong>：闪避，脱身</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+4</strong>：恶魔外皮</li>\n<li><strong>噬咬/爪抓</strong>：力量。</li>\n<li><strong>快速再生</strong>：小恶魔在陷入无力化前每轮都能尝试一次自然治疗投骰。</li>\n<li><strong>恶魔</strong>：免疫电与毒素；源自寒铁的伤害+4；源自酸、寒冷与火焰的伤害-4；次级<em>侦测奥法</em>。</li>\n<li><strong>飞行</strong>：移速12</li>\n<li><strong>内生奇术</strong>：次级<em>隐形</em>(仅限自身)</li>\n<li><strong>暗夜视觉</strong>：小恶魔忽略所有照明减值。</li>\n<li><strong>毒素(-1)</strong>：小恶魔的爪子具有温和毒素。</li>\n<li><strong>强韧</strong>：小恶魔在陷入无力化前能额外承受一个损伤。</li>\n<li><strong>体型-3(超小型)</strong>：小恶魔只有1.5英尺高，重量也只有8磅。\n<strong>语言</strong>：深渊语，通用语\n</li>\n</ul>\n</div>"
         },
         "rakshasa": {
-            "name": "rakshasa",
-            "description": "<div class=\"swpf-core\">\n<p>Rakshasas are evil spirits cloaked in the guise of humanoid creatures, walking unseen among their intended prey. While in the shape of those it seeks to defile, rakshasas gorge themselves in hideous acts. Were they human, these acts of cannibalism, blasphemy, and worse would mark them as criminals condemned to the cruelest of hells.</p>\n<p>When not in the shape of their prey, rakshasas appear as bipeds with the head of an animal. They generally possess the heads of great cats such as tigers or lions.</p>\n<p>Although rakshasas are outsiders, they are at home on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane}. They usually hunt alone, but sometimes extended families work together to take down a specific threat or ruin a mortal civilization from the inside out over the course of many generations.</p>\n</div>"
+            "name": "罗刹妖 RAKSHASA",
+            "description": "<div class=\"swpf-core\">\n         <p>罗刹妖乃是披着类人生物外皮的邪恶精魂，其会深藏不露地混迹于盯上的猎物之中，它们在化身为意图玷污的形体时会通过骇人的行径来大快朵颐。如果是人类，那这些同类相食、亵渎玷污乃至更为恶劣的举动足以让其沦为至凶地狱当中的罪犯。\n         </p>\n         <p>没变成猎物样子的罗刹妖看起来是长了个动物脑袋的双足人形，其头部通常都是诸如老虎或是狮子等大型猫科类。</p>\n         <p>尽管罗刹妖是异界生物，但物质位面对其而言与家无异。罗刹妖通常会单独狩猎，但也存在共同协作的庞大家族，其会花上许多代人的时间去除掉某一特定威胁，或是由内至外地毁灭一个凡人文明。</p>\n         <p><strong>类别</strong>：邪恶异界生物(罗刹妖)</p>\n         <p><strong>属性</strong>：灵巧d12，聪慧d6，心魂d8，力量d8，活力d8</p>\n         <p><strong>技能</strong>：运动d6，通用知识d6，格斗d8，察觉d10，表演d8，交涉d12，施法d10，潜行d10</p>\n         <p><strong>移速</strong>：7；<strong>格挡</strong>：6；<strong>坚韧</strong>：11(5)</p>\n         <p><strong>专长</strong>：奥法背景(魔法)，奥法抗性</p>\n         <p><strong>奇术</strong>：<em>矢弹</em>，<em>破袪</em>，<em>幻象</em>，<em>隐形</em>，<em>傀儡</em>，<em>防护</em>；<strong>奇术点</strong>：20\n         </p>\n         <p><strong>装备</strong>：匕首(力量+d4+1，穿甲1，毁伤)</p>\n         <p><strong>特殊能力</strong>：</p>\n         <ul>\n            <li><strong>护甲+5</strong>：附魔表皮。</li>\n            <li><strong>爪抓</strong>：力量+d4。</li>\n            <li><strong>黑暗视觉</strong>：忽略至多10英寸远的照明减值。</li>\n            <li><strong>环境弱点</strong>：穿刺。</li>\n            <li><strong>内生奇术</strong>：高级<em>易容</em>(仅限类人生物，仅限自身)，次级<em>光亮</em>，高级<em>读心</em>(施法)，次级<em>发声</em></li>\n            <li><strong>强韧</strong>：罗刹妖在陷入无力化前能承受一个损伤。\n               <strong>语言</strong>：通用语，炼狱语，地底通用语。\n            </li>\n         </ul>\n      </div>"
         },
         "Rat, Dire": {
             "name": "凶暴鼠 RAT, DIRE",
@@ -762,7 +762,7 @@
             "description": "<div class=\"swpf-core\">\n<p>这些虚体生物看起来如同人形的影子，其由于未知的原因出没于生前居住过的废墟当中。幽影没有目标或是可以辨别的动机，其唯求从活物身上吸取生命。</p>\n<p><strong>类别</strong>：邪恶不死生物(幽影)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d6，心魂d10，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d6，格斗d8，察觉d8，潜行d12</p>\n<p><strong>移速</strong>：-；<strong>格挡</strong>：6；<strong>坚韧</strong>：7</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>爪抓</strong>：这种攻击命中会造成能量流失(力量)，成功通过一次活力投骰(该攻击获得优良则还要-2)可以抵抗此效果。</li>\n<li><strong>感染</strong>：死于幽影能量流失的对象会在一轮之后复苏成幽影。</li>\n<li><strong>无畏</strong>：幽影免疫恐惧与威吓。</li>\n<li><strong>飞行</strong>：移速8。</li>\n<li><strong>虚体</strong>：幽影能随意隐身无形，只有魔法武器或是攻击才能对其造成伤害。</li>\n<li><strong>无敌</strong>：非魔法攻击不会对幽影造成伤害。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。</li>\n</ul>\n</div>"
         },
         "Shambling mound": {
-            "name": "Shambling mound",
+            "name": "蔓生怪 SHAMBLING MOUND",
             "description": "<div class=\"swpf-core\"><p>\nThese solitary creatures wander swamps and forests in search of prey. Whilethey can and do consume rotting vegetation to survive, the omnivoroushunters require living tissue in order to reproduce. They relish the brainsof humanoids, especially elves.\n</p>\n<p>\nShamblers, as they are often called, appear as a mass of tangled vines anddripping slime. They reek of rot, detritus, and freshly turned earth.Despite their appearance, they are intelligent beings—and surprisingly goodswimmers.\n</p></div>"
         },
         "Shark": {
@@ -806,11 +806,11 @@
             "description": "<div class=\"swpf-core\">\n<p>保留了部分生前智力的骷髅勇士比起无心智的普通骷髅要狡诈、可怕和强大得多。有些骷髅勇士还会记得生前作为魔法师或祭司的奇术(GM判定)。</p>\n<p><strong>类别</strong>：邪恶不死生物(骷髅)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d6，心魂d8，力量d10，活力d8</p>\n<p><strong>技能</strong>：运动d6，格斗d8，威吓d6，察觉d4，射击d8</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：7；<strong>坚韧</strong>：12(4)</p>\n<p><strong>专长</strong>：热忱，招牌武器(长剑)</p>\n<p><strong>装备</strong>：精制品长剑(力量+d8，穿甲1)，板胸甲(+4)，中型盾牌</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>爪抓</strong>：力量+d4。</li>\n<li><strong>无畏</strong>：骷髅勇士免疫恐惧与威吓。</li>\n<li><strong>免疫</strong>：寒冷。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。</li>\n</ul>\n</div>"
         },
         "Soldier": {
-            "name": "士兵 SOLDIER",
+            "name": "士兵",
             "description": "<div class=\"swpf-core\">\n<p><strong>类别</strong>：任意类人生物(士兵)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d6，通用知识d6，格斗d6，威吓d6，察觉d6，交涉d6，射击d6，潜行d4</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：5</p>\n<p><strong>负赘</strong>：无</p>\n<p><strong>专长</strong>：士兵</p>\n<p><strong>装备</strong>：根据其雇主与所在地不尽相同。</p>\n</div>"
         },
         "Soldier, Seasoned": {
-            "name": "Soldier, Seasoned",
+            "name": "老兵 SOLDIER, SEASONED",
             "description": "<div class=\"swpf-core\"><p>\nThese mercenaries and troops have seen Battle and lived to tell about it.They are more capable and experienced than regular soldiers. They can becustomized and outfitted to fit their particular role.\n</p></div>"
         },
         "Spectre": {
@@ -930,11 +930,11 @@
             "description": "<div class=\"swpf-core\">\n<p>温迪戈的外表很像一名因为饥饿而濒临死亡的高大类人生物，完全没有毛发的它肉体除了发黑的四肢之外都是如死般惨白，手指末端长着长长的钩爪，嘴里满是针状的獠牙。由于温迪戈不断地啃食着自己的嘴唇，因而其大嘴周边都是鲜血淋漓的破烂血肉，长长的舌头上长满了颜色如同新近瘀伤一般的疮疹，发光的黄色眼睛漂浮在满是血水的大眼眶当中。\n</p>\n<p><strong>类别</strong>：邪恶异界生物(温迪戈)</p>\n<p><strong>属性</strong>：灵巧d12，聪慧d8，心魂d8，力量d12+3，活力d10</p>\n<p><strong>技能</strong>：运动d10，通用知识d8，格斗d10，威吓d8，察觉d8，神秘学d10，交涉d8，潜行d10</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：7；<strong>坚韧</strong>：14(5)</p>\n<p><strong>专长</strong>：奥法抗性</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+5</strong>：温迪戈外皮。</li>\n<li><strong>噬咬/爪抓</strong>：力量+d6(寒冷)。</li>\n<li><strong>盲感</strong>：温迪戈忽略<em>隐形</em>，<em>幻象</em>以及所有照明减值。</li>\n<li><strong>控制天候</strong>：温迪戈能专注10分钟来召唤半径两英里的暴风雪，这会让整个区域处于昏暗照明以及极度寒冷当中。</li>\n<li>\n<strong>侵扰梦境</strong>：每夜一次，温迪戈能进入到任一知性目标的梦境当中以造成强烈的噩梦。对象必须成功通过一次-4的心魂投骰，否则就会遭受疲乏。这类疲乏只有在对象完成一次免受噩梦折磨的整夜休息之后才能移除。\n</li>\n<li><strong>环境弱点</strong>：寒铁，火焰。</li>\n<li><strong>快速再生</strong>：温迪戈每轮都能尝试进行一次自然治疗投骰，即使陷入无力化也是如此，除非这些损伤是由火造成，或是之后遭到火把灼烧。</li>\n<li><strong>无畏</strong>：温迪戈免疫恐惧与威吓。</li>\n<li><strong>飞行</strong>：移速12，飞行时能以一个限定自由行动化作无形。</li>\n<li><strong>惧怖嚎叫</strong>：每天三次，温迪戈能发出至多一英里远都能听见的凄厉嚎叫，听到的生物必须进行一次-2的恐惧检定。</li>\n<li><strong>免疫</strong>：寒冷。</li>\n<li><strong>体型2</strong>：温迪戈直立时约有10英尺高，体重达1000磅。</li>\n<li>\n<strong>温迪戈魔怔</strong>：任何因噬咬攻击而遭受损伤，或是没能抵抗侵扰梦境的对象必须成功通过一次心魂投骰，否则就会遭受此类诅咒。对象每天都会遭受能量流失(心魂)，成功通过一次心魂投骰可以暂缓此效果。若是心魂降低到d4以下，则对象将会寻找并吞食某一族裔相同的个体。在完成这项发指恶行之后，受诅者会开始转化成温迪戈，其会突然开始奔跑，并在1d4轮内冲向空中，速度快得双腿都烧焦成了参差不齐的残肢。受害者会一边飞越天穹一边转变成温迪戈，这会花费2d6分钟。\n</li>\n</ul>\n</div>"
         },
         "Wererat (Hybrid Form)": {
-            "name": "Wererat (Hybrid Form)",
+            "name": "鼠人(混种形态) WERERAT (HYBRID FORM)",
             "description": "<div class=\"swpf-core\"><p>\nWhether naturally born or cursed with lyncanthropy, wererats areshapechangers feared by anyone with common sense. They tend to keep theirabilities a secret known only to others in their hidden guilds.\n</p>\n<p>\nNatural wererats usually look like short and wiry humans—often with anervous disposition and darting rodent-like eyes—when in human form. Thosecursed with this existence appear exactly as they did before they becameinfected. Both can take a hybrid form as well as that of a giant rat.\n</p></div>"
         },
         "Werewolf (Hybrid Form)": {
-            "name": "Werewolf (Hybrid Form)",
+            "name": "狼人(混种形态) WEREWOLF (HYBRID FORM)",
             "description": "<div class=\"swpf-core\"><p>\nIn their humanoid form, natural werewolves look like normal people, thoughsome tend to look a bit feral and have wild hair. Eyebrows that growtogether, index fingers longer than the middle fingers, and strangebirthmarks on the palm of the hand are all commonly accepted indications ofa werewolf.\n</p>\n<p>\nOf all the lycanthropes, the werewolf is the most widespread and the mostfeared. Stories of werewolves haunting lonely forest roads, prowling mistymoors on the outskirts of rural societies, or dwelling in the shadows of thelargest cities are quite common.\n</p></div>"
         },
         "White Dragon": {
@@ -954,7 +954,7 @@
             "description": "<div class=\"swpf-core\">\n<p>尸妖是在外表上处于食尸鬼和幽灵之间的活化尸体，怨恨在眼睛中熊熊燃烧的它们渴求着活物的灵魂。某些尸妖是因为世俗欲望或是物质束缚而导致其灵魂留下来保护宝藏或是逝世之地，别的尸妖则是效忠于将其复苏成亡灵的家伙。尸妖有时会出没于水下的洞穴或是船骸当中。\n</p>\n<p><strong>类别</strong>：邪恶不死生物(尸妖)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d6，心魂d8，力量d6，活力d8</p>\n<p><strong>技能</strong>：运动d8，格斗d8，威吓d10，察觉d6，潜行d8</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：6；<strong>坚韧</strong>：10(2)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：脱水似革外皮。</li>\n<li><strong>爪抓</strong>：力量+d4。</li>\n<li><strong>能量流失</strong>：任何因尸妖的爪抓而遭受动摇或是损伤的对象都会遭受能量流失(活力)，成功进行一次活力投骰(该攻击获得优良则还要-2)可以抵抗此效果。</li>\n<li><strong>无畏</strong>：尸妖免疫恐惧与威吓。</li>\n<li><strong>感染</strong>：任何被这种不死生物杀死的对象会在一轮后复苏成尸妖。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。\n<strong>语言</strong>：通用语。\n</li>\n</ul>\n</div>"
         },
         "Will-o’-Wisp": {
-            "name": "Will-o’-Wisp",
+            "name": "鬼火 Will-o'-Wisp",
             "description": "<div class=\"swpf-core\"><p>\nThese strange aberrations live in swamps throughout Golarion, although noone is certain why they prefer such environments. Most commonly, they areencountered in the River Kingdoms, where they sometimes gather in smallgroups.\n</p>\n<p>\nWill-o’-wisps appear as floating lights often mistaken as lanterns orbeacons by travelers. The creatures attempt to lure such travelers into deepmarshes and quicksand, or even to the lairs of other creatures. They do thisin hopes of feeding on the fear of dying victims. They can deliver ashocking attack, but they prefer to feed on victims who can’t fight back.\n</p></div>"
         },
         "Wolf, Dire": {
@@ -994,7 +994,7 @@
             "description": "<div class=\"swpf-core\">\n<p>这种粗矮的猛兽横里跟竖着一样长，对称性奇特的索尔石怪长着三只手、三条腿、三只眼和一张大嘴。虽然其通常能长到8英尺高，但也存在更为年长且更为庞大的例子。索尔石怪是来自土元素位面的异界生物，其远行到了格拉里昂的幽暗地域(Darklands)当中来寻找并摄食贵金属和宝石。索尔石怪对于本地物种几乎毫无兴趣，除非对方碰巧带着它们钟爱的食物。众所周知，提供贿赂能避免与索尔石怪交战，或是让其在地底临时提供帮助。索尔石怪长老和领袖通常具备职业专长，最为常见的是游荡者和野蛮人。\n</p>\n<p><strong>类别</strong>：中立异界生物(索尔石怪)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d6，心魂d8，力量d10，活力d10</p>\n<p><strong>技能</strong>：运动d4，格斗d8，威吓d8，察觉d10，潜行d8，生存d8</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：6；<strong>坚韧</strong>：13(5)</p>\n<p><strong>专长</strong>：战斗反应，反击，头铁</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+5</strong>：石质血肉。</li>\n<li><strong>全域视野</strong>：索尔石怪能眼观六路，其忽略1点围攻加值。</li>\n<li><strong>遁地(4英寸)</strong>：索尔石怪能像水中的鱼一样轻而易举地在任何自然土壤以及石地中游弋。</li>\n<li><strong>黑暗视觉</strong>：索尔石怪忽略至多10英寸远的照明减值。</li>\n<li><strong>环境抗性</strong>：电。</li>\n<li><strong>免疫</strong>：寒冷，火焰。</li>\n<li><strong>强韧</strong>：索尔石怪在陷入无力化前能承受一个损伤。</li>\n<li><strong>体型1</strong>：索尔石怪能长到8英尺高。\n<strong>语言</strong>：土族语。\n</li>\n</ul>\n</div>"
         },
         "Yeth hound": {
-            "name": "Yeth hound",
+            "name": "夜嘶猎犬 YETH HOUND",
             "description": "<div class=\"swpf-core\"><p>\nThese emaciated creatures resemble canines, though they originate from thelower planes. More importantly, the strange hounds have magical powers,including the ability to fly.\n</p>\n<p>\nYeth Hounds sometimes serve evil humanoids or other masters, such as demons.They travel in pairs or wander in packs in the darkest parts of Golarion,such as the Anferita Wood of Cheliax.\n</p></div>"
         },
         "Yeti": {
