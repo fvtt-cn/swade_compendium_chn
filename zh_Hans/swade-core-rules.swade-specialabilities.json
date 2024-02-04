@@ -5,7 +5,7 @@
     },
     "entries": {
         "Swarm": {
-            "name": "集群",
+            "name": "集群 SWARM",
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>集群：</strong>从@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}中恢复时+2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击}能如常生效，角色也能在每轮通过踩踏造成等同于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。</li>\n</ul>\n</div>"
         },
         "Zombie": {
