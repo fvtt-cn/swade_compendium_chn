@@ -2,7 +2,11 @@
     "label": "SWADE 载具",
     "mapping": {
         "description": "system.description",
-        "trait": "system.driver.skill"
+        "trait": "system.driver.skill",
+        "items": {
+            "path": "items",
+            "converter": "SWADE_ITEM_CONVERTERS"
+        }
     },
     "entries": {
         "AH-64 Apache": {

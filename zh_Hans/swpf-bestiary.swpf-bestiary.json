@@ -1,5 +1,12 @@
 {
     "label": "生物图鉴",
+    "mapping": {
+        "biography": "system.details.biography.value",
+        "items": {
+            "path": "items",
+            "converter": "SWADE_ITEM_CONVERTERS"
+        }
+    },
     "entries": {
         "Aboleth": {
             "name": "底栖魔鱼",

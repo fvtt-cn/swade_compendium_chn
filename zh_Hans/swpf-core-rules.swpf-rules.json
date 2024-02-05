@@ -1,8 +1,10 @@
 {
     "label": "规则",
     "mappings":{
+        "pages": {
         "path": "pages",
         "converter": "pagesConverter"
+        }
     },
     "entries": {
         "Bestiary": {
