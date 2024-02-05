@@ -5,7 +5,7 @@
     },
     "entries": {
         "Swarm": {
-            "name": "集群",
+            "name": "集群 SWARM",
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>集群：</strong>从@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}中恢复时+2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击}能如常生效，角色也能在每轮通过踩踏造成等同于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。</li>\n</ul>\n</div>"
         },
         "Zombie": {
@@ -113,7 +113,7 @@
         },
         "Night Vision": {
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>夜视：</strong>传感器套件能够忽略@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。</li>\n</ul>\n</div>",
-            "name": "夜视"
+            "name": "暗夜视觉"
         },
         "Ornery": {
             "description": "<article class=\"swade-core\">\n<ul>\n<li><strong>犟脾气：</strong>骡子是倔强的生物，角色在骑乘骡子时，@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘}投骰必须减1。</li>\n</ul>\n</article>",
@@ -173,7 +173,7 @@
         },
         "Undead": {
             "description": "<div class=\"swade-core\">\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili29]{不死族}：</strong>+2坚韧；从动摇@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}中恢复时+2；不会因@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03calledshots000]{定点打击}受到额外伤害；定点打击受到额外伤害；忽略1点损伤减值；无需呼吸；免疫@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04disease0000000]{疾病}与@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor04theadv.JournalEntryPage.04poison00000000]{毒素}。</li>\n</ul>\n</div>",
-            "name": "不死族"
+            "name": "不死生物"
         },
         "Weakness": {
             "name": "弱点",

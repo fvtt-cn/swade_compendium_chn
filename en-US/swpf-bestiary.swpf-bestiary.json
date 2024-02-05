@@ -1,0 +1,1005 @@
+{
+	"label": "Savage Pathfinder Full Bestiary",
+	"entries": {
+		"Aboleth": {
+			"name": "Aboleth",
+			"description": "<div class=\"swpf-core\">\n<p>As befits their hideous primeval appearance, the hermaphroditic aboleths areamong the world&rsquo;s oldest forms of life. Ancient even when the gods firstturned their eyes to the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Material Plane}, the aboleths have always existedapart from other mortal life, alien and cold and endlessly plotting.</p>\n<p>They once ruled the world with vast empires, and today view most other formsof life as either food or slaves&mdash;and sometimes both. They disdain the godsand see themselves as the true masters of creation.</p>\n</div>"
+		},
+		"Air Elemental": {
+			"name": "Air Elemental",
+			"description": "<div class=\"swpf-core\"><p>\n This cloud-like creature has dark hollows reminiscent of eyes and a mouth,and a howling wind whips it into ominous shapes.\n</p></div>"
+		},
+		"Air Elemental, Elder": {
+			"name": "Air Elemental, Elder",
+			"description": "<div class=\"swpf-core\"><p>\n This cloud-like creature has dark hollows reminiscent of eyes and a mouth,and a howling wind whips it into ominous shapes.\n</p></div>"
+		},
+		"Air Elemental, Small": {
+			"name": "Air Elemental, Small",
+			"description": "<div class=\"swpf-core\"><p>\n This cloud-like creature has dark hollows reminiscent of eyes and a mouth,and a howling wind whips it into ominous shapes.\n</p></div>"
+		},
+		"Air Mephit": {
+			"name": "Air Mephit",
+			"description": "<div class=\"swpf-core\"><p>\n Mephits are the servants of powerful elemental creatures. Key sites andlocations on the elemental planes are full of mephits scurrying about onimportant errands or duties.\n</p>\n<p>\n Each kind of mephit is associated with one element that defines its specialabilities. This is the base profile, followed by Special Abilities for eachmephit.\n</p></div>"
+		},
+		"Alligator/Crocodile": {
+			"name": "Alligator/Crocodile",
+			"description": "<div class=\"swpf-core\"><p>\n Alligators and crocodiles lurk in the wetlands of Golarion, usuallyfreshwater but sometimes in brackish or saltwater. The statistics hererepresent an average specimen of either species. Much larger versions areoften found in more remote areas.\n</p></div>"
+		},
+		"Animal Skeleton": {
+			"name": "Animal Skeleton",
+			"description": "<div class=\"swpf-core\"><p>\n This profile covers most animal skeletons smaller than humans.\n</p></div>"
+		},
+		"Animal Zombie": {
+			"name": "Animal Zombie",
+			"description": "<div class=\"swpf-core\"><p>\n This profile is for animal zombies smaller than humans.\n</p></div>"
+		},
+		"Animated Object": {
+			"name": "Animated Object",
+			"description": "<div class=\"swpf-core\">\n<p>An animated object is not simply one monster, but a whole category. Theseconstructs are created by powerful spellcasters as servants and guardians.The @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{size} and @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore08bestia.JournalEntryPage.08specialabili00]{abilities} of an animated object varies wildly.</p>\n<p>When creating an animated object, spend its Construction Points to give it Construction Abilities from the chart below. Each ability can only be taken once unless otherwise stated.</p>\n<p>A GM can add additional abilities if they are trying to create a specific object.</p>\n<table style=\"width: 80%; margin: 0 auto;\"><colgroup> <col /> </colgroup>\n<tbody>\n<tr>\n<th class=\"main-heading\">Construction Abilities</th>\n</tr>\n<tr>\n<th class=\"sub-heading\">One Construction point per ability</th>\n</tr>\n<tr>\n<td>\n<p><strong>Additional Actions:</strong> The object can make two attacks each turn without suffering the two points of Multi-Action penalties.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Additional Movement:</strong> The object gains a new mode of movement (Aquatic, Burrow, Flight, or Wall Walker) equal to its Pace.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Augmented Damage:</strong> Increase the object's Bash damage one die type or increase its AP by 2. This may be taken up to three times.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Burn:</strong> The object deals an additional d6 (fire) damage on attacks. Anyone hit by this attack has a chance to catch on fire.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Constrict:</strong> The object can make a free grapple attempt when it hits a creature with a Bash attack.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Exceptional Reach:</strong> Increase the object's Reach by 1. This can be taken up to three times.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Faster:</strong> The object&rsquo;s Pace is increased by 2.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Improved Construction:</strong> The object&rsquo;s Armor is increased by 2.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Improved Trait:</strong> Increase one of this object's Traits by one die type or give it a new skill at d4. This can be taken any number of times.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Ranged Attack:</strong> Replace the Bash attack with a ranged attack (Range 6/12/24) with the same damage as the Bash it replaced. This object uses Athletics (throwing) for this attack.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Resilient/Very Resilient:</strong> This object is Resilient. If taken a second time it is Very Resilient.</p>\n</td>\n</tr>\n<tr>\n<td>\n<p><strong>Trample:</strong> This object gains the Trample Ability. An object must be Size 4 or larger to take this.</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>"
+		},
+		"Ankheg": {
+			"name": "Ankheg",
+			"description": "<div class=\"swpf-core\"><p>\n Ankhegs are an all-too-common plague upon the rural areas of the world.These horse-sized burrowing monsters generally avoid heavily settled areaslike cities, but their predilection for livestock and humanoid flesh ensuresthat they do not keep to the deep wilderness either.\n</p>\n<p>\n Their preferred habitat is rural farmlands, as the loose soil of suchregions makes it easy for the creatures to burrow. Tales speak of largerankhegs that dwell in remote deserts—such creatures likely feed primarily ongiant scorpions and camels, and rarely come in contact with civilization dueto their remote locations.\n</p></div>"
+		},
+		"Annis Hag": {
+			"name": "Annis Hag",
+			"description": "<div class=\"swpf-core\"><p>\n Also known as black hags or iron hags, annis hags are the largest of theirfoul brood. Known for their iron-hard, wart-covered skin and their clawslike rusty blades, annis hags revel in visceral evils of torture andslaughter.\n</p>\n<p>\n Annis hags dwell in dark caves, tangled hollows, and cursed ruins deepwithin frozen swamps or icy moors. They stalk forth by night to sow fear andhunt the unwary, using their\n <em>\n  disguise\n </em>\n to lure victims into a falsesense of security before attacking. They often pose as travelers in need ofaid or pilgrims seeking to share a camp.\n</p></div>"
+		},
+		"Auroch": {
+			"name": "Auroch",
+			"description": "<div class=\"swpf-core\">\n<p>This large, horned bull has a dirty black hide and an aggressive temper. Itshorns are wide and sharp, and they usually travel in herds. Various breedsinhabit the wilds of Golarion, from the Nesmian @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{planes} of Nirmathas to theStorval Plateau in Varisia.</p>\n</div>"
+		},
+		"Balor": {
+			"name": "Balor",
+			"description": "<div class=\"swpf-core\"><p>\n A balor is a towering figure of fire and flesh—a horned, flying nightmarearmed with flaming whip and a mighty sword.\n</p>\n<p>\n On the Abyss, most balors serve demon lords as general or captains. Somebalors are even demon lords and masters themselves. A balor typicallycommands vast legions of demons. It often lets these slavering minions fightits Battles, although most balors join a fight whenever an opportunitypresents itself.\n</p></div>"
+		},
+		"Barghest": {
+			"name": "Barghest",
+			"description": "<div class=\"swpf-core\">\n<p>The four-legged barghest is likely related to the goblinoids of Golarion. Inits natural state this evil hybrid resembles a cross between a wolf and agoblin&mdash;and it can assume the form of either.</p>\n<p>Barghests come to the material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{plane}to feed on the flesh and souls ofmortals, especially humanoids. They have a connection with Lamashtu andoften ally themselves with other followers of the goddess.</p>\n</div>"
+		},
+		"Barghest, greater": {
+			"name": "Barghest, greater",
+			"description": "<div class=\"swpf-core\">\n<p>Having consumed enough flesh and souls, a few barghest return to the Abysswhere they transform into greater barghests. Even fewer return to the material plan to feast yet again.</p>\n</div>"
+		},
+		"Basilisk": {
+			"name": "Basilisk",
+			"description": "<div class=\"swpf-core\"><p>\n This squat, reptilian monster has eight legs, bony spurs jutting from itsback, and eyes that glow with pale green fire. The basilisk has a nastydisposition and the ability to turn creatures to stone with its gaze.\n</p>\n<p>\n Basilisks live in nearly any terrestrial environment, from forest to desert.Their hides tend to match and reflect their surroundings—a desert-dwellingbasilisk might be tan or brown, while one that lives in a forest is brightor dark green. They lair in caves, burrows, or other sheltered areas. Thesedens are often marked by statues of people and animals in lifelike poses.\n</p></div>"
+		},
+		"Bear": {
+			"name": "Bear",
+			"description": "<div class=\"swpf-core\">\n<p>This entry covers large and ferocious bears such as grizzlies, black bears,and polar bears. A favored tactic of all these bears is to grapple theirprey then @Compendium[swpf-core-rules.swpf-abilities.Bite]{bite} with their deadly fangs.</p>\n</div>"
+		},
+		"Bear, Dire": {
+			"name": "Bear, Dire",
+			"description": "<div class=\"swpf-core\"><p>\n A black or brown bear is fearsome enough; a dire bear doubly so.\n</p></div>"
+		},
+		"Beetle, Fire": {
+			"name": "Beetle, Fire",
+			"description": "<div class=\"swpf-core\">\n<p>This nocturnal beetle is a dull brown color brightened by two glowinggreen-yellow spots on its carapace. This herbivore burrows through theearth, usually in clusters of several beetles or in a small colony of adozen.</p>\n<p>Caged fire beetles are a popular source of long-lasting @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{illumination}amongeccentrics and miners.</p>\n</div>"
+		},
+		"Bird of Prey": {
+			"name": "Bird of Prey",
+			"description": "<div class=\"swpf-core\"><p>\n This profile covers eagles, hawks, and similar large birds of prey,collectively termed “raptors.” Their talons and hooked-beaks can rip throughflesh with ease.\n</p>\n<p>\n These nocturnal or diurnal hunters sometimes serve humanoid masters onGolarion. They prefer to seize and carry off smaller quarry, although someare known to attack livestock.\n</p></div>"
+		},
+		"Black Dragon": {
+			"name": "Black Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n Hissing green acid drips from the fanged maw of this black-scaled, horneddragon.\n</p></div>"
+		},
+		"Black Dragon, Adult": {
+			"name": "Black Dragon, Adult",
+			"description": "<div class=\"swpf-core\"><p>\n As Black Dragon with the following updates:\n</p></div>"
+		},
+		"Black Dragon, Wyrmling": {
+			"name": "Black Dragon, Wyrmling",
+			"description": "<div class=\"swpf-core\"><p>\n As Black Dragon with the following updates:\n</p></div>"
+		},
+		"Black pudding": {
+			"name": "Black pudding",
+			"description": "<div class=\"swpf-core\"><p>\n Somewhat common on Golarion, these dreaded oozes inhabit caves and tunnelsfrom Varisia to the Darklands. They scavenge for organic material, consumingall manner of refuse but also attacking creatures—especially creatures thatpossess metallic substances.\n</p>\n<p>\n Black pudding can reproduce by breaking off pieces of themselves, which growover a month’s time into a full-sized creature. They appear as dark,amorphous blobs but can alter their shape to fit into tight spaces, and toattack with their ability to envelop an opponent.\n</p></div>"
+		},
+		"Blue Dragon": {
+			"name": "Blue Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n With scales the color of the desert sky, this large, serpentine dragon moveswith an unsettling grace.\n</p></div>"
+		},
+		"Blue Dragon, Adult": {
+			"name": "Blue Dragon, Adult",
+			"description": ""
+		},
+		"Blue Dragon, Wyrmling": {
+			"name": "Blue Dragon, Wyrmling",
+			"description": ""
+		},
+		"Boar": {
+			"name": "Boar",
+			"description": "<div class=\"swpf-core\"><p>\n This entry covers a variety of wild scrofines. Typically, these creaturespose a danger only during their rutting season, or when defendingthemselves. Certain humanoids sometimes keep these omnivores as guards,warbeasts, or garbage disposals.\n</p></div>"
+		},
+		"Boar, Dire": {
+			"name": "Boar, Dire",
+			"description": "<div class=\"swpf-core\"><p>\n Much more aggressive than their smaller kin, dire boars attack anything thatapproaches them.\n</p></div>"
+		},
+		"Bone Devil": {
+			"name": "Bone Devil",
+			"description": "<div class=\"swpf-core\"><p>\n These tall, withered skeletal devils have long bony tails ending in a wickedbarbed stinger. They are the interrogators and inquisitors of devilkind. Assuch they enforce the infernal order and the will of the archdevils.\n</p>\n<p>\n Fearsome opponents, they possess several magical abilities, as well asflight and a poisonous sting.\n</p></div>"
+		},
+		"Brass Dragon": {
+			"name": "Brass Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n A crest of horns sweeps back from the head of this metallic dragon, leadingto a long neck and serpentine brass body.\n</p></div>"
+		},
+		"Brass Dragon, Adult": {
+			"name": "Brass Dragon, Adult",
+			"description": ""
+		},
+		"Brass Dragon, Wyrmling": {
+			"name": "Brass Dragon, Wyrmling",
+			"description": ""
+		},
+		"Bronze Dragon": {
+			"name": "Bronze Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n This sleek metallic dragon is covered in dull metallic scales that range incolor from shining bronze to mottled blue.\n</p></div>"
+		},
+		"Bronze Dragon, Adult": {
+			"name": "Bronze Dragon, Adult",
+			"description": ""
+		},
+		"Bronze Dragon, Wyrmling": {
+			"name": "Bronze Dragon, Wyrmling",
+			"description": ""
+		},
+		"Bugbear": {
+			"name": "Bugbear",
+			"description": "<div class=\"swpf-core\">\n<p>Larger and stronger cousins of goblins, these evil, @Compendium[swpf-core-rules.swpf-hindrances.Greedy]{greedy} humanoidsresemble the animals for which they are named. The resemblance issuperficial; bugbears are sapient hunters who prey on weaker humanoids.</p>\n<p>Bugbears congregate in tribal bands, typically making lairs in the caves ofmountainous regions. Often, they ally themselves with other goblinoids,usually demanding a leadership role or simply bullying weaker cronies.</p>\n</div>"
+		},
+		"Bunyip": {
+			"name": "Bunyip",
+			"description": "<div class=\"swpf-core\"><p>\n This dangerous coastal predator looks something like a seal with fins and amouth full of several rows of shark-like teeth. This territorial hunterprefers to lurk near shorelines and it thrives in either fresh or saltwater.\n</p></div>"
+		},
+		"Captain of the guard": {
+			"name": "Captain of the guard",
+			"description": "<div class=\"swpf-core\"><p>\n These stats represent a typical leader of guardsmen, with the Fighter ClassEdge.\n</p></div>"
+		},
+		"Cat, Large": {
+			"name": "Cat, Large",
+			"description": "<div class=\"swpf-core\"><p>\n This profile covers a variety of big cats, from mountain lions, to leopards,and cheetahs.\n</p></div>"
+		},
+		"Cat, Large Dire": {
+			"name": "Cat, Large Dire",
+			"description": "<div class=\"swpf-core\"><p>\n Patient hunters, these monstrous felines stalk and pounce upon prey withpaws the size of bucklers.\n</p></div>"
+		},
+		"Cat, Small": {
+			"name": "Cat, Small",
+			"description": "<div class=\"swpf-core\">\n<p>This is an ordinary house cat, the sort that might be a familiar for a spellcaster, a @Compendium[swpf-core-rules.swpf-edges.Beast Master]{Beast Master's} animal friend, or an alternate form for the <em>@Compendium[swpf-core-rules.swpf-powers.Shape Change]{Shape Change}</em> power.</p>\n</div>"
+		},
+		"Centaur": {
+			"name": "Centaur",
+			"description": "<div class=\"swpf-core\"><p>\n Legendary hunters and skilled warriors, centaurs are part man and parthorse. These stoic people usually dwell on the fringes of civilization.Their skin is deeply tanned but similar to the humans who occupy nearbyregions, while their lower bodies resemble the colorations of local horsebreeds.\n</p>\n<p>\n Aloof with other peoples and at odds even with their own kind, centaurs areonly slowly coming to accept the modern world. While the majority ofcentaurs still live in tribes roaming vast plains or the fringes of eldritchforests, some have abandoned the isolationist ways of their ancestors towalk among the more cosmopolitan cities of Golarion.\n</p></div>"
+		},
+		"Centaur Chieftain": {
+			"name": "Centaur Chieftain",
+			"description": "<div class=\"swpf-core\"><p>\n Legendary hunters and skilled warriors, centaurs are part man and parthorse. These stoic people usually dwell on the fringes of civilization.Their skin is deeply tanned but similar to the humans who occupy nearbyregions, while their lower bodies resemble the colorations of local horsebreeds.\n</p>\n<p>\n Aloof with other peoples and at odds even with their own kind, centaurs areonly slowly coming to accept the modern world. While the majority ofcentaurs still live in tribes roaming vast plains or the fringes of eldritchforests, some have abandoned the isolationist ways of their ancestors towalk among the more cosmopolitan cities of Golarion.\n</p></div>"
+		},
+		"Centaur Warrior": {
+			"name": "Centaur Warrior",
+			"description": "<div class=\"swpf-core\"><p>\n Legendary hunters and skilled warriors, centaurs are part man and parthorse. These stoic people usually dwell on the fringes of civilization.Their skin is deeply tanned but similar to the humans who occupy nearbyregions, while their lower bodies resemble the colorations of local horsebreeds.\n</p>\n<p>\n Aloof with other peoples and at odds even with their own kind, centaurs areonly slowly coming to accept the modern world. While the majority ofcentaurs still live in tribes roaming vast plains or the fringes of eldritchforests, some have abandoned the isolationist ways of their ancestors towalk among the more cosmopolitan cities of Golarion.\n</p></div>"
+		},
+		"Clay Golem": {
+			"name": "Clay Golem",
+			"description": "<div class=\"swpf-core\"><p>\n This lumbering figure is sculpted from soft clay, with a vaguely humanoidface. It usually wears no clothing, except for a stiff leather garmentaround its midsection.\n</p></div>"
+		},
+		"Cloud Giant": {
+			"name": "Cloud Giant",
+			"description": "<div class=\"swpf-core\"><p>\n These majestic giants dwell in the highest mountains on Golarion. Their skinranges in color from milky white to powder blue. They dress in the finestclothing and jewelry available. They are 20 feet tall and weigh almost 5,500pounds.\n</p>\n<p>\n Cloud giants are divided into two distinct societies at odds with eachother. The Good faction believes in peace and harmony, preferring to coexistwith all giantkind and other humanoid societies. Their Evil counterpartslive in seclusion in their mountain lairs, viewing other peoples as mereobjects to exploit or ignore.\n</p></div>"
+		},
+		"Cockatrice": {
+			"name": "Cockatrice",
+			"description": "<div class=\"swpf-core\">\n<p>These small magical creatures look like featherless chickens with bat-likewings and reptilian tails. For those who encounter them for the first time,they seem harmless&mdash;and even a bit absurd&mdash;until their power of petrificationmakes itself known.</p>\n<p>Fortunately, cockatrices are rare on Golarion, found primarily on theWhistling @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{planes} on the eastern border of Taldor. Interestingly, cyclops areimmune to the cockatrice&rsquo;s petrification. The one-eyed giants domesticatethese creatures as livestock.</p>\n</div>"
+		},
+		"Constrictors": {
+			"name": "Constrictors",
+			"description": "<div class=\"swpf-core\"><p>\n Pythons, boa constrictors, and other snakes over 15′ long are rarely deadlyto man in the real world because they aren’t particularly aggressive. OnGolarion, however, such snakes might be guardians, familiars, or just plaincarnivorous hunters.\n</p></div>"
+		},
+		"Copper Dragon": {
+			"name": "Copper Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n Bright, metallic copper scales run from the horn-crowned head to the ridgedtail of this long-winged dragon.\n</p></div>"
+		},
+		"Copper Dragon, Adult": {
+			"name": "Copper Dragon, Adult",
+			"description": ""
+		},
+		"Copper Dragon, Wyrmling": {
+			"name": "Copper Dragon, Wyrmling",
+			"description": ""
+		},
+		"Crag Linnorm": {
+			"name": "Crag Linnorm",
+			"description": "<div class=\"swpf-core\"><p>\n This immense, wingless dragon has a green serpentine body, a triple tail,and powerful talons. The crag linnorm is among the weakest of its kind, yetstill a devastating predator in its own right. Favored by the gods orperhaps some primal intelligence of the fey, the crag linnorm bestows afiery curse on any who manage to slay it.\n</p></div>"
+		},
+		"Dark Naga": {
+			"name": "Dark Naga",
+			"description": "<div class=\"swpf-core\"><p>\n A sharp-featured humanoid head crowns the shimmering, eel-like black body ofthe dark naga.\n</p>\n<p>\n Arrogant and sybaritic, dark nagas seek to dominate lesser creatures,relishing the fear they inspire and the power they wield over other beings.Their forked tongues spread only lies, and anyone they can’t manipulate theydestroy with their poison and destructive magical abilities.\n</p>\n<p>\n Dark nagas hate other nagas, especially other dark nagas, seeing theirbrethren as deadly enemies—rightly so.\n</p></div>"
+		},
+		"Darkmantle": {
+			"name": "Darkmantle",
+			"description": "<div class=\"swpf-core\">\n<p>These tentacled creatures cling to roosts in cave ceilings, room rafters,and the like. They often scavenge for food, but they also hunt in favorable conditions. They wait patiently in their perches, using their <em> @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{darkness}</em> ability before swooping down on prey.</p>\n<p>Darkmantles are found in the Darklands, most commonly, although they may adopt a lair above ground in dark forests or ruins. Their names describe them&mdash;they look like cloaks with dark granite coloring that blends in withmost natural surroundings.</p>\n</div>"
+		},
+		"Deathweb": {
+			"name": "Deathweb",
+			"description": "<div class=\"swpf-core\"><p>\n A deathweb is the husk of an enormous spider, inhabited by thousands ofliving spiders. Individually these are normal spiders of varying size.Together, they form an undead hive mind. They work together to swarm aroundthe giant spider’s exoskeleton, weaving intricate web sheets and huntingprey. The hive’s Infestation ability poses a threat to any adversary.\n</p>\n<p>\n Deathwebs lair in tunnels, caves, and dense woods—anywhere they can weavetraps to capture prey for the multitude of vociferous spiders.\n</p></div>"
+		},
+		"Dog/Wolf": {
+			"name": "Dog/Wolf",
+			"description": "<div class=\"swpf-core\"><p>\n The stats below are for large attack dogs, as well as wolves, hyenas, andthe like.\n</p></div>"
+		},
+		"Doppelganger": {
+			"name": "Doppelganger",
+			"description": "<div class=\"swpf-core\"><p>\n These strange beings take the shape and abilities of other humanoids.Accomplished mimics, they often live among human communities without everrevealing their true form. Their abilities make them excellent spies andassassins; they sometimes ally themselves with powerful authorities, servinguntil it no longer suits their whim.\n</p>\n<p>\n Doppelgangers revert to their natural form when killed. They can also assumetheir natural appearance at will, with a fearsome effect. They appear asslender humans with hairless gray skin, bulbous eyes and long arms. Theirnebulous facial features give the impression of a creature not yetfully-formed.\n</p></div>"
+		},
+		"Dragon Turtle": {
+			"name": "Dragon Turtle",
+			"description": "<div class=\"swpf-core\">\n<p>This massive aquatic creature resembles an unlikely cross between a dragonand a common snapping turtle. Their giant shells vary in color, like theirdragon namesakes. An average specimen grows to 25 feet long, from their headto their dragon-like tails.</p>\n<p>Dragon turtles inhabit both fresh and salt water, making their lairs in vastunderwater caverns. Usually solitary creatures, they claim large territoriesas their own, hunting large fish and posing threats to shipping routes. Theyare known to roam the western seas of the Shackles, the waters near theDevil&rsquo;s Drain, and the Embaral Ocean.</p>\n<p>Dragon turtles have powerful teeth and claws, a @Compendium[swpf-core-rules.swpf-abilities.Breath Weapons]{breath weapon}, and a naturalability to capsize naval vessels. Sailors have learned to offer gifts toensure safe passage on the waterways ruled by these aquatic dragons&mdash;who havecome to expect such tithes.</p>\n</div>"
+		},
+		"Dread Zombie": {
+			"name": "Dread Zombie",
+			"description": "<div class=\"swpf-core\"><p>\n This profile covers most any man-sized humanoid zombie.\n</p></div>"
+		},
+		"Drider": {
+			"name": "Drider",
+			"description": "<div class=\"swpf-core\"><p>\n Driders are created from the body of a drow, warped and mutated throughspecial poisons and elixirs to take on the characteristics of a giantspider.\n</p>\n<p>\n A female drider’s lower spider body is sleek and graceful like a blackwidow’s body, while its torso and beautiful face retain characteristics ofthe drow (with the addition of sharp, poisonous fangs). A male drider’slower body is bulky like a tarantula, while its upper body is wiry and itshideous face more spider than drow, complete with fanged mandibles.\n</p></div>"
+		},
+		"Drow": {
+			"name": "Drow",
+			"description": "<div class=\"swpf-core\"><p>\n Drow society is corrupt and evil, ruling vast subterranean cities throughfear and might. Many worship demons and enslave other peoples, and so areamong the underworld’s most feared and despised denizens.\n</p>\n<p>\n A powerful nobility rules over drow society. The nobles are governed bysadistic and dangerous matriarchs who constantly plot and scheme againstrival houses—and lesser kin within their own families. The majority of droware common soldiers and decadent citizenry, using this base profile.\n</p></div>"
+		},
+		"Drow Infiltrator": {
+			"name": "Drow Infiltrator",
+			"description": "<div class=\"swpf-core\"><p>\n Drow society is corrupt and evil, ruling vast subterranean cities throughfear and might. Many worship demons and enslave other peoples, and so areamong the underworld’s most feared and despised denizens.\n</p>\n<p>\n A powerful nobility rules over drow society. The nobles are governed bysadistic and dangerous matriarchs who constantly plot and scheme againstrival houses—and lesser kin within their own families. The majority of droware common soldiers and decadent citizenry, using this base profile.\n</p></div>"
+		},
+		"Drow Noble": {
+			"name": "Drow Noble",
+			"description": "<div class=\"swpf-core\"><p>\n Drow society tends to be matriarchal, with nobles defined by their ClassEdges. The following profile representing a typical matriarch priestess.\n</p></div>"
+		},
+		"Drow Priestess": {
+			"name": "Drow Priestess",
+			"description": "<div class=\"swpf-core\"><p>\n Drow society is corrupt and evil, ruling vast subterranean cities throughfear and might. Many worship demons and enslave other peoples, and so areamong the underworld’s most feared and despised denizens.\n</p>\n<p>\n A powerful nobility rules over drow society. The nobles are governed bysadistic and dangerous matriarchs who constantly plot and scheme againstrival houses—and lesser kin within their own families. The majority of droware common soldiers and decadent citizenry, using this base profile.\n</p></div>"
+		},
+		"Dryad": {
+			"name": "Dryad",
+			"description": "<div class=\"swpf-core\"><p>\n Dryads are tree-based fey who live in secluded woodlands far from humanoidsettlements. They appear as comely humanoids with wooden skin and leaves orblossoms for hair.\n</p>\n<p>\n These good and benign creatures are nimble but not very strong. They usebows and other weapons in defense, in addition to their potent magicabilities.\n</p>\n<p>\n Each Dryad is bound to a single tree, usually an oak. The creature sickensand eventually dies if it strays more than 300 yards from its tree. Dryadsdwell in all forests of Avistan, although the largest populations exist inthe Mwangi Expanse.\n</p></div>"
+		},
+		"Dwarf Skeleton": {
+			"name": "Dwarf Skeleton",
+			"description": ""
+		},
+		"Earth Elemental": {
+			"name": "Earth Elemental",
+			"description": "<div class=\"swpf-core\"><p>\n This hulking, roughly humanoid creature of dirt and stone explodes up fromthe earth, faceless save for two glowing gemstone eyes.\n</p></div>"
+		},
+		"Earth Elemental, Elder": {
+			"name": "Earth Elemental, Elder",
+			"description": "<div class=\"swpf-core\"><p>\n This hulking, roughly humanoid creature of dirt and stone explodes up fromthe earth, faceless save for two glowing gemstone eyes.\n</p></div>"
+		},
+		"Earth Elemental, Small": {
+			"name": "Earth Elemental, Small",
+			"description": "<div class=\"swpf-core\"><p>\n This hulking, roughly humanoid creature of dirt and stone explodes up fromthe earth, faceless save for two glowing gemstone eyes.\n</p></div>"
+		},
+		"Earth Mephit": {
+			"name": "Earth Mephit",
+			"description": "<div class=\"swpf-core\"><p>\n Mephits are the servants of powerful elemental creatures. Key sites andlocations on the elemental planes are full of mephits scurrying about onimportant errands or duties.\n</p>\n<p>\n Each kind of mephit is associated with one element that defines its specialabilities. This is the base profile, followed by Special Abilities for eachmephit.\n</p></div>"
+		},
+		"Elephant, Common": {
+			"name": "Elephant, Common",
+			"description": "<article class=\"swpf-core\">\n<p>These large herbivores wander the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{planes} of Golarion in family herds. Common elephants dwell in warmer climes, while mammoths inhabit colder regions, such as the northern reaches of Avistan and the Crown of the World.</p>\n<p>Elephants are hunted for their meat and their ivory tusks. They sometimes serve as mounts and beasts of burden&mdash;or even beasts of war.</p>\n</article>"
+		},
+		"Elephant, Mammoth": {
+			"name": "Elephant, Mammoth",
+			"description": "<article class=\"swpf-core\">\n<p>These large herbivores wander the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{planes} of Golarion in family herds. Common elephants dwell in warmer climes, while mammoths inhabit colder regions, such as the northern reaches of Avistan and the Crown of the World.</p>\n<p>Elephants are hunted for their meat and their ivory tusks. They sometimes serve as mounts and beasts of burden&mdash;or even beasts of war.</p>\n</article>"
+		},
+		"Elite Guard": {
+			"name": "Elite Guard",
+			"description": "<div class=\"swpf-core\"><p>\n Elite guards or watchmen have extensive life experience or special training.They serve as shock troops, bodyguards for important persons, and protectorsof valuable property.\n</p></div>"
+		},
+		"Ettercap": {
+			"name": "Ettercap",
+			"description": "<div class=\"swpf-core\"><p>\n Strange and reclusive creatures, Ettercaps live amongst arachnids in thedarkest forests of Avistan, Varisia, and Andoran. Because of their innatepower to befriend spiders, an Ettercap usually has a few giant spiders inits lair.\n</p>\n<p>\n The creature walks upright like a man but bears the face a spider. Insteadof hands, an ettercap’s arms end in long claws from which it casts webs.They excel at setting clever traps with their webbing and whatever materialsthey have at hand.\n</p></div>"
+		},
+		"Ettin": {
+			"name": "Ettin",
+			"description": "<div class=\"swpf-core\"><p>\n These two-headed creatures are kin to giants. They have orc-like tusks andgrimy gray skin. Ettins prefer solitude, living in secluded hilly regionswith cold climes. They lair in caves and hollows throughout Golarion, butmost commonly in Varisia. Adult ettins stand upwards of 15 feet tall andweigh up to 5,000 pounds.\n</p>\n<p>\n Although not the brightest minds in the realm, ettins are skillful hunterswho prefer to ambush their prey. Their two heads give them prowess inFighting with two weapons—they usually wield a flail in each hand. They areknown to associate with trolls and harpies, forming temporary alliances.Ettins sometimes have orc or goblin followers, as well as dire bears aspets.\n</p></div>"
+		},
+		"Fire Elemental": {
+			"name": "Fire Elemental",
+			"description": "<div class=\"swpf-core\"><p>\n This creature looks like a living, mobile bonfire, tongues of flame reachingout in search of things to burn.\n</p></div>"
+		},
+		"Fire Elemental, Elder": {
+			"name": "Fire Elemental, Elder",
+			"description": "<div class=\"swpf-core\"><p>\n This creature looks like a living, mobile bonfire, tongues of flame reachingout in search of things to burn.\n</p></div>"
+		},
+		"Fire Elemental, Small": {
+			"name": "Fire Elemental, Small",
+			"description": "<div class=\"swpf-core\"><p>\n This creature looks like a living, mobile bonfire, tongues of flame reachingout in search of things to burn.\n</p></div>"
+		},
+		"Fire Giant": {
+			"name": "Fire Giant",
+			"description": "<div class=\"swpf-core\"><p>\n These lumbering giants have short stumpy legs, broad chests, and powerful,muscular arms. They are 16 feet tall and weigh upwards of 7,000 pounds.Their hair and beard seem to be made of fire. They prefer hot locations—thehotter, the better—from the Mindspin Mountains of Avistan, to the volcanicregions of the Darklands.\n</p>\n<p>\n Fire giants are the most rigid and militaristic of all the giants. Theyconstantly train for war and employ brutal tactics on anyone and everyonethat gets in their way. Their rigid command structure is complete withsoldiers, officers, and even generals, and they obey orders from their kingsunquestioningly.\n</p></div>"
+		},
+		"Fire Mephit": {
+			"name": "Fire Mephit",
+			"description": "<div class=\"swpf-core\"><p>\n Mephits are the servants of powerful elemental creatures. Key sites andlocations on the elemental planes are full of mephits scurrying about onimportant errands or duties.\n</p>\n<p>\n Each kind of mephit is associated with one element that defines its specialabilities. This is the base profile, followed by Special Abilities for eachmephit.\n</p></div>"
+		},
+		"Flesh Golem": {
+			"name": "Flesh Golem",
+			"description": "<div class=\"swpf-core\"><p>\n A flesh golem is a ghoulish collection of stolen humanoid body parts,stitched together into a single composite form. Its cadaverous flesh has asickly green or yellowish tint. A flesh golem wears whatever clothing itscreator desires, usually just rags. It typically has no possessions and noweapons.\n</p>\n<p>\n A flesh golem can’t speak, although it can emit a hoarse roar of sorts. Mostof these constructs are mindless beings.\n</p></div>"
+		},
+		"Frost Giant": {
+			"name": "Frost Giant",
+			"description": "<div class=\"swpf-core\"><p>\n These giants usually have frosty-white or icy-blue skin and long braidedhair. They are 15 feet tall and weigh almost 2,800 pounds. They dwell in thecoldest environments of Golarion, such as the northern reaches of Avistanand the Crown of the World. Their lairs typically include pets such aswinter wolves, young white dragons, and mammoths.\n</p>\n<p>\n Frost giants are feared by other humanoids because of their Battle lust andhabit of taking captives. These giants survive by hunting, foraging, andraiding for supplies and slaves. They perceive other peoples purely ascommodities.\n</p>\n<p>\n They prefer to ambush their prey, throwing heavy rocks from afar or startingan avalanche before engaging with their greataxes. Impervious to cold, somefrost giants wear nothing more than animal skins, although warriors oftendon chain shirts and decorative helmets of their own design.\n</p></div>"
+		},
+		"Gargoyle": {
+			"name": "Gargoyle",
+			"description": "<div class=\"swpf-core\"><p>\n Resembling hideous stone statues, Gargoyles are patient winged predators.These evil creatures often perch high upon natural rock formations orman-made stone structures, with equal ease. They remain still enough to foolall but the most perceptive observers.\n</p>\n<p>\n While gargoyles require no sustenance, they often feast on their kills forreasons unknown. They dwell in the wilds and in cities where stonestructures exist, from Varisia to Avistan and across the continents.\n</p></div>"
+		},
+		"Gelatinous cube": {
+			"name": "Gelatinous cube",
+			"description": "<div class=\"swpf-core\"><p>\n These mindless predators and scavengers roam the Darklands. They consume anyorganic material. Sometimes materials they can’t digest—such as metal orstone—remain inside the cube. This includes the possessions of past humanoidvictims.\n</p>\n<p>\n The large cubes of ooze are usually 3-4 yards per side, although they areknown to grow larger and their shape is malleable as they move throughtunnels and caverns.\n</p>\n<p>\n Scholars debate the origin of the creatures. Wealthy and powerful people goto great lengths to capture and use them as guardians.\n</p></div>"
+		},
+		"Ghast": {
+			"name": "Ghast",
+			"description": "<div class=\"swpf-core\"><p>\n Like their lesser kin (ghouls), these undead creatures resemble whateverhumanoid form they had before coming into unlife. They are similar to ghoulsin most respects, though more cunning and dangerous.\n</p></div>"
+		},
+		"Ghost": {
+			"name": "Ghost",
+			"description": "<div class=\"swpf-core\"><p>\n A ghost is the spirit of a mortal creature that returns from death to hauntthe living or fulfill some unfinished business. They can’t— or won’t—leave aspecific location on the Material Plane until they complete some specifictask or meet some condition.\n</p></div>"
+		},
+		"Ghoul": {
+			"name": "Ghoul",
+			"description": "<div class=\"swpf-core\"><p>\n These undead creatures resemble whatever humanoid form they had before theycame into unlife. At a distance, observers might mistake them for livingcreatures, but up close, their undead state is obvious.\n</p>\n<p>\n Ghouls always appear emaciated and sickly. These characteristics belie theirtrue threat to the living, as they can infect humanoids and turn them intoghouls. Necromancers can create these vile creatures as well. These undeadexist in a constant state of hunger; their desire for flesh motivates mostof their behavior, although they possess a modicum of intelligence.\n</p></div>"
+		},
+		"Giant Ant": {
+			"name": "Giant Ant",
+			"description": "<div class=\"swpf-core\"><p>\n These insects look much like their smaller relatives, but they can grow tothe size of small ponies. A giant ant mound is the size of a human village.\n</p></div>"
+		},
+		"Giant Centipede": {
+			"name": "Giant Centipede",
+			"description": "<div class=\"swpf-core\"><p>\n These long, segmented predators are as long as a man is tall. They attackalmost any local fauna—including humanoids—with venomous mandibles.\n</p></div>"
+		},
+		"Giant Crab": {
+			"name": "Giant Crab",
+			"description": "<div class=\"swpf-core\"><p>\n This profile serves for any number of giant crustaceans, from hermits tohardshells.\n</p></div>"
+		},
+		"Giant Eagle": {
+			"name": "Giant Eagle",
+			"description": "<div class=\"swpf-core\"><p>\n This immense eagle’s feathers are golden brown and shimmer in the light. Itssharp beak and curved talons are dark yellow.\n</p>\n<p>\n Giant eagles are far more than animals—they possess a supernatural intellectand view themselves as guardians and protectors of their mountainterritories. They form lasting friendships with those who respect them andtheir mountaintop eyries.\n</p></div>"
+		},
+		"Giant Leech": {
+			"name": "Giant Leech",
+			"description": "<div class=\"swpf-core\">\n<p>While some folks believe their smaller cousins have medicinal value, giantleeches are dangerous vermin. As big as humans, they can latch on to anenemy with their circular row of teeth and drain all its blood. They lurk inmurky waters anywhere on Golarion.</p>\n</div>"
+		},
+		"Giant Lizard": {
+			"name": "Giant Lizard",
+			"description": "<div class=\"swpf-core\"><p>\n This profile represents various giant lizards, from geckos to iguanas.\n</p></div>"
+		},
+		"Giant Mosquito": {
+			"name": "Giant Mosquito",
+			"description": "<div class=\"swpf-core\"><p>\n Usually nothing more than an annoyance, these giant bloodsuckers rarelykill—unless they also carry disease.\n</p></div>"
+		},
+		"Giant Octopus": {
+			"name": "Giant Octopus",
+			"description": "<div class=\"swpf-core\"><p>\n The giant octopus is a true monster capable of catching and eating sharks,humans, or anything else it can grab with its 20’ long tentacles.\n</p></div>"
+		},
+		"Giant Scorpion": {
+			"name": "Giant Scorpion",
+			"description": "<div class=\"swpf-core\"><p>\n Giant scorpions are usually found in hot climates. Unlike their normal-sizecousins, giant scorpions are fierce predators.\n</p></div>"
+		},
+		"Giant Skeleton": {
+			"name": "Giant Skeleton",
+			"description": "<div class=\"swpf-core\"><p>\n This profile is for skeleton hill giants, although other giantkind may beanimated for larger and stronger versions. Sometimes, giant skeletons haveweapons and hide armor (+2).\n</p></div>"
+		},
+		"Giant Slug": {
+			"name": "Giant Slug",
+			"description": "<div class=\"swpf-core\"><p>\n No simple garden pests, giant slugs pose a serious threat to those caught intheir path. Folk who dwell near swamps, especially, risk losing livestockand even their homes to these enormous, solitary beasts.\n</p>\n<p>\n Giant slugs constantly wander in search of food, their preference beingfleshy organic material, which they slice into smaller, easily gulped chunkswith their rasp-like tongues. Deep in the Darklands, some creatures areknown to ride these slugs as mounts.\n</p></div>"
+		},
+		"Giant Spider": {
+			"name": "Giant Spider",
+			"description": "<div class=\"swpf-core\"><p>\n Giant spiders are about the size of large dogs and live in nests of 1d6+2arachnids. They frequently go hunting in packs when prey is scarce in theirhome lair.\n</p>\n<p>\n Their dens are littered with the bones and treasures of their victims, oftenproviding ripe pickings for those brave enough to venture within.\n</p></div>"
+		},
+		"Giant Stag Beetle": {
+			"name": "Giant Stag Beetle",
+			"description": "<div class=\"swpf-core\"><p>\n Giant stag beetles have sleek bodies and huge mandibles. They're knownto wander into logging camps, driven by their appetite for decaying wood.Called stag beetles because of their large, antler-like mandibles, they usethese appendages to wrestle competing suitors and quickly put down enemythreats.\n</p></div>"
+		},
+		"Giant Zombie": {
+			"name": "Giant Zombie",
+			"description": "<div class=\"swpf-core\"><p>\n These stats are for zombie hill giants, although other giantkind may beanimated for larger and stronger versions. Sometimes, giant zombies haveweapons and hide armor (+2).\n</p></div>"
+		},
+		"Glabrezu": {
+			"name": "Glabrezu",
+			"description": "<div class=\"swpf-core\">\n<p>Ferocious and bestial in form, the glabrezu is a master of trickery andlies. These treacherous demons form from the souls of the treasonous, thefalse, and the subversive. That is, souls of mortals who, in life, borefalse witness or used treachery and deceit to ruin the lives of others.</p>\n<p>With its ability to cloak its true form in pleasant illusions, the glabrezuuses its magic to grant wishes to mortal humanoids as a method of rewardingthose who succumb to its guile and deceit. A <em> @Compendium[swpf-core-rules.swpf-powers.Wish]{Wish} </em> granted by a glabrezu always fulfills the wisher&rsquo;s need in themost destructive way possible&mdash;although such methods might not be immediatelyapparent.</p>\n</div>"
+		},
+		"Gnoll": {
+			"name": "Gnoll",
+			"description": "<div class=\"swpf-core\"><p>\n Sometimes called hyenafolk, gnolls stand roughly a head taller than humans.These vicious creatures have double-jointed legs of hyenas, with torsos andprehensile hands of humans. Their normal upright posture is humanoid thoughthey drop to all fours when it suits them. Their heads and facial features—with short muzzles, furry ears and powerful jaws— are distinctly hyena-like.\n</p>\n<p>\n Organizing themselves into packs, gnolls survive through raiding, hunting,and scavenging. They prefer warm climes, particularly the plains and desertsof Garund and Casmaron. Gnolls rarely form settlements or make attempts toalter their environments. They stay on the move, hunting, raiding, andsometimes taking humanoid slaves. It’s common for gnolls to keep hyenas aspets.\n</p></div>"
+		},
+		"Goblin": {
+			"name": "Goblin",
+			"description": "<div class=\"swpf-core\"><p>\n These short, evil humanoids have pointed ears, wide mouths, and sinewy armstoo long for their bodies. Tribal creatures, Goblins usually liveunderground in dark caves or long-forgotten ruins. They form war bands ruledby the strongest or smartest of the group.\n</p>\n<p>\n Goblin tribes survive by raiding nearby settlements and waylaying travelerson the road, and then moving along once their pillaging leaves little leftto steal or despoil.\n</p></div>"
+		},
+		"Goblin Commando": {
+			"name": "Goblin Commando",
+			"description": "<div class=\"swpf-core\"><p>\n An elite goblin warrior, the commando often rides a goblin dog in combat.They usually wear some manner of leather armor, equipping themselves withspecial weapons.\n</p></div>"
+		},
+		"Goblin Cutthroat": {
+			"name": "Goblin Cutthroat",
+			"description": "<div class=\"swpf-core\"><p>\n These short, evil humanoids have pointed ears, wide mouths, and sinewy armstoo long for their bodies. Tribal creatures, Goblins usually liveunderground in dark caves or long-forgotten ruins. They form war bands ruledby the strongest or smartest of the group.\n</p>\n<p>\n Goblin tribes survive by raiding nearby settlements and waylaying travelerson the road, and then moving along once their pillaging leaves little leftto steal or despoil.\n</p></div>"
+		},
+		"Goblin Dog": {
+			"name": "Goblin Dog",
+			"description": "<div class=\"swpf-core\"><p>\n Goblin dogs are foul-smelling, rodent-faced canines with evil temperamentsmatching those of their goblin masters.\n</p></div>"
+		},
+		"Goblin Snake": {
+			"name": "Goblin Snake",
+			"description": "<div class=\"swpf-core\"><p>\n A gray, lipless goblin head with serpent’s fangs sits atop the sinuous blackbody of this greasy-scaled snake.\n</p></div>"
+		},
+		"Goblin Stalker": {
+			"name": "Goblin Stalker",
+			"description": "<div class=\"swpf-core\"><p>\n These short, evil humanoids have pointed ears, wide mouths, and sinewy armstoo long for their bodies. Tribal creatures, Goblins usually liveunderground in dark caves or long-forgotten ruins. They form war bands ruledby the strongest or smartest of the group.\n</p>\n<p>\n Goblin tribes survive by raiding nearby settlements and waylaying travelerson the road, and then moving along once their pillaging leaves little leftto steal or despoil.\n</p></div>"
+		},
+		"Goblin Warchanter": {
+			"name": "Goblin Warchanter",
+			"description": "<div class=\"swpf-core\"><p>\n This goblin bard possesses great skill at whipping fellow goblins intofurious, shrieking frenzies.\n</p></div>"
+		},
+		"Gold Dragon": {
+			"name": "Gold Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n Golden metallic scales cover the body of this majestic dragon, and a regalcrest of horns arches backward above wise and piercing eyes.\n</p></div>"
+		},
+		"Gold Dragon, Adult": {
+			"name": "Gold Dragon, Adult",
+			"description": ""
+		},
+		"Gold Dragon, Wyrmling": {
+			"name": "Gold Dragon, Wyrmling",
+			"description": ""
+		},
+		"Goliath Stag Beetle": {
+			"name": "Goliath Stag Beetle",
+			"description": "<div class=\"swpf-core\"><p>\n This carnivorous beast is the largest species of giant stag beetle. It has ataste for humanoids as well as rotting lumber.\n</p></div>"
+		},
+		"Green Dragon": {
+			"name": "Green Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n Scales the color of emeralds armor this ferocious acid-breathing dragon. Asingle sharp horn protrudes from the end of its toothy snout.\n</p></div>"
+		},
+		"Green Dragon, Adult": {
+			"name": "Green Dragon, Adult",
+			"description": ""
+		},
+		"Green Dragon, Wyrmling": {
+			"name": "Green Dragon, Wyrmling",
+			"description": ""
+		},
+		"Green Hag": {
+			"name": "Green Hag",
+			"description": "<div class=\"swpf-core\"><p>\n Knots of dark, moldering hair spill over the features of this sickly, thin,green-skinned crone. A typical green hag stands between 5 and 6 feet talland weighs roughly 150 pounds.\n</p>\n<p>\n Green hags haunt foul swamps and dark, tangled forests. They delight inmurdering innocents, unhinging noble minds, and debasing the pure of heart.These crones are particularly fond of using\n <em>\n  disguise\n </em>\n to assume theforms of alluring young maidens and then seducing young men away from theirlovers or families. Sometimes they do this merely for spite, other timesthey have malevolent plans to infect and ruin entire settlements.\n</p></div>"
+		},
+		"Griffon": {
+			"name": "Griffon",
+			"description": "<div class=\"swpf-core\"><p>\n This majestic beast has the body of a lion, the head and forelegs of a greateagle, and a massive pair of feathered wings.\n</p>\n<p>\n Griffons prefer to make their nests in high places, such as mountain bluffsand crags in various regions of Golarion, from Varisia to Cheliax.Occasionally, these predators serve as mounts for experienced adventurers.\n</p>\n<p>\n Griffons have a taste for horse meat, although they hunt just about anyavailable prey.\n</p></div>"
+		},
+		"Guardian Naga": {
+			"name": "Guardian Naga",
+			"description": "<div class=\"swpf-core\"><p>\n A contemplative humanoid face framed by a cobra-like hood adorns the body ofthis long, brightly colored serpent.\n</p>\n<p>\n Guardian nagas serve as dutiful protectors of places of fundamental powerand sanctity. Many guardian nagas adhere to the practices of ancient orforgotten Faiths. Others are merely drawn to sites of innate wonder—toweringwaterfalls, natural spires, mountaintop temples—minding them out of theirown senses of duty and reverence.\n</p></div>"
+		},
+		"Harpy": {
+			"name": "Harpy",
+			"description": "<div class=\"swpf-core\"><p>\n These winged carnivorous creatures look like a cross between a human and abird of prey. Their faces appear human from a distance, although closerinspection reveals sharp teeth and inhuman eyes.\n</p>\n<p>\n Harpies have feathers instead of hair. Their hands and feet bear theflesh-ripping talons of predatory avians. These creatures are known fortheir overpowering musk—they are usually smelled before they are seen. Theysometimes wear perfumes to cover their natural odors.\n</p>\n<p>\n Harpies live in temperate mountain areas of the Inner Sea region. Theyprefer craggy rookeries overlooking bogs and marshlands. They relish the“taste” of their prey’s fear and pain. Harpies tend to “play” with theirfood, especially favoring humans and elves.\n</p></div>"
+		},
+		"Hell Hound": {
+			"name": "Hell Hound",
+			"description": "<div class=\"swpf-core\"><p>\n This more common type of hell hound resembles a thin, lanky wolf withreddish-brown fur, white claws, and fiery red eyes. They stand up to 5 feetat their shoulder and weigh roughly 120 pounds.\n</p>\n<p>\n When in packs, these creatures prefer to surround prey, with one or twousing their fiery breath to force opponents into the rest of the pack.\n</p>\n<p>\n Fire giants often keep hell hounds in their lairs, as guardians andcompanions. The hounds respect the giants if treated as equals rather thanpets or servants.\n</p></div>"
+		},
+		"Hill Giant": {
+			"name": "Hill Giant",
+			"description": "<div class=\"swpf-core\"><p>\n Hill giants are the most nomadic of all giantkind. They usually travel insmall clans, looking for easy pillaging among other humanoid settlements.Many hill giants roam the frontier of Varisia, especially in the StorvalPlateau.\n</p>\n<p>\n Hill giants look much like humans, just a lot bigger. They are around 10feet tall and weigh 1,100 pounds. These selfish brutes tend to solve all oftheir problems with violence. They like to hit things hard.\n</p></div>"
+		},
+		"Hobgoblin": {
+			"name": "Hobgoblin",
+			"description": "<div class=\"swpf-core\"><p>\n Hobgoblins are larger cousins of goblins, similar in size to humans. Unliketheir smaller kin, these creatures value societal structure andorganization, with strict behavioral mores, traditional rites of passage,and tribal laws.\n</p>\n<p>\n Most hobgoblins live in military-style communities in the wilds, favoringhilly regions, especially in Avistan, Andoran, and Tian Xia. Soldiers havehigh status in all Hobgoblin strongholds, as warfare is their primary meansof Survival. These creatures raid and pillage nearby settlements, oftentaking slaves along with their plunder.\n</p></div>"
+		},
+		"Horse, Heavy": {
+			"name": "Horse, Heavy",
+			"description": "<div class=\"swpf-core\"><p>\n These beasts are meant for labor or carrying heavy riders. The smaller\"pony\" version is Size 2, Strength d10, and Vigor d8.\n</p>\n<p>\n If trained for combat, increase Fighting to d6.\n</p></div>"
+		},
+		"Horse, Light": {
+			"name": "Horse, Light",
+			"description": "<div class=\"swpf-core\"><p>\n Riding horses compromise speed with carrying capacity. The smaller\"pony\" version is Size 1 and Strength d10.\n</p>\n<p>\n If trained for combat, increase Fighting to d6.\n</p></div>"
+		},
+		"Hound Archon": {
+			"name": "Hound Archon",
+			"description": "<div class=\"swpf-core\">\n<p>Hound archons look like well-muscled humans with noble canine heads. Theystand upright on two legs when in their human form, and they usually wield a two-handed greatsword.</p>\n<p>These archons can also take the shape of a dog/wolf or dire wolf, losingtheir ability to fight with the sword but gaining the Pace, Speed, and Bitestats for that canine.</p>\n<p>Hound archons are disciplined soldiers and sentinels. Good-aligned deitiessend them to watch over important people and places. Under the guise offriendly strays, such hounds might follow their ward or guard their post foryears in their canine shape.</p>\n</div>"
+		},
+		"Human Zombie": {
+			"name": "Human Zombie",
+			"description": "<div class=\"swpf-core\"><p>\n This profile covers most any man-sized humanoid zombie.\n</p></div>"
+		},
+		"Humanoid Skeleton": {
+			"name": "Humanoid Skeleton",
+			"description": "<div class=\"swpf-core\"><p>\n This profile works for most man-sized humanoid skeletons. Sometimes, theseundead have weapons and armor.\n</p></div>"
+		},
+		"Hydra": {
+			"name": "Hydra",
+			"description": "<div class=\"swpf-core\"><p>\n Multiple angry snake-like heads rise from the sleek, serpentine body of thisterrifying monster. Legends describe hydras with five to twelve heads,although the most common have seven. Tales of some fire-breathing specimensstrike fear into the hearts of those who encounter them.\n</p>\n<p>\n These solitary carnivores usually live in swamps and marshes, although someare rumored to lair in coastal reefs. Found primarily on Avistan, Casmarond,and Garund, hydra have a voracious appetite. They hunt and devour large preywhenever possible, but will feed on vermin and other animals—includinghumanoids—anytime the opportunity presents itself.\n</p></div>"
+		},
+		"Ice Devil": {
+			"name": "Ice Devil",
+			"description": "<div class=\"swpf-core\"><p>\n Ice devils are monstrous humanoid insects, and the strategic geniuses ofHell’s armies. They prefer to let their minions engage in melee whilesupporting them with their powers and other abilities, but are dangerousfoes in combat in their own right.\n</p></div>"
+		},
+		"Ice Golem": {
+			"name": "Ice Golem",
+			"description": "<div class=\"swpf-core\"><p>\n Ice golems are humanoid constructs formed of carved ice. Their appearancecan range from roughly chiseled figures of ice and snow to elaboratelydetailed ice sculptures and beautiful crystalline statues.\n</p>\n<p>\n Ice golems can’t speak. They move with the sound of cracking and poppingice. They stand a head taller than most humans.\n</p></div>"
+		},
+		"Ice Linnorm": {
+			"name": "Ice Linnorm",
+			"description": "<div class=\"swpf-core\"><p>\n The ice linnorm dwells amid glacial crevasses and atop wind-blasted mountainpeaks. Tales speak of climbers unwittingly clambering over the flanks of aparticularly immense ice linnorm coiled around a mountain, only to finddeath at its furious fangs and claws at the summit of their goal. During thefiercest winters, ice linnorms are said to slither down to the lowlands toeat entire villages.\n</p></div>"
+		},
+		"Intellect Devourer": {
+			"name": "Intellect Devourer",
+			"description": "<div class=\"swpf-core\"><p>\n Thought by some to be invaders from another dimension or planet, thesinister intellect devourers are certainly one of the world’s cruelestraces. Incapable of experiencing emotions or wallowing in the sins ofphysical pleasure on their own, intellect devourers are forced to stealbodies in order to indulge their gluttony, lust, and cruelty.\n</p>\n<p>\n Stories tell of entire cities of these creatures deep underground, wherehost bodies are worn like clothes to hideous orgies and vile feasts. Loneintellect devourers often dwell in ruins or caves on the edge of a civilizedregion so they can make periodic forays into town to “shop” for anattractive new body.\n</p></div>"
+		},
+		"Iron Golem": {
+			"name": "Iron Golem",
+			"description": "<div class=\"swpf-core\"><p>\n An iron golem has a humanoid body made from iron. It can be sculpted intoany shape its creator desires, but it almost always displays armor of somesort. Its features are much smoother than those of a stone golem. An irongolem cannot speak or make any vocal noise, nor does it have anydistinguishable odor.\n</p>\n<p>\n Iron golems sometimes carry a weapon in one hand, though they rarely use it,relying instead on their bash attacks.\n</p></div>"
+		},
+		"Kobold": {
+			"name": "Kobold",
+			"description": "<div class=\"swpf-core\"><p>\n Small reptilian humanoids, kobolds have short snouts and long tails. Knownas craven creatures, they are sensitive to light. They typically reside inunderground caverns or in the sewers of great cities, coming to the surfaceonly in the dark of night to steal livestock or precious minerals.\n</p>\n<p>\n Kobolds dwell in various regions of Golarion, most commonly in Andoran butalso in other nations from Cheliax to Absalom. Their underground tunnels andcave systems are known to contain many traps designed to discourageintruders or capture small prey.\n</p></div>"
+		},
+		"Kyton": {
+			"name": "Kyton",
+			"description": "<div class=\"swpf-core\"><p>\n Wickedly-barbed chains adorn this lean biped, and gaps in the bindingsreveal deathly pale flesh etched with jagged scars.\n</p>\n<p>\n Called chain devils by the uninitiated, the sadomasochistic kytons are nottrue devils. Although some are known to live in Hell, kytons exist outsideof the hierarchies established by Asmodeus and his archdevils and can oftenbe found on other planes, particularly on the Plane of Shadow.\n</p></div>"
+		},
+		"Lamia": {
+			"name": "Lamia",
+			"description": "<div class=\"swpf-core\"><p>\n With the lower body of a lion combined with the form of a fetching humanoidwoman from the waist up, these evil creatures often charm victims to dotheir bidding. Cruel and evil, these deceitful monsters serve the goddessLamashtu.\n</p>\n<p>\n Lamia, the weakest of the lamyros family, have ancient connections with thelost realm of Thassilon. Therefore they are most likely encountered in theInner Sea regions, especially Varisia.\n</p></div>"
+		},
+		"Lamia Matriarch": {
+			"name": "Lamia Matriarch",
+			"description": "<div class=\"swpf-core\"><p>\n These evil leaders of the lamyros delight in causing pain and suffering.They sometimes equip themselves with armor, weapons and magical items, eventhough Lamashtu has endowed them with magical prowess and dangerous claws.\n</p></div>"
+		},
+		"Lantern Archon": {
+			"name": "Lantern Archon",
+			"description": "<div class=\"swpf-core\"><p>\n Shedding a warm and calming radiance, these orbs of light move with apreternatural silence and otherworldly grace. They glow in whatever colorsand intensity please them.\n</p>\n<p>\n Lantern archons are friendly and curious beings. They are eager to conversewith other creatures. They strive to provide assistance to those with goodinclinations. They speak in airy, echoing voices.\n</p>\n<p>\n These archons often serve as guardians for good creatures on the MaterialPlane, or as support troops for celestial armies.\n</p></div>"
+		},
+		"Lemure": {
+			"name": "Lemure",
+			"description": "<div class=\"swpf-core\"><p>\n The least of devilkind, lemures are shapeless masses of quivering flesh.These tortured souls bear little resemblance to whatever they once were. Amalformed face and knobby limbs provide the only hint of their existencebefore being damned to Hell.\n</p>\n<p>\n After suffering for ages, some souls are transformed into lemures. Greaterdevils can spot the most corrupt lemures, reshaping them into true devils toserve obediently in the legions of the damned.\n</p></div>"
+		},
+		"Lich": {
+			"name": "Lich",
+			"description": "<div class=\"swpf-core\"><p>\n Few creatures on Golarion are more feared than the lich. The pinnacle ofnecromantic art, the lich is a spellcaster who has chosen to shed his or herlife as a method to cheat death by becoming undead. While many who reachsuch heights of power stop at nothing to achieve immortality, the very ideaof becoming a lich is abhorrent to most creatures.\n</p></div>"
+		},
+		"Lion": {
+			"name": "Lion",
+			"description": "<div class=\"swpf-core\"><p>\n The kings of the jungle are fierce predators, particularly in open grasslandwhere their prey cannot seek refuge.\n</p></div>"
+		},
+		"Lizardfolk": {
+			"name": "Lizardfolk",
+			"description": "<div class=\"swpf-core\"><p>\n Lizardfolk are proud and powerful reptilian predators. They live in communalvillages scattered deep within swamps and marshes .\n</p>\n<p>\n Although many other peoples view lizardfolk society poorly, their isolatedcommunities are actually vibrant cultures. Lizardfolk have an oral historystretching back to before humans walked upright.\n</p>\n<p>\n Most lizardfolk stand 6 to 7 feet tall and weigh 200 to 250 pounds, theirpowerful muscles covered in scales of gray, green, or brown. They prefer tohunt and work during the day and retire to their communal homes at night.\n</p></div>"
+		},
+		"Manticore": {
+			"name": "Manticore",
+			"description": "<div class=\"swpf-core\"><p>\n A manticore has the body of a lion, the wings of a dragon, and a vaguelyhuman head. Its mouth contains rows of razor sharp teeth and its tail endsin a ball of darts or spines.\n</p>\n<p>\n Manticores inhabit many wild areas of Golarion, favoring the hills ofGlenebon and the Mwangi Expanse, as well as the hinterlands of Varisia. Forunknown reasons, they also gravitate towards forests where Darkwood grows.\n</p>\n<p>\n These fierce and thoroughly evil predators devour every part of theirvictims, even their gear.\n</p></div>"
+		},
+		"Medusa": {
+			"name": "Medusa",
+			"description": "<div class=\"swpf-core\"><p>\n Medusas are human-like creatures with snakes instead of hair. All knownmedusas are female. At distances of 10 yards or more, a medusa can easilypass for a beautiful human if she wears something to cover her serpentinelocks. Even up close it’s hard to discern her identity if she wears clothingto conceal her head and face.\n</p>\n<p>\n Medusas use lies and disguises to get close enough to opponents to use theirpetrifying gaze. Sometimes they choose to play with their prey and firearrows from a distance to lead enemies into traps. Some enjoy creatingintricate decorations out of their victims, using their petrified remains asaccents to their swampy lairs.\n</p></div>"
+		},
+		"Mimic": {
+			"name": "Mimic",
+			"description": "<div class=\"swpf-core\"><p>\n These aberrations can transform themselves into simulacra of man-madeobjects. They position themselves in places humanoids are sure to go, butremote enough where they can attack without being seen by large numbers.\n</p>\n<p>\n Sages of Occult matters debate the exact origins of this creature, thoughmost agree it was the result of magical or alchemical experimentation. Somebelieve mimics hunt for sport rather than sustenance.\n</p>\n<p>\n A typical mimic has a volume of 150 cubic feet. Legends tell of some of muchgreater sizes, with the ability to assume the form of houses, ships, or evenentire dungeon complexes.\n</p></div>"
+		},
+		"Minotaur": {
+			"name": "Minotaur",
+			"description": "<div class=\"swpf-core\"><p>\n Minotaurs have massive, bull-like heads, horns, and hooves. On Golarion,minotaurs live in small tribes or solitary lairs. They typically worshipLamashtu or Rovagug. These fierce humanoids are eager for Battle and theythe savor the taste of their opponents’ flesh.\n</p>\n<p>\n Most notably, minotaurs possess an uncanny ability: they never get lost.Perhaps this is a gift from Lamashtu, who legends say created the minotaurbefore Earthfall. Regardless, minotaurs prefer to lair in mazes, using thisability to their advantage when intruders dare to invade.\n</p></div>"
+		},
+		"Mohrg": {
+			"name": "Mohrg",
+			"description": "<div class=\"swpf-core\"><p>\n Mohrgs are former serial killers whose remains returned to unlife after theywere brought to justice and publicly executed for their heinous crimes.\n</p>\n<p>\n These undead things care even less for life than they did before their owndeaths. They exist solely to wreak havoc on the living. Sometimes mistakenfor skeletons or zombies, they are far more dangerous than those mindlessabominations. They retain some semblance of their own memories—and thedelight they once took in hearing the screams of the dying.\n</p></div>"
+		},
+		"Morlock": {
+			"name": "Morlock",
+			"description": "<div class=\"swpf-core\"><p>\n The tragic morlocks are descendants of the ancient Azlanti who escaped thedeath of their empire by fleeing into the Darklands. Morlocks still resembletheir human forebears despite their transformation over generationsunderground. They have bulging eyes and wide mouths full of flesh-rendingteeth. The tallest reach five feet in height, although they appear shorterbecause of their tendency to run on all fours.\n</p>\n<p>\n These subterranean tribal creatures are excellent climbers and leapers.Hunting skills are most important in morlock communities. They know how togain high ground, leaping from crags onto their prey for fast and effectiveattacks. Used to living and Fighting in cramped underground spaces, morlocksfight well in groups. They see clearly in darkness, while bright light istheir bane.\n</p></div>"
+		},
+		"Mule": {
+			"name": "Mule",
+			"description": "<div class=\"swpf-core\"><p>\n Mules are a cross between a donkey and a horse, and are usually used to haulheavy goods or pull wagons. Like any good pet, the GM should give the mule alittle personality. The expression “stubborn as a mule” certainly comes tomind.\n</p></div>"
+		},
+		"Mummy": {
+			"name": "Mummy",
+			"description": "<div class=\"swpf-core\"><p>\n Usually created to guard the tombs of the honored dead, mummies are evervigilant for those who would desecrate their sacred ground. Most mummiesremain loyal to their charge until they are destroyed, some mummies retainfree will even in their unlife.\n</p></div>"
+		},
+		"Nessian Hell Hound": {
+			"name": "Nessian Hell Hound",
+			"description": "<div class=\"swpf-core\"><p>\n This creature resembles a powerfully built wolf the size of a large drafthorse, with ebony fur and burning red eyes.\n</p>\n<p>\n Asmodeus, the Prince of Darkness, keeps vast kennels of these brutal warhounds beneath his palace in Nessus. All are fitted with shirts offire-scorched barding. These loyal beasts always obey their master. Theytrack their prey relentlessly—to the corners of Hell and beyond—until theycomplete their task or perish.\n</p></div>"
+		},
+		"Night Hag": {
+			"name": "Night Hag",
+			"description": "<div class=\"swpf-core\"><p>\n Grisly fetishes and the rags of once fine clothes hang off the cadaverousframe of these horrifying, sharp-fanged crones. Their size varies, rangingfrom 5 to 7 feet tall and 150 to 300 pounds.\n</p>\n<p>\n Night hags are foul murderesses and greedy soul brokers who prey uponmortals while they’re most vulnerable. They haunt the dreams of theirvictims night after night, eventually trapping their poor, tormented soulswithin dark gems—which they sell in the infernal markets of the outerplanes.\n</p></div>"
+		},
+		"Nightmare": {
+			"name": "Nightmare",
+			"description": "<div class=\"swpf-core\"><p>\n Nightmares are flaming harbingers of death. They allow only the most evil ofcreatures to ride them, and are never mere mounts, but rather willingpartners in destruction.\n</p>\n<p>\n This eerie horse-like creature’s skin is an inky blackness. Fire spurts fromits hair and nostrils and its hooves spray sparks.\n</p></div>"
+		},
+		"Nymph": {
+			"name": "Nymph",
+			"description": "<div class=\"swpf-core\"><p>\n Nymphs appear as gorgeous young women with large almond-shaped eyes,elf-like ears and silky human hair. Their beauty is so dazzling that a mereglance can stun a person—a direct look from a nymph can blind.\n</p>\n<p>\n These fey creatures are found across the Inner Sea region, from Avistan, toVarisia and Andoran. They sometimes provide aid to travelers of Goodalignment, though they have an impulsive and unpredictable streak.\n</p></div>"
+		},
+		"Ochre Jelly": {
+			"name": "Ochre Jelly",
+			"description": "<div class=\"swpf-core\">\n<p>Ochre jellies are animate masses of yellow, orange, and brown protoplasm. Atrest, their flat, pulsing bodies stretch out to a wide diameter. In motion,they often ball up into quivering spherical shapes and almost seem to rollas they move. In combat, they exude long, dripping pseudopods to bashopponents with @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{acidic} damage.</p>\n<p>Their malleable bodies allow them to seep through cracks and holes farsmaller than the space they usually fill. Creatures dwelling below groundoften attempt to seal up any such cracks to fortify their lairs againstochre jellies.</p>\n</div>"
+		},
+		"Ogre": {
+			"name": "Ogre",
+			"description": "<div class=\"swpf-core\"><p>\n Ogres are foul creatures known for their cruelty and viciousness. They havelong arms, muscular torsos, and stumpy legs that seem far too short fortheir tall frames. Their small eyes and large toothsome mouths give them anodious countenance.\n</p>\n<p>\n These tribal giantkind live in caves throughout Golarion’s mountain ranges.Ogres stand upwards of 10 feet tall and weigh roughly 650 pounds. They aremore common in untamed areas, especially in the wilds of Varisia andAvistan. Ogre tribes value strength, fertility, and hunting prowess aboveall else. Many ogre societies worship Lamashtu.\n</p></div>"
+		},
+		"Ogre Mage, Oni": {
+			"name": "Ogre Mage, Oni",
+			"description": "<div class=\"swpf-core\">\n<p>Although these evil outsiders usually manifest in the form of an ogre, theyare truly fiendish spirits with powerful magical abilities. They often takecommand of ogre tribes, pressing the brutes into servitude. They are alsoknown to subjugate other humanoid settlements, ruling without mercy anddemanding all manners of tribute.</p>\n<p>Whatever the reason for leaving the lower planes, an ogre mage indulges itsdestructive lusts while on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane}. They gravitate to Inner Searegion, wreaking havoc from Tian Xia to Cheliax. They usually have ornatearmor and weapons, forged at the expense of whatever society they havecommandeered.</p>\n</div>"
+		},
+		"Ogre Spider": {
+			"name": "Ogre Spider",
+			"description": "<div class=\"swpf-core\"><p>\n Often as large as an elephant, an ogre spider has the thorax and legs of anarthropod, and a vaguely humanoid face. The visual effect is disturbing, tosay the least.\n</p></div>"
+		},
+		"Orc": {
+			"name": "Orc",
+			"description": "<div class=\"swpf-core\"><p>\n Orcs are brutal green-skinned humanoids with pig-like features, includingsnouts, long teeth, and sometimes tusks. They have beady eyes and framesslightly larger than most humans.\n</p>\n<p>\n Orcs are tribal creatures who value strength and combat ability. Theirsocieties are usually dominated by the strongest warriors, who subjugate themeek. Orc bands raid any neighboring communities—even other orc settlements.They have foul temperaments and rarely take prisoners.\n</p>\n<p>\n Most orcs worship Rovagug, though some follow other gods such as Lamashtu.They inhabit many areas of Golarion, usually in the Darklands.\n</p></div>"
+		},
+		"Orc, Berserker": {
+			"name": "Orc, Berserker",
+			"description": "<div class=\"swpf-core\"><p>\n Orcs are brutal green-skinned humanoids with pig-like features, includingsnouts, long teeth, and sometimes tusks. They have beady eyes and framesslightly larger than most humans.\n</p>\n<p>\n Orcs are tribal creatures who value strength and combat ability. Theirsocieties are usually dominated by the strongest warriors, who subjugate themeek. Orc bands raid any neighboring communities—even other orc settlements.They have foul temperaments and rarely take prisoners.\n</p>\n<p>\n Most orcs worship Rovagug, though some follow other gods such as Lamashtu.They inhabit many areas of Golarion, usually in the Darklands.\n</p></div>"
+		},
+		"Orc, Chieftain": {
+			"name": "Orc, Chieftain",
+			"description": "<div class=\"swpf-core\"><p>\n The leader of a small orc clan is always the most deadly brute in the bunch.Orc chieftains on Golarion generally have a magical item or two, as well assuperior armor and weaponry, at least compared to their subjects.\n</p></div>"
+		},
+		"Orc, Skoll": {
+			"name": "Orc, Skoll",
+			"description": "<div class=\"swpf-core\"><p>\n Orcs are brutal green-skinned humanoids with pig-like features, includingsnouts, long teeth, and sometimes tusks. They have beady eyes and framesslightly larger than most humans.\n</p>\n<p>\n Orcs are tribal creatures who value strength and combat ability. Theirsocieties are usually dominated by the strongest warriors, who subjugate themeek. Orc bands raid any neighboring communities—even other orc settlements.They have foul temperaments and rarely take prisoners.\n</p>\n<p>\n Most orcs worship Rovagug, though some follow other gods such as Lamashtu.They inhabit many areas of Golarion, usually in the Darklands.\n</p></div>"
+		},
+		"Otyugh": {
+			"name": "Otyugh",
+			"description": "<div class=\"swpf-core\"><p>\n Scholars and experts in the Occult debate the origin of this strangeomnivore. Whether an accident of nature or the result of a magicalexperiment, the scavenger is known to dwell in the swamps and sewers ofAvistan and Garund. They survive on the garbage and waste of othercreatures.\n</p>\n<p>\n The large spherical body of an otyugh is dominated by its large toothymouth. The creature has three stumpy legs and three long tentacles—two withbarbs and one with numerous eyes. Although their appearance may give theimpression of a mindless carrion-eater, the aberrations possess reason andthe power of Common speech.\n</p></div>"
+		},
+		"Owlbear": {
+			"name": "Owlbear",
+			"description": "<div class=\"swpf-core\"><p>\n Appearing as a cross between a giant owl and a dire bear, this magicalpredator is known for its ferocity and aggression.\n</p>\n<p>\n Theories abound as to their origins. They prefer to dwell in forests but aresometimes found in the Darklands. A mated pair will fight to the death todefend their offspring.\n</p></div>"
+		},
+		"Phase spider": {
+			"name": "Phase spider",
+			"description": "<div class=\"swpf-core\">\n<p>This large spider-like monster has an eerie, humanoid face surrounded by ashaggy mane of fur.</p>\n<p>Phase spiders are voracious predators from the Ethereal @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} who hunt on the Material Plane. When prey is located, the spider shifts to the Ethereal Plane to prepare an ambush. They like to @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{shift} to the Material Plane, bite the victim, then retreat back to the Ethereal Plane to wait for the poison to take effect.</p>\n<p>Phase spiders are the natural enemy of another denizen of the EtherealPlane&mdash;the xill. The two cultures have long fought a bloody war with no realprospect of a resolution anytime soon.</p>\n</div>"
+		},
+		"Phoenix": {
+			"name": "Phoenix",
+			"description": "<div class=\"swpf-core\"><p>\n The phoenix is a legendary bird of fire that dwells in the most remote partsof the desert. As the birds are known to be great scholars, many seekers ofrare lore search out particular phoenixes for advice. Yet it is thephoenix’s ability to rebirth itself from its own dead body for which thecreature is best known.\n</p>\n<p>\n The phoenix is a benevolent creature, aiding those who do good and activelyharming those who do evil.\n</p></div>"
+		},
+		"Pit Fiend": {
+			"name": "Pit Fiend",
+			"description": "<div class=\"swpf-core\"><p>\n Pit Fiends are perhaps the most fearsome of the devils known to Golarianadventurers and scholars. These massive creatures have thick muscled framescovered in protective red scales, flame-seared wings, and eyes smolderinglike embers.\n</p>\n<p>\n The generals of Hell’s armies—sometimes among the Dukes of Hell—pit fiendspossess powerful magic and physical might. They have poisonous fangs as wideas daggers, claws like steel, and a dangerous long tail.\n</p></div>"
+		},
+		"Pixie": {
+			"name": "Pixie",
+			"description": "<div class=\"swpf-core\"><p>\n This tiny, whimsical-looking fey creature darts about swiftly on wildlycolored gossamer wings. They look like very small humans with long pointedears. Pixies enjoy using their magical abilities to confuse and befuddlehumanoids.\n</p>\n<p>\n Pixies usually dwell in the forests of Golarion—especially in Avistan—butare also found in the Darklands.\n</p></div>"
+		},
+		"Purple Worm": {
+			"name": "Purple Worm",
+			"description": "<div class=\"swpf-core\"><p>\n These massive scavenger worms tunnel beneath the earth of Golarion,consuming almost any organic material they find. They sometimes consumegemstones and other items able to withstand the corrosive acid inside theirgullets. The worms sense vibrations through the earth, detecting a walkingperson upwards of 200 yards.\n</p>\n<p>\n Purple worms are notorious for swallowing their prey whole. Bards sing songsabout groups of adventurers vanishing down the ravenous maw of a purpleworm, screaming as they disappear one by one.\n</p>\n<p>\n The stats below are for a monster some 50-80 feet long.\n</p></div>"
+		},
+		"Quasit": {
+			"name": "Quasit",
+			"description": "<div class=\"swpf-core\">\n<p>These tiny, winged demons appear on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} as a result of anevil spellcaster&rsquo;s attempt to summon a familiar. Usually, they serve amaster, although free quasits are known to exist.</p>\n<p>Despite their size, these versatile creatures pose real threats to almostany opponent. Quasits have poisonous claws, magical abilities, and otherinnate nastiness.</p>\n</div>"
+		},
+		"rakshasa": {
+			"name": "rakshasa",
+			"description": "<div class=\"swpf-core\">\n<p>Rakshasas are evil spirits cloaked in the guise of humanoid creatures, walking unseen among their intended prey. While in the shape of those it seeks to defile, rakshasas gorge themselves in hideous acts. Were they human, these acts of cannibalism, blasphemy, and worse would mark them as criminals condemned to the cruelest of hells.</p>\n<p>When not in the shape of their prey, rakshasas appear as bipeds with the head of an animal. They generally possess the heads of great cats such as tigers or lions.</p>\n<p>Although rakshasas are outsiders, they are at home on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane}. They usually hunt alone, but sometimes extended families work together to take down a specific threat or ruin a mortal civilization from the inside out over the course of many generations.</p>\n</div>"
+		},
+		"Rat, Dire": {
+			"name": "Rat, Dire",
+			"description": "<div class=\"swpf-core\"><p>\n As big as dogs and wolves, these omnivorous creatures are dangerous ifcornered or defending their nests. They tend to move and scavenge in smallpacks.\n</p></div>"
+		},
+		"Red Dragon": {
+			"name": "Red Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n A crown of cruel horns surrounds the head of this mighty fire-breathingdragon. Thick scales the color of molten rock cover its long body.\n</p></div>"
+		},
+		"Red Dragon, Adult": {
+			"name": "Red Dragon, Adult",
+			"description": ""
+		},
+		"Red Dragon, Wyrmling": {
+			"name": "Red Dragon, Wyrmling",
+			"description": ""
+		},
+		"Redcap": {
+			"name": "Redcap",
+			"description": "<div class=\"swpf-core\"><p>\n These stumpy, misanthropic fey exist only to indulge themselves in blissfulbloodletting and wanton slaughter. Like prune-faced, angry old men, theymollycoddle their own inefficiencies and miseries in gore.\n</p>\n<p>\n Redcaps are most widely recognized for their long woolen caps, which theydrench in the blood of their victims. They are three feet tall, with twistedframes, pointed ears, and long white beards. They dress in soiled leatherarmor and wear iron-shod boots that make a distinctive clanging when theyrun.\n</p></div>"
+		},
+		"Regular Guard": {
+			"name": "Regular Guard",
+			"description": "<div class=\"swpf-core\"><p>\n These are everyday regular town or city patrols.\n</p></div>"
+		},
+		"Relentless Zombie": {
+			"name": "Relentless Zombie",
+			"description": "<div class=\"swpf-core\"><p>\n This profile covers most any man-sized humanoid zombie.\n</p></div>"
+		},
+		"Remorhaz": {
+			"name": "Remorhaz",
+			"description": "<div class=\"swpf-core\"><p>\n This immense creature’s body is covered in chitinous plates, with dozens ofcentipede-like legs and a massive head. Inside, fires burn with intenseheat, causing its external chitin to glow white-hot. This helps the remorhazto burrow into the earth, especially into glaciers and other icy landscapesin its preferred environments.\n</p>\n<p>\n These magical beasts are found in a variety of icy climes on Golarian, fromthe Algid Wastes to the northern reaches of Avistan and the Lands of theLinnorm Kings.\n</p></div>"
+		},
+		"Revenant": {
+			"name": "Revenant",
+			"description": "<div class=\"swpf-core\"><p>\n These undead exist only to exact revenge. They rise from the grave to huntand kill their murderers. They can’t rest until they find and destroy theculprit. Until they do, they languish in self-loathing and intense hatred.\n</p>\n<p>\n A revenant appears as bony corpse with similar features as it possessedduring life.\n</p></div>"
+		},
+		"Rhinoceros": {
+			"name": "Rhinoceros",
+			"description": "<div class=\"swpf-core\"><p>\n The rhinoceros feeds on leafy plants, branches, and even thorny shrubs. Itsthick hide is a mottled gray color, and it can run surprisingly fast for abeast of its size. These creatures inhabit warmer grasslands and usuallytravels in small herds, sometimes called a crash.\n</p></div>"
+		},
+		"Roc": {
+			"name": "Roc",
+			"description": "<div class=\"swpf-core\"><p>\n Rocs are terrifying, legendary birds renowned for their ability to carry offelephants and other large animals. Rocs seize such prey in their massive,clawed talons and drop them from great heights before feasting on theshattered remains.\n</p>\n<p>\n While rocs are capable of sleeping in the air as they soar across greatranges in search of food, they generally return home to the mountains toroost and procreate.\n</p>\n<p>\n Rocs prefer rocky crags for their massive nests—places completelyinaccessible by terrestrial means. Outside of mating, rocs are extremelyantisocial, and may attack others of their kind in vicious aerial Battles inorder to establish their territorial boundaries\n</p></div>"
+		},
+		"Roper": {
+			"name": "Roper",
+			"description": "<div class=\"swpf-core\"><p>\n The roper is an ambush hunter. Capable of altering the coloration and shapeof its body, a roper in hiding looks remarkably like a stalagmite orpillar—or even a boulder.\n</p>\n<p>\n When moving or Fighting, the roper opens one huge eye, just above a toothymouth. Long strands of fibrous material whip from the sides of its conicalbody. They can attack and manipulate items with these strands.\n</p>\n<p>\n The roper is one of the more intelligent denizens of the deep caverns ofGolarion. Its intellectual curiosity is known to some scholars, though thisinquisitiveness is eventually overcome by its hunger.\n</p></div>"
+		},
+		"Rust Monster": {
+			"name": "Rust Monster",
+			"description": "<div class=\"swpf-core\"><p>\n Rust monsters spark terror in those who live by the sword and shield. Thecreature subsists on the heat generated by the oxidation of metal, not onlyfor vitality but also for protection as the energy reinvigorates theircrustacean-like shells.\n</p>\n<p>\n This fearsome monster stands on four legs. It has a strange spikedprotrusion at the end of its tail, and two long, feathery antennae. Itspreferred attack is to touch an opponent’s metal garments or weapons withits antennae, catalyzing the rusting process.\n</p></div>"
+		},
+		"Satyr": {
+			"name": "Satyr",
+			"description": "<div class=\"swpf-core\"><p>\n This handsome, grinning man-creature has the furry legs of a goat and a setof curling ram horns extending from his temples. He lives a solitary life inthe forests and woodlands near humanoid settlements, serving as a protectorof nature. Known for hedonistic tendencies, a satyr enjoys seducing humanoidwomen­—his only way to reproduce.\n</p>\n<p>\n A satyr focuses and empowers his magic by playing haunting melodies on hispanpipes.\n</p></div>"
+		},
+		"Sea Hag": {
+			"name": "Sea Hag",
+			"description": "<div class=\"swpf-core\"><p>\n Hair like rotting seaweed drapes this ancient witch. Loose, algae-coloredskin sags off her half-starved 6 foot tall frame. Despite her emaciatedappearance, a sea hag weighs about 150 pounds.\n</p>\n<p>\n These wicked hags possess terrifying features that few dare look upon.Reveling in discord, the foul crones drag sailors to watery graves andtorment the peoples of the oceans with deceitful promises. Sea hags preferto dwell relatively close to shore where they can prey upon fishermen andcrew of trading vessels.\n</p></div>"
+		},
+		"Shadow": {
+			"name": "Shadow",
+			"description": "<div class=\"swpf-core\"><p>\n These incorporeal creatures look like a shadow of a humanoid form. Forunknown reasons, they haunt ruins they inhabited in life. They have no goalsor discernible motivations other than to sap life from the living.\n</p></div>"
+		},
+		"Shambling mound": {
+			"name": "Shambling mound",
+			"description": "<div class=\"swpf-core\"><p>\n These solitary creatures wander swamps and forests in search of prey. Whilethey can and do consume rotting vegetation to survive, the omnivoroushunters require living tissue in order to reproduce. They relish the brainsof humanoids, especially elves.\n</p>\n<p>\n Shamblers, as they are often called, appear as a mass of tangled vines anddripping slime. They reek of rot, detritus, and freshly turned earth.Despite their appearance, they are intelligent beings—and surprisingly goodswimmers.\n</p></div>"
+		},
+		"Shark": {
+			"name": "Shark",
+			"description": "<div class=\"swpf-core\"><p>\n Dangerous predators such as bull sharks and similar fish swim the seas ofGolarion.\n</p></div>"
+		},
+		"Shark, Great White": {
+			"name": "Shark, Great White",
+			"description": "<div class=\"swpf-core\"><p>\n These statistics cover great whites and similar fishes, 18 to 25 feet long.\n</p></div>"
+		},
+		"Shocker Lizard": {
+			"name": "Shocker Lizard",
+			"description": "<div class=\"swpf-core\"><p>\n This dog-sized lizard has two horns, one on either side of its head, andgreen scales that crackle with sparks of lightning. They live in colonies ofvarious numbers, almost always near a source of water. In groups, theybecome formidable foes.\n</p></div>"
+		},
+		"Shoggoth": {
+			"name": "Shoggoth",
+			"description": "<div class=\"swpf-core\"><p>\n This immense mound of black slime has no defined shape, but can form eyes,tentacles, mouths, and even stranger things in its heaving bulk.\n</p>\n<p>\n Some lunatics and fools desperately claim the monstrous shoggoth is nothingmore than a nightmare. They’re wrong. The truth is altogether more dire.Shoggoths exist in the deepest of ocean trenches or the most remote andforgotten caverns and ruins, emerging only rarely to spread madness anddestruction in their slime-caked wakes.\n</p></div>"
+		},
+		"Silver Dragon": {
+			"name": "Silver Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n The metallic scales of this tall, elegant dragon shine like polished silver,and its tail has a feathered appearance.\n</p></div>"
+		},
+		"Silver Dragon, Adult": {
+			"name": "Silver Dragon, Adult",
+			"description": ""
+		},
+		"Silver Dragon, Wyrmling": {
+			"name": "Silver Dragon, Wyrmling",
+			"description": ""
+		},
+		"Sinspawn": {
+			"name": "Sinspawn",
+			"description": "<div class=\"swpf-core\"><p>\n Sinspawn are corrupted products of magic, manifested by spellcasters in apast era as shock troops for their armies. Literally the embodiment of a sinmade flesh, they are sentient abominations of distilled ectoplasm imprintedwith the soul-image of slain creatures that possessed an abundance of aparticular sin.\n</p>\n<p>\n The following stats represent the most common form of sinspawn.\n</p></div>"
+		},
+		"Skaveling": {
+			"name": "Skaveling",
+			"description": "<div class=\"swpf-core\"><p>\n Skavelings are undead giant bats. They are used as guardians and mounts bythe foul necromantic denizens of the deepest reaches of the Darklands.\n</p></div>"
+		},
+		"Skeletal Champion": {
+			"name": "Skeletal Champion",
+			"description": "<div class=\"swpf-core\"><p>\n A skeletal champion retains some of its intelligence from life. Skeletalchampions are far more cunning, formidable, and powerful than common,mindless skeletons.\n</p>\n<p>\n Sometimes a skeletal champion has powers remembered from a life as a mage orpriest or other arcane character (GM’s call).\n</p></div>"
+		},
+		"Soldier": {
+			"name": "Soldier",
+			"description": ""
+		},
+		"Soldier, Seasoned": {
+			"name": "Soldier, Seasoned",
+			"description": "<div class=\"swpf-core\"><p>\n These mercenaries and troops have seen Battle and lived to tell about it.They are more capable and experienced than regular soldiers. They can becustomized and outfitted to fit their particular role.\n</p></div>"
+		},
+		"Spectre": {
+			"name": "Spectre",
+			"description": "<div class=\"swpf-core\"><p>\n These translucent, incorporeal figures have faces distorted by wrath into ahideous mask. Most spectres are the remnants of murdered or evil humans,their anger preventing them from entering the afterlife. Like ghosts,spectres haunt the places of their deaths, and seek to draw others into thelonely abyss of undeath.\n</p>\n<p>\n Spectres look much as they did in life. They are easily recognized by thosewho knew them. They retain a strong sense of identity, and even ancient,insane spectres generally remain coherent.\n</p></div>"
+		},
+		"Spirit Naga": {
+			"name": "Spirit Naga",
+			"description": "<div class=\"swpf-core\"><p>\n Morbid-minded and wretched to look upon, spirit nagas are evil witches ofthe naga culture. They are hateful outcasts long-shunned for their darkpowers and loathsome ways. A typical spirit naga is slender, with the scalesof a venomous serpent and a tangle of greasy hair framing their pale faces.\n</p>\n<p>\n Spirit nagas delight in places of death and desolation. Battle-scarredruins, untended graveyards, despoiled forests, and tangled swamps allattract these repulsive creatures. Most spirit nagas believe they are theinheritors of some mysterious dark favor, seeing their innate magicaltalents as evidence of such.\n</p></div>"
+		},
+		"Stone Giant": {
+			"name": "Stone Giant",
+			"description": "<div class=\"swpf-core\"><p>\n This breed of giantkind has dark granite skin, with sharp, angular facialfeatures. They blend in easily with natural stone surroundings. Stone giantsare usually 12 feet tall and weigh around 1500 pounds.\n</p>\n<p>\n Like their rival hill giant cousins, many stone giants live in the StorvalPlateau of Varisia. Some dwell in Tusk and Kodar mountain ranges to thenorth. They divide themselves into two primary societies: so-called “highculture” and “low culture” philosophies. The Rune Road giants adoptThassilonian knowledge, which is considered taboo by the low cultureadherents who swear by the old ways.\n</p></div>"
+		},
+		"Stone Golem": {
+			"name": "Stone Golem",
+			"description": "<div class=\"swpf-core\"><p>\n A stone golem has a humanoid body made from stone, frequently stylized tosuit its creator. For example, it might look like it is wearing armor, witha particular symbol carved on the breastplate, or have designs worked intothe stone of its limbs.\n</p>\n<p>\n Its head is often carved to resemble a helmet or the head of some beast.While it may be sculpted to carry a stone shield or stone weapon such as asword, these aesthetic choices don’t affect its combat abilities.\n</p>\n<p>\n A stone golem can’t speak—it makes no sound other than the grinding of stoneagainst stone when it moves.\n</p></div>"
+		},
+		"Storm Giant": {
+			"name": "Storm Giant",
+			"description": "<div class=\"swpf-core\"><p>\n Storm giants tend toward tanned complexions, though some rare specimens haveviolet skin, deep violet or blue-black hair, and silvery gray or purpleeyes. Such violet coloration is considered to be good luck among stormgiants, and those possessing it tend to become leaders among theirkind.Adults typically stand 21 feet tall and weigh almost 12,000 pounds.\n</p>\n<p>\n Storm giants tend to be reclusive, preferring to dwell along remotecoastlines or on tropical islands. They are prone to violent mood swings,and are quick to anger in the face of evil. They are brutal and dangerousfoes when insulted.\n</p></div>"
+		},
+		"Succubus": {
+			"name": "Succubus",
+			"description": "<div class=\"swpf-core\"><p>\n Among the demon hordes, a succubus can often rise to incredible heights ofpower via her manipulations and sensual charms. Many a demonic war has ragedbecause of the subtle machinations of these demons. A succubus is formedfrom the souls of particularly lustful and rapacious evil mortals.\n</p></div>"
+		},
+		"Swarm": {
+			"name": "Swarm",
+			"description": "<div class=\"swpf-core\">\n<p>Sometimes the most deadly foes come in the smallest packages. The swarmdescribed here can consist of most anything&mdash;from biting ants to stingingwasps to filthy rats. They cover an area equal to a Large, Medium, or Small @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Blast Template} and attack everyone within it every round. When a swarm is Incapacitated it&rsquo;s effectively dispersed.</p>\n<p>Swarms aren&rsquo;t intelligent enough to do anything but move and bite andshouldn&rsquo;t take Multi-Actions, make Tests, etc.</p>\n</div>"
+		},
+		"Taiga Giant": {
+			"name": "Taiga Giant",
+			"description": "<div class=\"swpf-core\"><p>\n These nomadic hunters wander the northern reaches of Avistan and Casmaron.They patiently follow herds of auroch, mammoths, and other creatures. Theyusually avoid humanoid settlements, although they sometimes raid towns orvillages when prey is scarce.\n</p>\n<p>\n Large even for giantkind—20 feet tall and almost 10,000 pounds­—taigagiants decorate themselves with tattoos, jewelry, and spirit fetishes. Theyare fond of music and song.\n</p></div>"
+		},
+		"Tarn Linnorm": {
+			"name": "Tarn Linnorm",
+			"description": "<div class=\"swpf-core\"><p>\n This nightmarishly gargantuan linnorm possesses two equally fearsome heads.Its twin jaws seethe with acid and poison.\n</p>\n<p>\n Although legends speak of even more powerful linnorms, it’s hard to believeafter witnessing the devastation a two-headed tarn linnorm can wreak.Content to sleep away the centuries at the bottom of dark, deep mountainlakes, a tarn is a true horror feared by even the mightiest of heroes onGolarion.\n</p></div>"
+		},
+		"Tarrasque": {
+			"name": "Tarrasque",
+			"description": "<div class=\"swpf-core\"><p>\n The legendary tarrasque is among Golarion’s most destructive monsters.Thankfully, it spends most of its time in a deep torpor in an unknown cavernin a remote corner of the world. Yet when it wakens, kingdoms perish.\n</p>\n<p>\n Although far from intelligent, the tarrasque is smart enough to understand afew words in Aklo. Likewise, it isn’t mindless in its rampages, but insteadfocuses on targets that threaten it. The tarrasque is difficult to distractwith trickery.\n</p></div>"
+		},
+		"Tatzlwyrm": {
+			"name": "Tatzlwyrm",
+			"description": "<div class=\"swpf-core\"><p>\n Slithering like a large snake, this creature has the head of a dragon and apair of clawed arms to help with movement and grappling. A sickly greenmists wafts from its open maw.\n</p>\n<p>\n Tatzlwryms spend most of their time lying in wait for prey, whether animalor humanoid. They hoard the remains of their hunts even though they have nouse for the treasure. The eldest accumulate morbid troves of bones, debris,and valuables. These creatures often dwell in dense forests or undergroundcaverns. They are known to favor Darkwood forests, in particular.\n</p></div>"
+		},
+		"Tendriculos": {
+			"name": "Tendriculos",
+			"description": "<div class=\"swpf-core\">\n<p>A tendriculos is a creature brought into being through a corruption ofnature. This is often a result of foul magic concentrated in a particulararea. Sometimes, these creatures manifest from places where the boundariesbetween the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} and the mysterious realm of the fey have wornthin.</p>\n<p>The plant creature&rsquo;s thick trunk is capped by a crown of wide leaves,whipping vines, mushrooms, and a ravenous purple maw. It is a voracious anddangerous hunter, preferring to ambush prey.</p>\n</div>"
+		},
+		"Tentamort": {
+			"name": "Tentamort",
+			"description": "<div class=\"swpf-core\"><p>\n This monster looks something like a leathery, eyeless squid with a squatbody the size of a rain barrel. Its lower body splits into a tangle oftentacles the creature uses to slowly move. Meanwhile, two longertentacles—one thick and muscular, the other lithe and tipped with a bonestinger—emerge from either side of its upper body.\n</p>\n<p>\n Tentamorts live in marshes or in underground caverns near water sources.These patient predators usually wait for prey to come to them, relying ontheir poison and quickness.\n</p></div>"
+		},
+		"Townsfolk": {
+			"name": "Townsfolk",
+			"description": "<div class=\"swpf-core\"><p>\n This profile covers everything from farmers, to merchants, and artisans.They are everyday folks, not soldiers or town guards.\n</p>\n<p>\n Their attributes and skills may vary as needed. For example, artisansprobably have Repair d6, while a stableboy probably has Riding d4. Theirgear represents only what might be in hand whenever any unplanned combattakes place. Townsfolk rarely wear armor.\n</p></div>"
+		},
+		"Treant": {
+			"name": "Treant",
+			"description": "<div class=\"swpf-core\"><p>\n Treants are guardians of the forest and speakers for the trees. Aslong-lived as the forests themselves, they are slow and methodical in mostthings but formidable when compelled to fight. They excel at tearing downwhat others build and they have an inherent dislike of loggers.\n</p>\n<p>\n Treants are primarily solitary creatures, although they occasionally gatherto share information and reproduce. In grave and rare times, treants convenea moot, which may last for months on end.\n</p>\n<p>\n These animated trees have knotted bark with vaguely humanoid features. Theytend to resemble the species of trees most common in their woodlandterritories—from the jungles of Garund, to Fangwood Forest in Nirmathas, andthe Verduran Forest in Avistan.\n</p></div>"
+		},
+		"Troglodyte": {
+			"name": "Troglodyte",
+			"description": "<div class=\"swpf-core\"><p>\n Troglodytes are feral cave dwellers with scaly gray bodies like that of cavelizards. They are among the most populous denizens of the upper reaches ofthe endless caverns of the underworld, raiding the settlements of those whodwell above or below ground.\n</p>\n<p>\n Troglodytes are one of the oldest of the intelligent peoples. Ruins found insome remote caverns testify to the fact that their empire was once among thelargest in the world. At the dawn of recorded history, troglodytecivilization was generations ahead of other humanoids.\n</p></div>"
+		},
+		"Troll": {
+			"name": "Troll",
+			"description": "<div class=\"swpf-core\"><p>\n Trolls are large humanoids with greenish hide, sharp claws, and bestialfaces. Their stooped posture belies their size—14 feet tall and 1,000pounds—but doesn’t diminish their formidable presence.\n</p>\n<p>\n Trolls regenerate quickly, unless the damage inflicted is fire oracid-based. They deliver powerful blows with their claws, though they arealso capable of Fighting with weapons.\n</p>\n<p>\n The creatures dwell in the wild areas of the Inner Sea region, most commonlyin northern Avistan. In most troll societies, the males are solitary huntersand wanders, while the females and children live in extended family groups.\n</p></div>"
+		},
+		"Trumpet Archon": {
+			"name": "Trumpet Archon",
+			"description": "<div class=\"swpf-core\"><p>\n Lithe and beautiful, with skin the color of marble, this heavenly archonhovers upon powerful white wings. It radiates a sense of serenity and goodtidings.\n</p>\n<p>\n These messengers of good deities and mighty celestials serve as the vanguardof divine armies. Trumpet archons often act as intermediaries between thegods and mortals. They speak with clear, musical voices.\n</p>\n<p>\n All trumpet archons carry a gleaming magical horn. They use their trumpetsto create wondrous music, paralyze enemies, and call other archons to thedefense of just causes.\n</p></div>"
+		},
+		"Unicorn": {
+			"name": "Unicorn",
+			"description": "<div class=\"swpf-core\"><p>\n Unicorns are fierce, intelligent creatures of the forest, noble beasts whokeep their own counsel and typically appear only to defend their homesagainst evil.\n</p>\n<p>\n They universally shun all creatures except for good-aligned fey,good-aligned humanoid women, and the woodlands’ native animals, though theymay fight alongside other good creatures against common enemies. A typicalunicorn is 8 feet long and 5 feet tall at the shoulder, weighing 1,200pounds.\n</p></div>"
+		},
+		"Vampire": {
+			"name": "Vampire",
+			"description": "<div class=\"swpf-core\">\n<p>Vampires are intelligent undead creatures. They feeds off the blood of theliving in order to prolong their own unnatural existence.</p>\n<p>Vampires came to Golarion from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} of Shadow long ago. Exactly howthey arrived remains lost to history and is a matter of debate in scholarlycircles. Over time, these &ldquo;true vampires&rdquo; have spawned many more.</p>\n<p>Amongst their own kind, true vampires use the slang term full-blood todistinguish themselves from those they consider lesser but associatedbeings, such as vampire spawn.</p>\n</div>"
+		},
+		"Vargouille": {
+			"name": "Vargouille",
+			"description": "<div class=\"swpf-core\">\n<p>Originally from the lower&nbsp;@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{planes}, these creatures are grotesque flying headswith bat-like wings. Despite their otherworldly origins, they turn up on theMaterial Plane, especially in Andoran, Kaer Maga, and the Mwangi Expanse.</p>\n<p>Typically, vargouilles lurk or lair near old Battlefields, graveyards, orother locations visited by death. Evil spellcasters summon these creaturesto Golarion from time to time. Their putrid kiss transforms their victimsinto vargouilles.</p>\n</div>"
+		},
+		"Venomous": {
+			"name": "Venomous",
+			"description": "<div class=\"swpf-core\"><p>\n These stats cover a variety of medium-sized snakes with extremely deadlypoison. Such venomous snakes usually live solitary lives, although it’spossible to stumble into a nest of poisonous vipers.\n</p></div>"
+		},
+		"Violet Fungus": {
+			"name": "Violet Fungus",
+			"description": "<div class=\"swpf-core\">\n<p>This human-sized fungus grows from a bed of tentacular roots. Deep violettendrils slither out of the dozens of fissures in its pointed cap. It isusually found in a small grove of up to a dozen fungi.</p>\n<p>The carnivorous violet fungus is one of the most notorious and feareddangers of Golarion&rsquo;s Darklands. It feeds on the rot and decay of organicmatter. A violet fungus&rsquo;s tendrils are coated with a virulent @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{venom}. Theseplants can move, but they usually stay rooted in one place as long as theyhave rotting organic matter to sustain them.</p>\n</div>"
+		},
+		"Vrock": {
+			"name": "Vrock",
+			"description": "<div class=\"swpf-core\"><p>\n Profane champions of the Abyss, vrocks embody all the rage, hatred, andviolence of that despicable realm. As ravenous and grotesquely opportunisticas the avian scavengers they resemble, vrocks delight in bloodshed,relishing the sounds and sensations of ripping the still-pulsing entrailsfrom a living husk.\n</p>\n<p>\n Vrocks usually form from the evil souls of hateful and wrathful mortals,particularly criminals, mercenaries, or assassins.\n</p></div>"
+		},
+		"Water Elemental": {
+			"name": "Water Elemental",
+			"description": "<div class=\"swpf-core\"><p>\n This translucent creature’s shape shifts between a spinning column of waterand a crashing wave.\n</p></div>"
+		},
+		"Water Elemental, Elder": {
+			"name": "Water Elemental, Elder",
+			"description": "<div class=\"swpf-core\"><p>\n This translucent creature’s shape shifts between a spinning column of waterand a crashing wave.\n</p></div>"
+		},
+		"Water Elemental, Small": {
+			"name": "Water Elemental, Small",
+			"description": "<div class=\"swpf-core\"><p>\n This translucent creature’s shape shifts between a spinning column of waterand a crashing wave.\n</p></div>"
+		},
+		"Water Mephit": {
+			"name": "Water Mephit",
+			"description": "<div class=\"swpf-core\"><p>\n Mephits are the servants of powerful elemental creatures. Key sites andlocations on the elemental planes are full of mephits scurrying about onimportant errands or duties.\n</p>\n<p>\n Each kind of mephit is associated with one element that defines its specialabilities. This is the base profile, followed by Special Abilities for eachmephit.\n</p></div>"
+		},
+		"Wendigo": {
+			"name": "Wendigo",
+			"description": "<div class=\"swpf-core\"><p>\n A wendigo appears much like a tall humanoid in the last stages of death fromstarvation. Completely hairless, its flesh is deathly pale except for itsblackened extremities. Its fingers end with long talons, while needle-likefangs fill its mouth.\n</p>\n<p>\n A wendigo has ragged, bloody flesh around its maw because it constantlydevours its own lips. Its tongue is long, pocked with sores, and the colorof a fresh bruise. It has glowing, yellow eyes that float in large socketsfull of blood.\n</p></div>"
+		},
+		"Wererat (Hybrid Form)": {
+			"name": "Wererat (Hybrid Form)",
+			"description": "<div class=\"swpf-core\"><p>\n Whether naturally born or cursed with lyncanthropy, wererats areshapechangers feared by anyone with common sense. They tend to keep theirabilities a secret known only to others in their hidden guilds.\n</p>\n<p>\n Natural wererats usually look like short and wiry humans—often with anervous disposition and darting rodent-like eyes—when in human form. Thosecursed with this existence appear exactly as they did before they becameinfected. Both can take a hybrid form as well as that of a giant rat.\n</p></div>"
+		},
+		"Werewolf (Hybrid Form)": {
+			"name": "Werewolf (Hybrid Form)",
+			"description": "<div class=\"swpf-core\"><p>\n In their humanoid form, natural werewolves look like normal people, thoughsome tend to look a bit feral and have wild hair. Eyebrows that growtogether, index fingers longer than the middle fingers, and strangebirthmarks on the palm of the hand are all commonly accepted indications ofa werewolf.\n</p>\n<p>\n Of all the lycanthropes, the werewolf is the most widespread and the mostfeared. Stories of werewolves haunting lonely forest roads, prowling mistymoors on the outskirts of rural societies, or dwelling in the shadows of thelargest cities are quite common.\n</p></div>"
+		},
+		"White Dragon": {
+			"name": "White Dragon",
+			"description": "<div class=\"swpf-core\"><p>\n This dragon’s scales are a frosty white. Its head is crowned with slenderhorns, with a thin membrane stretched between them.\n</p></div>"
+		},
+		"White Dragon, Adult": {
+			"name": "White Dragon, Adult",
+			"description": ""
+		},
+		"White Dragon, Wyrmling": {
+			"name": "White Dragon, Wyrmling",
+			"description": ""
+		},
+		"Wight": {
+			"name": "Wight",
+			"description": "<div class=\"swpf-core\"><p>\n Wights are animated corpses, resembling a cross between ghouls and spectres.Their eyes burn with hatred, and they have a hunger for the souls of theliving. For some, earthly desires or material bonds cause their spirits toremain behind to guard a treasure or their place of death. Others servewhomever brought them to unlife. Wights are sometimes found underwater, incaves or shipwrecks.\n</p></div>"
+		},
+		"Will-o’-Wisp": {
+			"name": "Will-o’-Wisp",
+			"description": "<div class=\"swpf-core\"><p>\n These strange aberrations live in swamps throughout Golarion, although noone is certain why they prefer such environments. Most commonly, they areencountered in the River Kingdoms, where they sometimes gather in smallgroups.\n</p>\n<p>\n Will-o’-wisps appear as floating lights often mistaken as lanterns orbeacons by travelers. The creatures attempt to lure such travelers into deepmarshes and quicksand, or even to the lairs of other creatures. They do thisin hopes of feeding on the fear of dying victims. They can deliver ashocking attack, but they prefer to feed on victims who can’t fight back.\n</p></div>"
+		},
+		"Wolf, Dire": {
+			"name": "Wolf, Dire",
+			"description": "<div class=\"swpf-core\"><p>\n These large and feral canines are often used by orcs as attack dogs. Theymay also be found roaming in packs in the deepest, darkest woods.\n</p></div>"
+		},
+		"Wolverine": {
+			"name": "Wolverine",
+			"description": "<div class=\"swpf-core\"><p>\n This muscular omnivore resembles a bear cub but smells more like a skunk.Known for its ferocity, a wolverine is often a solitary animal, though amale may have a few females in his territory.\n</p>\n<p>\n Wolverines have thick, oily fur, and sharp crampon-like claws, perfect forclimbing.\n</p></div>"
+		},
+		"Wolverine, Dire": {
+			"name": "Wolverine, Dire",
+			"description": "<div class=\"swpf-core\"><p>\n A dire wolverine is as large as a bear, its jaws and claws oversized andbrutal, its eyes dark and filled with rage. Even more territorial than theirsmaller relatives, they defend their lairs to the death.\n</p></div>"
+		},
+		"Woolly Rhinoceros": {
+			"name": "Woolly Rhinoceros",
+			"description": "<div class=\"swpf-core\"><p>\n This large rhinoceros has a shaggy pelt of long, brown fur and a row ofimmense horns on its snout and brow. Unlike its non-woolly cousin, thisherbivore usually grazes for food rather than browsing on larger, fibrousplants. They tend to dwell in herds on the plains of colder climates.\n</p>\n<p>\n Whenever these temperamental beasts perceive a threat (real or imagined),they issue loud bellows and stomp their feet as a prelude to charging andattacking.\n</p></div>"
+		},
+		"Worg": {
+			"name": "Worg",
+			"description": "<div class=\"swpf-core\"><p>\n These intelligent and evil creatures are a magical species of wolves. Largerthan their animal cousins, they often hunt in packs, typically lead by analpha worg who dominates the other members of the pack.\n</p>\n<p>\n Unlike their cousins, worgs possess the power of speech —and guile. Theysometimes make alliances with goblins and other evil humanoids.\n</p></div>"
+		},
+		"Wraith": {
+			"name": "Wraith",
+			"description": "<div class=\"swpf-core\"><p>\n Wraiths are undead creatures born of evil and darkness. They hate light andliving things, as they have lost much of their connection to their formerlives. The vile creatures appear as little more than dark shapes with twoflickering pinpoints of light where their eyes should be.\n</p></div>"
+		},
+		"Wyvern": {
+			"name": "Wyvern",
+			"description": "<div class=\"swpf-core\"><p>\n Wyverns are two-legged dragons. They have no fiery breath, but possess longnecks, sharp teeth, and a poisonous stinger in their tail.\n</p>\n<p>\n Wyverns are territorial, aggressive, and impatient creatures. Unlike some oftheir dragon cousins, they have no interest in diplomacy or subtlety. Theyare quick to resort to force to accomplish their selfish goals.\n</p></div>"
+		},
+		"Xill": {
+			"name": "Xill",
+			"description": "<div class=\"swpf-core\">\n<p>Evil and alien, these flame-red humanoids are a strange mix of insect andreptile, with four arms and fanged mandibles.</p>\n<p>Xills have only one purpose: to perpetuate themselves at the expense ofothers. All xills are female and capable of fertilizing their own eggs, butthey require living hosts as incubators. A xill injects eggs into paralyzedvictims via a grotesque ovipositor behind their mandibles. They prefer phasespiders as hosts.</p>\n<p>Xills are the scourge of the Ethereal @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane}. These plane-shifters possessimpressive intelligence and a totalitarian, militaristic culture all theirown. They sometimes come to the Material Plane to find hosts.</p>\n</div>"
+		},
+		"Xorn": {
+			"name": "Xorn",
+			"description": "<div class=\"swpf-core\">\n<p>This squat beast is as wide as it is tall. Strangely symmetrical, a xorn hasthree arms, three legs, three eyes, and one huge mouth. It typically growsto 8 feet in height, but older and larger specimens exist.</p>\n<p>Xorns are outsiders from the elemental @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{plane} of Earth. They travel to Golarion&rsquo;s Darklands to find and eat precious metals and gemstones. Xorns have little interest in native species, unless they happen to carry favorite meals. Xorns are known to accept bribes to avoid a fight or to provide temporary aid underground.</p>\n<p>Xorn elders and leaders often have @Compendium[swpf-core-rules.swpf-abilities.Class Abilities]{Class Edges}. @Compendium[swpf-core-rules.swpf-edges.Rogue]{Rogue} and @Compendium[swpf-core-rules.swpf-edges.Barbarian]{Barbarian} are most common.</p>\n</div>"
+		},
+		"Yeth hound": {
+			"name": "Yeth hound",
+			"description": "<div class=\"swpf-core\"><p>\n These emaciated creatures resemble canines, though they originate from thelower planes. More importantly, the strange hounds have magical powers,including the ability to fly.\n</p>\n<p>\n Yeth Hounds sometimes serve evil humanoids or other masters, such as demons.They travel in pairs or wander in packs in the darkest parts of Golarion,such as the Anferita Wood of Cheliax.\n</p></div>"
+		},
+		"Yeti": {
+			"name": "Yeti",
+			"description": "<div class=\"swpf-core\"><p>\n Large, white-haired humanoids, Yeti are sometimes called abominable snowmen,although it’s unclear whether that mythical label is accurate or a misnomer.\n</p>\n<p>\n These intelligent, Stealthy creatures live in mountain ranges across Avistanas well as the icy landscapes of the Crown of the World. Typically, theyform small tribes but are rarely seen in groups—it is more likely to spot asolitary Yeti, who might easily evade any attempts to follow it.\n</p></div>"
+		}
+	}
+}

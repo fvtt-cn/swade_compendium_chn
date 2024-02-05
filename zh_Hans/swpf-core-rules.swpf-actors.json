@@ -1,0 +1,212 @@
+{
+    "label": "生物图鉴",
+    "mapping": {
+        "biography": "system.details.biography.value",
+        "items": {
+            "path": "items",
+            "converter": "SWADE_ITEM_CONVERTERS"
+        }
+    },
+    "entries": {
+        "Airship (Dirigible)": {
+            "name": "飞船(飞艇)",
+            "description": "<div class=\"swpf-core\">\n<p>在格拉利昂上十分稀少，这种奇异的航船通过重型锁链连接到庞大的气球上得以保持浮空。</p></div>"
+        },
+        "Alchemical Dragon": {
+            "name": "炼金飞龙",
+            "description": "<div class=\"swpf-core\">\n<p>在格拉利昂上极度稀少，这种打造成龙形的战船由魔法或炼金术驱动。</p></div>"
+        },
+        "Alligator/crocodile": {
+            "name": "短吻鳄/鳄鱼",
+            "description": "<div class=\"swpf-core\">\n<p>格拉里昂的各处的湿地当中都潜伏着短吻鳄和鳄鱼，虽然多见于淡水当中，但其偶尔也会出现在咸水或是海水当中。这里的数值对应的是两类物种中的普通成员，而在偏远地区则通常会出现体型更大的种类。</p>\n<p><strong>类别</strong>：中立动物(短吻鳄/鳄鱼)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d6，力量d10，活力d8</p>\n<p><strong>技能</strong>：运动d6，格斗d6，威吓d6，察觉d8，潜行d8</p>\n<p><strong>移速</strong>：5；<strong>格挡</strong>：5；<strong>坚韧</strong>：10(2)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：厚实表皮</li>\n<li><strong>水栖</strong>：移速6</li>\n<li><strong>噬咬</strong>：力量+d6。</li>\n<li><strong>微光视觉</strong>：短吻鳄/鳄鱼忽略昏暗与黑暗的照明减值。</li>\n<li><strong>翻滚</strong>：短吻鳄和鳄鱼会用虎钳般的下颚咬住猎物并与之翻滚，如果这些大爬虫中的一员攻击时获得优良，其奖励伤害由d6变成d10。</li>\n<li><strong>体型2</strong>：鳄鱼通常能有6到7英尺长，皮糙肉厚，重量差不多能到500磅左右。</li>\n</ul>\n</div>"
+        },
+        "Amiri": {
+            "name": "艾米莉",
+            "description": "<p>血气方刚，勇猛善战的艾米莉自视甚高，胆敢冒犯这位野蛮人的家伙很快就会尝到她血脉偾张的怒火。艾米莉使用的越型混种剑是她数年前从霜巨人那里赢回来的无价战利品，除此之外，她对身外之物丝毫不感兴趣，只要有机会就会肆无忌惮地大肆挥霍，活在当下的艾米莉在每个早晨都会期盼着今天能光荣地与世长辞。</p>"
+        },
+        "Bear": {
+            "name": "熊",
+            "description": "<div class=\"swpf-core\">\n<p>这个条目涵盖了诸如灰熊、黑熊和北极熊等凶猛的大型熊类。所有这些熊类的偏好战术都是擒抱住猎物后再用致命的尖牙加以啃咬。</p>\n<p><strong>类别</strong>：中立动物(熊)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d8，力量d12，活力d10</p>\n<p><strong>技能</strong>：运动d6，格斗d8，威吓d6，察觉d8，潜行d6</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：6；<strong>坚韧</strong>：11(2)</p>\n<p><strong>专长</strong>：蛮勇</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：厚实外皮</li>\n<li><strong>噬咬/爪抓</strong>：力量+d6，穿甲2。</li>\n<li><strong>擒抱</strong>：若是熊的爪抓攻击造成动摇或是损伤，则其能马上以一个自由行动尝试对其进行擒抱(+2)。</li>\n<li><strong>微光视觉</strong>：熊忽略昏暗与黑暗的照明减值。</li>\n<li><strong>体型2</strong>：这种生物站起来足有8英尺高，重量能超过1000磅。</li>\n</ul>\n</div>"
+        },
+        "Bird Of Prey": {
+            "name": "肉食鸟类",
+            "description": "<div class=\"swpf-core\">\n<p>这里的数据涵盖了诸如雕和隼等类似的大型肉食鸟类——统称为&quot;猛禽&quot;，其利爪和钩喙能轻易地撕裂血肉。</p>\n<p>这些猎手会在黑夜或是白昼活动，其有时会为格拉里昂上的类人生物主子服务。尽管这种鸟类偏好于抓捕并带走较小的猎物，但其中已知仍有一部分会去袭击牲畜。</p>\n<p><strong>类别</strong>：中立动物(肉食鸟类)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d6，力量d4-2，活力d6</p>\n<p><strong>技能</strong>：运动d8，格斗d6，察觉d10，潜行d8</p>\n<p><strong>移速</strong>：3；<strong>格挡</strong>：5；<strong>坚韧</strong>：3</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d4。</li>\n<li><strong>飞行</strong>：移速24</li>\n<li><strong>微光视觉</strong>：肉食鸟类忽略昏暗与黑暗的照明减值。</li>\n<li><strong>体型-2(小型)</strong>：隼、鹰和鸮直立起来大约有3英尺高，但翼展可达5英尺乃至更长。</li>\n</ul>\n</div>"
+        },
+        "Boar": {
+            "name": "野猪",
+            "description": "<div class=\"swpf-core\">\n<p>这个条目涵盖了各种各样的野生猪类，其通常只有在发情期或是自卫时才会变得颇为危险。特定的类人生物有时候会将这些杂食动物作为护卫，战兽或是处理垃圾的牲口。</p>\n<p><strong>类别</strong>：中立动物(野猪)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d8，力量d10，活力d8</p>\n<p><strong>技能</strong>：运动d6，格斗d6，察觉d6</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：5；<strong>坚韧</strong>：7(1)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+1</strong>：厚实外皮</li>\n<li><strong>微光视觉</strong>：野猪忽略昏暗与黑暗的照明减值。</li>\n<li><strong>顽强</strong>：另一次造成动摇的结果不会对野猪造成损伤。</li>\n<li><strong>獠牙</strong>：力量+d4(视作角撞)。</li>\n</ul>\n</div>"
+        },
+        "Carriage": {
+            "name": "四轮马车",
+            "description": "<div class=\"swpf-core\">\n<p>以单匹<strong>马</strong>拉动，桌面上的移速是12，而且可以奔跑。</p></div>"
+        },
+        "Cart": {
+            "name": "二轮板车",
+            "description": "<div class=\"swpf-core\">\n<p>以单匹<strong>马</strong>或<strong>骡</strong>拉动，桌面上的移速是9/6(对应马/骡)，而且可以奔跑。</p></div>"
+        },
+        "Cat, Large": {
+            "name": "大猫",
+            "description": "<div class=\"swpf-core\">\n<p>这里的数据涵盖了从山狮、花豹到猎豹等各种各样的大型猫科动物。</p>\n<p><strong>类别</strong>：中立动物(大猫)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d6(A)，心魂d8，力量d8，活力d8</p>\n<p><strong>技能</strong>：运动d8，格斗d6，威吓d6，察觉d6，潜行d8，生存d6</p>\n<p><strong>移速</strong>：8；<strong>格挡</strong>：5；<strong>坚韧</strong>：6</p>\n<p><strong>专长</strong>：连击</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d6。</li>\n<li><strong>微光视觉</strong>：大猫忽略昏暗与黑暗的照明减值。</li>\n<li><strong>猛扑</strong>：大猫会最大限度地利用自身的体重与利爪来袭击猎物，若其进行不羁攻击，则增加的伤害从+2变成+4。</li>\n</ul>\n</div>"
+        },
+        "Cat, Small": {
+            "name": "小猫",
+            "description": "<div class=\"swpf-core\">\n<p>这是普通的家猫，其可以作为施法者的魔宠，野兽大师的动物伙伴或者是<em>化形</em>奇术的一种变化形态。</p>\n<p><strong>类别</strong>：中立动物(小猫)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d8，力量d4-3，活力d6</p>\n<p><strong>技能</strong>：运动d8，察觉d6，潜行d8</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：2；<strong>坚韧</strong>：2</p>\n<p><strong>专长</strong>：特技员</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量。</li>\n<li><strong>微光视觉</strong>：猫忽略昏暗与黑暗的照明减值。</li>\n<li><strong>体型-3(超小型)</strong>：猫通常不到一英尺高。</li>\n</ul>\n</div>"
+        },
+        "Dog/wolf": {
+            "name": "狗/狼",
+            "description": "<div class=\"swpf-core\">\n<p>大型攻击犬的数值见下，这包括狼和鬣狗等等。</p>\n<p><strong>类别</strong>：中立动物(狗/狼)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d6(A)，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d8，格斗d6，察觉d10，潜行d8</p>\n<p><strong>移速</strong>：8；<strong>格挡</strong>：5；<strong>坚韧</strong>：4</p>\n<p><strong>专长</strong>：警觉</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d4。</li>\n<li><strong>微光视觉</strong>：狗/狼忽略昏暗与黑暗的照明减值。</li>\n<li><strong>体型-1</strong>：这些犬类的头领能长到和普通人类的腰部一样粗壮，它们重约60磅。</li>\n<li><strong>疾速</strong>：奔跑骰d10。</li>\n</ul>\n</div>"
+        },
+        "Experienced Soldier": {
+            "name": "老兵",
+            "description": "<div class=\"swpf-core\">\n<p><strong>属性</strong>：灵巧d6，聪慧d6，心魂d6，力量d8，活力d8</p>\n<p><strong>技能</strong>：运动d6，通用知识d6，格斗d8，威吓d6，察觉d6，交涉d6，射击d8，潜行d6</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：6；<strong>坚韧</strong>：6</p>\n<p><strong>负赘</strong>：-</p>\n<p><strong>专长</strong>：士兵，及任意两项战斗专长。</p></div>"
+        },
+        "Ezren": {
+            "name": "艾兹伦",
+            "description": "<div class=\"swpf-core\">艾兹伦在从事奥法研究时并非埋头于蒙尘的图书馆，而是投身于实地现场，他也从中寻得了慰藉。这名年长的法师远行四方去研究探索全新的魔法，某程度上而言这也是为了将父亲作为异端的耻辱抛诸脑后。</div>"
+        },
+        "Galley": {
+            "name": "桨帆船",
+            "description": "<div class=\"swpf-core\">\n<p>重护甲，同时具备船桨和船帆，<strong><em>武器</em></strong>：投石机(前固定)。</p></div>"
+        },
+        "Glider": {
+            "name": "滑翔机",
+            "description": "<div class=\"swpf-core\">\n<p>这种轻型木质架构具备类似翅膀的帆。</p></div>"
+        },
+        "Harsk": {
+            "name": "哈斯克",
+            "description": "<div class=\"swpf-core\">身为一名不同寻常的矮人，哈斯克比起幽闭的隧道更享受开阔的平原和青翠的森林，而且比起麦酒更喜欢茶的味道。没什么能比拿着弩蹲在树冠上更能令他开心的了。20年前，哈斯克的兄弟西格尔(SIGUR)被巨人所杀，从此他一直随身带着西格尔的斧子，来提醒自己从那些巨人的手中保护自然的誓言。</div>"
+        },
+        "Horse, Heavy": {
+            "name": "重型马",
+            "description": "<div class=\"swpf-core\">\n<p>这种兽类专用于劳作和背负重骑兵，没那么大的&quot;小马&quot;体型为2，力量为d10，活力为d8。若是经受过战斗训练则将格斗提升至d6。</p>\n<p><strong>类别</strong>：中立动物(重型马)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d6，力量d12+1，活力d10</p>\n<p><strong>技能</strong>：运动d8，格斗d4，察觉d6</p>\n<p><strong>移速</strong>：10；<strong>格挡</strong>：4；<strong>坚韧</strong>：10</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>踢击</strong>：力量+d4，可随意向前或者向后踢。</li>\n<li><strong>体型3</strong>：驮马的重量在1000到1500磅之间。</li>\n</ul>\n</div>"
+        },
+        "Horse, Light": {
+            "name": "轻型马",
+            "description": "<div class=\"swpf-core\">\n<p>骑乘用马匹以速度为代价换来了驮物能力，没那么大的&quot;小马&quot;体型为1，力量为d10。若是经受过战斗训练则将格斗提升至d6。</p>\n<p><strong>类别</strong>：中立动物(轻型马)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d6，力量d12，活力d8</p>\n<p><strong>技能</strong>：运动d8，格斗d4，察觉d6</p>\n<p><strong>移速</strong>：12；<strong>格挡</strong>：4；<strong>坚韧</strong>：8</p>\n<p><strong>专长</strong>：飞毛腿</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>踢击</strong>：力量+d4，可随意向前或者向后踢。</li>\n<li><strong>体型2</strong>：轻型马一般重量约为1000磅。</li>\n</ul>\n</div>"
+        },
+        "Keelboat": {
+            "name": "龙骨船",
+            "description": "<div class=\"swpf-core\">\n<p>重护甲，具备船桨和带方形船帆的单桅杆。</p></div>"
+        },
+        "Kyra": {
+            "name": "凯拉",
+            "description": "<div class=\"swpf-core\">对莎伦莱的誓愿指引着凯拉的道路，这位牧师每一天都在反复践行自身的誓言：打击邪恶，治病教人，保护无辜。凯拉对于自身的信仰，神力以及精湛的弯刀的技艺而深感自豪——所有这一切都是为了侍奉她的女神。</div>"
+        },
+        "Lem": {
+            "name": "列姆",
+            "description": "<div class=\"swpf-core\">尽管在童年时期遭到了切利亚斯的奴役，乐观无比的列姆仍然有着讨人喜欢的幽默感。这名半身人总是哼唱着习得或是自创的旋律，意气用事的他在路见不平时会毫不犹豫地拔刀相助。</div>"
+        },
+        "Lini": {
+            "name": "李妮",
+            "description": "<div class=\"swpf-core\">李妮在对付野兽，尤其是大猫上很有一套。尽管她和得到自己信任的家伙能好好相处，但比起其他类人生物，这个侏儒还是更喜欢自己的雪豹伙伴朱戈蜜。好奇而古怪的她每去到一片森林都会收集其中的树枝。</div>"
+        },
+        "Lion": {
+            "name": "狮子",
+            "description": "<div class=\"swpf-core\">\n<p>这些丛林王者乃是凶猛的掠食者，在猎物没法找到任何掩护的开阔草原上则更是如此。</p>\n<p><strong>类别</strong>：中立动物(狮子)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d6(A)，心魂d10，力量d12，活力d8</p>\n<p><strong>技能</strong>：运动d10，格斗d8，威吓d6，察觉d8，潜行d10</p>\n<p><strong>移速</strong>：8；<strong>格挡</strong>：6；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：精通连击</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d6，穿甲2。</li>\n<li><strong>微光视觉</strong>：狮子忽略昏暗与黑暗照明减值。</li>\n<li><strong>猛扑</strong>：狮子会最大限度地利用自身体重和利爪来袭击猎物。若是狮子进行不羁攻击，其增加的伤害从+2变成+4。</li>\n<li><strong>体型1</strong>：雄狮通常约有400磅重。</li>\n</ul>\n</div>"
+        },
+        "Longship": {
+            "name": "长船",
+            "description": "<div class=\"swpf-core\">\n<p>重护甲，具备许多船桨和单面船帆。</p></div>"
+        },
+        "Merisiel": {
+            "name": "梅芮希尔",
+            "description": "<div class=\"swpf-core\">精灵们将由人类抚养长大的孤儿称为孤客(Forlorn)。尽管梅芮希尔从来没完全搞清楚自己双亲的情况，但所知道的已经足以让她对自己的处境倍感羞耻。学到了人生教训(包括多个城市里面的牢狱之灾)的梅芮希尔现在会将每一刻都活得淋漓尽致。</div>"
+        },
+        "Mule": {
+            "name": "骡",
+            "description": "<div class=\"swpf-core\">\n<p>骡是驴和马的杂交，其通常用来驮重货或拉车。和任何有趣的宠物一样，GM应当表现出一点点骡子的个性，而首先想到的莫过于“倔得像头骡”。</p>\n<p><strong>类别</strong>：中立动物(骡)</p>\n<p><strong>属性</strong>：灵巧d4，聪慧d4(A)，心魂d6，力量d8，活力d8</p>\n<p><strong>技能</strong>：运动d4，察觉d4</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：2；<strong>坚韧</strong>：8</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>踢击</strong>：力量。</li>\n<li><strong>犟脾气</strong>：骡子是倔强的生物，角色在骑乘骡子时，骑乘投骰必须-1。</li>\n<li><strong>体型2</strong>：骡子矮壮结实，体重通常不超过1000磅。</li>\n</ul>\n</div>"
+        },
+        "Rowboat": {
+            "name": "划艇",
+            "description": "<div class=\"swpf-core\">\n<p></p></div>"
+        },
+        "Sailing Ship": {
+            "name": "帆船",
+            "description": "<div class=\"swpf-core\">\n<p>重护甲，具备三根桅杆和方形船帆。</p></div>"
+        },
+        "Sailing Sloop": {
+            "name": "单桅纵帆船",
+            "description": "<div class=\"swpf-core\">\n<p>重护甲，具备一根桅杆和纵向挂载的船帆。</p></div>"
+        },
+        "Sajan": {
+            "name": "沙简",
+            "description": "<div class=\"swpf-core\">沙简发誓要找到自己的孪生姐妹沙吉妮(Sajini)，这就是他生存的动力。他在行事时保持耐心和忠诚，并且每一天都在寻找她行踪的蛛丝马迹。沙简在方方面面都表现出纪律和毅力，在严苛的武术训练中尤为如此。即使会身陷险境，他也总是会急人所急</div>"
+        },
+        "Seelah": {
+            "name": "希拉",
+            "description": "<div class=\"swpf-core\">身为后继者艾奥梅黛的虔诚信徒，希拉每天都会向女神献上敬意。发誓忠于严格信条的她一直致力于行事磊落，匡扶正义。注重个人卫生的希拉会不遗余力地铲除格拉利昂上的邪恶，将恶徒罪犯绳之以法的誓言指引着她的决策判断。</div>"
+        },
+        "Seoni": {
+            "name": "塞奥妮",
+            "description": "<div class=\"swpf-core\">塞奥妮出生于瓦瑞西亚人的游牧部落，她显露出了自己血脉中的天生魔法。深入了解自身魔法传承的梦想驱使着塞奥妮在格拉利昂上四处旅行以寻找奥术的知识和力量。塞奥妮具有奥秘血脉，并就奥术联结能力选择了一只魔宠，她的宠物是一只叫巨龙的小型蓝尾蜥蜴。</div>"
+        },
+        "Shark": {
+            "name": "鲨鱼",
+            "description": "<div class=\"swpf-core\">\n<p>格拉里昂的大海中遨游着诸如牛鲨这种危险掠食者以及近似的鱼类。</p>\n<p><strong>类别</strong>：中立动物(鲨鱼)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d6，力量d8(牛鲨为d10)，活力d8</p>\n<p><strong>技能</strong>：运动d8，格斗d8，察觉d12，潜行d8</p>\n<p><strong>移速</strong>：-；<strong>格挡</strong>：6；<strong>坚韧</strong>：8(1)</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+1</strong>：结实外皮。</li>\n<li><strong>水栖</strong>：移速10。</li>\n<li><strong>噬咬</strong>：力量+d6，穿甲2。</li>\n<li><strong>体型1</strong>：鲨鱼体重可达500磅。</li>\n</ul>\n</div>"
+        },
+        "Skeleton, Human": {
+            "name": "类人生物骷髅",
+            "description": "<div class=\"swpf-core\">\n<p>以下数据针对的是普通人大小的类人生物骷髅，其中一些还会具备武器和护甲。</p>\n<p><strong>类别</strong>：邪恶不死生物(骷髅)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4，心魂d4，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d6，格斗d6，威吓d6，察觉d4，射击d6</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>装备</strong>：各种各样</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>爪抓</strong>：力量+d4。</li>\n<li><strong>无畏</strong>：免疫恐惧与威吓。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。</li>\n</ul>\n</div>"
+        },
+        "Sled": {
+            "name": "雪橇",
+            "description": "<div class=\"swpf-core\">\n<p>用于在冰雪上旅行的货车，由两只或以上的兽类拉动。在桌面上的移速是6，而且可以奔跑。</p></div>"
+        },
+        "Snake, Constrictor": {
+            "name": "蟒蛇",
+            "description": "<div class=\"swpf-core\">\n<p>巨蟒、红尾蚺、以及其他体长超过15英尺的蛇类在现实世界当中鲜少会致人于死地，因为其不是特别好斗。然而，这种蛇在格拉里昂上可能会作为守卫，魔宠或者单纯是肉食类猎手。</p>\n<p><strong>类别</strong>：中立动物(蟒蛇)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d8，力量d8，活力d6</p>\n<p><strong>技能</strong>：运动d6，格斗d6，察觉d10，潜行d6</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：5；<strong>坚韧</strong>：5</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬</strong>：力量。</li>\n<li><strong>绞缠</strong>：用于擒抱的运动和力量投骰+2。</li>\n</ul>\n</div>"
+        },
+        "Snake, Venomous": {
+            "name": "毒蛇",
+            "description": "<div class=\"swpf-core\">\n<p>以下数值涵盖了各种各样带有致命猛毒的中等体型蛇类，虽然这种毒蛇通常离群索居，但误闯进毒蛇群的巢穴也并非全无可能。</p>\n<p><strong>类别</strong>：中立动物(毒蛇)</p>\n<p><strong>属性</strong>：灵巧d8，聪慧d4(A)，心魂d6，力量d4-2，活力d6</p>\n<p><strong>技能</strong>：运动d6，格斗d8，察觉d12，潜行d8</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：6；<strong>坚韧</strong>：2</p>\n<p><strong>专长</strong>：迅捷</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬</strong>：力量+2。</li>\n<li><strong>毒素</strong>：GM选择毒蛇注入的是何种毒素(见第9页<strong>毒素</strong>)。</li>\n<li><strong>体型-3(超小型)</strong>：大多数毒蛇的体长都在4到6英尺，但只有数英寸粗。</li>\n</ul>\n</div>"
+        },
+        "Soldier": {
+            "name": "士兵",
+            "description": "<div class=\"swpf-core\">\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d6，通用知识d6，格斗d6，威吓d6，察觉d6，交涉d6，射击d6，潜行d4</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：5</p>\n<p><strong>负赘</strong>：-</p>\n<p><strong>专长</strong>：士兵</p></div>"
+        },
+        "Summon Ally: Attendant": {
+            "name": "召唤盟友: 扈从",
+            "description": "<div class=\"swpf-core\">\n<p><strong>属性</strong>：灵巧d4，聪慧d4，心魂d4，力量d4，活力d4</p>\n<p><strong>技能</strong>：运动d4，格斗d4，察觉d4，射击d4，潜行d6</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：4；<strong>坚韧</strong>：4</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>爪抓</strong>：力量+d4。</li>\n<li><strong>构装体</strong>：从动摇中恢复的投骰+2，忽略1点损伤减值，无须呼吸，免疫毒素和疾病。</li>\n<li><strong>无畏</strong>：免疫恐惧和威吓。</li>\n</ul>\n</div>"
+        },
+        "Summon Ally: Bodyguard": {
+            "name": "召唤盟友: 保镖",
+            "description": "<div class=\"swpf-core\">\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d6，格斗d6，威吓d6，察觉d4，射击d4，潜行d4</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：7(2)</p>\n<p><strong>专长</strong>：先发制人</p>\n<p><strong>装备</strong>：近战攻击(力量+d6)。</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：硬化表皮。</li>\n<li><strong>构装体</strong>：见扈从。</li>\n<li><strong>无畏</strong>：免疫恐惧和威吓。</li>\n</ul>\n</div>"
+        },
+        "Summon Ally: Sentinel": {
+            "name": "召唤盟友: 禁卫",
+            "description": "<div class=\"swpf-core\">\n<p><strong>属性</strong>：灵巧d6，聪慧d6，心魂d8，力量d12+2，活力d10</p>\n<p><strong>技能</strong>：运动d6，格斗d10，威吓d10，察觉d8</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：7；<strong>坚韧</strong>：13(4)</p>\n<p><strong>专长</strong>：奥法抗性，精通横扫</p>\n<p><strong>装备</strong>：近战攻击(力量+d8)。</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+4</strong>：石质表皮。</li>\n<li><strong>构装体</strong>：见扈从。</li>\n<li><strong>无畏</strong>：免疫恐惧和威吓。</li>\n<li><strong>体型2</strong>：禁卫高达八英尺，非常结实。</li>\n</ul>\n</div>"
+        },
+        "Swarm": {
+            "name": "集群",
+            "description": "<div class=\"swpf-core\">\n<p>有时最致命的敌人可能是一大堆群聚的小东西，此处所述的集群可以是任何存在：咬人的蚂蚁，蜇人的黄蜂乃至于肮脏的老鼠。集群的占据面积如同大型、中型或是小型爆发盖板，其每轮都能攻击身处其中的所有对象。集群在陷入无力化时就会分崩离析。\n</p>\n<p>集群仅有进行移动和叮蛰的智力，因而其应该不能进行多重行动或考验等等。</p>\n<p><strong>类别</strong>：中立动物或虫类(集群)</p>\n<p><strong>属性</strong>：灵巧d10，聪慧d4(A)，心魂d12，力量d8，活力d10</p>\n<p><strong>技能</strong>：察觉d6</p>\n<p><strong>移速</strong>：10；<strong>格挡</strong>：4；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li>\n<strong>叮蛰</strong>：集群每轮会造成不计其数的细小叮蛰，其自动命中(除非遭受动摇)，且在集群的回合结束时对每个身处盖板内的对象造成2d4伤害。伤害会作用在护甲最薄弱的部位(但若穿着全封闭式的衣装则能对此免疫)。\n</li>\n<li><strong>分裂</strong>：某些集群会在受到损伤后会分裂成两个更小的集群(取决于GM)。在受到损伤时将集群的爆发盖板的大小下降一级，已经是小型的集群则会遭到消灭。</li>\n<li>\n<strong>集群</strong>：从动摇中恢复+2，格挡+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。范围效果武器能如常生效，角色也能在每轮通过踩踏造成等同于力量的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。\n</li>\n</ul>\n</div>"
+        },
+        "Town/City Guard": {
+            "name": "城镇/城市守卫",
+            "description": "<div class=\"swpf-core\">\n<p>这个数据涵盖了所有负责维护法律秩序或是和平的家伙，其属性和技能也许会根据其所服役的地域而各有不同，同时可能作为代表性装备的武器和护甲也会根据气候、聚居地规模和其他情况而有所差异。</p>\n</div>"
+        },
+        "Townsfolk": {
+            "name": "镇民",
+            "description": "<div class=\"swpf-core\">\n<p>以下数据涵盖了从农民、商人到工匠等所有人物，并非士兵或者城镇守卫的他们只是平头百姓。镇民的属性根据需要可能会各有不同。举例而言，工匠可能会具备d6修理，而马夫则可能有d4骑乘。镇民的装备只代表了发生意外战斗时手头上可能有的东西，其鲜少穿戴护甲。\n</p>\n<p><strong>类别</strong>：任意类人生物(人类)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d6，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d4，通用知识d4，格斗d4，察觉d6，交涉d4，潜行d6</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：4；<strong>坚韧</strong>：5</p>\n<p><strong>负赘</strong>：无</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>装备</strong>：小刀(力量+d4)，短棒(力量+d4)，或是临时武器(力量+d4)</p>\n</div>"
+        },
+        "Valeros": {
+            "name": "瓦莱洛斯",
+            "description": "<div class=\"swpf-core\">在瓦莱洛斯看来，生命、财富和人际关系来得快，去得也快。尽管如此，他还是对自己的冒险伙伴极为忠诚，顶多就是在战斗中有些意气用事。这名魁梧的斗士喜欢手持双剑战斗，但他对弓箭的熟捻在打猎和远程战斗时也不落下风。</div>"
+        },
+        "Wagon, Heavy": {
+            "name": "重型货车",
+            "description": "<div class=\"swpf-core\">\n<p>由四匹马拉动，桌面上的移速是12，而且可以奔跑。</p></div>"
+        },
+        "Wagon, Light": {
+            "name": "轻型货车",
+            "description": "<div class=\"swpf-core\">\n<p>由两匹马拉动，桌面上的移速是12，而且可以奔跑。</p></div>"
+        },
+        "Warship (Galleon)": {
+            "name": "战船(大帆船)",
+            "description": "<div class=\"swpf-core\">\n<p>重护甲，<strong><em>武器</em></strong>： 16至46门加农炮 (左右固定)。</p></div>"
+        },
+        "Zombie, Human": {
+            "name": "人类行尸",
+            "description": "<div class=\"swpf-core\">\n<p>以下数据针对的是普通人大小的类人生物行尸。</p>\n<p><strong>类别</strong>：邪恶不死生物(行尸)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d4，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d4，格斗d6，威吓d6，察觉d4，射击d6</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：5；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d4。</li>\n<li><strong>无畏</strong>：行尸免疫恐惧与威吓。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。</li>\n<li><strong>弱点(头部)</strong>：对行尸头部的定点打击如常造成+4伤害。</li>\n</ul>\n</div>"
+        }
+    }
+}

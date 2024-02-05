@@ -1,0 +1,497 @@
+{
+	"label": "行动卡组",
+	"entries": {
+		"Savage Pathfinder Action Deck": {
+			"name": "《狂野世界·开拓者》行动卡组",
+			"description": "标准的54张卡组",
+				"cards": {
+					"10 of Clubs": {
+						"name": "梅花10",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_10.webp",
+								"name": "梅花10"
+							}
+						]
+					},
+					"10 of Diamonds": {
+						"name": "方片10",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_10.webp",
+								"name": "方片10"
+							}
+						]
+					},
+					"10 of Hearts": {
+						"name": "红桃10",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_10.webp",
+								"name": "红桃10"
+							}
+						]
+					},
+					"10 of Spades": {
+						"name": "黑桃10",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_10.webp",
+								"name": "黑桃10"
+							}
+						]
+					},
+					"2 of Clubs": {
+						"name": "梅花2",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_2.webp",
+								"name": "梅花2"
+							}
+						]
+					},
+					"3 of Clubs": {
+						"name": "梅花3",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_3.webp",
+								"name": "梅花3"
+							}
+						]
+					},
+					"2 of Diamonds": {
+						"name": "方片2",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_2.webp",
+								"name": "方片2"
+							}
+						]
+					},
+					"2 of Hearts": {
+						"name": "红桃2",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_2.webp",
+								"name": "红桃2"
+							}
+						]
+					},
+					"2 of Spades": {
+						"name": "黑桃2",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_2.webp",
+								"name": "黑桃2"
+							}
+						]
+					},
+					"3 of Diamonds": {
+						"name": "方片3",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_3.webp",
+								"name": "方片3"
+							}
+						]
+					},
+					"3 of Hearts": {
+						"name": "红桃3",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_3.webp",
+								"name": "红桃3"
+							}
+						]
+					},
+					"3 of Spades": {
+						"name": "黑桃3",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_3.webp",
+								"name": "黑桃3"
+							}
+						]
+					},
+					"4 of Clubs": {
+						"name": "梅花4",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_4.webp",
+								"name": "梅花4"
+							}
+						]
+					},
+					"5 of Clubs": {
+						"name": "梅花5",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_5.webp",
+								"name": "梅花5"
+							}
+						]
+					},
+					"4 of Diamonds": {
+						"name": "方片4",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_4.webp",
+								"name": "方片4"
+							}
+						]
+					},
+					"4 of Hearts": {
+						"name": "红桃4",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_4.webp",
+								"name": "红桃4"
+							}
+						]
+					},
+					"5 of Hearts": {
+						"name": "红桃5",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_5.webp",
+								"name": "红桃5"
+							}
+						]
+					},
+					"6 of Hearts": {
+						"name": "红桃6",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_6.webp",
+								"name": "红桃6"
+							}
+						]
+					},
+					"4 of Spades": {
+						"name": "黑桃4",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_4.webp",
+								"name": "黑桃4"
+							}
+						]
+					},
+					"5 of Diamonds": {
+						"name": "方片5",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_5.webp",
+								"name": "方片5"
+							}
+						]
+					},
+					"5 of Spades": {
+						"name": "黑桃5",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_5.webp",
+								"name": "黑桃5"
+							}
+						]
+					},
+					"6 of Clubs": {
+						"name": "梅花6",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_6.webp",
+								"name": "梅花6"
+							}
+						]
+					},
+					"6 of Diamonds": {
+						"name": "方片6",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_6.webp",
+								"name": "方片6"
+							}
+						]
+					},
+					"6 of Spades": {
+						"name": "黑桃6",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_6.webp",
+								"name": "黑桃6"
+							}
+						]
+					},
+					"7 of Clubs": {
+						"name": "梅花7",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_7.webp",
+								"name": "梅花7"
+							}
+						]
+					},
+					"7 of Diamonds": {
+						"name": "方片7",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_7.webp",
+								"name": "方片7"
+							}
+						]
+					},
+					"7 of Hearts": {
+						"name": "红桃7",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_7.webp",
+								"name": "红桃7"
+							}
+						]
+					},
+					"7 of Spades": {
+						"name": "黑桃7",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_7.webp",
+								"name": "黑桃7"
+							}
+						]
+					},
+					"8 of Clubs": {
+						"name": "梅花8",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_8.webp",
+								"name": "梅花8"
+							}
+						]
+					},
+					"8 of Diamonds": {
+						"name": "方片8",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_8.webp",
+								"name": "方片8"
+							}
+						]
+					},
+					"9 of Diamonds": {
+						"name": "方片9",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_9.webp",
+								"name": "方片9"
+							}
+						]
+					},
+					"8 of Hearts": {
+						"name": "红桃8",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_8.webp",
+								"name": "红桃8"
+							}
+						]
+					},
+					"8 of Spades": {
+						"name": "黑桃8",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_8.webp",
+								"name": "黑桃8"
+							}
+						]
+					},
+					"9 of Clubs": {
+						"name": "梅花9",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_9.webp",
+								"name": "梅花9"
+							}
+						]
+					},
+					"9 of Hearts": {
+						"name": "红桃9",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_9.webp",
+								"name": "红桃9"
+							}
+						]
+					},
+					"9 of Spades": {
+						"name": "黑桃9",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_9.webp",
+								"name": "黑桃9"
+							}
+						]
+					},
+					"Ace of Clubs": {
+						"name": "梅花A",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_A.webp",
+								"name": "梅花A"
+							}
+						]
+					},
+					"Ace of Diamonds": {
+						"name": "方片A",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_A.webp",
+								"name": "方片A"
+							}
+						]
+					},
+					"Ace of Hearts": {
+						"name": "红桃A",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_A.webp",
+								"name": "红桃A"
+							}
+						]
+					},
+					"Ace of Spades": {
+						"name": "黑桃A",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_A.webp",
+								"name": "黑桃A"
+							}
+						]
+					},
+					"Black Joker": {
+						"name": "黑色鬼牌",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Joker_Black.webp",
+								"name": "黑色鬼牌"
+							}
+						]
+					},
+					"Jack of Diamonds": {
+						"name": "方片J",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_J.webp",
+								"name": "方片J"
+							}
+						]
+					},
+					"Jack of Hearts": {
+						"name": "红桃J",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_J.webp",
+								"name": "红桃J"
+							}
+						]
+					},
+					"Jack of Spades": {
+						"name": "黑桃J",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_J.webp",
+								"name": "黑桃J"
+							}
+						]
+					},
+					"King of Clubs": {
+						"name": "梅花K",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_K.webp",
+								"name": "梅花K"
+							}
+						]
+					},
+					"King of Diamonds": {
+						"name": "方片K",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_K.webp",
+								"name": "方片K"
+							}
+						]
+					},
+					"King of Hearts": {
+						"name": "红桃K",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_K.webp",
+								"name": "红桃K"
+							}
+						]
+					},
+					"Jack of Clubs": {
+						"name": "梅花J",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_J.webp",
+								"name": "梅花J"
+							}
+						]
+					},
+					"Queen of Clubs": {
+						"name": "梅花Q",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Clubs_Q.webp",
+								"name": "梅花Q"
+							}
+						]
+					},
+					"Queen of Diamonds": {
+						"name": "方片Q",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Diamonds_Q.webp",
+								"name": "方片Q"
+							}
+						]
+					},
+					"Queen of Hearts": {
+						"name": "红桃Q",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Hearts_Q.webp",
+								"name": "红桃Q"
+							}
+						]
+					},
+					"Queen of Spades": {
+						"name": "黑桃Q",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_Q.webp",
+								"name": "黑桃Q"
+							}
+						]
+					},
+					"King of Spades": {
+						"name": "黑桃K",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Spades_K.webp",
+								"name": "黑桃K"
+							}
+						]
+					},
+					"Red Joker": {
+						"name": "红色鬼牌",
+						"faces": [
+							{
+								"img": "modules/swpf-core-rules/assets/art/cards/Joker_Red.webp",
+								"name": "红色鬼牌"
+							}
+						]
+					}
+				}
+			}
+		}
+	}

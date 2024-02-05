@@ -1,0 +1,294 @@
+{
+  "label": "随机表",
+  "entries": {
+    "Allied Personalities": {
+      "name": "盟友性格",
+      "results": {
+        "1-1": "<div class=\"swpf-core\">\t<p>狡诈</p></div>",
+        "2-2": "<div class=\"swpf-core\">\t<p>冷酷</p></div>",
+        "3-3": "<div class=\"swpf-core\">\t<p>古板</p></div>",
+        "4-4": "<div class=\"swpf-core\">\t<p>开朗</p></div>",
+        "5-5": "<div class=\"swpf-core\">\t<p>老成</p></div>",
+        "6-6": "<div class=\"swpf-core\">\t<p>卖力</p></div>",
+        "7-7": "<div class=\"swpf-core\">\t<p>懒惰</p></div>",
+        "8-8": "<div class=\"swpf-core\">\t<p>鬼祟</p></div>",
+        "9-9": "<div class=\"swpf-core\">\t<p>机灵</p></div>",
+        "10-10": "<div class=\"swpf-core\">\t<p>幼稚</p></div>",
+        "11-11": "<div class=\"swpf-core\">\t<p>粗鲁</p></div>",
+        "12-12": "<div class=\"swpf-core\">\t<p>机敏</p></div>",
+        "13-13": "<div class=\"swpf-core\">\t<p>守纪</p></div>",
+        "14-14": "<div class=\"swpf-core\">\t<p>蠢笨</p></div>",
+        "15-15": "<div class=\"swpf-core\">\t<p>神秘</p></div>",
+        "16-16": "<div class=\"swpf-core\">\t<p>奇想</p></div>",
+        "17-17": "<div class=\"swpf-core\">\t<p>风雅</p></div>",
+        "18-18": "<div class=\"swpf-core\">\t<p>无畏</p></div>",
+        "19-19": "<div class=\"swpf-core\">\t<p>怯懦</p></div>",
+        "20-20": "<div class=\"swpf-core\">\t<p>英勇</p></div>"
+      }
+    },
+    "Available Armor & Weapons": {
+      "name": "可用护甲与武器",
+      "results": {
+        "1-1": "<div class=\"swpf-core\">\t<p>具有(1)项附魔的武器</p></div>",
+        "2-2": "<div class=\"swpf-core\">\t<p>具有(1)项附魔的护甲</p></div>",
+        "3-3": "<div class=\"swpf-core\">\t<p>具有(1)项附魔的盾牌</p></div>",
+        "4-4": "<div class=\"swpf-core\">\t<p>具有(2)项附魔的武器</p></div>",
+        "5-5": "<div class=\"swpf-core\">\t<p>具有(2)项附魔的护甲</p></div>",
+        "6-6": "<div class=\"swpf-core\">\t<p>具有(2)项附魔的盾牌</p></div>",
+        "7-7": "<div class=\"swpf-core\">\t<p>总共具有(3)项附魔的武器</p></div>",
+        "8-8": "<div class=\"swpf-core\">\t<p>总共具有(3)项附魔的护甲</p></div>",
+        "9-9": "<div class=\"swpf-core\">\t<p>总共具有(3)项附魔的盾牌</p></div>",
+        "10-10": "<div class=\"swpf-core\">\t<p>独特护甲或盾牌</p></div>",
+        "11-11": "<div class=\"swpf-core\">\t<p>独特武器</p></div>",
+        "12-12": "<div class=\"swpf-core\">\t<p>再投一次，该物品使用特殊材料制作</p></div>"
+      }
+    },
+    "Available Potions": {
+      "name": "可用药水",
+      "results": {
+        "1-1": "高级治疗药水",
+        "2-2": "次级强化特性药水（具体特性）",
+        "3-3": "次级防护药水",
+        "4-4": "次级加速药水",
+        "5-5": "高级缓和药水（复原）",
+        "6-6": "次级奥法防护药水",
+        "7-7": "次级共感药水",
+        "8-8": "次级放大药水（体型+2）",
+        "9-9": "次级缓和药水（复原）",
+        "10-10": "次级无形药水",
+        "11-11": "次级加速药水（迅疾）",
+        "12-12": "次级致伤领域药水（伤害）",
+        "13-13": "高级走壁药水",
+        "14-14": "高级防护药水",
+        "15-15": "次级飞行药水",
+        "16-16": "次级暗视药水",
+        "17-17": "次级治疗药水（高等）",
+        "18-18": "次级环境防护药水",
+        "19-19": "次级治疗药水（祛除毒素或疾病）",
+        "20-20": "高级治疗药水"
+      }
+    },
+    "Available Rings": {
+      "name": "可用戒指",
+      "results": {
+        "1": "次级防护戒指",
+        "2": "维生戒指",
+        "3": "羽落戒指",
+        "4": "公羊戒指",
+        "5": "水上行走戒指",
+        "6": "多才多艺戒指",
+        "7": "高级防护戒指",
+        "8": "储法戒指",
+        "9": "抗能戒指",
+        "10": "隐形戒指"
+      }
+    },
+    "Available Rods & Staves": {
+      "name": "可用权杖与法杖",
+      "results": {
+        "1-1": "不动权杖",
+        "2-2": "巨蟒权杖",
+        "3-3": "惊奇权杖",
+        "4-4": "魅惑法杖",
+        "5-5": "治疗法杖",
+        "6-6": "次级超魔权杖",
+        "7-7": "否定权杖",
+        "8-8": "防护、塑能或死灵法杖"
+        }
+    },
+    "Available Scrolls": {
+      "name": "可用卷轴",
+      "results": {
+        "1-1": "标枪卷轴",
+        "2-2": "衰弱特性卷轴",
+        "3-3": "爆炸卷轴",
+        "4-4": "痛击卷轴",
+        "5-5": "懒散卷轴",
+        "6-6": "偏斜卷轴",
+        "7-7": "隐身卷轴",
+        "8-8": "恐惧卷轴",
+        "9-9": "增长卷轴",
+        "10-10": "幻象卷轴",
+        "11-11": "驱散卷轴",
+        "12-12": "传送卷轴",
+        "13-13": "穿甲标枪卷轴",
+        "14-14": "侦测奥术卷轴",
+        "15-15": "治疗卷轴",
+        "16-16": "致盲卷轴",
+        "17-17": "震慑卷轴",
+        "18-18": "僵尸卷轴",
+        "19-19": "增强懒散卷轴",
+        "20-20": "沉睡卷轴"
+      }
+    },
+    "Available Wands": {
+      "name": "可用魔杖",
+      "results": {
+        "1-1": "治疗魔杖",
+        "2-2": "强化特性魔杖 (具体特性)",
+        "3-3": "易容魔杖",
+        "4-4": "沉眠魔杖",
+        "5-5": "通晓语言魔杖",
+        "6-6": "侦测奥法魔杖",
+        "7-7": "纠缠魔杖 (中型爆发)",
+        "8-8": "缩小魔杖 (体型-1级)",
+        "9-9": "隐形魔杖",
+        "10-10": "矢弹魔杖 (穿甲2)",
+        "11-11": "加速魔杖 (迅疾)",
+        "12-12": "偏斜魔杖",
+        "13-13": "走壁魔杖",
+        "14-14": "防护魔杖",
+        "15-15": "飞行魔杖",
+        "16-16": "放逐魔杖",
+        "17-17": "破祛魔杖",
+        "18-18": "削弱特性魔杖 (特定属性，增强)",
+        "19-19": "爆发魔杖 (伤害)",
+        "20-20": "劫动魔杖"
+      }
+    },
+    "Bag of Tricks": {
+      "name": "魔术袋",
+      "results": {
+        "1-1": "<div class=\"swpf-core\"><p><strong>灰袋子：</strong> 蝙蝠 </p><p><strong>棕袋子：</strong> 狗/狼 </p></div>",
+        "2-2": "<div class=\"swpf-core\"><p><strong>灰袋子：</strong> 老鼠 </p><p><strong>棕袋子：</strong> 马 </p></div>",
+        "3-3": "<div class=\"swpf-core\"><p><strong>灰袋子：</strong> 猛禽 </p><p><strong>棕袋子：</strong> 大猫 </p></div>",
+        "4-4": "<div class=\"swpf-core\"><p><strong>灰袋子：</strong> 小猫 </p><p><strong>棕袋子：</strong> 原牛 </p></div>",
+        "5-5": "<div class=\"swpf-core\"><p><strong>灰袋子：</strong> 蟒蛇 </p><p><strong>棕袋子：</strong> 熊 </p></div>",
+        "6-6": "<div class=\"swpf-core\"><p><strong>灰袋子：</strong> 狗/狼 </p><p><strong>棕袋子：</strong> 犀牛 </p></div>"
+      }
+    },
+    "Battle Effects": {
+      "name": "作战效果",
+      "results": {
+        "2": "<div class=\"swpf-core\"><p><strong>鼓舞</strong>：这名将士奋不顾身的浴血奋战使部队士气大振，并促使他们顶着伤痛继续战斗。所属一方立刻恢复一个兵力标识。</p></div>",
+        "3-4": "<div class=\"swpf-core\"><p><strong>威慑</strong>：这名战士的凶猛吓坏了敌方，若对方指挥官该轮内被迫进行士气测试，则其心魂投骰-2。</p></div>",
+        "5-9": "<div class=\"swpf-core\"><p><strong>英勇</strong>：这名将士的援助投骰如常让指挥官的作战投骰+2。</p></div>",
+        "10-11": "<div class=\"swpf-core\"><p><strong>无双</strong>：敌方在这名勇士的猛攻下大惊失色，敌对指挥官的作战投骰总值-2。</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p><strong>一人成军</strong>：这名将士当下的壮举将会流芳百世，传唱千古。敌方军队立刻失去一个兵力标识(这不会对其作战投骰造成减值，但即使胜出也要进行士气检定)。</p></div>"
+      }
+    },
+    "Creative Combat": {
+      "name": "创新战斗",
+      "description": "希望考验稍稍丰富多样时，使用创新战斗规则。",
+      "results": {
+        "2-2": "<div class=\"swpf-core\"><p><strong>恢复元气：</strong>敌人有所迟疑，英雄因而得以喘息。英雄能移除一个等级的疲乏或是一个损伤（由其选择）。若其没有此二者，则敌人会陷入动摇且英雄获得一点助力点。</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p><strong>灵感：</strong>命运眷顾勇敢之人。聪明的英雄获得一点助力点。</p></div>",
+        "4-5": "<div class=\"swpf-core\"><p><strong>祸不单行：</strong>目标同时陷入分神和脆弱。</p></div>",
+        "6-8": "<div class=\"swpf-core\"><p><strong>动摇：</strong>敌人陷入动摇。</p></div>",
+        "9-10": "<div class=\"swpf-core\"><p><strong>挫折：</strong>目标受到某种挫折。他可能会从边沿处跌落，手下对其失去信心（然后将其抛弃），采取轻率鲁莽的举动，或只是为了尝试摆脱当前陷入的麻烦而失去其下一个回合。</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p><strong>洞察：</strong>英雄对于目标的本质有了新的领悟。每遭遇一次， 其能在任何直接攻击、影响或伤害同一对手的特性投骰上+D6。</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p><strong>把握时机：</strong>在英雄结算完该回合后，其能马上获得额外一整个回合。这同样包括移动！若是愿意其能将该回合用于待机。</p></div>"
+      }
+    },
+    "Fear": {
+      "name": "恐惧",
+      "description": "将生物的恐惧减值换成正数加到本次投骰上。",
+      "results": {
+        "1-3": "<div class=\"swpf-core\"><p><strong>肾上腺素爆发：</strong>英雄的“战斗”本能占了上风。他在该行动内如同具有鬼牌般行动！</p></div>",
+        "4-6": "<div class=\"swpf-core\"><p><strong>分神：</strong>英雄在其下一回合结束前陷入分神。</p></div>",
+        "7-9": "<div class=\"swpf-core\"><p><strong>脆弱：</strong>目标在其下一回合结束前陷入脆弱。</p></div>",
+        "10-12": "<div class=\"swpf-core\"><p><strong>动摇：</strong>角色遭受动摇。</p></div>",
+        "13-13": "<div class=\"swpf-core\"><p><strong>恐惧烙印：</strong>英雄陷入震慑，并且会在外表容貌上遭受一些变化：头发中多出一缕白丝，眼睛不断抽搐或是显现出其他次要的外在变化。</p></div>",
+        "14-15": "<div class=\"swpf-core\"><p><strong>惊惧：</strong>角色在该次遭遇中的剩余时间内获得犹豫不决负赘。如果已经具有此负赘，则会变成陷入恐慌。</p></div>",
+        "16-17": "<div class=\"swpf-core\"><p><strong>恐慌：</strong>角色马上会以全移速加上奔跑骰远离危险，并且遭受动摇。</p></div>",
+        "18-19": "<div class=\"swpf-core\"><p><strong>次要恐惧症：</strong>角色获得某种与精神创伤相关的次要恐惧症负赘。</p></div>",
+        "20-21": "<div class=\"swpf-core\"><p><strong>主要恐惧症：</strong>角色获得主要恐惧症负赘。</p></div>",
+        "22-9999": "<div class=\"swpf-core\"><p><strong>心脏病：</strong>英雄被恐惧彻底压垮乃至心律不齐，其必须马上进行一次-2的活力投骰。若是成功会陷入震慑；若是失败则会无力化并在2d6轮内死去。在后一种情况里，进行一次-4的治疗投骰能挽救其性命，但角色仍会处于无力化。在这之后能如常对其进行治疗。</p></div>"
+      }
+    },
+    "GutsInjury": {
+      "name": "内脏创伤",
+      "results": {
+        "1-2": "<div class=\"swpf-core\"><p><strong>碎裂：</strong>灵巧骰子类型下降一级（最低到d4）。</p></div>",
+        "3-4": "<div class=\"swpf-core\"><p><strong>破裂：</strong>活力骰子类型下降一级（最低到d4）。</p></div>",
+        "5-6": "<div class=\"swpf-core\"><p><strong>爆裂：</strong>力量骰子类型下降一级（最低到d4）。</p></div>"
+      }
+    },
+    "HeadInjury": {
+      "name": "头部创伤",
+      "results": {
+        "1-3": "<div class=\"swpf-core\"><p><strong>骇人伤疤：</strong>英雄现在获得了丑陋（主要）负赘。</p></div>",
+        "4-5": "<div class=\"swpf-core\"><p><strong>瞎眼：</strong>一只眼睛受损，获得独眼负赘（如果原来只有独眼能用则是目盲负赘）。</p></div>",
+        "6-6": "<div class=\"swpf-core\"><p><strong>脑残：</strong>头部受到巨创，聪慧属性骰子类型下降一级（最低到d4）。</p></div>"
+      }
+    },
+    "Injury": {
+      "name": "创伤",
+      "description": "若角色因伤害或受伤而陷入无力化，则其必须马上进行一次活力投骰，若角色未死亡，则必须投创伤表。",
+      "results": {
+        "2-2": "<div class=\"swpf-core\"><p><strong>私处：</strong>如果创伤是永久性的，不用奇迹般的手术或者魔法就会彻底失去生育能力。该结果不会有其他效果。</p></div>",
+        "3-4": "<div class=\"swpf-core\"><p><strong>手臂：</strong>对象再也无法使用其左手或是右手（若没有选定目标则随机投骰）。</p></div>",
+        "5-9": "@Compendium[swpf-core-rules.swpf-tables.内脏创伤]{内脏创伤}",
+        "10-11": "<div class=\"swpf-core\"><p><strong>腿部：</strong>获得缓慢负赘（次要），如果已经有缓慢负赘或是双腿受伤则是主要负赘。</p></div>",
+        "12-12": "@Compendium[swpf-core-rules.swpf-tables.头部创伤]{头部创伤}"
+      }
+    },
+    "Other Item Categories": {
+      "name": "其他物品种类",
+      "results": {
+        "1-11": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.可用护甲与武器]{护甲与武器}</p></div>",
+        "12-13": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.可用戒指]{戒指}</p></div>",
+        "14-16": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.可用权杖与法杖]{权杖与法杖}</p></div>",
+        "17-18": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.可用魔杖]{魔杖}</p></div>",
+        "19-20": "<div class=\"swpf-core\"><p>奇物</p></div>"
+      }
+    },
+    "Reaction": {
+      "name": "反应",
+      "description": "GM能使用下列表格来选取或投骰决定某一角色或团体的初始态度。",
+      "results": {
+        "2-2": "<div class=\"swpf-core\"><p><strong>敌对：</strong>目标公开表露敌意，若是可能则会进行攻击，不然就会第一时间进行背叛、举报或加以阻挠。除非有压倒性的报酬或是威胁，否则对方不会帮忙。</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p><strong>不友善：</strong>除非别无选择或者提供可观的报酬或回报，否则角色没兴趣帮忙。</p></div>",
+        "4-5": "<div class=\"swpf-core\"><p><strong>不合作：</strong>除非对自己有明显好处，否则目标没兴趣掺和进来。</p></div>",
+        "6-8": "<div class=\"swpf-core\"><p><strong>中立：</strong>角色对于团队并无特别好恶。他希望自己提供的援手和信息能换回公平的回报。</p></div>",
+        "9-10": "<div class=\"swpf-core\"><p><strong>合作：</strong>角色大体上通情达理，只需要一点报酬、帮助或是好意就能让他帮忙。</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p><strong>友善：</strong>人物会为角色费尽心思。他乐于为了丁点回报去完成简单的任务，同时也愿意为了公平回报或是其他好处去进行更为危险的工作。</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p><strong>乐于帮助：</strong>目标渴望能帮上角色的忙，而且很可能会无偿或是为微薄的回报而付诸行动。</p></div>"
+      }
+    },
+    "Robe of Useful Items": {
+      "name": "杂货法袍",
+      "description": "法袍还具备数枚其他补丁，投4d4来决定其他补丁的数量，然后每一块都根据下表投d12来决定其性质。",
+      "results": {
+        "1-1": "<div class=\"swpf-core\"><p>装有100枚金币的袋子</p></div>",
+        "2-2": "<div class=\"swpf-core\"><p>铁门（最多10英尺宽，10英尺高，一侧带有门闩，必须竖立放置，固定并安装好铰链）</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p>10颗宝石（每颗价值100gp）</p></div>",
+        "4-4": "<div class=\"swpf-core\"><p>木梯子（24英尺长）</p></div>",
+        "5-5": "<div class=\"swpf-core\"><p>骡子（带马鞍袋）</p></div>",
+        "6-6": "<div class=\"swpf-core\"><p>坑洞（12×12×12英尺）</p></div>",
+        "7-7": "<div class=\"swpf-core\"><p>高级治疗药水</p></div>",
+        "8-8": "<div class=\"swpf-core\"><p>划艇（12英尺长）</p></div>",
+        "9-9": "<div class=\"swpf-core\"><p>随机决定的次级卷轴</p></div>",
+        "10-10": "<div class=\"swpf-core\"><p>一对战犬（视作狗）</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p>窗户（2×4英尺，最多2英尺深）</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p>便携式攻城锤</p></div>"
+      }
+    },
+    "Rod of Wonder Activation": {
+      "name": "惊奇权杖",
+      "description": "惊奇权杖是一件不可预测的奇怪装置，每次使用都会随机产生任意数量的奇异效果。权杖的典型能力列在下方。除非另有说明，否则所有效果的持续时间均为5。",
+      "results": {
+        "1-1": "<div class=\"swpf-core\"><p>目标遭受次级缓慢。</p></div>",
+        "2-2": "<div class=\"swpf-core\"><p>目标遭受放大（体型+2）。</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p>600只蝴蝶蜂拥而至并四处飞舞（持续两轮），目盲5英寸（10码）内的所有对象。</p></div>",
+        "4-4": "<div class=\"swpf-core\"><p>权杖欺骗其持有者一轮，使其相信自身会如同另一次投骰结果般运作。</p></div>",
+        "5-5": "<div class=\"swpf-core\"><p>持用者的体型-2，持续一天。</p></div>",
+        "6-6": "<div class=\"swpf-core\"><p>以持用者为中心的10英寸（20码）半径范围内降下大雨，持续一轮。</p></div>",
+        "7-7": "<div class=\"swpf-core\"><p>持用者获得高级隐形。但若是进行一个会对他人造成伤害的行动，则该效果会消失。</p></div>",
+        "8-8": "<div class=\"swpf-core\"><p>目标的肢体上长出叶子，持续24小时。</p></div>",
+        "9-9": "<div class=\"swpf-core\"><p>持用者或某一随机目标永久变成蓝色、绿色或紫色。</p></div>",
+        "10-10": "<div class=\"swpf-core\"><p>以使用者的指向任意目标为中心的小型爆发范围内发生一场魔法爆炸，造成3d6伤害。</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p>以权杖目标为中心的160平方英尺范围内长出草来，该区域中原来就存在的叶子长到正常大小的10倍大。</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p>目标上出现一片大型爆发范围的黑暗。</p></div>",
+        "13-13": "<div class=\"swpf-core\"><p>持用者得知目标的表层思想（如同读心），持续1d4轮，这无法被抵抗。</p></div>",
+        "14-14": "<div class=\"swpf-core\"><p>舞动的光球包围了目标，抵消所有照明减值。</p></div>",
+        "15-15": "<div class=\"swpf-core\"><p>目标在5轮内化作灵态（见241页）。</p></div>",
+        "16-16": "<div class=\"swpf-core\"><p>一发闪电矢弹（3d6）击中了目标！</p></div>",
+        "17-17": "<div class=\"swpf-core\"><p>权杖召唤出一只野生动物，投1d6：1-2熊，3-4狮子，5-6猫（或任何由GM选择的动物，包括《狂野世界·探索者生物图鉴》里面的对象）。</p></div>",
+        "18-18": "<div class=\"swpf-core\"><p>权杖前方40英尺方形区域内舞动着闪闪发光的色彩，任何位于其中的生物都会失明。受到影响的对象能在其回合开始时以一个自由行动进行一次-2的活力投骰来摆脱此效果。</p></div>",
+        "19-19": "<div class=\"swpf-core\"><p>1d4×10颗宝石（每颗1gp）接连不断地射向前方，其中一半会命中目标并使其分神。</p></div>",
+        "20-20": "<div class=\"swpf-core\"><p>除非目标成功通过一次-2的活力投骰，否则就会变成石头（若已经是石头则是化作血肉）。</p></div>"
+      }
+    }
+  }
+}

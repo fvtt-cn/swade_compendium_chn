@@ -1,0 +1,531 @@
+{
+    "label": "奇术",
+    "mapping": {
+        "description": "system.description",
+        "range": "system.range",
+        "rank": "system.rank",
+        "duration": "system.duration",
+        "trapping": "system.trapping",
+        "pp": "system.pp"
+    },
+    "entries": {
+        "Arcane Protection": {
+            "name": "奥法防护",
+            "description": "<div class=\"swpf-core\"><h3 id=\"arcane-protection\">奥法防护 ARCANE PROTECTION</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>防护系</p>\n<p><strong>特效：</strong>聚能，围绕在防护对象周围的模糊光线，法物。</p>\n<hr/>\n<p>成功施放的<em>奥法防护</em>意味着试图影响角色的敌性奇术遭受-2减值(优良则是-4)。若奇术会造成伤害，则伤害也会减少对应数值。</p>\n<p>若对象同时具备<em>奥法防护</em>和奥法抗性，两者可以叠加！</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等奥法防护(+2)：</span>敌性奇术遭受-4减值(优良则是-6)。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "聚能，围绕在防护对象周围的模糊光线，法物。",
+            "duration": "5"
+        },
+        "Baleful Polymorph": {
+            "name": "恶意变形",
+            "description": "<div class=\"swpf-core\"><h3 id=\"baleful-polymorph\">恶意变形 BALEFUL POLYMORPH</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>3+2×变化体型数</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>诅咒造物、能量束。</p>\n<hr/>\n<p>恶意变形是选择某一体型在-2到3之间的动物类别生物，然后进行一次角色的奥法技能VS目标心魂的对抗投骰。若是成功，则对象变成某种相对无害的生物，其会获得该生物的灵巧、力量、活力和内生能力，但仍然保持原来的聪慧以及心魂。</p>\n<p>该目标处于新形态时必须能在当前环境中存活(无法将陆地上的某人变成鱼类)。若是对象心魂投骰大失败，则还会获得此类动物的聪慧，并在奇术结束之前相信自己<em>就是</em>动物。对象在自己接下来的每个回合结束时都能进行一次-2的心魂投骰(若是施术者获得优良则是-4)以尝试变回原来的形态。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">延长(+2)：</span>奇术的持续时间从按轮计算变成按分钟计算。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "诅咒造物、能量束。",
+            "duration": "5"
+        },
+        "Banish": {
+            "name": "放逐",
+            "description": "<div class=\"swpf-core\"><h3 id=\"banish\">放逐 BANISH</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>防护系</p>\n<p><strong>特效：</strong>圣物，奥法印记，一捧盐</p>\n<hr/>\n<p><em>放逐</em>会将其他位面的实体送回它们本来的次元当中，这包括幽魂、恶魔、元素等类似的存在(由GM判定)。</p>\n<p><em>放逐</em>需要进行一次施术者的奥法技能VS目标心魂的对抗投骰。成功意味着目标遭受动摇，而且每次优良都会造成1个损伤。</p>\n<p>若目标因此无力化，它就会返回原生的实存位面。遭到<em>放逐</em>的实体可以在GM认为合适的时候回归。若其具备独力穿行位面的能力，则甚至可以在几轮之后回归！</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">范围效果(+1/+2/+3)：</span>奇术能影响小型/中型/大型爆发盖板内的一切单位。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "圣物，奥法印记，一捧盐"
+        },
+        "Barrier": {
+            "name": "屏障",
+            "description": "<div class=\"swpf-core\"><h3 id=\"barrier\">屏障 BARRIER</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>火焰、冰块、荆棘、骸骨、能量。</p>\n<hr/>\n<p><em>屏障</em>会制造出一面5英寸(10码)长，1英寸(2码)高的平直墙体，构成静止墙体的材质和施放表面的材质一致，获得优良则长度加倍。</p>\n<p>厚度取决于墙体材质构成，通常都是数英寸厚。</p>\n<p>墙体的硬度是10(优良则是12)，而且和其他物件一样可以遭到摧毁(见130页<strong>破坏物体</strong>)，每个损伤能摧毁1平方英寸(2平方码)的墙体(穿刺武器无法对<em>屏障</em>造成伤害)。</p>\n<p>法术消散或墙体遭到破坏时，其就会碎裂成灰或是消失不见，特效永远不会保留。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">伤害(+0/+1)：</span>对任何接触<em>屏障</em>的单位造成2d4伤害。若是<em>屏障</em>并非实体(诸如火墙)，则此调整的消耗从+1变成+0。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">致死(+2)：</span>屏障会造成2d6伤害。</li>\n<li><span class=\"list-heading\">加固(+1)：</span>墙体的硬度变为12(优良则是14)。</li>\n<li><span class=\"list-heading\">塑形(+1)：</span>屏障形态变为环形、方形或长方形，其不能带有顶部或底部，也不能束缚或纠缠住内部的任何事物(这要用<em>纠缠</em>奇术)。</li>\n<li><span class=\"list-heading\">大小(+1)：</span><em>屏障</em>的长度和高度加倍。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "火焰、冰块、荆棘、骸骨、能量。",
+            "duration": "5"
+        },
+        "Beast Friend": {
+            "name": "野兽同盟",
+            "description": "<div class=\"swpf-core\"><h3 id=\"beast-friend\">野兽同盟 BEAST FRIEND</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>特殊</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>10分钟</p>\n<p><strong>学派：</strong>惑控系</p>\n<p><strong>特效：</strong>施术者集中精神并作出手势。</p>\n<hr/>\n<p>这个法术能让单位和自然野兽沟通并指挥其行动，施术费用等同于对象体型的总和(每个生物最少1点，例子参见章节六的生物)。举例而言，操控五只狼(体型-1)消耗5点；操控一头犀牛(体型5)也是消耗5点。</p>\n<p>成功意味着这些生物会像是经过良好训练的狗一样遵从简单的指令，它们会为了主子冒着危险攻击敌人。奥法技能投骰获得优良意味着这些野兽会更为顺从，它们不会自杀，但愿意克服天然的恐惧(火焰、恐怖的生物等等)以执行命令。</p>\n<p>集群也能予以操控。小型集群消耗1点，中型集群消耗2点，大型集群消耗3点。</p>\n<p><em>野兽同盟</em>只对具有动物智力的自然生物有效，对类人生物，变化生成，或是魔法性质的“非自然”动物无效。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">百兽通(+2)：</span>施术者能影响具备动物智力的魔法兽。</li>\n<li><span class=\"list-heading\">延长(+1)：</span>基础持续时间增加到30分钟。</li>\n<li><span class=\"list-heading\">心灵驾驭(+1)：</span>施术者可以通过任何受术的野兽进行沟通和感知。</li>\n</ul></div>",
+            "duration": "10分钟",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "施术者集中精神并作出手势。"
+        },
+        "Blast": {
+            "name": "爆发",
+            "description": "<div class=\"swpf-core\"><h3 id=\"blast\">爆发 BLAST</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>聪慧×2</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>塑能系</p>\n<p><strong>特效：</strong>火球、冰球、光球、暗球、虹彩箭雨、昆虫集群。</p>\n<hr/>\n<p><em>爆发</em>会发射一团爆炸的能量或物质。效果范围是中型爆发盖板，其中的每个目标都会受到2d6伤害，优良则是3d6(见129页<strong>范围效果攻击</strong>)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+0/+1)：</span>施术者可将<em>爆发</em>改为小型爆发盖板而无须额外费用，或+1消耗变成大型爆发盖板。</li>\n<li><span class=\"list-heading\">伤害(+2)：</span><em>爆发</em>造成的伤害为3d6(优良则为4d6)。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等爆发(+4)：</span><em>爆发</em>造成的伤害为4d6(优良则为5d6)，同时视作重武器。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧×2",
+            "rank": "行家",
+            "trapping": "火球、冰球、光球、暗球、虹彩箭雨、昆虫集群。"
+        },
+        "Blind": {
+            "name": "目盲",
+            "description": "<div class=\"swpf-core\"><h3 id=\"blind\">目盲 BLIND</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>死灵系</p>\n<p><strong>特效：</strong>明亮闪光，风沙糊眼，迷惑。</p>\n<hr/>\n<p>遭到这个恶毒奇术影响的对象其视野会模糊不清，若获得优良则更是近乎<em>目盲</em>。</p>\n<p>成功意味着对象所有需要视觉的行动遭受-2减值，优良则是-4。</p>\n<p>对象在自己接下来的所有回合结束时将自动尝试以一个自由行动进行一次活力投骰来摆脱该效果。成功会移除2点减值，优良则移除整个效果。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+2/+3)：</span>+2奇术点能影响中型爆发盖板内所有单位，+3奇术点则效果范围上升到大型爆发盖板。</li>\n<li><span class=\"list-heading\">强劲(+1)：</span>摆脱此效果的活力投骰-2。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "明亮闪光，风沙糊眼，迷惑。"
+        },
+        "Bolt": {
+            "name": "矢弹",
+            "description": "<div class=\"swpf-core\"><h3 id=\"bolt\">矢弹 BOLT</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧×2</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>塑能系</p>\n<p><strong>特效：</strong>火箭、冰箭、光箭、黑暗箭、虹彩箭、昆虫流。</p>\n<hr/>\n<p><em>矢弹</em>通过爆发的能量、圣光束或物质碎片来对单个敌人造成伤害。</p>\n<p>这个奇术没有射程减值，但该奥法技能投骰会受到掩蔽、照明及其他常见减值影响。</p>\n<p><em>矢弹</em>的伤害为2d6，优良则是3d6。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">伤害(+2)：</span><em>矢弹</em>造成的伤害为3d6(优良则为4d6)。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">解离(+2)：</span>若<em>矢弹</em>让某一生物陷入无力化，则其必须成功通过一次活力投骰，否则身体就会灰飞烟灭。若目标是一个物件，则施术者如常针对其硬度进行伤害投骰(见130页的<strong>破坏物体</strong>)。若是<em>矢弹</em>破坏了此物件，则其也会分解消散。解离能让角色针对物件进行奖励伤害投骰，并且所有伤害骰子都能绝佳。<strong>附魔物品：</strong>附魔物品在遭到解离时硬度视作加倍。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等矢弹(+4)：</span><em>矢弹</em>造成的伤害为4d6(优良则为5d6)，同时视作重武器。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">射速(+2)：</span><em>矢弹</em>能以射速2进行攻击。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧×2",
+            "rank": "入门",
+            "trapping": "火箭、冰箭、光箭、黑暗箭、虹彩箭、昆虫流。"
+        },
+        "Boost/Lower Trait": {
+            "name": "强化/削弱特性",
+            "description": "<div class=\"swpf-core\"><h3 id=\"boost-lower-trait\">强化/削弱特性 BOOST/LOWER TRAIT</h3><p><strong>位阶：</strong>入门</p><p><strong>奇术点：</strong>2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>5(<em>强化</em>)；瞬间(<em>削弱</em>)</p><p><strong>学派：</strong>变化系(<em>强化</em>)；死灵系(<em>削弱</em>)</p><p><strong>特效：</strong>外表改变，发亮灵气，药剂。</p><hr><p>角色能以该奇术增加或减少目标的特性(属性或技能)。</p><p><em>强化</em>一名盟友的特性能让所选的特性骰子类型上升一级，优良则上升两级。</p><p><em>削弱</em>一名敌人的特性则持续时间是瞬间，成功会使所选的属性或技能骰子类型下降一级，优良则让骰子类型下降两级(下限为d4)。对象在自己接下来的所有回合结束时将自动尝试以一个自由行动进行一次心魂投骰来摆脱该效果。成功会使受影响的特性骰上升一级，优良则移除整个效果。</p><p>多次对同一特性施术其效果不会叠加(结果取最高)，但多次施放可以影响<em>不同</em>的特性。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li><li class=\"star-icon\"><span class=\"list-heading\">高等强化/削弱特性(+2)：</span><em>强化特性</em>成功可让选定特性每轮免费获得一次重投，若为优良则是每行动一次。<em>削弱特性</em>会对受影响的特性投骰造成-2减值。</li><li><span class=\"list-heading\">强劲(+1)：</span>仅限<em>削弱特性</em>，摆脱该效果的心魂投骰-2。</li></ul></div>",
+            "duration": "5(强化)；瞬间(削弱)",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "表改变，发亮灵气，药剂。"
+        },
+        "Burrow": {
+            "name": "遁地",
+            "description": "<div class=\"swpf-core\"><h3 id=\"burrow\">遁地 BURROW</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>融入大地中然后出现在别处，沙化躯体。</p>\n<hr/>\n<p><em>遁地</em>让对象得以融入原始土壤当中，若其愿意则可保持藏在地下，或是以正常移速的一半<em>遁地</em>穿行(优良则为全移速)，对象无法奔跑。</p>\n<p><em>遁地</em>角色可以通过一次潜行VS察觉的对抗投骰来尝试突袭一名敌人。若遁地者获胜，目标就<em>仅对前者</em>陷入脆弱。若为优良，则遁地者构成奇袭。待机中的目标能尝试在受到攻击前加以打断。</p>\n<p>若遁地者的存在已经暴露，则其通常就无法突袭敌人，但依然能靠遁地来保护自己以及四处移动。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li><span class=\"list-heading\">强力(+1)：</span>施术者能<em>遁地</em>穿过石块、混凝土或类似物质。(诸如玻璃、纯铅之类的物质根据GM判定可能会导致阻挡)。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "融入大地中然后出现在别处，沙化躯体。",
+            "duration": "5"
+        },
+        "Burst": {
+            "name": "爆裂",
+            "description": "<div class=\"swpf-core\"><h3 id=\"burst\">爆裂 BURST</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>锥形或直线盖板</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>塑能系</p>\n<p><strong>特效：</strong>喷涌而出的火焰、光芒或是其他物质和能量。</p>\n<hr/>\n<p><em>爆裂</em>制造出一大片能量，让目标浸没在灼热的烈焰、寒冰锥以及其他伤害性的物质或能量当中。</p>\n<p>成功会创造一个以施术者为起点朝外的锥形或直线盖板(见129页<strong>范围效果攻击</strong>)。范围内的所有单位受到2d6的伤害(优良则为3d6)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">伤害(+2)：</span><em>爆裂</em>造成的伤害为3d6，优良则为4d6。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等爆裂(+4)：</span><em>爆裂</em>造成的伤害为4d6(优良则为5d6)，同时视作重武器。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "锥形或直线盖板",
+            "rank": "入门",
+            "trapping": "喷涌而出的火焰、光芒或是其他物质和能量。"
+        },
+        "Confusion": {
+            "name": "困惑",
+            "description": "<div class=\"swpf-core\"><h3 id=\"confusion\">困惑 CONFUSION</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>惑控系</p>\n<p><strong>特效：</strong>催眠光效，短暂幻象，响亮杂音。</p>\n<hr/>\n<p><em>困惑</em>会使中型爆发盖板内的所有目标陷入迷惑，让其陷入分神或是脆弱，若获得优良则两者皆有。同样的效果会应用到所有遭受影响的对象身上。这些状态如常在对象的下一回合结束时移除。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+0/+1)：</span>施术者可将<em>爆发</em>改为小型爆发盖板而无须额外消耗，或+1消耗改为大型爆发盖板。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等困惑(+2)：</span>若是成功，则目标除了陷入分神或是脆弱(若是优良则两者皆有)外还会遭受动摇。<em>困惑</em>并非是伤害性效果，因此无法对已经陷入动摇的目标造成损伤。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "催眠光效，短暂幻象，响亮杂音。"
+        },
+        "Conjure Item": {
+            "name": "创造物品",
+            "description": "<div class=\"swpf-core\"><h3 id=\"conjure-item\">创造物品 CONJURE ITEM</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2×磅数</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>1小时</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>构筑物品轮廓的光芒，掏取魔法口袋，用尘泥塑造物品，从绘画涂鸦中取出物品</p>\n<hr/>\n<p>施术者能创造出一个磅数不超过所消耗奇术点一半的物件，这个东西必须是由普通材质(GM判定)构成的凡俗简易物件，诸如10英尺长的杆子、毛毯、盾牌等等。奥法技能投骰获得优良则能变化生成更为结实的物品。</p>\n<p>生成的物品会出现在施术者的手上或是旁边的地上，若是持续时间结束，则该物品会从现实中消失，这可能会造成种种问题，举例而言，用变化而出的物品来封门或是将其作为礼品赠出等等。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">整套(+1)：</span>这项物件属于整副套件，诸如一副棋子或是一壶箭矢。这副套件的重量不能超过上限。</li>\n<li><span class=\"list-heading\">造粮变水(特殊)：</span>不再是生成一个物件，而是每用1奇术点就能创造出足以维持一名体型0类人生物一日所需的食物和饮水。这些含有营养的食物虽然是永久性存在(不会在食用后消失)，然而若是不将其吃掉就会在24小时后腐烂到无法食用的程度。饮水则是如同清洁的雨水那般，不会腐坏。</li>\n<li><span class=\"list-heading\">耐用(每磅+1)：</span>物件的持续时间变成“永久”，直到消解为止。“注入”其中的奇术点不再可用，直至遭到摧毁、<em>破袪</em>或是施术者予以消解为止。造物者能忽略视线、距离或是其他因素而随时消解此物件，之后对应的奇术点才可以如常充能。</li>\n</ul></div>",
+            "duration": "1小时",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "构筑物品轮廓的光芒，掏取魔法口袋，用尘泥塑造物品，从绘画涂鸦中取出物品"
+        },
+        "Curse": {
+            "name": "诅咒",
+            "description": "<div class=\"swpf-core\"><h3 id=\"curse\">诅咒 CURSE</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>5</p>\n<p><strong>射程：</strong>接触</p>\n<p><strong>持续时间：</strong>特殊</p>\n<p><strong>学派：</strong>死灵系</p>\n<p><strong>特效：</strong>人像、仪式咒语、触碰。</p>\n<hr/>\n<p>有的奥法技艺使用者会治疗盟友，其他的则是给敌人降下祸病。施术者若要使用这种特别恶毒的法术，则须针对受害者的心魂进行一次奥法技能对抗投骰，失败则对象会立刻遭受一级疲乏，并且在之后每天日落时再遭受一次(再次施放诅咒不会产生额外效果)。</p>\n<p>若是受诅方陷入无力化，则其每天必须进行一次活力投骰以避免死亡。</p>\n<p><strong>破除诅咒：</strong>原来的施术者能随意解除<em>诅咒</em>，将其杀死也能自动解咒。<em>破袪</em>(带有-2)也可以移除一项<em>诅咒</em>，但是每个单位只能尝试一次，若是失败则代表其对此无能为力。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">石化(+5)：</span>受诅方必须每轮成功通过一次心魂投骰，否则就会遭受一级疲乏。受害者在陷入无力化时会变成石头(坚韧会变成硬度)。必须破除这个诅咒才能停止该效果(见上)。</li>\n</ul></div>",
+            "duration": "特殊",
+            "range": "接触",
+            "rank": "行家",
+            "trapping": "人像、仪式咒语、触碰。"
+        },
+        "Damage Field": {
+            "name": "致伤领域",
+            "description": "<div class=\"swpf-core\"><h3 id=\"damage-field\">致伤领域 DAMAGE FIELD</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>4</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>防护系</p>\n<p><strong>特效：</strong>炽焰灵气，尖刺，电弧场。</p>\n<hr/>\n<p><em>致伤领域</em>会在对象周围制造出一层危险的灵气，以此对过于靠近的蠢货造成伤害。</p>\n<p>在受影响角色的回合结束时，所有邻接的存在(包括盟友！)自动受到2d4伤害。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+2)：</span>施术者可将<em>致伤领域</em>延展成以对象为中心的中型爆发盖板，施术者免疫自己的<em>致伤领域</em>。</li>\n<li><span class=\"list-heading\">伤害(+2)：</span><em>致伤领域</em>会造成2d6伤害。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等致伤领域(+4)：</span><em>致伤领域</em>会造成3d6伤害，同时视作重武器。</li>\n<li><span class=\"list-heading\">可动(+2)：</span>可动只能应用在范围效果调整上，这能让施术者将<em>致伤领域</em>从对象身上分离出来，并且每轮以一个限定自由行动移动不超过其聪慧骰子类型的距离。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "炽焰灵气，尖刺，电弧场。",
+            "duration": "5"
+        },
+        "Darksight": {
+            "name": "暗视",
+            "description": "<div class=\"swpf-core\"><h3 id=\"darksight\">暗视 DARKSIGHT</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>1小时</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>双眼发光，瞳孔变大，回声视界。</p>\n<hr/>\n<p><em>暗视</em>让一名角色得以在黑暗中视物。成功则至多能忽略4点照明减值；若为优良则可忽略至多6点，并且可在漆黑中视物。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等暗视(+2)：</span>对象的感官拓展到了红外以及紫外光谱的范畴，忽略所有照明减值以及4点来自<em>隐形</em>生物的减值。</li>\n</ul></div>",
+            "duration": "1小时",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "双眼发光，瞳孔变大，回声视界。"
+        },
+        "Deflection": {
+            "name": "偏斜",
+            "description": "<div class=\"swpf-core\"><h3 id=\"deflection\">偏斜 DEFLECTION</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>防护系</p>\n<p><strong>特效：</strong>秘法护盾，疾风，拦截投射物的幻影仆从。</p>\n<hr/>\n<p><em>偏斜</em>奇术的作用机理不一而足。一些会实际<em>偏斜</em>开来袭的攻击，另一些则会模糊目标的形体或制造幻象效果，然而最终结果都殊途同归：引开指向奇术对象的近战或远程攻击。</p>\n<p>若是成功，敌人直接指向对象的近战或是远程(施术者选择)攻击都要-2，获得优良则减值会应用到两者之上。</p>\n<p>无论如何，攻击方在近战中使用远程武器攻击对象都会遭受此减值。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "秘法护盾，疾风，拦截投射物的幻影仆从。",
+            "duration": "5"
+        },
+        "Destroy Undead": {
+            "name": "消灭亡灵",
+            "description": "<div class=\"swpf-core\"><p>牧师能以一个行动消耗2奇术点在以自己为中心的中型爆发盖板里面引导正能量。盖板中的所有不死生物必须成功通过一次心魂骰，否则会受到一个损伤(可如常进行化解)。</p></div>",
+            "duration": "瞬间",
+            "range": "中型爆发盖板",
+            "rank": "老练",
+            "trapping": "仅牧师可用"
+        },
+        "Detect/Conceal Arcana": {
+            "name": "侦测/隐藏奥法",
+            "description": "<div class=\"swpf-core\"><h3 id=\"detect-conceal-arcana\">侦测/隐藏奥法 DETECT/CONCEAL ARCANA</h3><p><strong>位阶：</strong>入门</p><p><strong>奇术点：</strong>2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>5(<em>侦测</em>)；1小时(<em>隐藏</em>)</p><p><strong>学派：</strong>预言系(<em>侦测</em>)；幻术系(<em>隐藏</em>)</p><p><strong>特效：</strong>挥动双手，低语咒文。</p><hr><p><em>侦测奥法</em>能让对象在5轮内能看到和发现视线里所有超自然人物、物件或效果。这包括<em>隐形</em>的敌人、人或物上附着的魔法等等。若为优良，施术者还能知晓魔法的基本类型。</p><p>作用于超自然生物时，施术者能得知其启动的奇术以及奥法能力。若获得优良，则还会知晓对应生物类别的常规弱点，然而其无法揭露特殊单位的弱点(如有)，这通常必须得要通过研究或是反复试验方能加以发现。</p><p><strong>不可见生物：</strong><em>侦测奥法</em>也能让角色在攻击藏于魔法黑暗、<em>隐形</em>或类似能力中的敌人时忽略至多4点减值(优良则是所有减值)。</p><p><em>隐藏奥法</em>则会在1小时内防止侦测魔法能力作用于一个中型及以下尺寸的生物或物品(见167页的<strong>侦测魔法</strong>以及245页的<strong>体型表</strong>)。更为庞大的生物则根据尺寸调整值增加对应消耗(大型+2奇术点，超大型+4奇术点，巨型+6奇术点)。</p><p>若是成功，则尝试对此生物或物品进行<em>侦测奥法</em>会遭受-2减值(优良则是-4)。若是<em>侦测奥法</em>失败，则角色这次施术就看不出端倪，而且除非出现明显的相关佐证(举例而言，来自不可见敌人的攻击)，否则不会意识到有所隐藏。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术就可以多影响1位观察者(<em>侦测</em>)或是1件物品(<em>隐藏</em>)。</li><li><span class=\"list-heading\">阵营感知(+1)：</span>施术者能感知射程内超自然善良(或邪恶)存在的确切位置，启动时带有阵营感知的<em>侦测奥法</em>不需要视觉线就能定位生物。</li><li><span class=\"list-heading\">范围效果(+1/+2)：</span>仅限<em>隐藏</em>，+1奇术点能影响中型爆发盖板球形范围内所有单位，+2奇术点则变成大型爆发盖板。</li><li><span class=\"list-heading\">鉴定(+1)：</span>施术者能鉴识某一魔法物品上的力量以及运作机理。</li><li><span class=\"list-heading\">强劲(+1)：</span>仅限<em>隐藏</em>，看穿<em>隐藏</em>的<em>侦测</em>投骰-2，这会与施术时获得优良所带来的额外减值叠加。</li></ul></div>",
+            "duration": "5(侦测)；1小时(隐藏)",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "挥动双手，低语咒文。"
+        },
+        "Disguise": {
+            "name": "易容",
+            "description": "<div class=\"swpf-core\"><h3 id=\"disguise\">易容 DISGUISE</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>10分钟</p>\n<p><strong>学派：</strong>幻术系</p>\n<p><strong>特效：</strong>改变特征、幻象外表、新发型。</p>\n<hr/>\n<p><em>易容</em>会让目标从外貌到衣着都变成另一个人(体型与形态必须相同)，然而这不会提供任何能力。</p>\n<p>那些有理由质问假冒者身份的对象可以进行一次-2的察觉投骰(若施术投骰为优良则是-4)来看穿<em>易容</em>，这是一个自由行动。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li><span class=\"list-heading\">大小(+1)：</span>对象可以变化成体型至多比自身高或低2的人物。</li>\n</ul></div>",
+            "duration": "10分钟",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "改变特征、幻象外表、新发型。"
+        },
+        "Dispel": {
+            "name": "破袪",
+            "description": "<div class=\"swpf-core\"><h3 id=\"dispel\">破袪 DISPEL</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>防护系</p>\n<p><strong>特效：</strong>挥动双手，低语咒文。</p>\n<hr/>\n<p>英雄能以<em>破袪</em>消除敌人的奇术。这对永久的附魔或像是龙息、女妖之嚎这种天生能力无效。<em>破袪</em>可以正常影响奥法装置(见172页<strong>奥法装置</strong>)。</p>\n<p><em>破袪</em>既能作用于已经生效的奇术，亦可反制敌人将要使用的奇术。后一种用法需要反制方魔法师待机并打断敌方的行动。</p>\n<p>无论哪种状况，<em>破袪</em>对手的奇术都是一次奥法技能对抗投骰。使用秘源奇术专长或是内生奇术(见242页)的目标则将心魂作为奥法投骰使用。</p>\n<p>若<em>破袪</em>方获胜，目标奇术立刻结束(若为反制则按正常失败结果处理)。若获得优良，则奇术遭到<em>破袪</em>的对象陷入分神。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">反魔场(+8)：</span>不再是影响射程内的某一奇术，这个调整会以对象为中心生成一个持续时间为5的中型爆发盖板。反魔场内的魔法物品、魔法效果以及奇术都会无效，而范围内的召唤生物必须每轮都成功通过一次心魂投骰，否则就会受到1个损伤。魔法生成的物件不受影响。反魔场对神祇或是神器无效，并且无法与其他调整组合使用。</li>\n<li><span class=\"list-heading\">范围效果(+1/+2/+3)：</span>这个效果能覆盖某片区域：+1奇术点是小型爆发盖板，+2奇术点则是中型爆发盖板，+3奇术点则是大型爆发盖板。施术者进行一次奥法技能投骰，而每个受影响的目标各自进行奥法技能投骰予以对抗。除非施术者同时启用了选别奇术调整，否则这会影响到目标区域内的所有奇术。</li>\n<li><span class=\"list-heading\">消弭(+1)：</span>施术者能将目标从个体或是奇术换成一件魔法物品，这并非对抗投骰，而是一次标准奥法技能投骰(GM能就强力物品或是神器予以减值)。若成功，则物品的所有魔法能力都会无效一轮，优良则是两轮。</li>\n<li><span class=\"list-heading\">多重破法(+3)：</span>若成功，则施术者能<em>破袪</em>目标当前所有已启动的奇术。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "挥动双手，低语咒文。"
+        },
+        "Divination": {
+            "name": "预言",
+            "description": "<div class=\"swpf-core\"><h3 id=\"divination\">预言 DIVINATION</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>5</p>\n<p><strong>射程：</strong>自身</p>\n<p><strong>持续时间：</strong>约五分钟的简短对话</p>\n<p><strong>学派：</strong>预言系</p>\n<p><strong>特效：</strong>降灵，讯问恶魔。</p>\n<hr/>\n<p>施术者能通过<em>预言</em>来与异界存在进行沟通以获取信息。</p>\n<p>准备该法术需要一分钟不受干扰的祈祷、劝诱或是用其他方式与精魂或神祇沟通。一旦完成，施术者进行奥法技能投骰。成功即意味着这个存在会尽其所能第回答角色的问题，优良则意味着精魂更顶用，更博学，或比平常更为直接(无论它是否愿意)。</p>\n<p>回答通常不会直接明了，而是暧昧不清或是抽象晦涩，提供的是线索和指引，而不是会毁掉神秘感或是冒险本身的剧透。</p>\n<p>联系的存在类型决定了沟通方式。阴间的灵魂通常只知道那些与自身生死相关的内容，若杀手蒙面或不可见，则其甚至可能还不会知道凶手的身份。</p>\n<p>同理，自然之灵只了解本地周边，恶魔只知道其直接参与的事件等等。GM必须基于背景、起源或个性来决定该存在所知的内容。</p>\n<p>沟通过的精魂在24小时内无法再次联系，GM可以将这点延伸到单一地区内的精魂群体上，诸如潺潺河川的水精灵或大墓地的无名灵体。</p>\n<p><strong>圣地：</strong>身处某位精魂的圣地(精类生物是森林深处，神祇是神庙，火元素或魔族则是火山等等)进行沟通会让投骰+2。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">强力(+3)：</span>只有身处施术者尝试交流对象的圣地时(精类生物是森林深处，神祇是神庙，火元素或魔族则是火山等等)，这个调整才会生效。若获得优良，则这个存在甚至还会以某种形式显现或出现。这个存在不但会回答请愿方的问题，同时还会主动提供建议。至于具体内容和传达方式则根据这个存在而定。林地生物可能会警告施术者森林里面的危险地区，恶魔可能会就临头大难而幸灾乐祸，这反而无意中暴露了后续遭遇里其他实体的底细。</li>\n</ul></div>",
+            "duration": "约五分钟的简短对话",
+            "range": "自身",
+            "rank": "行家",
+            "trapping": "降灵，讯问恶魔。"
+        },
+        "Drain Power Points": {
+            "name": "抽取奇术点",
+            "description": "<div class=\"swpf-core\"><h3 id=\"drain-power-points\">抽取奇术点 DRAIN POWER POINTS</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>死灵系</p>\n<p><strong>特效：</strong>祈祷，低语，手势。</p>\n<hr/>\n<p>强大的魔法师、祭司以及类似人物可运用此能力从敌人身上抽取奥法能量，其有时甚至能将抽取的能量吸到自己身上。</p>\n<p>这个奇术和目标的心魂进行对抗，若目标的奥法背景和施术者不同，后者在投骰上就要遭受-2减值。</p>\n<p>成功会抽取对方1d6奇术点(如有，且该骰子无法绝佳)。若获得优良，则施术者能将这些奇术点吸取到自己身上，这<em>能</em>让她的奇术点超过常态上限！这些奇术点将一直保留到消耗掉为止，且施术必定优先消耗这些奇术点。</p>\n<p><em>抽取奇术点</em>也能用于奥法装置(无论装置是否由制作者所持用，都要与其的奥法技能进行对抗)。装置被抽取的奇术点无法超过本身所有。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">强力(+2)：</span>成功则施术者可抽取2d6奇术点。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "祈祷，低语，手势。"
+        },
+        "Elemental Manipulation": {
+            "name": "元素操纵",
+            "description": "<div class=\"swpf-core\"><h3 id=\"elemental-manipulation\">元素操纵 ELEMENTAL MANIPULATION</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>几个简单的手势。</p>\n<hr/>\n<p>这个奇术能对气火水土四大传统元素(这些元素在其他文化当中可能有所不同)进行基础操控。</p>\n<p>下面是操作各个元素的一些主意，每种都需要一个行动。</p>\n<ul>\n<li><span class=\"list-heading\">气：</span>推开某人(力量d6，若为优良则是d8)，吹熄火炬，煽风吹火，冷却某物(炎热高温的疲乏投骰重投一次)。</li>\n<li><span class=\"list-heading\">土：</span>每轮移动一平方英尺的土壤(石头减半)，掩盖踪迹，对射程内的某一目标投出岩石(2d4伤害)。</li>\n<li><span class=\"list-heading\">火：</span>召唤火炬大小的火焰，向某人投出一小团火焰(2d4伤害)，让已有的火焰蔓延开来(见188页<strong>火焰</strong>)。</li>\n<li><span class=\"list-heading\">水：</span>召唤一夸脱水(不能在物件或人体内)，每次施术净化1加仑水，用水流推开某人(力量d6，若为优良则是d8)。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "几个简单的手势。",
+            "duration": "5"
+        },
+        "Empathy": {
+            "name": "共感",
+            "description": "<div class=\"swpf-core\"><h3 id=\"empathy\">共感 EMPATHY</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>惑控系</p>\n<p><strong>特效：</strong>专注，同情的微笑，客套寒暄。</p>\n<hr/>\n<p>施术者在成功通过一次奥法技能VS心魂的对抗投骰后就能窥探目标的基本情绪，这会在奇术持续时间内让其对该目标的威吓、交涉、表演和嘲弄投骰获得+1加值(若为优良则是+2)，这个加值不会应用到启动奇术的技能投骰上。</p>\n<p><em>共感</em>同样能作用于动物，骑乘或其他需要和该生物互动的投骰会因此+2。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li><span class=\"list-heading\">魅惑(+2)：</span>若目标的态度是不合作或中立，则成功施术就能让其变得合作，获得优良则是友善。若施术者或其盟友针对此对象或对方的盟友进行攻击，则这个法术会立刻破除。</li>\n<li><span class=\"list-heading\">延长(+1)：</span>持续时间从按轮计算变成按分钟计算。若这名角色就此目标在受影响的技能投骰上出现大失败，则这个效果立刻结束。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">真诚(+2)：</span>施术者能知晓目标是否相信自己在如实相告。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "专注，同情的微笑，客套寒暄。",
+            "duration": "5"
+        },
+        "Entangle": {
+            "name": "纠缠",
+            "description": "<div class=\"swpf-core\"><h3 id=\"entangle\">纠缠 ENTANGLE</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>胶水炸弹，藤蔓，罗网。</p>\n<hr/>\n<p>施术者能通过<em>纠缠</em>以冰、能量束带或其他藤蔓般的特效(硬度8)来控制住目标。若成功，目标陷入纠缠，获得优良则是陷入束缚。</p>\n<p>对象在自己回合可就130页<strong>束缚与纠缠</strong>所阐明的那般尝试挣脱。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+2/+3)：</span>+2奇术点能影响中型爆发盖板内所有单位，+3奇术点则效果范围上升到大型爆发盖板或换成直线盖板。</li>\n<li><span class=\"list-heading\">伤害(+2)：</span>遭到纠缠的目标在其回合结束时会受到2d4伤害。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">致死(2)：</span>遭到纠缠的目标在其回合结束时会受到2d6伤害。</li>\n<li><span class=\"list-heading\">结实(+1)：</span><em>纠缠</em>的物质十分强韧，其硬度上升到10。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "胶水炸弹，藤蔓，罗网。"
+        },
+        "Environmental Protection": {
+            "name": "环境防护",
+            "description": "<div class=\"swpf-core\"><h3 id=\"environmental-protection\">环境防护 ENVIRONMENTAL PROTECTION</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>1小时</p>\n<p><strong>学派：</strong>防护系</p>\n<p><strong>特效：</strong>额上印记，药水，鳃。</p>\n<hr/>\n<p>冒险者有时会深入海底、火焰位面或其他危险的环境中，这个奇术能就深海高压、炎热、极寒乃至辐射提供保护。</p>\n<p><em>环境防护</em>能让目标在别样危险的环境中得以呼吸、说话、并以正常移速移动，这可以就极热、极寒、辐射、高压以及缺氧提供保护。</p>\n<p>优良可将持续时间提升到8小时。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li><span class=\"list-heading\">环境抗性(+1)：</span>这项奇术如今还会提供环境抗性，源自某一能量(火、寒冷、电等等)的伤害-4(优良则是-6)。</li>\n</ul></div>",
+            "duration": "1小时",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "额上印记，药水，鳃。"
+        },
+        "Farsight": {
+            "name": "远视",
+            "description": "<div class=\"swpf-core\"><h3 id=\"farsight\">远视 FARSIGHT</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>目标身上的隐形标记，指引之风，鹰眼。</p>\n<hr/>\n<p><em>远视</em>让对象得以在极远距离上明察秋毫，其最远能在一英里外进行读唇和阅读小号字体。</p>\n<p>若获得优良，则还能减半射击、运动(投掷)和其他受射程影响能力的射程减值。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等远视(+2)：</span>对象得以忽略所有射程减值，获得优良则视野会加倍。</li>\n</ul></div>",
+            "duration": "5",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "目标身上的隐形标记，指引之风，鹰眼。"
+        },
+        "Fear": {
+            "name": "恐惧",
+            "description": "<div class=\"swpf-core\"><h3 id=\"fear\">恐惧 FEAR</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>死灵系</p>\n<p><strong>特效：</strong>怪异能量、寒意。</p>\n<hr/>\n<p>这个奇术能造成压倒性的恐怖和惊骇。目标须进行一次恐惧检定，失败的龙套会陷入恐慌，而不羁角色则要根据<strong>恐惧表</strong>进行投骰。若施放奇术获得优良，恐惧投骰-2，不羁角色根据<strong>恐惧表</strong>进行投骰的结果+2。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+2/+3)：</span>+2奇术点能影响小型或是中型爆发盖板（施术者选择）内所有单位，+3奇术点则效果范围上升到大型爆发盖板。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等恐惧(+2)：</span>进行的恐惧投骰-2，若获得优良则是-4。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "怪异能量、寒意。"
+        },
+        "Fly": {
+            "name": "飞行",
+            "description": "<div class=\"swpf-core\"><h3 id=\"fly\">飞行 FLY</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>疾风、翅膀、扫帚。</p>\n<hr/>\n<p><em>飞行</em>能让角色以12英寸的移速飞行，若为优良则加倍(不能奔跑)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+2)：</span>每额外消耗2奇术点，该奇术可以多影响1个目标。</li>\n<li><span class=\"list-heading\">高速飞行(+5)：</span>基础飞行意思增加到24，获得优良则是48。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "疾风、翅膀、扫帚。",
+            "duration": "5"
+        },
+        "Growth/Shrink": {
+            "name": "放大/缩小",
+            "description": "<div class=\"swpf-core\"><h3 id=\"growth-shrink\">放大/缩小 GROWTH/SHRINK</h3><p><strong>位阶：</strong>行家</p><p><strong>奇术点：</strong>变化的体型数×2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>5</p><p><strong>学派：</strong>变化系</p><p><strong>特效：</strong>手势、咒文、药水。</p><hr><p><em>放大</em>每消耗2奇术点，就能使对象的体型+1。体型每+1，力量就会上升一级，坚韧+1(更多<strong>体型</strong>相关内容见138页)。无论尺寸如何变化，这都不会增加可承受损伤的数量。</p><p><em>缩小</em>每消耗2奇术点，就能使对象体型缩小一级，下限为-2体型(约和猫差不多)。体型每缩小一级，力量就会下降一级(下限为d4)，坚韧-1(下限为2)。</p><p>对于非自愿目标，施术者用奥法技能投骰对抗目标的心魂。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li class=\"star-icon\"><span class=\"list-heading\">延长(+2)：</span>这个奇术的持续时间从按轮计算变成按分钟计算。</li><li class=\"star-icon\"><span class=\"list-heading\">强力(+2)：</span><em>缩小</em>的目标变小时仍能保有其正常的力量与坚韧。</li></ul></div>",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "手势、咒文、药水。"
+        },
+        "Havoc": {
+            "name": "劫动",
+            "description": "<div class=\"swpf-core\"><h3 id=\"havoc\">劫动 HAVOC</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>塑能系</p>\n<p><strong>特效：</strong>旋风、混沌乱流、斥力领域。</p>\n<hr/>\n<p>这个能力可制造出影响效果区域内所有存在的混沌和乱流，将杂物和对手甩向各个方向。</p>\n<p>若成功，施术者在射程中放置一个中型爆发盖板，或以自己为起点放置一个锥形盖板(见190页<strong>范围效果攻击</strong>)。</p>\n<p>任何被盖板接触的单位都会分神，<em>紧接着</em>必须进行一次力量投骰(若施术者获得优良则还要-2)。失败者会被甩飞2d6英寸——使用锥形盖板则是直线远离施术者，使用爆发盖板则是直线远离圆心(处于正中间的对象由施术者选择方向)。</p>\n<p>撞到坚硬物件(比如墙体)上的对象受到2d4伤害(非致命，除非墙上有尖刺或是其他更要命的危险)。</p>\n<p><strong>腾空目标：</strong>因为飞行或腾空的目标没有来自地面的支撑，其力量投骰额外-2。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+1)：</span><em>劫动</em>影响范围变成大型爆发盖板。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等劫动(+2)：</span>目标被击退至合计3d6英寸远，若撞到坚硬物件上则会受到2d6伤害。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "旋风、混沌乱流、斥力领域。"
+        },
+        "Healing": {
+            "name": "治疗",
+            "description": "<div class=\"swpf-core\"><h3 id=\"healing\">治疗 HEALING</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>接触</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>疗愈之触，以圣徽触碰对象，祷告。</p>\n<hr/>\n<p><em>治疗</em>可以移除一小时内受到的损伤。成功移除1个损伤，优良可移除2个。只要施术者奇术点足够，则可以多次施放该奇术来移除多个不超过一小时的损伤。</p>\n<p>对于龙套而言，GM首先要决定这名盟友是否还活着(见96页的<strong>余波</strong>)。若是，则成功的奥法技能投骰能让其恢复行动(若有必要计较，其仍会处于动摇)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">高等治疗(+10)：</span><em>高等治疗</em>可以修复任何损伤(超过一小时也可以)。</li>\n<li><span class=\"list-heading\">疗伤除患(+15)：</span>该奇术可以治疗一项永久性残障创伤(见95页的<strong>无力化</strong>)。这需要一小时准备，并且每个创伤只能施术一次。若失败，施术者不能再<em>治疗</em>该创伤(但其他人可以尝试)。若成功，对象会力竭24小时。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">群体治疗(+2/+3)：</span>+2奇术点则<em>治疗</em>能影响以施术者为中心的中型爆发盖板内所有盟友(+3奇术点则会变成大型爆发盖板)。</li>\n<li><span class=\"list-heading\">祛除毒素或疾病(+1)：</span>成功进行<em>治疗</em>投骰能解除任何毒素或疾病。若毒素疾病有相关的加值或减值，该调整值同样会应用奥法技能投骰上。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "接触",
+            "rank": "入门",
+            "trapping": "疗愈之触，以圣徽触碰对象，祷告。"
+        },
+        "Illusion": {
+            "name": "幻象",
+            "description": "<div class=\"swpf-core\"><h3 id=\"illusion\">幻象 ILLUSION</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>幻术系</p>\n<p><strong>特效：</strong>魔法咒术，全息图，“灵态具现”。</p>\n<hr/>\n<p>最强的奇术之一就是无中生有——哪怕这并非真实！</p>\n<p><em>幻象</em>可以创造出任何施术者能想象出的可视复制品或是场景，但它无声无形，也无法对现实世界产生影响。举例而言，幻象武器会穿过敌人，幻象长椅无法坐人，幻象狗也吠不出声。</p>\n<p>和<em>幻象</em>接触或怀疑其真实性的对象能以一个自由行动进行一次聪慧投骰(若奇术启动时获得优良则还要-2)。若成功，其将不再受这次施术影响。</p>\n<p>对于多个龙套而言，GM需要进行团体投骰，因为他们会互相指出<em>幻象</em>的矛盾点。</p>\n<p><em>幻象</em>整体必须处于一个中型爆发盖板的球形范围内(直径4英寸或8码)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+1)：</span>这个幻象的效果范围上升至大型爆发盖板。</li>\n<li><span class=\"list-heading\">致死幻象(+3)：</span>这个幻象可以进行攻击或以其他形式造成损害。施术者能使用行动让幻象“攻击”某一单位，这是一次施术者奥法技能VS目标聪慧(若奇术启动获得优良则还要-2)的对抗投骰。若施术者胜出，则目标遭受动摇(这不会导致无力化)；若获得优良，则目标遭受一个损伤(这会导致无力化)。施术者能以多重行动攻击额外的敌人，其无法使用诸如定点打击或是不羁攻击等其他战技(尽管可能看起来像是这样！)。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">延长(+2)：</span>持续时间以分钟计算。</li>\n<li><span class=\"list-heading\">可动(+1/+2)：</span>+1奇术点则幻象就能以12移速进行移动(以及飞行)，+2奇术点则移速变成24。这是一个限定自由行动。</li>\n<li><span class=\"list-heading\">发声(+1)：</span>该奇术可以产生对应<em>幻象</em>的声音。幻象盟友能说话，幻象乌鸦能鸣叫等等。但这无法掩盖或消除已有的声音。</li>\n<li><span class=\"list-heading\">强劲(+2)：</span>不相信<em>幻象</em>的聪慧投骰-2。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "魔法咒术，全息图，“灵态具现”。",
+            "duration": "5"
+        },
+        "Intangibility": {
+            "name": "无形",
+            "description": "<div class=\"swpf-core\"><h3 id=\"intangibility\">无形 INTANGIBILITY</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>5</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>幽灵形态，暗影之躯，气化变形。</p>\n<hr/>\n<p>成功进行一次奥法技能投骰后，这个奇术的作用对象会变成虚体，在不受物质世界影响的同时也无法影响物质世界，他可以穿越墙体，非魔法武器也会直接穿过他。任何在施术时携带的物品也会一并变成虚体。</p>\n<p>虚体化时，角色可以影响其他虚体存在(包括自身)，而且其仍受超自然攻击影响(包括奇术以及附魔物品)。若启动投骰获得优良，则源自超自然攻击的伤害-4。</p>\n<p>奇术结束时对象变回实体，若此时处于某人或是某物内部，则他会被移至最近的开阔空间当中并陷入震慑。</p>\n<p>若对非自愿目标施放，则对象用心魂进行抵抗。若是遭到影响，则对象在自己接下来的每个回合结束时可通过一个自由行动进行一次心魂投骰来摆脱该效果。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">额外对象(+3)：</span>每额外消耗3奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">延长(+3)：</span>持续时间从按轮计算变成按分钟计算。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "幽灵形态，暗影之躯，气化变形。",
+            "duration": "5"
+        },
+        "Invisibility": {
+            "name": "隐形",
+            "description": "<div class=\"swpf-core\"><h3 id=\"invisibility\">隐形 INVISIBILITY</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>5</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>幻术系</p>\n<p><strong>特效：</strong>粉尘、药水、虹光。</p>\n<hr/>\n<p>若成功，角色及身上的物品都会透明化，仅剩下一片模糊或是朦胧的轮廓，任何针对其进行且需要视觉的行动均要-4(若为优良则是-6)。以察觉投骰侦测这个不可见的存在时也要应用相同减值。</p>\n<p>若这个隐形角色的位置遭到暴露，诸如在水中移动，被泥巴或其他能显现其形体的东西击中，身处户外的雨幕当中等等，则这个减值下降2。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+3)：</span>每额外消耗3奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">延长(+2)：</span>持续时间从按轮计算变成按分钟计算。若角色尝试进行会造成伤害的攻击，或是以非自愿角色为目标施放奇术，则这个效果立刻终结。</li>\n</ul></div>",
+            "duration": "5",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "粉尘、药水、虹光。"
+        },
+        "Light / Darkness": {
+            "name": "光亮/黑暗",
+            "description": "<div class=\"swpf-core\"><h3 id=\"light-darkness\">光亮/黑暗 LIGHT/DARKNESS</h3><p><strong>位阶：</strong>入门</p><p><strong>奇术点：</strong>2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>10分钟</p><p><strong>学派：</strong>塑能系</p><p><strong>特效：</strong>幻术火炬、日光、黑暗、浓雾。</p><hr><p><em>光亮</em>会在大型爆发盖板的范围内形成明亮照明。若获得优良，光可以集束成5英寸(10码)的光束。</p><p><em>黑暗</em>会在大型爆发盖板的范围内抑制照明，使区域变得黑暗，若获得优良则是漆黑一片(见134页<strong>照明</strong>)。</p><p>若<em>光亮</em>和<em>黑暗</em>重叠，两者会生成一片昏暗光照的区域(-2)。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li class=\"star-icon\"><span class=\"list-heading\">范围效果(+2)：</span>仅限<em>光亮</em>，这种光芒的扩展半径等同于施术者的聪慧，而且射程变成聪慧×2。这种光芒属于日光，而且效果如同自然日光。</li><li class=\"star-icon\"><span class=\"list-heading\">真实黑暗(+2)：</span>这种黑暗会阻挡红外感应、微光视觉以及黑暗视觉，这对于<em>侦测奥法</em>之类的魔法视觉没有效果。</li><li><span class=\"list-heading\">可动(+1)：</span>施术者每一轮都能通过一个限定自由行动将盖板以等同于奥法技能骰子类型的移速进行移动，他在最初施术时亦可随意将其附在某一无生命物件上(不能施放在活物身上)。</li></ul></div>",
+            "duration": "10分钟",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "幻术火炬、日光、黑暗、浓雾。"
+        },
+        "Locate": {
+            "name": "定位",
+            "description": "<div class=\"swpf-core\"><h3 id=\"locate\">定位 LOCATE</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>自身</p>\n<p><strong>持续时间：</strong>10分钟</p>\n<p><strong>学派：</strong>预言系</p>\n<p><strong>特效：</strong>漂浮在地图上的水晶、云中信息、光束。</p>\n<hr/>\n<p>有时候某些东西就是无法凭借普通手段予以寻觅，<em>定位</em>则让施术者得以找出这些隐藏的事物。</p>\n<p>施术者在使用此奇术时，其须选择某一物件、生物或地点。若施术者从未见过这个目标，则投骰-2。成功能获知目标的大致方向以及距离，获得优良则还能得出目标的大致印象(譬如，生物正在沉睡，物件位于保险箱当中，密门位于书架之后)。</p>\n<p><strong>流动水体：</strong>位于格拉里昂时，如果施术者与目标之间的路径上存在流动水体，则<em>定位</em>会遭到阻挡。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">寻路(+1)：</span>除了得知某人、某地或某物的方向和距离以外，施术者还能超自然地感觉到前往目标所在大致区域的最佳或最快路径。</li>\n</ul></div>",
+            "duration": "10分钟",
+            "range": "自身",
+            "rank": "入门",
+            "trapping": "漂浮在地图上的水晶、云中信息、光束。"
+        },
+        "Mind Link": {
+            "name": "心灵链接",
+            "description": "<div class=\"swpf-core\"><h3 id=\"mind-link\">心灵链接 MIND LINK</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>30分钟</p>\n<p><strong>学派：</strong>预言系</p>\n<p><strong>特效：</strong>头饰、神符。</p>\n<hr/>\n<p><em>心灵链接</em>可在两个单位之间生成心灵感应联系(施术者不一定要包括在内)，其只会传递自愿的沟通和内容——无意传递的想法不在此列。</p>\n<p>启动后，所有心灵之间的链接射程为1英里，若获得优良则是5英里。</p>\n<p>若任一链接角色遭受了损伤，所有其他链接对象都必须成功通过一次聪慧投骰，否则就会遭受动摇(这不会造成损伤)。</p>\n<p>沟通的速度等同于正常交谈，但若获得优良，则对象可在单个战斗回合内交流至多30秒的口头内容。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个单位。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">广播(+2)：</span>施术者能向所有位于聪慧×4(优良则是聪慧×8)半径内的知性心智广播一段心灵感应信息。施术者只能广播，无法收到回复。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">长途链接(+3)：</span>施术者能无视距离链接位于同一实存位面内任何自己熟悉的心灵。</li>\n</ul></div>",
+            "duration": "30分钟",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "头饰、神符。"
+        },
+        "Mind Reading": {
+            "name": "读心",
+            "description": "<div class=\"swpf-core\"><h3 id=\"mind-reading\">读心 MIND READING</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>预言系</p>\n<p><strong>特效：</strong>灵能入侵，灵魂视觉。</p>\n<hr/>\n<p><em>读心</em>需要和目标的聪慧进行对抗投骰，成功则角色就能自对象处获得一条可信的答案。除非读心者获得优良，否则目标会意识到这次心灵入侵。GM可以就对象的心智负赘或是当前的心灵状态而给予调整值。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">心灵漫步(+2)：</span>施术者能深入目标的心智和记忆当中，挖掘出一整个场景或是连串的关联记忆(GM判定)。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "灵能入侵，灵魂视觉。"
+        },
+        "Mind Wipe": {
+            "name": "心智抹除",
+            "description": "<div class=\"swpf-core\"><h3 id=\"mind-wipe\">心智抹除 MIND WIPE</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>惑控系</p>\n<p><strong>特效：</strong>毒性饮品、寄生虫，触摸目标太阳穴。</p>\n<hr/>\n<p><em>心智抹除</em>能移除目标的记忆，这在大多数文明社会里都是非常可怕的侵害行为。该奇术须与对象的聪慧进行对抗，且需要完整一分钟来进行心灵交锋。对象在时限内必须保有意识，因此除非是遭到了拘束，否则其可以直接离开射程。</p>\n<p>若成功，对象会遗忘某一事件(至多30分钟)，获得优良则能移除长达数小时的复杂记忆。</p>\n<p>若防守方获胜，这名施术者24小时内无法再以<em>心智抹除</em>对其产生影响(但是其他人可以重复尝试该奇术)。</p>\n<p>记忆会一直失落，但当出现能证明“逻辑”有误的确凿证据时，对象能进行一次-2的聪慧投骰来回忆起GM指定的记忆碎片。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">修改(+1)：</span>施术者不再抹除记忆，而是随意对其进行修改。</li>\n<li><span class=\"list-heading\">快速施放(+2)：</span>施术者可以用一个行动来抹除记忆。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等心智抹除(+2)：</span>这个效果能将某一事件、人物、地点或是之类的事物彻底从对象的记忆中抹除。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "毒性饮品、寄生虫，触摸目标太阳穴。"
+        },
+        "Object Reading": {
+            "name": "读物",
+            "description": "<div class=\"swpf-core\"><h3 id=\"object-reading\">读物 OBJECT READING</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>接触</p>\n<p><strong>持续时间：</strong>特殊</p>\n<p><strong>学派：</strong>预言系</p>\n<p><strong>特效：</strong>触碰物件，双手发光。</p>\n<hr/>\n<p><em>读物</em>能查看某一物件的过去的景象。成功施术就能使角色获得自此物件创造之后所寻找信息的模糊印象；获得优良能得到更为具体的信息。</p>\n<p>举例而言，若是施术者对一把染血的刀使用<em>读物</em>来寻找凶手，成功其就能得知当时的持用者是一名人类，行凶时间是晚上。若获得优良，就能一窥凶手的脸庞，或是其他能揭示其身份的线索。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">投映(+2)：</span>施术者可以将景象播放出来，将其投映到小房间尺寸的空间内，在场的任何对象在能看见并听见对应事件之余还可以从各个角度检视投映。</li>\n</ul></div>",
+            "duration": "特殊",
+            "range": "接触",
+            "rank": "行家",
+            "trapping": "触碰物件，双手发光。"
+        },
+        "Planar Binding": {
+            "name": "异界誓缚",
+            "description": "<div class=\"swpf-core\"><h3 id=\"planar-binding\">异界誓缚 PLANAR BINDING</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>8</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>召唤法阵、附魔铁棺材、魔法锁链。</p>\n<hr/>\n<p>施术者会从其他位面当中召唤出某一生物，并将其困在某种牢笼当中(诸如誓缚法阵)。在奇术启动前需要通过粉笔、盐、符文、结界或是其他材料创造牢笼，准备需要花费十分钟。</p>\n<p>一旦牢笼准备就绪，施术者则能选择某一异界生物进行召唤，其必须通过某种方式对这一生物有所了解，也许是先前有所遭遇，也许是从书籍或卷轴当中获知，或是通过一次GM决定调整值的神秘学投骰。若是施术者知道确切的名字，则其可以召唤某一特定个体。</p>\n<p>施术是一次施术者奥法技能与该实体心魂之间的对抗投骰。若是法术失败，则该实体会知晓是谁在尝试誓缚自己。若是施术者投骰大失败，则该生物可能会现身于世(若其选择如此)，而且无拘无束——它可能会尽其所能为所欲为。</p>\n<p>若是施术者胜出，则该生物会被召唤到牢笼当中并被魔法困在那里，直到其同意为施术者提供某种服务或是得以挣脱为止(见下)。用于誓缚这个目标的奇术点会投入其中，并且直到这个生物挣脱或是完成任务前都不再可用。</p>\n<p><strong>讨价还价：</strong>施术者召唤出生物并命令对方提供某种“服务”，诸如参加某场困难的战斗，成为保镖，或是某种困难或让人不快的任务。谈判通常能通过角色扮演予以处理(也许还会带有一次交涉或是威吓投骰)。</p>\n<p>狡诈的生物会要求更多奖励，邪恶的生物可能会要求留出时间漫步大地以带来浩劫，献祭或是其他与所需服务对应的“魔鬼价码”。善良或是高贵的生物可能会无条件帮助召唤者(如果原因合乎正义)，或是会要求为自己的追随者或势力范围进行某种任务。个体绝不答应不可能或者不合理的要求。</p>\n<p>一旦生物同意了这些条款，它就必须尽其所能地予以执行。施术者不需要兑现自己许下的承诺——但若是过于频繁地欺骗或是召唤同类生物，则这些存在可能会寻求报复。施术者必须对此提高警惕，若这些存在有办法返回主物质位面时则尤为如此！</p>\n<p><strong>挣脱：</strong>若是24小时后没有达成协议，则施术者必须再进行一次自身奥法技能VS该生物心魂的对抗投骰以此更新魔法誓缚。这每24小时就要继续进行一次，直到达成协议或是该生物挣脱为止。这个存在不能使用其他任何奇术或是能力进行逃脱。</p>\n<hr/></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "召唤法阵、附魔铁棺材、魔法锁链。"
+        },
+        "Plane Shift": {
+            "name": "异界传送",
+            "description": "<div class=\"swpf-core\"><h3 id=\"plane-shift\">异界传送 PLANE SHIFT</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>4</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>空中的宇宙孔洞、符文魔法阵。</p>\n<hr/>\n<p><em>异界传送</em>能让施术者直接前去另一个实存位面(见163页)。若是要<em>异界传送</em>到某一已知地点，成功意味着目标会出现在与预期地点相距10d10英里的位置，获得优良则相隔的距离减半。</p>\n<p>若施术者不清楚具体打算前去的地方，则其可以调查处于这个位面当中的地点，以便将某一特定城市或地理位置之类的作为目标。失败意味着会到达此位面内某个完全随机的地方，成功会让对象大概到达附近，优良则能让其更为接近想去的地方。这并不算在奥法技能投骰的精准程度之内。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">异次元空间(+1)：</span>对象不再前去某一已知位面，而是到达某个口袋次元当中，其在这里变化出了魔法庇护所或是类似构筑，里面有至多5人份的基本必需品、食物和饮水。这个构筑会在之后得以保留，因此魔法师及其同伴能随意回到此处，或是前往新的空间。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">传送敌方(+2)：</span>施术者能将某一非自愿目标送往其他位面或是异次元空间。这个生物抵抗施术时进行一次心魂投骰。若是失败，则其会按照施术者的选择传送到另一位面，三轮(优良则是五轮)之后才会回归，如果空间遭到占据则会出现在尽可能靠近的地方。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "空中的宇宙孔洞、符文魔法阵。"
+        },
+        "Protection": {
+            "name": "防护",
+            "description": "<div class=\"swpf-core\"><h3 id=\"protection\">防护 PROTECTION</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>防护系</p>\n<p><strong>特效：</strong>魔法光晕、树皮肌肤、法师护甲、灵态护甲。</p>\n<hr/>\n<p><em>防护</em>能在某一角色周边生成能量场或护甲，让其获得2点护甲，获得优良则这些加值会转而应用在坚韧上(因此免疫穿甲调整)。</p>\n<p><em>防护</em>是否可见取决于其特效——这完全由施术者决定。</p>\n<p><em>防护</em>可以和其他护甲叠加(天生类和穿戴类皆是如此)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "魔法光晕、树皮肌肤、法师护甲、灵态护甲。",
+            "duration": "5"
+        },
+        "Puppet": {
+            "name": "傀儡",
+            "description": "<div class=\"swpf-core\"><h3 id=\"puppet\">傀儡 PUPPET</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>惑控系</p>\n<p><strong>特效：</strong>双眼发光，类恍惚状态，摆晃怀表，巫毒娃娃。</p>\n<hr/>\n<p><em>傀儡</em>需要进行一次施术者的奥法技能VS目标心魂的对抗投骰。若成功，对象会自动遵从不会直接伤害自身或所关心事物的命令，无动于衷也包括在内。因此受到控制的角色若是知道自己的朋友身处险境，他可不会就这么袖手旁观或是离开区域。</p>\n<p>若为优良，那这个目标就会伤害自身或是他人(包括无动于衷)，但能以一个自由行动进行一次心魂投骰，若为成功就不会执行这一特定命令，但仍然身为傀儡。若为优良，他就能挣脱控制，奇术终止。</p>\n<p>命令必须大体合理(诸如“攻击那个人”或“打开大门”)，操控者不能直接指定对象一回合内要进行几个行动，也不能指定是否使用横扫专长等等。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+2)：</span>每额外消耗2奇术点，该奇术可以多影响1名对象。</li>\n<li><span class=\"list-heading\">强劲(+2)：</span>用以抵抗命令而进行的心魂投骰-2。若施术者同时对目标使用了<em>心灵链接</em>，则会上升到能在任意距离予以控制，即使位于视线之外也是如此。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "双眼发光，类恍惚状态，摆晃怀表，巫毒娃娃。",
+            "duration": "5"
+        },
+        "Relief": {
+            "name": "缓和",
+            "description": "<div class=\"swpf-core\"><h3 id=\"relief\">缓和 RELIEF</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间/1小时</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>祈祷，双手发光，发光魔法漩涡，凉爽清风。</p>\n<hr/>\n<p><em>缓和</em>能让施术者回复某一负面状态或是疲乏效果。</p>\n<p><strong>恢复：</strong>施术者移除以下负面状态之一：动摇、分神或脆弱。奥法技能投骰获得优良则能移除两个状态。若影响的目标超过一个(额外对象调整)，则施术者可以就每名盟友选择移除何种状态。</p>\n<p>除非效果来源得到移除，否则<em>缓和</em>无法移除持续性效果造成的负面状态(束缚、纠缠、震慑等等)。</p>\n<p><strong>麻木：</strong>成功可将对象因损伤和疲乏造成的总减值降低 1，优良则是降低 2。举例而言，成功可将带有三个损伤(-3)的力竭(-2)角色其总共-5的减值降至-4，优良则是-3。</p>\n<p>这个效果持续一小时，但实际上没有移除损伤或是疲乏，只是让对象忽略对应减值。若目标因损伤或疲乏而陷入无力化，则其如常处于无力化。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li><span class=\"list-heading\">复原(+3)：</span>成功则施术者可就能量流失效果复原一级骰子类型，优良则是两级，见240页的<strong>能量流失</strong>。</li>\n<li><span class=\"list-heading\">震慑(+1)：</span>若使用恢复选项，则施术者还能影响震慑状态，这会完全移除遭到震慑的效果。</li>\n</ul></div>",
+            "duration": "瞬间/1小时",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "祈祷，双手发光，发光魔法漩涡，凉爽清风。"
+        },
+        "Resurrection": {
+            "name": "复生",
+            "description": "<div class=\"swpf-core\"><h3 id=\"resurrection\">复生 RESURRECTION</h3>\n<p><strong>位阶：</strong>英杰</p>\n<p><strong>奇术点：</strong>20</p>\n<p><strong>射程：</strong>接触</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>复杂仪式，魔法护符，神力干涉。</p>\n<hr/>\n<p>最强的奇术可能莫过于将某人自死亡中带回，这能复活痛失的爱人，慰藉悲痛，也能颠覆国度。</p>\n<p>死者苏生需要死亡时间一年以内且较为完好的尸体。施术者进行祈祷、冥想、颂唱或以其他方式全神贯注地修复身体并将灵魂拉回其中，这需要四个小时。</p>\n<p>完成后，治疗者进行一次-4的施术投骰。若成功，受害者复活，其带有三个损伤并陷入力竭。若为优良，其复活时只会陷入力竭。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">高等复生(+10)：</span>生死之间的界限不再是问题，不管目标已经死亡多久，无论有没有尸体，施术者都能将死者复活。用这种方式来复生死者需要进行12个小时的仪式，而且施术者之后会陷入力竭。</li>\n<li><span class=\"list-heading\">强力(+5)：</span>+5奇术点，则角色可以复活某一死亡不超过10年的生灵。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "接触",
+            "rank": "英杰",
+            "trapping": "复杂仪式，魔法护符，神力干涉。"
+        },
+        "Sanctuary": {
+            "name": "庇护",
+            "description": "<div class=\"swpf-core\"><h3 id=\"sanctuary\">庇护 SANCTUARY</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>接触</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>惑控系</p>\n<p><strong>特效：</strong>咒文，圣徽，发光。</p>\n<hr/>\n<p>任何尝试以伤害性攻击针对或影响对象的邪恶生物必须进行一次心魂投骰(若施术获得优良则还要-2)。若这次投骰失败，则该生物会失去这个行动。</p>\n<p>若任何处于<em>庇护</em>效果下的对象尝试伤害其他生物(无论邪恶与否)，其都会立刻失去<em>庇护</em>的好处。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+2/+3)：</span>+2奇术点则此奇术能影响以对象为中心的中型爆发盖板内所有盟友，+3奇术点则效果范围上升到大型爆发盖板。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">强劲(+1)：</span>这个生物进行的心魂投骰-2(优良则是-4)。</li>\n</ul></div>",
+            "range": "接触",
+            "rank": "入门",
+            "trapping": "咒文，圣徽，发光。",
+            "duration": "5"
+        },
+        "Scrying": {
+            "name": "探知",
+            "description": "<div class=\"swpf-core\"><h3 id=\"scrying\">探知 SCRYING</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>3</p>\n<p><strong>射程：</strong>自身</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>预言系</p>\n<p><strong>特效：</strong>反射性表面上的图像，双目发光，水晶球。</p>\n<hr/>\n<p><em>探知</em>让施术者得以暗中窥探远处某一目标。准备这个法术需要不受打扰的一分钟，期间施术者专注于某一目标物品、生物或是地点，这会让其陷入脆弱，并且无法进行其他行动，若在此期间他遭受动摇或是震慑，则法术失败。</p>\n<p>若施术者自己从未见过目标，则进行的奥法技能投骰-2。<em>探知</em>位于另一实存位面的目标也会带来-2减值。</p>\n<p><em>探知</em>会与对象的心魂进行对抗。若目标胜出，其会意识到自己遭到窥探。若施术者胜出就能看见并听到目标及其周边的区域，但无法改变自己的视角。若获得优良，则其能改变视角，并以24移速跟随此目标。</p>\n<p>通过<em>侦测奥法</em>也许可以看见<em>探知</em>的“眼目”(侦测魔法不行)，同时后者也可以遭到<em>破袪</em>(如果只是怀疑但没有暴露则要-2)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">群体视野(+1)：</span>施术者能在奇术持续时间期间将自己的视野分享给身处射程(等同于聪慧)内的盟友。</li>\n</ul></div>",
+            "range": "自身",
+            "rank": "行家",
+            "trapping": "反射性表面上的图像，双目发光，水晶球。",
+            "duration": "5"
+        },
+        "Shape Change": {
+            "name": "化形",
+            "description": "<div class=\"swpf-core\"><h3 id=\"shape-change\">化形 SHAPE CHANGE</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>特殊</p>\n<p><strong>射程：</strong>自身</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>“变形”，护身符，纹身。</p>\n<hr/>\n<p>这项奇术能让施术者变成以下生物类别形态之一：动物、元素、类人生物、植物。施术者只能变成此类生物的基础形态，不能是其精英或是替换版本（因此可以变巨魔，但不能变巨魔凶徒）。若获得优良，施术者可以让此类生物的力量以及活力骰子类型各自提升一级。</p>\n<p>新形态的体型受限于施术者的位阶：</p>\n<table>\n<colgroup>\n<col/>\n<col/>\n<col/>\n</colgroup>\n<tbody>\n<tr>\n<th class=\"main-heading\" colspan=\"3\">化形</th>\n</tr>\n<tr>\n<th class=\"sub-heading\">费用</th><th class=\"sub-heading\">位阶</th><th class=\"sub-heading\">体型</th>\n</tr>\n<tr>\n<td style=\"text-align: center;\">3</td>\n<td style=\"text-align: center;\">入门</td>\n<td style=\"text-align: center;\">体型-4至-1</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">5</td>\n<td style=\"text-align: center;\">行家</td>\n<td style=\"text-align: center;\">体型0</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">老练</td>\n<td style=\"text-align: center;\">体型1至2</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">11</td>\n<td style=\"text-align: center;\">英杰</td>\n<td style=\"text-align: center;\">体型3至4</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">15</td>\n<td style=\"text-align: center;\">传奇</td>\n<td style=\"text-align: center;\">体型5至10</td>\n</tr>\n</tbody>\n</table>\n<p>持有或穿戴物品都会融入这个新形态当中，并在奇术终止后重新出现。</p>\n<p>变形时，角色保有自己的专长和负赘，还有聪慧、心魂及其关联技能(尽管不一定能在新形态下使用这些技能——由GM判断)。他获得对象的灵巧、力量、活力及关联技能。角色使用装置以及进行交流的能力受限于新形态，若是此形态可行(GM判断)则还能维持奇术，甚至是施放新奇术。新形态下施放奇术会给投骰带来-2减值，施法者位阶和新形态所须位阶(见化形表)之间的差值会对此有所影响。若是施术者位阶高出一级，则减值是-1，若是高出两级或以上则是0。</p>\n<p>生物的天生能力会得以继承，但内生奇术与奥法背景则不在此列。处于赤铜龙形态的角色能飞行和使用吐息武器，但不能使用施法能力。</p>\n<p><strong>损伤效果：</strong>施术者不会从生物的额外承伤数或是损伤减免能力当中获益(强韧、非常强韧、势不可挡以及大型或超大型尺寸生物带来的额外承伤数等等)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">延长(+1)：</span>奇术的持续时间从按轮计算变成按分钟计算。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">变形(+2/+3)：</span>奇术能影响某一自愿目标，+2奇术点的射程为接触，+3则是聪慧(射程调整还能将其延伸到更远)。</li>\n</ul></div>",
+            "range": "自身",
+            "rank": "入门",
+            "trapping": "“变形”，护身符，纹身。",
+            "duration": "5"
+        },
+        "Sloth/Speed": {
+            "name": "滞缓/加速",
+            "description": "<div class=\"swpf-core\"><h3 id=\"sloth-speed\">滞缓/加速 SLOTH/SPEED</h3><p><strong>位阶：</strong>行家</p><p><strong>奇术点：</strong>2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>瞬间(<em>滞缓</em>)；5(<em>加速</em>)</p><p><strong>学派：</strong>变化系</p><p><strong>特效：</strong>时间减缓，动作残影。</p><hr><p><em>滞缓</em>会将目标总移动减半(向上取整)。若获得优良，则会使移动也需要一个行动。目标在自己接下来的所有回合结束时将自动尝试进行一次心魂投骰来摆脱<em>滞缓</em>的效果。</p><p><em>加速</em>会让目标的移动(基本移速以及奔跑)加倍。获得优良则角色还会忽略奔跑的-2减值。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li><span class=\"list-heading\">额外对象(+1)：</span>仅限<em>加速</em>。每额外消耗1奇术点，该奇术可以多影响1个目标。</li><li><span class=\"list-heading\">范围效果(+2/+3)：</span>仅限<em>滞缓</em>。+2奇术点能影响中型爆发盖板内所有单位，+3奇术点则效果范围上升到大型爆发盖板。</li><li><span class=\"list-heading\">冲刺(+2)：</span>仅限<em>加速</em>。对象无须投奔跑骰，自动取最大结果。</li><li><span class=\"list-heading\">迅疾(+2)：</span>仅限<em>加速</em>。角色每回合的总多重行动减值-2(能无减值进行两个行动，或是各-2进行三个行动)。</li><li><span class=\"list-heading\">强劲(+1)：</span>仅限<em>滞缓</em>。摆脱<em>滞缓</em>效果的心魂投骰-2。</li></ul></div>",
+            "duration": "瞬间(滞缓)；5(加速)",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "时间减缓，动作残影。"
+        },
+        "Slumber": {
+            "name": "沉眠",
+            "description": "<div class=\"swpf-core\"><h3 id=\"slumber\">沉眠 SLUMBER</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>1小时</p>\n<p><strong>学派：</strong>惑控系</p>\n<p><strong>特效：</strong>摇篮曲，向目标吹出粉末或是沙子。</p>\n<hr/>\n<p>偏好潜入或是避免伤害敌方的角色会青睐这个能让对象睡得深沉而宁静的法术。</p>\n<p>任何受到<em>沉眠</em>影响的单位必须进行一次心魂投骰(如果施术者的奥法技能投骰获得优良则还要-2)。失败者将会在法术的持续时间内陷入睡眠。非常响亮的噪音或是物理唤醒睡眠者的尝试(举例而言，摇晃对象)则会让其得以再进行一次心魂投骰。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+2/+3)：</span>+2奇术点能影响中型爆发盖板内所有单位，+3奇术点则效果范围上升到大型爆发盖板。</li>\n</ul></div>",
+            "duration": "1小时",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "摇篮曲，向目标吹出粉末或是沙子。"
+        },
+        "Smite": {
+            "name": "痛击",
+            "description": "<div class=\"swpf-core\"><h3 id=\"smite\">痛击 SMITE</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>炽烈的颜色，符文，纹章，噼啪的能量，刀剑上长出倒刺。</p>\n<hr/>\n<p>该奇术要施放在某种武器上。如果是远程武器，则其会影响整个弹匣、20发弩矢/子弹/箭，或是满整一“份”弹药(若是不常见的武器则由GM来决定确切数量)。当该奇术生效时，武器的伤害+2，获得优良则是+4。</p>\n<p><strong>限制：</strong>将<em>痛击</em>与<strong>己身限制</strong>(见168页)结合时，“自身”就是对应的武器。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等痛击(+2)：</span>武器的伤害提升到+4(获得优良则是+6)，同时视作重武器。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "炽烈的颜色，符文，纹章，噼啪的能量，刀剑上长出倒刺。",
+            "duration": "5"
+        },
+        "Sound/Silence": {
+            "name": "发声/沉默",
+            "description": "<div class=\"swpf-core\"><h3 id=\"sound-silence\">发声/沉默 SOUND/SILENCE</h3><p><strong>位阶：</strong>入门</p><p><strong>奇术点：</strong>1</p><p><strong>射程：</strong>聪慧x5(<em>发声</em>)；聪慧(<em>沉默</em>)</p><p><strong>持续时间：</strong>瞬间(<em>发声</em>)；5(<em>沉默</em>)</p><p><strong>学派：</strong>幻术系</p><p><strong>特效：</strong>魔法效果，空中的短促波纹，开始或停止鸣响的铃铛或编钟。</p><hr><p><em>发声</em>会模仿任何已知的声音或人声，并让其自射程内的某个点发出，音量最高可达大声呼喊的程度。如果用于考验，防守方则必须以聪慧对抗施术投骰。</p><p><em>沉默</em>则相反，其能在大型爆发盖板内压制音量最高等同于大喊的所有声音。这会让所有效果范围内的察觉投骰-4，尝试听到范围内的声音也是如此。优良则会彻底压制盖板内的所有声音(注意，施放法术时通常需要发声)。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li class=\"star-icon\"><span class=\"list-heading\">高等发声/沉默(+1)：</span>用于抵抗考验(或是目标调整)的聪慧投骰-2。</li><li><span class=\"list-heading\">可动(+1)：</span>施术者每一轮可以将效果范围移动至多等同于奥法技能骰子类型数的距离。 </li><li><span class=\"list-heading\">目标(+0)：</span>施术者不再是在效果范围内施放<em>沉默</em>，而是变成每消耗1奇术点就能影响射程内的一个目标，非自愿目标以心魂进行抵抗(若施术者获得优良则还要-2)。</li></ul></div>",
+            "duration": "瞬间(发声)；5(沉默)",
+            "range": "聪慧x5(<em>发声</em>)；聪慧(<em>沉默</em>)",
+            "rank": "入门",
+            "trapping": "魔法效果，空中的短促波纹，开始或停止鸣响的铃铛或编钟。"
+        },
+        "Speak Language": {
+            "name": "通晓语言",
+            "description": "<div class=\"swpf-core\"><h3 id=\"speak-language\">通晓语言 SPEAK LANGUAGE</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>1</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>10分钟</p>\n<p><strong>学派：</strong>预言系</p>\n<p><strong>特效：</strong>文字、图像、手势。</p>\n<hr/>\n<p>该奇术能让角色说、读、写自己不会的另一门知性物种语言。若奥法技能投骰获得优良则对象能恰当地使用并理解其中的方言和俚语。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等通晓语言(+2)：</span>对象能同时说、读、写所有知性物种的语言。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">相互理解(+5)：</span>对象能让距离自己聪慧×2以内的角色无视语言互相沟通。</li>\n</ul></div>",
+            "duration": "10分钟",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "文字、图像、手势。"
+        },
+        "Stun": {
+            "name": "震慑",
+            "description": "<div class=\"swpf-core\"><h3 id=\"stun\">震慑 STUN</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>塑能系</p>\n<p><strong>特效：</strong>能量矢，震撼炸弹，音爆，爆发出目眩强光。</p>\n<hr/>\n<p><em>震慑</em>会以冲击性的力量、声音、光芒、魔法能量等等来震撼某一目标。</p>\n<p>施术成功意味着对象必须成功通过一次活力投骰(若奥法技能投骰获得优良则还要-2)，否则会陷入<strong>震慑</strong>(见138页)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">范围效果(+2/+3)：</span>+2奇术点能影响中型爆发盖板内所有单位，+3奇术点则效果范围上升到大型爆发盖板。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "能量矢，震撼炸弹，音爆，爆发出目眩强光。"
+        },
+        "Summon Ally": {
+            "name": "召唤盟友",
+            "description": "<div class=\"swpf-core\"><h3 id=\"summon-ally\">召唤盟友 SUMMON ALLY</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>特殊</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>成长为仆从的黏土像，活化过来的刺青。</p>\n<hr/>\n<p>角色能以该奇术凭空召唤出一名魔法仆从。该盟友通常呈现为对应体型的基础类人形态，但可根据施术者的特效而外表各异，其能在射程内的任何地方现身。若是奥法技能投骰获得优良，则其也会获得强韧能力。</p>\n<p>该盟友会在轮到创造者的行动卡时行动，并竭尽全力地服从命令。这名盟友没有人格、创造力或情感，在奇术结束或是陷入无力化时就会化作虚无，不留踪迹。</p>\n<p>能召唤的仆从类型取决于施术者的位阶。若得到GM的允许，玩家也可以替换其能力。举例而言，如果英雄希望要一头外形为狼的扈从，则施术者能将其射击技能替换成生存，以让这只“动物”能追踪敌人。</p>\n<table>\n<colgroup>\n<col/>\n<col/>\n<col/>\n</colgroup>\n<tbody>\n<tr>\n<th class=\"main-heading\" colspan=\"3\">召唤盟友</th>\n</tr>\n<tr>\n<th class=\"sub-heading\">位阶</th><th class=\"sub-heading\">费用</th><th class=\"sub-heading\">仆从</th>\n</tr>\n<tr>\n<td style=\"text-align: center;\">入门</td>\n<td style=\"text-align: center;\">2</td>\n<td style=\"text-align: center;\">扈从</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">行家</td>\n<td style=\"text-align: center;\">4</td>\n<td style=\"text-align: center;\">保镖</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">老练</td>\n<td style=\"text-align: center;\">6</td>\n<td style=\"text-align: center;\">镜像自我*</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">英杰</td>\n<td style=\"text-align: center;\">8</td>\n<td style=\"text-align: center;\">禁卫</td>\n</tr>\n</tbody>\n</table>\n<p><em>*位阶每超过老练一级，镜像自我的费用+2，上限为传奇的10奇术点。</em></p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">额外盟友(可变)：</span>能以原来召唤费用的一半同时召唤相同类别的额外盟友(调整算入总费用之内，向上取整)。</li>\n<li><span class=\"list-heading\">噬咬/爪抓(+1)：</span>该盟友能进行伤害为力量+d6的噬咬或爪抓。</li>\n<li><span class=\"list-heading\">战斗专长(+1)：</span>这名盟友具备某一战斗专长(必须如常满足需求)，这项调整最多可就每名盟友选取三次。</li>\n<li><span class=\"list-heading\">飞行(+2)：</span>该盟友能以12的移速飞行。</li>\n<li><span class=\"list-heading\">提升特性(+1)：</span>施术者能使用1奇术点让某一特性骰子类型提高一级，其能随意提升任意数量的特性，但每项特性仅限一次。</li>\n<li><span class=\"list-heading\">心灵驾驭(+1)：</span>施术者能通过该盟友进行沟通和感知。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "成长为仆从的黏土像，活化过来的刺青。",
+            "duration": "5"
+        },
+        "Telekinesis": {
+            "name": "念动",
+            "description": "<div class=\"swpf-core\"><h3 id=\"telekinesis\">念动 TELEKINESIS</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>5</p>\n<p><strong>射程：</strong>聪慧×2</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>挥手，魔杖，紧盯不放。</p>\n<hr/>\n<p><em>念动</em>是以奥法意念移动物件或生物(包括自己)的能力。其有d10的力量，若获得优良则是d12。</p>\n<p>非自愿对手在被作为目标以及之后接下来的所有回合开始时可进行一次针对施术者奥法技能的心魂对抗投骰予以抵抗，直至得到释放为止。施术者每回合最多能将其往任意方向移动等同于自身聪慧的距离，并且能把对象甩到墙壁，天花板或是其他障碍物上(伤害为力量+d6)。</p>\n<p>掉落生物如常受到坠落伤害。</p>\n<p><strong>念动工具：</strong>施术者能使用一个行动以<em>念动</em>持用工具(包括武器)。以这种方式进行攻击时，使用的是施术者的相关技能(而不是奥法技能)。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li class=\"star-icon\"><span class=\"list-heading\">强力(+3)：</span><em>念动</em>的力量变成d12，获得优良则是d12+2。摔撞对象会造成力量+d6 伤害。重达1000磅或以上的物件能视为重武器。</li>\n</ul></div>",
+            "range": "聪慧×2",
+            "rank": "行家",
+            "trapping": "挥手，魔杖，紧盯不放。",
+            "duration": "5"
+        },
+        "Teleport": {
+            "name": "传送",
+            "description": "<div class=\"swpf-core\"><h3 id=\"teleport\">传送 TELEPORT</h3>\n<p><strong>位阶：</strong>行家</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>咒法系</p>\n<p><strong>特效：</strong>烟云、\"闪\"现、化身闪电。</p>\n<hr/>\n<p>角色能藉由<em>传送</em>消失，并马上在最远达12英寸(24码)的距离内现身，若获得优良则距离加倍。</p>\n<p>角色在传送离开时不会招致邻接对手的自由攻击(见141页<strong>撤出近战</strong>)。</p>\n<p>若对自愿单位施放<em>传送</em>，则决定会移动到何处的不是目标，而是施术者。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">门户(+5)：</span>施术者不再进行传送，而是开启一扇连接着当前位置与目的地的传送门。生物以及物件在5轮内都能从两侧穿过此门。</li>\n<li class=\"star-icon\"><span class=\"list-heading\">高等传送(+5)：</span>角色能传送到更远的地方。施术者必须就目的地专注至少一轮，不能进行其他行动，这会让其陷入脆弱。若是遭到动摇或是震慑，则法术失败。<ul>\n<li>专注一轮，施术者能传送至多100英里远；专注两轮则能达到1000英里远；专注三轮则能前去格拉里昂上的任何地方。</li>\n<li>若是曾经亲身造访此地，则投骰没有调整值。成功可抵达距离目标2d6×10英尺的位置，优良则会抵达目标所在。</li>\n<li>若只有详实的地图，或是曾经以奇术/装置目睹过此地，则投骰遭受-2。成功可抵达距离目标2d6×100英尺的位置，优良则会抵达目标所在。</li>\n<li>若只有粗略的地图，或是大致知道在地区或世界地图上的位置，则投骰遭受-4。成功可抵达距离目标2d10英里的位置，优良则会抵达2d6×100英尺的位置。</li>\n<li>没有上述信息无法传送。</li>\n<li>大失败会将对象传送到此实存位面上的某一随机位置(GM判定)。</li>\n</ul></li></ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "烟云、\"闪\"现、化身闪电。"
+        },
+        "Time Stop": {
+            "name": "时间停止",
+            "description": "<div class=\"swpf-core\"><h3 id=\"time-stop\">时间停止 TIME STOP</h3>\n<p><strong>位阶：</strong>英杰</p>\n<p><strong>奇术点：</strong>8</p>\n<p><strong>射程：</strong>自身</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>发光沙漏、漂浮冰粒、模糊不清。</p>\n<hr/>\n<p>时间对于大多数人而言都是恒常连续，但对这个施法者却并非如此。这个法术能减缓除施术者以外的所有时间，使其在结束当前回合后立刻获得一个新回合。若获得优良，则其在本回合可以进行的行动从三个变成四个，而且能忽略2点多重行动减值。时间停止每轮只能施放一次。</p>\n<hr/>\n</div>",
+            "duration": "瞬间",
+            "range": "自身",
+            "rank": "英杰",
+            "trapping": "发光沙漏、漂浮冰粒、模糊不清。"
+        },
+        "Wall Walker": {
+            "name": "走壁",
+            "description": "<div class=\"swpf-core\"><h3 id=\"wall-walker\">走壁 WALL WALKER</h3>\n<p><strong>位阶：</strong>入门</p>\n<p><strong>奇术点：</strong>2</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>5</p>\n<p><strong>学派：</strong>变化系</p>\n<p><strong>特效：</strong>蜘蛛般的面容，四肢长出刺手的刚毛。</p>\n<hr/>\n<p><em>走壁</em>让对象能在垂直或是水平的表面上行走。成功可让其以正常移速的一半移动。获得优良则能以完整移速移动，甚至奔跑。</p>\n<p>用于攀爬或悬挂在表面而被迫进行的运动投骰总值+4。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，施术者可以多影响1个单位。</li>\n</ul></div>",
+            "range": "聪慧",
+            "rank": "入门",
+            "trapping": "蜘蛛般的面容，四肢长出刺手的刚毛。",
+            "duration": "5"
+        },
+        "Warrior's Gift": {
+            "name": "天赐勇武",
+            "description": "<div class=\"swpf-core\"><h3 id=\"warrior-s-gift\">天赐勇武 WARRIOR&#39;S GIFT</h3><p><strong>位阶：</strong>行家</p><p><strong>奇术点：</strong>4</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>5</p><p><strong>学派：</strong>咒法系</p><p><strong>特效：</strong>手势，祈祷，低语咒文，专注。</p><hr><p>若奥法技能投骰成功，对象会获得由施术者指定的单一战斗专长的好处。施术者(并非对象)其位阶必须达到或高于专长的需求。若获得优良，则对象将获得该专长精通版本的好处(如有，即使其没有满足位阶需求也是如此)。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li><span class=\"list-heading\">额外对象(+1)：</span>每额外消耗1奇术点，该奇术可以多影响1个目标。</li><li class=\"star-icon\"><span class=\"list-heading\">强力(+4)：</span>对象同时获得两个战斗专长。</li></ul></div>",
+            "range": "聪慧",
+            "rank": "行家",
+            "trapping": "手势，祈祷，低语咒文，专注。"
+        },
+        "Wish": {
+            "name": "祈愿",
+            "description": "<div class=\"swpf-core\"><h3 id=\"wish\">祈愿 WISH</h3>\n<p><strong>位阶：</strong>传奇</p>\n<p><strong>奇术点：</strong>20</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>瞬间</p>\n<p><strong>学派：</strong>通用系</p>\n<p><strong>特效：</strong>瓶中巨灵，互碰鞋跟，符咒，猴爪。</p>\n<hr/>\n<p><em>祈愿</em>让角色得以如愿扭曲现实。然而，改变现实有所代价，施术者必须在施法之后永久牺牲3点自有的奇术点。奥法技能投骰获得优良则能避免此损失。</p>\n<p>施术者每次施术都能许愿以下任一效果，这要在投骰之前进行选择：</p>\n<ul>\n<li><span class=\"list-heading\">启动奇术：</span><em>祈愿</em>能施放其他任何可用奇术(包含调整)，获得优良则是战役内可用的任何奇术。若是此法术遭到对抗，则目标投骰在应用其他任何调整值之前先遭受-2减值。若是启动奇术(连同调整)所需的奇术点多于<em>祈愿</em>的消耗，则施术者必须补上对应差值。</li>\n<li><span class=\"list-heading\">求援：</span>施术者能许愿获得某种帮助，这通常会在一小会后出现。身陷崩塌地牢而许愿逃出生天的团队可能会被一帮矮人矿工救出；许愿得知某一强力恶魔真名的施法者也许次日就会遇上这个生物的叛逃下属。</li>\n<li><span class=\"list-heading\">获得专长：</span>施术者能永久性获得(或赋予)某个专长。对象必须满足专长的需求，并且无法从一次许愿当中获得超过一个专长。</li>\n<li><span class=\"list-heading\">财宝：</span>施法者能许愿获得至多等价于10000gp的东西(从交通工具、补给到魔法物品包罗万有)。这种东西通常只能以其价值的四分之一出售。财宝不会凭空出现，而是会通过某种GM设计的事件落到施术者手上。</li>\n<li><span class=\"list-heading\">回溯过去：</span>施术者能回溯一小段时间：战斗外是一分钟，战斗内则是回到当前轮的开始。除去施术者的奇术点、助力点以及损伤之外，期间发生的任何事情都将回溯。GM应尽其所能地回忆本轮开始时其他成员的状态，但扭曲时间并非完美无缺，所以无须费心于将一切都安排得毫无瑕疵。一旦回溯，则只有施术者会记得事相的另一种结果，同时这一段时间无法再遭到改变。</li>\n<li><span class=\"list-heading\">窥视未来：</span>施术者能窥见较近或是遥远的未来，看见较近的未来能让其获得三枚信念标识，这必须在接下来的五轮内用于施术者或任何当前与其有所关联的对象(心理上、口头上、视线中等等)。在第五轮结束时，任何残留的标识都会遭到舍弃。看见遥远的未来能让施术者向GM就未来提出一个问题，予以的回答必须尽可能准确。但是，施法者的行径可能会改变未来，因此这可能只会是最为可能的走向或是对于未来危险的警示。</li>\n<li><span class=\"list-heading\">提升特性：</span><em>祈愿</em>能让某一特性骰子类型永久性上升一级，这也会让对应特性的上限骰子类型提升一级。对象无法在一次许愿当中让某一特性提升一次以上。</li>\n<li><span class=\"list-heading\">重铸命运：</span>射程内的英雄以及所有不羁角色都能让助力点回复到通常初始上限。</li>\n<li><span class=\"list-heading\">特殊：</span>角色能让自身、他人或是周遭的世界在某个方面发生些许变化(若这次许愿的对象不希望受此影响，则须以-2的心魂投骰进行抵抗)。这应当无法对世界或历史造成长远改变，也不应涵盖在上述任一能力当中，而且这完全交由GM来予以定夺。施术者能改变自身的性别、族裔、语言等等，但这些变化不会改变时间，因此也不会影响到过去。<em>祈愿</em>能改善某人的情绪(若适用，则还包括反应表里面的态度)，但无法对自由意志产生永久影响，这无法让人回心转意或是让其伤害自己。</li>\n</ul></div>",
+            "duration": "瞬间",
+            "range": "聪慧",
+            "rank": "传奇",
+            "trapping": "瓶中巨灵，互碰鞋跟，符咒，猴爪。"
+        },
+        "Zombie": {
+            "name": "行尸",
+            "description": "<div class=\"swpf-core\"><p><aside class=\"sidebar float-right\"><h1 id=\"zombie-creatures\">行尸生物 ZOMBIE CREATURES</h1><p>这种秽恶的能力同样可以唤起动物或其他生物！体型为-1或-2的生物消耗2点，体型为0的消耗3点，小型集群消耗1点，中型集群消耗2点，大型集群消耗3点。</p><p>更大的生物需要消耗3+体型的奇术点。举例而言，唤起不死灰熊(体型2)需要消耗5奇术点。</p><p>不死形态不会继承魔法或超自然特殊能力，但诸如精通连击、触及、集群的攻击等生物内在能力可以继承。</p><p>若是一次性唤起，额外行尸生物的消耗并非额外行尸中列出的+1，而是基本所需奇术点的一半(向上取整，至少为1)。</aside></p><h3 id=\"zombie\">行尸 ZOMBIE</h3>\n<p><strong>位阶：</strong>老练</p>\n<p><strong>奇术点：</strong>3(大型生物见边栏)</p>\n<p><strong>射程：</strong>聪慧</p>\n<p><strong>持续时间：</strong>1小时</p>\n<p><strong>学派：</strong>死灵系</p>\n<p><strong>特效：</strong>在尸体上铭刻符号，投掷骨头，坟场。</p>\n<hr/>\n<p><em>行尸</em>能让曾经活着的生物其尸骸恢复行动并获得基本智能。这些被唤起的恐怖之物虽然忠顺，但只会死板地遵从指令。这并非心灵控制，必须以声音下令。</p>\n<p>这些存在具备生前的身体机能，但聪慧，心魂及相关技能会被重置为d4。若施术投骰上获得优良则可让其任一特性骰子类型上升一级(由施术者选择)。</p>\n<p>人类行尸的标准数据见@Compendium[swpf-core-rules.swpf-actors.Zombie, Human]{此处}。该能力无法召来尸体，因此射程内必须实际具备尸体才行(GM判断)。</p>\n<p>因为伤害而无力化的不死生物无法再次被该奇术唤起。</p>\n<hr/>\n<h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p>\n<ul>\n<li><span class=\"list-heading\">额外行尸(+1)：</span>每额外消耗1奇术点，该奇术可以多唤起一具<em>行尸</em>，因而单次施术能唤起大片尸潮。</li>\n<li><span class=\"list-heading\">武装(每行尸+1)：</span>唤起的死者会装备符合背景和环境的武器。自下选一：<ul>\n<li><span class=\"list-heading\">手持武器：</span>力量+d6。</li>\n<li><span class=\"list-heading\">远程武器：</span>射程12/24/48，伤害2d6。</li>\n</ul></li></ul></div>",
+            "duration": "1小时",
+            "range": "聪慧",
+            "rank": "老练",
+            "trapping": "在尸体上铭刻符号，投掷骨头，坟场。"
+        }
+    }
+}

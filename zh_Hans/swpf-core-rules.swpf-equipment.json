@@ -1,0 +1,2042 @@
+{
+    "label": "装备",
+    "mapping": {
+        "description": "system.description",
+        "notes": "system.notes",
+        "actions": "system.actions",
+        "range": "system.range",
+        "ammo": "system.ammo",
+        "category": "system.category"
+    },
+    "entries": {
+        "Acid flask": {
+            "name": "强酸瓶",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>如同手雷那般投掷，盖板内的对象被命中时受到2d4伤害，除非用某种方式洗掉酸液，否则其在下一轮开始时会受到2d4-2伤害。</p>\n</div>",
+            "notes": "小型爆发盖板"
+        },
+        "Adventurer's Kit": {
+            "name": "冒险者套件",
+            "category": "工具与套件",
+            "description": "<div class=\"swpf-core\">\n<p>背包、铺盖卷、蜡烛、粉笔、额外衣物、燧石与钢片、爪钩、牛眼提灯、小镜子、麻绳、油、铲子、肥皂、火炬x3、水袋、磨刀石、1周份食物。</p>\n</div>"
+        },
+        "Alchemists Fire": {
+            "name": "炽火胶",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>这种可燃的粘稠流体受到冲击就会燃烧，属于重武器。盖板内的对象被命中时受到2d4伤害，除非用水弄湿，否则其在下一轮开始时会受到2d4-2伤害。目标可能会着火(见154页)。</p>\n</div>",
+            "notes": "小型爆发盖板"
+        },
+        "Ale, gallon": {
+            "name": "一加仑麦酒",
+            "category": "食物与饮料"
+        },
+        "Ale, mug": {
+            "name": "一杯麦酒",
+            "category": "食物与饮料"
+        },
+        "Amulet of Natural Armor, Major": {
+            "name": "高级天生防护护符",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这枚通常由骨头或兽鳞打造的护符会使佩戴者的肉体更为坚韧。佩戴者的化解投骰会获得加值，该加值为+1(次级)或+2(高级)。</p><p><strong>价格</strong>：18,000gp(次级)、32,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>强化特性</em>；9,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Amulet of Natural Armor, Minor": {
+            "name": "次级天生防护护符",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这枚通常由骨头或兽鳞打造的护符会使佩戴者的肉体更为坚韧。佩戴者的化解投骰会获得加值，该加值为+1(次级)或+2(高级)。</p><p><strong>价格</strong>：18,000gp(次级)、32,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>强化特性</em>；9,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Amulet of the Planes": {
+            "name": "位面护符",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>任何仔细观察这枚黑色圆形护符的对象都会看见一道转动的深色多彩漩涡。佩戴者每天可以使用这枚护符施放一次高级<em>异界传送</em>，但这个物品难以把控。</p>\n<p>使用者进行一次-2的聪慧投骰来让该护符将自己带至想去的位面(以及此位面中的某一特定地点)。倘若失败，投一枚骰子。若为奇数，则护符将其以及所有与之牵手的对象传送至该位面的某一随机地点。若为偶数，则护符会将其带至某一随机位面(见163页)。\n</p>\n<p><strong>价格</strong>：120,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>异界传送</em>；60,000gp。</p>\n</div>"
+        },
+        "Antitoxin, Vial": {
+            "name": "解毒剂(瓶装)",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>一小时内抵抗毒素获得+4加值。</p>\n</div>"
+        },
+        "Armor Spikes": {
+            "name": "甲刺",
+            "category": "护甲",
+            "description": "<div class=\"swpf-core\"><p>擒抱时紧勒伤害+1。</p></div>"
+        },
+        "Arrows": {
+            "name": "箭",
+            "category": "远程武器弹药",
+            "description": "<div class=\"swpf-core\">\n<p>各种弓都通用的箭</p>\n</div>",
+            "notes": "20支箭"
+        },
+        "Artisan's Tools": {
+            "name": "匠人工具",
+            "category": "工具与套件"
+        },
+        "Artisan's outfit": {
+            "name": "匠人服装",
+            "category": "衣物"
+        },
+        "Assassin's Dagger": {
+            "name": "刺客之匕",
+            "category": "武器",
+            "description": "<div class=\"swpf-core\"><p>持用者在成功攻击某一陷入脆弱或能构成奇袭的对手时，伤害投骰+2。</p><p><strong>价格</strong>：10,302gp；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>黑暗</em>；5,302gp。</p></div>"
+        },
+        "Axe, Battle": {
+            "name": "战斧",
+            "category": "近战武器"
+        },
+        "Axe, Great": {
+            "name": "巨斧",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\"><p>穿甲3，格挡-1，双手</p></div>"
+        },
+        "Axe, Hand": {
+            "name": "手斧",
+            "category": "近战武器"
+        },
+        "Backpack": {
+            "name": "背包",
+            "category": "冒险工具",
+            "description": "<div class=\"swpf-core\"><p>其中物品的生效重量减半。</p></div>",
+            "notes": ""
+        },
+        "Bag of Holding, Major": {
+            "name": "高级次元袋",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这个看起来很普通的布袋大小仅有2×4英尺，但打开时其内部通往一片广阔的无维度空间。无论将什么东西放进袋中，其重量仍然会保持在恒定的数值。此重量以及袋中内容物的重量和体积上限取决于袋子类别，这会展示在下方的表格当中。</p><p>若是超载，次元袋及其所有的内容物都会永久性销毁并丢失。同理，如果袋子破裂，其与所有内容物都会销毁。袋子的拥有者可以感觉到已用容积，由此能在不将袋子及其内容物意外销毁的前提下管理空间。</p><p>将物品放入/取出袋子需要一个行动。放进袋中的生命体在陷入<strong>无力化</strong>(见126页)前能存活10分钟。</p><table><colgroup> <col /> <col /> <col /> <col /> </colgroup><thead><tr><th class=\"sub-heading centered\">袋子</th><th class=\"sub-heading centered\">重量</th><th class=\"sub-heading centered\">重量上限</th><th class=\"sub-heading centered\">容积上限</th></tr></thead><tbody><tr><td class=\"centered\">次级</td><td class=\"centered\">25磅</td><td class=\"centered\">500磅</td><td class=\"centered\">70立方英尺</td></tr><tr><td class=\"centered\">高级</td><td class=\"centered\">50磅</td><td class=\"centered\">1,500磅</td><td class=\"centered\">250立方英尺</td></tr></tbody></table><p><strong>价格</strong>：5,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：特殊。</p><p><strong>制作</strong>：2,500gp(次级)、5,000gp(高级)。</p></div>"
+        },
+        "Bag of Holding, Minor": {
+            "name": "次级次元袋",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这个看起来很普通的布袋大小仅有2×4英尺，但打开时其内部通往一片广阔的无维度空间。无论将什么东西放进袋中，其重量仍然会保持在恒定的数值。此重量以及袋中内容物的重量和体积上限取决于袋子类别，这会展示在下方的表格当中。</p><p>若是超载，次元袋及其所有的内容物都会永久性销毁并丢失。同理，如果袋子破裂，其与所有内容物都会销毁。袋子的拥有者可以感觉到已用容积，由此能在不将袋子及其内容物意外销毁的前提下管理空间。</p><p>将物品放入/取出袋子需要一个行动。放进袋中的生命体在陷入<strong>无力化</strong>(见126页)前能存活10分钟。</p><table><colgroup> <col /> <col /> <col /> <col /> </colgroup><thead><tr><th class=\"sub-heading centered\">袋子</th><th class=\"sub-heading centered\">重量</th><th class=\"sub-heading centered\">重量上限</th><th class=\"sub-heading centered\">容积上限</th></tr></thead><tbody><tr><td class=\"centered\">次级</td><td class=\"centered\">25磅</td><td class=\"centered\">500磅</td><td class=\"centered\">70立方英尺</td></tr><tr><td class=\"centered\">高级</td><td class=\"centered\">50磅</td><td class=\"centered\">1,500磅</td><td class=\"centered\">250立方英尺</td></tr></tbody></table><p><strong>价格</strong>：5,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：特殊。</p><p><strong>制作</strong>：2,500gp(次级)、5,000gp(高级)。</p></div>"
+        },
+        "Bag of Tricks, Grey": {
+            "name": "灰色魔术袋",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这个小布袋看似空空如也，但任何伸手进去的对象都会感觉到一个小毛球。若将其移出并扔出，这个小球就会变成一只服侍使用者的动物，持续10分钟，或直至遭到杀害/<em>破祛</em>为止。</p><table><thead><tr><th class=\"sub-heading centered\">投D6</th><th class=\"sub-heading centered\">灰袋子</th><th class=\"sub-heading centered\">棕袋子</th></tr></thead><tbody><tr><td class=\"centered\">1</td><td class=\"centered\">蝙蝠</td><td class=\"centered\">狗/狼</td></tr><tr><td class=\"centered\">2</td><td class=\"centered\">老鼠</td><td class=\"centered\">马</td></tr><tr><td class=\"centered\">3</td><td class=\"centered\">猛禽</td><td class=\"centered\">大猫</td></tr><tr><td class=\"centered\">4</td><td class=\"centered\">小猫</td><td class=\"centered\">原牛</td></tr><tr><td class=\"centered\">5</td><td class=\"centered\">蟒蛇</td><td class=\"centered\">熊</td></tr><tr><td class=\"centered\">6</td><td class=\"centered\">狗/狼</td><td class=\"centered\">犀牛</td></tr></tbody></table><p>这个袋子每天可使用一次，动物也是随机选择，可用数值参见《生物图鉴》。</p><p><strong>价格</strong>：3,400gp(灰色)、16,000gp(褐色)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>野兽同盟</em>；1,700gp(灰色)、8,000gp(褐色)。</p></div>"
+        },
+        "Bag of Tricks, Tan": {
+            "name": "棕色魔术袋",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这个小布袋看似空空如也，但任何伸手进去的对象都会感觉到一个小毛球。若将其移出并扔出，这个小球就会变成一只服侍使用者的动物，持续10分钟，或直至遭到杀害/<em>破祛</em>为止。</p><table><thead><tr><th class=\"sub-heading centered\">投D6</th><th class=\"sub-heading centered\">灰袋子</th><th class=\"sub-heading centered\">棕袋子</th></tr></thead><tbody><tr><td class=\"centered\">1</td><td class=\"centered\">蝙蝠</td><td class=\"centered\">狗/狼</td></tr><tr><td class=\"centered\">2</td><td class=\"centered\">老鼠</td><td class=\"centered\">马</td></tr><tr><td class=\"centered\">3</td><td class=\"centered\">猛禽</td><td class=\"centered\">大猫</td></tr><tr><td class=\"centered\">4</td><td class=\"centered\">小猫</td><td class=\"centered\">原牛</td></tr><tr><td class=\"centered\">5</td><td class=\"centered\">蟒蛇</td><td class=\"centered\">熊</td></tr><tr><td class=\"centered\">6</td><td class=\"centered\">狗/狼</td><td class=\"centered\">犀牛</td></tr></tbody></table><p>这个袋子每天可使用一次，动物也是随机选择，可用数值参见《生物图鉴》。</p><p><strong>价格</strong>：3,400gp(灰色)、16,000gp(褐色)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>野兽同盟</em>；1,700gp(灰色)、8,000gp(褐色)。</p></div>"
+        },
+        "Ballista": {
+            "name": "弩炮",
+            "category": "攻城武器",
+            "description": "<div class=\"swpf-core\">\n<p>弩炮是设计用于发射巨型弩矢的机械装置，发射这个装置(射击)只需要一个人，装填也只需要一个人，但双人协作会更有效率。</p><p>重武器，单人装填需要5分钟，双人班组则是2分钟。</p>\n</div>",
+            "notes": ""
+        },
+        "Banded Mail of Luck": {
+            "name": "幸运护甲",
+            "category": "护甲与盾牌",
+            "description": "<div class=\"swpf-core\">\n<p>在这件混织铁甲(坚护)的表面嵌着十颗价值100gp的宝石。每遭遇一次，穿着者能强迫某一敌人重投一次针对自身且成功的攻击投骰。穿着者选择保留哪个结果。攻击方仍能从任何额外的重投中获益。</p>\n<p><strong>价格</strong>：18,900gp；<strong>重量</strong>：35磅。</p>\n<p><strong>制作</strong>：善良阵营，9,650gp。</p>\n</div>"
+        },
+        "Banquet (per person)": {
+            "name": "盛宴(每人)",
+            "category": "食物与饮料"
+        },
+        "Bedroll": {
+            "name": "铺盖卷",
+            "category": "冒险工具"
+        },
+        "Belt of Dwarvenkind": {
+            "name": "矮人腰带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这根腰带让穿戴者与矮人打交道时的交涉和威吓+2，与侏儒和半身人是+1，和其他人则是-1。</p>\n<p><strong>价格</strong>：14,900gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：矮人，<em>通晓语言</em>；7,450gp。</p>\n</div>"
+        },
+        "Belt of Physical Might, Major": {
+            "name": "高级体能腰带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这根腰带的金色搭扣呈现为一只凶猛的动物。只要穿戴在身，穿戴者的灵巧、力量或活力骰子类型提升一级(次级)或两级(高级)。这个属性要在制作时予以确定，若是觅得而来则随机投骰决定。</p><p><strong>价格</strong>：16,000gp(次级)或36,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；8,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Belt of Physical Might, Minor": {
+            "name": "次级体能腰带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这根腰带的金色搭扣呈现为一只凶猛的动物。只要穿戴在身，穿戴者的灵巧、力量或活力骰子类型提升一级(次级)或两级(高级)。这个属性要在制作时予以确定，若是觅得而来则随机投骰决定。</p><p><strong>价格</strong>：16,000gp(次级)或36,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；8,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Belt of Physical Perfection, Major": {
+            "name": "高级超凡体能腰带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这根腰带的金色搭扣呈现为一只凶猛的动物。只要穿戴在身，下列属性中的两项骰子类型提升一级(次级)或两级(高级)：灵巧、力量或活力。这些属性要在制作时予以确定，若是觅得而来则随机投骰决定。</p><p><strong>价格</strong>：40,000gp(次级)或90,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；20,000gp(次级)、45,000gp(高级)。</p></div>"
+        },
+        "Belt of Physical Perfection, Minor": {
+            "name": "次级超凡体能腰带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这根腰带的金色搭扣呈现为一只凶猛的动物。只要穿戴在身，下列属性中的两项骰子类型提升一级(次级)或两级(高级)：灵巧、力量或活力。这些属性要在制作时予以确定，若是觅得而来则随机投骰决定。</p><p><strong>价格</strong>：40,000gp(次级)或90,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；20,000gp(次级)、45,000gp(高级)。</p></div>"
+        },
+        "Bit and Bridle": {
+            "name": "嚼子和缰绳",
+            "category": "动物与挽具"
+        },
+        "Blanket": {
+            "name": "毯子",
+            "category": "冒险工具"
+        },
+        "Block and Tackle": {
+            "name": "滑轮组",
+            "category": "冒险工具"
+        },
+        "Blowgun": {
+            "name": "吹箭筒",
+            "category": "远程武器"
+        },
+        "Bolas": {
+            "name": "飞索",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>优良命中的目标陷入<em>纠缠</em>(见130页)，飞索硬度为8。</p>\n</div>",
+            "notes": ""
+        },
+        "Bolts": {
+            "name": "矢",
+            "category": "远程武器弹药",
+            "description": "<div class=\"swpf-core\">\n<p>各种弩都通用的矢，可以+10gp买到一\"匣\"5支的连弩用矢，重1磅</p>\n</div>",
+            "notes": "10支矢"
+        },
+        "Boots of Elvenkind": {
+            "name": "精灵靴",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这双软靴能让穿着者在所有潜行检定上免费获得一次重投。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：精灵，<em>隐形</em>；1,250gp。</p>\n</div>"
+        },
+        "Boots of Levitation": {
+            "name": "浮空靴",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这双软皮靴轻巧舒适到不可思议，薄薄的鞋底有坚韧的皮革带加固，这提供了出乎意料的支撑性和保护作用。予以命令时，其能让穿着者获得次级<em>飞行</em>，但只能上下移动！</p>\n<p><strong>价格</strong>：7,500gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：<em>飞行</em>；3,750gp。</p>\n</div>"
+        },
+        "Boots of Speed": {
+            "name": "加速靴",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>每天三次，穿着者可以通过互碰脚后跟(一个限定自由行动)来获得次级<em>加速</em>(迅疾)的好处。</p>\n<p><strong>价格</strong>：12,000gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：<em>加速</em>；6,000gp。</p>\n</div>"
+        },
+        "Boots of Striding and Springing": {
+            "name": "跑跳靴",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这双靴子会让穿着者的移速提升2，同时运动(跳跃)投骰+2。</p><p><strong>价格</strong>：5,500gp；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>加速</em>；2,750gp。</p></div>"
+        },
+        "Boots, Winged": {
+            "name": "飞翼靴",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>予以命令时，这双看起来平平无奇的靴子后跟部会长出翅膀，赋予穿着者次级<em>飞行</em>奇术，其每天能飞行三次，每次飞行至多五分钟。</p><p><strong>价格</strong>：16,000gp；<strong>重量</strong>：1磅。</p><p>制作：<em>飞行</em>；8,000gp。</p></div>"
+        },
+        "Bottle of Air": {
+            "name": "换气瓶",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这个带软塞的玻璃瓶被带到任何没有空气的环境中时里面仍然会保有空气，任何予以持握的对象都能以一个行动从中呼吸。</p>\n<p><strong>价格</strong>：7,250gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>环境防护</em>；3,625gp。</p>\n</div>"
+        },
+        "Bottle, glass": {
+            "name": "玻璃瓶",
+            "category": "冒险工具"
+        },
+        "Bow (composite)": {
+            "name": "复合弓",
+            "category": "远程武器"
+        },
+        "Bow (long)": {
+            "name": "长弓",
+            "category": "远程武器"
+        },
+        "Bow (short)": {
+            "name": "短弓",
+            "category": "远程武器"
+        },
+        "Bracelet of Friends": {
+            "name": "友伴手镯",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这个银质手镯带着四个符咒，拥有者给每个符咒指定一名自己认识的人员进行绑定。将护符握在手中并念出绑定人员的名字，其就会连同装备一起被召至此处(若是目标在另一位面则会失败)。</p>\n<p>目标会知道是谁在呼唤，友伴手镯只能作用于自愿的对象。一旦符咒予以启动，其就会消失不见。离开手镯的符咒毫无价值。</p>\n<p><strong>价格</strong>：19,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>传送</em>；9,500gp。</p>\n</div>"
+        },
+        "Bracers of Armor, Major": {
+            "name": "高级防御护腕",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些护腕或护臂会将穿着者包裹在隐形的实体力场中，其会给予+2(次级)或+4(高级)护甲加值，这不会和穿戴的护甲叠加(取最高值)。这些护腕可以无视护甲干扰或护甲限制自由使用。</p><p><strong>价格</strong>：16,000gp(次级)、36,000gp(高级)；<strong>重量</strong>：1。</p><p><strong>制作</strong>：<em>防护</em>；8,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Bracers of Armor, Minor": {
+            "name": "次级防御护腕",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些护腕或护臂会将穿着者包裹在隐形的实体力场中，其会给予+2(次级)或+4(高级)护甲加值，这不会和穿戴的护甲叠加(取最高值)。这些护腕可以无视护甲干扰或护甲限制自由使用。</p><p><strong>价格</strong>：16,000gp(次级)、36,000gp(高级)；<strong>重量</strong>：1。</p><p><strong>制作</strong>：<em>防护</em>；8,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Bread, loaf": {
+            "name": "一条面包",
+            "category": "食物与饮料"
+        },
+        "Caltrops": {
+            "name": "铁蒺藜",
+            "category": "冒险工具",
+            "description": "<div class=\"swpf-core\">\n<p>一份铁蒺藜可以覆盖小型爆发盖板，两份为中型，三份为大型。这视作困难地形；任何移动穿过该区域的对象必须成功通过一次运动投骰，否则会遭受动摇。大失败会对脚造成一个损伤(治愈前移速-2)。</p>\n</div>",
+            "notes": ""
+        },
+        "Candle (1 hr, 2\" radius)": {
+            "name": "蜡烛",
+            "category": "冒险工具",
+            "notes": "(1小时，半径2英寸)"
+        },
+        "Candle of Truth": {
+            "name": "诚实蜡烛",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这根白色的脂油蜡烛至多可以燃烧一小时，其在点燃时会在中型爆发范围内创造出一片诚实之域。除非成功通过一次-4的心魂检定，否则其中的所有对象都只能讲真话。若是蜡烛在满一小时前遭到掐灭，则此效果会消失，同时蜡烛也会销毁。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：1/2磅。</p>\n<p><strong>制作</strong>：1,250gp。</p>\n</div>"
+        },
+        "Cannon": {
+            "name": "加农炮",
+            "category": "加农炮",
+            "description": "<div class=\"swpf-core\">\n<p><strong>实心弹</strong>：用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次射击投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p>\n<p><strong>炮轰</strong>：假设大概知道目标所在位置，炮轰能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外承受-4减值，而且如果射击投骰失败则其偏移加倍(见129页范围效果攻击)。若是能获得精确坐标(比如配合侦查员)，则减值降至-2。</p>\n</div>",
+            "notes": "重武器，装填为8，两名炮组成员能同时进行装填。"
+        },
+        "Canvas (sq yd)": {
+            "name": "帆布",
+            "category": "冒险工具",
+            "notes": "1平方码"
+        },
+        "Cape of Montebank": {
+            "name": "骗子披肩",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>每天一次，以一个限定自由行动发出命令，这件鲜艳的红金披肩就能让穿着者使用次级<em>传送，</em>其在消失时会留下一片烟云，同时会以类似方式出现在目的地。</p><p><strong>价格</strong>：10,800gp；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>传送</em>；5,400gp。</p></div>"
+        },
+        "Carpet of Flying, Large": {
+            "name": "大型飞天魔毯",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这张漂亮精致的地毯能够如同在<em>飞行</em>法术影响下一般在空中飞行，持续时间无限。不同魔毯的大小，载重量和速度都列在下方的表格当中。</p><p>每张魔毯都有着各自用于启动的命令词。无论说话对象是否在毯子上，只要装置位于声音范围内，命令词便能将其启动。魔毯随后会受到说话者的指向以及航空技能所控制。</p><table><thead><tr><th class=\"sub-heading centered\">大小</th><th class=\"sub-heading centered\">尺寸</th><th class=\"sub-heading centered\">载重量</th><th class=\"sub-heading centered\">移速</th></tr></thead><tbody><tr><td class=\"centered\">小型</td><td class=\"centered\">5英尺×5英尺</td><td class=\"centered\">200磅</td><td class=\"centered\">移速7</td></tr><tr><td class=\"centered\">大型</td><td class=\"centered\">10英尺×10英尺</td><td class=\"centered\">800磅</td><td class=\"centered\">移速7</td></tr></tbody></table><p><strong>价格</strong>：20,000gp(小型)、60,000gp(大型)；<strong>重量</strong>：8磅(小型)或15磅(大型)。</p><p><strong>制作</strong>：<em>飞行</em>；10,000gp(小型)，30,000gp(大型)。</p></div>"
+        },
+        "Carpet of Flying, Small": {
+            "name": "小型飞天魔毯",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这张漂亮精致的地毯能够如同在<em>飞行</em>法术影响下一般在空中飞行，持续时间无限。不同魔毯的大小，载重量和速度都列在下方的表格当中。</p><p>每张魔毯都有着各自用于启动的命令词。无论说话对象是否在毯子上，只要装置位于声音范围内，命令词便能将其启动。魔毯随后会受到说话者的指向以及航空技能所控制。</p><table><thead><tr><th class=\"sub-heading centered\">大小</th><th class=\"sub-heading centered\">尺寸</th><th class=\"sub-heading centered\">载重量</th><th class=\"sub-heading centered\">移速</th></tr></thead><tbody><tr><td class=\"centered\">小型</td><td class=\"centered\">5英尺×5英尺</td><td class=\"centered\">200磅</td><td class=\"centered\">移速7</td></tr><tr><td class=\"centered\">大型</td><td class=\"centered\">10英尺×10英尺</td><td class=\"centered\">800磅</td><td class=\"centered\">移速7</td></tr></tbody></table><p><strong>价格</strong>：20,000gp(小型)、60,000gp(大型)；<strong>重量</strong>：8磅(小型)或15磅(大型)。</p><p><strong>制作</strong>：<em>飞行</em>；10,000gp(小型)，30,000gp(大型)。</p></div>"
+        },
+        "Case, map or scroll": {
+            "name": "地图或卷轴匣",
+            "category": "冒险工具"
+        },
+        "Catapult": {
+            "name": "投石机",
+            "category": "攻城武器",
+            "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">投石机和抛石机是把大块石头扔向敌方防御工事以及部队阵列的机械装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但装填投射物至少需要四名人员。</span></p>\n<p>重武器，装填时间是每个四人班组5分钟。</p>\n</div>",
+            "notes": "中型爆发盖板"
+        },
+        "Celestial Armor": {
+            "name": "天界装甲",
+            "category": "护甲与盾牌",
+            "description": "<div class=\"swpf-core\">\n<p>这件闪亮的银色/金色锁甲(坚护)制作精良，十分轻盈，其能穿着在普通服装之下。每日一次，穿着者能受益于持续时间为五分钟的次级<em>飞行</em>奇术。</p>\n<p><strong>价格</strong>：22,400gp；<strong>重量</strong>：20磅。</p>\n<p><strong>制作</strong>：<em>飞行</em>；善良阵营，11,350gp。</p>\n</div>"
+        },
+        "Chain": {
+            "name": "锁链",
+            "category": "冒险工具"
+        },
+        "Chain Hood/Helm": {
+            "name": "锁子罩帽或头盔",
+            "category": "护甲"
+        },
+        "Chalk": {
+            "name": "粉笔",
+            "category": "冒险工具"
+        },
+        "Cheese, hunk": {
+            "name": "一大块奶酪",
+            "category": "食物与饮料"
+        },
+        "Chest (small)": {
+            "name": "小型箱子",
+            "category": "冒险工具"
+        },
+        "Chime of Opening": {
+            "name": "开门钟琴",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>开门钟琴是根一英尺长的空心秘银管，将其对着容器、门或大门进行敲击，发出的魔法振动就会让锁、盖子、门、阀门和大门得以开启。装置可以对普通的闩子、镣铐、锁链、螺栓等产生效果，但每次只能打开一种锁。</p>\n<p>开门钟琴也能自动解除封锁着这些门户的奇术。开门钟琴总共可以使用10次，之后就会破裂并变得毫无用处。</p>\n<p><strong>价格</strong>：6,000gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：3,000gp。</p>\n</div>"
+        },
+        "Climber's Kit (negate 2 penalty)": {
+            "name": "攀登套件",
+            "category": "工具与套件",
+            "description": "<div class=\"swpf-core\">\n<p>攀登套件：绳索、岩钉、鞋钉、锤子和其他用于攀爬的装备，这个套件能让使用者在攀爬时忽略至多2点减值。</p>\n</div>",
+            "notes": ""
+        },
+        "Cloak of Displacement": {
+            "name": "移位披风",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>移位披风看起来像是普通的披风，但穿上之后，其魔法特质会扭曲光波，并赋予高级<em>偏斜</em>。</p>\n<p><strong>价格</strong>：50,000gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：<em>偏斜</em>；25,000gp。</p>\n</div>"
+        },
+        "Cloak of Elvenkind": {
+            "name": "精灵披风",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这件深绿斗篷会让穿着者在将兜帽盖过头时的所有潜行检定免费获得一次重投。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：精灵，<em>隐形</em>；1,250gp。</p>\n</div>"
+        },
+        "Cloak of Etherealness": {
+            "name": "灵化披风",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这件银灰色的披风会吸收光线，披风的使用者能以一个命令变成灵态(如同<em>无形</em>奇术)。这个效果能以一个限定自由行动解除。披风每天至多可以运作10分钟，且使用的持续时间必须以一分钟为增量。</p>\n<p><strong>价格</strong>：55,000gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：<em>无形</em>；27,500gp。</p>\n</div>"
+        },
+        "Club, Heavy": {
+            "name": "重棒",
+            "category": "近战武器"
+        },
+        "Club, Light": {
+            "name": "轻棒",
+            "category": "近战武器"
+        },
+        "Cold weather outfit": {
+            "name": "御寒服装",
+            "category": "衣物"
+        },
+        "Copper": {
+            "name": "铜币",
+            "category": "财宝"
+        },
+        "Crossbow (Hand)": {
+            "name": "手弩",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>装填1，单手，像手枪一样的弩。</p>\n</div>"
+        },
+        "Crossbow (Hand, repeating)": {
+            "name": "连发手弩",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>装填1(一匣5支或是单支)。</p>\n</div>"
+        },
+        "Crossbow (Heavy)": {
+            "name": "重弩",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>需要绞盘才能装弹，装填2。</p>\n</div>",
+            "notes": ""
+        },
+        "Crossbow (Heavy, repeating)": {
+            "name": "连发重弩",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>装填2(一匣5支或是单支)。</p>\n</div>",
+            "notes": ""
+        },
+        "Crossbow (Light)": {
+            "name": "轻弩",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>装填1，手张。</p>\n</div>",
+            "notes": ""
+        },
+        "Crossbow (Light, repeating)": {
+            "name": "连发轻弩",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>装填1(一匣5支或是单支)，手张。</p>\n</div>"
+        },
+        "Crowbar": {
+            "name": "撬棍",
+            "category": "冒险工具"
+        },
+        "Dagger/Knife": {
+            "name": "匕首/小刀",
+            "category": "近战武器"
+        },
+        "Darts(blowgun)": {
+            "name": "吹镖",
+            "category": "远程武器弹药",
+            "description": "<div class=\"swpf-core\">\n<p>仅用于吹箭筒的吹镖</p>\n</div>",
+            "notes": "10支"
+        },
+        "Decanter of Endless Water": {
+            "name": "无尽水瓶",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>将瓶塞从这个看似平平无奇的扁瓶上取下，同时说出命令词就可生成淡/咸水。每个命令词都会决定水的类别、容量和体积。</p>\n<ul>\n<li>“水流” ：每轮流出一加仑的水。</li>\n<li>“喷泉” ：产生一道5英尺长的水流(每轮5加仑)。</li>\n<li>“激流泉”： 产生一道20英尺长，1英尺宽的水流(每轮30加仑)。\n激流泉效果可用于推撞体型2及以下的敌人，这不需要攻击投骰，但水瓶持用者和目标必须成功通过一次-2的力量投骰，否则就会被击倒卧地并被往后推1d6英寸(这对体型4及以上的生物无效)。</li>\n</ul>\n<p>必须说出命令才能将其停止。</p>\n<p><strong>价格</strong>：9,000gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：4,500gp。</p>\n</div>"
+        },
+        "Dimensional Shackles": {
+            "name": "次元镣铐",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这双镣铐的寒铁链环上遍布金色符文。任何遭其束缚的生物都不能使用<em>异界传送</em>或任何得以离开当前位面的能力，其能适用于任何小型乃至大型的生物。</p>\n<p><strong>价格</strong>：28,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：14,000gp。</p>\n</div>"
+        },
+        "Disguise Kit (free Performance reroll)": {
+            "name": "易容套件",
+            "category": "工具与套件",
+            "description": "<div class=\"swpf-core\">\n<p>化妆品、假体和假发。进行易容时的表演投骰免费获得一次重投。</p>\n</div>",
+            "notes": ""
+        },
+        "Dog, guard": {
+            "name": "护卫犬",
+            "category": "动物与挽具",
+            "description": "<div class=\"swpf-core\">\n<p>详见Dog/wolf for more details</p>\n</div>"
+        },
+        "Donkey/Mule": {
+            "name": "驴/骡子",
+            "category": "动物与挽具",
+            "description": "<div class=\"swpf-core\">\n<p>详见Mule。</p>\n</div>"
+        },
+        "Dried fruit, bag": {
+            "name": "一包水果干",
+            "category": "食物与饮料"
+        },
+        "Dust of Appearance": {
+            "name": "显像粉",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这种细金属粉尘存放于小丝绸袋或封口陶管当中。当使用者将粉尘洒在空中时，其能覆盖在中型爆发范围内的所有东西之上。隐形生物会变得可见，受其影响的生物潜行检定-4，且里面的所有幻象都会遭到解除。</p>\n<p>一包/管粉尘能使用一次。</p>\n<p><strong>价格</strong>：1,800gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>侦测奥法</em>；900gp。</p>\n</div>"
+        },
+        "Dust of Disappearance": {
+            "name": "隐身粉",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这种粉尘看起来如同显像粉一样，且通常以相同的方式进行存放。</p>\n<p>将其洒一点到生物或物件上会导致其变得不可见，这甚至对具备诸如<em>侦测奥法</em>等魔法侦测能力的对象而言也是如此。只有显像粉才能对付隐身粉。</p>\n<p>隐身粉持续2d6轮，由GM投骰——使用者永远都不会知道持续时间何时结束！</p>\n<p><strong>价格</strong>：3,500gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>隐形</em>和1,750gp。</p>\n</div>"
+        },
+        "Efficient Quiver": {
+            "name": "效率鞘袋",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这个鞘袋具备三个不同的隔层，每个都具备一片无维度空间，使其容量要比正常要多得多。第一个最小的隔层可以容纳60支箭般大小的物件。</p>\n<p>第二个稍长的隔层能存放至多18根标枪大小的物件。第三个最长的隔层能容纳六把弓般大小的物件(矛、法杖，或类似的东西)。</p>\n<p>穿着者能随意以一个自由行动快速从鞘袋中取得任何存放好的物品。</p>\n<p><strong>价格</strong>：1,800gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>缩小</em>；900gp。</p>\n</div>"
+        },
+        "Elixir of Fire Breath": {
+            "name": "喷火灵药",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这种冒泡的奇怪灵药能赋予喷出烈焰的能力。使用者在喝下此灵药后能以一个限定行动吐出火焰(至多三次)，在锥形盖板范围内造成3d6火焰伤害。这可以被回避。</p>\n<p><strong>价格</strong>：1,100gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>爆裂</em>；550gp。</p>\n</div>"
+        },
+        "Everburning Torch": {
+            "name": "永燃火炬",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这种永久性附魔<em>光亮</em>的“火炬”既不会燃烧，也不会散发热量。</p>\n</div>",
+            "notes": ""
+        },
+        "Eyes of the Eagle": {
+            "name": "鹰之眼",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这双以特殊水晶镜片制成的眼镜会适配佩戴者的眼睛，其能就基于视觉的察觉检定免费给予一次重投。</p>\n<p>这件魔法物品只有在两块镜片都戴上时才会让生效。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>远视</em>；1,250gp。</p>\n</div>"
+        },
+        "Falchion": {
+            "name": "弯刃大刀",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲1，可以双手使用(若是这样则伤害+1)</div>",
+            "notes": ""
+        },
+        "Feather Token, Anchor": {
+            "name": "羽符(锚)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>锚</strong>：制造出一个锚，这可以将船只定在水中(即使是在湍急的河流中也是如此)，至多能使其在一天内无法移动。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
+        },
+        "Feather Token, Bird": {
+            "name": "羽符(鸟)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>鸟</strong>：制造出一只鸟，这能将一端简短的手写消息准确无误地送至指定目标。这枚羽符会生效到直至送达信息为止。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
+        },
+        "Feather Token, Fan": {
+            "name": "羽符(扇)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>扇</strong>：形成一把巨大的扇子，其产生的微风力度足以推动船只(大约25英里/小时)。这股风不会与现有风速累计。然而此羽符可以用于削弱现有的风力，创造出一片相对平静或轻微的风区(但风暴中的波浪大小不受影响)。这把扇子至多可以使用八小时，而且在陆地上不起作用。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
+        },
+        "Feather Token, Swan Boat": {
+            "name": "羽符(天鹅船)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>天鹅船</strong>：形成一条天鹅状的船，这能在水上以12移速移动，其能运载八匹马及装备，32个人类大小的角色，或是任何等值的组合。船能维持一天。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
+        },
+        "Feather Token, Tree": {
+            "name": "羽符(树)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>树</strong>：凭空长出一棵大橡树(树干直径5英尺，60英尺高，树冠直径40英尺)，这是一个瞬时效果。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
+        },
+        "Feather Token, Whip": {
+            "name": "羽符(鞭)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些小羽毛每样都具备一种能满足特殊需要的力量。羽符的种类在下方有所描述，每样都只能使用一次。</p><p>除非能看见羽符的魔法灵气，否则其不具备加以辨别的特征——即使具备同样的力量，羽符的外形也能大相径庭。</p>\n<p><strong>鞭</strong>：这会转变成一条大皮鞭！其能如同舞空武器(见211页)般自主攻击。具有d8格斗，并造成2d4非致命伤害。这条鞭子至多持续一小时。</p>\n<strong>价格</strong>：50gp(锚)、300gp(鸟)、200gp(扇)、450gp(天鹅船)、400gp(树)、500gp(鞭)；<strong>重量</strong>：—。<p><strong>制作</strong>： <em>创造物品</em>；25gp(锚)、150gp(鸟)、100gp(扇)、225gp(天鹅船)、200gp(树)、250gp(鞭)。</p>\n</div>"
+        },
+        "Feed, animal (per day)": {
+            "name": "动物饲料(每天)",
+            "category": "食物与饮料"
+        },
+        "Figurine of Wondrous Power, Bronze Griffon": {
+            "name": "奇妙雕像(青铜狮鹫)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>青铜狮鹫</strong>：青铜狮鹫在所有方面上都表现得像是一只服从主人命令的普通狮鹫。这件物品每周可以用两次，每次至多六小时。在时间耗尽或说出命令词之后，这只狮鹫会再次变回一尊迷你塑像。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Ebony Fly": {
+            "name": "奇妙雕像(黑檀飞马)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>黑檀飞马</strong>：黑檀飞马体型如同小马(使用248页的轻型马)，带有12飞行移速，不具备格斗技能或天生武器。这每周能用三次，每次至多12小时。在12个小时耗尽或说出命令词后，其会再次变回一尊迷你塑像。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Golden Lions": {
+            "name": "奇妙雕像(黄金雄狮)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>黄金雄狮</strong>：这是一对雕像，说出命令词时其就会变成普通的成年雄狮(或变回塑像)。每天能使用一次(至多一小时)。若狮子被杀，则在整整一周内都不能将其唤出。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Ivory Goats": {
+            "name": "奇妙雕像(象牙山羊)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<ul>\n<li><span class=\"list-heading\">旅行山羊：</span>这只快速坚忍的坐骑除了外貌在所有方面都与重型马相当。这只山羊每周能旅行至多一天(持续不断或是时段合计达24小时的任意组合)。到了时间，或是说出命令词时，其就会变回塑像形态，并且至少在一天之后才能重新使用。</li>\n<li><span class=\"list-heading\">苦痛山羊：</span>这尊塑像会变成一只使用梦魇马数据的庞然大物(见《生物图鉴》，若没有则使用本书中的重型马)，而且头还长着一对邪恶巨角(力量+d6)。每个月能活化一次，每次至多12小时。</li>\n<li><span class=\"list-heading\">恐怖山羊：</span>正确的命令词会使这尊塑像变成一只军马般的坐骑，使用角马的数据(力量+d8+2，可以抵撞)，以及恐惧-2特殊能力。这每两周能使用一次，每次至多三小时。</li>\n</ul>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Marble Elephant": {
+            "name": "奇妙雕像(大理石象)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>大理石象</strong>：这是最大的一尊雕像，大概有人类手掌般大小。说出命令词后，这就会长至真象般的大小。塑像每月可使用四次，每次至多24小时。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Obsidian Steed": {
+            "name": "奇妙雕像(黑曜石骏)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>黑曜石骏</strong>：只有仔细观察才能发现这块黑色的小石头隐约像是某种四足动物，说出命令其就会变成一只神奇的坐骑，这视作重型马，并且带有以下内生奇术(每轮随意使用一次)：<em>飞行</em>，<em>异界传送</em>和<em>无形</em>。塑像每周可用一次，每次持续使用至多可达24小时。注意，当黑曜石骏变成灵态或进行异界传送时，骑手及其装备也会随之如此。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Onyx Dog": {
+            "name": "奇妙雕像(缟玛瑙犬)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>缟玛瑙犬</strong>：这尊塑像能变成一只特质与狗相同的生物(带有d6聪慧)，其能以通用语交流，而且嗅觉灵敏，视力过人，这让其获得察觉检定+1，10英寸黑暗视觉，以及看见隐形生物的能力。缟玛瑙犬每周可用一次(至多六小时)，其只会服从自己的主人。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Serpentine Owl": {
+            "name": "奇妙雕像(蛇纹石鸮)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>蛇纹石鸮</strong>：这尊雕像能变成一只普通大小的雕鸮。这个变化每天能进行一次，持续时间上限为连续八小时。鸮能通过心灵感应与主人交流，并告知主人其所见所闻。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Figurine of Wondrous Power, Silver Raven": {
+            "name": "奇妙雕像(白银渡鸦)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这些不同种类的奇妙雕像每尊都是约1英寸左右高(仅有一个例外)的微缩生物塑像。只要扔下雕像并说出正确的命令词，其就会变成一只活物。此生物会对所有者唯命是从。除非另有说明，否则其都会明白通用语，但无法说话。</p><p>若是雕像在微缩塑像形态下破碎或遭到毁坏，其就会永远作废。若是在动物形态下被杀则只会变回塑像，并且在之后可以重新使用。</p></p>\n<p><strong>白银渡鸦</strong>：这尊白银雕像能随着命令变成渡鸦(但保留了金属的结实度)，其对主人唯命是从，包括传递写下的信息，但不具备说话或用心灵感应交流的能力。非雕像形态每周只能维持24小时，但持续时间无需连续。</p>\n<p><strong>价格</strong>：10,000gp(青铜狮鹫)，10,000gp(黑檀飞马)，16,500gp(黄金雄狮)，21,000gp(象牙山羊)，17,000gp(大理石象)，28,500gp(黑曜石骏)，15,500gp(缟玛瑙犬)，9,100gp(蛇纹石枭)，3,800gp(白银渡鸦)；<strong>重量</strong>：1磅。<p><strong>制作</strong>：5,000gp(青铜狮鹫)，5,000gp(黑檀飞马)，8,250gp(黄金雄狮)，10,500gp(象牙山羊)，8,500gp(大理石象)，14,250gp(黑曜石骏)，7,750gp(缟玛瑙犬)，4,550gp(蛇纹石枭)，1,900gp(白银渡鸦)。</p>\n</div>"
+        },
+        "Firewood (per day)": {
+            "name": "柴火(每日)",
+            "category": "冒险工具"
+        },
+        "Fishhook": {
+            "name": "鱼钩",
+            "category": "冒险工具"
+        },
+        "Fishing Net (24 sq. ft)": {
+            "name": "渔网",
+            "category": "冒险工具",
+            "notes": "24平方英尺"
+        },
+        "Flail": {
+            "name": "连枷",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">忽略盾牌加值</div>",
+            "notes": ""
+        },
+        "Flail (Heavy)": {
+            "name": "重型连枷",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">\n<p>忽略盾牌加值，双手</p>\n</div>"
+        },
+        "Flame Toungue": {
+            "name": "烈焰之舌",
+            "category": "武器",
+            "description": "<div class=\"swpf-core\"><p>这柄长剑的持用者能以一个自由行动使其迸出火焰。若是如此，其伤害+1且每日一次能以一个行动施放火焰<em>矢弹</em>(穿甲2)，使用射击作为施术投骰。</p><p><strong>价格</strong>：20,715gp；<strong>重量</strong>：4磅。</p><p><strong>制作</strong>：<em>矢弹</em>；10,515gp。</p></div>"
+        },
+        "Flask or Jug, ceramic": {
+            "name": "扁瓶或陶罐",
+            "category": "冒险工具"
+        },
+        "Flint and Steel": {
+            "name": "燧石与钢片",
+            "category": "冒险工具"
+        },
+        "Gauntlet of Rust": {
+            "name": "锈蚀手套",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这枚单只手套尽管看起来锈迹斑斑、坑洼不平，但其实际上颇为强大。每天一次，这能使一件铁/铁合金制的非魔法物件(或该物件三英尺半径范围)化作锈粉。</p>\n<p>同时这还能完全保护穿着者及其装备免于生锈(魔法或其他原因)，锈蚀怪的攻击也包括在内。</p>\n<p><strong>价格</strong>：11,500gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>矢弹</em>；5,750gp。</p>\n</div>"
+        },
+        "Gauntlet, locked": {
+            "name": "带锁甲手",
+            "category": "护甲",
+            "description": "<div class=\"swpf-core\">\n<p>抵抗缴械的力量投骰+1(带锁链和缚带，需要一个行动来系紧/解开)。</p>\n</div>"
+        },
+        "Glaive": {
+            "name": "大砍刀",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">触及1，双手</div>",
+            "notes": ""
+        },
+        "Gloves of Storing": {
+            "name": "储物手套",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>只要发出命令，一件由戴着这只手套的手所持之物就会消失无踪。这件物品的重量不得超过20磅，且必须能单手握住。存放好后，这件物品的重量便可忽略。</p>\n<p>只要用戴手套的手打出响指，这件物品就会重新出现。手套每次只能存放一项物品，存放或将其拿出是一个自由行动。</p>\n<p><strong>价格</strong>：10,000gp(单只手套)；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>缩小</em>；5,000gp。</p>\n</div>"
+        },
+        "Gloves of Swimming and Climbing": {
+            "name": "游泳攀爬手套",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这双柔软的皮手套让所有运动(攀爬、游泳)检定+2。</p><p><strong>价格</strong>：6,250gp；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；3,125gp。</p></div>"
+        },
+        "Goggles of Night": {
+            "name": "夜视护目镜",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这副护目镜的镜片由不透明的漆黑水晶制成，然而佩戴者仍可毫无阻碍地通过视物，同时获得至多10英寸(20码)的黑暗视觉。</p>\n<p><strong>价格</strong>：12,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>暗视</em>；6,000gp。</p>\n</div>"
+        },
+        "Gold": {
+            "name": "金币",
+            "category": "财宝"
+        },
+        "Grappling Hook": {
+            "name": "爪钩",
+            "category": "冒险工具"
+        },
+        "Guisarme": {
+            "name": "长钩刀",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲1，触及1，双手</div>",
+            "notes": ""
+        },
+        "Halberd": {
+            "name": "战戟",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲1，触及1，双手</div></div>"
+        },
+        "Hammer": {
+            "name": "锤子",
+            "category": "近战武器"
+        },
+        "Hand of Glory": {
+            "name": "荣耀之手",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这只木乃伊化的人手由皮绳系在角色的脖子上(占用部位如同魔法项链)。如果将魔法戒指戴在这只手的其中一根指头上，则佩戴者就能如同自己正佩戴戒指一般从中获益，这不会计入两枚戒指的限制。</p>\n<p>这只手上同时只能戴一枚戒指。即便没有戒指，这只手也能使佩戴者每天使用一回次级<em>光亮</em>和次级<em>侦测奥法</em>。</p>\n<p><strong>价格</strong>：8,000gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>侦测奥法</em>，<em>光亮</em>，<em>行尸</em>；4,000gp。</p>\n</div>"
+        },
+        "Hand of the Mage": {
+            "name": "术师之手",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这只木乃伊化的精灵手由金链系在角色的脖子上(占用部位如同魔法项链)，这使佩戴者能操纵5英寸(10码)之内不超过5磅的物件。</p>\n<p><strong>价格</strong>：900gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：450gp。</p>\n</div>"
+        },
+        "Handy Haversack": {
+            "name": "方便背包",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这个背包由精心鞣制的磨损皮革制成，配有黄铜金具和搭扣，具备一个主袋和两个侧袋。与次元袋类似，三个袋子全都通向一片异次元空间。</p>\n<p>主袋至多可以容纳体积为八立方英尺或80磅重的材料，侧袋则是容纳两立方英尺或20磅重。无论背包中放了多少东西，其重量总是五磅。</p>\n<p>背负者可以从主袋或侧袋中摸索特定物品，后者总是会出现在最上面，且能以一个限定自由行动将其拿出。</p>\n<p><strong>价格</strong>：2,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：<em>放大/缩小</em>；1,000gp。</p>\n</div>"
+        },
+        "Harp of Charming": {
+            "name": "魅惑竖琴",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>每弹奏这把漂亮华丽的竖琴十分钟，表演者就能进行一次表演投骰来施放次级<em>傀儡</em>奇术。</p>\n<p>如果任意一次表演投骰失败，则所有听众在24小时之内都不会再受竖琴影响。</p>\n<p><strong>价格</strong>：7,500gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：<em>傀儡</em>；3,750gp。</p>\n</div>"
+        },
+        "Hat of Disguise": {
+            "name": "易容帽",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这顶外表普通的毡帽赋予佩戴者次级<em>易容</em>(每天三次)。</p>\n<p><strong>价格</strong>：1,800gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>易容</em>；900gp。</p>\n</div>"
+        },
+        "Headband of Mental Prowess, Major": {
+            "name": "高级心灵力量头带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这条简易铜质头带的中心放置有一枚黄色的宝石，如同第三只眼目。佩戴者的聪慧或心魂骰子类型因此提升一级(次级)或两级(高级)，这要在制作时予以确定，若是觅得而来则随机投骰决定。</p><p><strong>价格</strong>：16,000gp(次级)或36,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；8,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Headband of Mental Prowess, Minor": {
+            "name": "次级心灵力量头带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这条简易铜质头带的中心放置有一枚黄色的宝石，如同第三只眼目。佩戴者的聪慧或心魂骰子类型因此提升一级(次级)或两级(高级)，这要在制作时予以确定，若是觅得而来则随机投骰决定。</p><p><strong>价格</strong>：16,000gp(次级)或36,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；8,000gp(次级)、18,000gp(高级)。</p></div>"
+        },
+        "Headband of Mental Superiority, Major": {
+            "name": "高级超凡心灵头带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这条华丽的头带装饰有许多小型白色宝石，这会使佩戴者的聪慧和心魂骰子类型提升一级(次级)或两级(高级)，</p><p><strong>价格</strong>：40,000gp(次级)、90,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；20,000gp(次级)或45,000gp(高级)。</p></div>"
+        },
+        "Headband of Mental Superiority, Minor": {
+            "name": "次级超凡心灵头带",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这条华丽的头带装饰有许多小型白色宝石，这会使佩戴者的聪慧和心魂骰子类型提升一级(次级)或两级(高级)，</p><p><strong>价格</strong>：40,000gp(次级)、90,000gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>强化特性</em>；20,000gp(次级)或45,000gp(高级)。</p></div>"
+        },
+        "Healer's Kit (-1 healing w/o)": {
+            "name": "治疗套件",
+            "category": "工具与套件",
+            "description": "<div class=\"swpf-core\">\n<p>基本医疗用具，包括药膏和敷料。若是没有则治疗-1。</p>\n</div>",
+            "notes": ""
+        },
+        "Heavy Breastplate": {
+            "name": "重型胸甲",
+            "category": "护甲"
+        },
+        "Heavy Greaves": {
+            "name": "重型腿甲",
+            "category": "护甲"
+        },
+        "Heavy Helm": {
+            "name": "重型头盔",
+            "category": "护甲"
+        },
+        "Heavy Helm (enclosed)": {
+            "name": "重型覆面头盔",
+            "category": "护甲",
+            "description": "<div class=\"swpf-core\">\n<p>基于视觉的察觉-1。</p>\n</div>"
+        },
+        "Heavy Shield": {
+            "name": "重型盾牌",
+            "category": "盾牌"
+        },
+        "Heavy Vambraces": {
+            "name": "重型臂铠",
+            "category": "护甲"
+        },
+        "Helm of Comprehend Languages": {
+            "name": "通晓语言头盔",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这顶头盔使佩戴者能理解任何生物说出的语言，阅读以任何语言写成的文本，以及理解任何魔法文字。</p>\n<p><strong>价格</strong>：5,200gp；<strong>重量</strong>：3磅。</p>\n<p><strong>制作</strong>：<em>通晓语言</em>；2,600gp。</p>\n</div>"
+        },
+        "Helm of Teleportation": {
+            "name": "传送头盔",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>每日三次，佩戴此头盔的角色能以一个限定自由行动施放带有高等传送奇术调整的<em>传送</em>(高级)。</p>\n<p><strong>价格</strong>：73,500gp；<strong>重量</strong>：3磅。</p>\n<p>制作：<em>传送</em>；36,750gp。</p>\n</div>"
+        },
+        "Holy Avenger": {
+            "name": "神圣复仇者",
+            "category": "武器",
+            "description": "<div class=\"swpf-core\">\n<p>这柄铁质长剑(力量+d10，穿甲2)会让使用者的格斗投骰+1(若是由圣武士持用则是+2)。圣武士还能获得奥法抗性专长，且能每遭遇三次以一个行动使用心魂施放<em>破祛</em>。</p>\n<p><strong>价格</strong>：120,630gp；<strong>重量</strong>：4磅。</p>\n<p><strong>制作</strong>：善良阵营；60,630gp。</p>\n</div>"
+        },
+        "Holy Symbol, silver": {
+            "name": "银质圣徽",
+            "category": "工具与套件"
+        },
+        "Holy Symbol, wood": {
+            "name": "木制圣徽",
+            "category": "工具与套件"
+        },
+        "Holy Water": {
+            "name": "圣水",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>圣水可以整瓶扔出或是泼向某一邻接生物。盖板内的不死生物和特定邪恶生物(GM判断)被命中时受到2d4伤害，且在下一轮开始时会受到2d4-2伤害。</p>\n</div>",
+            "notes": "小型爆发盖板"
+        },
+        "Horse Armor (Chain)": {
+            "name": "马甲(锁甲)",
+            "category": "护甲"
+        },
+        "Horse Armor (Leather)": {
+            "name": "马甲(皮甲)",
+            "category": "护甲"
+        },
+        "Horse Armor (Plate)": {
+            "name": "马甲(板甲)",
+            "category": "护甲"
+        },
+        "Horse, heavy": {
+            "name": "重型马",
+            "category": "动物与挽具",
+            "description": "<div class=\"swpf-core\">\n<p>详见Horse, Heavy。</p>\n</div>"
+        },
+        "Horse, light": {
+            "name": "轻型马",
+            "category": "动物与挽具",
+            "description": "<div class=\"swpf-core\">\n<p>详见Horse, Light。</p>\n</div>"
+        },
+        "Horseshoes of Speed": {
+            "name": "加速马蹄铁",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这块蹄铁钉在动物的蹄掌上时会使此动物的基础移速增加6，四个蹄铁必须都钉在同一动物上才会生效。</p>\n<p><strong>价格</strong>：3,000gp；<strong>重量</strong>：12磅。</p>\n<p><strong>制作</strong>：<em>加速</em>；1,500gp。</p>\n</div>"
+        },
+        "Hourglass": {
+            "name": "沙漏",
+            "category": "冒险工具"
+        },
+        "Immovable Rod": {
+            "name": "不动权杖",
+            "category": "权杖",
+            "description": "<div class=\"swpf-core\">\n<p>这根权杖看起来像是一端带着一个小按钮的扁铁条。按下按钮时(一个自由行动)，这跟权杖就不会从其所在位置移开，即使处于反重力环境中也是如此。所有者能随意将权杖拿起或放下，按下按钮，然后松手。</p>\n<p>一根不动权杖至多只能支撑8,000磅，超过就会掉落在地。若是生物要推走不动权杖，其必须成功通过一次-4的力量检定才能在一轮内将权杖移动至多2英寸(4码)。</p>\n<p><strong>价格</strong>：5,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：2,500gp。</p>\n</div>"
+        },
+        "Improvised Weapon (Heavy)": {
+            "name": "临时武器(重型)",
+            "category": "临时武器",
+            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>"
+        },
+        "Improvised Weapon (Light)": {
+            "name": "临时武器(轻型)",
+            "category": "临时武器",
+            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>"
+        },
+        "Improvised Weapon (Medium)": {
+            "name": "临时武器(中型)",
+            "category": "临时武器",
+            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>"
+        },
+        "Inkpen (quill)": {
+            "name": "墨水笔(羽毛)",
+            "category": "冒险工具"
+        },
+        "Inn, common (per day)": {
+            "name": "普通旅店(每日)",
+            "category": "住宿"
+        },
+        "Inn, good (per day)": {
+            "name": "上等旅店(每日)",
+            "category": "住宿"
+        },
+        "Inn, poor (per day)": {
+            "name": "下等旅店(每日)",
+            "category": "住宿"
+        },
+        "Ioun Stone, Clear": {
+            "name": "艾恩石(透明)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Dark Blue": {
+            "name": "艾恩石(深蓝)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Deep Red": {
+            "name": "艾恩石(深红)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Green": {
+            "name": "艾恩石(淡绿)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Incandescent Blue": {
+            "name": "艾恩石(淡蓝)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Iridescent": {
+            "name": "艾恩石(虹色)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Lavender and Green": {
+            "name": "艾恩石(淡紫混绿)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Pale Blue": {
+            "name": "艾恩石(天蓝)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Pale Lavender": {
+            "name": "艾恩石(淡紫)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Pearly White": {
+            "name": "艾恩石(珍珠白)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Pink": {
+            "name": "艾恩石(粉色)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Scarlet and Blue": {
+            "name": "艾恩石(绯红混蓝)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Ioun Stone, Vibrant Purple": {
+            "name": "艾恩石(亮紫)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这些晶体状石头激活后便会漂浮在所有者三英尺内的空中。每颗石头的力量取决于其颜色与形状(见下表)。</p><p>艾恩石激活时永久生效，如果从所有者处拿/捞走，其力量就会消失，直到取回为止。</p><p><strong>价格</strong>：可变；<strong>重量</strong>：—。</p><p><strong>制作</strong>：市价的一半。</p><table><colgroup> <col style=\"width: 4em;\" /> <col style=\"width: 4em;\" /> <col style=\"width: 12em;\" /> <col style=\"width: 4em;\" /><thead><tr><th class=\"main-heading\" colspan=\"4\">艾恩石</th></tr><tr><th class=\"sub-heading centered\">颜色</th><th class=\"sub-heading centered\">形状</th><th class=\"sub-heading centered\">效果</th><th class=\"sub-heading centered\">市价</th></tr></thead><tbody><tr><td class=\"centered\">透明</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需饮食便能维生</td><td class=\"centered\">4,000gp</td></tr><tr><td class=\"centered\">深红</td><td class=\"centered\">圆球</td><td class=\"centered\">灵巧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">天蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">心魂骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">淡蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">力量骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">粉色</td><td class=\"centered\">长菱</td><td class=\"centered\">活力骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">绯红混蓝</td><td class=\"centered\">圆球</td><td class=\"centered\">聪慧骰子类型上升一级</td><td class=\"centered\">20,000gp</td></tr><tr><td class=\"centered\">深蓝</td><td class=\"centered\">长菱</td><td class=\"centered\">警觉(如同专长)</td><td class=\"centered\">12,000gp</td></tr><tr><td class=\"centered\">虹色</td><td class=\"centered\">纺锤</td><td class=\"centered\">生物无需空气便能维生。</td><td class=\"centered\">18,000gp</td></tr><tr><td class=\"centered\">淡紫</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收15奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">30,000gp</td></tr><tr><td class=\"centered\">珍珠白</td><td class=\"centered\">纺锤</td><td class=\"centered\">可每天进行一次自然治疗投骰</td><td class=\"centered\">80,000gp</td></tr><tr><td class=\"centered\">淡绿</td><td class=\"centered\">棱柱</td><td class=\"centered\">技能投骰+1</td><td class=\"centered\">120,000gp</td></tr><tr><td class=\"centered\">亮紫</td><td class=\"centered\">棱柱</td><td class=\"centered\">含有10奇术点；每小时充能1点</td><td class=\"centered\">36,000gp</td></tr><tr><td class=\"centered\">淡紫混绿</td><td class=\"centered\">椭圆</td><td class=\"centered\">吸收30奇术点的法术(如同<strong>吸收权杖</strong>，见215页)</td><td class=\"centered\">60,000gp</td></tr></tbody></table></div>"
+        },
+        "Javelin of Lightning": {
+            "name": "闪电标枪",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>此标枪投出时会化作一道闪电。使用者在身前放置一个直线盖板，该攻击会对任何回避失败的对象造成4d6电伤害。标枪会本次攻击中消耗殆尽。</p>\n<p><strong>价格</strong>：1,500gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>矢弹</em>；750gp。</p>\n</div>"
+        },
+        "Katana": {
+            "name": "武士刀",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">双手</div>",
+            "notes": ""
+        },
+        "Lamp, Small (3\" radius)": {
+            "name": "小型油灯",
+            "category": "冒险工具",
+            "notes": "3英寸半径"
+        },
+        "Lance": {
+            "name": "骑枪",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用</div>",
+            "notes": ""
+        },
+        "Lantern of Revealing": {
+            "name": "显像提灯",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这盏带盖提灯点亮时能照出5英寸(10码)内的所有隐形生物和物件。</p>\n<p><strong>价格</strong>：30,000gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>侦测奥法</em>；15,000gp。</p>\n</div>"
+        },
+        "Lantern, bullseye (10\" cone)": {
+            "name": "牛眼提灯",
+            "category": "冒险工具",
+            "notes": "10英寸锥形"
+        },
+        "Lantern, hooded (6\" radius)": {
+            "name": "附盖提灯",
+            "category": "冒险工具",
+            "notes": "6英寸半径"
+        },
+        "Light Cap (head)": {
+            "name": "轻型盖帽",
+            "category": "护甲"
+        },
+        "Light Leggings (legs)": {
+            "name": "轻型护腿",
+            "category": "护甲"
+        },
+        "Light Shield": {
+            "name": "轻型盾牌",
+            "category": "盾牌"
+        },
+        "Light Tunic or Jacket (torso, arms)": {
+            "name": "轻型短衫或外套",
+            "category": "护甲"
+        },
+        "Lion Shield": {
+            "name": "雄狮之盾",
+            "category": "盾牌",
+            "description": "<div class=\"swpf-core\">\n<p>这面重钢盾(偏斜)的表面装饰有一枚怒吼的狮头。每日三次，可以一个限定自由行动命令狮头进行噬咬，其以持用者的格斗进行攻击，造成2d8伤害(穿甲2)。</p>\n<p><strong>价格</strong>：9,170gp；<strong>重量</strong>：15磅。</p>\n<p><strong>制作</strong>：<em>召唤盟友</em>；4,670gp。</p>\n</div>"
+        },
+        "Luck Blade": {
+            "name": "吉兆刃",
+            "category": "武器",
+            "description": "<div class=\"swpf-core\">\n<p>这柄外观朴素的短剑能让持用者获得幸运专长。有些吉兆刃可能还内含d4-1发祈愿！(GM判定)。使用者应该永远都不知道剩余有多少发，而且一旦遭到使用，这些祈愿就会永远消失(见199页<em>祈愿</em>)。</p>\n<p><strong>价格</strong>：22,060gp(0发祈愿)、62,360(1发祈愿)、102,660gp(2发祈愿)、142,960gp(3发祈愿)；</p>\n<p><strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>祈愿</em>；11,185gp(0发祈愿)、43,835(1发祈愿)、76,485gp(2发祈愿)、109,135gp(3发祈愿)。</p>\n</div>"
+        },
+        "Mace, Heavy": {
+            "name": "重型硬头锤",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲1</div>"
+        },
+        "Mace, Light": {
+            "name": "轻型硬头锤",
+            "category": "近战武器"
+        },
+        "Magnifying Glass": {
+            "name": "放大镜",
+            "category": "工具与套件"
+        },
+        "Manacles": {
+            "name": "镣铐",
+            "category": "冒险工具"
+        },
+        "Manual of Attribute Increase": {
+            "name": "属性提升手册",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>阅读这卷奥法专著能将一项属性(制作时选定)其骰子类型永久性提升一级。需要一整个星期的休整期来阅读该手册才能获得好处。一旦完成阅读，这本书上的魔法文字便会消逝。</p>\n<p>单一角色只能通过属性提升手册来让属性提升一次。</p>\n<p><strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：<em>祈愿</em>；41,000gp。</p>\n</div>",
+            "notes": "阅读后保持该物品为装备状态。其已经在阅读中被消耗掉，不可卖出或交易。为了保留其给予的属性提升，你必须保持装备。"
+        },
+        "Maul": {
+            "name": "大槌",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲2，双手，破坏物品(130页)时+2伤害</div>",
+            "notes": ""
+        },
+        "Meal, common (per day)": {
+            "name": "普通饭食(每天)",
+            "category": "食物与饮料"
+        },
+        "Meal, good (per day)": {
+            "name": "上好饭食(每天)",
+            "category": "食物与饮料"
+        },
+        "Meal, poor (per day)": {
+            "name": "粗淡饭食(每天)",
+            "category": "食物与饮料"
+        },
+        "Medium Leggings": {
+            "name": "中型护腿",
+            "category": "护甲"
+        },
+        "Medium Shield": {
+            "name": "中型盾牌",
+            "category": "盾牌"
+        },
+        "Medium Shirt": {
+            "name": "中型甲衫",
+            "category": "护甲"
+        },
+        "Merchant's outfit": {
+            "name": "商人服装",
+            "category": "衣物"
+        },
+        "Mirror, small steel": {
+            "name": "小型钢镜",
+            "category": "冒险工具"
+        },
+        "Morningstar": {
+            "name": "钉头锤",
+            "category": "近战武器"
+        },
+        "Mug/Tankard, ceramic": {
+            "name": "带柄杯/陶杯",
+            "category": "冒险工具"
+        },
+        "Musical Instrument": {
+            "name": "乐器",
+            "category": "工具与套件"
+        },
+        "Natural Bite": {
+            "name": "噬咬",
+            "category": "天生武器",
+            "description": "<div class=\"swpf-core\"><strong>噬咬</strong>：生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见133页<strong>擒抱</strong>)。</div>"
+        },
+        "Natural Claws": {
+            "name": "爪抓",
+            "category": "天生武器",
+            "description": "<div class=\"swpf-core\"><strong>爪抓</strong>：所有在粗糙或柔软表面(不能是陡峭的钢铁，玻璃之类)的运动(攀爬)投骰+2。</div>"
+        },
+        "Natural Horns": {
+            "name": "角撞",
+            "category": "天生武器",
+            "description": "<div class=\"swpf-core\"><strong>角撞</strong>：生物在奔跑和移动至少5英寸(10码)后成功以角进行的一次攻击伤害+4。</div>"
+        },
+        "Necklace of Fireballs, Major": {
+            "name": "高级火球项链",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这个物品看起来就是一串珠子，通常如同项链般串连起来。然而，佩戴者会了解到其真实的面貌：串着数个黄金球体(分成两种大小)的金链。项链在制作出来时每种大小的球体各有三个。</p><p>佩戴者能以一个限定行动取下一个球体并将其扔出，在至多10英寸远放置一枚爆发。小球会在小型爆发内轰出<em>爆发</em>，大球会在大型爆发内轰出<em>爆发</em>。此类爆发可以被回避。球体在使用后就会消耗殆尽。</p><p>球体的奇术在制作时就会予以确定(次级或高级<em>爆发</em>)。</p><p>项链的硬度为10，如果因魔法火焰攻击而遭到击碎，所有剩余的珠子都会同时爆炸！每个<em>爆发</em>单独结算。</p><p><strong>价格</strong>：2,700gp(次级)、5,400gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>爆发</em>；1,350gp(次级)、2,700gp(高级)。</p></div>"
+        },
+        "Necklace of Fireballs, Minor": {
+            "name": "次级火球项链",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这个物品看起来就是一串珠子，通常如同项链般串连起来。然而，佩戴者会了解到其真实的面貌：串着数个黄金球体(分成两种大小)的金链。项链在制作出来时每种大小的球体各有三个。</p><p>佩戴者能以一个限定行动取下一个球体并将其扔出，在至多10英寸远放置一枚爆发。小球会在小型爆发内轰出<em>爆发</em>，大球会在大型爆发内轰出<em>爆发</em>。此类爆发可以被回避。球体在使用后就会消耗殆尽。</p><p>球体的奇术在制作时就会予以确定(次级或高级<em>爆发</em>)。</p><p>项链的硬度为10，如果因魔法火焰攻击而遭到击碎，所有剩余的珠子都会同时爆炸！每个<em>爆发</em>单独结算。</p><p><strong>价格</strong>：2,700gp(次级)、5,400gp(高级)；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>爆发</em>；1,350gp(次级)、2,700gp(高级)。</p></div>"
+        },
+        "Net (Weighted)": {
+            "name": "加重捕网",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>成功命中意味着目标陷入<em>纠缠</em>(见130页)，捕网的硬度为10。</p>\n</div>"
+        },
+        "Noble's outfit": {
+            "name": "贵族服装",
+            "category": "衣物"
+        },
+        "Oathbow": {
+            "name": "誓仇弓",
+            "category": "远程武器",
+            "description": "<div class=\"swpf-core\">\n<p>这把精灵打造的复合长弓(射击+1)在拉开时会以精灵语低吟：“吾敌速亡”。每日一次，射手能(用精灵语)大声起誓必杀某一特定目标。此弓会回应：“负我者死！”。以此弓攻击该目标的伤害+d6，且使用者的射击投骰免费获得一次重投。\n</p>\n<p>誓仇弓同时只能具有单个誓杀目标。一旦持用者发誓必杀某一目标后，其直到杀死该目标或经过七天为止都不能立下新誓言。</p>\n<p><strong>价格</strong>：25,600gp；<strong>重量</strong>：3磅。</p>\n<p><strong>制作</strong>：精灵；13,100gp。</p>\n</div>"
+        },
+        "Oil (1 pint)": {
+            "name": "油(1品脱)",
+            "category": "冒险工具"
+        },
+        "Paper": {
+            "name": "纸",
+            "category": "冒险工具"
+        },
+        "Parchment": {
+            "name": "羊皮纸",
+            "category": "冒险工具"
+        },
+        "Pearl of Power, Novice": {
+            "name": "法力珍珠(入门)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这颗大小光泽都一般的珍珠能让持有者重新施放任意一个当天已经施放过的奇术(包括任何奇术调整)。使用者必须进行一次技能投骰才能施放该奇术，但无需支付奇术点。</p><p>珍珠只能用于重新施放指定位阶或以下的奇术。</p><p><strong>价格</strong>：16,000gp(入门)、36,000gp(行家)、或 64,000 (老练)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：制作者必须能够施放该等级的法术；8,000gp(入门)、18,000gp(行家)或32,000gp(老练)。</p></div>"
+        },
+        "Pearl of Power, Seasoned": {
+            "name": "法力珍珠(行家)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这颗大小光泽都一般的珍珠能让持有者重新施放任意一个当天已经施放过的奇术(包括任何奇术调整)。使用者必须进行一次技能投骰才能施放该奇术，但无需支付奇术点。</p><p>珍珠只能用于重新施放指定位阶或以下的奇术。</p><p><strong>价格</strong>：16,000gp(入门)、36,000gp(行家)、或 64,000 (老练)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：制作者必须能够施放该等级的法术；8,000gp(入门)、18,000gp(行家)或32,000gp(老练)。</p></div>"
+        },
+        "Pearl of Power, Veteran": {
+            "name": "法力珍珠(老练)",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这颗大小光泽都一般的珍珠能让持有者重新施放任意一个当天已经施放过的奇术(包括任何奇术调整)。使用者必须进行一次技能投骰才能施放该奇术，但无需支付奇术点。</p><p>珍珠只能用于重新施放指定位阶或以下的奇术。</p><p><strong>价格</strong>：16,000gp(入门)、36,000gp(行家)、或 64,000 (老练)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：制作者必须能够施放该等级的法术；8,000gp(入门)、18,000gp(行家)或32,000gp(老练)。</p></div>"
+        },
+        "Pearl of the Sirens": {
+            "name": "海妖珍珠",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这颗漂亮的珍珠(价值至少为1,000gp)使所有者能如同身处干净清新的空气中一般在水中呼吸，其游泳移速为9，且能在水下毫无障碍地施放法术和采取行动。</p>\n<p><strong>价格</strong>：15,300gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>环境防护</em>；8,150gp。</p>\n</div>"
+        },
+        "Periapt of Health": {
+            "name": "健康护符",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这根项链是一枚挂在银链上的蓝色宝石，佩戴者对疾病免疫(包括超自然疾病)。</p>\n<p><strong>价格</strong>：7,500gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>治疗</em>；3,750gp。</p>\n</div>"
+        },
+        "Periapt of Proof Against Poison": {
+            "name": "辟毒护符",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这种项链的特征是挂在银链上多面切割的黑色宝石。佩戴者对毒素免疫，但首次戴上这条项链时就已经生效的毒素不受影响。</p>\n<p><strong>价格</strong>：27,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>治疗</em>；13,500gp。</p>\n</div>"
+        },
+        "Pick, Miner's": {
+            "name": "矿工镐",
+            "category": "工具与套件"
+        },
+        "Pike": {
+            "name": "步战矛",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">架设好时带有穿甲1，触及2，双手</div>",
+            "notes": ""
+        },
+        "Platinum": {
+            "name": "白金币",
+            "category": "财宝"
+        },
+        "Pole, 12'": {
+            "name": "长杆",
+            "category": "冒险工具",
+            "notes": "12英尺"
+        },
+        "Pony, heavy": {
+            "name": "重型矮种马",
+            "category": "动物与挽具",
+            "description": "<div class=\"swpf-core\">\n<p>详见Horse, Heavy。</p>\n</div>"
+        },
+        "Pony, light": {
+            "name": "轻型矮种马",
+            "category": "动物与挽具",
+            "description": "<div class=\"swpf-core\">\n<p>详见Horse, Light。</p>\n</div>"
+        },
+        "Portable Hole": {
+            "name": "携带式次元洞",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>携带式次元洞是一圈由相位蜘蛛网、灵质丝和星光线所编织而成的布环，这会形成一片可移动的异次元空间。</p>\n<p>携带式次元洞展开时直径达两码，但使用者可以将其折叠至如手帕般大小，其在完全打开时会通往一个四码深的异次元洞。这个洞可以从内部或外部捡起，只需拿住布环的边缘然后折起来即可。无论如何，入口都会消失，但洞中的物品会保留下来并随之移动。\n</p>\n<p>洞内含有足够一个体型0生物呼吸10分钟的空气。</p>\n<p><strong>价格</strong>：20,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>异界传送</em>；10,000gp。</p>\n</div>"
+        },
+        "Pot, iron": {
+            "name": "铁锅",
+            "category": "冒险工具"
+        },
+        "Potion of Damage Field w/Damage": {
+            "name": "致伤领域(伤害)药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：致伤领域</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "At the end of your turn, all adjacent beings automatically take 2d6 damage for 5 rounds."
+        },
+        "Potion of Major Healing": {
+            "name": "高级治疗药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：治疗</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Restores 2 Wounds less than an hour old."
+        },
+        "Potion of Major Protection": {
+            "name": "高级防护药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：防护</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Grants 2 points of Toughness for 5 rounds."
+        },
+        "Potion of Major Relief and Restoration": {
+            "name": "高级缓和(复原)药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：缓和</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Removes two of Shaken, Distracted, or Vulnerable and two die types from energy draining effects."
+        },
+        "Potion of Major Wall Walker": {
+            "name": "高级走壁药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：走壁</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Walk on vertical or horizontal surfaces at full Pace and can even run for 5 rounds."
+        },
+        "Potion of Minor Arcane Protection": {
+            "name": "次级奥法防护药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：奥法防护</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Hostile powers suffer a -2 penalty to affect this character and hostile power damage for 5 rounds."
+        },
+        "Potion of Minor Boost Trait": {
+            "name": "次级强化特性药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：强化/削弱特性</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Increase the selected Trait one die for 5 rounds."
+        },
+        "Potion of Minor Darksight": {
+            "name": "次级暗视药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：暗视</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Ignore up to 4 points of Illumination penalties for one hour."
+        },
+        "Potion of Minor Empathy": {
+            "name": "次级共感药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：共感</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Gain +1 bonus to Intimidation, Persuasion, Performance, Taunt, and Riding rolls for 5 rounds."
+        },
+        "Potion of Minor Environmental Protection": {
+            "name": "次级环境防护药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：环境防护</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "You can breathe, speak, survive fatal effects, and move at your normal Pace in fatal environments for one hour."
+        },
+        "Potion of Minor Fly": {
+            "name": "次级飞行药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：飞行</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "You can soar at Pace 12 for 5 rounds."
+        },
+        "Potion of Minor Growth": {
+            "name": "次级放大药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：放大/缩小</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Gain Size +2 (two steps increase to Strength and 2 points of Toughness) for 5 rounds."
+        },
+        "Potion of Minor Healing": {
+            "name": "次级治疗药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：治疗</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>"
+        },
+        "Potion of Minor Healing and Neutralize Poison or Disease": {
+            "name": "次级治疗(祛除毒素或疾病)药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：治疗</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Remove one Wound and negate any poison or disease less than an hour old."
+        },
+        "Potion of Minor Intangibility": {
+            "name": "次级无形药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：无形</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Unable to affect the physical world and it cannot affect you. Can travel through walls. Still affected by supernatural and magic attacks. Lasts 5 rounds."
+        },
+        "Potion of Minor Protection": {
+            "name": "次级防护药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：防护</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Grants 2 points of Armor for 5 rounds."
+        },
+        "Potion of Minor Relief and Restoration": {
+            "name": "次级缓和(复原)药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：缓和</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Removes one of Shaken, Distracted, or Vulnerable and one die types from energy draining effects."
+        },
+        "Potion of Minor Speed": {
+            "name": "次级加速药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：滞缓/加速</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Doubles movement (basic Pace and running) for 5 rounds."
+        },
+        "Potion of Minor Speed and Quickness": {
+            "name": "次级加速(迅疾)药水",
+            "category": "药水",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：滞缓/加速</p>\n<p>药水是以奥法能量予以注魔的炼金调制品。饮用药水(一个行动)会立即启动内含的奇术。每瓶药水只能含有单个奇术，且每瓶药水只含有一份剂量。</p><p>人物每轮只能从一份药水中获益。若获得多于一项，则随机投骰来决定哪个生效——剩余的均会被浪费掉。</p><p>可以通过一个行动给无力化或失去意识的对象服下药水。</p><p><strong>制作</strong>：制作次级药水的价格等同于奇术位阶×所使用的奇术点，然后将结果乘以25gp。高级药水则是将最终结果加倍(举例而言，一瓶次级治疗药水在不含任何调整时是入门(1)×3奇术点×25gp=75gp)。药水的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Doubles movement (basic Pace and running) and total MAP each turn is reduced by 2 for 5 rounds."
+        },
+        "Pouch, belt": {
+            "name": "腰包",
+            "category": "冒险工具"
+        },
+        "Ram": {
+            "name": "冲车",
+            "category": "攻城武器",
+            "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">冲车是用绳索或是铁链吊着重型木杆的可移动架构，至少需要两人班组才能摆动撞木冲撞另一物体，至多可由八人来摆动撞木，领队进行攻击投骰，其他成员进行援助。</span></p>\n<p>并非远程武器，用于冲撞物品，见130页的破坏物品。</p>\n</div>",
+            "notes": ""
+        },
+        "Ranseur": {
+            "name": "刺叉",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲1，触及1</div>"
+        },
+        "Rapier": {
+            "name": "刺剑",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">格挡+1</div>",
+            "notes": ""
+        },
+        "Rhino Hide": {
+            "name": "犀牛皮甲",
+            "category": "护甲与盾牌",
+            "description": "<div class=\"swpf-core\">\n<p>这件附魔(坚护)厚皮外套由犀牛皮制成。除了护甲得以加固以外，只要穿着者在回合内至少奔跑了5英寸(10码)，则此回合中单次成功攻击的伤害+4。</p>\n<p><strong>价格</strong>：5,165gp；<strong>重量</strong>：25磅。</p>\n<p><strong>制作</strong>：<em>强化特性</em>；2,600gp。</p>\n</div>"
+        },
+        "Ring of Counterspells": {
+            "name": "法术反制戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>空白的法术反制戒指可以存入单个对其施放的奇术(包含调整)。若是对佩戴者施放此奇术，则这次施术失败且戒指会再次变回空白。</p>\n<p><strong>价格</strong>：4,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>破祛</em>；2,000gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Energy Resistance": {
+            "name": "能量抗性戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>这枚秘银箍环能针对单一能量类型提供环境抗性，这要在制作时予以确定(若是觅得而来则由GM判定)。</p>\n<p><strong>价格</strong>：6,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>环境防护</em>；3,000gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Evasion": {
+            "name": "反射闪避戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指能让穿戴者在回避投骰上免费获得一次重投。</p>\n<p><strong>价格</strong>：25,000，<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：12,500gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Feather Falling": {
+            "name": "羽落戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者坠落时高度一律视同不多于两码。</p>\n<p><strong>价格</strong>：2,200gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,100gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Invisibility": {
+            "name": "隐形戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者获得高级<em>隐形</em>(延长)，其能将该戒指取下然后再戴上来重新启动此奇术。</p>\n<p><strong>价格</strong>：20,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>隐形</em>；10,000gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Protection, Major": {
+            "name": "高级防护戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>",
+            "notes": ""
+        },
+        "Ring of Protection, Minor": {
+            "name": "次级防护戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>",
+            "notes": ""
+        },
+        "Ring of Regeneration": {
+            "name": "再生戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者在戴有此戒指时每天可以尝试进行一次自然治疗投骰。这甚至能使已经受伤或失去的肢体及器官重新长出。这枚戒指对于佩戴前就已经遭受的损伤没有效果。</p>\n<p><strong>价格</strong>：90,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：45,000gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Spell Storing": {
+            "name": "储法戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>该戒指能同时只能存有对其施放的单个奇术。佩戴者能以一个行动激活存在其中的法术，获得一次以d12奥法技能进行施术的机会(如同由不羁角色予以施放)。该法术的持续时间不可以被延长或维持。</p>\n<p><strong>价格</strong>：18,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：9,000gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Sustenance": {
+            "name": "维生戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指在佩戴一整周后会为佩戴者提供维生养分，同时还能消除身体和精神的疲劳，所以佩戴者每天只需睡两小时便能获得八小时的好处。如果戒指被取下，所有者必须再佩戴一周来与其重新同步。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,250gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Telekinesis": {
+            "name": "念动戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>该戒指会让佩戴者获得次级<em>念动</em>。</p>\n<p><strong>价格</strong>：75,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>念动</em>；37,500gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Three Wishes": {
+            "name": "三愿戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指带有三颗红宝石，每颗红宝石都储存着一发<em>祈愿</em>。每用掉一发祈愿，对应的红宝石就会化作尘土。这枚戒指在用完所有的祈愿之后就不再带有魔力。</p>\n<p><strong>价格</strong>：120,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>祈愿</em>；97,500gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of Water Walking": {
+            "name": "水上行走戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指通常由珊瑚或带有波浪图案装饰的泛蓝金属制成，其能让佩戴者得以走过任何液体(如同其是坚实地面一般)。</p>\n<p><strong>价格</strong>：15,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：7,500gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of the Ram": {
+            "name": "公羊戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者能以一个限定自由行动命令该戒指显现出一股勉强可辨的公羊状力场来攻击敌人。此力场会打击单个目标，并造成每发充能1d6伤害，每次使用上限是3发充能，射程是10英寸(20码)。任何遭到此公羊击中的对象都会被击退2d6英寸。(体型3或以上的生物免疫此后续效果。)\n</p>\n<p>每枚新造的戒指具备25发充能，这枚戒指在所有的充能消耗殆尽后就会变为非魔法物品。</p>\n<p><strong>价格</strong>：8,600gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>矢弹</em>，<em>强化特性</em>；4,300gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Ring of the Skillful": {
+            "name": "多才多艺戒指",
+            "category": "戒指",
+            "description": "<div class=\"swpf-core\">\n<p>该戒指会给予单个技能+1加值，这要在制作时决定。该加值不会影响攻击投骰或用于启动奇术的投骰。</p>\n<p><strong>价格</strong>：10,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：5,000gp。</p>\n</div>",
+            "notes": ""
+        },
+        "Robe of Blending": {
+            "name": "混迹法袍",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>每天一次，这条简单的羊毛法袍会赋予穿着者高级<em>易容</em>(带有大小调整)。使用者同时还能说出和理解所选形态的基础种族语言。</p>\n<p><strong>价格</strong>：8,400gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：<em>易容</em>，<em>通晓语言</em>；4,200gp。</p>\n</div>"
+        },
+        "Robe of Bone": {
+            "name": "骸骨法袍",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>当能施放<em>行尸</em>奇术的角色穿着该法袍时，其能看见这件法袍那不起眼的布料上绣着的小型死灵图样。穿着者每轮可以取下一枚图样并扔在地上，其会变成一个真正的不死生物。法袍并不能控制该生物，但穿着者可以就每个生物都使用\n1 奇术点来予以控制(无需投骰)。在该生物遭到摧毁之前，这些奇术点都不会恢复。</p>\n<p>新制的骸骨法袍具有下列死灵刺绣图样(每种两枚)：</p>\n<ul>\n<li>人类骷髅</li>\n<li>骷髅狼</li>\n<li>重型骷髅马</li>\n<li>地精行尸</li>\n<li>人类行尸</li>\n<li>食人魔行尸\n<strong>价格</strong>：2,400gp；<strong>重量</strong>：1磅。\n</li>\n</ul>\n<p><strong>制作</strong>：<em>行尸</em>；1,200gp。</p>\n</div>"
+        },
+        "Robe of Scintillating Colors": {
+            "name": "虹光法袍",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>只要发出命令，这件七彩法袍就会以穿着者为中心照亮半径5英寸(10码)的范围。每天至多十次，使用者可以说出命令词来对距离至多10英寸(20码)远的单个目标施放次级<em>震慑</em>。法袍的穿着者还会受益于次级<em>偏斜</em>(远程)。\n</p>\n<p><strong>价格</strong>：27,000gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：<em>偏斜</em>，<em>震慑</em>；13,500gp。</p>\n</div>"
+        },
+        "Robe of Useful Items": {
+            "name": "杂货法袍",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>穿着这件简朴法袍的角色会注意到其上装饰有不同形状的小型补丁。只有穿着者才能看见这些补丁，认出其能变化的东西，以及将其取下。</p>\n<p>每轮能以一个限定自由行动取下一块补丁，这种行为会使其变为真实的物品，如下所述。</p>\n<p>新制的杂货法袍具有下列补丁(每种两块)：</p>\n<ul>\n<li>匕首</li>\n<li>牛眼提灯(燃料充足且点燃)</li>\n<li>镜子(2×4英尺的抛光钢镜)</li>\n<li>长杆(10英尺长)</li>\n<li>麻绳(50英尺一卷)</li>\n<li>布袋\n此外，法袍还具备数枚其他补丁，投4d4来决定其他补丁的数量，然后每一块都根据下表投d12来决定其性质。</li>\n</ul>\n<table><colgroup> <col style=\"width: 2em;\" /> <col style=\"width: 10em;\" /> </colgroup>\n<thead>\n<tr>\n<th class=\"main-heading\" colspan=\"2\">杂货</th>\n</tr>\n<tr>\n<th class=\"sub-heading\">D12</th>\n<th class=\"sub-heading left\">结果</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"centered\">1</td>\n<td class=\"centered\">装有100金币的袋子</td>\n</tr>\n<tr>\n<td class=\"centered\">2</td>\n<td class=\"centered\">铁门(至多10英尺宽，10英尺高，一侧有着门闩，必须被正立放置、固定并上好铰链)</td>\n</tr>\n<tr>\n<td class=\"centered\">3</td>\n<td class=\"centered\">10颗宝石(每颗价值100gp)</td>\n</tr>\n<tr>\n<td class=\"centered\">4</td>\n<td class=\"centered\">木梯子(24英尺长)</td>\n</tr>\n<tr>\n<td class=\"centered\">5</td>\n<td class=\"centered\">骡子(带鞍袋)</td>\n</tr>\n<tr>\n<td class=\"centered\">6</td>\n<td class=\"centered\">坑洞(12×12×12英尺)</td>\n</tr>\n<tr>\n<td class=\"centered\">7</td>\n<td class=\"centered\">高级<em>治疗</em>药水</td>\n</tr>\n<tr>\n<td class=\"centered\">8</td>\n<td class=\"centered\">划艇(12英尺长)</td>\n</tr>\n<tr>\n<td class=\"centered\">9</td>\n<td class=\"centered\">随机决定的次级卷轴。</td>\n</tr>\n<tr>\n<td class=\"centered\">10</td>\n<td class=\"centered\">一对战犬(视作狗)</td>\n</tr>\n<tr>\n<td class=\"centered\">11</td>\n<td class=\"centered\">窗户(2×4英尺，至多2英尺深)</td>\n</tr>\n<tr>\n<td class=\"centered\">12</td>\n<td class=\"centered\">便携式攻城锤</td>\n</tr>\n</tbody>\n</table>\n<p><strong>价格</strong>：7,000gp；<strong>重量</strong>：1磅。</p>\n<p><strong>制作</strong>：<em>创造物品</em>；3,500gp。</p>\n</div>"
+        },
+        "Rod of Absorption": {
+            "name": "吸收权杖",
+            "category": "权杖",
+            "description": "<div class=\"swpf-core\">\n<p>这根权杖能将法术或类法术能力吸入其中。只有指向持握权杖的角色或其装备的单目标法术才会遭到吸收，然后这根权杖会抵消此法术效果，并存入实际用于施放此奇术的奇术点(因此吸收奇术点减耗至0的奇术没有任何好处)。</p>\n<p>吸收不需要使用者的任何行动，且后者接下来可以随意使用储存其中的奇术点。</p>\n<p>吸收权杖能吸收的奇术点上限是50点，权杖不能以其他方式进行充能。</p>\n<p>持用者总是知道权杖的剩余吸收容量和当前储存的能量值。</p>\n<p><strong>价格</strong>：50,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：<em>破祛</em>；25,000gp。</p>\n</div>"
+        },
+        "Rod of Metamagic": {
+            "name": "超魔权杖",
+            "category": "权杖",
+            "description": "<div class=\"swpf-core\">\n<p>这根权杖的持用者能将其施放的某一法术的奇术调整消耗减少1。次级权杖每天能如此使用一次，而高级权杖则是每天三次。</p>\n<p><strong>价格</strong>：9,000gp(次级)、32,000gp(高级)；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：4,500gp(次级)、16,000gp(高级)。</p>\n</div>"
+        },
+        "Rod of Negation": {
+            "name": "否定权杖",
+            "category": "权杖",
+            "description": "<div class=\"swpf-core\">\n<p>否定权杖能使大部分魔法物品失灵5轮，这种射线是射击或奥法技能投骰(使用者选择)予以放出。此投骰忽略所有外部减值(物品体型、掩蔽、射程、照明等等)，但目标装置必须可见。</p>\n<p>这根权杖还能抵消一项敌人物品的即时效果。若要如此，权杖的持用者必须处于待机且成功打断敌人。倘若如此，对手的奇术自动失效。</p>\n<p>这根权杖每天能作用三次。</p>\n<p><strong>价格</strong>：37,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：<em>破祛</em>；18,500gp。</p>\n</div>"
+        },
+        "Rod of Rulership": {
+            "name": "统御权杖",
+            "category": "权杖",
+            "description": "<div class=\"swpf-core\">\n<p>这根权杖通常是以上好材料精心打造的皇家节杖，其给予使用者指挥和协调200码半径范围内至多100个生物的能力。予以持握时，使用者的所有威吓和交涉投骰+4，同时获得指挥和天生领袖专长(各自有着200码指挥半径)。</p>\n<p>使用者可以随意启动权杖，但其只能运作总共500分钟，之后就会化作尘土。</p>\n<p><strong>价格</strong>：60,000gp；<strong>重量</strong>：8磅。</p>\n<p><strong>制作</strong>：<em>傀儡</em>；32,500gp。</p>\n</div>"
+        },
+        "Rod of Wonder": {
+            "name": "惊奇权杖",
+            "category": "权杖",
+            "description": "<div class=\"swpf-core\">\n<p>惊奇权杖是一件不可预测的奇怪装置，每次使用都会随机产生任意数量的奇异效果。权杖的典型能力列在下方<strong>惊奇权杖启动表</strong>中。除非另有说明，否则所有效果的持续时间均为5。</p>\n<p>这件装置只在在走投无路时才会投入使用，敌人既有可能得到强化，也有可能就此败北！</p>\n<p><strong>价格</strong>：12,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：<em>困惑</em>；6,000gp。</p>\n</div>"
+        },
+        "Rod of the Python": {
+            "name": "巨蟒权杖",
+            "category": "权杖",
+            "description": "<div class=\"swpf-core\">\n<p>这根权杖的一端像牧羊人杖般弯曲往回扭转回，且通常饰有由蟒/蛇头。这根权杖有四英尺长，在战斗中能造成力量+d6+1的伤害。</p>\n<p>如果使用者将这根权杖扔到地上(属于一个行动)，后者会转变成一条蟒蛇，并能立即行动。这条蟒蛇会服从其主人的所有命令，且会在使用者希望或从其身边离开超过20英寸(40码)时变回权杖形态。</p>\n<p>如果这条“蛇”被杀，其就会变回权杖形态且在三天内不能再次启动。巨蟒权杖只在其拥有者是善良阵营时才会有所作用。</p>\n<p><strong>价格</strong>：13,000gp；<strong>重量</strong>：10磅。</p>\n<p><strong>制作</strong>：<em>野兽同盟</em>；6,500gp。</p>\n</div>"
+        },
+        "Rope of Climbing": {
+            "name": "攀爬绳",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这根奇怪的魔法绳子有20码长，尽管并不比魔杖粗，但结实到足以承重3,000磅。当被拿在手中并予以命令时，其便会以移速3向前方蛇行，并将自己固定在使用者希望的任何地点上，同时也能根据命令解开并返回。</p>\n<p>在使用者能从绳子的魔法性质中受益的地方(GM决定)，其还能抵消运动(攀爬)投骰的环境减值。</p>\n<p><strong>价格</strong>：3,000gp；<strong>重量</strong>：3磅。</p>\n<p><strong>制作</strong>：1,500gp。</p>\n</div>"
+        },
+        "Rope of Entanglement": {
+            "name": "纠缠绳",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这卷10尺长的绳子看似毫不起眼。然而，倘若予以命令，其就会迅猛出击(最远到自身长度的一半)去纠缠某一对象。</p>\n<p>这根绳子会赋予使用者<em>纠缠</em>奇术，使用运动(投掷)予以施放。</p>\n<p>若遭到切断，绳子便会被摧毁。</p>\n<p><strong>价格</strong>：21,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：<em>纠缠</em>以及10,500gp。</p>\n</div>"
+        },
+        "Rope, hemp (10\"/20 yards)": {
+            "name": "麻绳",
+            "category": "冒险工具",
+            "notes": "10英寸/20码"
+        },
+        "Rope, silk (10\"/20 yards)": {
+            "name": "丝绳",
+            "category": "冒险工具",
+            "notes": "10英寸/20码"
+        },
+        "Royal outfit": {
+            "name": "皇室服装",
+            "category": "衣物"
+        },
+        "Sack": {
+            "name": "布袋",
+            "category": "冒险工具"
+        },
+        "Saddle, riding": {
+            "name": "骑乘鞍座",
+            "category": "动物与挽具"
+        },
+        "Saddle, war (free reroll Riding)": {
+            "name": "战争鞍座",
+            "category": "动物与挽具",
+            "description": "<div class=\"swpf-core\">\n<p>可免费重投稳坐鞍座的骑乘投骰。</p>\n</div>",
+            "notes": ""
+        },
+        "Saddlebags (empty)": {
+            "name": "鞍袋(空)",
+            "category": "动物与挽具"
+        },
+        "Sap": {
+            "name": "闷棍",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">非致命伤害</div>",
+            "notes": ""
+        },
+        "Scale, Merchant's": {
+            "name": "商人天秤",
+            "category": "工具与套件"
+        },
+        "Scarab of Protection": {
+            "name": "防护圣甲虫",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这个装置是一枚银质的甲虫状徽章。倘若将其持握一轮，表面就会出现一则铭文，持握者以此可知这是一件防御性装置。</p>\n<p>这在佩戴时能吸收至多12点<strong>能量流失</strong>攻击(240页)，此后其就会变成粉尘并就此销毁。</p>\n<p><strong>价格</strong>：38,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>奥法防护</em>；19,000gp。</p>\n</div>"
+        },
+        "Scarab, Golembane": {
+            "name": "破魔像圣甲虫",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\"><p>这枚甲虫状的胸针能使佩戴者侦测10英寸(20码)内的任何魔像，但其必须专注一心才能进行侦测(属于一个行动)。</p><p>拥有者在使用武器、无武装攻击或天生武器攻击时可以此忽略至多4点任何魔像的护甲。</p><p><strong>价格</strong>：2,500gp；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>侦测奥法</em>；1,250gp。</p></div>"
+        },
+        "Scimitar": {
+            "name": "弯刀",
+            "category": "近战武器"
+        },
+        "Scroll of Blast": {
+            "name": "爆发卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：爆发</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "2d6 damage to MBT, 3d6 on a raise."
+        },
+        "Scroll of Blind": {
+            "name": "目盲卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：目盲</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Inflicts –2/–4 penalty to all actions on victims, use Vigor to shake off as a free action at the end of each turn."
+        },
+        "Scroll of Bolt": {
+            "name": "矢弹卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：矢弹</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "2d6 ranged attack, 3d6 with a raise at Smarts x2 range"
+        },
+        "Scroll of Bolt, AP": {
+            "name": "矢弹(穿甲)卷轴",
+            "category": "卷轴",
+            "description": "<p>See Pathfinder p207。</p>",
+            "notes": "2d6 ranged attack, 3d6 with a raise at Smarts x2 range, AP 2"
+        },
+        "Scroll of Deflection": {
+            "name": "偏斜卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：偏斜</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Foes must subtract 2 from either melee or ranged attacks (caster’s choice). With a raise, the penalty applies to both. Lasts 5 rounds."
+        },
+        "Scroll of Detect Arcana": {
+            "name": "侦测奥法卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：侦测/隐藏奥法</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "See and detect all supernatural persons, objects, or effects in sight for five rounds. This includes invisible foes (offset 4 penalties), enchantments on people or items, and so on. With a raise, knows the type of enchantment as well."
+        },
+        "Scroll of Dispel": {
+            "name": "破袪卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：破袪</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Opposed roll of arcane skills. If used to counter, be on Hold and interrupt foe. No effect on permanent enchantments or natural abilities."
+        },
+        "Scroll of Fear": {
+            "name": "恐惧卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：恐惧</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Targets in LBT makes a Fear check. Extras who fail are Panicked and Wild Cards roll on the Fear Table. With a raise, the Fear roll is at −2 and Wild Cards add +2 to Fear Table results."
+        },
+        "Scroll of Growth": {
+            "name": "放大卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：放大/缩小</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Increase the recipient’s Size by 2, Strength by 2 dice, and 2 points of Toughness."
+        },
+        "Scroll of Healing": {
+            "name": "治疗卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：治疗</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Success removes one Wound, and a raise removes two Wounds less than an hour old."
+        },
+        "Scroll of Illusion": {
+            "name": "幻象卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：幻象</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "MBT Illusion can be used to create a visual/audio scene of most anything the caster can imagine, intangible, and incapable of affecting the real world. Those who contact an illusion or doubt it’s real make a Smarts roll as a free action (at −2 if the power was activated with a raise). Lasts 5 rounds."
+        },
+        "Scroll of Invisibility": {
+            "name": "隐形卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：隐形</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "For 5 rounds, sight actions and Notice against you are made at −4, or −6 with a raise."
+        },
+        "Scroll of Lower Trait": {
+            "name": "削弱特性卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：强化/削弱特性</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Lower a Trait one die or two with a raise, opposed by Spirit as a free action at the end of the target's turn."
+        },
+        "Scroll of Sloth": {
+            "name": "滞缓卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：滞缓/加速</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Halves targets movement (makes it an action with raise), Spirit roll to resist at end of each turn"
+        },
+        "Scroll of Slumber": {
+            "name": "沉眠卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：沉眠</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Spirit roll (at −2 if caster got a raise) or fall asleep for one hour. Very loud noises or physical interaction, grant another Spirit roll."
+        },
+        "Scroll of Smite": {
+            "name": "痛击卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：痛击</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Cast on weapon or full quiver. Weapon's damage increased by +2 (+4 on raise) for 5 rounds."
+        },
+        "Scroll of Stun": {
+            "name": "震慑卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：震慑</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Victims in MBT must make a Vigor roll (−2 with a raise) or be Stunned."
+        },
+        "Scroll of Teleport": {
+            "name": "传送卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：传送</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Disappear and instantly reappear up to 12″ (24 yards) distant, or double that with a raise."
+        },
+        "Scroll of Zombie": {
+            "name": "行尸卷轴",
+            "category": "卷轴",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：行尸</p>\n<p>卷轴中含有魔法咒语、符文和字形，使用者只要将其大声读出即可予以启动。</p><p>每张卷轴上都记有一个奇术，同时可能还会带有奇术调整(若在描述中列出)。角色必须手持卷轴，且每回合能读的卷轴不能超过一张。</p><p>读卷轴是一个行动，且需要一次心魂或奥法技能投骰(施法者选择)。倘若投骰成功，该奇术得以启动，同时卷轴消失。即使投骰失败，读者也可以重试。然而大失败意味着奇术不会启动，而且卷轴还会碎成尘土。</p><p><strong>制作</strong>：卷轴的成本等同于其奇术位阶×所使用的奇术点，然后再将总值乘以25gp。举例而言，一张<em>矢弹</em>(穿甲2)卷轴，就是入门(1)×2奇术点×25gp=50gp。卷轴的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "Animates a corpse with Smarts, Spirit, and related skills at d4, one of them d6 with a raise."
+        },
+        "Scythe": {
+            "name": "巨镰",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">双手</div>",
+            "notes": ""
+        },
+        "Sealing Wax, stick": {
+            "name": "封蜡(1根)",
+            "category": "冒险工具"
+        },
+        "Sewing Needle": {
+            "name": "缝衣针",
+            "category": "冒险工具"
+        },
+        "Shield Spikes": {
+            "name": "盾刺",
+            "category": "盾牌",
+            "description": "<div class=\"swpf-core\">\n<p>使用盾牌攻击的伤害+1。</p>\n</div>"
+        },
+        "Short Spear/Javelin": {
+            "name": "短矛/标枪",
+            "category": "远程武器"
+        },
+        "Shovel": {
+            "name": "铲子",
+            "category": "冒险工具"
+        },
+        "Shuriken": {
+            "name": "手里剑",
+            "category": "远程武器"
+        },
+        "Sickle": {
+            "name": "镰刀",
+            "category": "近战武器"
+        },
+        "Siege Tower": {
+            "name": "攻城塔",
+            "category": "攻城武器",
+            "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">攻城塔是设计用于攀越城墙的带轮巨型木塔，移动这个架构需要至少八人班组，其能在地面上从塔内以移速1来推动这个装置(如果成员达到16人则是双倍，若是达到24人则是3倍)。在放下通常位于最高层的吊板之前，位于其中的对象会躲在完全掩蔽和坚实木墙之后。有些攻城塔可能在高层还留有箭孔，使弓手们得以在接近敌人城墙时进行射击。</span></p>\n<p>并非远程武器，用于攀越城墙；射手能在高层处进行射击。</p>\n</div>"
+        },
+        "Silver": {
+            "name": "银币",
+            "category": "财宝"
+        },
+        "Sledge": {
+            "name": "雪橇",
+            "category": "工具与套件"
+        },
+        "Sleep Arrow": {
+            "name": "睡眠箭",
+            "category": "武器",
+            "description": "<div class=\"swpf-core\">\n<p>这根带有白色尾羽的附魔箭(毁伤)被涂成了白色，其会造成非致命伤害，任何被其命中的对象必须抵抗<em>沉眠</em>的效果，使用攻击投骰作为施术投骰。</p>\n<p><strong>价格</strong>：132gp；<strong>重量</strong>：1/10磅。</p>\n<p><strong>制作</strong>：<em>沉眠</em>；70gp。</p>\n</div>"
+        },
+        "Sling": {
+            "name": "投索",
+            "category": "远程武器"
+        },
+        "Sling Stones": {
+            "name": "投索石丸",
+            "category": "远程武器弹药",
+            "description": "<div class=\"swpf-core\">\n<p>圆滑的石子,1磅/20发</p>\n</div>",
+            "notes": "10发"
+        },
+        "Slippers of Spider Climbing": {
+            "name": "蛛行拖鞋",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这双拖鞋在穿着时能赋予穿着者次级<em>走壁</em>奇术。极度光滑的表面(冰、涂油或滑溜的表面)会使这双拖鞋失效。</p>\n<p><strong>价格</strong>：4,800gp；<strong>重量</strong>：1/2磅。</p>\n<p><strong>制作</strong>：<em>走壁</em>；2,400gp。</p>\n</div>"
+        },
+        "Smoke Stick": {
+            "name": "发烟棒",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>这种经过炼金处理的棒子能在中型爆发盖板内产生持续一分钟的浓烟(黑暗照明)，但遇到强风一轮就会消散。</p>\n</div>",
+            "notes": "中型爆发盖板"
+        },
+        "Soap": {
+            "name": "肥皂",
+            "category": "冒险工具"
+        },
+        "Sovereign Glue": {
+            "name": "至尊胶",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这种淡琥珀色的物质既浓黏又粘稠，由于其力量独特，因此只能存放在内部涂有特殊油膏的扁瓶当中。</p>\n<p>予以觅得时，每个扁瓶里会含有1-7盎司这种东西(1d8-1，下限为1)。</p>\n<p>这种物质一盎司就能覆盖一平方英尺的表面，而且几乎能将任意两种物质永久性地结合在一起。这需要一轮来进行设置。若是物件在这个时间过去之前就被扯开(属于一个自由行动)，使用的至尊胶就会失去粘性并变得毫无作用。</p>\n<p>如果至尊胶已经设置完毕，尝试分离这两个结合在一起的物件都会是白费力气，除非在结合处使用<strong>万溶剂</strong>(见下)。万溶剂可以溶解至尊胶。</p>\n<p><strong>价格</strong>：2,400gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,200gp。</p>\n</div>"
+        },
+        "Spear": {
+            "name": "矛",
+            "category": "远程武器"
+        },
+        "Spear, Short": {
+            "name": "短矛",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">单手</div>",
+            "notes": ""
+        },
+        "Spell Component Pouch": {
+            "name": "法术材料包",
+            "category": "工具与套件"
+        },
+        "Spellbook, Wizard (blank)": {
+            "name": "法师法术书(空白)",
+            "category": "工具与套件"
+        },
+        "Spike (piton)": {
+            "name": "尖刺(岩钉)",
+            "category": "冒险工具"
+        },
+        "Spiked Chain": {
+            "name": "刺链",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">触及1，忽略盾牌加值，双手</div>",
+            "notes": ""
+        },
+        "Spyglass (Notice +2 at range)": {
+            "name": "小望远镜",
+            "category": "工具与套件",
+            "notes": "远程察觉+2"
+        },
+        "Stabling (per day)": {
+            "name": "马厩(每日)",
+            "category": "住宿"
+        },
+        "Staff of Abjuration": {
+            "name": "防护法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>这些法杖通常由远古橡树或其他大树的心材雕刻而成。 (聪慧或施法)</p>\n<ul>\n<li><em>破祛</em>(1发充能)</li>\n<li><em>放逐</em>(2发充能)</li>\n<li><em>奥法防护</em>(1发充能)</li>\n<li><em>致伤领域</em>(2发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>"
+        },
+        "Staff of Charming": {
+            "name": "魅惑法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>这根华丽的法杖是由精雕细琢的弯曲木材制成。(聪慧或施法)</p>\n<ul>\n<li><em>共感</em>(1发充能)</li>\n<li><em>傀儡</em>(3发充能)\n<strong>价格</strong>：17,600gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；8,800gp。</p>\n</div>"
+        },
+        "Staff of Defense": {
+            "name": "防御法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>防御法杖是一根简朴的抛光木杖，摆出防御架式时会有力地颤动不已。(聪慧或信仰)</p>\n<ul>\n<li><em>环境防护</em>(2发充能)</li>\n<li><em>偏斜</em>(3发充能)</li>\n<li>高级<em>防护</em>(2发充能)</li>\n<li><em>防护</em>(1发充能)\n<strong>价格</strong>：62,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；31,000gp。</p>\n</div>"
+        },
+        "Staff of Evocation": {
+            "name": "塑能法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>通常由光滑的山核桃木或紫衫木制成。(聪慧或施法)</p>\n<ul>\n<li><em>矢弹</em>(穿甲2) (魔法飞弹；1发充能)</li>\n<li><em>爆发</em>(大型爆发) (火球；2发充能)</li>\n<li><em>屏障</em>(力场墙；2发充能)</li>\n<li><em>矢弹</em>(两个额外目标) (闪电链；5发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>"
+        },
+        "Staff of Healing": {
+            "name": "治愈法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>饰有银色符文的白蜡法杖。 (心魂或信仰) </p>\n<ul>\n<li><em>治疗</em> (1发充能)</li>\n<li><em>缓和</em> (2发充能)</li>\n<li><em>缓和</em>(复原) (3发充能)</li>\n<li><em>治疗</em>(祛除毒素和疾病) (1发充能)\n<strong>价格</strong>：29,600gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；14,800gp。</p>\n</div>"
+        },
+        "Staff of Life": {
+            "name": "生命法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>生命法杖由覆有黄金的厚重抛光橡木制成，装饰有蜿蜒的符文。 (心魂或信仰)</p>\n<ul>\n<li>高等<em>治疗</em>(2发充能)</li>\n<li><em>复生</em>(5发充能)\n<strong>价格</strong>：109,400gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；79,700gp。</p>\n</div>"
+        },
+        "Staff of Necromancy": {
+            "name": "死灵法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>这根法杖由黑檀或其他黑色木头制成，刻有混杂着骨骸和蛛腿般奇异细长符文的图样。(聪慧或施法)</p>\n<ul>\n<li><em>恐惧</em>(1发充能)</li>\n<li><em>抽取奇术点</em>(2发充能)</li>\n<li><em>削弱力量</em>(2发充能)</li>\n<li><em>行尸</em>(永续)(3发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>"
+        },
+        "Staff of Power": {
+            "name": "力量法杖",
+            "category": "法杖",
+            "description": "<div class=\"swpf-core\">\n<p>攻守兼顾的力量法杖是一件非常强力的魔法物品。(聪慧或施法)</p>\n<ul>\n<li><em>光亮</em>(不灭明焰；1发充能)</li>\n<li><em>爆发</em>(火球；1发充能)</li>\n<li>次级<em>飞行</em>(仅能上下飘浮) ，持续一分钟 (1发充能)</li>\n<li><em>矢弹</em>(伤害) (闪电束；3发充能)</li>\n<li><em>矢弹</em>(魔法飞弹；1发充能)</li>\n<li><em>削弱力量</em>(2发充能)</li>\n<li><em>爆裂</em>(寒冰锥；2发充能)</li>\n<li><em>奥法防护</em>(1发充能)</li>\n<li><em>屏障</em>(仅在施法者周围直径12尺的球形力场墙；2发充能)\n<strong>额外能力</strong>：力量法杖会让格斗+1且造成力量+d6+1伤害。如果成功命中后消耗一发充能，则使用者的伤害+d6。\n</li>\n</ul>\n<p><strong>报复打击</strong>：可以故意损坏力量法杖以此进行报复打击。这需要一个限定自由行动，但无须投骰。当前法杖中的所有充能立即被施放至6英寸(12码)的扩散范围内。</p>\n<p>所有处于大型爆发范围内的生物受到Xd6点伤害，其中X为法杖中剩余的充能数。这可以被回避，但成功回避的对象依然会受一半伤害。</p>\n<p>损坏法杖的角色投一枚d6，若为4+则会被安全地推移至另一个位面(而且必须自己设法回来)。若为1-3，则法杖的惊人的能量会将对象解离。</p>\n<p><strong>价格</strong>：235,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：所有列出的奇术；117,500gp。</p>\n</div>"
+        },
+        "Staff/Quarterstaff": {
+            "name": "棍/四分棍",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">格挡+1，触及1，双手</div>",
+            "notes": ""
+        },
+        "Starknife": {
+            "name": "星刃",
+            "category": "远程武器"
+        },
+        "Stone of Good Luck": {
+            "name": "幸运石",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>幸运石的拥有者在予以保有时会获得幸运专长。</p>\n<p><strong>价格</strong>：20,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：10,000gp。</p>\n</div>"
+        },
+        "Sunrod": {
+            "name": "日光杖",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>这种金头铁棒能在30英尺半径内提供持续6小时的普通光照，同时能将在此之外30英尺远的照明提升一级，这不会发热，而且视作日光。</p>\n</div>",
+            "notes": ""
+        },
+        "Sustaining Spoon": {
+            "name": "维生汤匙",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>如果将这柄平平无奇的餐具放置在空容器中，粘稠的面糊就会填满容器。尽管这种面糊尝起来就像是温暖潮湿的纸板，但是其营养实际上十分丰富，同时含有让任何食草动物、杂食动物或食肉动物维生所需的一切。汤匙每天至多可以产生供四名人类食用的面糊。\n</p>\n<p><strong>价格</strong>：5,400gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>创造物品</em>；2,700gp。</p>\n</div>"
+        },
+        "Sword of the Planes": {
+            "name": "位面之剑",
+            "category": "武器",
+            "description": "<div class=\"swpf-core\">\n<p>这柄剑的魔法特质会基于其当前所处的实存位面或用于对抗的源自该位面的目标而发生变化。两种情况同时生效时，使用其中最高的加值。</p>\n<ul>\n<li><strong>异界生物</strong>：对抗异界生物时，持有者的伤害免费获得一次重投。</li>\n<li><strong>物质界属</strong>：格斗+1，力量+d8，穿甲1。</li>\n<li><strong>元素界属</strong>：格斗+2，力量+d8，穿甲1。</li>\n<li><strong>星界/灵界/其他</strong>：格斗+2，力量+d10，穿甲2。\n<strong>价格</strong>：22,315gp；<strong>重量</strong>：4磅。\n</li>\n</ul>\n<p><strong>制作</strong>：<em>异界传送</em>；11,315gp。</p>\n</div>"
+        },
+        "Sword, Bastard": {
+            "name": "混种剑",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲1，可以双手使用(若是这样则伤害+1)</div>",
+            "notes": ""
+        },
+        "Sword, Great": {
+            "name": "巨剑",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲2，双手</div>"
+        },
+        "Sword, Long": {
+            "name": "长剑",
+            "category": "近战武器"
+        },
+        "Sword, Short": {
+            "name": "短剑",
+            "category": "近战武器"
+        },
+        "Tanglefoot Bag": {
+            "name": "绊足包",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>体型3或以下的对象若被这一小包黏稠材料命中就会在5轮内陷入分神，并且其必须成功通过一次运动投骰，否则还会被粘在地上(纠缠)。</p>\n</div>",
+            "notes": ""
+        },
+        "Tent, canvas (2 person)": {
+            "name": "帆布帐篷(2人用)",
+            "category": "冒险工具"
+        },
+        "Thieves' Tools (-2 Thievery w/o)": {
+            "name": "盗贼套件",
+            "category": "工具与套件",
+            "description": "<div class=\"swpf-core\">\n<p>开锁器和尖刺、油瓶、油脂、丝绳、手套。没有这些东西的贼活-2。</p>\n</div>",
+            "notes": ""
+        },
+        "Thunderstone": {
+            "name": "爆雷石",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>这种附魔过的石头在敲击硬质表面时能爆发出震耳欲聋的轰鸣。盖板内的所有对象必须成功通过一次活力投骰，否则会遭受动摇并耳聋一小时。</p>\n</div>",
+            "notes": ""
+        },
+        "Tindertwig": {
+            "name": "火柴",
+            "category": "炼金物品",
+            "description": "<div class=\"swpf-core\">\n<p>这根小木条在敲击硬质表面时会燃起火焰，火炬和其他可燃物藉此能以一个行动进行点燃。</p>\n</div>",
+            "notes": ""
+        },
+        "Torch (1 hour, 4\" radius)": {
+            "name": "火炬",
+            "category": "冒险工具",
+            "notes": "1小时，4英寸半径"
+        },
+        "Trail Ration (per day)": {
+            "name": "口粮(每天)",
+            "category": "食物与饮料"
+        },
+        "Traveler's outfit": {
+            "name": "旅者服装",
+            "category": "衣物"
+        },
+        "Trebuchet": {
+            "name": "抛石机",
+            "category": "攻城武器",
+            "description": "<div class=\"swpf-core\">\n<p>投石机和抛石机是把大块石头扔向敌方防御工事以及部队阵列的机械装置，这通常需要八人班组来装填投射物，放下抛射杠杆，观察及瞄准。发射可由一人完成，但装填投射物至少需要四名人员。</p>\n<p>重武器，装填时间是每个四人班组5分钟。</p>\n</div>",
+            "notes": "中型爆发盖板"
+        },
+        "Trident": {
+            "name": "三叉戟",
+            "category": "远程武器"
+        },
+        "Unarmed Strike (Monk)": {
+            "name": "无武装打击(武僧)",
+            "category": "近战武器"
+        },
+        "Universal Solvent": {
+            "name": "万溶剂",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这种物质能溶解至尊胶、绊足包以及任何粘合剂。使用这种溶剂是一个行动。</p>\n<p><strong>价格</strong>：50gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：25gp。</p>\n</div>"
+        },
+        "Vial, small": {
+            "name": "小瓶",
+            "category": "冒险工具"
+        },
+        "Wand of Banish": {
+            "name": "放逐魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：放逐</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Opposed arcane roll vs Spirit. Success Shakens and each raise causes a Wound. Incapacitated returns to native dimension."
+        },
+        "Wand of Blast": {
+            "name": "爆发魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：爆发</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. 3d6 damage to MBT, 4d6 on a raise."
+        },
+        "Wand of Bolt": {
+            "name": "矢弹魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：矢弹</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. 2d6 AP 2 ranged attack, 3d6 with a raise."
+        },
+        "Wand of Boost Trait": {
+            "name": "强化特性魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：强化/削弱特性</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Raise the specified Trait one die or two with a raise."
+        },
+        "Wand of Deflection": {
+            "name": "偏斜魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：偏斜</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. For 5 rounds, foes subtract 2 from either melee or ranged attacks (caster’s choice). With a raise, the penalty applies to both."
+        },
+        "Wand of Detect Arcana": {
+            "name": "侦测奥法魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：侦测/隐藏奥法</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. See and detect all supernatural persons, objects, or effects in sight for five rounds. This includes invisible foes (offset 4 penalties), enchantments on people or items, and so on. With a raise, knows the type of enchantment as well."
+        },
+        "Wand of Disguise": {
+            "name": "易容魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：易容</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Appears as another person of the same Size and shape, including clothing. It does not confer any abilities. If questioned Notice at -2 (-4 with a raise). Lasts 10 minutes."
+        },
+        "Wand of Dispel": {
+            "name": "破袪魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：破袪</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Opposed roll of arcane skills. If used to counter, be on Hold and interrupt foe. No effect on permanent enchantments or natural abilities."
+        },
+        "Wand of Entangle": {
+            "name": "纠缠魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：纠缠</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Targets in MBT are Entangled. With a raise, they're Bound. Hardness 8"
+        },
+        "Wand of Fly": {
+            "name": "飞行魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：飞行</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Character soars at Pace 12, or 24 with a raise (may not run) for 5 rounds."
+        },
+        "Wand of Havoc": {
+            "name": "劫动魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：劫动</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. MBT within Range, or Cone from caster and is Distracted and makes Strength roll (-2 on raise and -2 if airborne) or hurled 2d6\" directly away."
+        },
+        "Wand of Healing": {
+            "name": "治疗魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：治疗</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Removes one Wound, raise removes two within first hour. May be cast additional times to remove additional Wounds."
+        },
+        "Wand of Invisibility": {
+            "name": "隐形魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：隐形</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. For 5 rounds, sight actions and Notice against you are made at −4, or −6 with a raise."
+        },
+        "Wand of Lower Trait": {
+            "name": "削弱特性魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：强化/削弱特性</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Lower the specified Trait one die or two with a raise, opposed by Spirit -2 as a free action at the end of the target's turn."
+        },
+        "Wand of Protection": {
+            "name": "防护魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：防护</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Gain 2 points of Armor, with a raise gain 2 points of Toughness instead."
+        },
+        "Wand of Quickness": {
+            "name": "迅疾魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：滞缓/加速</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Speed doubles movement (raise ignores running penalty) and -2 penalties to MAP."
+        },
+        "Wand of Shrink": {
+            "name": "缩小魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：放大/缩小</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Reduce Size, Strength, and Toughness by 1 for 5 rounds. Opposed by Spirit if unwilling."
+        },
+        "Wand of Slumber": {
+            "name": "沉眠魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：沉眠</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Spirit roll (at −2 if caster got a raise) or fall asleep for one hour. Very loud noises or physical interaction, grant another Spirit roll."
+        },
+        "Wand of Speak Language": {
+            "name": "通晓语言魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：通晓语言</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Speak, read, and write a sapient language for 10 minutes. Raise allows use of slangs and dialects as well."
+        },
+        "Wand of Wall Walker": {
+            "name": "走壁魔杖",
+            "category": "魔杖",
+            "description": "<div class=\"swpf-core\">\n<p>详见奇术：走壁</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>",
+            "notes": "25 charges. Moves half Pace on vertical or horizontal surfaces, full Pace and even run with a raise for 5 rounds."
+        },
+        "Warhammer": {
+            "name": "战锤",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">穿甲1</div>"
+        },
+        "Waterskin (filled)": {
+            "name": "水袋(装满)",
+            "category": "冒险工具"
+        },
+        "Whetstone": {
+            "name": "磨刀石",
+            "category": "冒险工具"
+        },
+        "Whip": {
+            "name": "长鞭",
+            "category": "近战武器",
+            "description": "<div class=\"swpf-core\">\n<p>格挡-1，触及2，攻击投骰获得优良不会投奖励伤害，而是变成对象陷入纠缠。</p>\n</div>",
+            "notes": ""
+        },
+        "Whistle, ceramic": {
+            "name": "陶笛",
+            "category": "冒险工具"
+        },
+        "Wine, gallon": {
+            "name": "一加仑葡萄酒",
+            "category": "食物与饮料"
+        },
+        "Wine, mug": {
+            "name": "一杯葡萄酒",
+            "category": "食物与饮料"
+        },
+        "Wings of Flying": {
+            "name": "飞行之翼",
+            "category": "奇物",
+            "description": "<div class=\"swpf-core\">\n<p>这对翅膀看起来既可以是老旧朴素的黑布斗篷，也可以是优雅的蓝羽长披风。予以命令时，这件斗篷会变成一双蝙蝠或鸟类的翅膀，使穿着者能以移速12飞行。翅膀还会让飞行时的运动投骰+2。</p>\n<p><strong>价格</strong>：54,000gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>飞行</em>；27,000gp。</p>\n</div>"
+        }
+    }
+}

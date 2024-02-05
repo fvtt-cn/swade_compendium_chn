@@ -239,7 +239,6 @@
         "Streetsweeper Shotgun": {
             "name": "Streetsweeper Shotgun",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting",
                 "additional": {
@@ -300,7 +299,6 @@
         "Sawed-Off Double-Barrel Shotgun": {
             "name": "Sawed-Off Double-Barrel Shotgun",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting",
                 "additional": {
@@ -343,7 +341,6 @@
         "Pump Action Shotgun": {
             "name": "Pump Action Shotgun",
             "description": "<article class=\"swade-core\"><p><span style=\"color: #191813; background-color: #dfe6f5;\">@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</span></p></article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting",
                 "additional": {
@@ -509,7 +506,6 @@
         "Double-Barrel Shotgun": {
             "name": "Double-Barrel Shotgun",
             "description": "<article class=\"swade-core\"><p>@UUID[Compendium.swade-core-rules.swade-rules.swadecor03rules0.JournalEntryPage.03shotguns000000]{Shotguns} fire a spread of pellets (called &ldquo;shot&rdquo; or &ldquo;buckshot&rdquo;) to increase the shooter&rsquo;s chance of hitting his target. Up close, the blast can be devastating.</p></article>",
-            "notes": "",
             "actions": {
                 "skill": "Shooting",
                 "additional": {

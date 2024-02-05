@@ -1,0 +1,190 @@
+{
+	"label": "Bestiary",
+	"entries": {
+		"Airship (Dirigible)": {
+			"name": "Airship (Dirigible)"
+		},
+		"Alchemical Dragon": {
+			"name": "Alchemical Dragon"
+		},
+		"Alligator/crocodile": {
+			"name": "Alligator/crocodile",
+			"description": "<div class=\"swade-core\">\n<h3 class=\"bold\">Description:</h3>\n<p class=\"savagedus-bio\">Alligators and crocodiles lurk in the wetlands of Golarion, usually freshwater but sometimes in brackish or saltwater. The statistics here represent an average specimen of either species. Much larger versions are often found in more remote areas. Type: Neutral Animal (Alligator/Crocodile) Attributes: Agility d6, Smarts d4 (A), Spirit d6, Strength d10, Vigor d8</p>\n</div>"
+		},
+		"Amiri": {
+			"name": "Amiri",
+			"description": "<p>Fiery of heart and fierce in battle, Amiri demands respect. Those who offend the barbarian soon learn the wrath of her blood rage. She wields an over-sized bastard sword, her mostprized possession, won from a frost giant years ago. Other than this, Amiri shows no interest in material belongings. She spends freely whenever chance provides, embracing life in the moment and expecting a noble death with the dawn of every day.</p>"
+		},
+		"Bear": {
+			"name": "Bear",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This entry covers large and ferocious bears such as grizzlies, black bears, and polar bears. A favored tactic of all these bears is to grapple their prey then bite with their deadly fangs. Type: Neutral Animal (Bear)</p></div>"
+		},
+		"Bird Of Prey": {
+			"name": "Bird Of Prey",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers eagles, hawks, and similar large birds of prey, collectively termed \"raptors.\" Their talons and hooked-beaks can rip through flesh with ease. These nocturnal or diurnal hunters sometimes serve humanoid masters on Golarion. They prefer to seize and carry off smaller quarry, although some are known to attack livestock. Type: Neutral Animal (Bird of Prey)</p></div>"
+		},
+		"Boar": {
+			"name": "Boar",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This entry covers a variety of wild scrofines. Typically, these creatures pose a danger only during their rutting season, or when defending themselves. Certain humanoids sometimes keep these omnivores as guards, warbeasts, or garbage disposals. Type: Neutral Animal (Boar)</p></div>"
+		},
+		"Carriage": {
+			"name": "Carriage"
+		},
+		"Cart": {
+			"name": "Cart"
+		},
+		"Cat, Large": {
+			"name": "Cat, Large",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers a variety of big cats, from mountain lions, to leopards, and cheetahs. Type: Neutral Animal (Cat, Large)</p></div>"
+		},
+		"Cat, Small": {
+			"name": "Cat, Small",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This is an ordinary house cat, the sort that might be a familiar for a spellcaster, a Beast Master's animal friend, or an alternate form for the shape change power. Type: Neutral Animal (Cat, Small)</p></div>"
+		},
+		"Dog/wolf": {
+			"name": "Dog/wolf",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">The stats below are for large attack dogs, as well as wolves, hyenas, and the like. Type: Neutral Animal (Dog/Wolf)</p></div>"
+		},
+		"Experienced Soldier": {
+			"name": "Experienced Soldier",
+			"description": ""
+		},
+		"Ezren": {
+			"name": "Ezren",
+			"description": ""
+		},
+		"Galley": {
+			"name": "Galley"
+		},
+		"Glider": {
+			"name": "Glider"
+		},
+		"Harsk": {
+			"name": "Harsk",
+			"description": ""
+		},
+		"Horse, Heavy": {
+			"name": "Horse, Heavy",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">These beasts are meant for labor or carrying heavy riders. The smaller \"pony\" version is Size 2, Strength d10, and Vigor d8. If trained for combat, increase Fighting to d6. Type: Neutral Animal (Horse, Heavy)</p></div>"
+		},
+		"Horse, Light": {
+			"name": "Horse, Light",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">Riding horses compromise speed with carrying capacity. The smaller \"pony\" version is Size 1 and Strength d10. If trained for combat, increase Fighting to d6. Type: Neutral Animal (Horse, Light)</p></div>"
+		},
+		"Keelboat": {
+			"name": "Keelboat"
+		},
+		"Kyra": {
+			"name": "Kyra",
+			"description": ""
+		},
+		"Lem": {
+			"name": "Lem",
+			"description": ""
+		},
+		"Lini": {
+			"name": "Lini",
+			"description": ""
+		},
+		"Lion": {
+			"name": "Lion",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">The kings of the jungle are fierce predators, particularly in open grassland where their prey cannot seek refuge. Type: Neutral Animal (Lion)</p></div>"
+		},
+		"Longship": {
+			"name": "Longship"
+		},
+		"Merisiel": {
+			"name": "Merisiel",
+			"description": ""
+		},
+		"Mule": {
+			"name": "Mule",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">Mules are a cross between a donkey and a horse, and are usually used to haul heavy goods or pull wagons. Like any good pet, the GM should give the mule a little personality. The expression \"stubborn as a mule\" certainly comes to mind. Type: Neutral Animal (Mule)</p></div>"
+		},
+		"Rowboat": {
+			"name": "Rowboat"
+		},
+		"Sailing Ship": {
+			"name": "Sailing Ship"
+		},
+		"Sailing Sloop": {
+			"name": "Sailing Sloop"
+		},
+		"Sajan": {
+			"name": "Sajan",
+			"description": ""
+		},
+		"Seelah": {
+			"name": "Seelah",
+			"description": ""
+		},
+		"Seoni": {
+			"name": "Seoni",
+			"description": ""
+		},
+		"Shark": {
+			"name": "Shark",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">Dangerous predators such as bull sharks and similar fish swim the seas of Golarion. Type: Neutral Animal (Shark)</p></div>"
+		},
+		"Skeleton, Human": {
+			"name": "Skeleton, Human",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile works for most man-sized humanoid skeletons. Sometimes, these undead have weapons and armor. Type: Evil Undead (Skeleton)</p></div>"
+		},
+		"Sled": {
+			"name": "Sled"
+		},
+		"Snake, Constrictor": {
+			"name": "Snake, Constrictor",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">Pythons, boa constrictors, and other snakes over 15′ long are rarely deadly to man in the real world because they aren't particularly aggressive. On Golarion, however, such snakes might be guardians, familiars, or just plain carnivorous hunters. Type: Neutral Animal (Constrictors)</p></div>"
+		},
+		"Snake, Venomous": {
+			"name": "Snake, Venomous",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">These stats cover a variety of medium-sized snakes with extremely deadly poison. Such venomous snakes usually live solitary lives, although it's possible to stumble into a nest of poisonous vipers. Type: Neutral Animal (Venomous)</p></div>"
+		},
+		"Soldier": {
+			"name": "Soldier",
+			"description": ""
+		},
+		"Summon Ally: Attendant": {
+			"name": "Summon Ally: Attendant",
+			"description": "<div class=\"swpf-core\">\n<p><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Claws]{Claw}:</strong> Str+d4.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Construct]{Construct}:</strong> +2 to recover from being Shaken; ignore 1 point of Wound penalties; doesn&rsquo;t breathe, immune to poison and disease.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Fearless]{Fearless}:</strong> Immune to fear and Intimidation.</li>\n</ul>\n</div>"
+		},
+		"Summon Ally: Bodyguard": {
+			"name": "Summon Ally: Bodyguard",
+			"description": "<div class=\"swpf-core\">\n<p><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Armor]{Armor} +2:</strong> Hardened skin.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Construct]{Construct}:</strong> See Attendant.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Fearless]{Fearless}:</strong> Immune to fear and Intimidation.</li>\n</ul>\n</div>"
+		},
+		"Summon Ally: Sentinel": {
+			"name": "Summon Ally: Sentinel",
+			"description": "<div class=\"swpf-core\">\n<p><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Armor]{Armor} +4:</strong> Stone skin.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Construct]{Construct}:</strong> See Attendant.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Fearless]{Fearless}:</strong> Immune to fear and Intimidation.</li>\n<li><strong>@Compendium[swpf-core-rules.swpf-abilities.Size]{Size} 2:</strong> Sentinels are 8<em>&rsquo;</em> tall and very dense.</li>\n</ul>\n</div>"
+		},
+		"Swarm": {
+			"name": "Swarm",
+			"description": "<div class=\"swade-core\">\n<h3 class=\"bold\">Description:</h3>\n<p class=\"savagedus-bio\"><span class=\"fontstyle0\">A swarm is typically a mass of tiny creatures&mdash; from biting ants to stinging wasps to filthy rats. They cover an area equal to a Large, Medium, or Small Blast Template and attack everyone within it every round. When a swarm is<br />Incapacitated it&rsquo;s effectively dispersed.</span></p>\n<p class=\"savagedus-bio\"><span class=\"fontstyle0\">Swarms aren&rsquo;t intelligent enough to do anything but move and bite and shouldn&rsquo;t take Multi-Actions, make Tests, etc</span> <br style=\"font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\" /><br /></p>\n</div>"
+		},
+		"Town/City Guard": {
+			"name": "Town/City Guard",
+			"description": "<div class=\"swade-core\">\n<h3 class=\"bold\">Description:</h3>\n<p class=\"savagedus-bio\">These are everyday regular town or city patrols. Type: Any Humanoid (Human)</p>\n</div>"
+		},
+		"Townsfolk": {
+			"name": "Townsfolk",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers everything from farmers, to merchants, and artisans. They are everyday folks, not soldiers or town guards. Their attributes and skills may vary as needed. For example, artisans probably have Repair d6, while a stableboy probably has Riding d4. Their gear represents only what might be in hand whenever any unplanned combat takes place. Townsfolk rarely wear armor. Type: Any Humanoid (Human)</p></div>"
+		},
+		"Valeros": {
+			"name": "Valeros",
+			"description": ""
+		},
+		"Wagon, Heavy": {
+			"name": "Wagon, Heavy"
+		},
+		"Wagon, Light": {
+			"name": "Wagon, Light"
+		},
+		"Warship (Galleon)": {
+			"name": "Warship (Galleon)"
+		},
+		"Zombie, Human": {
+			"name": "Zombie, Human",
+			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">This profile covers most any man-sized humanoid zombie. Type: Evil Undead (Zombie)</p></div>"
+		}
+	}
+}

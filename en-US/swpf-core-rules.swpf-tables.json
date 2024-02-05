@@ -1,0 +1,294 @@
+{
+  "label": "Tables",
+  "entries": {
+    "Allied Personalities": {
+      "name": "Allied Personalities",
+      "results": {
+        "1-1": "<div class=\"swpf-core\">\t<p>Treacherous</p></div>",
+        "2-2": "<div class=\"swpf-core\">\t<p>Cruel</p></div>",
+        "3-3": "<div class=\"swpf-core\">\t<p>Old</p></div>",
+        "4-4": "<div class=\"swpf-core\">\t<p>Happy</p></div>",
+        "5-5": "<div class=\"swpf-core\">\t<p>Experienced</p></div>",
+        "6-6": "<div class=\"swpf-core\">\t<p>Gung-Ho</p></div>",
+        "7-7": "<div class=\"swpf-core\">\t<p>Lazy</p></div>",
+        "8-8": "<div class=\"swpf-core\">\t<p>Sneaky</p></div>",
+        "9-9": "<div class=\"swpf-core\">\t<p>Bright</p></div>",
+        "10-10": "<div class=\"swpf-core\">\t<p>Young</p></div>",
+        "11-11": "<div class=\"swpf-core\">\t<p>Crude</p></div>",
+        "12-12": "<div class=\"swpf-core\">\t<p>Agile</p></div>",
+        "13-13": "<div class=\"swpf-core\">\t<p>Observant</p></div>",
+        "14-14": "<div class=\"swpf-core\">\t<p>Clueless</p></div>",
+        "15-15": "<div class=\"swpf-core\">\t<p>Mysterious</p></div>",
+        "16-16": "<div class=\"swpf-core\">\t<p>Creative</p></div>",
+        "17-17": "<div class=\"swpf-core\">\t<p>Artistic</p></div>",
+        "18-18": "<div class=\"swpf-core\">\t<p>Fearless</p></div>",
+        "19-19": "<div class=\"swpf-core\">\t<p>Cowardly</p></div>",
+        "20-20": "<div class=\"swpf-core\">\t<p>Heroic</p></div>"
+      }
+    },
+    "Available Armor & Weapons": {
+      "name": "Available Armor & Weapons",
+      "results": {
+        "1-1": "<div class=\"swpf-core\">\t<p>Weapon with a (1) enchantment</p></div>",
+        "2-2": "<div class=\"swpf-core\">\t<p>Armor with a (1) enchantment</p></div>",
+        "3-3": "<div class=\"swpf-core\">\t<p>Shield with a (1) enchantment</p></div>",
+        "4-4": "<div class=\"swpf-core\">\t<p>Weapon with a (2) enchantment</p></div>",
+        "5-5": "<div class=\"swpf-core\">\t<p>Armor with a (2) enchantment</p></div>",
+        "6-6": "<div class=\"swpf-core\">\t<p>Shield with a (2) enchantment</p></div>",
+        "7-7": "<div class=\"swpf-core\">\t<p> Weapon with a total of (3) enchantments</p></div>",
+        "8-8": "<div class=\"swpf-core\">\t<p>Armor with a total of (3) enchantments</p></div>",
+        "9-9": "<div class=\"swpf-core\">\t<p>Shield with a total of (3) enchantments</p></div>",
+        "10-10": "<div class=\"swpf-core\">\t<p>Unique armor or shield</p></div>",
+        "11-11": "<div class=\"swpf-core\">\t<p>Unique weapon</p></div>",
+        "12-12": "<div class=\"swpf-core\">\t<p>Roll again, the item is made of a special material</p></div>"
+      }
+    },
+    "Available Potions": {
+      "name": "Available Potions",
+      "results": {
+        "1-1": "Potion of Major Healing",
+        "2-2": "Potion of Minor Boost Trait",
+        "3-3": "Potion of Minor Protection",
+        "4-4": "Potion of Minor Speed",
+        "5-5": "Potion of Major Relief and Restoration",
+        "6-6": "Potion of Minor Arcane Protection",
+        "7-7": "Potion of Minor Empathy",
+        "8-8": "Potion of Minor Growth",
+        "9-9": "Potion of Minor Relief and Restoration",
+        "10-10": "Potion of Minor Intangibility",
+        "11-11": "Potion of Minor Speed and Quickness",
+        "12-12": "Potion of Damage Field w/Damage",
+        "13-13": "Potion of Major Wall Walker",
+        "14-14": "Potion of Major Protection",
+        "15-15": "Potion of Minor Fly",
+        "16-16": "Potion of Minor Darksight",
+        "17-17": "Potion of Minor Healing",
+        "18-18": "Potion of Minor Environmental Protection",
+        "19-19": "Potion of Minor Healing and Neutralize Poison or Disease",
+        "20-20": "Potion of Major Healing"
+      }
+    },
+    "Available Rings": {
+      "name": "Available Rings",
+      "results": {
+        "1-1": "Ring of Protection, Minor",
+        "2-2": "Ring of Sustenance",
+        "3-3": "Ring of Feather Falling",
+        "4-4": "Ring of the Ram",
+        "5-5": "Ring of Water Walking",
+        "6-6": "Ring of the Skillful",
+        "7-7": "Ring of Protection, Major",
+        "8-8": "Ring of Spell Storing",
+        "9-9": "Ring of Energy Resistance",
+        "10-10": "Ring of Invisibility"
+      }
+    },
+    "Available Rods & Staves": {
+      "name": "Available Rods & Staves",
+      "results": {
+        "1-1": "Immovable Rod",
+        "2-2": "Rod of the Python",
+        "3-3": "Rod of Wonder",
+        "4-4": "Staff of Charming",
+        "5-5": "Staff of Healing",
+        "6-6": "Rod of Metamagic",
+        "7-7": "Rod of Negation",
+        "8-8": "Staff of Abjuration, Evocation, or Necromancy"
+      }
+    },
+    "Available Scrolls": {
+      "name": "Available Scrolls",
+      "results": {
+        "1-1": "Scroll of Bolt",
+        "2-2": "Scroll of Lower Trait",
+        "3-3": "Scroll of Blast",
+        "4-4": "Scroll of Smite",
+        "5-5": "Scroll of Sloth",
+        "6-6": "Scroll of Deflection",
+        "7-7": "Scroll of Invisibility",
+        "8-8": "Scroll of Fear",
+        "9-9": "Scroll of Growth",
+        "10-10": "Scroll of Illusion",
+        "11-11": "Scroll of Dispel",
+        "12-12": "Scroll of Teleport",
+        "13-13": "Scroll of Bolt, AP",
+        "14-14": "Scroll of Detect Arcana",
+        "15-15": "Scroll of Healing",
+        "16-16": "Scroll of Blind",
+        "17-17": "Scroll of Stun",
+        "18-18": "Scroll of Zombie",
+        "19-19": "Scroll of Sloth",
+        "20-20": "Scroll of Slumber"
+      }
+    },
+    "Available Wands": {
+      "name": "Available Wands",
+      "results": {
+        "1-1": "Wand of Healing",
+        "2-2": "Wand of Boost Trait",
+        "3-3": "Wand of Disguise",
+        "4-4": "Wand of Slumber",
+        "5-5": "Wand of Speak Language",
+        "6-6": "Wand of Detect Arcana",
+        "7-7": "Wand of Entangle",
+        "8-8": "Wand of Shrink",
+        "9-9": "Wand of Invisibility",
+        "10-10": "Wand of Bolt",
+        "11-11": "Wand of Quickness",
+        "12-12": "Wand of Deflection",
+        "13-13": "Wand of Wall Walker",
+        "14-14": "Wand of Protection",
+        "15-15": "Wand of Fly",
+        "16-16": "Wand of Banish",
+        "17-17": "Wand of Dispel",
+        "18-18": "Wand of Lower Trait",
+        "19-19": "Wand of Blast",
+        "20-20": "Wand of Havoc"
+      }
+    },
+    "Bag of Tricks": {
+      "name": "Bag of Tricks",
+      "results": {
+        "1-1": "<div class=\"swpf-core\"><p><strong>Grey Bag:</strong> Bat </p><p><p><strong>Brown Bag:</strong> Dog/ Wolf</p>\t</div>",
+        "2-2": "<div class=\"swpf-core\"><p><strong>Grey Bag:</strong> Rat </p><p><strong>Brown Bag:</strong> Horse</p>\t</div>",
+        "3-3": "<div class=\"swpf-core\"><p><strong>Grey Bag:</strong> Bird of Prey </p><p><strong>Brown Bag:</strong> Cat, large</p>\t</div>",
+        "4-4": "<div class=\"swpf-core\"><p><strong>Grey Bag:</strong> Cat, small </p><p><strong>Brown Bag:</strong> Auroch</p>\t</div>",
+        "5-5": "<div class=\"swpf-core\"><p><strong>Grey Bag:</strong> Snake, Constrictor </p><p><strong>Brown Bag:</strong> Bear</p>\t</div>",
+        "6-6": "<div class=\"swpf-core\"><p><strong>Grey Bag:</strong> Dog/ Wolf </p><p><strong>Brown Bag:</strong> Rhinoceros</p>\t</div>"
+      }
+    },
+    "Battle Effects": {
+      "name": "Battle Effects",
+      "results": {
+        "2-2": "<div class=\"swpf-core\"><p><strong>Inspire:</strong> The warrior battles valiantly, inspiring the troops and urging them to fight on despite their injuries. Her side immediately recovers one Force Token.</p></div>",
+        "3-4": "<div class=\"swpf-core\"><p><strong>Terrorize:</strong> The fighter’s fury terrorizes her foes. The enemy commander subtracts 2 from his @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Spirit} roll if forced to test morale this round.</p></div>",
+        "5-9": "<div class=\"swpf-core\"><p><strong>Valor:</strong> The warrior’s Support adds +2 to the commander’s Battle roll as usual.</p></div>",
+        "10-11": "<div class=\"swpf-core\"><p><strong>Slaughter:</strong> The foe reels at the champion’s onslaught. Subtract 2 from the enemy commander’s Battle total.</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p><strong>An Army of One:</strong> Tales will be told and songs sung of the warrior’s epic feats this day. The enemy army loses a Force Token immediately (this doesn’t subtract from his Battle roll but does cause a morale check even if he wins).</div>"
+      }
+    },
+    "Creative Combat": {
+      "name": "Creative Combat",
+      "description": "Use these rules when you want Tests to have a little more variety.",
+      "results": {
+        "2-2": "<div class=\"swpf-core\"><p><strong>Second Wind:</strong> The foe hesitates, giving your hero time to catch her breath. She may remove a level of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Fatigue} or a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wound} (her choice). If she has neither, the enemy is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} and she receives a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Benny}.</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p><strong>Inspiration:</strong> Fate favors the bold. The clever hero receives a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Benny}.</p></div>",
+        "4-5": "<div class=\"swpf-core\"><p><strong>Double Whammy:</strong> The target is both @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted <em>and</em> Vulnerable}.</p></div>",
+        "6-8": "<div class=\"swpf-core\"><p><strong>Shaken:</strong> The foe is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}.</p></div>",
+        "9-10": "<div class=\"swpf-core\"><p><strong>Setback:</strong> The target suffers a setback of some sort. She might fall off a ledge, lose the confidence of her minions (who then desert her), take a rash but foolish action, or simply lose her next turn as she attempts to recover from whatever situation she finds herself in.</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p><strong>Insight:</strong> The hero gains insight into the target’s nature. Once during this encounter, she may add +d6 to any @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Trait} roll made to directly @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{attack}, affect, or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{damage} the same foe.</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p><strong>Seize the Moment:</strong> After the hero resolves this turn, she immediately gets an entire additional turn. This includes @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{movement} as well! She may use the turn to go on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Hold} if she wishes.</p></div>"
+      }
+    },
+    "Fear": {
+      "name": "Fear",
+      "description": "*Add the creature’s Fear penalty as a positive number to this roll.",
+      "results": {
+        "1-3": "<div class=\"swpf-core\"><p><strong>Adrenaline Surge:</strong> The hero’s \"fight\" response takes over. He acts as if he had a Joker this action!</p></div>",
+        "4-6": "<div class=\"swpf-core\"><p><strong>Distracted:</strong> The hero is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted} until the end of his next turn.</p></div>",
+        "7-9": "<div class=\"swpf-core\"><p><strong>Vulnerable:</strong> The target is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Vulnerable} until the end of his next turn.</p></div>",
+        "10-12": "<div class=\"swpf-core\"><p><strong>Shaken:</strong> The character is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}.</p></div>",
+        "13-13": "<div class=\"swpf-core\"><p><strong>The Mark of Fear:</strong> The hero is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned} and suffers some cosmetic physical alteration — a white streak forms in his hair, his eyes twitch constantly, or some other minor physical alteration manifests.</p></div>",
+        "14-15": "<div class=\"swpf-core\"><p><strong>Frightened:</strong> The character gains the @Compendium[swpf-core-rules.swpf-hindrances.Hesitant]{Hesitant} Hindrance for the remainder of the encounter. If he already has it, he’s Panicked instead.</p></div>",
+        "16-17": "<div class=\"swpf-core\"><p><strong>Panicked:</strong> The character immediately moves his full @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Pace} plus running die away from the danger and is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}.</p></div>",
+        "18-19": "<div class=\"swpf-core\"><p><strong>Minor Phobia:</strong> The character gains a @Compendium[swpf-core-rules.swpf-hindrances.Phobia]{Minor Phobia} Hindrance somehow associated with the trauma.</p></div>",
+        "20-21": "<div class=\"swpf-core\"><p><strong>Major Phobia:</strong> The character gains the @Compendium[swpf-core-rules.swpf-hindrances.Phobia]{Major Phobia} Hindrance.</p></div>",
+        "22-9999": "<div class=\"swpf-core\"><p><strong>Heart Attack:</strong> The hero is so overwhelmed with fear that his heart stutters. He must make an immediate @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Vigor} roll at –2. If successful, he’s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned}. If he fails, he’s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} and @Compendium[swpf-core-rules.swpf-abilities.Death]{dies} in 2d6 rounds. In the latter case, a @Compendium[swpf-core-rules.swpf-skills.Healing]{Healing} roll at –4 saves his life, but he remains Incapacitated. He may be treated normally thereafter.</p></div>"
+      }
+    },
+    "GutsInjury": {
+      "name": "GutsInjury",
+      "results": {
+        "1-2": "<div class=\"swpf-core\"><p><strong>Broken Guts:</strong> Agility reduced a die type (minimum d4).</p></div>",
+        "3-4": "<div class=\"swpf-core\"><p><strong>Battered Guts:</strong> Vigor reduced a die type (minimum d4).</p></div>",
+        "5-6": "<div class=\"swpf-core\"><p><strong>Busted Guts: </strong>Strength reduced a die type (minimum d4).</p></div>"
+      }
+    },
+    "HeadInjury": {
+      "name": "HeadInjury",
+      "results": {
+        "1-3": "<div class=\"swpf-core\"><p><strong>Hideous Scar:</strong> Your hero now has the @Compendium[swpf-core-rules.swpf-hindrances.Ugly]{Ugly} (Major) Hindrance.</p></div>",
+        "4-5": "<div class=\"swpf-core\"><p><strong>Blinded:</strong> An eye is damaged. Gain the @Compendium[swpf-core-rules.swpf-hindrances.One Eye]{One Eye} Hindrance (or the @Compendium[swpf-core-rules.swpf-hindrances.Blind]{Blind} Hindrance if he only had one good eye).</p></div>",
+        "6-6": "<div class=\"swpf-core\"><p><strong>Brain Damage:</strong> Massive trauma to the head. Smarts reduced one die type (min d4).</p></div>"
+      }
+    },
+    "Injury": {
+      "name": "Injury",
+      "description": "When Incapacitated by damage or injury, a hero must make an immediate Vigor roll. If the character does not die as a result, they must roll on the Injury Table.",
+      "results": {
+        "2-2": "<div class=\"swpf-core\"><p><strong>Unmentionables: </strong>If the injury is permanent, reproduction is out of the question without miracle surgery or magic. There is no other effect from this result.</p></div>",
+        "3-4": "<div class=\"swpf-core\"><p><strong>Arm:</strong> The victim can no longer use his left or right arm (rolled randomly if not targeted).</p></div>",
+        "5-9": "GutsInjury",
+        "10-11": "<div class=\"swpf-core\"><p><strong>Leg: </strong>Gain the @Compendium[swpf-core-rules.swpf-hindrances.Slow]{Slow} Hindrance (Minor), or Major if already Slow or injured in either leg.</p></div>",
+        "12-12": "HeadInjury"
+      }
+    },
+    "Other Item Categories": {
+      "name": "Other Item Categories",
+      "results": {
+        "1-11": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.Available Armor & Weapons]{Armor & Weapons}</p></div>",
+        "12-13": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.Available Rings]{Rings}</p></div>",
+        "14-16": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.Available Rods & Staves]{Rods & Staves}</p></div>",
+        "17-18": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-tables.Available Wands]{Wands}</p></div>",
+        "19-20": "<div class=\"swpf-core\"><p>Wondrous Items</p></div>"
+      }
+    },
+    "Reaction": {
+      "name": "Reaction",
+      "description": "The GM can use the table below to roll or choose a character or group's initial attitude",
+      "results": {
+        "2-2": "<div class=\"swpf-core\"><p><strong>Hostile:</strong> The target is openly hostile. He may attack if possible, or otherwise betray, report on, or hinder the party at the first opportunity. He doesn’t help without an overwhelming reward or threat of some kind.</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p><strong>Unfriendly:</strong> The character isn’t interested in helping unless he has little choice and/or is offered a substantial payment or reward.</p></div>",
+        "4-5": "<div class=\"swpf-core\"><p><strong>Uncooperative:</strong> The target isn’t interested in getting involved unless there’s a significant advantage to himself.</p></div>",
+        "6-8": "<div class=\"swpf-core\"><p><strong>Neutral:</strong> The character has no particular attitude toward the group. He expects fair payment for any sort of favor or information.</p></div>",
+        "9-10": "<div class=\"swpf-core\"><p><strong>Cooperative:</strong> The character is generally sympathetic. He helps if he can for a small fee, favor, or kindness.</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p><strong>Friendly:</strong> The individual goes out of his way for the hero. He likely does simple tasks for very little, and is willing to do more dangerous tasks for fair pay or other favors.</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p><strong>Helpful:</strong> The target is anxious to help the hero and probably does so for little or no reward.</p></div>"
+      }
+    },
+    "Robe of Useful Items": {
+      "name": "Robe of Useful Items",
+      "description": "The Robe has several other patches. Roll 4d4 for the number of other patches and then roll d12 for each on the table below to determine its nature.",
+      "results": {
+        "1-1": "<div class=\"swpf-core\"><p>Bag of 100 gold pieces</p></div>",
+        "2-2": "<div class=\"swpf-core\"><p>Door, iron (up to 10 ft. wide and 10 ft. high and barred on one side—must be placed upright, attaches and hinges itself)</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p>Gems, 10 (100 gp value each)</p></div>",
+        "4-4": "<div class=\"swpf-core\"><p>Ladder, wooden (24 ft. long)</p></div>",
+        "5-5": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-actors.Mule]{Mule} (with saddle bags)</p></div>",
+        "6-6": "<div class=\"swpf-core\"><p>Pit, open (12 ft. by 12 ft. by 12 ft.)</p></div>",
+        "7-7": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-gear.Potion of Major Healing]{Potion of major healing}</p></div>",
+        "8-8": "<div class=\"swpf-core\"><p>Rowboat (12 ft. long)</p></div>",
+        "9-9": "<div class=\"swpf-core\"><p>Minor scroll of one randomly determined spell</p></div>",
+        "10-10": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-actors.Dog/wolf]{War dogs}, pair (treat as dogs)</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p>Window (2 ft. by 4 ft., up to 2 ft. deep)</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p>Portable ram</p></div>"
+      }
+    },
+    "Rod of Wonder Activation": {
+      "name": "Rod of Wonder Activation",
+      "description": "A Rod of Wonder is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. Typical powers of the rod are listed on the Rod of Wonder Activation table below. Unless noted otherwise, the Duration for any of the effects is 5.",
+      "results": {
+        "1-1": "<div class=\"swpf-core\"><p>Minor @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{slow} on target.</p></div>",
+        "2-2": "<div class=\"swpf-core\"><p>@Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{Growth} on target (+2 Size).</p></div>",
+        "3-3": "<div class=\"swpf-core\"><p>600 butterflies pour forth and flutter around for two rounds, blinding everyone within 5” (10 yards).</p></div>",
+        "4-4": "<div class=\"swpf-core\"><p>The rod deludes the wielder for one round into believing it functions as indicated by a second die roll.</p></div>",
+        "5-5": "<div class=\"swpf-core\"><p>The wielder’s Size is reduced by two for one day.</p></div>",
+        "6-6": "<div class=\"swpf-core\"><p>Heavy rain falls for 1 round in 10” (20 yard) radius, centered on the wielder.</p></div>",
+        "7-7": "<div class=\"swpf-core\"><p>The wielder gains major @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}. The effect vanishes if he takes an action that causes damage to others.</p></div>",
+        "8-8": "<div class=\"swpf-core\"><p>Leaves grow from the target’s limbs, lasting 24 hours.</p></div>",
+        "9-9": "<div class=\"swpf-core\"><p>The wielder or a random target turns blue, green, or purple. Permanently.</p></div>",
+        "10-10": "<div class=\"swpf-core\"><p>A magical explosion detonates in a Small Blast Template for 3d6 damage, centered on whatever the user targeted.</p></div>",
+        "11-11": "<div class=\"swpf-core\"><p>Grass grows in 160-square-ft. area centered on the target of the rod. Foliage that already existed in the area grows to 10 times normal size.</p></div>",
+        "12-12": "<div class=\"swpf-core\"><p>A patch of @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{darkness} in a Large Blast Template appears over the target.</p></div>",
+        "13-13": "<div class=\"swpf-core\"><p>The wielder learns the target’s surface thoughts (as with @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}) for 1d4 rounds. This can’t be resisted.</p></div>",
+        "14-14": "<div class=\"swpf-core\"><p>Dancing lights surround the target, negating any @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Illumination} penalties.</p></div>",
+        "15-15": "<div class=\"swpf-core\"><p>The target becomes @Compendium[swpf-core-rules.swpf-abilities.Ethereal]{Ethereal}for 5 rounds (see page 241).</p></div>",
+        "16-16": "<div class=\"swpf-core\"><p>A 3d6 lightning @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt} strikes the target!</p></div>",
+        "17-17": "<div class=\"swpf-core\"><p>The rod summons forth a wild animal. Roll 1d6: 1–2 bear, 3–4 lion, 5–6 cat (or any other animal of the GM's choice, including those in the Savage Pathfinder Bestiary).</p></div>",
+        "18-18": "<div class=\"swpf-core\"><p>Shimmering colors dance and play over a 40-ft square area directly in front of the rod. Any creature within is blinded. Those affected get a free action to shake off the effects with a Vigor roll at –2 at the start of their turn.</p></div>",
+        "19-19": "<div class=\"swpf-core\"><p>1d4x10 gems (1 gp each) shoot forward in a stream. Half hit the target, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracting} him.</p></div>",
+        "20-20": "<div class=\"swpf-core\"><p>The target turns to stone (or flesh if stone already), unless it makes a Vigor roll at –2.</p></div>"
+      }
+    }
+  }
+}

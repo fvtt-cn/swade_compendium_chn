@@ -1,0 +1,1009 @@
+{
+  "label": "Edges",
+  "mapping": {
+    "category": "system.category",
+    "description": "system.description"
+  },
+  "entries": {
+    "Ace": {
+      "name": "Ace",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Aces are pilots and drivers who have a special affinity with their vehicle. They ignore two points of penalties to any @Compendium[swpf-core-rules.swpf-skills.Boating]{Boating}, @Compendium[swpf-core-rules.swpf-skills.Driving]{Driving}, or @Compendium[swpf-core-rules.swpf-skills.Piloting]{Piloting} roll, and may spend Bennies to Soak damage for any vehicle they control or command, using the appropriate Boating, Driving, or Piloting skill instead of Vigor. Each success and raise negates a Wound.</p>\n</div>"
+    },
+    "Acrobat": {
+      "name": "Acrobat",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The Acrobat gets one free reroll on Athletics totals that involve balance, tumbling, or grappling. It doesn&rsquo;t affect rolls to interrupt actions, climb, swim, or throw.</p>\n</div>"
+    },
+    "Advanced Bloodline": {
+      "name": "Advanced Bloodline",
+      "category": "Sorcerer",
+      "description": "<div class=\"swpf-core\">\n<p>You gain the additional ability listed for your Bloodline.</p>\n</div>"
+    },
+    "Alertness": {
+      "name": "Alertness",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Not much gets by this hero. Very observant and perceptive, she adds +2 to @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} rolls to hear, see, or otherwise sense the world around them.</p>\n</div>"
+    },
+    "Ambidextrous": {
+      "name": "Ambidextrous",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your warrior is equally deft with both hands. She ignores the <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Off-Hand} </strong>penalty.</p>\n<p>If holding a weapon in each hand, she may stack Parry bonuses (if any) from both weapons.</p>\n</div>"
+    },
+    "Arcane Archer": {
+      "name": "Arcane Archer",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>An arcane archer uses magical energies to amplify his arrows or bolts. He may automatically grant one \"quality\" into any arrow he fires (designated per shot).</p>\n<p>The first two qualities an archer learns are:</p>\n<p><strong>Enhance:</strong> The archer's arrow adds +1 to Shooting and damage.</p>\n<p><strong>Trapping:</strong> The arrow has an environmental Trapping such as fire, cold, darkness, etc.</p>\n</div>"
+    },
+    "Arcane Archer II": {
+      "name": "Arcane Archer II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The archer gains two new qualities:</p>\n<p><strong>Phase Arrow:</strong> Once per encounter, the archer may fire an arrow directly through any non-magical barriers, ignoring penalties for Cover or Concealment.</p>\n<p><strong>Hail of Arrows:</strong> Once per encounter, the archer may enchant an arrow so it splits into many when fired, raining down in a Large Blast Template. Everyone inside the template is subject to the attack roll&mdash; roll damage separately.</p>\n</div>"
+    },
+    "Arcane Archer III": {
+      "name": "Arcane Archer III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The archer gains two new qualities:</p>\n<p><strong>Imbue:</strong> Once per turn, the archer can imbue any area effect power into an arrow, \"casting\" the spell with @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} and using his bow's Range in place of the power's Range. The spell's area of effect is centered where the arrow lands, even if it must normally be centered on the caster. If the arrow misses, the spell fails. Imbued spells can't be Shorted or use the Range modifier.</p>\n<p><strong>Death Arrow:</strong> Once per day, the archer can fire a fearsome arrow thrumming with deadly energy. A target Shaken or Wounded by the arrow must make a Vigor roll or die! Death arrows have no effect on constructs or undead.</p>\n</div>"
+    },
+    "Arcane Armor": {
+      "name": "Arcane Armor",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your Armor Interference counts as one level higher (so a character increasing their Armor Interference (Any) to (Light) could wear Light armor with no penalty).</p>\n</div>"
+    },
+    "Arcane Background (Bard)": {
+      "name": "Arcane Background (Bard)",
+      "category": "Bard",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"bard-arcane\"><span class=\"list-heading\">Arcane Background</span> <strong>(Bard):</strong> Bards use @Compendium[swpf-core-rules.swpf-skills.Performance]{Performance} as their arcane skill. They have 3 starting powers and 10 Power Points.<br/><strong>Available Powers:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}</em>,@Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend},<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>.</span></div>"
+    },
+    "Arcane Background (Druid)": {
+      "name": "Arcane Background (Druid)",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"druid-arcane-background\"><span class=\"list-heading\">Arcane Background</span> <strong>(Druid):</strong> Druids use @Compendium[swpf-core-rules.swpf-skills.Faith]{Faith} as their arcane skill. On taking this Edge, the hero gains 3 starting powers and 10 Power Points.<br/><strong>Available Powers:</strong> Druids choose spells from the cleric's available powers and under the Nature Domain. </span></div>"
+    },
+    "Arcane Background (Magic)": {
+      "name": "Arcane Background (Magic)",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Exposure to strange energies, studies at a magical school, or gifts from divine or spiritual entities sometimes grant champions their own powers and abilities.</p>\n<p>If you want to play a bard, cleric, druid, sorcerer, or wizard based on the original Pathfinder game system's character classes, see the Class Edges further below. If you want to make your own custom mage or priest, use the rules here:</p>\n<p><strong>Arcane Background (Magic):</strong> Mages use @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} as their arcane skill, and have Armor Interference (Light) (meaning they subtract 4 from their Spellcasting rolls and from their agility and agility-based skill rolls if using medium or heavy armor or shields). On taking this Edge, you get three starting powers and 10 Power Points.</p>\n<p>A mage&rsquo;s <strong>available powers are:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{arcane protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Baleful Polymorph]{baleful polymorph}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blind]{blind}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Farsight]{farsight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Wipe]{mind wipe}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Relief]{relief}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wish]{wish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}.</em></p>\n</div>"
+    },
+    "Arcane Background (Miracles)": {
+      "name": "Arcane Background (Miracles)",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">&nbsp;Priests use @Compendium[swpf-core-rules.swpf-skills.Faith]{Faith} as their arcane skill and must choose a Domain (see @Compendium[swpf-core-rules.swpf-edges.Cleric]{Cleric}). When they take this Edge, they get 10 Power Points, any three powers listed under the cleric's available powers list or their Domain. They also gain @Compendium[swpf-core-rules.swpf-hindrances.Vow]{Vow} (Major) to serve their deity.</div>"
+    },
+    "Arcane Background (Sorcerer)": {
+      "name": "Arcane Background (Sorcerer)",
+      "category": "Sorcerer",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"sorcerer-arcane-background\"><span class=\"list-heading\">Arcane Background</span> <strong>(Sorcerer):</strong> Sorcerers use @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} as their arcane skill, but it is linked to Spirit instead of Smarts (if multiclassing as a Smarts-based spellcaster, use the better of the two Attributes). On taking this Edge, the hero gains 15 Power Points and two starting powers from the list below. <br/><strong>Available Powers:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Baleful Polymorph]{baleful polymorph}, @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blind]{blind}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Farsight]{farsight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Wipe]{Mind Wipe}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}</em>,<em>  @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wish]{wish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}</em>.</span></div>"
+    },
+    "Arcane Background (Wizard)": {
+      "name": "Arcane Background (Wizard)",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\"><span data-embed-id=\"wizard-arcane-background\"><span class=\"list-heading\">Arcane Background</span> <strong>(Wizard):</strong> Wizards use @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} as their arcane skill. A hero who takes this Edge gains 10 Power Points and three powers from the list below.<br/><strong>Available Powers:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Baleful Polymorph]{baleful polymorph}</em>,<em>@Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blind]{blind}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Farsight]{farsight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Wipe]{Mind Wipe}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wish]{wish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}</em>.</span></div>"
+    },
+    "Arcane Mastery (Sorcerer)": {
+      "name": "Arcane Mastery (Sorcerer)",
+      "category": "Sorcerer",
+      "description": "<div class=\"swpf-core\">\n<p>True understanding of magical energy comes with practice and experience. Those who take this Edge gain access to all their powers&rsquo; Epic Power Modifiers (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000000]{Powers}).</p>\n</div>"
+    },
+    "Arcane Mastery (Wizard)": {
+      "name": "Arcane Mastery (Wizard)",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\">\n<p>True understanding of magical energy comes with practice and experience. Wizards who take this Edge gain access to all their powers&rsquo; Epic Power Modifiers (@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000000]{Powers}).</p>\n</div>"
+    },
+    "Arcane Resistance": {
+      "name": "Arcane Resistance",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Magic and the supernatural hold little sway with this individual. Whether by nature, heritage, or training the character is particularly resistant to magic and other supernatural energies.</p>\n<p>Enemy arcane abilities targeting the hero suffer a &minus;2 penalty and magical damage is reduced by 2 as well. This includes magical bonuses granted to weapons, such as the <em>@Compendium[swpf-core-rules.swpf-powers.Smite]{smite}</em> power or the Damaging @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore06magici.JournalEntryPage.06enchantments00]{enchantment}.</p>\n</div>"
+    },
+    "Arcane Trickster": {
+      "name": "Arcane Trickster",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>These prodigious thieves blend subtle aspects of the arcane with the cunning of sleight of hand and misdirection.</p>\n<p><strong>Ranged Legerdemain:</strong> The trickster can use his Thievery at a Range of 5&rdquo; (10 yards) or less at a &minus;2 penalty. Any object manipulated at range must weigh less than 5 pounds.</p>\n<p><strong>Impromptu Attack:</strong> Once per encounter, the trickster may use her Sneak Attack ability even if a foe isn&rsquo;t Vulnerable or subject to the Drop.</p>\n</div>"
+    },
+    "Arcane Trickster II": {
+      "name": "Arcane Trickster II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Invisible Thief:</strong> Once per day, as a free action, the character may cast <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em> for a base cost of 1 Power Point. No arcane skill roll is required, and it's cast as if with a raise. The trickster may use other Power Modifiers or maintain the spell with her own Power Points as usual.</p>\n<p>This Edge doesn't grant the trickster the <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em> spell; she must have it on her own.</p>\n</div>"
+    },
+    "Arcane Trickster III": {
+      "name": "Arcane Trickster III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Surprise Spells:</strong> The trickster&rsquo;s attack spells benefit from her Sneak Attack ability.</p>\n</div>"
+    },
+    "Aristocrat": {
+      "name": "Aristocrat",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>This individual was born into privilege or came into it later in life. She may or may not have money,&nbsp;but she still walks in the elite social circles of&nbsp;the world.</p>\n<p>Aristocrats add +2 to @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} when <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04networking0000]{Networking}</strong> with the local elite, nobles, or other aristocrats. They also add +2 to @Compendium[swpf-core-rules.swpf-skills.Common Knowledge]{Common Knowledge} rolls made to know the etiquette of the upper class, recognize family trees or heraldry, or recall gossip concerning others of their station.</p>\n</div>"
+    },
+    "Artificer": {
+      "name": "Artificer",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Those who tangle with supernatural forces sometimes find ways to imbue powers into items. They may turn an ordinary blade into a magic sword, grant powerful potions to their friends, or even bless holy relics with divine grace.</p>\n<p>Artificers can create <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05arcanedevice00]{Arcane Devices}</strong> and give them to their allies. Where possible, the device reflects the forger&rsquo;s background. A bard&rsquo;s Arcane Devices are works of art, such as a singing sword, a magical instrument, an epic poem, etc.</p>\n</div>"
+    },
+    "Assassin": {
+      "name": "Assassin",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Those with this Edge are adept at infiltration and cold, efficient murder. They consider themselves artisans, and their medium is death.</p>\n<p><strong>Death Attack:</strong> If the assassin strikes a living victim with the Drop and causes at least one Wound (after any Soaking), the foe must make a Vigor roll or die.</p>\n<p>If the assassin Incapacitates or slays a victim he had the Drop on, the victim drops quietly and without a sound. It may even be a few moments before those nearby @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} the situation, depending on the circumstances.</p>\n</div>"
+    },
+    "Assassin II": {
+      "name": "Assassin II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Hide in Plain Sight:</strong> The assassin may magically hide in plain sight. Treat this as <em>@Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em> (&minus;4), as long as the assassin doesn&rsquo;t move or make noise.</p>\n<p><strong>Resistance to Poison:</strong> The assassin adds +4 to rolls made to resist poison.</p>\n</div>"
+    },
+    "Assassin III": {
+      "name": "Assassin III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Angel of Death:</strong> The slayer gains the mystical ability to charge her attack with lethal death energy. If she chooses to do so, a victim slain by her hand crumbles to dust and cannot be resurrected. She may do this no more than once per day.</p>\n<p><strong>Swift Death:</strong> Once per day, as a free action, an assassin gains the Drop over a foe of her choice, even if the target is completely aware of her presence.</p>\n</div>"
+    },
+    "Attractive": {
+      "name": "Attractive",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>It&rsquo;s no secret people are more willing to help those they find physically attractive. Your character adds +1 to @Compendium[swpf-core-rules.swpf-skills.Performance]{Performance} and @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls if the target is attracted to his general type (gender, sex, species, etc.).</p>\n</div>"
+    },
+    "Barbarian": {
+      "name": "Barbarian",
+      "category": "Barbarian",
+      "description": "<div class=\"swpf-core\">\n<p>For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl of battle, these brutal souls swear by the creed of conflict. Battle possessed, these savage warriors disdain the life of the professional guard or soldier. They seek to fight for the sake of the act itself.</p>\n<p>Known as barbarians, these warmongers know little of tactics, preparation, or the rules of warfare. For them, only the moment exists. They embrace the possibility that the next battle might hold their death. Within the barbarian&rsquo;s heart beats the primal spirit of struggle. Those who face their rage, beware.</p>\n<ul>\n<li><span class=\"list-heading\">Armor Restriction</span> <strong>(Medium):</strong> A barbarian&rsquo;s fighting style requires great freedom of movement. They subtract 4 from Agility and Agility-based skill rolls when wearing heavy armor or using a heavy shield.</li>\n<li><span class=\"list-heading\">Fast:</span> Barbarians are fast and durable runners. They increase their base Pace by +2. This doesn&rsquo;t affect their running die, but does stack with Edges like Fleet-Footed or ancestral modifiers.</li>\n<li><span class=\"list-heading\">Rage:</span> Barbarians can call upon inner reserves of strength and ferocity in desperate circumstances. As a limited free action, a barbarian may &ldquo;rage&rdquo; voluntarily. If she&rsquo;s Shaken or Wounded, she must make a Smarts roll or rage whether she wants to or not.<br />Rage lasts five rounds. After the barbarian&rsquo;s fifth turn raging, she takes a level of Fatigue that can only be recovered with an hour&rsquo;s rest (generally no walking, riding, etc). <br />An @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Exhausted} barbarian who rages is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} afterward. See p@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{here} for more on Fatigue.<br />While raging, a barbarian gains the following abilities:\n<ul>\n<li><strong>Fury:</strong> Her Strength increases a die type (ignoring her usual maximum) and every attack must be a <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wild Attack}</strong>. She can&rsquo;t use any skill or ability that requires more than a few seconds of concentration (GM&rsquo;s call).</li>\n<li><strong>Enraged:</strong> She ignores two points of Wound penalties and all Fatigue penalties (this stacks with any other abilities that reduce those penalties).</li>\n<li><strong>Reckless Abandon:</strong> If a barbarian rolls a Critical Failure on an attack roll while raging, she hits a random target within range of her attack (<em>not</em> the intended target), friend or foe. If there are no applicable targets, she injures herself and suffers @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{Bumps &amp; Bruises}.</li>\n</ul>\n</li>\n</ul>\n</div>"
+    },
+    "Bard": {
+      "name": "Bard",
+      "category": "Bard",
+      "description": "<div class=\"swpf-core\">\n<p>The bards of Golarion bring epic tales of heroism and tragedy to the people. Many are renowned far and wide for their talents, but few realize how crucial they are to parties of brave adventurers. They bolster their allies in dire circumstances, beguile their enemies, and often battle evil with a sword in one hand and a lute in the other.</p>\n<p>Bards cast spells by singing, reciting poetry, or reciting epic tales. They are usually erudite individuals, traveling the land to learn bawdy songs, great histories, and epic legends.</p>\n<p>Allies must be able to hear the bard to benefit from his various abilities.</p>\n<ul>\n<li><span class=\"list-heading\">Arcane Background</span> <strong>(Bard):</strong> Bards use @Compendium[swpf-core-rules.swpf-skills.Performance]{Performance} as their arcane skill. They have 3 starting powers and 10 Power Points.<br /><strong>Available Powers:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}</em>,@Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend},<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>.</li>\n<li><span class=\"list-heading\">Armor Interference</span> <strong>(Light):</strong> Bulky armor interferes with a bard&rsquo;s grace and dexterity. They subtract 4 from their Performance rolls and from their Agility and Agility-based skill rolls if using medium or heavy armor or shields.</li>\n<li><span class=\"list-heading\">Sharp Tongued:</span> Bards may use Performance as @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt} to Test a foe. They may also ignore the Repetition advice given under @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Tests}, as long as they recite different verses, stanzas, lyrics, etc. Bards may also substitute Performance for Taunt to meet Edge Requirements.</li>\n</ul>\n</div>"
+    },
+    "Beast Bond": {
+      "name": "Beast Bond",
+      "category": "Weird Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Some individuals have an extraordinary bond with their animal companions. These characters may spend their own Bennies for any animals under their control, including mounts, pets, familiars, and so on.</p>\n</div>"
+    },
+    "Beast Master": {
+      "name": "Beast Master",
+      "category": "Weird Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Animals take to your hero quickly and easily. They won&rsquo;t attack him unless he attacks them first or they&rsquo;re enraged for some reason.</p>\n<p>The Beast Master&rsquo;s &ldquo;animal magnetism&rdquo; is so great he&rsquo;s attracted a loyal animal of some sort as well. This is typically an animal of Size 0 or smaller, subject to the GM&rsquo;s approval.</p>\n<p>The beast is an Extra and doesn&rsquo;t Advance in Rank or abilities. If a pet is dismissed or killed, the hero gains a replacement in 1d4 days.</p>\n<p><strong>More Powerful Companions:</strong> Beast Master may be taken more than once. Choose one of the effects below each time it&rsquo;s chosen:</p>\n<ul>\n<li>Gain an additional pet.</li>\n<li>Increase one of the pet&rsquo;s Traits one die type (only one Trait per pet).</li>\n<li>Increase the maximum Size pet you may have by +1, to a maximum of 3.</li>\n<li>Make one pet a Wild Card. (The hero must be of Heroic Rank).</li>\n</ul>\n</div>"
+    },
+    "Block": {
+      "name": "Block",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Through hard-fought experience your hero has learned to defend himself in vicious hand-to-hand combat. His Parry increases by +1 and any Gang Up bonus against him is reduced by one.</p>\n</div>"
+    },
+    "Bolster": {
+      "name": "Bolster",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Belittling or humiliating an enemy can boost your ally&rsquo;s spirits. When this character successfully Tests a foe, he may also remove the <strong>Distracted </strong>or<strong> Vulnerable</strong> state (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{here}) from one of his allies.</p>\n</div>"
+    },
+    "Born in the Saddle": {
+      "name": "Born in the Saddle",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Whether it&rsquo;s on the back of fast horse or other more exotic mount, this hero feels more at home in the saddle than on her own two feet.</p>\n<p>The Edge grants the hero one free reroll on all Riding rolls and increases her mount&rsquo;s Pace by 2 and its running die one step.</p>\n</div>"
+    },
+    "Brave": {
+      "name": "Brave",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Those with this Edge have learned to master their fear, or have dealt with so many horrors they&rsquo;ve become jaded. These valiant explorers add +2 to Fear checks and subtract 2 from <strong>@Compendium[swpf-core-rules.swpf-tables.Fear]{Fear Table}</strong> results.</p>\n</div>"
+    },
+    "Brawler": {
+      "name": "Brawler",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>His fists hit like hammers or his talons cut like scythes. His body feels like it&rsquo;s made of stone. Brawlers increase their Toughness by 1 and roll @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Strength} +d4 when hitting with their fists or feet (or claws if they have them). If they already have a damage die from <strong>@Compendium[swpf-core-rules.swpf-abilities.Claws]{Claws}</strong>, the monk&rsquo;s Unarmed Strike ability, etc., increase the damage die type by one instead.</p>\n<p>The Brawler Edge doesn&rsquo;t make the character&rsquo;s fists <strong>@Compendium[swpf-core-rules.swpf-abilities.Natural Weapons]{Natural Weapons}</strong>.</p>\n</div>"
+    },
+    "Brawny": {
+      "name": "Brawny",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your bruiser is very large or very fit. Her Size increases by +1 (and therefore Toughness by 1) and she treats her Strength as one die type higher when determining <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Encumbrance}</strong> and <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Minimum Strength}</strong> to use armor, weapons, and equipment without a penalty.</p>\n<p>Brawny can&rsquo;t increase a character&rsquo;s Size above +3, and it has no effect on Armor Interference or Armor Restriction.</p>\n</div>"
+    },
+    "Bruiser": {
+      "name": "Bruiser",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The fighter increases his Toughness an additional +1, and the damage caused with his fists or claws another die type.</p>\n</div>"
+    },
+    "Brute": {
+      "name": "Brute",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Brutes focus on core strength and fitness over coordination and flexibility. They treat Athletics as linked to Strength instead of Agility for purposes of @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01advancement000]{ Advancement}. The character may also resist @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Tests} with Strength if he chooses.</p>\n<p>Finally, Brutes increase the Short Range of any thrown item by +1. Double that for the adjusted Medium Range, and double again for Long Range. If a thrown item&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Range} is 3/6/12, for example, a Brute&rsquo;s Range is 4/8/16.</p>\n</div>"
+    },
+    "Calculating": {
+      "name": "Calculating",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>A few seconds to study a foe&rsquo;s actions gives your hero a major advantage. When his Action Card is a Five or less, he ignores up to 2 points of penalties on one action that turn, which can include Multi-Action, cover, Range, and even Wound penalties.</p>\n</div>"
+    },
+    "Champion": {
+      "name": "Champion",
+      "category": "Weird Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Champions are holy (or unholy) men and women chosen to fight for a particular deity or religion. Most are pious souls ready and willing to lay down their lives for a greater cause, but some may have been born into the role and follow their path with some reluctance.</p>\n<p>Champions fight the forces of darkness (or good), adding +2 damage when attacking supernaturally evil (or good if they&rsquo;re evil) creatures. The bonus applies to area effect damage, ranged attacks, powers, etc.</p>\n<p>The GM must decide which foes this bonus applies to, but generally it&rsquo;s any evil (or good!) creature born of magic or with any supernatural abilities.</p>\n</div>"
+    },
+    "Channeling": {
+      "name": "Channeling",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>When the character gets a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{raise} on her arcane skill roll (or roll to activate or use an @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05arcanedevice00]{arcane device}), she reduces its @Compendium[swpf-core-rules.swpf-edges.Power Points]{Power Point} cost by 1. This <em>can</em> take it to 0.</p>\n</div>"
+    },
+    "Charismatic": {
+      "name": "Charismatic",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero is likable for some reason. She may be trustworthy or kind, or might just exude confidence and goodwill. You get one free reroll on @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls.</p>\n</div>"
+    },
+    "Cleric": {
+      "name": "Cleric",
+      "category": "Cleric",
+      "description": "<div class=\"swpf-core\">\n<p>In faith and the miracles of the divine, many find a greater purpose. Called to serve powers beyond most mortal understanding, all priests provide for the spiritual needs of their people. More than mere preachers, clerics serve as emissaries of their gods.</p>\n<p>While clerics of different faiths share similar abilities, they are as different from one another as the divinities they serve. Some offer healing and redemption, others judge law and truth, and still others spread conflict and corruption.</p>\n<ul>\n<li><span class=\"list-heading\">Arcane Background</span> <strong>(Cleric):</strong> Clerics use @Compendium[swpf-core-rules.swpf-skills.Faith]{Faith} as their arcane skill. On taking this Edge, a character gains 10 Power Points and must choose a Domain for the deity she serves from the list below. All clerics start with the <em>@Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em> power and two other powers from their available powers.</li>\n<li><span class=\"list-heading\">Available Powers:</span> Clerics have access to powers from the list below plus the powers listed for their chosen Domain: <em>@Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em><em>, @Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Relief]{relief}, @Compendium[swpf-core-rules.swpf-powers.Resurrection]{resurrection}, @Compendium[swpf-core-rules.swpf-powers.Sanctuary]{sanctuary}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>.</li>\n<li><span class=\"list-heading\">Channel Energy:</span> Clerics can cast the <em>@Compendium[swpf-core-rules.swpf-powers.Healing]{healing}</em> power at a Range of Spirit rather than Touch. Their <em>healing</em> power also has the Additional Recipients Power Modifier, allowing them to heal nearby allies at the cost of one extra Power Point each.</li>\n<li><span class=\"list-heading\">Vow</span> <strong>(Major):</strong> Clerics have a major vow to serve their deity. Those who wish to draw energy from divine sources must uphold the principles of their Domain. <br />If the cleric violates their deity's trust (GM's call) the cleric subtracts 2 from Faith rolls for a week. Truly sacrilegious acts might rob her of her powers entirely until she atones in some way.</li>\n</ul>\n</div>"
+    },
+    "Combat Acrobat": {
+      "name": "Combat Acrobat",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The tumbler leaps quickly about so that attacks against her are made at &minus;1 as long as she&rsquo;s aware of the attack, can reasonably move about, and isn&rsquo;t suffering any Encumbrance or Minimum Strength penalties.</p>\n</div>"
+    },
+    "Combat Reflexes": {
+      "name": "Combat Reflexes",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your warrior recovers quickly from shock and trauma. He adds +2 when rolling to recover from being Shaken or Stunned.</p>\n</div>"
+    },
+    "Command": {
+      "name": "Command",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Command is the basic ability to give clear instructions and support to allies in the thick of battle. Extras in Command Range add +1 to their Spirit or Vigor rolls when attempting to recover from being Shaken or Stunned, respectively.</p>\n</div>"
+    },
+    "Command Presence": {
+      "name": "Command Presence",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>A booming voice, effective commands, natural charisma, or simple training results in a much more effective combat element. A hero with this Edge has a Command Range of 10&Prime; (20 yards).</p>\n</div>"
+    },
+    "Common Bond": {
+      "name": "Common Bond",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Selfless heroes and determined leaders know their greatest strength often comes from their companions, and are willing to give some of their own fortune, fate, or luck to support them.</p>\n<p>A character with this Edge may freely give her Bennies to any other character she can communicate with. The player should explain what form this takes, from a quick shout of encouragement to a welcome pat on the back.</p>\n</div>"
+    },
+    "Concentration": {
+      "name": "Concentration",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Through training and focus, the caster is extremely efficient in channeling arcane forces. The base Duration of any non-Instant power is doubled. This includes maintaining powers as well.</p>\n</div>"
+    },
+    "Connections": {
+      "name": "Connections",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your heroine is connected to people or organizations who can help her when the chips are down. It might be the city guard, a guild, a wealthy noblewoman, or even other adventurers.</p>\n<p>Connections may be taken more than once, selecting a new faction or contact each time. Once per session, and assuming she can get in touch with them, the heroine can call on her friends for a favor.</p>\n<p>The favor depends on the nature of the contact (GM&rsquo;s call), but might include a loan, gear, a few allied fighters, transportation, information, or even a professional with critical skills the party doesn&rsquo;t have, like a tracker or scholar.</p>\n</div>"
+    },
+    "Counterattack": {
+      "name": "Counterattack",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Fighters with this Edge deal instant punishment for an enemy&rsquo;s mistakes. Once per round (if not @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned}), the character receives a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Free Attack} against one failed Fighting attack against him. The counterattack takes place immediately(before other hits against the hero on the same @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Action Card}, if any).</p>\n</div>"
+    },
+    "Countersong": {
+      "name": "Countersong",
+      "category": "Bard",
+      "description": "<div class=\"swpf-core\">\n<p>The bard and all allies within 5&rdquo; (10 yards) get a free reroll when opposing enemy spell effects or attempting to recover from them. This includes rolls to recover from any magical effect as <em>@Compendium[swpf-core-rules.swpf-powers.Blind]{blind}</em>,<em>@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{lower trait}, </em>or<em> @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}. </em>Countersong doesn&rsquo;t help targets resist or recover from natural effects.</p>\n</div>"
+    },
+    "Danger Sense": {
+      "name": "Danger Sense",
+      "category": "Weird Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero can sense when something bad is about to happen. When rolling for <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Surprise}</strong>, he adds +2 to his @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} roll to act in the first round. With a raise, he starts the encounter on @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Hold}.</p>\n<p>In other situations not covered by the Surprise rules (a sniper shot, pit trap, poisoned drink, etc.), Danger Sense gives him a Notice roll at &minus;2 (or +2 if a Notice roll is usually allowed) to detect the hazard and take appropriate action. If this was an attack and the hero makes his Notice roll, the foe doesn&rsquo;t get @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{The Drop} against him.</p>\n</div>"
+    },
+    "Dead Shot": {
+      "name": "Dead Shot",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>When your Action Card is a Joker, double the total damage of your first successful Athletics (throwing) or Shooting roll this round.</p>\n</div>"
+    },
+    "Deadly Blow": {
+      "name": "Deadly Blow",
+      "category": "Fighter",
+      "description": "<div class=\"swpf-core\">\n<p>The fighter adds +1 to the damage of all successful @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} rolls.</p>\n</div>"
+    },
+    "Destroy Undead": {
+      "name": "Destroy Undead",
+      "category": "Cleric",
+      "description": "<div class=\"swpf-core\">\n<p>As an action, the cleric spends 2 Power Points to channel positive energy in a Medium Blast Template centered on herself. Every undead creature within the template must make a Spirit roll or take a Wound (this may be Soaked as usual).</p>\n</div>"
+    },
+    "Dirge of Doom": {
+      "name": "Dirge of Doom",
+      "category": "Bard",
+      "description": "<div class=\"swpf-core\">\n<p>This baleful song builds dread in the bard&rsquo;s foes. At his discretion, any enemy who spends a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Benny} to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Soak} or reroll a Trait or damage roll within 10&rdquo; (20 yards) and line of sight of the bard subtracts 2 from the final total.</p>\n</div>"
+    },
+    "Divine Mastery (Cleric)": {
+      "name": "Divine Mastery (Cleric)",
+      "category": "Cleric",
+      "description": "<div class=\"swpf-core\">\n<p>Deities reward their clerics with additional power and energy to power their miracles. A cleric who takes this Edge gains access to all her powers&rsquo; @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Epic Power Modifiers}.</p>\n</div>"
+    },
+    "Divine Mastery (Druid)": {
+      "name": "Divine Mastery (Druid)",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\">\n<p>Nature rewards its defenders with additional power and energy. A druid who takes this Edge gains access to all her powers&rsquo; @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Epic Power Modifiers}.</p>\n</div>"
+    },
+    "Dodge": {
+      "name": "Dodge",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero can anticipate attacks or move erratically under fire. Unless the victim of a surprise attack is taken completely unaware, Dodge subtracts 2 from all @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{ranged attacks} made against him. Dodge does <em>not</em> stack with actual @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{cover}.</p>\n</div>"
+    },
+    "Dragon Disciple": {
+      "name": "Dragon Disciple",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Spellcasters who embrace their draconic heritage and learn to channel their abilities become fearsome warriors. They possess not only the repertoire of an accomplished sorcerer, but also the ability to unleash the furious power of dragons upon their foes.</p>\n<p><strong>Breath Attack:</strong> Once per encounter, as a limited action the dragon disciple may make a breath attack in a Cone Template. The attack causes 3d6 damage and may be Evaded.</p>\n<p>The attack has one of the following effects, based on the type of dragon the character descends from: fire (victims may catch fire, see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{Hazards}), acid (lingering damage, see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Power Modifiers}), electricity (+2 damage to those in metal armor), or cold (victim is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Hindered} until the end of his next turn, see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{Power Modifiers}).</p>\n</div>"
+    },
+    "Dragon Disciple II": {
+      "name": "Dragon Disciple II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Wings:</strong> The dragon disciple&rsquo;s body becomes more scaly, his eyes more feral, and he may even grow small horns. Eventually, scaly wings sprout from his back, granting him @Compendium[swpf-core-rules.swpf-abilities.Flight]{Flight} (Pace 8).</p>\n</div>"
+    },
+    "Dragon Disciple III": {
+      "name": "Dragon Disciple III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The disciple&rsquo;s transformation is now complete&mdash; this permanently changes her Type to Dragon.</p>\n<p><strong>Dragon Form:</strong> Twice per day as a limited action, the dragon disciple may take the form of a dragon of her bloodline. This makes her Size 3, Strength d12, and Vigor d10. She has Armor 4, and her Bite/Claw attack is Str+d8, AP 2. Her wings grow to accommodate her form.</p>\n<p>If she doesn't already have it, her dragon form also grants her environmental resistance common to her draconic heritage (electricity for blue, fire for red, etc.)</p>\n<p>Her clothing, gear, and magic items meld into her form and provide no benefits. She can remain in this form for up to five minutes, and extend the Duration another five minutes by taking a level of Fatigue.</p>\n<p>She may still speak and cast spells in dragon form.</p>\n</div>"
+    },
+    "Druid": {
+      "name": "Druid",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\">\n<p>In the purity and beauty of nature lingers a power beyond the marvels of civilization. These primal magics are guarded by servants of balance known as druids. Allies to beasts and manipulators of nature, these protectors shield their lands from all who threaten them.</p>\n<p>Rewarded for their devotion with incredible powers, druids gain unparalleled shape-shifting abilities, the companionship of mighty beasts, and the power to call upon nature&rsquo;s wrath. The mightiest temper powers akin to storms, earthquakes, and volcanoes with wisdom long forgotten by civilization.</p>\n<ul>\n<li><span class=\"list-heading\">Arcane Background</span> <strong>(Druid):</strong> Druids use @Compendium[swpf-core-rules.swpf-skills.Faith]{Faith} as their arcane skill. On taking this Edge, the hero gains 3 starting powers and 10 Power Points.<br /><strong>Available Powers:</strong> Druids choose spells from the cleric's available powers and under the Nature Domain.</li>\n<li><span class=\"list-heading\">Armor Interference</span> <strong>(Light):</strong> Bulky armor interferes with a druid&rsquo;s ability to sense and commune with nature. They subtract 4 from their Faith rolls and from their Agility and Agility-based skill rolls if using medium or heavy armor or shields. Druids cannot use metal armor at all.</li>\n<li><span class=\"list-heading\">Nature Bond:</span> A druid may attune herself to nature or a special animal companion. See <strong>Nature Bond,</strong> below.</li>\n<li><span class=\"list-heading\">Nature Sense:</span> Druids commune with nature and its spirits. Survival is linked to Spirit rather than Smarts.</li>\n<li><span class=\"list-heading\">Secret Language:</span> All druids know the secret language known as druidic.</li>\n<li><span class=\"list-heading\">Vow</span> <strong>(Major):</strong> Druids have a major vow to protect nature. Those drawing energy from divine sources must uphold the principles of the Nature Domain. <br />If the druid violates her deity's trust (GM's call) the druid subtracts 2 from Faith rolls for a week. Truly sacrilegious acts might rob her of her powers entirely until she atones in some way.</li>\n<li><span class=\"list-heading\">Wilderness Stride:</span> Druids pass through terrain such as dense forest, rocky hills, or desert sands with ease. They ignore penalties for Difficult Ground (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Movement}).</li>\n</ul>\n<h3 class=\"item\">Nature Bond</h3>\n<p>The bonds druids form with nature are deep and powerful. Choose one of these abilities:</p>\n<p><strong>Attuned:</strong> The druid gets one free reroll anytime she fails a Faith roll to activate a spell.</p>\n<p><strong>Beast Master:</strong> The druid gains the @Compendium[swpf-core-rules.swpf-edges.Beast Master]{Beast Master} Edge, gaining an animal companion. This companion is a Wild Card.</p>\n</div>"
+    },
+    "Duelist": {
+      "name": "Duelist",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Duelists represent the pinnacle of elegant swordplay, parrying blows and countering their opponent&rsquo;s actions with expert ripostes.</p>\n<p><strong>Surgical Strike:</strong> A duelist makes surgical strikes with one-handed piercing weapons with a Min Str of d6 or less, adding +2 to her damage total.</p>\n<p><strong>Parry:</strong> If the duelist hasn&rsquo;t acted this turn, she may declare the Defend maneuver after an opponent declares a Fighting attack against her but before he rolls. She discards her current Action Card and her Parry bonus is +6 instead of +4 that turn.</p>\n</div>"
+    },
+    "Duelist II": {
+      "name": "Duelist II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Crippling Strike:</strong> A foe Shaken or Wounded by the duelist reduces his Pace by 2 until healed. No foe can be subject to more than one crippling strike, and can&rsquo;t be reduced below a Pace of 1.</p>\n</div>"
+    },
+    "Duelist III": {
+      "name": "Duelist III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Deflect Arrows:</strong> The duelist can now deflect arrows, bolts, and thrown weapons. Enemies subtract 2 from @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing) or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} rolls to hit him. This stacks with Dodge and similar abilities, and is ignored if the duelist is surprised, Bound, unaware of the attack, or can&rsquo;t generally parry the projectiles.</p>\n</div>"
+    },
+    "Elan": {
+      "name": "Elan",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Elan means energy or spirit. Those who have it rise to the occasion when the going gets toughest. When you spend a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Benny} to reroll a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traits00000000]{Trait}, add +2 to the total. The bonus applies only when rerolling. It doesn&rsquo;t apply to damage rolls (since they&rsquo;re not Trait rolls), nor does it apply to Soak rolls unless you&rsquo;re using <em>another</em> Benny to reroll the Vigor check.</p>\n</div>"
+    },
+    "Eldritch Inspiration": {
+      "name": "Eldritch Inspiration",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\">\n<p>Great wizards gather esoteric information in their spellbooks, allowing them to harness magical powers at a whim. Assuming he has his spellbook on his person, the wizard can spend a Benny to cast any power of his Rank or lower. The power may be maintained normally but afterwards is forgotten (the wizard doesn&rsquo;t add it to his list of powers).</p>\n</div>"
+    },
+    "Eldritch Knight": {
+      "name": "Eldritch Knight",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Elite warriors who train in both the martial and arcane arts learn how to take extra advantage of their prowess in both. These versatile heroes, the Eldritch Knights, are usually characters who studied both the martial and arcane arts.</p>\n<p><strong>Eldritch Recharge:</strong> Anytime the knight gets a raise on a damaging attack roll (@Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), Fighting, @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting}, or arcane skill), he regains a Power Point.</p>\n</div>"
+    },
+    "Eldritch Knight II": {
+      "name": "Eldritch Knight II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Eldritch Strike:</strong> The knight can spend two Power Points after making an attack roll to increase its total by +2.</p>\n</div>"
+    },
+    "Eldritch Knight III": {
+      "name": "Eldritch Knight III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Eldritch Strike (Imp):</strong> The knight can spend two Power Points after making a successful attack roll to increase that attack's damage by +2.</p>\n</div>"
+    },
+    "Expert": {
+      "name": "Expert",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swpf-core\">\n<p>As the @Compendium[swpf-core-rules.swpf-edges.Professional]{Professional} Edge, increasing the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traits00000000]{Trait} and its limit one additional step.</p>\n</div>"
+    },
+    "Extraction": {
+      "name": "Extraction",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>When a character withdraws from melee, adjacent attackers get a free @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} attack against him (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Withdrawing From Melee}</strong>). This is a very dangerous proposition for most, but not your wily champion. When moving away from adjacent foes, one of them (player&rsquo;s choice), doesn&rsquo;t get his free Fighting attack.</p>\n</div>"
+    },
+    "Fame": {
+      "name": "Fame",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your character is a minor celebrity of some sort. She might be a popular bard in a small fiefdom, a warrior who saved the town, or a beloved wizard who entertains children.</p>\n<p>She makes double the normal fee when performing for pay (see <strong>@Compendium[swpf-core-rules.swpf-skills.Performance]{Performance}</strong>). She can also use her celebrity to add +1 to @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls if a target is friendly and knows who she is (a @Compendium[swpf-core-rules.swpf-skills.Common Knowledge]{Common Knowledge} roll modified by how likely the individual is to know the celebrity).</p>\n<p>The downside of Fame is that the individual is often recognized, others frequently want something from her, she may be followed by fans or admirers, or she may not be able to shirk obligations, performances, or other duties without causing trouble for herself.</p>\n</div>"
+    },
+    "Famous": {
+      "name": "Famous",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero is truly famous. She&rsquo;s well-known in a large circle such as a city, kingdom, or a popular traveling road show. She makes 5&times; the normal fee when performing and adds +2 to @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls when influencing friendly individuals who know who she is.</p>\n<p>The price is higher for the truly Famous, too, with more demands on her time, obligations, rivals, scandals, and an inability to operate in crowds without being recognized.</p>\n</div>"
+    },
+    "Fast Healer": {
+      "name": "Fast Healer",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Those with this blessing add +2 to Vigor rolls for natural healing, and check every three days instead of five (see <strong>@Compendium[swpf-core-rules.swpf-skills.Healing]{Healing}</strong>).</p>\n</div>"
+    },
+    "Favored Powers (Cleric)": {
+      "name": "Favored Powers (Cleric)",
+      "category": "Cleric",
+      "description": "<div class=\"swpf-core\">\n<p>The cleric has great familiarity with some of her core powers and can cast them quickly and easily. As a limited free action she may ignore up to two points of <em>any</em> penalties (Multi-Action, Wounds, Fatigue, etc.) when casting <em>@Compendium[swpf-core-rules.swpf-powers.Healing]{healing}, @Compendium[swpf-core-rules.swpf-powers.Sanctuary]{sanctuary},</em><em> </em>or<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}.</em></p>\n<p>This Edge doesn&rsquo;t give her those powers&mdash; they must be taken separately.</p>\n</div>"
+    },
+    "Favored Powers (Druid)": {
+      "name": "Favored Powers (Druid)",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\">\n<p>The druid has great familiarity with some of her core powers and can cast them quickly and easily. As a limited free action, she may ignore up to two points of <em>any</em> penalties (Multi-Action, Wounds, Fatigue, etc.) when casting <em>@Compendium[swpf-core-rules.swpf-powers.Entangle]{Entangle}, @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}, or @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}.</em></p>\n<p>This Edge doesn&rsquo;t give her those powers&mdash; they must be taken separately.</p>\n</div>"
+    },
+    "Favored Powers (Sorcerer)": {
+      "name": "Favored Powers (Sorcerer)",
+      "category": "Sorcerer",
+      "description": "<div class=\"swpf-core\">\n<p>The sorcerer has great familiarity with certain powers and can cast them quickly and easily. As a limited free action she may ignore up to two points of <em>any</em> penalties (Multi-Action, Wounds, Fatigue, etc.) when casting <em>@Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}</em>, or<em>@Compendium[swpf-core-rules.swpf-powers.Protection]{protection}.</em>.</p>\n<p>This Edge doesn&rsquo;t give her those powers&mdash; they must be taken separately.</p>\n</div>"
+    },
+    "Favored Powers (Wizard)": {
+      "name": "Favored Powers (Wizard)",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\">\n<p>The wizard has great familiarity with certain powers and can cast them quickly and easily. As a limited free action, he may ignore up to two points of <em>any</em> penalties (Multi-Action, Wounds, Fatigue, etc.) when casting <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{arcane protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>.</p>\n<p>This Edge doesn&rsquo;t give him those powers &mdash; they must be taken separately.</p>\n</div>"
+    },
+    "Feint": {
+      "name": "Feint",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>When performing a <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Test}</strong> with the Fighting skill, you can choose to make the foe resist with Smarts instead of Agility.</p>\n</div>"
+    },
+    "Fervor": {
+      "name": "Fervor",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>A simple phrase uttered by a great leader can sometimes have momentous results. A commander with this ability can inspire his troops to bloody fervor.</p>\n<p>Extras in range add +1 to their Fighting damage rolls.</p>\n</div>"
+    },
+    "Fighter": {
+      "name": "Fighter",
+      "category": "Fighter",
+      "description": "<div class=\"swpf-core\">\n<p>Some take up arms for glory, wealth, or revenge. Others do battle to prove themselves, to protect others, or because they know nothing else. Still others learn the ways of weaponcraft to hone their bodies in battle and prove their mettle in the forge of war.</p>\n<p>Lords of the battlefield, fighters are a disparate lot. Some train with many weapons; some prefer just one. Whatever their tactics, fighters excel at combat. They protect their own and defeat their enemies, rarely shying away from battle. They often lead the charge, a role they relish even if they don&rsquo;t insist on it.</p>\n<p>These skilled warriors turn hunks of metal into arms capable of taming kingdoms, slaughtering monsters, and rousing the hearts of armies. Woe to those who dare stand against them.</p>\n<ul>\n<li><span class=\"list-heading\">Martial Flexibility:</span> Once per encounter, as a limited free action, a fighter can choose to gain the benefits of a single Combat Edge. He must meet all of the Edge&rsquo;s Requirements, and the benefits of the chosen Edge end after five rounds.</li>\n</ul>\n</div>"
+    },
+    "First Strike": {
+      "name": "First Strike",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Once per round, as long as he&rsquo;s not @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken} or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Stunned}, the hero gets a free Fighting attack against a foe immediately after he moves into @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach}. (See Free Attacks @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{here}).</p>\n</div>"
+    },
+    "Fix It": {
+      "name": "Fix It",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero is a natural with mechanical contraptions. She adds +2 to Repair rolls, and with a raise, halves the time normally required to fix something. This means if a particular Repair job says a raise repairs it in half the time, a @Compendium[swpf-core-rules.swpf-edges.Fix It]{Fix It} can finish the job in one-quarter the time with a raise.</p>\n</div>"
+    },
+    "Fleet-Footed": {
+      "name": "Fleet-Footed",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero&rsquo;s Pace is increased by +2 and his running die increases one step (from d6 to d8, for example).</p>\n</div>"
+    },
+    "Followers": {
+      "name": "Followers",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Each time this Edge is chosen, five followers come to fight by the hero&rsquo;s side. If any are lost, others eventually take their place (how long is up to the GM and the circumstances).</p>\n<p>Followers must be cared for and generally want a share of whatever loot, treasure, or other rewards the hero acquires. Otherwise, they are completely dedicated to their task. They won&rsquo;t throw their lives away but are willing to risk them repeatedly in his service.</p>\n<p>Use the <strong>@Compendium[swpf-core-rules.swpf-edges.Soldier]{Soldier}</strong> profile for the followers. A hero may outfit her allies as she sees fit. Use the <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04allies00000000]{Allies}</strong> rules to give them distinctive personalities if desired.</p>\n</div>"
+    },
+    "Formation Fighter": {
+      "name": "Formation Fighter",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The character has trained to fight alongside others, overwhelming their common foe with synchronized strikes and blows. She increases the Gang Up bonus by an additional +1 for herself and her allies. The maximum Gang Up bonus is still +4 no matter how many Formation Fighters stand together.</p>\n</div>"
+    },
+    "Free Runner": {
+      "name": "Free Runner",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The character is skilled and fearless when it comes to running, jumping, swinging, or scampering up walls and obstacles, through crowded city streets, or even swinging through the rigging of a ship.</p>\n<p>While on foot, she moves at her full Pace in such circumstances and adds +2 to Athletics rolls made to climb or negotiate obstacles as long as there are hand- or footholds she can bound on, bounce off, or swing from.</p>\n</div>"
+    },
+    "Frenzy": {
+      "name": "Frenzy",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>A character with Frenzy rolls a second Fighting die with any one of his standard Fighting attacks for the turn (extra dice from Frenzy cannot be added to @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{limited actions}). The extra die may be allocated to the same or different targets as he sees fit. Resolve each separately.</p>\n</div>"
+    },
+    "Giant Killer": {
+      "name": "Giant Killer",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The bigger they are, the harder they are to kill. At least for most. Your hero knows how to find the weak points in the most massive of foes.</p>\n<p>He adds +1d6 damage when attacking creatures who are three or more Sizes larger than himself (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Size &amp; Scale}</strong>). A human (Size 0) gets the bonus against a creature of Size 3 or greater.</p>\n</div>"
+    },
+    "Great Ki": {
+      "name": "Great Ki",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\">\n<p>The monk further nurtures and refines his ki. He adds the following spells to his Mystic Powers Edge: <em>@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost Trait} (Strength), @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>.</p>\n</div>"
+    },
+    "Great Luck": {
+      "name": "Great Luck",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The player draws two extra Bennies instead of one at the start of each session.</p>\n</div>"
+    },
+    "Hard To Kill": {
+      "name": "Hard To Kill",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>This adventurer has more lives than a herd of cats. He may ignore his Wound penalties when making Vigor rolls to avoid <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03healing0000000]{Bleeding Out}</strong>.</p>\n</div>"
+    },
+    "Harder To Kill": {
+      "name": "Harder To Kill",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>If your Pathfinder is ever &ldquo;killed,&rdquo; roll a die. On an odd result, he&rsquo;s dead as usual. On an even roll, he&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} but somehow escapes death. He may be captured, stripped of all his belongings, or mistakenly left for dead, but he somehow survives.</p>\n</div>"
+    },
+    "Healer": {
+      "name": "Healer",
+      "category": "Weird Edges",
+      "description": "<div class=\"swpf-core\">\n<p>A hero with this Edge gets a free reroll on all @Compendium[swpf-core-rules.swpf-skills.Healing]{Healing} rolls, whether natural or magical in nature.</p>\n</div>"
+    },
+    "Hold the Line!": {
+      "name": "Hold the Line!",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Hold the Line strengthens the will of any Extras under the hero&rsquo;s command, adding +1 to their Toughness.</p>\n</div>"
+    },
+    "Holy/Unholy Warrior": {
+      "name": "Holy/Unholy Warrior",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Believers face grave dangers in service to their divine patrons. To survive such hardships, the forces of good (or evil) grant miracles and the ability to turn their favor into supernatural protection.</p>\n<p>After making a Soak roll, the chosen may add +1 to the total for each Power Point spent, to a maximum of +4.</p>\n</div>"
+    },
+    "Humiliate": {
+      "name": "Humiliate",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">Those with a cruel wit can destroy a rival&rsquo;s ego in a single remark or well-timed gesture.<br />Your hero gets a free reroll on @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt Tests}</span></p>\n</div>"
+    },
+    "Improved Arcane Resistance": {
+      "name": "Improved Arcane Resistance",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>As @Compendium[swpf-core-rules.swpf-edges.Arcane Resistance]{Arcane Resistance}, but the penalty to the arcane skill roll and damage are increased to 4.</p>\n</div>"
+    },
+    "Improved Block": {
+      "name": "Improved Block",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n  <p>The hero’s Parry bonus is now +2 and the Gang Up bonus against him is reduced by 2.</p>\n</div>"
+    },
+    "Improved Counterattack": {
+      "name": "Improved Counterattack",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Like @Compendium[swpf-core-rules.swpf-edges.Counterattack]{Counterattack}, but the hero gets a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Free Attack} against up to three failed attacks each round.</p>\n</div>"
+    },
+    "Improved Dodge": {
+      "name": "Improved Dodge",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero adds +2 when evading @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{area effect attacks}. See <strong>Evasion</strong> @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{here}.</p>\n</div>"
+    },
+    "Improved Extraction": {
+      "name": "Improved Extraction",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Up to three foes&rsquo; (player&rsquo;s choice) don&rsquo;t get attacks when your warrior moves out of melee with them.</p>\n</div>"
+    },
+    "Improved First Strike": {
+      "name": "Improved First Strike",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Like @Compendium[swpf-core-rules.swpf-edges.First Strike]{First Strike} but the hero may attack up to three foes each round.</p>\n</div>"
+    },
+    "Improved Frenzy": {
+      "name": "Improved Frenzy",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The fighter rolls an extra Fighting die with up to two Fighting attacks in the same turn.</p>\n<p class=\"example\">Example: A fighter attacks a giant scorpion. He has Improved Frenzy and decides to attack three times (a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Multi-Action} at the usual penalty). He rolls the @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} skill with an extra die for his first and second attack. The fighter doesn&rsquo;t get the extra die on the third Fighting roll</p>\n</div>"
+    },
+    "Improved Level Headed": {
+      "name": "Improved Level Headed",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">Like @Compendium[swpf-core-rules.swpf-edges.Level Headed]{Level Headed} but the hero draws two additional cards and chooses which to keep.</div>"
+    },
+    "Improved Nerves of Steel": {
+      "name": "Improved Nerves of Steel",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero ignores two points of Wound penalties.</p>\n</div>"
+    },
+    "Improved Rapid Shot": {
+      "name": "Improved Rapid Shot",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The shooter may now increase her weapon&rsquo;s Rate of Fire by 1 twice in the same turn (via a Multi-Action).</p>\n<p>Improved Rapid Shot can be used with @Compendium[swpf-core-rules.swpf-edges.Rapid Reload]{Rapid Reload}.</p>\n</div>"
+    },
+    "Improved Sweep": {
+      "name": "Improved Sweep",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Like @Compendium[swpf-core-rules.swpf-edges.Sweep]{Sweep}, but the whirlwind of death may ignore the &minus;2 penalty.</p>\n</div>"
+    },
+    "Improved Trademark Weapon": {
+      "name": "Improved Trademark Weapon",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>As @Compendium[swpf-core-rules.swpf-edges.Trademark Weapon]{Trademark Weapon} but the bonuses when using the weapon increase to +2.</p>\n</div>"
+    },
+    "Improvisational Fighter": {
+      "name": "Improvisational Fighter",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Heroes often find themselves @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} with pieces of equipment or furnishings not designed for combat. A brawler with this Edge has a knack for using such improvised weapons. He ignores the usual &minus;2 penalty when wielding them. See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{here} for details on <strong>Improvised Weapons</strong>.</p>\n</div>"
+    },
+    "Inspire": {
+      "name": "Inspire",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Exceptional leaders inspire those around them to great feats of valor and determination. As a limited action, the hero may roll his Battle skill to Support one type of Trait roll, and apply it to <em>all</em> allied Extras in Command Range. A leader could Support all @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} attacks in range, for example.</p>\n<p>Bonuses from this Edge can't stack with others.</p>\n</div>"
+    },
+    "Inspire Heroics": {
+      "name": "Inspire Heroics",
+      "category": "Bard",
+      "description": "<div class=\"swpf-core\">\n<p>Bards inspire their comrades with epic tales of valor and bravery. Once during any combat encounter (GM&rsquo;s call), the bard can spend a Benny to gain five Inspiration tokens. This is a limited free action.</p>\n<p>For the remainder of the encounter, the bard may give these tokens to anyone within a Range of Smarts except himself. This may be done at any time (as long as the bard is conscious). The recipient must use the token immediately&mdash; it cannot be saved.</p>\n<p>Each Inspiration token allows a character to reroll a Trait or damage roll. A Trait or damage roll may only benefit from a single Inspiration Token, even if there are multiple bards present. Further rerolls require spending a Benny or a special ability.</p>\n<p>Inspiration tokens aren&rsquo;t Bennies, don&rsquo;t trigger Edges that use Bennies (such as Elan), and can&rsquo;t be used as such in any other way such as drawing new Action Cards or Soaking Wounds.</p>\n</div>"
+    },
+    "Intimidating Glare": {
+      "name": "Intimidating Glare",
+      "category": "Barbarian",
+      "description": "<div class=\"swpf-core\">\n<p>The fearsome and baleful gaze of the wild barbarian unsettles all but the stoutest souls.</p>\n<p>When the barbarian&rsquo;s Action Card is a Jack or higher, she may make an @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation} roll as a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{limited free action}. She also ignores the usual advice on Repetition (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Tests}). She may issue threats and insults if she wants, but her terrible glare is often enough to send shivers down her foes' spines.</p>\n</div>"
+    },
+    "Investigator": {
+      "name": "Investigator",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Investigators spend a great deal of time in vast libraries researching ancient legends, working the streets, or deducing Golarion&rsquo;s greatest mysteries. They add +2 to Academics or @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} rolls made to sift through information, sift through stacks of papers, look through shelves of books for something of note, or spy obscured items from piles of junk or debris.</p>\n</div>"
+    },
+    "Iron Jaw": {
+      "name": "Iron Jaw",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero can shrug off even extreme blows. He adds +2 to Soak rolls and Vigor rolls to avoid <strong>Knockout Blows</strong> (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{The Drop}).</p>\n</div>"
+    },
+    "Iron Will": {
+      "name": "Iron Will",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero now adds his @Compendium[swpf-core-rules.swpf-edges.Strong Willed]{Strong Willed} bonus to resist powers and negate their effects. Iron Will doesn&rsquo;t stack with @Compendium[swpf-core-rules.swpf-edges.Brave]{Brave}, nor does it apply to subsequent rolls resulting from powers such as being Shaken by a damaging power, fear, or the like.</p>\n</div>"
+    },
+    "Jack-Of-All-Trades": {
+      "name": "Jack-Of-All-Trades",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Through advanced schooling, book-learning, or just amazing intuitive perception, your hero has a talent for picking up skills on the fly. There&rsquo;s little she can&rsquo;t figure out given a little time and a dash of luck.</p>\n<p>The character makes a Smarts roll as an action after observing or studying some subject. She gains a d4 in the relevant skill with success, or d6 with a raise. She may try again after an hour of study, trial and effort, or immersion if she fails or wants to try for a raise. This lasts until the character attempts to learn a different subject, whether she&rsquo;s successful or not.</p>\n</div>"
+    },
+    "Killer Instinct": {
+      "name": "Killer Instinct",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>This hero hates losing. He gets a free reroll in any opposed Test he initiates.</p>\n</div>"
+    },
+    "Level Headed": {
+      "name": "Level Headed",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Fighters who can keep their cool when everyone else is running for @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{cover} make deadly combatants. A hero with this Edge draws an additional @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Action Card} in combat and chooses which to use.</p>\n</div>"
+    },
+    "Linguist": {
+      "name": "Linguist",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>This world-traveler has an ear for languages. Characters know a number of languages equal to half their Smarts die type automatically.</p>\n<p>Those taking this Edge know a number of languages equal to her Smarts die type instead. See the <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traits00000000]{Common Languages}</strong> table.</p>\n</div>"
+    },
+    "Loremaster": {
+      "name": "Loremaster",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>A gatherer of secrets and arcane lore, this character values the acquisition of intellectual insights above all else. Often obsessed by the written word, the loremaster knows better than any that knowledge is power.</p>\n<p><strong>Lore:</strong> She gets a free reroll when making Academics, Common Knowledge, Occult, or @Compendium[swpf-core-rules.swpf-skills.Science]{Science} rolls.</p>\n</div>"
+    },
+    "Loremaster II": {
+      "name": "Loremaster II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The loremaster gains special insight into those she&rsquo;s traveled and adventured with.</p>\n<p><strong>Secret:</strong> With the Game Master&rsquo;s consent, she may take one ability from any core Class Edge she doesn&rsquo;t already have. She might take the druid&rsquo;s Wilderness Stride ability, for example, the rogue&rsquo;s Sneak Attack, or a cleric&rsquo;s ability to Channel Energy.</p>\n<p>This doesn&rsquo;t confer any other Traits, Edges, or rules required to use the ability.</p>\n</div>"
+    },
+    "Loremaster III": {
+      "name": "Loremaster III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Greater Lore:</strong> The loremaster learns two new powers from any of those available in the campaign. This may not be useful if a power depends on mechanics the loremaster can&rsquo;t make use of, but she can still learn the spell if she likes.</p>\n</div>"
+    },
+    "Luck": {
+      "name": "Luck",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The adventurer seems to be blessed by fate, karma, the gods, or whatever external forces he believes in (or believe in him!).</p>\n<p>He draws one extra Benny at the beginning of each game session, allowing him to succeed at important tasks more often than most, and survive incredible dangers.</p>\n</div>"
+    },
+    "Marksman": {
+      "name": "Marksman",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero is a natural with ranged weapons. If she doesn&rsquo;t move in a turn and fires no more than a Rate of Fire of 1 as her first action, she may add +1 to an Athletics (throwing) or Shooting roll, or ignore up to 2 points of penalties from @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Called Shots}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Cover}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Range}, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Scale}, or @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{Speed}. This is a lesser version of the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Aim} maneuver and does not stack with it. Marksman doesn&rsquo;t apply to additional attacks after the first in a turn, including those fired with the Rapid Shot Edge or similar abilities.</p>\n</div>"
+    },
+    "Martial Flexibility (Improved)": {
+      "name": "Martial Flexibility (Improved)",
+      "category": "Fighter",
+      "description": "<div class=\"swpf-core\">\n<p>The fighter gains the benefits of two Combat Edges (subject to the usual restrictions of Martial Flexibility). He may choose both Combat Edges at the same time, or choose the second Edge as a separate limited free action in a subsequent turn.</p>\n</div>"
+    },
+    "Martial Prowess": {
+      "name": "Martial Prowess",
+      "category": "Fighter",
+      "description": "<div class=\"swpf-core\">The fighter gets a free reroll on any failed @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} roll.</div>"
+    },
+    "Master": {
+      "name": "Master",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swade-core\"><p>The character&rsquo;s Wild Die increases to a d10 when rolling the selected @Compendium[swpf-core-rules.swpf-edges.Expert]{Expert} Trait.</p></div>"
+    },
+    "Master Hunter": {
+      "name": "Master Hunter",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\">\n<p>Rangers have now become deadly enemies of their chosen prey. They add an additional d6 damage when making a successful @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} attack against their Favored Enemy.</p>\n</div>"
+    },
+    "Master Tactician": {
+      "name": "Master Tactician",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The Tactician now gets a total of two extra Action Cards to distribute each round.</p>\n</div>"
+    },
+    "Master of Arms": {
+      "name": "Master of Arms",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swade-core\">\n<p>Increase the hero&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01makingcharac00]{Parry} an additional +1 and his @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} bonus damage die is now a d10.</p>\n</div>"
+    },
+    "Menacing": {
+      "name": "Menacing",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Being a brutish lout isn&rsquo;t always a drawback if you know how to use it. Menacing allows a character to put her bad looks or worse attitude to good use. The goon adds +2 to her @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation} rolls.</p>\n</div>"
+    },
+    "Mercy": {
+      "name": "Mercy",
+      "category": "Paladin",
+      "description": "<div class=\"swpf-core\">\n<p>As an action, a paladin can grant &ldquo;Mercy&rdquo; to any character within a Range equal to her Spirit. Mercy removes one of the following: @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted, Vulnerable}, or @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Shaken}.</p>\n</div>"
+    },
+    "Mighty Blow": {
+      "name": "Mighty Blow",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>If your Action Card is a Joker, double the damage of your first successful Fighting attack this round.</p>\n</div>"
+    },
+    "Monk": {
+      "name": "Monk",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\">\n<p>For the truly exemplary, martial prowess transcends the battlefield&mdash; it is a lifestyle, a doctrine, a state of mind. Such warrior-artists search out methods of battle beyond swords and shields, finding weapons within themselves as lethal as any blade.</p>\n<p>These monks adhere to ancient philosophies and strict martial disciplines. They elevate their bodies to become weapons of war. Monks tread a path of discipline and balance&mdash; in mind, breath, and body.</p>\n<ul>\n<li><span class=\"list-heading\">Armor Restriction</span> <strong>(Any):</strong> Monks must be completely unhindered to perform their complex maneuvers. They subtract 4 from Agility and Agility-based skill rolls if using light, medium, or heavy armor or shields.</li>\n<li><span class=\"list-heading\">Martial Discipline:</span> Monks hone their bodies to perfection, gaining an additional +1 Toughness if wearing no armor.</li>\n<li><span class=\"list-heading\">Mobility:</span> Quick and nimble, monks increase their running die by one die type.</li>\n<li><span class=\"list-heading\">STUNNING FIST:</span> When a monk hits a target with an Unarmed Strike and scores a raise, he may make the foe Distracted or Vulnerable. This occurs even if the victim takes no damage or Soaks it (the states are applied after the victim attempts to Soak).</li>\n<li><span class=\"list-heading\">Unarmed Strike:</span> Monks gain +1 to Fighting attacks when attacking unarmed and AP +2. They cause Str+d4 damage with their hands, feet, or other <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Natural Weapons}</strong> (if they have such appendages). <br />If the monk already has a Strength damage die from Claws (available to some ancestries), or the Brawler Edge, increase the damage a die type for each.<br />Monks can apply the Trademark Weapon Edge to their unarmed attacks. <br />Monks always count as armed. Some use regular weapons in their off-hand, but abilities that refer to their Unarmed Strike apply only to unarmed attacks as defined above.<br />On a raise the monk rolls a d10 for his bonus damage.</li>\n</ul>\n</div>"
+    },
+    "Mount": {
+      "name": "Mount",
+      "category": "Paladin",
+      "description": "<div class=\"swpf-core\">\n<p>The paladin forms a divine bond with a mount she currently owns. This is usually a horse or pony, but may be any mount approved by the GM of Size 3 or less. On forming the bond, the mount gains two advances (Traits or appropriate Edges, GM's call), and is Resilient. It may be summoned as a limited action, arriving at the start of the next round and acting on the paladin's Action Card if in combat.</p>\n<p>If the mount perishes, the paladin may acquire and bond with another, but may only ever have one bonded mount at a time.</p>\n</div>"
+    },
+    "Mystic Powers (Monk)": {
+      "name": "Mystic Powers (Monk)",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\">\n<p>As a limited free action, the monk can invoke one of the following \"ki\" powers: <em>@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost trait} </em>(Agility, @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics}, Fighting, and @Compendium[swpf-core-rules.swpf-skills.Stealth]{Stealth} only), <em>@Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Smite]{smite},</em> and <em>@Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{speed}</em>. All are self only, but the monk gains no benefit from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Limitation}.</p>\n<p>The monk has 10 dedicated Power Points that @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05activation0000]{recharge} normally. He automatically activates the power with success for its regular cost, or with a raise for an additional 2 Power Points. He may use applicable Power Modifiers if desired (at the usual cost). See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000000]{Powers} for more information on specific spells.</p>\n<p>Mystic Powers doesn&rsquo;t grant access to Edges that require an Arcane Background. If the monk also has an Arcane Background, none of its Edges or abilities can be used with Mystic Powers (and vice-versa).</p>\n</div>"
+    },
+    "Mystic Powers (Paladin)": {
+      "name": "Mystic Powers (Paladin)",
+      "category": "Paladin",
+      "description": "<div class=\"swpf-core\">\n<p>As a limited free action the paladin can invoke one of the following miracles: <em>@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{Boost Trait}</em>(@Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, Strength, and Vigor only), <em>@Compendium[swpf-core-rules.swpf-powers.Healing]{healing}, @Compendium[swpf-core-rules.swpf-powers.Relief]{relief}, </em>and<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}.</em> <em>Boost trait </em>and <em>smite}</em> are self only, but the paladin gains no benefit from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Limitation}).</p>\n<p>The paladin has 10 dedicated Power Points that @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05activation0000]{recharge} normally. She automatically activates the power with success for its regular cost, or with a raise for an additional 2 Power Points. She may use applicable Power Modifiers if desired (at the usual cost). See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000000]{Powers} for more information on specific spells.</p>\n<p>Mystic Powers doesn&rsquo;t grant access to Edges that require an Arcane Background. If the paladin also has an Arcane Background, none of its Edges or abilities can be used with Mystic Powers (and vice-versa).</p>\n</div>"
+    },
+    "Mystic Powers (Ranger)": {
+      "name": "Mystic Powers (Ranger)",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\">\n<p>As a limited free action the ranger can cast one of the following spells: <em>@Compendium[swpf-core-rules.swpf-powers.Beast Friend]{Beast Friend},</em> <em>@Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost trait} </em>(@Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics}, @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, and @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} only), <em>@Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle},</em> and <em>@Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}.</em> <em>Boost Trait </em>and <em>warrior&rsquo;s gift</em> are self only, but the ranger gains no benefit from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Limitation}.</p>\n<p>The woodsman has 10 dedicated Power Points that @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05activation0000]{recharge} normally. He automatically activates the power with success for its regular cost, or with a raise for an additional 2 Power Points. He may use applicable Power Modifiers if desired (at the usual cost). See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000000]{Powers} for more information on specific spells.</p>\n<p>Mystic Powers doesn&rsquo;t grant access to Edges requiring an Arcane Background. If the ranger also has an Arcane Background, none of its Edges and abilities can be used with Mystic Powers (and vice-versa).</p>\n</div>"
+    },
+    "Mystic Theurge": {
+      "name": "Mystic Theurge",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Mystic theurges place no boundaries on their magical abilities, whether they stem from the arcane or divine.</p>\n<p><strong>Combined Spells:</strong> A theurge can cast two spells as a limited action. The theurge must use two different arcane skills, declare her spells and all Power Modifiers as usual, then roll a die for each (the Wild Die can replace either). If the arcane skills have the same die type use different colored dice so you know which is which.</p>\n<p>The cost of both spells must be paid separately, and effects from Critical Failure apply normally but don&rsquo;t stack.</p>\n</div>"
+    },
+    "Mystic Theurge II": {
+      "name": "Mystic Theurge II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Spell Synergy:</strong> When the theurge uses her Combined Spells ability she reduces the cost of each spell by one Power Point (to a minimum of 1).</p>\n</div>"
+    },
+    "Mystic Theurge III": {
+      "name": "Mystic Theurge III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Spell Synthesis:</strong> The character's Class Edge abilities can now be applied to all spells provided by any of her classes.</p>\n</div>"
+    },
+    "Natural Leader": {
+      "name": "Natural Leader",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>This leader has proven herself time and time again, gaining the respect of all those who fight by her side.</p>\n<p>Any Leadership Edge that says it applies only to Extras now applies to Wild Cards (including the player characters) as well.</p>\n</div>"
+    },
+    "Nerves of Steel": {
+      "name": "Nerves of Steel",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero has learned to fight on through the most intense pain. He may ignore 1 point of Wound penalties.</p>\n</div>"
+    },
+    "New Powers": {
+      "name": "New Powers",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>An arcane character may learn two new powers by choosing this Edge (which may be taken multiple times). He may choose from any powers of his Rank or lower normally available to his particular Arcane Background (see differences in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edges000000000]{Edges}). A character can add a new @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05trappings00000]{Trapping} on a power she already has instead of gaining a new one. She might add an ice Trapping to her existing fire bolt, for example, so she could switch between ice and fire Trappings freely. If a wizard takes this Edge, he may choose to learn two powers, as usual, plus a bonus third power, if he has discovered one contained in spellbooks or scrolls he has acquired. The wizard transcribes all three new powers into his spellbook and the original scrolls or spellbooks from which he gleaned his knowledge are added to his repository of notes and research in case he has to make a replacement spellbook in the future.</p>\n</div>"
+    },
+    "No Mercy": {
+      "name": "No Mercy",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>When this killer spends a Benny to reroll damage, he adds +2 to his final total.</p>\n</div>"
+    },
+    "Opportunist": {
+      "name": "Opportunist",
+      "category": "Rogue",
+      "description": "<div class=\"swpf-core\">\n<p>When a target <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Withdraws From Melee}</strong> with the rogue, she gets a free attack even if the foe has Extraction or Improved Extraction. If the foe doesn&rsquo;t have either of those Edges, he counts as @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Vulnerable} to her for the free attack.</p>\n</div>"
+    },
+    "Paladin": {
+      "name": "Paladin",
+      "category": "Paladin",
+      "description": "<div class=\"swpf-core\">\n<p>Through a worthy few shines the power of the divine. Called paladins, these noble souls dedicate their swords and lives to the battle against evil. Knights, crusaders, and lawbringers, paladins seek not just to spread righteous justice but to embody the teachings of the virtuous deities they serve. In pursuit of their lofty goals, they adhere to ironclad laws of morality and discipline.</p>\n<p>As a reward for their service, these holy champions are blessed with boons to aid them in their quests. They gain abilities to battle evil opponents, heal allies, and inspire the faithful. Their conviction leads them into conflict with the very souls they would save. Paladins weather endless challenges of faith and temptation. They risk their lives to do right and ensure justice.</p>\n<ul>\n<li><span class=\"list-heading\">Aura of Courage:</span> As long as the paladin is conscious, all allies within 10&rdquo; (20 yards) add +1 to their Fear checks.</li>\n<li><span class=\"list-heading\">Code of Honor:</span> All good paladins have the Code of Honor Hindrance. They strive to keep their word, won&rsquo;t kill or abuse prisoners, and generally uphold the highest standards of etiquette and manners. This is in addition to their other Hindrances.</li>\n<li><span class=\"list-heading\">Detect Evil:</span> As an action, the Paladin can concentrate on any one object or individual within Smarts range to determine whether it&rsquo;s Evil in nature. See the Cleric section for deities and their alignments.</li>\n<li><span class=\"list-heading\">Smite Evil:</span> As a free action, a paladin can choose an enemy. If that enemy is evil, she gets a free reroll on any failed @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} rolls against that target for the remainder of the encounter. She may use this ability once per Rank per encounter.</li>\n</ul>\n</div>"
+    },
+    "Pathfinder Chronicler": {
+      "name": "Pathfinder Chronicler",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Brave explorers and seekers of lost or forgotten knowledge, these heroes are quintessential adventurers. They travel the world searching for esoteric truths, magical and mundane relics, and unexplored vistas.</p>\n<p><strong>Pathfinding:</strong> The pathfinder increases the party&rsquo;s speed by 10% when navigating to known or mapped locations. See <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04travel00000000]{Travel}</strong>.</p>\n<p>She also knows which paths are safest and where to exercise additional caution. If the Game Master is drawing for encounters and gets the Enemies result (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04travel00000000]{Travel}), the chronicler may make a Smarts roll at &minus;2 to discard that card and replace it with the next card in the deck.</p>\n</div>"
+    },
+    "Pathfinder Chronicler II": {
+      "name": "Pathfinder Chronicler II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Epic Tales:</strong> The chronicler recites a moving and evocative tale. Once per session, while the party is resting, every Wild Card ally who hears the tale gains a Benny.</p>\n</div>"
+    },
+    "Pathfinder Chronicler III": {
+      "name": "Pathfinder Chronicler III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Call Down the Legends:</strong> Once per game week, the chronicler can magically summon five &ldquo;shades&rdquo; of great Golarion heroes who have gone before. The shades assume mortal form, have the profiles in the sidebar at right, and last for one hour.</p>\n<aside class=\"sidebar\">\n<h1>Shades</h1>\n<p>The shades appear as silent, somewhat formless heroes of Golarion&mdash; elves, dwarves, humans, and others. They cannot be mistaken for living beings except in the most obscured conditions. They appear from darkness and vanish into it when their time on the mortal realm expires. They are physical while here, and have only a fraction of their true self&rsquo;s abilities.</p>\n<p><strong>Attributes:</strong> Agility d6, Smarts d4, Spirit d6, Strength d8, Vigor d8</p>\n<p><strong>Skills:</strong> @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} d6, @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} d8, @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation} d6, @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} d4, @Compendium[swpf-core-rules.swpf-skills.Stealth]{Stealth} d6</p>\n<p><strong>Pace:</strong> 6; <strong>Parry:</strong> 5; <strong>Toughness:</strong> 8 (2)</p>\n<p><strong>Hindrances:</strong> &mdash;</p>\n<p><strong>Edges:</strong> &mdash;</p>\n<p><strong>Gear:</strong> Leather armor (+2), long sword (Str+d8).</p>\n<p><strong>Special Abilities:</strong></p>\n<ul>\n<li><strong>Construct:</strong> +2 to recover from being Shaken; don&rsquo;t breathe; immune to poison and disease.</li>\n<li><strong>Fearless:</strong> Shades are immune to Fear and Intimidation.</li>\n</ul>\n</aside>\n</div>"
+    },
+    "Power Points": {
+      "name": "Power Points",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Wizards, sorcerers, and other arcane types always want more power. This Edge grants them an additional 5 Power Points. Power Points may be selected more than once, but only once per Rank. It may be taken as often as desired at Legendary Rank, but each grants only 2 additional points.</p>\n</div>"
+    },
+    "Power Surge": {
+      "name": "Power Surge",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The character recovers 10 Power Points when his Action Card is a Joker. This may not exceed his usual limit.</p>\n</div>"
+    },
+    "Powerful Blow": {
+      "name": "Powerful Blow",
+      "category": "Barbarian",
+      "description": "<div class=\"swpf-core\">\n<p>The barbarian's savage @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wild Attacks} cause +4 damage instead of +2.</p>\n</div>"
+    },
+    "Professional": {
+      "name": "Professional",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swade-core\">\n<p>The character is an expert at a particular skill or attribute (his choice). This increases the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traits00000000]{Trait} and its limit one step (a d12+1 becomes a d12+2, for example). This Edge may be selected once per Trait.</p>\n</div>"
+    },
+    "Provoke": {
+      "name": "Provoke",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Clever characters can manipulate their foes, drawing enemy focus on themselves to protect their allies. Once per turn, when your hero uses Taunt for a Test and gets a raise (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Test}</strong>), she may Provoke the foe.</p>\n<p>In addition to all the usual effects of the success and raise, the enemy suffers a &minus;2 penalty to affect any other target besides the one who provoked her. This stacks with Distracted but not further instances of Provoke.</p>\n<p>Provoke lasts until a Joker is drawn, someone else Provokes the target, or the encounter ends. Provoke may be combined with @Compendium[swpf-core-rules.swpf-edges.Rabble-Rouser]{Rabble Rouser}.</p>\n</div>"
+    },
+    "Quarry": {
+      "name": "Quarry",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\">\n<p>The ranger's expertise expands to include additional enemies and terrain. Choose an additional enemy and terrain type for your Favored Enemy and Favored Terrain abilities.</p>\n<p>This Edge may be taken once per Rank.</p>\n</div>"
+    },
+    "Quick": {
+      "name": "Quick",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Quick characters have lightning-fast reflexes and a cool head. Whenever you are dealt an @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Action Card} of Five or lower, you may discard it and draw again until you get a card higher than Five.</p>\n<p><span class=\"fontstyle0\">@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01makingcharac00]{Characters} with both the @Compendium[swpf-core-rules.swpf-edges.Level Headed]{Level Headed} and Quick Edges first draw their additional card and choose which to take. If that card is a Five or less, the Quick Edge may be used to draw a replacement until it&rsquo;s Six or higher.</span></p>\n</div>"
+    },
+    "Rabble-Rouser": {
+      "name": "Rabble-Rouser",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>This instigator knows how to rile up several enemies at once. As a limited action, a character with this Edge can make a social Test with @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation} or @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt} against all enemies in a Medium Blast Template. The targets must be able to see and hear the hero clearly. Each defender resists and is affected by the Test separately.</p>\n</div>"
+    },
+    "Ranger": {
+      "name": "Ranger",
+      "category": "Ranger",
+      "description": "<div class=\"swpf-core\">\n<p>For those who relish the thrill of the hunt, there are only predators and prey. From scouts, to trackers, or bounty hunters, all rangers share the predator&rsquo;s perspective. They value skill with weapons. They excel at stalking even the most elusive game. They train relentlessly to defeat a wide range of quarries.</p>\n<p>Knowledgeable, patient, and skilled hunters, rangers pursue man, beast, and monster alike. While some track dangerous creatures to protect the frontier, others pursue more cunning game&mdash; even fugitives&mdash; into and through the dangerous wilds.</p>\n<ul>\n<li><span class=\"list-heading\">Armor Restriction</span> <strong>(Medium):</strong> Rangers are agile and mobile fighters and scouts. They subtract 4 from Agility and Agility-based skill rolls when wearing heavy armor or using a heavy shield.</li>\n<li><span class=\"list-heading\">Favored Enemy:</span> Rangers study their foes, learning their ways, how to find them, and how to defeat them. Choose a type of enemy from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore08bestia.JournalEntryPage.08bestiary000000]{Bestiary}. The ranger gets one free reroll when failing to track (Survival) or attack (Athletics (throwing), Fighting, Shooting) that type of being.</li>\n<li><span class=\"list-heading\">Favored terrain:</span> Choose a terrain type (Arctic, Desert, Forest, Jungle, Plains, Hills/Mountains, Rivers/Seas, Swamp, Urban, or Underground). The ranger draws an additional Action Card for initiative when in his Favored Terrain. (This has no effect on the number of cards a Ranger can use, so a Level Headed character can still choose which card to use, while a Hesitant character must still take the worst card.)</li>\n<li><span class=\"list-heading\">Wilderness Stride:</span> Rangers pass through rough terrain such as dense forest, rocky hills, or desert sands with ease. They ignore movement penalties for <strong>Difficult Ground</strong> (see @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Movement}).</li>\n</ul>\n</div>"
+    },
+    "Rapid Reload": {
+      "name": "Rapid Reload",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The warrior reduces the Reload value of a ranged weapon by 1. See <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reload}</strong>. This is most often taken for archers using crossbows with a Reload of 1 or 2. Weapons with Reload 1 may be reloaded as a free action with this Edge.</p>\n<p>A character with this Edge may use Rapid Shot with a weapon if its Reload value has been reduced to a free action.</p>\n</div>"
+    },
+    "Rapid Shot": {
+      "name": "Rapid Shot",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The shooter is practiced at taking quick and accurate shots. When she&rsquo;s armed with a weapon that can be @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reloaded} as a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{free action}, and has enough arrows to do so, she may increase her weapon&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Rate of Fire} by 1 for any one of her @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} attacks that turn.</p>\n<p>Rapid Shot may be used with @Compendium[swpf-core-rules.swpf-edges.Rapid Reload]{Rapid Reload}.</p>\n</div>"
+    },
+    "Reliable": {
+      "name": "Reliable",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>People know they can depend on your hero when they need assistance. He gets a free reroll on any @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Support} roll.</p>\n</div>"
+    },
+    "Retort": {
+      "name": "Retort",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>This verbal duelist can turn the slings and arrows of social combat right back at the unwitting fools who hurled them.</p>\n<p>If a character with Retort gets a raise when resisting an @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation} or @Compendium[swpf-core-rules.swpf-skills.Taunt]{Taunt} Test, the <em>foe</em> is @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Distracted}.</p>\n</div>"
+    },
+    "Rogue": {
+      "name": "Rogue",
+      "category": "Rogue",
+      "description": "<div class=\"swpf-core\">\n<p>Life is an endless adventure for those who live by their wits. Ever just one step ahead of danger, rogues bank on their cunning, skill, and charm to bend fate to their favor. Never knowing what to expect, they tend to prepare for everything. Out of necessity, they become adept manipulators, agile acrobats, or shadowy stalkers. They are thieves and gamblers, fast talkers and diplomats, bandits and bounty hunters, or explorers and investigators.</p>\n<p>Although many rogues favor the opportunities of towns and cities, some embrace life on the road. They wander from place to place, meeting exotic people and facing fantastic danger in pursuit of endless riches. In the end, all rogues desire to shape their fates and live life on their own terms.</p>\n<ul>\n<li><span class=\"list-heading\">Armor Restriction</span> <strong>(Light):</strong> Rogues are nimble and deadly acrobats. Bulky armor interferes with their abilities, so they subtract 4 from Agility and Agility-based skill rolls when wearing medium or heavy armor, or using medium or heavy shields.</li>\n<li><span class=\"list-heading\">Sneak Attack:</span> Rogues add an additional d6 to their damage when they have the Drop on their victim, or the victim is Vulnerable. This applies to @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} attacks.</li>\n</ul>\n</div>"
+    },
+    "Scavenger": {
+      "name": "Scavenger",
+      "category": "Weird Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Once per encounter the hero may find, &ldquo;suddenly remember,&rdquo; or dig up some much-needed piece of equipment, a quiver half-full of arrows, or some other useful device.</p>\n<p>The Game Master decides what constitutes an encounter, and has the final word on what can and can&rsquo;t be found.</p>\n</div>"
+    },
+    "Scholar": {
+      "name": "Scholar",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Learned professors, devoted students, and amateur enthusiasts spend great amounts of time and energy studying particular subjects. They become experts in these fields, and rarely fail to answer questions in their particular area of expertise.</p>\n<p>Pick any one of the following skills: @Compendium[swpf-core-rules.swpf-skills.Academics]{Academics}, Battle, @Compendium[swpf-core-rules.swpf-skills.Occult]{Occult}, @Compendium[swpf-core-rules.swpf-skills.Science]{Science}, or a Smarts-based &ldquo;knowledge&rdquo;-type skill allowed in your game, and add +2 to the total whenever they&rsquo;re used.</p>\n<p>This Edge may be taken more than once if applied to different skills.</p>\n</div>"
+    },
+    "Shadowdancer": {
+      "name": "Shadowdancer",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Some characters prefer the shadows, embracing the advantages of darkness to become artists of deception and surprise.</p>\n<p><strong>Greater Darkvision:</strong> Strong connection to the plane of shadows allows the hero to see perfectly in any illumination up to 10\" (20 yards), including magical darkness and ignoring all penalties resulting from it.</p>\n</div>"
+    },
+    "Shadowdancer II": {
+      "name": "Shadowdancer II",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Shadow Cloak:</strong> Darkness envelops and protects its champion. She gets one free Soak attempt at &minus;2 whenever she's Wounded in Dim or Dark Illumination. This does not count as spending a Benny.</p>\n</div>"
+    },
+    "Shadowdancer III": {
+      "name": "Shadowdancer III",
+      "category": "Prestige Edges",
+      "description": "<div class=\"swpf-core\">\n<p><strong>Mystic Powers (Shadow Force):</strong> As a limited free action the shadowdancer can cast one of the following spells: <em>@Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}</em>, <em>@Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>,<em> </em>or <em>@Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}</em> (self only). All of these have a Shadow Trapping.</p>\n<p>The shadowdancer has 10 dedicated Power Points that @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05activation0000]{recharge} normally. She automatically activates the power with success for its regular cost, or with a raise for an additional 2 Power Points. See @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powers00000000]{Powers} for more information on specific spells. She may use applicable Power Modifiers if desired (at the usual cost).</p>\n<p><em>@Compendium[swpf-core-rules.swpf-powers.Blast]{Blast}</em> still requires line of sight, but otherwise automatically hits as long as any part of the target is visible and in Range.</p>\n<p>Mystic Powers doesn&rsquo;t grant access to Edges requiring an Arcane Background. If the shadowdancer also has an Arcane Background, none of its Edges and abilities can be used with Mystic Powers (and vice-versa).</p>\n</div>"
+    },
+    "Sidekick": {
+      "name": "Sidekick",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swade-core\">\n<p>A character who triumphs over evil time and time again becomes an inspiration to others. Eventually, one of these young crusaders may attempt to join the hero in his epic quests.</p>\n<p>The hero gains a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01advancement000]{Novice Rank} sidekick. The sidekick is a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Wild Card}, starts each session with two @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Bennies}, may @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01advancement000]{Advance}, and has abilities that complement his mentor. The player character controls his sidekick just like any other ally, though he may occasionally cause trouble by getting captured, running into danger when he&rsquo;s not supposed to, and so on. The player should be prepared for his Edge to occasionally become a Hindrance!</p>\n<p>If the sidekick dies, he isn&rsquo;t replaced unless the hero chooses this Edge again. Fortunately, heroes may always spend Bennies for their sidekicks as if she had the @Compendium[swpf-core-rules.swpf-edges.Common Bond]{Common Bond} Edge. Sidekicks must actually take that Edge to do the same for their mentors.</p>\n</div>"
+    },
+    "Soldier": {
+      "name": "Soldier",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Professional soldiers get used to carrying heavy loads and enduring harsh conditions. After a few days getting used to their gear (GM&rsquo;s call), they treat their Strength as one die type higher when determining <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Encumbrance}</strong> and <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Minimum Strength}</strong> to use armor, weapons, and equipment without a penalty. (This stacks with the Brawny Edge.)</p>\n<p>They also get a free reroll on Vigor rolls made to survive environmental hazards (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{Hazards}</strong>).</p>\n<p>This Edge has no effect on Armor Interference or Armor Restriction.</p>\n</div>"
+    },
+    "Sorcerer": {
+      "name": "Sorcerer",
+      "category": "Sorcerer",
+      "description": "<div class=\"swpf-core\">\n<p>Scions of magical bloodlines, pawns of fate and destiny, or simply flukes of fickle magic, sorcerers look within themselves for arcane prowess. As they tap into powers few mortals can imagine, these magic-touched souls must learn to harness the power of their birthright.</p>\n<p>While some seek to control their abilities, others give in to their magic, letting it rule their lives. Sorcerers live and breathe that which other spellcasters devote their lives to mastering. For them magic is more than a useful tool or a field of study; it is life itself.</p>\n<ul>\n<li><span class=\"list-heading\">Arcane Background</span> <strong>(Sorcerer):</strong> Sorcerers use @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} as their arcane skill, but it is linked to Spirit instead of Smarts (if multiclassing as a Smarts-based spellcaster, use the better of the two Attributes). On taking this Edge, the hero gains 15 Power Points and two starting powers from the list below. <br /><strong>Available Powers:</strong> <em>@Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Baleful Polymorph]{baleful polymorph}, @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Blind]{blind}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower trait}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain power points}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Farsight]{farsight}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Mind Wipe]{Mind Wipe}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior's gift}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Wish]{wish}</em>,<em> @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}</em>.</li>\n<li><span class=\"list-heading\">Armor Interference</span> <strong>(Any):</strong> Sorcery requires rapid, intricate, and unhindered somatic movements. Sorcerers subtract 4 from their Spellcasting rolls and from their Agility and Agility-based skill rolls if using light, medium, or heavy armor or shields.</li>\n<li><span class=\"list-heading\">Bloodline:</span> The sorcerer must choose a bloodline. Beneath each Bloodline description is also the additional special ability one gains when taking the Advanced Bloodline Edge.</li>\n</ul>\n</div>"
+    },
+    "Soul Drain": {
+      "name": "Soul Drain",
+      "category": "Power Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Once per day, Soul Drain allows a character to take a level of Fatigue to recover up to five Power Points as a limited free action. Or she can take two levels of Fatigue (Exhaustion) to recover up to 10 Power Points. She cannot render herself @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} in this way.</p>\n</div>"
+    },
+    "Steady Hands": {
+      "name": "Steady Hands",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Firing from the back of a horse or moving platform is tricky business, but your adventurer has figured it out. She ignores the <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Unstable Platform}</strong> penalty.</p>\n<p>This also helps when running, reducing the usual penalty from &minus;2 to &minus;1 (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{Movement}</strong>).</p>\n</div>"
+    },
+    "Streetwise": {
+      "name": "Streetwise",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Streetwise characters know how to find the local black market, fence stolen goods, avoid the local law (or criminal element!), lay low when the heat&rsquo;s on, obtain illegal weapons, find out which &ldquo;boss&rdquo; is hiring muscle, or similar shady activities.</p>\n<p>Streetwise characters add +2 to @Compendium[swpf-core-rules.swpf-skills.Intimidation]{Intimidation} or @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} rolls made to <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04networking0000]{Network}</strong> with shady or criminal elements. They also add +2 to @Compendium[swpf-core-rules.swpf-skills.Common Knowledge]{Common Knowledge} rolls pertaining to the types of disreputable activities listed above.</p>\n</div>"
+    },
+    "Strength Surge": {
+      "name": "Strength Surge",
+      "category": "Barbarian",
+      "description": "<div class=\"swpf-core\">\n<p>The barbarian&rsquo;s rage knows no bounds! Her Strength increases two die types when raging instead of just one. This can exceed the character&rsquo;s ancestral limit.</p>\n</div>"
+    },
+    "Strong Willed": {
+      "name": "Strong Willed",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Self-confidence is powerful armor against those who attempt to attack this individual&rsquo;s will. He adds +2 to his total when resisting Tests with Smarts or Spirit.</p>\n</div>"
+    },
+    "Sweep": {
+      "name": "Sweep",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Some heroes are able to face down multiple enemies at once.</p>\n<p>As a @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{limited action}, Sweep allows a character to make a single Fighting attack with a two-handed weapon and apply it against all targets in his @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02gear0000000000]{Reach} at a &minus;2 penalty (friends and foes alike). Resolve damage separately for each enemy that&rsquo;s hit.</p>\n<p><strong>Note:</strong> Some creatures have the Sweep Edge even though they don't have two handed weapons. In their case their size, lanky limbs, or other advantages allow them to make Sweep attacks.</p>\n</div>"
+    },
+    "Tactician": {
+      "name": "Tactician",
+      "category": "Leadership Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The commander has a natural grasp of small unit tactics and can take advantage of rapidly changing situations.</p>\n<p>A Tactician is dealt an extra Action Card each round of combat&mdash; kept separate from his own cards. At the start of the round, he may discard it or give it to any one allied Extra in Command Range. The player or GM controlling the receiving character can decide whether to accept and replace her current Action Card, or discard it.</p>\n<p><strong>Surprise:</strong> Tacticians don&rsquo;t get their extra card if Surprised, but they can give it to an ally who&rsquo;s Surprised if they like!</p>\n</div>"
+    },
+    "Thief": {
+      "name": "Thief",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Thieves specialize in deceit, treachery, and acrobatics. They can be invaluable where traps must be detected, walls must be climbed, and locks must be picked.</p>\n<p>Thieves know how to use the slimmest protrusions on walls and window ledges to climb the tallest of buildings, scampering through streets and back alleys like cats. They add +1 to @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} rolls made to climb in urban areas.</p>\n<p>Thieves also know how to use the dark areas between the streetlights of cities to conceal their movements, and add +1 to Stealth rolls when in an urban environment.</p>\n<p>Finally, these rogues are&mdash; not surprisingly&mdash; <br />adept at Thievery itself, adding +1 to those rolls in all circumstances.</p>\n</div>"
+    },
+    "Tough As Nails": {
+      "name": "Tough As Nails",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swade-core\">\n<p>Your character keeps going when others fall. She can take four @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds} before she&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated} (her maximum Wound penalty is still &minus;3).</p>\n<p>&nbsp;</p>\n</div>"
+    },
+    "Tougher Than Nails": {
+      "name": "Tougher Than Nails",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swade-core\">\n<p>The hero can take up to five @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Wounds} before she&rsquo;s @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Incapacitated}! Her maximum Wound penalty is still &minus;3.</p>\n</div>"
+    },
+    "Trademark Weapon": {
+      "name": "Trademark Weapon",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>The hero knows one unique weapon (Excalibur, Old Betsy, Sting) like the back of his hand. When using it, he adds +1 to his @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing), @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting}, or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} rolls, and +1 to Parry when readied (even if it&rsquo;s a ranged weapon).</p>\n<p>A fighter can take this Edge multiple times, applying it to a different weapon each time. If a Trademark Weapon is lost, he can replace it but the benefits don&rsquo;t kick in for a few days (however long the GM feels is dramatically appropriate).</p>\n</div>"
+    },
+    "Trap Sense": {
+      "name": "Trap Sense",
+      "category": "Rogue",
+      "description": "<div class=\"swpf-core\">\n<p>Rogues are adept at spotting and defeating all but the most clever snares and traps. They get a @Compendium[swpf-core-rules.swpf-skills.Notice]{Notice} roll anytime a detectable trap is about to be sprung within 5&rdquo; (10 yards). They must have line of sight to the trap and can&rsquo;t be Shaken or Stunned. This works generally like Danger Sense but applies only to mechanical and magical traps.</p>\n<p>Traps are fully described @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04hazards0000000]{here}.</p>\n<p>If the trap is detected and may be Evaded, the rogue and anyone she warns ignores 2 points of Evasion penalties to do so. If the trap can&rsquo;t normally be Evaded, anyone warned may Evade at the usual &minus;2 penalty.</p>\n<p><strong>Disarming Traps: </strong>Rogues with Trap Sense ignore up 2 points of @Compendium[swpf-core-rules.swpf-skills.Thievery]{Thievery} penalties when attempting to disarm traps.</p>\n</div>"
+    },
+    "Troubadour": {
+      "name": "Troubadour",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Troubadours travel the world, learning culture, etiquette, history, and above all, legends. They add +2 to Common Knowledge rolls and may use Performance in place of Battle for Leadership Edges or Edges that require Battle.</p>\n</div>"
+    },
+    "Two-Weapon Fighting": {
+      "name": "Two-Weapon Fighting",
+      "category": "Combat Edges",
+      "description": "<div class=\"swpf-core\">\n<p>If a character makes an attack with one action and another from a different hand in a later action, the second attack doesn&rsquo;t inflict a Multi-Action penalty. The <strong>Off-Hand</strong> penalty still applies unless he&rsquo;s @Compendium[swpf-core-rules.swpf-edges.Ambidextrous]{Ambidextrous}, however.</p>\n<p>The character can choose to make a @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} or @Compendium[swpf-core-rules.swpf-skills.Shooting]{Shooting} attack with each hand, an @Compendium[swpf-core-rules.swpf-skills.Athletics]{Athletics} (throwing) attack with each hand, or a combination of these, depending on the readied weapons.</p>\n</div>"
+    },
+    "Uncanny Reflexes": {
+      "name": "Uncanny Reflexes",
+      "category": "Rogue",
+      "description": "<div class=\"swpf-core\">\n<p>The rogue has an uncanny ability to avoid area attacks and effects. She ignores the usual &minus;2 Agility penalty when making <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03situationalr00]{Evasion}</strong> attempts. She also gets a regular Evasion attempt against area effect attacks or effects that don&rsquo;t usually allow it (at the usual &minus;2 penalty) such as <em>@Compendium[swpf-core-rules.swpf-powers.Burst]{burst} </em>or <em>@Compendium[swpf-core-rules.swpf-powers.Blast]{blast}, </em>or even<em> @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion} </em>or similar spells cast with the Area Effect modifier.</p>\n</div>"
+    },
+    "Very Attractive": {
+      "name": "Very Attractive",
+      "category": "Background Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero is drop-dead gorgeous. He increases his @Compendium[swpf-core-rules.swpf-skills.Performance]{Performance} and @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} bonus to +2.</p>\n</div>"
+    },
+    "Weapon Master": {
+      "name": "Weapon Master",
+      "category": "Legendary Edges",
+      "description": "<div class=\"swade-core\">\n<p>The warrior increases his @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01makingcharac00]{Parry} by +1 and the bonus damage die for @Compendium[swpf-core-rules.swpf-skills.Fighting]{Fighting} rolls is a d8 instead of a d6 (see <strong>@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03combat00000000]{Bonus Damage}</strong>). He must be armed to gain these benefits, but this includes the @Compendium[swpf-core-rules.swpf-edges.Martial Artist]{Martial Artist} Edge, @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore08bestia.JournalEntryPage.08specialabili00]{claws}, or other abilities that count as weapons.</p>\n</div>"
+    },
+    "Wholeness of Body": {
+      "name": "Wholeness of Body",
+      "category": "Monk",
+      "description": "<div class=\"swpf-core\">\n<p>The monk may spend 2 Power Points to make a Soak roll. This does not count as spending a Benny.</p>\n</div>"
+    },
+    "Wild Shape": {
+      "name": "Wild Shape",
+      "category": "Druid",
+      "description": "<div class=\"swpf-core\">\n<p>The druid gains the <em>@Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}</em> spell, if she doesn&rsquo;t already have it. The Duration is one hour for her, and she casts as if she were one Rank higher than her actual Rank on the <strong>@Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}</strong> table.</p>\n</div>"
+    },
+    "Wizard": {
+      "name": "Wizard",
+      "category": "Wizard",
+      "description": "<div class=\"swpf-core\">\n<p>Beyond the veil of the mundane hide the secrets of absolute power. Mysteries, and wonders of arcane realms call to those with the ambition&mdash;and the intellect&mdash;to grasp true power. Such is the path of the wizard.</p>\n<p>These magic-users research, collect, and covet esoteric knowledge. Some choose to become a master of a particular field of magic. Others embrace versatility, reveling in the unbounded wonders of all magic. In either case, wizards prove a cunning lot, capable of smiting their foes, empowering their allies, and shaping the world to their every desire.</p>\n<ul>\n<li><span class=\"list-heading\">Arcane Background (Wizard):</span>Wizards use @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} as their arcane skill. A hero who takes this @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edgesummarie00]{Edge} gains 10 @Compendium[swpf-core-rules.swpf-abilities.Power Points]{Power Points} and three powers from the list below. Available Powers: @Compendium[swpf-core-rules.swpf-powers.Arcane Protection]{Arcane Protection}, @Compendium[swpf-core-rules.swpf-powers.Baleful Polymorph]{baleful polymorph}, @Compendium[swpf-core-rules.swpf-powers.Banish]{banish}, @Compendium[swpf-core-rules.swpf-powers.Barrier]{barrier}, @Compendium[swpf-core-rules.swpf-powers.Beast Friend]{beast friend}, @Compendium[swpf-core-rules.swpf-powers.Blast]{blast}, @Compendium[swpf-core-rules.swpf-powers.Blind]{blind}, @Compendium[swpf-core-rules.swpf-powers.Bolt]{bolt}, @Compendium[swpf-core-rules.swpf-powers.Boost/Lower Trait]{boost/lower Trait}, @Compendium[swpf-core-rules.swpf-powers.Burrow]{burrow}, @Compendium[swpf-core-rules.swpf-powers.Burst]{burst}, @Compendium[swpf-core-rules.swpf-powers.Confusion]{confusion}, @Compendium[swpf-core-rules.swpf-powers.Conjure Item]{conjure item}, @Compendium[swpf-core-rules.swpf-powers.Curse]{curse}, @Compendium[swpf-core-rules.swpf-powers.Damage Field]{damage field}, @Compendium[swpf-core-rules.swpf-powers.Darksight]{darksight}, @Compendium[swpf-core-rules.swpf-powers.Deflection]{deflection}, @Compendium[swpf-core-rules.swpf-powers.Detect/Conceal Arcana]{detect/conceal arcana}, @Compendium[swpf-core-rules.swpf-powers.Disguise]{disguise}, @Compendium[swpf-core-rules.swpf-powers.Dispel]{dispel}, @Compendium[swpf-core-rules.swpf-powers.Divination]{divination}, @Compendium[swpf-core-rules.swpf-powers.Drain Power Points]{drain Power Points}, @Compendium[swpf-core-rules.swpf-powers.Elemental Manipulation]{elemental manipulation}, @Compendium[swpf-core-rules.swpf-powers.Empathy]{empathy}, @Compendium[swpf-core-rules.swpf-powers.Entangle]{entangle}, @Compendium[swpf-core-rules.swpf-powers.Environmental Protection]{environmental protection}, @Compendium[swpf-core-rules.swpf-powers.Farsight]{farsight}, @Compendium[swpf-core-rules.swpf-powers.Fear]{fear}, @Compendium[swpf-core-rules.swpf-powers.Fly]{fly}, @Compendium[swpf-core-rules.swpf-powers.Growth/Shrink]{growth/shrink}, @Compendium[swpf-core-rules.swpf-powers.Havoc]{havoc}, @Compendium[swpf-core-rules.swpf-powers.Illusion]{illusion}, @Compendium[swpf-core-rules.swpf-powers.Intangibility]{intangibility}, @Compendium[swpf-core-rules.swpf-powers.Invisibility]{invisibility}, @Compendium[swpf-core-rules.swpf-powers.Light / Darkness]{light/darkness}, @Compendium[swpf-core-rules.swpf-powers.Locate]{locate}, @Compendium[swpf-core-rules.swpf-powers.Mind Link]{mind link}, @Compendium[swpf-core-rules.swpf-powers.Mind Reading]{mind reading}, @Compendium[swpf-core-rules.swpf-powers.Mind Wipe]{mind wipe}, @Compendium[swpf-core-rules.swpf-powers.Object Reading]{object reading}, @Compendium[swpf-core-rules.swpf-powers.Planar Binding]{planar binding}, @Compendium[swpf-core-rules.swpf-powers.Plane Shift]{plane shift}, @Compendium[swpf-core-rules.swpf-powers.Protection]{protection}, @Compendium[swpf-core-rules.swpf-powers.Puppet]{puppet}, @Compendium[swpf-core-rules.swpf-powers.Scrying]{scrying}, @Compendium[swpf-core-rules.swpf-powers.Shape Change]{shape change}, @Compendium[swpf-core-rules.swpf-powers.Sloth/Speed]{sloth/speed}, @Compendium[swpf-core-rules.swpf-powers.Slumber]{slumber}, @Compendium[swpf-core-rules.swpf-powers.Smite]{smite}, @Compendium[swpf-core-rules.swpf-powers.Sound/Silence]{sound/silence}, @Compendium[swpf-core-rules.swpf-powers.Speak Language]{speak language}, @Compendium[swpf-core-rules.swpf-powers.Stun]{stun}, @Compendium[swpf-core-rules.swpf-powers.Summon Ally]{summon ally}, @Compendium[swpf-core-rules.swpf-powers.Telekinesis]{telekinesis}, @Compendium[swpf-core-rules.swpf-powers.Teleport]{teleport}, @Compendium[swpf-core-rules.swpf-powers.Time Stop]{time stop}, @Compendium[swpf-core-rules.swpf-powers.Wall Walker]{wall walker}, @Compendium[swpf-core-rules.swpf-powers.Warrior's Gift]{warrior&rsquo;s gift}, @Compendium[swpf-core-rules.swpf-powers.Wish]{wish}, @Compendium[swpf-core-rules.swpf-powers.Zombie]{zombie}</li>\n<li><span class=\"list-heading\">Arcane Bond: </span> Wizards form an intense magical bond with an object or creature. See <strong>Arcane Bond</strong>, below.</li>\n<li><span class=\"list-heading\">Armor Interference (any):</span> Like sorcerers, wizards must gesticulate in precise patterns. They subtract 4 from their @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} rolls and from their @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01traitsummari00]{Agility} and Agility-based skill rolls if using light, medium, or heavy @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore02gear00.JournalEntryPage.02armor000000000]{armor} or shields.</li>\n<li><span class=\"list-heading\">School: </span> A wizard&rsquo;s studies lead him down one of two paths&mdash;the &ldquo;universalist&rdquo; who dabbles in all the various &ldquo;schools&rdquo; of magic, or a &ldquo;specialist&rdquo; who focuses on one school at the expense of some others.</li>\n</ul>\n<p>Specialists must choose one favored school and two opposition schools from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05schoolsofmag00]{Schools of Magic}. They gain a free @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore03rules0.JournalEntryPage.03rules000000000]{reroll} on arcane skill rolls to cast spells (not activating an item) from their favored school, but spells cast from their opposition school cost one additional @Compendium[swpf-core-rules.swpf-abilities.Power Points]{Power Point} and suffer a &minus;2 penalty to the wizard's arcane skill roll. Wizards mark opposition spells in their power lists with an asterisk, like this: <em>banish*</em></p>\n<ul>\n<li><span class=\"list-heading\">Spellbooks</span> Wizards must keep and maintain spellbooks (see wizard class edge in @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edges000000000]{edges}</li>\n</ul>\n<h2>ARCANE BOND</h2>\n<p>Wizards immerse themselves in the study of eldritch lore and arcane theories. During these long hours they form a bond with a dependable item or friendly creature (a &ldquo;familiar&rdquo;). Choose one of the following options for your wizard:</p>\n<ul>\n<li><span class=\"list-heading\">Bonded Object:</span> The spellcaster possesses an amulet, ring, staff, wand, or weapon that adds +1 to all his @Compendium[swpf-core-rules.swpf-skills.Spellcasting]{Spellcasting} totals when worn or in hand. If the object is lost or destroyed, the mage can replace it with a new object worth at least 500 gp.</li>\n<li><span class=\"list-heading\">Familiar</span>: The mage has a magical pet. See the familiars sidebar in the wizard class edge section @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore01charac.JournalEntryPage.01edges000000000]{here}.</li>\n</ul>\n</div>"
+    },
+    "Woodsman": {
+      "name": "Woodsman",
+      "category": "Professional Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Woodsmen are rangers, scouts, and hunters who are more at home in the wilderness than urban areas. They are skilled trackers and scouts, and know how to live off the land for months at a time.</p>\n<p>Woodsmen add +2 to Survival and @Compendium[swpf-core-rules.swpf-skills.Stealth]{Stealth} rolls made in the wild (not towns, ruins, or underground).</p>\n</div>"
+    },
+    "Work the Crowd": {
+      "name": "Work the Crowd",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>As @Compendium[swpf-core-rules.swpf-edges.Work The Room]{Work the Room} but the hero now can Support another on up to two of her Support actions.</p>\n</div>"
+    },
+    "Work the Room": {
+      "name": "Work the Room",
+      "category": "Social Edges",
+      "description": "<div class=\"swpf-core\">\n<p>Your hero&rsquo;s words don&rsquo;t just inspire those they&rsquo;re directed at&mdash; they often inspire others as well. Once per turn, you can use Work the Room to roll an additional skill die when Supporting with @Compendium[swpf-core-rules.swpf-skills.Persuasion]{Persuasion} or @Compendium[swpf-core-rules.swpf-skills.Performance]{Performance}. The additional die Supports any other ally who can see or hear your hero, and applies to their next action, whatever it may be.</p>\n</div>"
+    }
+  }
+}
