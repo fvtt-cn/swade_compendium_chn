@@ -1,8 +1,24 @@
 {
+    "label": "宏",
     "entries": {
+        "Boost // Lower Trait": {
+            "command": "const power = await fromUuid('Compendium.swpf-core-rules.swpf-powers.Item.hBfpNdcd1WBsszu3')\napplyBoostLowerTraitSWPF(actor, power.system.description)",
+            "name": "Boost // Lower Trait"
+        },
+        "Damage": {
+            "command": "new Dialog({\n  title: \"Damage Roll Configuration\",\n  content: `\n    <form>\n      <div class=\"form-group\">\n        <label>Damage Roll (eg 3d6):</label>\n        <input type=\"text\" name=\"damageRoll\" value=\"\" />\n      </div>\n      <div class=\"form-group\">\n        <label>Flavor:</label>\n        <input type=\"text\" name=\"flavor\" value=\"\" />\n      </div>\n    </form>\n  `,\n  buttons: {\n    ok: {\n      label: \"Roll Damage\",\n      callback: (html) => {\n        const damageRoll = html.find('input[name=\"damageRoll\"]').val();\n        const flavor = html.find('input[name=\"flavor\"]').val();\n\n        // Perform the damage roll and send the message\n        new CONFIG.Dice.DamageRoll(damageRoll).toMessage({ flavor });\n      },\n    },\n    cancel: {\n      label: \"Cancel\",\n    },\n  },\n}).render(true);",
+            "name": "Damage"
+        },
         "Fear Table (Savage Pathfinder)": {
             "name": "恐惧表(狂野开拓者)"
+        },
+        "Healing": {
+            "command": "const wounds = await Dialog.wait({\n  title: \"Healing Result\",\n  content: \"<label><p>Wounds to remove (put -1 if a critical failure increases the target's wounds level by one)</p><input type='number' id='wounds' value=1/></label>\",\n  buttons: {\n    default: {\n      icon: '<i class=\"fa-solid fa-kit-medical\"></i>',\n      label: \"Heal\",\n      callback: (html) => {return html.find('#wounds')[0].value}\n    }\n  }\n})\n\nconst currentWounds = actor.system.wounds.value\nconst newWounds = Math.max(currentWounds - wounds, 0)\nif (newWounds <= actor.system.wounds.max) actor.update({\"system.wounds.value\": newWounds})\nelse {\n  actor.update({\"system.wounds.value\": actor.system.wounds.max})\n  const incap = game.swade.util.getStatusEffectDataById('incapacitated', {active: true})\n  actor.toggleActiveEffect(incap)\n}",
+            "name": "Healing"
+        },
+        "Patch All Actors (Savage Pathfinder)": {
+            "command": "patchActorsDialog();",
+            "name": "Patch All Actors (Savage Pathfinder)"
         }
-    },
-    "label": "宏"
+    }
 }
