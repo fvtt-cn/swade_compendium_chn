@@ -1,5 +1,9 @@
 {
     "label": "规则",
+    "mappings":{
+        "path": "pages",
+        "converter": "pagesConverter"
+    },
     "entries": {
         "Bestiary": {
             "name": "生物图鉴",

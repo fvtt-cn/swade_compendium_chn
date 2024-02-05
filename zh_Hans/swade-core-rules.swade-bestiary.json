@@ -5,7 +5,7 @@
     },
     "entries": {
         "Alligator/Crocodile": {
-            "name": "短吻鳄/鳄鱼 ALLIGATOR/CROCODILE",
+            "name": "短吻鳄/鳄鱼",
             "biography": "<article class=\"swade-core\">\n<p>鳄鱼与短吻鳄是大多数沼地类冒险的常客，以下数据代表了这两种常见的鳄鱼样例。在一些偏远的地区时而会有体型更大的种类。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili00]{水栖}：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}5。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}2：</strong>通常鳄鱼有12英尺长，皮糙肉厚，重量差不多在500磅左右。</li>\n</ul>\n</article>",
             "items": {
                 "yu8mQgz9LsE64YCd": {
@@ -27,7 +27,7 @@
             }
         },
         "Bear": {
-            "name": "熊 BEAR",
+            "name": "熊",
             "biography": "<article class=\"swade-core\">\n<p>这个条目涵盖了较大的熊类，如灰熊、科迪亚克岛棕熊和北极熊。这些熊的偏好战法是抓住猎物，并以锐利的尖牙进行撕咬。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}2：</strong>这些生物站起来高度可达8英尺，重量超过1000磅。</li>\n</ul>\n</article>",
             "items": {
                 "T1ifBDtX5PnYfPri": {
@@ -53,7 +53,7 @@
             }
         },
         "Cat, Small": {
-            "name": "小猫 CAT, SMALL",
+            "name": "小猫",
             "biography": "<article class=\"swade-core\">\n<p>这是普通的家猫，其可以作为施法者的使魔，@Compendium[swade-core-rules.swade-edges.野兽大师]{野兽大师}的动物伙伴或者是<em>@Compendium[swade-core-rules.swade-powers.化形]{化形}</em>奇术的一种变化形态。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili20]{微光视觉}：</strong>猫忽略昏暗与黑暗的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}&minus;3 (超小型)：</strong>猫通常不到一英尺高。</li>\n</ul>\n</article>",
             "items": {
                 "pJt2N7UPQ3W9z2La": {
@@ -323,7 +323,7 @@
             }
         },
         "Lion": {
-            "name": "狮子 LION",
+            "name": "狮子",
             "biography": "<article class=\"swade-core\">\n<p>这些丛林王者是凶猛的捕食者，在猎物没法找到任何掩护的开阔草原上则更是如此。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili20]{微光视觉}：</strong>狮子能够忽略昏暗和黑暗的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}1：</strong>雄狮通常约有400磅重。</li>\n</ul>\n</article>",
             "items": {
                 "hjzWukEasDnDqYiv": {
@@ -373,7 +373,7 @@
             }
         },
         "Mule": {
-            "name": "骡 MULE",
+            "name": "骡",
             "biography": "<article class=\"swade-core\">\n<p>骡是驴和马的杂交，其通常用来驮重货或拉车。</p>\n<p>和任何有趣的宠物一样，GM应当表现出一点点骡子的个性，而首先想到的莫过于“倔得像头骡”。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>犟脾气：</strong>骡子是倔强的生物，角色在骑乘骡子时，@Compendium[swade-core-rules.swade-skills.骑乘]{骑乘}投骰必须减1。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}2：</strong>骡子矮壮结实，体重通常不超过1000磅。</li>\n</ul>\n</article>",
             "items": {
                 "jxJexgwhheGdHOLJ": {
@@ -412,7 +412,7 @@
             }
         },
         "Orc, Chieftain": {
-            "name": "兽人酋长 ORC, CHIEFTAIN",
+            "name": "兽人酋长",
             "biography": "<article class=\"swade-core\">\n<p>小型兽人部落的领袖通常是这群家伙当中最为要命的畜生。兽人酋长大多都拥有一两件设定(例如大多数“剑与魔法”世界)中颇为常见的魔法物品。</p>\n<p><strong>注释：</strong></p>\n<p>兽人酋长在持用巨斧时具有7点@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili18]{红外感应}：</strong>&nbsp;攻击温暖目标时@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03illumination00]{照明}减值减半。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}1：</strong>&nbsp;兽人比人类稍大。</li>\n</ul>\n</article>",
             "items": {
                 "rYPioagBIyN3PERw": {
@@ -439,7 +439,7 @@
             }
         },
         "Shark": {
-            "name": "鲨鱼 SHARK",
+            "name": "鲨鱼",
             "biography": "<article class=\"swade-core\">\n<p>以下是包括牛鲨与白鳍鲨在内的鲨鱼数据。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili00]{水栖}：</strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03movement000000]{移速}10。</li>\n<li><strong>@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor06bestia.JournalEntryPage.06specialabili25]{体型}1：</strong>这些鲨鱼体重可达500磅。</li>\n</ul>\n</article>",
             "items": {
                 "ikc2t3YYPOkNXxgz": {
@@ -615,7 +615,7 @@
             }
         },
         "Swarm": {
-            "name": "集群 SWARM",
+            "name": "集群",
             "biography": "<article class=\"swade-core\">\n<p>有时最致命的敌人可能是一大堆群聚的小东西。此处所述的集群可以是任何存在：咬人的蚂蚁，蜇人的黄蜂乃至于肮脏的老鼠。集群的占据面积如同@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{大型，中型或小型爆发盖板}，其每轮都能够攻击身处其中的所有对象。(除非其遭受@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇})。 集群在陷入@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{无力化}时就会分崩离析。</p>\n<p>集群仅有进行移动或叮蛰的智力，因而其应该不能进行多@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03multiactions00]{多重行动}或@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03test0000000000]{考验}等等。</p>\n<p><strong>特殊能力：</strong></p>\n<ul>\n<li><strong>分裂：</strong>某些集群会在受到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}后会分裂成两个更小的集群(取决于GM)。在受到@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{损伤}时将集群的@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{爆发盖板}的大小下降一级，已经是小型的集群则会遭到消灭。</li>\n<li><strong>集群：</strong>从@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03damageeffect00]{动摇}中恢复时+2，@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01characters0000]{格挡}+2，因为集群是由许多小生物组成，所以劈砍和穿刺武器不会对其造成实际伤害。@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor03rules0.JournalEntryPage.03areaeffectat00]{范围效果攻击}能如常生效，角色也能在每轮通过踩踏造成等同于@UUID[Compendium.swade-core-rules.swade-rules.JournalEntry.swadecor01charac.JournalEntryPage.01traits00000000]{力量}的伤害。有些集群(例如蜜蜂，大黄蜂，鸟类等)或许能够通过完全浸入水体中加以躲避。</li>\n</ul>\n</article>",
             "items": {
                 "GwS74iruuUX18Ogq": {
