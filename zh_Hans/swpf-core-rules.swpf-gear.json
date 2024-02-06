@@ -24,7 +24,10 @@
             "name": "炽火胶",
             "category": "炼金物品",
             "description": "<div class=\"swpf-core\">\n<p>这种可燃的粘稠流体受到冲击就会燃烧，属于重武器。盖板内的对象被命中时受到2d4伤害，除非用水弄湿，否则其在下一轮开始时会受到2d4-2伤害。目标可能会着火(见154页)。</p>\n</div>",
-            "notes": "小型爆发盖板"
+            "notes": "小型爆发盖板",
+            "actions": {
+                "trait": "运动"
+            }
         },
         "Ale, gallon": {
             "name": "一加仑麦酒",
@@ -76,20 +79,37 @@
         "Assassin's Dagger": {
             "name": "刺客之匕",
             "category": "武器",
-            "description": "<div class=\"swpf-core\"><p>持用者在成功攻击某一陷入脆弱或能构成奇袭的对手时，伤害投骰+2。</p><p><strong>价格</strong>：10,302gp；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>黑暗</em>；5,302gp。</p></div>"
+            "description": "<div class=\"swpf-core\"><p>持用者在成功攻击某一陷入脆弱或能构成奇袭的对手时，伤害投骰+2。</p><p><strong>价格</strong>：10,302gp；<strong>重量</strong>：1磅。</p><p><strong>制作</strong>：<em>黑暗</em>；5,302gp。</p></div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Axe, Battle": {
             "name": "战斧",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Axe, Great": {
             "name": "巨斧",
             "category": "近战武器",
-            "description": "<div class=\"swpf-core\"><p>穿甲3，格挡-1，双手</p></div>"
+            "description": "<div class=\"swpf-core\"><p>穿甲3，格挡-1，双手</p></div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Axe, Hand": {
             "name": "手斧",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "additional": {
+                    "2ts45opnfnq80bst": {
+                        "name": "运动",
+                        "override": "运动"
+                    }
+                }
+            }
         },
         "Backpack": {
             "name": "背包",
@@ -175,13 +195,20 @@
         },
         "Blowgun": {
             "name": "吹箭筒",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "吹镖"
         },
         "Bolas": {
             "name": "飞索",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>优良命中的目标陷入<em>纠缠</em>(见130页)，飞索硬度为8。</p>\n</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "运动"
+            }
         },
         "Bolts": {
             "name": "矢",
@@ -225,15 +252,27 @@
         },
         "Bow (composite)": {
             "name": "复合弓",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "箭"
         },
         "Bow (long)": {
             "name": "长弓",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "箭"
         },
         "Bow (short)": {
             "name": "短弓",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "箭"
         },
         "Bracelet of Friends": {
             "name": "友伴手镯",
@@ -274,7 +313,10 @@
             "name": "加农炮",
             "category": "加农炮",
             "description": "<div class=\"swpf-core\">\n<p><strong>实心弹</strong>：用于击破坚墙或者犁过部队阵列的沉重铁球、铅球或是石球。若要开火，则炮组的领队如常进行一次射击投骰。倘若成功，投一枚骰子，若结果为偶数，则其会弹跳并命中位于首个命中对象后方6英寸内的另一对象，一直到结果出现奇数为止。</p>\n<p><strong>炮轰</strong>：假设大概知道目标所在位置，炮轰能通过把抛物线调整至阻挡的地形或是障碍之上来对视线外的目标进行射击。炮轰在除去所有其他调整值外会额外承受-4减值，而且如果射击投骰失败则其偏移加倍(见129页范围效果攻击)。若是能获得精确坐标(比如配合侦查员)，则减值降至-2。</p>\n</div>",
-            "notes": "重武器，装填为8，两名炮组成员能同时进行装填。"
+            "notes": "重武器，装填为8，两名炮组成员能同时进行装填。",
+            "actions": {
+                "trait": "射击"
+            }
         },
         "Canvas (sq yd)": {
             "name": "帆布",
@@ -359,11 +401,17 @@
         },
         "Club, Heavy": {
             "name": "重棒",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Club, Light": {
             "name": "轻棒",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Cold weather outfit": {
             "name": "御寒服装",
@@ -376,35 +424,59 @@
         "Crossbow (Hand)": {
             "name": "手弩",
             "category": "远程武器",
-            "description": "<div class=\"swpf-core\">\n<p>装填1，单手，像手枪一样的弩。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>装填1，单手，像手枪一样的弩。</p>\n</div>",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "矢"
         },
         "Crossbow (Hand, repeating)": {
             "name": "连发手弩",
             "category": "远程武器",
-            "description": "<div class=\"swpf-core\">\n<p>装填1(一匣5支或是单支)。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>装填1(一匣5支或是单支)。</p>\n</div>",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "矢"
         },
         "Crossbow (Heavy)": {
             "name": "重弩",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>需要绞盘才能装弹，装填2。</p>\n</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "矢"
         },
         "Crossbow (Heavy, repeating)": {
             "name": "连发重弩",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>装填2(一匣5支或是单支)。</p>\n</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "矢"
         },
         "Crossbow (Light)": {
             "name": "轻弩",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>装填1，手张。</p>\n</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "矢"
         },
         "Crossbow (Light, repeating)": {
             "name": "连发轻弩",
             "category": "远程武器",
-            "description": "<div class=\"swpf-core\">\n<p>装填1(一匣5支或是单支)，手张。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>装填1(一匣5支或是单支)，手张。</p>\n</div>",
+            "actions": {
+                "trait": "射击"
+            },
+            "ammo": "矢"
         },
         "Crowbar": {
             "name": "撬棍",
@@ -412,7 +484,15 @@
         },
         "Dagger/Knife": {
             "name": "匕首/小刀",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗",
+                "additional": {
+                    "i0p2yyq13q87vlpp": {
+                        "name": "运动"
+                    }
+                }
+            }
         },
         "Darts(blowgun)": {
             "name": "吹镖",
@@ -485,7 +565,15 @@
             "name": "弯刃大刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲1，可以双手使用(若是这样则伤害+1)</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗",
+                "additional": {
+                    "ozsozhdok3algydf": {
+                        "name": "双手"
+                    }
+                }
+            }
         },
         "Feather Token, Anchor": {
             "name": "羽符(锚)",
@@ -583,17 +671,26 @@
             "name": "连枷",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">忽略盾牌加值</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Flail (Heavy)": {
             "name": "重型连枷",
             "category": "近战武器",
-            "description": "<div class=\"swpf-core\">\n<p>忽略盾牌加值，双手</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>忽略盾牌加值，双手</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Flame Toungue": {
             "name": "烈焰之舌",
             "category": "武器",
-            "description": "<div class=\"swpf-core\"><p>这柄长剑的持用者能以一个自由行动使其迸出火焰。若是如此，其伤害+1且每日一次能以一个行动施放火焰<em>矢弹</em>(穿甲2)，使用射击作为施术投骰。</p><p><strong>价格</strong>：20,715gp；<strong>重量</strong>：4磅。</p><p><strong>制作</strong>：<em>矢弹</em>；10,515gp。</p></div>"
+            "description": "<div class=\"swpf-core\"><p>这柄长剑的持用者能以一个自由行动使其迸出火焰。若是如此，其伤害+1且每日一次能以一个行动施放火焰<em>矢弹</em>(穿甲2)，使用射击作为施术投骰。</p><p><strong>价格</strong>：20,715gp；<strong>重量</strong>：4磅。</p><p><strong>制作</strong>：<em>矢弹</em>；10,515gp。</p></div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Flask or Jug, ceramic": {
             "name": "扁瓶或陶罐",
@@ -617,7 +714,10 @@
             "name": "大砍刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">触及1，双手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Gloves of Storing": {
             "name": "储物手套",
@@ -646,7 +746,10 @@
             "name": "长钩刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲1，触及1，双手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Halberd": {
             "name": "战戟",
@@ -746,7 +849,11 @@
         "Holy Avenger": {
             "name": "神圣复仇者",
             "category": "武器",
-            "description": "<div class=\"swpf-core\">\n<p>这柄铁质长剑(力量+d10，穿甲2)会让使用者的格斗投骰+1(若是由圣武士持用则是+2)。圣武士还能获得奥法抗性专长，且能每遭遇三次以一个行动使用心魂施放<em>破祛</em>。</p>\n<p><strong>价格</strong>：120,630gp；<strong>重量</strong>：4磅。</p>\n<p><strong>制作</strong>：善良阵营；60,630gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>这柄铁质长剑(力量+d10，穿甲2)会让使用者的格斗投骰+1(若是由圣武士持用则是+2)。圣武士还能获得奥法抗性专长，且能每遭遇三次以一个行动使用心魂施放<em>破祛</em>。</p>\n<p><strong>价格</strong>：120,630gp；<strong>重量</strong>：4磅。</p>\n<p><strong>制作</strong>：善良阵营；60,630gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗",
+                "traitMod": "+1"
+            }
         },
         "Holy Symbol, silver": {
             "name": "银质圣徽",
@@ -801,17 +908,41 @@
         "Improvised Weapon (Heavy)": {
             "name": "临时武器(重型)",
             "category": "临时武器",
-            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>",
+            "actions": {
+                "trait": "格斗",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "运动"
+                    }
+                }
+            }
         },
         "Improvised Weapon (Light)": {
             "name": "临时武器(轻型)",
             "category": "临时武器",
-            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>",
+            "actions": {
+                "trait": "格斗",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "运动"
+                    }
+                }
+            }
         },
         "Improvised Weapon (Medium)": {
             "name": "临时武器(中型)",
             "category": "临时武器",
-            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>角色经常要用本意并非作为武器的物件战斗。火炬、花瓶、凳椅、啤酒杯、酒瓶、工具或是其他凡俗物品经常被强行拿来对战。</p><p>具备临时武器的角色视作有武装，但攻击投骰要-2。射程、伤害及最低力量根据类型决定：</p><ul><li><strong>轻型</strong>：啤酒杯、拳头大的石块、匕首柄(如同钝器)。射程3/6/12，伤害：力量+d4，最低力量d4。</li><li><strong>中型</strong>：锤子、镐子、木椅。射程2/4/8，伤害：力量+d6，最低力量d6。</li><li><strong>重型</strong>：脑袋大的石块、装着石头的口袋、原木。射程1/2/4，伤害：力量+d8，最低力量d8。</li></ul><p>GM应当根据特定物品合理地调整伤害以及其他要素。</p>\n</div>",
+            "actions": {
+                "trait": "格斗",
+                "additional": {
+                    "p0sizbjx38": {
+                        "name": "运动"
+                    }
+                }
+            }
         },
         "Inkpen (quill)": {
             "name": "墨水笔(羽毛)",
@@ -897,13 +1028,24 @@
         "Javelin of Lightning": {
             "name": "闪电标枪",
             "category": "奇物",
-            "description": "<div class=\"swpf-core\">\n<p>此标枪投出时会化作一道闪电。使用者在身前放置一个直线盖板，该攻击会对任何回避失败的对象造成4d6电伤害。标枪会本次攻击中消耗殆尽。</p>\n<p><strong>价格</strong>：1,500gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>矢弹</em>；750gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>此标枪投出时会化作一道闪电。使用者在身前放置一个直线盖板，该攻击会对任何回避失败的对象造成4d6电伤害。标枪会本次攻击中消耗殆尽。</p>\n<p><strong>价格</strong>：1,500gp；<strong>重量</strong>：2磅。</p>\n<p><strong>制作</strong>：<em>矢弹</em>；750gp。</p>\n</div>",
+            "actions": {
+                "trait": "运动",
+                "additional": {
+                    "Yfk9Aab1": {
+                        "name": "闪电"
+                    }
+                }
+            }
         },
         "Katana": {
             "name": "武士刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">双手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Lamp, Small (3\" radius)": {
             "name": "小型油灯",
@@ -914,7 +1056,10 @@
             "name": "骑枪",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Lantern of Revealing": {
             "name": "显像提灯",
@@ -960,11 +1105,17 @@
         "Mace, Heavy": {
             "name": "重型硬头锤",
             "category": "近战武器",
-            "description": "<div class=\"swpf-core\">穿甲1</div>"
+            "description": "<div class=\"swpf-core\">穿甲1</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Mace, Light": {
             "name": "轻型硬头锤",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Magnifying Glass": {
             "name": "放大镜",
@@ -984,7 +1135,10 @@
             "name": "大槌",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲2，双手，破坏物品(130页)时+2伤害</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Meal, common (per day)": {
             "name": "普通饭食(每天)",
@@ -1020,7 +1174,10 @@
         },
         "Morningstar": {
             "name": "钉头锤",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Mug/Tankard, ceramic": {
             "name": "带柄杯/陶杯",
@@ -1033,17 +1190,26 @@
         "Natural Bite": {
             "name": "噬咬",
             "category": "天生武器",
-            "description": "<div class=\"swpf-core\"><strong>噬咬</strong>：生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见133页<strong>擒抱</strong>)。</div>"
+            "description": "<div class=\"swpf-core\"><strong>噬咬</strong>：生物能对遭其擒抱的目标进行噬咬(大部分攻击方只能紧勒其猎物，见133页<strong>擒抱</strong>)。</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Natural Claws": {
             "name": "爪抓",
             "category": "天生武器",
-            "description": "<div class=\"swpf-core\"><strong>爪抓</strong>：所有在粗糙或柔软表面(不能是陡峭的钢铁，玻璃之类)的运动(攀爬)投骰+2。</div>"
+            "description": "<div class=\"swpf-core\"><strong>爪抓</strong>：所有在粗糙或柔软表面(不能是陡峭的钢铁，玻璃之类)的运动(攀爬)投骰+2。</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Natural Horns": {
             "name": "角撞",
             "category": "天生武器",
-            "description": "<div class=\"swpf-core\"><strong>角撞</strong>：生物在奔跑和移动至少5英寸(10码)后成功以角进行的一次攻击伤害+4。</div>"
+            "description": "<div class=\"swpf-core\"><strong>角撞</strong>：生物在奔跑和移动至少5英寸(10码)后成功以角进行的一次攻击伤害+4。</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Necklace of Fireballs, Major": {
             "name": "高级火球项链",
@@ -1058,7 +1224,10 @@
         "Net (Weighted)": {
             "name": "加重捕网",
             "category": "远程武器",
-            "description": "<div class=\"swpf-core\">\n<p>成功命中意味着目标陷入<em>纠缠</em>(见130页)，捕网的硬度为10。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>成功命中意味着目标陷入<em>纠缠</em>(见130页)，捕网的硬度为10。</p>\n</div>",
+            "actions": {
+                "trait": "运动"
+            }
         },
         "Noble's outfit": {
             "name": "贵族服装",
@@ -1067,7 +1236,10 @@
         "Oathbow": {
             "name": "誓仇弓",
             "category": "远程武器",
-            "description": "<div class=\"swpf-core\">\n<p>这把精灵打造的复合长弓(射击+1)在拉开时会以精灵语低吟：“吾敌速亡”。每日一次，射手能(用精灵语)大声起誓必杀某一特定目标。此弓会回应：“负我者死！”。以此弓攻击该目标的伤害+d6，且使用者的射击投骰免费获得一次重投。\n</p>\n<p>誓仇弓同时只能具有单个誓杀目标。一旦持用者发誓必杀某一目标后，其直到杀死该目标或经过七天为止都不能立下新誓言。</p>\n<p><strong>价格</strong>：25,600gp；<strong>重量</strong>：3磅。</p>\n<p><strong>制作</strong>：精灵；13,100gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>这把精灵打造的复合长弓(射击+1)在拉开时会以精灵语低吟：“吾敌速亡”。每日一次，射手能(用精灵语)大声起誓必杀某一特定目标。此弓会回应：“负我者死！”。以此弓攻击该目标的伤害+d6，且使用者的射击投骰免费获得一次重投。\n</p>\n<p>誓仇弓同时只能具有单个誓杀目标。一旦持用者发誓必杀某一目标后，其直到杀死该目标或经过七天为止都不能立下新誓言。</p>\n<p><strong>价格</strong>：25,600gp；<strong>重量</strong>：3磅。</p>\n<p><strong>制作</strong>：精灵；13,100gp。</p>\n</div>",
+            "actions": {
+                "trait": "射击"
+            }
         },
         "Oil (1 pint)": {
             "name": "油(1品脱)",
@@ -1119,7 +1291,10 @@
             "name": "步战矛",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">架设好时带有穿甲1，触及2，双手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Platinum": {
             "name": "白金币",
@@ -1275,13 +1450,19 @@
         "Ranseur": {
             "name": "刺叉",
             "category": "近战武器",
-            "description": "<div class=\"swpf-core\">穿甲1，触及1</div>"
+            "description": "<div class=\"swpf-core\">穿甲1，触及1</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Rapier": {
             "name": "刺剑",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">格挡+1</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Rhino Hide": {
             "name": "犀牛皮甲",
@@ -1474,7 +1655,10 @@
             "name": "闷棍",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">非致命伤害</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Scale, Merchant's": {
             "name": "商人天秤",
@@ -1492,7 +1676,10 @@
         },
         "Scimitar": {
             "name": "弯刀",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Scroll of Blast": {
             "name": "爆发卷轴",
@@ -1612,7 +1799,10 @@
             "name": "巨镰",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">双手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Sealing Wax, stick": {
             "name": "封蜡(1根)",
@@ -1637,11 +1827,17 @@
         },
         "Shuriken": {
             "name": "手里剑",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "trait": "运动"
+            }
         },
         "Sickle": {
             "name": "镰刀",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Siege Tower": {
             "name": "攻城塔",
@@ -1663,7 +1859,11 @@
         },
         "Sling": {
             "name": "投索",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "trait": "运动"
+            },
+            "ammo": "投索石丸"
         },
         "Sling Stones": {
             "name": "投索石丸",
@@ -1693,13 +1893,30 @@
         },
         "Spear": {
             "name": "矛",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "additional": {
+                    "ygsnkevnabgejq5y": {
+                        "name": "运动",
+                        "override": "运动"
+                    }
+                }
+            }
         },
         "Spear, Short": {
             "name": "短矛",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">单手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗",
+                "additional": {
+                    "u3qpr8ubtpjw2dlz": {
+                        "name": "运动",
+                        "override": "运动"
+                    }
+                }
+            }
         },
         "Spell Component Pouch": {
             "name": "法术材料包",
@@ -1717,7 +1934,10 @@
             "name": "刺链",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">触及1，忽略盾牌加值，双手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Spyglass (Notice +2 at range)": {
             "name": "小望远镜",
@@ -1731,27 +1951,42 @@
         "Staff of Abjuration": {
             "name": "防护法杖",
             "category": "法杖",
-            "description": "<div class=\"swpf-core\">\n<p>这些法杖通常由远古橡树或其他大树的心材雕刻而成。 (聪慧或施法)</p>\n<ul>\n<li><em>破祛</em>(1发充能)</li>\n<li><em>放逐</em>(2发充能)</li>\n<li><em>奥法防护</em>(1发充能)</li>\n<li><em>致伤领域</em>(2发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>这些法杖通常由远古橡树或其他大树的心材雕刻而成。 (聪慧或施法)</p>\n<ul>\n<li><em>破祛</em>(1发充能)</li>\n<li><em>放逐</em>(2发充能)</li>\n<li><em>奥法防护</em>(1发充能)</li>\n<li><em>致伤领域</em>(2发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Staff of Charming": {
             "name": "魅惑法杖",
             "category": "法杖",
-            "description": "<div class=\"swpf-core\">\n<p>这根华丽的法杖是由精雕细琢的弯曲木材制成。(聪慧或施法)</p>\n<ul>\n<li><em>共感</em>(1发充能)</li>\n<li><em>傀儡</em>(3发充能)\n<strong>价格</strong>：17,600gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；8,800gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>这根华丽的法杖是由精雕细琢的弯曲木材制成。(聪慧或施法)</p>\n<ul>\n<li><em>共感</em>(1发充能)</li>\n<li><em>傀儡</em>(3发充能)\n<strong>价格</strong>：17,600gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；8,800gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Staff of Defense": {
             "name": "防御法杖",
             "category": "法杖",
-            "description": "<div class=\"swpf-core\">\n<p>防御法杖是一根简朴的抛光木杖，摆出防御架式时会有力地颤动不已。(聪慧或信仰)</p>\n<ul>\n<li><em>环境防护</em>(2发充能)</li>\n<li><em>偏斜</em>(3发充能)</li>\n<li>高级<em>防护</em>(2发充能)</li>\n<li><em>防护</em>(1发充能)\n<strong>价格</strong>：62,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；31,000gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>防御法杖是一根简朴的抛光木杖，摆出防御架式时会有力地颤动不已。(聪慧或信仰)</p>\n<ul>\n<li><em>环境防护</em>(2发充能)</li>\n<li><em>偏斜</em>(3发充能)</li>\n<li>高级<em>防护</em>(2发充能)</li>\n<li><em>防护</em>(1发充能)\n<strong>价格</strong>：62,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；31,000gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Staff of Evocation": {
             "name": "塑能法杖",
             "category": "法杖",
-            "description": "<div class=\"swpf-core\">\n<p>通常由光滑的山核桃木或紫衫木制成。(聪慧或施法)</p>\n<ul>\n<li><em>矢弹</em>(穿甲2) (魔法飞弹；1发充能)</li>\n<li><em>爆发</em>(大型爆发) (火球；2发充能)</li>\n<li><em>屏障</em>(力场墙；2发充能)</li>\n<li><em>矢弹</em>(两个额外目标) (闪电链；5发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>通常由光滑的山核桃木或紫衫木制成。(聪慧或施法)</p>\n<ul>\n<li><em>矢弹</em>(穿甲2) (魔法飞弹；1发充能)</li>\n<li><em>爆发</em>(大型爆发) (火球；2发充能)</li>\n<li><em>屏障</em>(力场墙；2发充能)</li>\n<li><em>矢弹</em>(两个额外目标) (闪电链；5发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Staff of Healing": {
             "name": "治愈法杖",
             "category": "法杖",
-            "description": "<div class=\"swpf-core\">\n<p>饰有银色符文的白蜡法杖。 (心魂或信仰) </p>\n<ul>\n<li><em>治疗</em> (1发充能)</li>\n<li><em>缓和</em> (2发充能)</li>\n<li><em>缓和</em>(复原) (3发充能)</li>\n<li><em>治疗</em>(祛除毒素和疾病) (1发充能)\n<strong>价格</strong>：29,600gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；14,800gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>饰有银色符文的白蜡法杖。 (心魂或信仰) </p>\n<ul>\n<li><em>治疗</em> (1发充能)</li>\n<li><em>缓和</em> (2发充能)</li>\n<li><em>缓和</em>(复原) (3发充能)</li>\n<li><em>治疗</em>(祛除毒素和疾病) (1发充能)\n<strong>价格</strong>：29,600gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；14,800gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Staff of Life": {
             "name": "生命法杖",
@@ -1761,22 +1996,39 @@
         "Staff of Necromancy": {
             "name": "死灵法杖",
             "category": "法杖",
-            "description": "<div class=\"swpf-core\">\n<p>这根法杖由黑檀或其他黑色木头制成，刻有混杂着骨骸和蛛腿般奇异细长符文的图样。(聪慧或施法)</p>\n<ul>\n<li><em>恐惧</em>(1发充能)</li>\n<li><em>抽取奇术点</em>(2发充能)</li>\n<li><em>削弱力量</em>(2发充能)</li>\n<li><em>行尸</em>(永续)(3发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>这根法杖由黑檀或其他黑色木头制成，刻有混杂着骨骸和蛛腿般奇异细长符文的图样。(聪慧或施法)</p>\n<ul>\n<li><em>恐惧</em>(1发充能)</li>\n<li><em>抽取奇术点</em>(2发充能)</li>\n<li><em>削弱力量</em>(2发充能)</li>\n<li><em>行尸</em>(永续)(3发充能)\n<strong>价格</strong>：82,000gp；<strong>重量</strong>：5磅。\n</li>\n</ul>\n<p><strong>制作</strong>：所有列出的奇术；41,000gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Staff of Power": {
             "name": "力量法杖",
             "category": "法杖",
-            "description": "<div class=\"swpf-core\">\n<p>攻守兼顾的力量法杖是一件非常强力的魔法物品。(聪慧或施法)</p>\n<ul>\n<li><em>光亮</em>(不灭明焰；1发充能)</li>\n<li><em>爆发</em>(火球；1发充能)</li>\n<li>次级<em>飞行</em>(仅能上下飘浮) ，持续一分钟 (1发充能)</li>\n<li><em>矢弹</em>(伤害) (闪电束；3发充能)</li>\n<li><em>矢弹</em>(魔法飞弹；1发充能)</li>\n<li><em>削弱力量</em>(2发充能)</li>\n<li><em>爆裂</em>(寒冰锥；2发充能)</li>\n<li><em>奥法防护</em>(1发充能)</li>\n<li><em>屏障</em>(仅在施法者周围直径12尺的球形力场墙；2发充能)\n<strong>额外能力</strong>：力量法杖会让格斗+1且造成力量+d6+1伤害。如果成功命中后消耗一发充能，则使用者的伤害+d6。\n</li>\n</ul>\n<p><strong>报复打击</strong>：可以故意损坏力量法杖以此进行报复打击。这需要一个限定自由行动，但无须投骰。当前法杖中的所有充能立即被施放至6英寸(12码)的扩散范围内。</p>\n<p>所有处于大型爆发范围内的生物受到Xd6点伤害，其中X为法杖中剩余的充能数。这可以被回避，但成功回避的对象依然会受一半伤害。</p>\n<p>损坏法杖的角色投一枚d6，若为4+则会被安全地推移至另一个位面(而且必须自己设法回来)。若为1-3，则法杖的惊人的能量会将对象解离。</p>\n<p><strong>价格</strong>：235,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：所有列出的奇术；117,500gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>攻守兼顾的力量法杖是一件非常强力的魔法物品。(聪慧或施法)</p>\n<ul>\n<li><em>光亮</em>(不灭明焰；1发充能)</li>\n<li><em>爆发</em>(火球；1发充能)</li>\n<li>次级<em>飞行</em>(仅能上下飘浮) ，持续一分钟 (1发充能)</li>\n<li><em>矢弹</em>(伤害) (闪电束；3发充能)</li>\n<li><em>矢弹</em>(魔法飞弹；1发充能)</li>\n<li><em>削弱力量</em>(2发充能)</li>\n<li><em>爆裂</em>(寒冰锥；2发充能)</li>\n<li><em>奥法防护</em>(1发充能)</li>\n<li><em>屏障</em>(仅在施法者周围直径12尺的球形力场墙；2发充能)\n<strong>额外能力</strong>：力量法杖会让格斗+1且造成力量+d6+1伤害。如果成功命中后消耗一发充能，则使用者的伤害+d6。\n</li>\n</ul>\n<p><strong>报复打击</strong>：可以故意损坏力量法杖以此进行报复打击。这需要一个限定自由行动，但无须投骰。当前法杖中的所有充能立即被施放至6英寸(12码)的扩散范围内。</p>\n<p>所有处于大型爆发范围内的生物受到Xd6点伤害，其中X为法杖中剩余的充能数。这可以被回避，但成功回避的对象依然会受一半伤害。</p>\n<p>损坏法杖的角色投一枚d6，若为4+则会被安全地推移至另一个位面(而且必须自己设法回来)。若为1-3，则法杖的惊人的能量会将对象解离。</p>\n<p><strong>价格</strong>：235,000gp；<strong>重量</strong>：5磅。</p>\n<p><strong>制作</strong>：所有列出的奇术；117,500gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Staff/Quarterstaff": {
             "name": "棍/四分棍",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">格挡+1，触及1，双手</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Starknife": {
             "name": "星刃",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "additional": {
+                    "0qkwk2oxtdxbcih2": {
+                        "name": "运动",
+                        "override": "运动"
+                    }
+                }
+            }
         },
         "Stone of Good Luck": {
             "name": "幸运石",
@@ -1797,32 +2049,67 @@
         "Sword of the Planes": {
             "name": "位面之剑",
             "category": "武器",
-            "description": "<div class=\"swpf-core\">\n<p>这柄剑的魔法特质会基于其当前所处的实存位面或用于对抗的源自该位面的目标而发生变化。两种情况同时生效时，使用其中最高的加值。</p>\n<ul>\n<li><strong>异界生物</strong>：对抗异界生物时，持有者的伤害免费获得一次重投。</li>\n<li><strong>物质界属</strong>：格斗+1，力量+d8，穿甲1。</li>\n<li><strong>元素界属</strong>：格斗+2，力量+d8，穿甲1。</li>\n<li><strong>星界/灵界/其他</strong>：格斗+2，力量+d10，穿甲2。\n<strong>价格</strong>：22,315gp；<strong>重量</strong>：4磅。\n</li>\n</ul>\n<p><strong>制作</strong>：<em>异界传送</em>；11,315gp。</p>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>这柄剑的魔法特质会基于其当前所处的实存位面或用于对抗的源自该位面的目标而发生变化。两种情况同时生效时，使用其中最高的加值。</p>\n<ul>\n<li><strong>异界生物</strong>：对抗异界生物时，持有者的伤害免费获得一次重投。</li>\n<li><strong>物质界属</strong>：格斗+1，力量+d8，穿甲1。</li>\n<li><strong>元素界属</strong>：格斗+2，力量+d8，穿甲1。</li>\n<li><strong>星界/灵界/其他</strong>：格斗+2，力量+d10，穿甲2。\n<strong>价格</strong>：22,315gp；<strong>重量</strong>：4磅。\n</li>\n</ul>\n<p><strong>制作</strong>：<em>异界传送</em>；11,315gp。</p>\n</div>",
+            "actions": {
+                "trait": "格斗",
+                "traitMod": "+1",
+                "additional": {
+                    "4u82RAwUOmywmqo3": {
+                        "name": "星界/灵界/其他"
+                    },
+                    "4u82RAwUOmywmqo4": {
+                        "name": "星界/灵界/其他"
+                    },
+                    "4u82RAwUOmywmqo5": {
+                        "name": "元素"
+                    }
+                }
+            }
         },
         "Sword, Bastard": {
             "name": "混种剑",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲1，可以双手使用(若是这样则伤害+1)</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗",
+                "additional": {
+                    "0dtefhqqrv1f4ykk": {
+                        "name": "双手"
+                    }
+                }
+            }
         },
         "Sword, Great": {
             "name": "巨剑",
             "category": "近战武器",
-            "description": "<div class=\"swpf-core\">穿甲2，双手</div>"
+            "description": "<div class=\"swpf-core\">穿甲2，双手</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Sword, Long": {
             "name": "长剑",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Sword, Short": {
             "name": "短剑",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Tanglefoot Bag": {
             "name": "绊足包",
             "category": "炼金物品",
             "description": "<div class=\"swpf-core\">\n<p>体型3或以下的对象若被这一小包黏稠材料命中就会在5轮内陷入分神，并且其必须成功通过一次运动投骰，否则还会被粘在地上(纠缠)。</p>\n</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "运动"
+            }
         },
         "Tent, canvas (2 person)": {
             "name": "帆布帐篷(2人用)",
@@ -1867,11 +2154,22 @@
         },
         "Trident": {
             "name": "三叉戟",
-            "category": "远程武器"
+            "category": "远程武器",
+            "actions": {
+                "additional": {
+                    "aojkike79968lxpv": {
+                        "name": "运动",
+                        "override": "运动"
+                    }
+                }
+            }
         },
         "Unarmed Strike (Monk)": {
             "name": "无武装打击(武僧)",
-            "category": "近战武器"
+            "category": "近战武器",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Universal Solvent": {
             "name": "万溶剂",
@@ -2005,7 +2303,10 @@
         "Warhammer": {
             "name": "战锤",
             "category": "近战武器",
-            "description": "<div class=\"swpf-core\">穿甲1</div>"
+            "description": "<div class=\"swpf-core\">穿甲1</div>",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Waterskin (filled)": {
             "name": "水袋(装满)",
@@ -2019,7 +2320,10 @@
             "name": "长鞭",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">\n<p>格挡-1，触及2，攻击投骰获得优良不会投奖励伤害，而是变成对象陷入纠缠。</p>\n</div>",
-            "notes": ""
+            "notes": "",
+            "actions": {
+                "trait": "格斗"
+            }
         },
         "Whistle, ceramic": {
             "name": "陶笛",
