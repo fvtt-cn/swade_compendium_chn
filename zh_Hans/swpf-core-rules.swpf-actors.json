@@ -207,6 +207,34 @@
         "Zombie, Human": {
             "name": "人类行尸",
             "description": "<div class=\"swpf-core\">\n<p>以下数据针对的是普通人大小的类人生物行尸。</p>\n<p><strong>类别</strong>：邪恶不死生物(行尸)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d4，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d4，格斗d6，威吓d6，察觉d4，射击d6</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：5；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d4。</li>\n<li><strong>无畏</strong>：行尸免疫恐惧与威吓。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。</li>\n<li><strong>弱点(头部)</strong>：对行尸头部的定点打击如常造成+4伤害。</li>\n</ul>\n</div>"
+        },
+        "Kyra (Seasoned)": {
+            "name": "凯拉(行家)"
+        },
+        "Amiri (Seasoned)": {
+            "name": "艾米莉(行家)",
+            "description": "<p>血气方刚，勇猛善战的艾米莉自视甚高，胆敢冒犯这位野蛮人的家伙很快就会尝到她血脉偾张的怒火。艾米莉使用的越型混种剑是她数年前从霜巨人那里赢回来的无价战利品，除此之外，她对身外之物丝毫不感兴趣，只要有机会就会肆无忌惮地大肆挥霍，活在当下的艾米莉在每个早晨都会期盼着今天能光荣地与世长辞。</p>"
+        },
+        "Lem (Seasoned)": {
+            "name": "列姆(行家)"
+        },
+        "Lini (Seasoned)": {
+            "name": "李妮(行家)"
+        },
+        "Seelah (Seasoned)": {
+            "name": "希拉(行家)"
+        },
+        "Valeros (Seasoned)": {
+            "name": "瓦莱洛斯(行家)"
+        },
+        "Droogami": {
+            "name": "朱戈蜜"
+        },
+        "Merisiel (Seasoned)": {
+            "name": "梅芮希尔(行家)"
+        },
+        "Seoni (Seasoned)": {
+            "name": "塞奥妮(行家)"
         }
     }
 }
