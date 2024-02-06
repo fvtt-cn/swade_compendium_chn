@@ -15,7 +15,7 @@
 			"name": "Amiri",
 			"description": "<p>Fiery of heart and fierce in battle, Amiri demands respect. Those who offend the barbarian soon learn the wrath of her blood rage. She wields an over-sized bastard sword, her mostprized possession, won from a frost giant years ago. Other than this, Amiri shows no interest in material belongings. She spends freely whenever chance provides, embracing life in the moment and expecting a noble death with the dawn of every day.</p>"
 		},
-"Amiri (Seasoned)": {
+		"Amiri (Seasoned)": {
 			"name": "Amiri (Seasoned)",
 			"description": "<p>Fiery of heart and fierce in battle, Amiri demands respect. Those who offend the barbarian soon learn the wrath of her blood rage. She wields an over-sized bastard sword, her mostprized possession, won from a frost giant years ago. Other than this, Amiri shows no interest in material belongings. She spends freely whenever chance provides, embracing life in the moment and expecting a noble death with the dawn of every day.</p>"
 		},
@@ -49,7 +49,7 @@
 			"name": "Dog/wolf",
 			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">The stats below are for large attack dogs, as well as wolves, hyenas, and the like. Type: Neutral Animal (Dog/Wolf)</p></div>"
 		},
-"Droogami": {
+		"Droogami": {
 			"name": "Droogami",
 			"description": ""
 		},
@@ -86,7 +86,7 @@
 			"name": "Kyra",
 			"description": ""
 		},
-"Kyra (Seasoned)": {
+		"Kyra (Seasoned)": {
 			"name": "Kyra (Seasoned)",
 			"description": ""
 		},
@@ -94,7 +94,7 @@
 			"name": "Lem",
 			"description": ""
 		},
-"Lem (Seasoned)": {
+		"Lem (Seasoned)": {
 			"name": "Lem (Seasoned)",
 			"description": ""
 		},
@@ -102,7 +102,7 @@
 			"name": "Lini",
 			"description": ""
 		},
-"Lini (Seasoned)": {
+		"Lini (Seasoned)": {
 			"name": "Lini (Seasoned)",
 			"description": ""
 		},
@@ -117,7 +117,7 @@
 			"name": "Merisiel",
 			"description": ""
 		},
-"Merisiel (Seasoned)": {
+		"Merisiel (Seasoned)": {
 			"name": "Merisiel (Seasoned)",
 			"description": ""
 		},
@@ -142,7 +142,7 @@
 			"name": "Seelah",
 			"description": ""
 		},
-"Seelah (Seasoned)": {
+		"Seelah (Seasoned)": {
 			"name": "Seelah (Seasoned)",
 			"description": ""
 		},
@@ -150,7 +150,7 @@
 			"name": "Seoni",
 			"description": ""
 		},
-"Seoni (Seasoned)": {
+		"Seoni (Seasoned)": {
 			"name": "Seoni (Seasoned)",
 			"description": ""
 		},
