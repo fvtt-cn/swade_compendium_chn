@@ -1,5 +1,5 @@
 {
-    "label": "生物图鉴",
+    "label": "范型与生物图鉴",
     "mapping": {
         "biography": "system.details.biography.value",
         "items": {
