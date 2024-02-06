@@ -23,7 +23,23 @@
             "range": "聪慧",
             "rank": "老练",
             "trapping": "诅咒造物、能量束。",
-            "duration": "5"
+            "duration": "5",
+            "actions": {
+                "additional": {
+                    "initial": {
+                        "name": "初始心魂",
+                        "override": "心魂"
+                    },
+                    "return": {
+                        "name": "恢复原形态",
+                        "override": "心魂"
+                    },
+                    "returnRaise": {
+                        "name": "恢复原形态(优良)",
+                        "override": "心魂"
+                    }
+                }
+            }
         },
         "Banish": {
             "name": "放逐",
@@ -31,7 +47,15 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "老练",
-            "trapping": "圣物，奥法印记，一捧盐"
+            "trapping": "圣物，奥法印记，一捧盐",
+            "actions": {
+                "additional": {
+                    "PrTMgSUy": {
+                        "name": "抵抗",
+                        "override": "心魂"
+                    }
+                }
+            }
         },
         "Barrier": {
             "name": "屏障",
@@ -55,7 +79,17 @@
             "duration": "瞬间",
             "range": "聪慧×2",
             "rank": "行家",
-            "trapping": "火球、冰球、光球、暗球、虹彩箭雨、昆虫集群。"
+            "trapping": "火球、冰球、光球、暗球、虹彩箭雨、昆虫集群。",
+            "actions": {
+                "additional": {
+                    "Ud5n8pOE": {
+                        "name": "伤害(3d6)"
+                    },
+                    "4klk6N4M": {
+                        "name": "高等爆发(4d6)"
+                    }
+                }
+            }
         },
         "Blind": {
             "name": "目盲",
@@ -63,7 +97,19 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "入门",
-            "trapping": "明亮闪光，风沙糊眼，迷惑。"
+            "trapping": "明亮闪光，风沙糊眼，迷惑。",
+            "actions": {
+                "additional": {
+                    "shakeOff": {
+                        "name": "摆脱",
+                        "override": "活力"
+                    },
+                    "shakeOffStrong": {
+                        "name": "摆脱(强劲)",
+                        "override": "活力"
+                    }
+                }
+            }
         },
         "Bolt": {
             "name": "矢弹",
@@ -71,7 +117,20 @@
             "duration": "瞬间",
             "range": "聪慧×2",
             "rank": "入门",
-            "trapping": "火箭、冰箭、光箭、黑暗箭、虹彩箭、昆虫流。"
+            "trapping": "火箭、冰箭、光箭、黑暗箭、虹彩箭、昆虫流。",
+            "actions": {
+                "additional": {
+                    "NSij8wQ7": {
+                        "name": "伤害(3d6)"
+                    },
+                    "okwO6m05": {
+                        "name": "高等矢弹(4d6)"
+                    },
+                    "aHBIOrse": {
+                        "name": "射速"
+                    }
+                }
+            }
         },
         "Boost/Lower Trait": {
             "name": "强化/削弱特性",
@@ -79,7 +138,19 @@
             "duration": "5(强化)；瞬间(削弱)",
             "range": "聪慧",
             "rank": "入门",
-            "trapping": "表改变，发亮灵气，药剂。"
+            "trapping": "表改变，发亮灵气，药剂。",
+            "actions": {
+                "additional": {
+                    "shakeOff": {
+                        "name": "摆脱",
+                        "override": "心魂"
+                    },
+                    "effectMacro": {
+                        "name": "应用效果",
+                        "uuid": "Compendium.swpf-core-rules.swpf-macros.Macro.4I5qklYbBo3trunq"
+                    }
+                }
+            }
         },
         "Burrow": {
             "name": "遁地",
@@ -95,7 +166,17 @@
             "duration": "瞬间",
             "range": "锥形或直线盖板",
             "rank": "入门",
-            "trapping": "喷涌而出的火焰、光芒或是其他物质和能量。"
+            "trapping": "喷涌而出的火焰、光芒或是其他物质和能量。",
+            "actions": {
+                "additional": {
+                    "N9fOvgP6": {
+                        "name": "伤害(3d6)"
+                    },
+                    "Of4rn6H0": {
+                        "name": "高等爆裂(4d6)"
+                    }
+                }
+            }
         },
         "Confusion": {
             "name": "困惑",
@@ -119,7 +200,14 @@
             "duration": "特殊",
             "range": "接触",
             "rank": "行家",
-            "trapping": "人像、仪式咒语、触碰。"
+            "trapping": "人像、仪式咒语、触碰。",
+            "actions": {
+                "additional": {
+                    "oLOKPdIW": {
+                        "name": "心魂"
+                    }
+                }
+            }
         },
         "Damage Field": {
             "name": "致伤领域",
@@ -127,7 +215,17 @@
             "range": "聪慧",
             "rank": "行家",
             "trapping": "炽焰灵气，尖刺，电弧场。",
-            "duration": "5"
+            "duration": "5",
+            "actions": {
+                "additional": {
+                    "hq5IqVA9": {
+                        "name": "伤害(2d6)"
+                    },
+                    "EvZE2GvY": {
+                        "name": "高等致伤领域(3d6)"
+                    }
+                }
+            }
         },
         "Darksight": {
             "name": "暗视",
@@ -151,7 +249,15 @@
             "duration": "瞬间",
             "range": "中型爆发盖板",
             "rank": "老练",
-            "trapping": "仅牧师可用"
+            "trapping": "仅牧师可用",
+            "actions": {
+                "trait": "信仰",
+                "additional": {
+                    "fU4hbzt9": {
+                        "name": "心魂检定"
+                    }
+                }
+            }
         },
         "Detect/Conceal Arcana": {
             "name": "侦测/隐藏奥法",
@@ -191,7 +297,14 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "行家",
-            "trapping": "祈祷，低语，手势。"
+            "trapping": "祈祷，低语，手势。",
+            "actions": {
+                "additional": {
+                    "CZYpjfzQ": {
+                        "name": "对抗抽取"
+                    }
+                }
+            }
         },
         "Elemental Manipulation": {
             "name": "元素操纵",
@@ -215,7 +328,17 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "入门",
-            "trapping": "胶水炸弹，藤蔓，罗网。"
+            "trapping": "胶水炸弹，藤蔓，罗网。",
+            "actions": {
+                "additional": {
+                    "qbETZtas": {
+                        "name": "伤害(2d4)"
+                    },
+                    "roS9oGG0": {
+                        "name": "致死(2d6)"
+                    }
+                }
+            }
         },
         "Environmental Protection": {
             "name": "环境防护",
@@ -239,7 +362,19 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "入门",
-            "trapping": "怪异能量、寒意。"
+            "trapping": "怪异能量、寒意。",
+            "actions": {
+                "additional": {
+                    "resist": {
+                        "name": "恐惧检定",
+                        "override": "心魂"
+                    },
+                    "macro": {
+                        "name": "恐惧投骰",
+                        "uuid": "Compendium.swpf-core-rules.swpf-macros.Macro.9naAQDKfM0yNGR3E"
+                    }
+                }
+            }
         },
         "Fly": {
             "name": "飞行",
@@ -254,7 +389,14 @@
             "description": "<div class=\"swpf-core\"><h3 id=\"growth-shrink\">放大/缩小 GROWTH/SHRINK</h3><p><strong>位阶：</strong>行家</p><p><strong>奇术点：</strong>变化的体型数×2</p><p><strong>射程：</strong>聪慧</p><p><strong>持续时间：</strong>5</p><p><strong>学派：</strong>变化系</p><p><strong>特效：</strong>手势、咒文、药水。</p><hr><p><em>放大</em>每消耗2奇术点，就能使对象的体型+1。体型每+1，力量就会上升一级，坚韧+1(更多<strong>体型</strong>相关内容见138页)。无论尺寸如何变化，这都不会增加可承受损伤的数量。</p><p><em>缩小</em>每消耗2奇术点，就能使对象体型缩小一级，下限为-2体型(约和猫差不多)。体型每缩小一级，力量就会下降一级(下限为d4)，坚韧-1(下限为2)。</p><p>对于非自愿目标，施术者用奥法技能投骰对抗目标的心魂。</p><hr><h3 class=\"red-label\">调整</h3><p>通用调整见@UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore05powers.JournalEntryPage.05powermodifie00]{此处}</p><ul><li class=\"star-icon\"><span class=\"list-heading\">延长(+2)：</span>这个奇术的持续时间从按轮计算变成按分钟计算。</li><li class=\"star-icon\"><span class=\"list-heading\">强力(+2)：</span><em>缩小</em>的目标变小时仍能保有其正常的力量与坚韧。</li></ul></div>",
             "range": "聪慧",
             "rank": "行家",
-            "trapping": "手势、咒文、药水。"
+            "trapping": "手势、咒文、药水。",
+            "actions": {
+                "additional": {
+                    "OhHdkFtO": {
+                        "name": "非自愿目标"
+                    }
+                }
+            }
         },
         "Havoc": {
             "name": "劫动",
@@ -270,7 +412,15 @@
             "duration": "瞬间",
             "range": "接触",
             "rank": "入门",
-            "trapping": "疗愈之触，以圣徽触碰对象，祷告。"
+            "trapping": "疗愈之触，以圣徽触碰对象，祷告。",
+            "actions": {
+                "additional": {
+                    "heal": {
+                        "name": "治疗选中",
+                        "uuid": "Compendium.swpf-core-rules.swpf-macros.Macro.Q2jSI3bMuJZVRmnx"
+                    }
+                }
+            }
         },
         "Illusion": {
             "name": "幻象",
@@ -278,7 +428,17 @@
             "range": "聪慧",
             "rank": "入门",
             "trapping": "魔法咒术，全息图，“灵态具现”。",
-            "duration": "5"
+            "duration": "5",
+            "actions": {
+                "additional": {
+                    "PTcNZtHJ": {
+                        "name": "聪慧"
+                    },
+                    "5Rztveba": {
+                        "name": "聪慧(优良)"
+                    }
+                }
+            }
         },
         "Intangibility": {
             "name": "无形",
@@ -286,7 +446,14 @@
             "range": "聪慧",
             "rank": "老练",
             "trapping": "幽灵形态，暗影之躯，气化变形。",
-            "duration": "5"
+            "duration": "5",
+            "actions": {
+                "additional": {
+                    "ISj4lHDO": {
+                        "name": "非自愿目标"
+                    }
+                }
+            }
         },
         "Invisibility": {
             "name": "隐形",
@@ -326,7 +493,14 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "入门",
-            "trapping": "灵能入侵，灵魂视觉。"
+            "trapping": "灵能入侵，灵魂视觉。",
+            "actions": {
+                "additional": {
+                    "Ed1DDjV3": {
+                        "name": "聪慧"
+                    }
+                }
+            }
         },
         "Mind Wipe": {
             "name": "心智抹除",
@@ -334,7 +508,17 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "老练",
-            "trapping": "毒性饮品、寄生虫，触摸目标太阳穴。"
+            "trapping": "毒性饮品、寄生虫，触摸目标太阳穴。",
+            "actions": {
+                "additional": {
+                    "ivLR2Yfg": {
+                        "name": "聪慧"
+                    },
+                    "7RoFRfPd": {
+                        "name": "回忆碎片"
+                    }
+                }
+            }
         },
         "Object Reading": {
             "name": "读物",
@@ -350,7 +534,14 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "老练",
-            "trapping": "召唤法阵、附魔铁棺材、魔法锁链。"
+            "trapping": "召唤法阵、附魔铁棺材、魔法锁链。",
+            "actions": {
+                "additional": {
+                    "8z4E9qpT": {
+                        "name": "心魂"
+                    }
+                }
+            }
         },
         "Plane Shift": {
             "name": "异界传送",
@@ -358,7 +549,14 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "老练",
-            "trapping": "空中的宇宙孔洞、符文魔法阵。"
+            "trapping": "空中的宇宙孔洞、符文魔法阵。",
+            "actions": {
+                "additional": {
+                    "xYn2suWG": {
+                        "name": "传送敌方"
+                    }
+                }
+            }
         },
         "Protection": {
             "name": "防护",
@@ -374,7 +572,17 @@
             "range": "聪慧",
             "rank": "老练",
             "trapping": "双眼发光，类恍惚状态，摆晃怀表，巫毒娃娃。",
-            "duration": "5"
+            "duration": "5",
+            "actions": {
+                "additional": {
+                    "3ZkHq4M0": {
+                        "name": "心魂"
+                    },
+                    "3avNpPlO": {
+                        "name": "心魂(强劲)"
+                    }
+                }
+            }
         },
         "Relief": {
             "name": "缓和",
@@ -406,7 +614,14 @@
             "range": "自身",
             "rank": "行家",
             "trapping": "反射性表面上的图像，双目发光，水晶球。",
-            "duration": "5"
+            "duration": "5",
+            "actions": {
+                "additional": {
+                    "opposeSpirit": {
+                        "name": "以心魂对抗"
+                    }
+                }
+            }
         },
         "Shape Change": {
             "name": "化形",
@@ -422,7 +637,19 @@
             "duration": "瞬间(滞缓)；5(加速)",
             "range": "聪慧",
             "rank": "行家",
-            "trapping": "时间减缓，动作残影。"
+            "trapping": "时间减缓，动作残影。",
+            "actions": {
+                "additional": {
+                    "shakeOff": {
+                        "name": "摆脱",
+                        "override": "心魂"
+                    },
+                    "shakeOffStrong": {
+                        "name": "摆脱(强劲)",
+                        "override": "心魂"
+                    }
+                }
+            }
         },
         "Slumber": {
             "name": "沉眠",
@@ -430,7 +657,19 @@
             "duration": "1小时",
             "range": "聪慧",
             "rank": "行家",
-            "trapping": "摇篮曲，向目标吹出粉末或是沙子。"
+            "trapping": "摇篮曲，向目标吹出粉末或是沙子。",
+            "actions": {
+                "additional": {
+                    "resist": {
+                        "name": "心魂",
+                        "override": "心魂"
+                    },
+                    "resistRaise": {
+                        "name": "心魂(优良)",
+                        "override": "心魂"
+                    }
+                }
+            }
         },
         "Smite": {
             "name": "痛击",
@@ -446,7 +685,23 @@
             "duration": "瞬间(发声)；5(沉默)",
             "range": "聪慧x5(<em>发声</em>)；聪慧(<em>沉默</em>)",
             "rank": "入门",
-            "trapping": "魔法效果，空中的短促波纹，开始或停止鸣响的铃铛或编钟。"
+            "trapping": "魔法效果，空中的短促波纹，开始或停止鸣响的铃铛或编钟。",
+            "actions": {
+                "additional": {
+                    "qpI9WkuC": {
+                        "name": "发声考验"
+                    },
+                    "rSoe39Eg": {
+                        "name": "高等发声考验"
+                    },
+                    "FgZvwie3": {
+                        "name": "沉默目标"
+                    },
+                    "zUetXQwg": {
+                        "name": "高等沉默目标"
+                    }
+                }
+            }
         },
         "Speak Language": {
             "name": "通晓语言",
@@ -462,7 +717,19 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "入门",
-            "trapping": "能量矢，震撼炸弹，音爆，爆发出目眩强光。"
+            "trapping": "能量矢，震撼炸弹，音爆，爆发出目眩强光。",
+            "actions": {
+                "additional": {
+                    "resist": {
+                        "name": "活力",
+                        "override": "活力"
+                    },
+                    "resistRaise": {
+                        "name": "活力(优良)",
+                        "override": "活力"
+                    }
+                }
+            }
         },
         "Summon Ally": {
             "name": "召唤盟友",
@@ -478,7 +745,26 @@
             "range": "聪慧×2",
             "rank": "行家",
             "trapping": "挥手，魔杖，紧盯不放。",
-            "duration": "5"
+            "duration": "5",
+            "actions": {
+                "additional": {
+                    "WPznhrOT": {
+                        "name": "撞击"
+                    },
+                    "YwgwwMPi": {
+                        "name": "撞击(优良)"
+                    },
+                    "y8K2mEXp": {
+                        "name": "撞击(强力)"
+                    },
+                    "6ysabHKF": {
+                        "name": "撞击(优良+强力)"
+                    },
+                    "pZQQQlzV": {
+                        "name": "非自愿目标"
+                    }
+                }
+            }
         },
         "Teleport": {
             "name": "传送",
@@ -486,7 +772,18 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "行家",
-            "trapping": "烟云、\"闪\"现、化身闪电。"
+            "trapping": "烟云、\"闪\"现、化身闪电。",
+            "actions": {
+                "additional": {
+                    "touch": {
+                        "name": "接触攻击",
+                        "override": "格斗"
+                    },
+                    "A56Z1cxo": {
+                        "name": "传送敌方"
+                    }
+                }
+            }
         },
         "Time Stop": {
             "name": "时间停止",
@@ -517,7 +814,14 @@
             "duration": "瞬间",
             "range": "聪慧",
             "rank": "传奇",
-            "trapping": "瓶中巨灵，互碰鞋跟，符咒，猴爪。"
+            "trapping": "瓶中巨灵，互碰鞋跟，符咒，猴爪。",
+            "actions": {
+                "additional": {
+                    "0q4kc11L": {
+                        "name": "特殊"
+                    }
+                }
+            }
         },
         "Zombie": {
             "name": "行尸",

@@ -29,7 +29,7 @@
             "description": "<div class=\"swpf-core\">\n<p>气魔蝠常见于气元素位面，这些魔蝠反复无常，易于分心。</p>\n<p><strong>奇术</strong>：<em>偏斜</em></p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>飞行</strong>：移速10。</li>\n<li><strong>吐息武器(沙)</strong>：锥形盖板，伤害2d4。</li>\n<li><strong>再生(风)</strong>：在强风或刮风区域内时每轮都能尝试一次自然治疗投骰，即使陷入无力化也是如此。</li>\n</ul>\n</div>"
         },
         "Alligator/Crocodile": {
-            "name": "短吻鳄/鳄鱼 ALLIGATOR/",
+            "name": "短吻鳄/鳄鱼",
             "description": "<div class=\"swpf-core\">\n <p>格拉里昂的各处的湿地当中都潜伏着短吻鳄和鳄鱼，虽然多见于淡水当中，但其偶尔也会出现在咸水或是海水当中。这里的数值对应的是两类物种中的普通成员，而在偏远地区则通常会出现体型更大的种类。</p>\n <p><strong>类别</strong>：中立动物(短吻鳄/鳄鱼)</p>\n <p><strong>属性</strong>：灵巧d6，聪慧d4(A)，心魂d6，力量d10，活力d8</p>\n <p><strong>技能</strong>：运动d6，格斗d6，威吓d6，察觉d8，潜行d8</p>\n <p><strong>移速</strong>：5；<strong>格挡</strong>：5；<strong>坚韧</strong>：10(2)</p>\n <p><strong>专长</strong>：无</p>\n <p><strong>特殊能力</strong>：</p>\n <ul>\n <li><strong>护甲+2</strong>：厚实表皮</li>\n <li><strong>水栖</strong>：移速6</li>\n <li><strong>噬咬</strong>：力量+d6。</li>\n <li><strong>微光视觉</strong>：短吻鳄/鳄鱼忽略昏暗与黑暗的照明减值。</li>\n <li><strong>翻滚</strong>：短吻鳄和鳄鱼会用虎钳般的下颚咬住猎物并与之翻滚，如果这些大爬虫中的一员攻击时获得优良，其奖励伤害由d6变成d10。</li>\n <li><strong>体型2</strong>：鳄鱼通常能有6到7英尺长，皮糙肉厚，重量差不多能到500磅左右。</li>\n </ul>\n </div>"
         },
         "Animal Skeleton": {
@@ -937,11 +937,11 @@
             "description": "<div class=\"swpf-core\">\n<p>温迪戈的外表很像一名因为饥饿而濒临死亡的高大类人生物，完全没有毛发的它肉体除了发黑的四肢之外都是如死般惨白，手指末端长着长长的钩爪，嘴里满是针状的獠牙。由于温迪戈不断地啃食着自己的嘴唇，因而其大嘴周边都是鲜血淋漓的破烂血肉，长长的舌头上长满了颜色如同新近瘀伤一般的疮疹，发光的黄色眼睛漂浮在满是血水的大眼眶当中。\n</p>\n<p><strong>类别</strong>：邪恶异界生物(温迪戈)</p>\n<p><strong>属性</strong>：灵巧d12，聪慧d8，心魂d8，力量d12+3，活力d10</p>\n<p><strong>技能</strong>：运动d10，通用知识d8，格斗d10，威吓d8，察觉d8，神秘学d10，交涉d8，潜行d10</p>\n<p><strong>移速</strong>：7；<strong>格挡</strong>：7；<strong>坚韧</strong>：14(5)</p>\n<p><strong>专长</strong>：奥法抗性</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+5</strong>：温迪戈外皮。</li>\n<li><strong>噬咬/爪抓</strong>：力量+d6(寒冷)。</li>\n<li><strong>盲感</strong>：温迪戈忽略<em>隐形</em>，<em>幻象</em>以及所有照明减值。</li>\n<li><strong>控制天候</strong>：温迪戈能专注10分钟来召唤半径两英里的暴风雪，这会让整个区域处于昏暗照明以及极度寒冷当中。</li>\n<li>\n<strong>侵扰梦境</strong>：每夜一次，温迪戈能进入到任一知性目标的梦境当中以造成强烈的噩梦。对象必须成功通过一次-4的心魂投骰，否则就会遭受疲乏。这类疲乏只有在对象完成一次免受噩梦折磨的整夜休息之后才能移除。\n</li>\n<li><strong>环境弱点</strong>：寒铁，火焰。</li>\n<li><strong>快速再生</strong>：温迪戈每轮都能尝试进行一次自然治疗投骰，即使陷入无力化也是如此，除非这些损伤是由火造成，或是之后遭到火把灼烧。</li>\n<li><strong>无畏</strong>：温迪戈免疫恐惧与威吓。</li>\n<li><strong>飞行</strong>：移速12，飞行时能以一个限定自由行动化作无形。</li>\n<li><strong>惧怖嚎叫</strong>：每天三次，温迪戈能发出至多一英里远都能听见的凄厉嚎叫，听到的生物必须进行一次-2的恐惧检定。</li>\n<li><strong>免疫</strong>：寒冷。</li>\n<li><strong>体型2</strong>：温迪戈直立时约有10英尺高，体重达1000磅。</li>\n<li>\n<strong>温迪戈魔怔</strong>：任何因噬咬攻击而遭受损伤，或是没能抵抗侵扰梦境的对象必须成功通过一次心魂投骰，否则就会遭受此类诅咒。对象每天都会遭受能量流失(心魂)，成功通过一次心魂投骰可以暂缓此效果。若是心魂降低到d4以下，则对象将会寻找并吞食某一族裔相同的个体。在完成这项发指恶行之后，受诅者会开始转化成温迪戈，其会突然开始奔跑，并在1d4轮内冲向空中，速度快得双腿都烧焦成了参差不齐的残肢。受害者会一边飞越天穹一边转变成温迪戈，这会花费2d6分钟。\n</li>\n</ul>\n</div>"
         },
         "Wererat (Hybrid Form)": {
-            "name": "鼠人(混种形态) WERERAT (HYBRID FORM)",
+            "name": "鼠人(混种形态)",
             "description": "<div class=\"swpf-core\"><p>\nWhether naturally born or cursed with lyncanthropy, wererats areshapechangers feared by anyone with common sense. They tend to keep theirabilities a secret known only to others in their hidden guilds.\n</p>\n<p>\nNatural wererats usually look like short and wiry humans—often with anervous disposition and darting rodent-like eyes—when in human form. Thosecursed with this existence appear exactly as they did before they becameinfected. Both can take a hybrid form as well as that of a giant rat.\n</p></div>"
         },
         "Werewolf (Hybrid Form)": {
-            "name": "狼人(混种形态) WEREWOLF (HYBRID FORM)",
+            "name": "狼人(混种形态)",
             "description": "<div class=\"swpf-core\"><p>\nIn their humanoid form, natural werewolves look like normal people, thoughsome tend to look a bit feral and have wild hair. Eyebrows that growtogether, index fingers longer than the middle fingers, and strangebirthmarks on the palm of the hand are all commonly accepted indications ofa werewolf.\n</p>\n<p>\nOf all the lycanthropes, the werewolf is the most widespread and the mostfeared. Stories of werewolves haunting lonely forest roads, prowling mistymoors on the outskirts of rural societies, or dwelling in the shadows of thelargest cities are quite common.\n</p></div>"
         },
         "White Dragon": {

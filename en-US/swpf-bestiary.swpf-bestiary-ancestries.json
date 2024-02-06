@@ -1,0 +1,29 @@
+{
+	"label": "Bestiary Ancestries",
+	"entries": {
+		"Centaur Ancestry": {
+			"name": "Centaur Ancestry",
+			"description": "<article class=\"swpf\"><p>Darkvision, Size 2, Kick (Str+d4).</p></article>"
+		},
+		"Elf Ancestry": {
+			"name": "Elf Ancestry",
+			"description": "<article class=\"swpf\"><p>Agile, Elven Magic, Intelligent, Low Light Vision, Keen Senses, Slender.</p></article>"
+		},
+		"Giant Ancestry": {
+			"name": "Giant Ancestry",
+			"description": "<article class=\"swpf\"><p>Low Light Vision, Reach 1, Swat</p></article>"
+		},
+		"Goblin Ancestry": {
+			"name": "Goblin Ancestry",
+			"description": "<article class=\"swpf\"><p>Darkvision, Size -1, Greedy Hindrance.</p></article>"
+		},
+		"Ogre Ancestry": {
+			"name": "Ogre Ancestry",
+			"description": "<article class=\"swpf\"><p>Menacing, Night Vision, are Resilient, Size 2.</p></article>"
+		},
+		"Orc Ancestry": {
+			"name": "Orc Ancestry",
+			"description": "<article class=\"swpf\"><p>Darkvision, Size 1, Weakness (Light).</p></article>"
+		}
+	}
+}

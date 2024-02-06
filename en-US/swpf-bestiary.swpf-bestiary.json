@@ -149,6 +149,14 @@
 			"name": "Bugbear",
 			"description": "<div class=\"swpf-core\">\n<p>Larger and stronger cousins of goblins, these evil, @Compendium[swpf-core-rules.swpf-hindrances.Greedy]{greedy} humanoidsresemble the animals for which they are named. The resemblance issuperficial; bugbears are sapient hunters who prey on weaker humanoids.</p>\n<p>Bugbears congregate in tribal bands, typically making lairs in the caves ofmountainous regions. Often, they ally themselves with other goblinoids,usually demanding a leadership role or simply bullying weaker cronies.</p>\n</div>"
 		},
+		"Bugbear Executioner": {
+			"name": "Bugbear Executioner",
+			"description": "<div class=\"swpf-core\">\n<p>Larger and stronger cousins of goblins, these evil, @Compendium[swpf-core-rules.swpf-hindrances.Greedy]{greedy} humanoidsresemble the animals for which they are named. The resemblance issuperficial; bugbears are sapient hunters who prey on weaker humanoids.</p>\n<p>Bugbears congregate in tribal bands, typically making lairs in the caves ofmountainous regions. Often, they ally themselves with other goblinoids,usually demanding a leadership role or simply bullying weaker cronies.</p>\n</div>"
+		},
+		"Bugbear Raider": {
+			"name": "Bugbear Raider",
+			"description": "<div class=\"swpf-core\">\n<p>Larger and stronger cousins of goblins, these evil, @Compendium[swpf-core-rules.swpf-hindrances.Greedy]{greedy} humanoidsresemble the animals for which they are named. The resemblance issuperficial; bugbears are sapient hunters who prey on weaker humanoids.</p>\n<p>Bugbears congregate in tribal bands, typically making lairs in the caves ofmountainous regions. Often, they ally themselves with other goblinoids,usually demanding a leadership role or simply bullying weaker cronies.</p>\n</div>"
+		},
 		"Bunyip": {
 			"name": "Bunyip",
 			"description": "<div class=\"swpf-core\"><p>\n This dangerous coastal predator looks something like a seal with fins and amouth full of several rows of shark-like teeth. This territorial hunterprefers to lurk near shorelines and it thrives in either fresh or saltwater.\n</p></div>"
@@ -305,6 +313,18 @@
 			"name": "Ettin",
 			"description": "<div class=\"swpf-core\"><p>\n These two-headed creatures are kin to giants. They have orc-like tusks andgrimy gray skin. Ettins prefer solitude, living in secluded hilly regionswith cold climes. They lair in caves and hollows throughout Golarion, butmost commonly in Varisia. Adult ettins stand upwards of 15 feet tall andweigh up to 5,000 pounds.\n</p>\n<p>\n Although not the brightest minds in the realm, ettins are skillful hunterswho prefer to ambush their prey. Their two heads give them prowess inFighting with two weapons—they usually wield a flail in each hand. They areknown to associate with trolls and harpies, forming temporary alliances.Ettins sometimes have orc or goblin followers, as well as dire bears aspets.\n</p></div>"
 		},
+		"Ettin Hunter": {
+			"name": "Ettin Hunter",
+			"description": "<div class=\"swpf-core\"><p>\n These two-headed creatures are kin to giants. They have orc-like tusks andgrimy gray skin. Ettins prefer solitude, living in secluded hilly regionswith cold climes. They lair in caves and hollows throughout Golarion, butmost commonly in Varisia. Adult ettins stand upwards of 15 feet tall andweigh up to 5,000 pounds.\n</p>\n<p>\n Although not the brightest minds in the realm, ettins are skillful hunterswho prefer to ambush their prey. Their two heads give them prowess inFighting with two weapons—they usually wield a flail in each hand. They areknown to associate with trolls and harpies, forming temporary alliances.Ettins sometimes have orc or goblin followers, as well as dire bears aspets.\n</p></div>"
+		},
+		"Ettin Reaper": {
+			"name": "Ettin Reaper",
+			"description": "<div class=\"swpf-core\"><p>\n These two-headed creatures are kin to giants. They have orc-like tusks andgrimy gray skin. Ettins prefer solitude, living in secluded hilly regionswith cold climes. They lair in caves and hollows throughout Golarion, butmost commonly in Varisia. Adult ettins stand upwards of 15 feet tall andweigh up to 5,000 pounds.\n</p>\n<p>\n Although not the brightest minds in the realm, ettins are skillful hunterswho prefer to ambush their prey. Their two heads give them prowess inFighting with two weapons—they usually wield a flail in each hand. They areknown to associate with trolls and harpies, forming temporary alliances.Ettins sometimes have orc or goblin followers, as well as dire bears aspets.\n</p></div>"
+		},
+		"Feral Morlock": {
+			"name": "Feral Morlock",
+			"description": "<div class=\"swpf-core\"><p>\n The tragic morlocks are descendants of the ancient Azlanti who escaped thedeath of their empire by fleeing into the Darklands. Morlocks still resembletheir human forebears despite their transformation over generationsunderground. They have bulging eyes and wide mouths full of flesh-rendingteeth. The tallest reach five feet in height, although they appear shorterbecause of their tendency to run on all fours.\n</p>\n<p>\n These subterranean tribal creatures are excellent climbers and leapers.Hunting skills are most important in morlock communities. They know how togain high ground, leaping from crags onto their prey for fast and effectiveattacks. Used to living and Fighting in cramped underground spaces, morlocksfight well in groups. They see clearly in darkness, while bright light istheir bane.\n</p></div>"
+		},
 		"Fire Elemental": {
 			"name": "Fire Elemental",
 			"description": "<div class=\"swpf-core\"><p>\n This creature looks like a living, mobile bonfire, tongues of flame reachingout in search of things to burn.\n</p></div>"
@@ -411,10 +431,18 @@
 		},
 		"Glabrezu": {
 			"name": "Glabrezu",
-			"description": "<div class=\"swpf-core\">\n<p>Ferocious and bestial in form, the glabrezu is a master of trickery andlies. These treacherous demons form from the souls of the treasonous, thefalse, and the subversive. That is, souls of mortals who, in life, borefalse witness or used treachery and deceit to ruin the lives of others.</p>\n<p>With its ability to cloak its true form in pleasant illusions, the glabrezuuses its magic to grant wishes to mortal humanoids as a method of rewardingthose who succumb to its guile and deceit. A <em> @Compendium[swpf-core-rules.swpf-powers.Wish]{Wish} </em> granted by a glabrezu always fulfills the wisher&rsquo;s need in themost destructive way possible&mdash;although such methods might not be immediatelyapparent.</p>\n</div>"
+			"description": "<div class=\"swpf-core\">\n<p>Ferocious and bestial in form, the glabrezu is a master of trickery andlies. These treacherous demons form from the souls of the treasonous, thefalse, and the subversive. That is, souls of mortals who, in life, borefalse witness or used treachery and deceit to ruin the lives of others.</p>\n<p>With its ability to cloak its true form in pleasant illusions, the glabrezuuses its magic to grant wishes to mortal humanoids as a method of rewardingthose who succumb to its guile and deceit. A <em> @Compendium[swpf-core-rules.swpf-powers.Wish]{Wish} </em> granted by a glabrezu always fulfills the wisher&rsquo;s need in themost destructive way possible&mdash;although such methods might not be immediately apparent.</p>\n</div>"
 		},
 		"Gnoll": {
 			"name": "Gnoll",
+			"description": "<div class=\"swpf-core\"><p>\n Sometimes called hyenafolk, gnolls stand roughly a head taller than humans.These vicious creatures have double-jointed legs of hyenas, with torsos andprehensile hands of humans. Their normal upright posture is humanoid thoughthey drop to all fours when it suits them. Their heads and facial features—with short muzzles, furry ears and powerful jaws— are distinctly hyena-like.\n</p>\n<p>\n Organizing themselves into packs, gnolls survive through raiding, hunting,and scavenging. They prefer warm climes, particularly the plains and desertsof Garund and Casmaron. Gnolls rarely form settlements or make attempts toalter their environments. They stay on the move, hunting, raiding, andsometimes taking humanoid slaves. It’s common for gnolls to keep hyenas aspets.\n</p></div>"
+		},
+		"Gnoll Lieutenant": {
+			"name": "Gnoll Lieutenant",
+			"description": "<div class=\"swpf-core\"><p>\n Sometimes called hyenafolk, gnolls stand roughly a head taller than humans.These vicious creatures have double-jointed legs of hyenas, with torsos andprehensile hands of humans. Their normal upright posture is humanoid thoughthey drop to all fours when it suits them. Their heads and facial features—with short muzzles, furry ears and powerful jaws— are distinctly hyena-like.\n</p>\n<p>\n Organizing themselves into packs, gnolls survive through raiding, hunting,and scavenging. They prefer warm climes, particularly the plains and desertsof Garund and Casmaron. Gnolls rarely form settlements or make attempts toalter their environments. They stay on the move, hunting, raiding, andsometimes taking humanoid slaves. It’s common for gnolls to keep hyenas aspets.\n</p></div>"
+		},
+		"Gnoll Sergeant": {
+			"name": "Gnoll Sergeant",
 			"description": "<div class=\"swpf-core\"><p>\n Sometimes called hyenafolk, gnolls stand roughly a head taller than humans.These vicious creatures have double-jointed legs of hyenas, with torsos andprehensile hands of humans. Their normal upright posture is humanoid thoughthey drop to all fours when it suits them. Their heads and facial features—with short muzzles, furry ears and powerful jaws— are distinctly hyena-like.\n</p>\n<p>\n Organizing themselves into packs, gnolls survive through raiding, hunting,and scavenging. They prefer warm climes, particularly the plains and desertsof Garund and Casmaron. Gnolls rarely form settlements or make attempts toalter their environments. They stay on the move, hunting, raiding, andsometimes taking humanoid slaves. It’s common for gnolls to keep hyenas aspets.\n</p></div>"
 		},
 		"Goblin": {
@@ -501,6 +529,14 @@
 			"name": "Hobgoblin",
 			"description": "<div class=\"swpf-core\"><p>\n Hobgoblins are larger cousins of goblins, similar in size to humans. Unliketheir smaller kin, these creatures value societal structure andorganization, with strict behavioral mores, traditional rites of passage,and tribal laws.\n</p>\n<p>\n Most hobgoblins live in military-style communities in the wilds, favoringhilly regions, especially in Avistan, Andoran, and Tian Xia. Soldiers havehigh status in all Hobgoblin strongholds, as warfare is their primary meansof Survival. These creatures raid and pillage nearby settlements, oftentaking slaves along with their plunder.\n</p></div>"
 		},
+		"Hobgoblin Brute": {
+			"name": "Hobgoblin Brute",
+			"description": "<div class=\"swpf-core\"><p>\n Hobgoblins are larger cousins of goblins, similar in size to humans. Unliketheir smaller kin, these creatures value societal structure andorganization, with strict behavioral mores, traditional rites of passage,and tribal laws.\n</p>\n<p>\n Most hobgoblins live in military-style communities in the wilds, favoringhilly regions, especially in Avistan, Andoran, and Tian Xia. Soldiers havehigh status in all Hobgoblin strongholds, as warfare is their primary meansof Survival. These creatures raid and pillage nearby settlements, oftentaking slaves along with their plunder.\n</p></div>"
+		},
+		"Hobgoblin Mauler": {
+			"name": "Hobgoblin Mauler",
+			"description": "<div class=\"swpf-core\"><p>\n Hobgoblins are larger cousins of goblins, similar in size to humans. Unliketheir smaller kin, these creatures value societal structure andorganization, with strict behavioral mores, traditional rites of passage,and tribal laws.\n</p>\n<p>\n Most hobgoblins live in military-style communities in the wilds, favoringhilly regions, especially in Avistan, Andoran, and Tian Xia. Soldiers havehigh status in all Hobgoblin strongholds, as warfare is their primary meansof Survival. These creatures raid and pillage nearby settlements, oftentaking slaves along with their plunder.\n</p></div>"
+		},
 		"Horse, Heavy": {
 			"name": "Horse, Heavy",
 			"description": "<div class=\"swpf-core\"><p>\n These beasts are meant for labor or carrying heavy riders. The smaller\"pony\" version is Size 2, Strength d10, and Vigor d8.\n</p>\n<p>\n If trained for combat, increase Fighting to d6.\n</p></div>"
@@ -527,7 +563,7 @@
 		},
 		"Ice Devil": {
 			"name": "Ice Devil",
-			"description": "<div class=\"swpf-core\"><p>\n Ice devils are monstrous humanoid insects, and the strategic geniuses ofHell’s armies. They prefer to let their minions engage in melee whilesupporting them with their powers and other abilities, but are dangerousfoes in combat in their own right.\n</p></div>"
+			"description": "<div class=\"swpf-core\"><p>\n Ice devils are monstrous humanoid insects, and the strategic geniuses of Hell’s armies. They prefer to let their minions engage in melee while supporting them with their powers and other abilities, but are dangerousfoes in combat in their own right.\n</p></div>"
 		},
 		"Ice Golem": {
 			"name": "Ice Golem",
@@ -549,8 +585,24 @@
 			"name": "Kobold",
 			"description": "<div class=\"swpf-core\"><p>\n Small reptilian humanoids, kobolds have short snouts and long tails. Knownas craven creatures, they are sensitive to light. They typically reside inunderground caverns or in the sewers of great cities, coming to the surfaceonly in the dark of night to steal livestock or precious minerals.\n</p>\n<p>\n Kobolds dwell in various regions of Golarion, most commonly in Andoran butalso in other nations from Cheliax to Absalom. Their underground tunnels andcave systems are known to contain many traps designed to discourageintruders or capture small prey.\n</p></div>"
 		},
+		"Kobold Raider": {
+			"name": "Kobold Raider",
+			"description": "<div class=\"swpf-core\"><p>\n Small reptilian humanoids, kobolds have short snouts and long tails. Knownas craven creatures, they are sensitive to light. They typically reside inunderground caverns or in the sewers of great cities, coming to the surfaceonly in the dark of night to steal livestock or precious minerals.\n</p>\n<p>\n Kobolds dwell in various regions of Golarion, most commonly in Andoran butalso in other nations from Cheliax to Absalom. Their underground tunnels andcave systems are known to contain many traps designed to discourageintruders or capture small prey.\n</p></div>"
+		},
+		"Kobold Shaman": {
+			"name": "Kobold Shaman",
+			"description": "<div class=\"swpf-core\"><p>\n Small reptilian humanoids, kobolds have short snouts and long tails. Knownas craven creatures, they are sensitive to light. They typically reside inunderground caverns or in the sewers of great cities, coming to the surfaceonly in the dark of night to steal livestock or precious minerals.\n</p>\n<p>\n Kobolds dwell in various regions of Golarion, most commonly in Andoran butalso in other nations from Cheliax to Absalom. Their underground tunnels andcave systems are known to contain many traps designed to discourageintruders or capture small prey.\n</p></div>"
+		},
 		"Kyton": {
 			"name": "Kyton",
+			"description": "<div class=\"swpf-core\"><p>\n Wickedly-barbed chains adorn this lean biped, and gaps in the bindingsreveal deathly pale flesh etched with jagged scars.\n</p>\n<p>\n Called chain devils by the uninitiated, the sadomasochistic kytons are nottrue devils. Although some are known to live in Hell, kytons exist outsideof the hierarchies established by Asmodeus and his archdevils and can oftenbe found on other planes, particularly on the Plane of Shadow.\n</p></div>"
+		},
+		"Kyton Chain Master": {
+			"name": "Kyton Chain Master",
+			"description": "<div class=\"swpf-core\"><p>\n Wickedly-barbed chains adorn this lean biped, and gaps in the bindingsreveal deathly pale flesh etched with jagged scars.\n</p>\n<p>\n Called chain devils by the uninitiated, the sadomasochistic kytons are nottrue devils. Although some are known to live in Hell, kytons exist outsideof the hierarchies established by Asmodeus and his archdevils and can oftenbe found on other planes, particularly on the Plane of Shadow.\n</p></div>"
+		},
+		"Kyton Lasher": {
+			"name": "Kyton Lasher",
 			"description": "<div class=\"swpf-core\"><p>\n Wickedly-barbed chains adorn this lean biped, and gaps in the bindingsreveal deathly pale flesh etched with jagged scars.\n</p>\n<p>\n Called chain devils by the uninitiated, the sadomasochistic kytons are nottrue devils. Although some are known to live in Hell, kytons exist outsideof the hierarchies established by Asmodeus and his archdevils and can oftenbe found on other planes, particularly on the Plane of Shadow.\n</p></div>"
 		},
 		"Lamia": {
@@ -605,6 +657,10 @@
 			"name": "Morlock",
 			"description": "<div class=\"swpf-core\"><p>\n The tragic morlocks are descendants of the ancient Azlanti who escaped thedeath of their empire by fleeing into the Darklands. Morlocks still resembletheir human forebears despite their transformation over generationsunderground. They have bulging eyes and wide mouths full of flesh-rendingteeth. The tallest reach five feet in height, although they appear shorterbecause of their tendency to run on all fours.\n</p>\n<p>\n These subterranean tribal creatures are excellent climbers and leapers.Hunting skills are most important in morlock communities. They know how togain high ground, leaping from crags onto their prey for fast and effectiveattacks. Used to living and Fighting in cramped underground spaces, morlocksfight well in groups. They see clearly in darkness, while bright light istheir bane.\n</p></div>"
 		},
+		"Morlock Alpha": {
+			"name": "Morlock Alpha",
+			"description": "<div class=\"swpf-core\"><p>\n The tragic morlocks are descendants of the ancient Azlanti who escaped thedeath of their empire by fleeing into the Darklands. Morlocks still resembletheir human forebears despite their transformation over generationsunderground. They have bulging eyes and wide mouths full of flesh-rendingteeth. The tallest reach five feet in height, although they appear shorterbecause of their tendency to run on all fours.\n</p>\n<p>\n These subterranean tribal creatures are excellent climbers and leapers.Hunting skills are most important in morlock communities. They know how togain high ground, leaping from crags onto their prey for fast and effectiveattacks. Used to living and Fighting in cramped underground spaces, morlocksfight well in groups. They see clearly in darkness, while bright light istheir bane.\n</p></div>"
+		},
 		"Mule": {
 			"name": "Mule",
 			"description": "<div class=\"swpf-core\"><p>\n Mules are a cross between a donkey and a horse, and are usually used to haulheavy goods or pull wagons. Like any good pet, the GM should give the mule alittle personality. The expression “stubborn as a mule” certainly comes tomind.\n</p></div>"
@@ -641,9 +697,17 @@
 			"name": "Ogre Mage, Oni",
 			"description": "<div class=\"swpf-core\">\n<p>Although these evil outsiders usually manifest in the form of an ogre, theyare truly fiendish spirits with powerful magical abilities. They often takecommand of ogre tribes, pressing the brutes into servitude. They are alsoknown to subjugate other humanoid settlements, ruling without mercy anddemanding all manners of tribute.</p>\n<p>Whatever the reason for leaving the lower planes, an ogre mage indulges itsdestructive lusts while on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane}. They gravitate to Inner Searegion, wreaking havoc from Tian Xia to Cheliax. They usually have ornatearmor and weapons, forged at the expense of whatever society they havecommandeered.</p>\n</div>"
 		},
+		"Ogre Raider": {
+			"name": "Ogre Raider",
+			"description": "<div class=\"swpf-core\"><p>\n Ogres are foul creatures known for their cruelty and viciousness. They havelong arms, muscular torsos, and stumpy legs that seem far too short fortheir tall frames. Their small eyes and large toothsome mouths give them anodious countenance.\n</p>\n<p>\n These tribal giantkind live in caves throughout Golarion’s mountain ranges.Ogres stand upwards of 10 feet tall and weigh roughly 650 pounds. They aremore common in untamed areas, especially in the wilds of Varisia andAvistan. Ogre tribes value strength, fertility, and hunting prowess aboveall else. Many ogre societies worship Lamashtu.\n</p></div>"
+		},
 		"Ogre Spider": {
 			"name": "Ogre Spider",
 			"description": "<div class=\"swpf-core\"><p>\n Often as large as an elephant, an ogre spider has the thorax and legs of anarthropod, and a vaguely humanoid face. The visual effect is disturbing, tosay the least.\n</p></div>"
+		},
+		"Ogre Torturer": {
+			"name": "Ogre Torturer",
+			"description": "<div class=\"swpf-core\"><p>\n Ogres are foul creatures known for their cruelty and viciousness. They havelong arms, muscular torsos, and stumpy legs that seem far too short fortheir tall frames. Their small eyes and large toothsome mouths give them anodious countenance.\n</p>\n<p>\n These tribal giantkind live in caves throughout Golarion’s mountain ranges.Ogres stand upwards of 10 feet tall and weigh roughly 650 pounds. They aremore common in untamed areas, especially in the wilds of Varisia andAvistan. Ogre tribes value strength, fertility, and hunting prowess aboveall else. Many ogre societies worship Lamashtu.\n</p></div>"
 		},
 		"Orc": {
 			"name": "Orc",
@@ -693,8 +757,8 @@
 			"name": "Quasit",
 			"description": "<div class=\"swpf-core\">\n<p>These tiny, winged demons appear on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} as a result of anevil spellcaster&rsquo;s attempt to summon a familiar. Usually, they serve amaster, although free quasits are known to exist.</p>\n<p>Despite their size, these versatile creatures pose real threats to almostany opponent. Quasits have poisonous claws, magical abilities, and otherinnate nastiness.</p>\n</div>"
 		},
-		"rakshasa": {
-			"name": "rakshasa",
+		"Rakshasa": {
+			"name": "Rakshasa",
 			"description": "<div class=\"swpf-core\">\n<p>Rakshasas are evil spirits cloaked in the guise of humanoid creatures, walking unseen among their intended prey. While in the shape of those it seeks to defile, rakshasas gorge themselves in hideous acts. Were they human, these acts of cannibalism, blasphemy, and worse would mark them as criminals condemned to the cruelest of hells.</p>\n<p>When not in the shape of their prey, rakshasas appear as bipeds with the head of an animal. They generally possess the heads of great cats such as tigers or lions.</p>\n<p>Although rakshasas are outsiders, they are at home on the Material @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane}. They usually hunt alone, but sometimes extended families work together to take down a specific threat or ruin a mortal civilization from the inside out over the course of many generations.</p>\n</div>"
 		},
 		"Rat, Dire": {
@@ -761,8 +825,8 @@
 			"name": "Shadow",
 			"description": "<div class=\"swpf-core\"><p>\n These incorporeal creatures look like a shadow of a humanoid form. Forunknown reasons, they haunt ruins they inhabited in life. They have no goalsor discernible motivations other than to sap life from the living.\n</p></div>"
 		},
-		"Shambling mound": {
-			"name": "Shambling mound",
+		"Shambling Mound": {
+			"name": "Shambling Mound",
 			"description": "<div class=\"swpf-core\"><p>\n These solitary creatures wander swamps and forests in search of prey. Whilethey can and do consume rotting vegetation to survive, the omnivoroushunters require living tissue in order to reproduce. They relish the brainsof humanoids, especially elves.\n</p>\n<p>\n Shamblers, as they are often called, appear as a mass of tangled vines anddripping slime. They reek of rot, detritus, and freshly turned earth.Despite their appearance, they are intelligent beings—and surprisingly goodswimmers.\n</p></div>"
 		},
 		"Shark": {
@@ -881,6 +945,14 @@
 			"name": "Troll",
 			"description": "<div class=\"swpf-core\"><p>\n Trolls are large humanoids with greenish hide, sharp claws, and bestialfaces. Their stooped posture belies their size—14 feet tall and 1,000pounds—but doesn’t diminish their formidable presence.\n</p>\n<p>\n Trolls regenerate quickly, unless the damage inflicted is fire oracid-based. They deliver powerful blows with their claws, though they arealso capable of Fighting with weapons.\n</p>\n<p>\n The creatures dwell in the wild areas of the Inner Sea region, most commonlyin northern Avistan. In most troll societies, the males are solitary huntersand wanders, while the females and children live in extended family groups.\n</p></div>"
 		},
+		"Troll, Brute": {
+			"name": "Troll, Brute",
+			"description": "<div class=\"swpf-core\"><p>\n Trolls are large humanoids with greenish hide, sharp claws, and bestialfaces. Their stooped posture belies their size—14 feet tall and 1,000pounds—but doesn’t diminish their formidable presence.\n</p>\n<p>\n Trolls regenerate quickly, unless the damage inflicted is fire oracid-based. They deliver powerful blows with their claws, though they arealso capable of Fighting with weapons.\n</p>\n<p>\n The creatures dwell in the wild areas of the Inner Sea region, most commonlyin northern Avistan. In most troll societies, the males are solitary huntersand wanders, while the females and children live in extended family groups.\n</p></div>"
+		},
+		"Troll, Feral": {
+			"name": "Troll, Feral",
+			"description": "<div class=\"swpf-core\"><p>\n Trolls are large humanoids with greenish hide, sharp claws, and bestialfaces. Their stooped posture belies their size—14 feet tall and 1,000pounds—but doesn’t diminish their formidable presence.\n</p>\n<p>\n Trolls regenerate quickly, unless the damage inflicted is fire oracid-based. They deliver powerful blows with their claws, though they arealso capable of Fighting with weapons.\n</p>\n<p>\n The creatures dwell in the wild areas of the Inner Sea region, most commonlyin northern Avistan. In most troll societies, the males are solitary huntersand wanders, while the females and children live in extended family groups.\n</p></div>"
+		},
 		"Trumpet Archon": {
 			"name": "Trumpet Archon",
 			"description": "<div class=\"swpf-core\"><p>\n Lithe and beautiful, with skin the color of marble, this heavenly archonhovers upon powerful white wings. It radiates a sense of serenity and goodtidings.\n</p>\n<p>\n These messengers of good deities and mighty celestials serve as the vanguardof divine armies. Trumpet archons often act as intermediaries between thegods and mortals. They speak with clear, musical voices.\n</p>\n<p>\n All trumpet archons carry a gleaming magical horn. They use their trumpetsto create wondrous music, paralyze enemies, and call other archons to thedefense of just causes.\n</p></div>"
@@ -891,7 +963,7 @@
 		},
 		"Vampire": {
 			"name": "Vampire",
-			"description": "<div class=\"swpf-core\">\n<p>Vampires are intelligent undead creatures. They feeds off the blood of theliving in order to prolong their own unnatural existence.</p>\n<p>Vampires came to Golarion from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} of Shadow long ago. Exactly howthey arrived remains lost to history and is a matter of debate in scholarlycircles. Over time, these &ldquo;true vampires&rdquo; have spawned many more.</p>\n<p>Amongst their own kind, true vampires use the slang term full-blood todistinguish themselves from those they consider lesser but associatedbeings, such as vampire spawn.</p>\n</div>"
+			"description": "<div class=\"swpf-core\">\n<p>Vampires are intelligent undead creatures. They feeds off the blood of theliving in order to prolong their own unnatural existence.</p>\n<p>Vampires came to Golarion from the @UUID[Compendium.swpf-core-rules.swpf-rules.swpfcore04theadv.JournalEntryPage.04theplanes00000]{Plane} of Shadow long ago. Exactly howthey arrived remains lost to history and is a matter of debate in scholarlycircles. Over time, these &ldquo;true vampires&rdquo; have spawned many more.</p>\n<p>Amongst their own kind, true vampires use the slang term full-blood todistinguish themselves from those they consider lesser but associatedbeings, such as vampire spawn.</p>\n<p>Languages: Abyssal, Common, Draconic.</p>\n</div>"
 		},
 		"Vargouille": {
 			"name": "Vargouille",
