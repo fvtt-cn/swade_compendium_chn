@@ -98,11 +98,30 @@
         },
         "Kyra": {
             "name": "凯拉",
-            "description": "<div class=\"swpf-core\">对莎伦莱的誓愿指引着凯拉的道路，这位牧师每一天都在反复践行自身的誓言：打击邪恶，治病教人，保护无辜。凯拉对于自身的信仰，神力以及精湛的弯刀的技艺而深感自豪——所有这一切都是为了侍奉她的女神。</div>"
+            "description": "<div class=\"swpf-core\">对莎伦莱的誓愿指引着凯拉的道路，这位牧师每一天都在反复践行自身的誓言：打击邪恶，治病教人，保护无辜。凯拉对于自身的信仰，神力以及精湛的弯刀的技艺而深感自豪——所有这一切都是为了侍奉她的女神。</div>",
+            "items": {
+                "Cleric's Vestments": {
+                    "name": "牧师祭服"
+                }
+            }
         },
         "Lem": {
             "name": "列姆",
-            "description": "<div class=\"swpf-core\">尽管在童年时期遭到了切利亚斯的奴役，乐观无比的列姆仍然有着讨人喜欢的幽默感。这名半身人总是哼唱着习得或是自创的旋律，意气用事的他在路见不平时会毫不犹豫地拔刀相助。</div>"
+            "description": "<div class=\"swpf-core\">尽管在童年时期遭到了切利亚斯的奴役，乐观无比的列姆仍然有着讨人喜欢的幽默感。这名半身人总是哼唱着习得或是自创的旋律，意气用事的他在路见不平时会毫不犹豫地拔刀相助。</div>",
+            "items": {
+                "Soft Leather Jacket": {
+                    "name": "软皮短衫"
+                },
+                "Soft Leather Leggings": {
+                    "name": "软皮护腿"
+                },
+                "Flute": {
+                    "name": "长笛"
+                },
+                "Entertainer's Outfit": {
+                    "name": "艺人服饰"
+                }
+            }
         },
         "Lini": {
             "name": "李妮",
@@ -182,7 +201,19 @@
         },
         "Summon Ally: Bodyguard": {
             "name": "召唤盟友: 保镖",
-            "description": "<div class=\"swpf-core\">\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d6，格斗d6，威吓d6，察觉d4，射击d4，潜行d4</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：7(2)</p>\n<p><strong>专长</strong>：先发制人</p>\n<p><strong>装备</strong>：近战攻击(力量+d6)。</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：硬化表皮。</li>\n<li><strong>构装体</strong>：见扈从。</li>\n<li><strong>无畏</strong>：免疫恐惧和威吓。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d6，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d6，格斗d6，威吓d6，察觉d4，射击d4，潜行d4</p>\n<p><strong>移速</strong>：6；<strong>格挡</strong>：5；<strong>坚韧</strong>：7(2)</p>\n<p><strong>专长</strong>：先发制人</p>\n<p><strong>装备</strong>：近战攻击(力量+d6)。</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>护甲+2</strong>：硬化表皮。</li>\n<li><strong>构装体</strong>：见扈从。</li>\n<li><strong>无畏</strong>：免疫恐惧和威吓。</li>\n</ul>\n</div>",
+            "items": {
+                "Armor +2": {
+                    "name": "护甲+2",
+                    "description": "<div class=\"swpf-core\">\n<p>硬化表皮</p></div>"
+                },
+                "Melee attack": {
+                    "name": "近战攻击",
+                    "actions": {
+                        "trait": "格斗"
+                    }
+                }
+            }
         },
         "Summon Ally: Sentinel": {
             "name": "召唤盟友: 禁卫",
@@ -218,17 +249,52 @@
         },
         "Zombie, Human": {
             "name": "人类行尸",
-            "description": "<div class=\"swpf-core\">\n<p>以下数据针对的是普通人大小的类人生物行尸。</p>\n<p><strong>类别</strong>：邪恶不死生物(行尸)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d4，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d4，格斗d6，威吓d6，察觉d4，射击d6</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：5；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d4。</li>\n<li><strong>无畏</strong>：行尸免疫恐惧与威吓。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。</li>\n<li><strong>弱点(头部)</strong>：对行尸头部的定点打击如常造成+4伤害。</li>\n</ul>\n</div>"
+            "description": "<div class=\"swpf-core\">\n<p>以下数据针对的是普通人大小的类人生物行尸。</p>\n<p><strong>类别</strong>：邪恶不死生物(行尸)</p>\n<p><strong>属性</strong>：灵巧d6，聪慧d4，心魂d4，力量d6，活力d6</p>\n<p><strong>技能</strong>：运动d4，格斗d6，威吓d6，察觉d4，射击d6</p>\n<p><strong>移速</strong>：4；<strong>格挡</strong>：5；<strong>坚韧</strong>：7</p>\n<p><strong>专长</strong>：无</p>\n<p><strong>特殊能力</strong>：</p>\n<ul>\n<li><strong>噬咬/爪抓</strong>：力量+d4。</li>\n<li><strong>无畏</strong>：行尸免疫恐惧与威吓。</li>\n<li><strong>不死生物</strong>：坚韧+2；从动摇中恢复+2；不会因为定点打击而受到额外伤害；忽略1点损伤减值；无须呼吸；免疫疾病与毒素；忽略至多10英寸远的照明减值。</li>\n<li><strong>弱点(头部)</strong>：对行尸头部的定点打击如常造成+4伤害。</li>\n</ul>\n</div>",
+            "items": {
+                "Weakness (Head)": {
+                    "name": "弱点(头部)",
+                    "description": "<div class=\"swpf-core\">\n<p>对行尸头部的定点打击如常造成+4伤害。</p></div>"
+                },
+                "Bite/Claws": {
+                    "name": "噬咬/爪抓",
+                    "description": "<div class=\"swpf-core\">\n<p>力量+d4。</p></div>"
+                }
+            }
         },
         "Kyra (Seasoned)": {
-            "name": "凯拉(行家)"
+            "name": "凯拉(行家)",
+            "description": "<div class=\"swpf-core\">对莎伦莱的誓愿指引着凯拉的道路，这位牧师每一天都在反复践行自身的誓言：打击邪恶，治病教人，保护无辜。凯拉对于自身的信仰，神力以及精湛的弯刀的技艺而深感自豪——所有这一切都是为了侍奉她的女神。</div>",
+            "items": {
+                "Cleric's Vestments": {
+                    "name": "牧师祭服"
+                },
+                "Wand of Dispel (7 Charges": {
+                    "name": "破祛魔杖(7发)",
+                    "description": "<div class=\"swpf-core\">\n<p>详见奇术：破袪</p>\n<p>魔杖是根细长的棍棒，每次启动时都会施放单个奇术(以及任何奇术调整)。若要启动魔杖，角色必须将其指向某一目标或是区域，然后以一个行动进行一次聪慧或奥法技能投骰(由其选择)。失败会消耗单发充能，大失败还会给持用者造成疲乏。</p><p>魔杖很纤小，可以在擒抱或情况危急时用于近战。</p><p><strong>充能</strong>：魔杖在制作时拥有25发充能，且不能重新充能。每次使用都会消耗一发充能。</p><p><strong>制作</strong>：魔杖的价格等于每发充能的价格(使用与218页中与卷轴相同的公式)乘以充能的数量。举例而言，完全充能的<em>破祛</em>魔杖成本为(100×25)，即2,500gp。魔杖的市价是其制作成本的两倍。</p>\n</div>"
+                }
+            }
         },
         "Amiri (Seasoned)": {
             "name": "艾米莉(行家)",
             "description": "<p>血气方刚，勇猛善战的艾米莉自视甚高，胆敢冒犯这位野蛮人的家伙很快就会尝到她血脉偾张的怒火。艾米莉使用的越型混种剑是她数年前从霜巨人那里赢回来的无价战利品，除此之外，她对身外之物丝毫不感兴趣，只要有机会就会肆无忌惮地大肆挥霍，活在当下的艾米莉在每个早晨都会期盼着今天能光荣地与世长辞。</p>"
         },
         "Lem (Seasoned)": {
-            "name": "列姆(行家)"
+            "name": "列姆(行家)",
+            "description": "<div class=\"swpf-core\">尽管在童年时期遭到了切利亚斯的奴役，乐观无比的列姆仍然有着讨人喜欢的幽默感。这名半身人总是哼唱着习得或是自创的旋律，意气用事的他在路见不平时会毫不犹豫地拔刀相助。</div>",
+            "items": {
+                "Soft Leather Jacket": {
+                    "name": "软皮短衫"
+                },
+                "Soft Leather Leggings": {
+                    "name": "软皮护腿"
+                },
+                "Flute": {
+                    "name": "长笛"
+                },
+                "Entertainer's Outfit": {
+                    "name": "艺人服饰"
+                }
+            }
         },
         "Lini (Seasoned)": {
             "name": "李妮(行家)"
