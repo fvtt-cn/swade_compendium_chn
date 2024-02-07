@@ -22,7 +22,7 @@
                 },
                 "Giant": {
                     "name": "巨人绪论",
-                    "text": "<div class=\"swpf-core\"><h2>通用能力</h3>\n<ul>\n<li><strong>族裔(巨人)</strong>：微光视觉，触及1，拍打</li>\n</ul>\n</div>"
+                    "text": "<div class=\"swpf-core\"><h2>巨人绪论 GIANT</h2><p>这部分悉数了格拉里昂上几类形形色色的巨人种，这些类人生物都具备同一特征——相比人类而言巨大无比。虽然所有巨人都说巨人语，但其中一些也懂得其他语言。</p><h3>通用能力</h3>\n<ul>\n<li><strong>族裔(巨人)</strong>：微光视觉，触及1，拍打</li>\n</ul>\n</div>"
                 },
                 "Cloud Giant": {
                     "name": "云巨人",
@@ -166,7 +166,7 @@
                 },
                 "Hag": {
                     "name": "鬼婆绪论",
-                    "text": "<div class=\"swpf-core\"><p>鬼婆这种邪恶的老妪会出于恶毒肮脏的动机去狩猎类人生物，她们全都鄙视美丽、德行与纯洁，唯求腐化、掠夺和蹂躏格拉里昂的类人生物文明。</p><h3>通用能力 COMMON ABILITIES</h3>\n<p>所有鬼婆都具备丑陋（主要）负赘。</p>\n<ul>\n<li>\n<strong>巫团</strong>：鬼婆有时候会结成巫团来聚合彼此的天赋和分享魔法能力。三名任意类别的鬼婆就能结成一个巫团。当鬼婆们彼此相距不超过2英寸(4码)时，其获得以下列出的巫团增益：巫团成员获得奥法背景(魔法)，奥术精擅，并可以通过d8施法来施展下列奇术：<em>奥法防护</em>，<em>恶意变形</em>，<em>诅咒</em>，<em>破袪</em>，<em>预言</em>，<em>元素操纵</em>，<em>心智抹除</em>，<em>傀儡</em>，<em>复生</em>，<em>探知</em>，<em>行尸</em>；<strong>奇术点</strong>：20。\n</li>\n</ul>\n</div>"
+                    "text": "<div class=\"swpf-core\"><h2>鬼婆绪论 HAG</h2><p>鬼婆这种邪恶的老妪会出于恶毒肮脏的动机去狩猎类人生物，她们全都鄙视美丽、德行与纯洁，唯求腐化、掠夺和蹂躏格拉里昂的类人生物文明。</p><h3>通用能力 COMMON ABILITIES</h3>\n<p>所有鬼婆都具备丑陋（主要）负赘。</p>\n<ul>\n<li>\n<strong>巫团</strong>：鬼婆有时候会结成巫团来聚合彼此的天赋和分享魔法能力。三名任意类别的鬼婆就能结成一个巫团。当鬼婆们彼此相距不超过2英寸(4码)时，其获得以下列出的巫团增益：巫团成员获得奥法背景(魔法)，奥术精擅，并可以通过d8施法来施展下列奇术：<em>奥法防护</em>，<em>恶意变形</em>，<em>诅咒</em>，<em>破袪</em>，<em>预言</em>，<em>元素操纵</em>，<em>心智抹除</em>，<em>傀儡</em>，<em>复生</em>，<em>探知</em>，<em>行尸</em>；<strong>奇术点</strong>：20。\n</li>\n</ul>\n</div>"
                 },
                 "Annis Hag": {
                     "name": "妖鬼婆",
@@ -518,7 +518,7 @@
                 },
                 "Town-City Guard": {
                     "name": "城镇/城市守卫绪论",
-                    "text": "<div class=\"swpf-core\"><p>这个数据涵盖了所有负责维护法律秩序或是和平的家伙，其属性和技能也许会根据其所服役的地域而各有不同，同时可能作为代表性装备的武器和护甲也会根据气候、聚居地规模和其他情况而有所差异。</p><img alt=\"Ah, the city guard, protectors of the citizenry!\" class=\"float-right\" src=\"modules/swpf-bestiary/assets/art/warriorF PZO1124 Guard.webp\" style=\"shape-outside: url('modules/swpf-bestiary/assets/art/warriorF PZO1124 Guard.webp');\"/></div>"
+                    "text": "<div class=\"swpf-core\"><h2>城镇/城市守卫绪论 TOWN/CITY GUARD</h2><p>这个数据涵盖了所有负责维护法律秩序或是和平的家伙，其属性和技能也许会根据其所服役的地域而各有不同，同时可能作为代表性装备的武器和护甲也会根据气候、聚居地规模和其他情况而有所差异。</p><img alt=\"Ah, the city guard, protectors of the citizenry!\" class=\"float-right\" src=\"modules/swpf-bestiary/assets/art/warriorF PZO1124 Guard.webp\" style=\"shape-outside: url('modules/swpf-bestiary/assets/art/warriorF PZO1124 Guard.webp');\"/></div>"
                 },
                 "Elite Guard": {
                     "name": "精英守卫",
@@ -746,7 +746,7 @@
                 },
                 "Archons": {
                     "name": "亚空天族绪论",
-                    "text": "<div class=\"swpf-core\"><h2>通用能力</h3>\n<ul>\n<li><strong>亚空天族</strong>：忽略所有照明减值；对抗毒素时+4；免疫电与石化；威严灵气</li>\n<li>\n<strong>威严灵气</strong>：亚空天族周边环绕着一道原初力量造就的灵气，其可通过一个自由行动加以激活。3英寸(6码)内的任何敌对存在必须进行一次心魂投骰，失败则所有特性投骰-1，持续24小时或是直到其成功让引起这种状况的亚空天族遭受动摇或是损伤。一旦对象尝试过投骰，在之后的24小时内同一名亚空天族的灵气无法再对其造成影响。\n</li>\n</ul>\n</div>"
+                    "text": "<div class=\"swpf-core\"><h2>亚空天族绪论 ARCHONS</h2><p>亚空天族是来自天堂位面的异界生物，其乃是善良与秩序的存在，致力于保护天堂以及无辜众生不被邪恶所害。</p><p>亚空天族是魔鬼与恶魔的天生死敌，其中绝大多数都是屡次保护家园位面免遭下层位面魔族侵犯的历战好手。</p><p>每名亚空天族诞生时都是明灯亚空天族或是低阶的伺服精魂，其会随着弘扬善道而不断提升力量与地位——在物质位面时也是如此，在这里的亚空天族经常会担当游方骑士或是勇者的角色，帮助凡人成就善业，践行义举。</p><h3>通用能力</h3>\n<ul>\n<li><strong>亚空天族</strong>：忽略所有照明减值；对抗毒素时+4；免疫电与石化；威严灵气</li>\n<li>\n<strong>威严灵气</strong>：亚空天族周边环绕着一道原初力量造就的灵气，其可通过一个自由行动加以激活。3英寸(6码)内的任何敌对存在必须进行一次心魂投骰，失败则所有特性投骰-1，持续24小时或是直到其成功让引起这种状况的亚空天族遭受动摇或是损伤。一旦对象尝试过投骰，在之后的24小时内同一名亚空天族的灵气无法再对其造成影响。\n</li>\n</ul>\n</div>"
                 },
                 "Gold Dragon, Wyrmling": {
                     "name": "金雏龙",
@@ -806,7 +806,7 @@
                 },
                 "Elementals": {
                     "name": "元素绪论",
-                    "text": "<div class=\"swpf-core\"><h2>通用能力</h3>\n<ul>\n<li><strong>元素</strong>：忽略定点打击的额外伤害；忽略1点损伤减值；无须呼吸，免疫疾病和毒素；忽略至多10英寸远的照明减值。</li>\n</ul>\n</div>"
+                    "text": "<div class=\"swpf-core\"><h2>元素绪论 ELEMENTALS</h2><p>元素是活生生的精魂，分为土、火、水和气。标准、长老及小型元素变体见下。</p><p><strong>长老</strong>：数据中会列出所有特性、衍生数值和专长。相较基本数据，元素长老除了具有相同的特殊能力外，还要进行列出的调整。</p><p><strong>小型</strong>：数据中会列出所有特性、衍生数值和专长。相较基本数据，小型元素除了具有相同的特殊能力外，还要进行列出的调整。</p><h3>通用能力</h3>\n<ul>\n<li><strong>元素</strong>：忽略定点打击的额外伤害；忽略1点损伤减值；无须呼吸，免疫疾病和毒素；忽略至多10英寸远的照明减值。</li>\n</ul>\n</div>"
                 },
                 "Lantern Archon": {
                     "name": "明灯亚空天族",
