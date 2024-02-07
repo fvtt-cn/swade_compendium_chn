@@ -1,1 +1,29 @@
-{}
+{
+    "label": "生物图鉴族裔",
+    "entries": {
+        "Centaur Ancestry": {
+            "description": "<article class=\"swpf\"><p>黑暗视觉，体型2，踢击(力量+d4)</p></article>",
+            "name": "族裔(半人马)"
+        },
+        "Elf Ancestry": {
+            "description": "<article class=\"swpf\"><p>机敏，精灵魔法，微光视觉，敏锐感官，纤细</p></article>",
+            "name": "族裔(精灵)"
+        },
+        "Ogre Ancestry": {
+            "description": "<article class=\"swpf\"><p>凶神恶煞，暗夜视觉，强韧，体型2</p></article>",
+            "name": "族裔(食人魔)"
+        },
+        "Giant Ancestry": {
+            "name": "族裔(巨人)",
+            "description": "<article class=\"swpf\"><p>微光视觉，触及1，体型4(+1承伤数)，拍打</p></article>"
+        },
+        "Goblin Ancestry": {
+            "name": "族裔(地精)",
+            "description": "<article class=\"swpf\"><p>黑暗视觉，体型-1，贪婪(主要)</p></article>"
+        },
+        "Orc Ancestry": {
+            "name": "族裔(兽人)",
+            "description": "<article class=\"swpf\"><p>黑暗视觉，体型1，弱点(光亮)</p></article>"
+        }
+    }
+}
