@@ -1,5 +1,5 @@
 {
-	"label": "Bestiary",
+	"label": "Archetypes & Bestiary",
 	"entries": {
 		"Airship (Dirigible)": {
 			"name": "Airship (Dirigible)"
@@ -13,6 +13,10 @@
 		},
 		"Amiri": {
 			"name": "Amiri",
+			"description": "<p>Fiery of heart and fierce in battle, Amiri demands respect. Those who offend the barbarian soon learn the wrath of her blood rage. She wields an over-sized bastard sword, her mostprized possession, won from a frost giant years ago. Other than this, Amiri shows no interest in material belongings. She spends freely whenever chance provides, embracing life in the moment and expecting a noble death with the dawn of every day.</p>"
+		},
+		"Amiri (Seasoned)": {
+			"name": "Amiri (Seasoned)",
 			"description": "<p>Fiery of heart and fierce in battle, Amiri demands respect. Those who offend the barbarian soon learn the wrath of her blood rage. She wields an over-sized bastard sword, her mostprized possession, won from a frost giant years ago. Other than this, Amiri shows no interest in material belongings. She spends freely whenever chance provides, embracing life in the moment and expecting a noble death with the dawn of every day.</p>"
 		},
 		"Bear": {
@@ -44,6 +48,10 @@
 		"Dog/wolf": {
 			"name": "Dog/wolf",
 			"description": "<div class=\"swade-core\"><h3 class=\"bold\">Description:</h3><p class=\"savagedus-bio\">The stats below are for large attack dogs, as well as wolves, hyenas, and the like. Type: Neutral Animal (Dog/Wolf)</p></div>"
+		},
+		"Droogami": {
+			"name": "Droogami",
+			"description": ""
 		},
 		"Experienced Soldier": {
 			"name": "Experienced Soldier",
@@ -78,12 +86,24 @@
 			"name": "Kyra",
 			"description": ""
 		},
+		"Kyra (Seasoned)": {
+			"name": "Kyra (Seasoned)",
+			"description": ""
+		},
 		"Lem": {
 			"name": "Lem",
 			"description": ""
 		},
+		"Lem (Seasoned)": {
+			"name": "Lem (Seasoned)",
+			"description": ""
+		},
 		"Lini": {
 			"name": "Lini",
+			"description": ""
+		},
+		"Lini (Seasoned)": {
+			"name": "Lini (Seasoned)",
 			"description": ""
 		},
 		"Lion": {
@@ -95,6 +115,10 @@
 		},
 		"Merisiel": {
 			"name": "Merisiel",
+			"description": ""
+		},
+		"Merisiel (Seasoned)": {
+			"name": "Merisiel (Seasoned)",
 			"description": ""
 		},
 		"Mule": {
@@ -118,8 +142,16 @@
 			"name": "Seelah",
 			"description": ""
 		},
+		"Seelah (Seasoned)": {
+			"name": "Seelah (Seasoned)",
+			"description": ""
+		},
 		"Seoni": {
 			"name": "Seoni",
+			"description": ""
+		},
+		"Seoni (Seasoned)": {
+			"name": "Seoni (Seasoned)",
 			"description": ""
 		},
 		"Shark": {
@@ -171,6 +203,10 @@
 		},
 		"Valeros": {
 			"name": "Valeros",
+			"description": ""
+		},
+		"Valeros (Seasoned)": {
+			"name": "Valeros (Seasoned)",
 			"description": ""
 		},
 		"Wagon, Heavy": {
