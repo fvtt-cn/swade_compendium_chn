@@ -1,3 +1,4 @@
+
 function parseEmbeddedAbilities(value, translations, data, tc) {
 	value.forEach( (item, k) => {
 		let pack = game.babele.packs.find(pack => pack.translated && pack.translations[item[1].name]);
@@ -56,6 +57,14 @@ Babele.get().registerConverters({
     return parseEmbeddedAbilities(value, translations, data, tc)
   }
 });
+function loadStyle(url) {
+  var link = document.createElement('link');
+  link.type = 'text/css';
+  link.rel = 'stylesheet';
+  link.href = url;
+  var head = document.getElementsByTagName('head')[0];
+  head.appendChild(link);
+}
 
 Hooks.on('init', () => {
   if (typeof Babele !== 'undefined') {
@@ -64,5 +73,6 @@ Hooks.on('init', () => {
       lang: 'cn',
       dir: 'compendium'
     });
+    loadStyle('../../modules/swade_compendium_chn/swade-core.css');
   }
 });

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "cnHeading";
+  src: url(../../modules/swade_compendium_chn/style/cnHeading.TTF);
+}
+@font-face {
+  font-family: "cnP";
+  src: url(../../modules/swade_compendium_chn/style/cnP.ttf);
+}
 :root {
   /* FONTS */
   --body-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -26,11 +34,21 @@ a.content-link.broken {
 }
 
 /* FONTS */
-.swade-core h1,
+/* .swade-core h1,
 .swade-core h2,
 .swade-core h3 {
-  font-family: var(--heading-font-family);
+  font-family:var(--heading-font-family);
   font-weight: bold;
+} */
+.pages-list .heading,.pages-list .page-title{
+  font-family:'cnP' !important;
+}
+.swpf-core > h1,.swpf-core >h2,.swpf-core >h3 {
+  font-family:'cnP' !important;
+}
+
+.journal-entry-page>.journal-page-content>.swpf-core>p {
+  font-family:'cnP' !important;
 }
 
 .swade-core .header .title p {

@@ -20,6 +20,9 @@
       "path": "lang/cn.json"
     }
   ],
+  "styles": [
+    "./swade-core.css"
+  ],
   "scripts": [
     "./babele.js",
     "./setup.js"
@@ -27,6 +30,7 @@
   "systems": [
     "swade"
   ],
+
   "relationships.requires": [
     {
       "id": "babele",
