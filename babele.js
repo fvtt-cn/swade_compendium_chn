@@ -55,18 +55,8 @@ function pagesConverter(pages, translations) {
 };
 
 const SWADE_ITEM_CONVERTERS = Converters.fromPack(SWADE_ITEM_MAPPING, "Item");
-function SWADE_REQUIREMENTS_CONVERTER(value, translations) {
-  if (!translations)
-    return value
-  const result = [];
-  const other={type:'other',label:translations}
-  // console.log("SWADE_REQUIREMENTS_CONVERTER",value)
-  result.push(other)
-  return result;
-}
 Babele.get().registerConverters({
   SWADE_ITEM_CONVERTERS: SWADE_ITEM_CONVERTERS,
-  SWADE_REQUIREMENTS_CONVERTER: SWADE_REQUIREMENTS_CONVERTER,
 });
 
 Babele.get().registerConverters({
