@@ -1,12 +1,24 @@
+
 function parseEmbeddedAbilities(value, translations, data, tc) {
-	value.forEach( (item, k) => {
-		let pack = game.babele.packs.find(pack => pack.translated && pack.translations[item[1].name]);
-		if(pack && pack !== tc) {
-      value[k][1] = mergeObject(value[k][1], pack.translate(item[1], pack.translations[item[1].name]));
-		}
-	});
-	return value;
+  value.forEach((item, k) => {
+    let pack = game.babele.packs.find(
+      (pack) => pack.translated && pack.translations[item[1].name]
+    );
+    if (pack && pack !== tc) {
+      value[k][1] = mergeObject(
+        value[k][1],
+        pack.translate(item[1], pack.translations[item[1].name])
+      );
+    }
+  });
+  return value;
 }
+
+Babele.get().registerConverters({
+  translateEmbeddedAbilities: (value, translations, data, tc) => {
+    return parseEmbeddedAbilities(value, translations, data, tc);
+  },
+});
 
 const SWADE_ITEM_MAPPING = {
   description: "system.description",
@@ -56,13 +68,24 @@ Babele.get().registerConverters({
     return parseEmbeddedAbilities(value, translations, data, tc)
   }
 });
+function loadStyle(url) {
+  var link = document.createElement('link');
+  link.type = 'text/css';
+  link.rel = 'stylesheet';
+  link.href = url;
+  var head = document.getElementsByTagName('head')[0];
+  head.appendChild(link);
+}
 
-Hooks.on('init', () => {
-  if (typeof Babele !== 'undefined') {
+Hooks.on("init", () => {
+  if (typeof Babele !== "undefined") {
+    console.log("mapping", Babele);
+    console.log(Converters);
     Babele.get().register({
-      module: 'swade_compendium_chn',
-      lang: 'cn',
-      dir: 'compendium'
+      module: "swade_compendium_chn",
+      lang: "cn",
+      dir: "compendium",
     });
+    loadStyle('../../modules/swade_compendium_chn/swade-core.css');
   }
 });
