@@ -1,7 +1,7 @@
 @font-face {
   font-family: "cnHeading";
   src: url(../../modules/swade_compendium_chn/style/cnHeading.TTF);
-}
+ }
 @font-face {
   font-family: "cnP";
   src: url(../../modules/swade_compendium_chn/style/cnP.ttf);
@@ -40,16 +40,6 @@ a.content-link.broken {
   font-family:var(--heading-font-family);
   font-weight: bold;
 } */
-.pages-list .heading,.pages-list .page-title{
-  font-family:'cnP' !important;
-}
-.swpf-core > h1,.swpf-core >h2,.swpf-core >h3 {
-  font-family:'cnP' !important;
-}
-
-.journal-entry-page>.journal-page-content>.swpf-core>p {
-  font-family:'cnP' !important;
-}
 
 .swade-core .header .title p {
   font-family: var(--heading-font-family);
@@ -65,4 +55,26 @@ a.content-link.broken {
 
 .swade.sheet.item .powers .powers-list .power .power-content .power-description {
   line-height: 24px;
+}
+.pages-list,.heading,.pages-list .page-title{
+  font-family:'Treacherous Corners','cnP' !important;
+}
+.swpf-core   h1,.swpf-core  h2,.swpf-core  h3 {
+  font-family:'Treacherous Corners','cnP' !important;
+}
+
+.journal-entry-page  {
+  font-family:'Treacherous Corners','cnP' !important;
+}
+.journal-entry-page  p{
+  font-family:'Treacherous Corners','cnP' !important;
+}
+.swpf-core .chapter-heading .chapter-number{
+  font-family:'Treacherous Corners','cnP' !important;
+}
+.journal{
+  font-family:'Treacherous Corners','cnP' !important;
+}
+.journal-heading{
+  font-family:'Treacherous Corners','cnP' !important;
 }
