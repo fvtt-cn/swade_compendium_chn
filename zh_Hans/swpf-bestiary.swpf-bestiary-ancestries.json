@@ -1,5 +1,8 @@
 {
     "label": "生物图鉴族裔",
+    "mapping": {
+        "description": "system.description"
+    },
     "entries": {
         "Centaur Ancestry": {
             "description": "<article class=\"swpf\"><p>黑暗视觉，体型2，踢击(力量+d4)</p></article>",

@@ -6,7 +6,8 @@
         "rank": "system.rank",
         "duration": "system.duration",
         "trapping": "system.trapping",
-        "pp": "system.pp"
+        "pp": "system.pp",
+        "actions": "system.actions"
     },
     "entries": {
         "Arcane Protection": {
