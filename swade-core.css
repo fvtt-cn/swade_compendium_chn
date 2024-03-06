@@ -6,56 +6,6 @@
   font-family: "cnP";
   src: url(../../modules/swade_compendium_chn/style/cnP.ttf);
 }
-:root {
-  /* FONTS */
-  --body-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  --heading-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  --table-title-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  --table-headers-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  --table-summary-font-family: var(--table-headers-font-family);
-  --quote-font-family: ..., "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", cursive;
-}
-
-.swade-core .embedded-example {
-  padding: 4px;
-}
-
-/* Entity Linking */
-.swade-core a.entity-link, a.content-link, a.inline-roll {
-  white-space: nowrap;
-  text-decoration: unset !important;
-  display: inline-flex;
-}
-
-a.entity-link.broken,
-a.content-link.broken {
-  background: rgba(255, 0, 0, 0.05);
-  border: 1px dashed red;
-}
-
-/* FONTS */
-/* .swade-core h1,
-.swade-core h2,
-.swade-core h3 {
-  font-family:var(--heading-font-family);
-  font-weight: bold;
-} */
-
-.swade-core .header .title p {
-  font-family: var(--heading-font-family);
-}
-
-.swade-core .section-header h1 {
-  font-family: var(--heading-font-family);
-}
-
-.swade.sheet.actor .powers .powers-list .power .power-content .power-description {
-  line-height: 24px;
-}
-
-.swade.sheet.item .powers .powers-list .power .power-content .power-description {
-  line-height: 24px;
-}
 .pages-list,.heading,.pages-list .page-title{
   font-family:'Treacherous Corners','cnP' !important;
 }
