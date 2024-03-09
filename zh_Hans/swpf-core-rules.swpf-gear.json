@@ -114,8 +114,7 @@
         "Backpack": {
             "name": "背包",
             "category": "冒险工具",
-            "description": "<div class=\"swpf-core\"><p>其中物品的生效重量减半。</p></div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\"><p>其中物品的生效重量减半。</p></div>"
         },
         "Bag of Holding, Major": {
             "name": "高级次元袋",
@@ -140,8 +139,7 @@
         "Ballista": {
             "name": "弩炮",
             "category": "攻城武器",
-            "description": "<div class=\"swpf-core\">\n<p>弩炮是设计用于发射巨型弩矢的机械装置，发射这个装置(射击)只需要一个人，装填也只需要一个人，但双人协作会更有效率。</p><p>重武器，单人装填需要5分钟，双人班组则是2分钟。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>弩炮是设计用于发射巨型弩矢的机械装置，发射这个装置(射击)只需要一个人，装填也只需要一个人，但双人协作会更有效率。</p><p>重武器，单人装填需要5分钟，双人班组则是2分钟。</p>\n</div>"
         },
         "Banded Mail of Luck": {
             "name": "幸运护甲",
@@ -205,7 +203,6 @@
             "name": "飞索",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>优良命中的目标陷入<em>纠缠</em>(见130页)，飞索硬度为8。</p>\n</div>",
-            "notes": "",
             "actions": {
                 "trait": "运动"
             }
@@ -296,8 +293,7 @@
         "Caltrops": {
             "name": "铁蒺藜",
             "category": "冒险工具",
-            "description": "<div class=\"swpf-core\">\n<p>一份铁蒺藜可以覆盖小型爆发盖板，两份为中型，三份为大型。这视作困难地形；任何移动穿过该区域的对象必须成功通过一次运动投骰，否则会遭受动摇。大失败会对脚造成一个损伤(治愈前移速-2)。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>一份铁蒺藜可以覆盖小型爆发盖板，两份为中型，三份为大型。这视作困难地形；任何移动穿过该区域的对象必须成功通过一次运动投骰，否则会遭受动摇。大失败会对脚造成一个损伤(治愈前移速-2)。</p>\n</div>"
         },
         "Candle (1 hr, 2\" radius)": {
             "name": "蜡烛",
@@ -381,8 +377,7 @@
         "Climber's Kit (negate 2 penalty)": {
             "name": "攀登套件",
             "category": "工具与套件",
-            "description": "<div class=\"swpf-core\">\n<p>攀登套件：绳索、岩钉、鞋钉、锤子和其他用于攀爬的装备，这个套件能让使用者在攀爬时忽略至多2点减值。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>攀登套件：绳索、岩钉、鞋钉、锤子和其他用于攀爬的装备，这个套件能让使用者在攀爬时忽略至多2点减值。</p>\n</div>"
         },
         "Cloak of Displacement": {
             "name": "移位披风",
@@ -443,7 +438,6 @@
             "name": "重弩",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>需要绞盘才能装弹，装填2。</p>\n</div>",
-            "notes": "",
             "actions": {
                 "trait": "射击"
             },
@@ -453,7 +447,6 @@
             "name": "连发重弩",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>装填2(一匣5支或是单支)。</p>\n</div>",
-            "notes": "",
             "actions": {
                 "trait": "射击"
             },
@@ -463,7 +456,6 @@
             "name": "轻弩",
             "category": "远程武器",
             "description": "<div class=\"swpf-core\">\n<p>装填1，手张。</p>\n</div>",
-            "notes": "",
             "actions": {
                 "trait": "射击"
             },
@@ -513,8 +505,7 @@
         "Disguise Kit (free Performance reroll)": {
             "name": "易容套件",
             "category": "工具与套件",
-            "description": "<div class=\"swpf-core\">\n<p>化妆品、假体和假发。进行易容时的表演投骰免费获得一次重投。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>化妆品、假体和假发。进行易容时的表演投骰免费获得一次重投。</p>\n</div>"
         },
         "Dog, guard": {
             "name": "护卫犬",
@@ -553,8 +544,7 @@
         "Everburning Torch": {
             "name": "永燃火炬",
             "category": "奇物",
-            "description": "<div class=\"swpf-core\">\n<p>这种永久性附魔<em>光亮</em>的“火炬”既不会燃烧，也不会散发热量。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这种永久性附魔<em>光亮</em>的“火炬”既不会燃烧，也不会散发热量。</p>\n</div>"
         },
         "Eyes of the Eagle": {
             "name": "鹰之眼",
@@ -565,7 +555,6 @@
             "name": "弯刃大刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲1，可以双手使用(若是这样则伤害+1)</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗",
                 "additional": {
@@ -671,7 +660,6 @@
             "name": "连枷",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">忽略盾牌加值</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -714,7 +702,6 @@
             "name": "大砍刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">触及1，双手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -746,7 +733,6 @@
             "name": "长钩刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲1，触及1，双手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -808,8 +794,7 @@
         "Healer's Kit (-1 healing w/o)": {
             "name": "治疗套件",
             "category": "工具与套件",
-            "description": "<div class=\"swpf-core\">\n<p>基本医疗用具，包括药膏和敷料。若是没有则治疗-1。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>基本医疗用具，包括药膏和敷料。若是没有则治疗-1。</p>\n</div>"
         },
         "Heavy Breastplate": {
             "name": "重型胸甲",
@@ -1042,7 +1027,6 @@
             "name": "武士刀",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">双手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -1056,7 +1040,6 @@
             "name": "骑枪",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">冲锋时带有穿甲2，触及2，只能在骑乘战斗时使用</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -1135,7 +1118,6 @@
             "name": "大槌",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲2，双手，破坏物品(130页)时+2伤害</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -1291,7 +1273,6 @@
             "name": "步战矛",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">架设好时带有穿甲1，触及2，双手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -1444,8 +1425,7 @@
         "Ram": {
             "name": "冲车",
             "category": "攻城武器",
-            "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">冲车是用绳索或是铁链吊着重型木杆的可移动架构，至少需要两人班组才能摆动撞木冲撞另一物体，至多可由八人来摆动撞木，领队进行攻击投骰，其他成员进行援助。</span></p>\n<p>并非远程武器，用于冲撞物品，见130页的破坏物品。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p><span class=\"fontstyle0\">冲车是用绳索或是铁链吊着重型木杆的可移动架构，至少需要两人班组才能摆动撞木冲撞另一物体，至多可由八人来摆动撞木，领队进行攻击投骰，其他成员进行援助。</span></p>\n<p>并非远程武器，用于冲撞物品，见130页的破坏物品。</p>\n</div>"
         },
         "Ranseur": {
             "name": "刺叉",
@@ -1459,7 +1439,6 @@
             "name": "刺剑",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">格挡+1</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -1472,92 +1451,77 @@
         "Ring of Counterspells": {
             "name": "法术反制戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>空白的法术反制戒指可以存入单个对其施放的奇术(包含调整)。若是对佩戴者施放此奇术，则这次施术失败且戒指会再次变回空白。</p>\n<p><strong>价格</strong>：4,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>破祛</em>；2,000gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>空白的法术反制戒指可以存入单个对其施放的奇术(包含调整)。若是对佩戴者施放此奇术，则这次施术失败且戒指会再次变回空白。</p>\n<p><strong>价格</strong>：4,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>破祛</em>；2,000gp。</p>\n</div>"
         },
         "Ring of Energy Resistance": {
             "name": "能量抗性戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>这枚秘银箍环能针对单一能量类型提供环境抗性，这要在制作时予以确定(若是觅得而来则由GM判定)。</p>\n<p><strong>价格</strong>：6,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>环境防护</em>；3,000gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这枚秘银箍环能针对单一能量类型提供环境抗性，这要在制作时予以确定(若是觅得而来则由GM判定)。</p>\n<p><strong>价格</strong>：6,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>环境防护</em>；3,000gp。</p>\n</div>"
         },
         "Ring of Evasion": {
             "name": "反射闪避戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>这枚戒指能让穿戴者在回避投骰上免费获得一次重投。</p>\n<p><strong>价格</strong>：25,000，<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：12,500gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指能让穿戴者在回避投骰上免费获得一次重投。</p>\n<p><strong>价格</strong>：25,000，<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：12,500gp。</p>\n</div>"
         },
         "Ring of Feather Falling": {
             "name": "羽落戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>佩戴者坠落时高度一律视同不多于两码。</p>\n<p><strong>价格</strong>：2,200gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,100gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者坠落时高度一律视同不多于两码。</p>\n<p><strong>价格</strong>：2,200gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,100gp。</p>\n</div>"
         },
         "Ring of Invisibility": {
             "name": "隐形戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>佩戴者获得高级<em>隐形</em>(延长)，其能将该戒指取下然后再戴上来重新启动此奇术。</p>\n<p><strong>价格</strong>：20,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>隐形</em>；10,000gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者获得高级<em>隐形</em>(延长)，其能将该戒指取下然后再戴上来重新启动此奇术。</p>\n<p><strong>价格</strong>：20,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>隐形</em>；10,000gp。</p>\n</div>"
         },
         "Ring of Protection, Major": {
             "name": "高级防护戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>"
         },
         "Ring of Protection, Minor": {
             "name": "次级防护戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\"><p>这枚戒指会以次级/高级<em>防护</em>的形式提供持续性的魔法防御。注意这不会与<em>防护</em>法术叠加。</p><p><strong>价格</strong>：4,000gp(次级)、10,000gp(高级)；<strong>重量</strong>：—。</p><p><strong>制作</strong>：<em>防护</em>；2,000gp(次级)、5,000gp(高级)。</p></div>"
         },
         "Ring of Regeneration": {
             "name": "再生戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>佩戴者在戴有此戒指时每天可以尝试进行一次自然治疗投骰。这甚至能使已经受伤或失去的肢体及器官重新长出。这枚戒指对于佩戴前就已经遭受的损伤没有效果。</p>\n<p><strong>价格</strong>：90,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：45,000gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者在戴有此戒指时每天可以尝试进行一次自然治疗投骰。这甚至能使已经受伤或失去的肢体及器官重新长出。这枚戒指对于佩戴前就已经遭受的损伤没有效果。</p>\n<p><strong>价格</strong>：90,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：45,000gp。</p>\n</div>"
         },
         "Ring of Spell Storing": {
             "name": "储法戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>该戒指能同时只能存有对其施放的单个奇术。佩戴者能以一个行动激活存在其中的法术，获得一次以d12奥法技能进行施术的机会(如同由不羁角色予以施放)。该法术的持续时间不可以被延长或维持。</p>\n<p><strong>价格</strong>：18,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：9,000gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>该戒指能同时只能存有对其施放的单个奇术。佩戴者能以一个行动激活存在其中的法术，获得一次以d12奥法技能进行施术的机会(如同由不羁角色予以施放)。该法术的持续时间不可以被延长或维持。</p>\n<p><strong>价格</strong>：18,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：9,000gp。</p>\n</div>"
         },
         "Ring of Sustenance": {
             "name": "维生戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>这枚戒指在佩戴一整周后会为佩戴者提供维生养分，同时还能消除身体和精神的疲劳，所以佩戴者每天只需睡两小时便能获得八小时的好处。如果戒指被取下，所有者必须再佩戴一周来与其重新同步。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,250gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指在佩戴一整周后会为佩戴者提供维生养分，同时还能消除身体和精神的疲劳，所以佩戴者每天只需睡两小时便能获得八小时的好处。如果戒指被取下，所有者必须再佩戴一周来与其重新同步。</p>\n<p><strong>价格</strong>：2,500gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：1,250gp。</p>\n</div>"
         },
         "Ring of Telekinesis": {
             "name": "念动戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>该戒指会让佩戴者获得次级<em>念动</em>。</p>\n<p><strong>价格</strong>：75,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>念动</em>；37,500gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>该戒指会让佩戴者获得次级<em>念动</em>。</p>\n<p><strong>价格</strong>：75,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>念动</em>；37,500gp。</p>\n</div>"
         },
         "Ring of Three Wishes": {
             "name": "三愿戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>这枚戒指带有三颗红宝石，每颗红宝石都储存着一发<em>祈愿</em>。每用掉一发祈愿，对应的红宝石就会化作尘土。这枚戒指在用完所有的祈愿之后就不再带有魔力。</p>\n<p><strong>价格</strong>：120,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>祈愿</em>；97,500gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指带有三颗红宝石，每颗红宝石都储存着一发<em>祈愿</em>。每用掉一发祈愿，对应的红宝石就会化作尘土。这枚戒指在用完所有的祈愿之后就不再带有魔力。</p>\n<p><strong>价格</strong>：120,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>祈愿</em>；97,500gp。</p>\n</div>"
         },
         "Ring of Water Walking": {
             "name": "水上行走戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>这枚戒指通常由珊瑚或带有波浪图案装饰的泛蓝金属制成，其能让佩戴者得以走过任何液体(如同其是坚实地面一般)。</p>\n<p><strong>价格</strong>：15,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：7,500gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这枚戒指通常由珊瑚或带有波浪图案装饰的泛蓝金属制成，其能让佩戴者得以走过任何液体(如同其是坚实地面一般)。</p>\n<p><strong>价格</strong>：15,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：7,500gp。</p>\n</div>"
         },
         "Ring of the Ram": {
             "name": "公羊戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>佩戴者能以一个限定自由行动命令该戒指显现出一股勉强可辨的公羊状力场来攻击敌人。此力场会打击单个目标，并造成每发充能1d6伤害，每次使用上限是3发充能，射程是10英寸(20码)。任何遭到此公羊击中的对象都会被击退2d6英寸。(体型3或以上的生物免疫此后续效果。)\n</p>\n<p>每枚新造的戒指具备25发充能，这枚戒指在所有的充能消耗殆尽后就会变为非魔法物品。</p>\n<p><strong>价格</strong>：8,600gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>矢弹</em>，<em>强化特性</em>；4,300gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>佩戴者能以一个限定自由行动命令该戒指显现出一股勉强可辨的公羊状力场来攻击敌人。此力场会打击单个目标，并造成每发充能1d6伤害，每次使用上限是3发充能，射程是10英寸(20码)。任何遭到此公羊击中的对象都会被击退2d6英寸。(体型3或以上的生物免疫此后续效果。)\n</p>\n<p>每枚新造的戒指具备25发充能，这枚戒指在所有的充能消耗殆尽后就会变为非魔法物品。</p>\n<p><strong>价格</strong>：8,600gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：<em>矢弹</em>，<em>强化特性</em>；4,300gp。</p>\n</div>"
         },
         "Ring of the Skillful": {
             "name": "多才多艺戒指",
             "category": "戒指",
-            "description": "<div class=\"swpf-core\">\n<p>该戒指会给予单个技能+1加值，这要在制作时决定。该加值不会影响攻击投骰或用于启动奇术的投骰。</p>\n<p><strong>价格</strong>：10,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：5,000gp。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>该戒指会给予单个技能+1加值，这要在制作时决定。该加值不会影响攻击投骰或用于启动奇术的投骰。</p>\n<p><strong>价格</strong>：10,000gp；<strong>重量</strong>：—。</p>\n<p><strong>制作</strong>：5,000gp。</p>\n</div>"
         },
         "Robe of Blending": {
             "name": "混迹法袍",
@@ -1644,8 +1608,7 @@
         "Saddle, war (free reroll Riding)": {
             "name": "战争鞍座",
             "category": "动物与挽具",
-            "description": "<div class=\"swpf-core\">\n<p>可免费重投稳坐鞍座的骑乘投骰。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>可免费重投稳坐鞍座的骑乘投骰。</p>\n</div>"
         },
         "Saddlebags (empty)": {
             "name": "鞍袋(空)",
@@ -1655,7 +1618,6 @@
             "name": "闷棍",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">非致命伤害</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -1799,7 +1761,6 @@
             "name": "巨镰",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">双手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -1907,7 +1868,6 @@
             "name": "短矛",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">单手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗",
                 "additional": {
@@ -1934,7 +1894,6 @@
             "name": "刺链",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">触及1，忽略盾牌加值，双手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -2013,7 +1972,6 @@
             "name": "棍/四分棍",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">格挡+1，触及1，双手</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
@@ -2038,8 +1996,7 @@
         "Sunrod": {
             "name": "日光杖",
             "category": "炼金物品",
-            "description": "<div class=\"swpf-core\">\n<p>这种金头铁棒能在30英尺半径内提供持续6小时的普通光照，同时能将在此之外30英尺远的照明提升一级，这不会发热，而且视作日光。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这种金头铁棒能在30英尺半径内提供持续6小时的普通光照，同时能将在此之外30英尺远的照明提升一级，这不会发热，而且视作日光。</p>\n</div>"
         },
         "Sustaining Spoon": {
             "name": "维生汤匙",
@@ -2070,7 +2027,6 @@
             "name": "混种剑",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">穿甲1，可以双手使用(若是这样则伤害+1)</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗",
                 "additional": {
@@ -2106,7 +2062,6 @@
             "name": "绊足包",
             "category": "炼金物品",
             "description": "<div class=\"swpf-core\">\n<p>体型3或以下的对象若被这一小包黏稠材料命中就会在5轮内陷入分神，并且其必须成功通过一次运动投骰，否则还会被粘在地上(纠缠)。</p>\n</div>",
-            "notes": "",
             "actions": {
                 "trait": "运动"
             }
@@ -2118,20 +2073,17 @@
         "Thieves' Tools (-2 Thievery w/o)": {
             "name": "盗贼套件",
             "category": "工具与套件",
-            "description": "<div class=\"swpf-core\">\n<p>开锁器和尖刺、油瓶、油脂、丝绳、手套。没有这些东西的贼活-2。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>开锁器和尖刺、油瓶、油脂、丝绳、手套。没有这些东西的贼活-2。</p>\n</div>"
         },
         "Thunderstone": {
             "name": "爆雷石",
             "category": "炼金物品",
-            "description": "<div class=\"swpf-core\">\n<p>这种附魔过的石头在敲击硬质表面时能爆发出震耳欲聋的轰鸣。盖板内的所有对象必须成功通过一次活力投骰，否则会遭受动摇并耳聋一小时。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这种附魔过的石头在敲击硬质表面时能爆发出震耳欲聋的轰鸣。盖板内的所有对象必须成功通过一次活力投骰，否则会遭受动摇并耳聋一小时。</p>\n</div>"
         },
         "Tindertwig": {
             "name": "火柴",
             "category": "炼金物品",
-            "description": "<div class=\"swpf-core\">\n<p>这根小木条在敲击硬质表面时会燃起火焰，火炬和其他可燃物藉此能以一个行动进行点燃。</p>\n</div>",
-            "notes": ""
+            "description": "<div class=\"swpf-core\">\n<p>这根小木条在敲击硬质表面时会燃起火焰，火炬和其他可燃物藉此能以一个行动进行点燃。</p>\n</div>"
         },
         "Torch (1 hour, 4\" radius)": {
             "name": "火炬",
@@ -2320,7 +2272,6 @@
             "name": "长鞭",
             "category": "近战武器",
             "description": "<div class=\"swpf-core\">\n<p>格挡-1，触及2，攻击投骰获得优良不会投奖励伤害，而是变成对象陷入纠缠。</p>\n</div>",
-            "notes": "",
             "actions": {
                 "trait": "格斗"
             }
