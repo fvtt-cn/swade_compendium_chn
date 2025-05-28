@@ -1073,6 +1073,8 @@ SWADE:
     Label: 使用的资源
     Hint: 此动作使用的资源量
   CouldNotFindMacro: 找不到UUID为{uuid}的宏
+  "GroupSheet": 狂野世界团体卡
+  "VehicleSheet": 狂野世界载具卡
 TYPES:
   Item:
     action: 动作
