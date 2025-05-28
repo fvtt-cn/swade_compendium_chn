@@ -2,7 +2,7 @@ SWADE:
   TOURS:
     AMMUNITION:
       SwadeSettings:
-        Content: 弹药设置可以在《狂野世界》的设置配置器中找到
+        Content: 弹药设置可在《狂野世界》设置配置器中找到
         Title: SWADE设置
       Title: 弹药
       AmmoSingle:
@@ -173,6 +173,72 @@ SWADE:
       Color:
         Title: 光环颜色和透明度
         Content: 光环显示为围绕源角色的圆形区域标记；这些设置可让您控制它们的视觉显示。
+    "ADVANCES":
+      "Title": 角色升级
+      "Description": 查看SWADE如何追踪角色升级
+      "Actor": 升级教程演示角色
+      "AccessAdvanceMode":
+        "Title": 设置升级模式
+        "Content": 可在调整菜单中切换角色的升级模式
+      "Mode":
+        "Title": 升级模式选择
+      "AdvanceTab":
+        "Title": 升级标签页
+        "Content": 升级配置位于'关于'标签页
+      "Create":
+        "Title": 创建升级项
+        "Content": 此按钮用于创建新升级项
+      "SaveChanges":
+        "Content": 更改不会自动保存至角色，必须使用ProseMirror编辑器中的保存按钮或此'保存更改'按钮
+        "Title": 保存更改按钮
+      "Type":
+        "Title": 选择升级类型
+        "Content": 选择升级类型。当前版本不会触发进一步验证或选择，未来系统更新可能改变此功能
+      "Planned":
+        "Title": 计划升级
+        "Content": 可将升级标记为计划状态以避免计入角色等级
+      "Editor":
+        "Title": 升级编辑器
+        "Content": 此表单提供新升级项的配置信息
+      "Rank":
+        "Title": 升级等级
+        "Content": 达到此升级时的角色等级。此数值不可直接编辑，由角色总升级数自动计算
+      "Number":
+        "Title": 升级编号
+        "Content": 控制升级项排序。修改此值可将升级项移至列表更早位置
+      "Notes":
+        "Title": 升级备注
+        "Content": 在此记录升级相关信息，如提升的特性、选择的专长等
+    "HEADQUARTERS":
+      "Form":
+        "Title": Form
+        "Content": 形态版块分为三部分，便于详细描述总部各方面
+      "Title": 总部系统
+      "JournalEntry": 总部教程日志
+      "CreateJournal":
+        "Title": 创建日志
+        "Content": 总部必须创建在父级日志中
+      "CreatePage":
+        "Title": 创建总部页面
+        "Content": 总部是新的日志页面类型，与文本、图片、PDF页面类型并列
+      "HQPage":
+        "Title": 总部页面
+        "Content": 总部页面提供结构化输入，各版块对应各伴侣手册中的四个步骤
+      "Advantage":
+        "Content": 具体优势取决于游戏类型，可将掷骰结果拖入此版块
+        "Title": 优势
+      "Complication":
+        "Content": 类似优势，可将掷骰结果拖入此版块
+        "Title": 繁难
+      "HeadquartersPage": 总部教程页面
+      "Upgrades":
+        "Title": 升级
+        "Content": 可在此列出升级项。本区域支持完整HTML输入，可使用项目符号、表格等组织方式
+      "Description": 了解新日志页面——总部！适用于<em>奇幻伴侣</em>要塞、<em>恐怖伴侣</em>小屋和<em>超级异能伴侣</em>基地
+    "ERROR":
+      "SettingPermission": 此教程需要修改世界设定的权限
+      "JournalCreatePermission": 此教程需要创建日志条目的权限
+      "ActorCreatePermission": 此教程需要创建角色的权限
   Expand: 展开
   OfficialSheet: Pinnacle狂野世界官方卡
   BenniesCount: '{count}助力点'
@@ -185,6 +251,15 @@ SWADE:
     Source: 源头
     ResetDuration: 重设持续时间
     AddUnguided: 添加共感效果
+    "ConditionalTooltip": 默认忽略投骰调整值
+    "ModifierCost":
+      "Label": 调整消耗
+      "Hint": 此调整的建造/奇术点消耗
+    "ModifierLimit":
+      "Label": 调整限制
+      "Hint": 此调整最多可选择多少次？
+    "Conditional": 条件效果
+    "AddModifier": 添加调整值
   NpcWildCardsOnScene: 场景中的NPC不羁角色
   PlayerCardDrawHelper:
     Title: SWADE玩家抽卡助手
@@ -199,7 +274,7 @@ SWADE:
   Running: 奔跑
   RunningDie: 奔跑骰
   RunningMod: 奔跑调整值
-  RollRun: 点击进行奔跑
+  RollRun: '[点击]投掷奔跑骰'
   Adv: 升级
   Rank: 位阶
   Inv: 装备
@@ -308,6 +383,7 @@ SWADE:
   MacroActor:
     Default: 默认
     Self: 自身
+    "Target": 目标
   Ap: 穿甲
   APLong: 穿甲
   RoF: 射速
@@ -316,7 +392,16 @@ SWADE:
   ShieldBonus: 盾牌加值
   Notes: 笔记
   ActionsEffects: 动作&效果
-  Actions: 动作
+  Actions:
+    "Name": Actions
+    "Hidden":
+      "Label": 隐藏
+      "Hint": 隐藏动作不会显示在角色卡上
+    "DisplayHidden":
+      "Label": 显示隐藏动作
+    "Activities":
+      "Label": 行动
+      "Hint": 与此物品关联的动作SWID
   DmgModUni: 伤害调整值
   SkillModUni: 特性调整值
   ShotsUsed: 耗费数
@@ -428,9 +513,9 @@ SWADE:
   OldCard: 旧卡
   ActionCard: 行动卡
   ConvictionActive: 启动信念
-  ConvictionActivate: 为信念挺身而出！
+  ConvictionActivate: '{name} 唤起信念！'
   ConvictionExtend: 你想延长信念吗？
-  ConvictionEnd: 信念有所摇摆
+  ConvictionEnd: '{name} 信念动摇'
   NoBennies: 没有足够的助力点！
   AddStats: 额外数值
   Actors: 角色
@@ -491,7 +576,7 @@ SWADE:
     Modifier: 财富骰调整值
   Trait: 特性
   AltTrait: 动作特性
-  ClickSuggestions: 点击获取建议
+  ClickSuggestions: '[Click] for suggestions'
   Quick: 迅捷
   BonusDamage: 奖励伤害
   Joker: 鬼牌
@@ -511,7 +596,7 @@ SWADE:
   Modifiers: 调整值
   ActionTraitMod: 动作特性调整值
   ActionDmgMod: 动作伤害调整值
-  ItemTraitMod: 物品特性调整值
+  ItemTraitMod: 特性调整值
   NoActionDeckFound: 未找到行动牌组，生成中
   NoActionDeckDiscardPileFound: 未找到行动牌组弃牌堆，生成中
   Wealth: 财富
@@ -538,6 +623,7 @@ SWADE:
     Extreme: 极限射程
     _name: 射程
     Medium: 中距射程
+    "_nameShort": 射程
   ModOther: 其他调整值
   ModTrait: 特征调整值
   ModAttack: 攻击调整值
@@ -587,6 +673,7 @@ SWADE:
     Modes:
       Legacy: 传奇
       Expanded: 展开
+      "Label": Mode
     Types:
       Edge: 新专长
       Attribute: 提升属性
@@ -604,6 +691,7 @@ SWADE:
       UserConfigLabel: 收藏手牌
       Hint: 你可在用户配置中设定收藏手牌
       NoCardsWarning: 你没有收藏手牌组！
+      "HandNone": None
     Bennies:
       Name: 使用/得到1助力点
       Hint: 点击使用1助力点，若是按住Alt点击此按钮则是获得1助力点
@@ -690,7 +778,7 @@ SWADE:
       Name: 游戏主持人助力点
     VehicleMods:
       Name: 载具改装
-      Hint: 载具使用改装栏
+      Hint: 载具和护甲使用改装插槽
     VehicleEdges:
       Name: 载具专长
       Hint: 载具使用专长与负赘
@@ -741,6 +829,22 @@ SWADE:
     GrittyDamage:
       Name: 写实伤害
       Hint: 勾选此项将启用写实伤害设置规则并允许选择创伤表进行投骰。
+    "ArmorStacking":
+      "Choices":
+        "Core": 《狂野世界冒险版》核心规则
+        "SWPF": 《开拓者®️狂野世界》
+      "Name": 护甲叠加规则
+      "Hint": 选择处理护甲叠加时使用的规则
+    "StaticGmBennies":
+      "Name": 固定GM助力点
+      "Hint": 设置GM在刷新时获得的固定助力点数，而非基于活跃玩家数量
+    "CharSheetDefaultWidth":
+      "Name": 角色卡默认宽度
+      "Hint": 首次打开角色ka时的宽度（像素），默认：650
+    "Bumpmaps": 凹凸贴图
+    "VehicleEnergy":
+      "Name": 载具能量
+      "Hint": 载具和护甲使用能量系统
   EffectCallbacks:
     Shaken:
       RollSpirit: 投骰心魂
@@ -774,7 +878,7 @@ SWADE:
   MigrateCompendium: 强制迁移合集包
   Properties: 特质
   AddAction: 增加动作
-  DeleteEmbeddedActionPrompt: 你确定要删除动作{action}
+  DeleteEmbeddedActionPrompt: 确定要删除动作 {action} 吗？
   DeleteEmbeddedPowerPrompt: 你确定要删除奇术 {power}？
   TrademarkWeapon:
     Label: 招牌武器
@@ -798,7 +902,10 @@ SWADE:
   Consumable:
     Use: 使用
     Consumables: 消耗品
-  EmptyAncestralAbilitiesHint: 此{ancestry}或{archetype}暂时不具备任何能力，将内容拖拽&置入卡中以开始着手。
+    "NotEnoughCharges": 充能不足！
+    "ChargesUsed": <p>{charges} 次充能已用于 <em>{name}</em></p>
+  EmptyAncestralAbilitiesHint: 
+    <strong>警告：</strong>此功能将被物品授予系统取代。若创建新{ancestry}或{archetype}，请将物品拖放至属性标签页。应用{ancestry}或{archetype}时，系统会自动为角色添加这些物品。
   Templates:
     Small:
       Long: 小型爆发盖板
@@ -817,7 +924,10 @@ SWADE:
       Long: 直线盖板
     Available: 可用盖板
     Possible: 可能的盖板
-  Category: 物品类别
+    "SmallCone":
+      "Short": 小型锥形
+      "Long": 小型锥形盖板
+  Category: 类别
   ItemIsAmmo: 属于弹药
   Vision:
     SeeHeat: 看见热量
@@ -856,7 +966,11 @@ SWADE:
     Max: 最大{stat}
     HasMaxValue: 具有最大值
     Current: 当前{stat}
-  Targets: 目标：
+    "Value": 数值
+    "MaxLabel": Maximum
+    "OptionLabel": Option
+    "KeyErr": 附加统计键 {invalid} 无效，已更改为 {key}
+  Targets: 目标
   Rolls:
     SwadeRoll: 投骰
     DamageRoll: 伤害投骰
@@ -874,7 +988,9 @@ SWADE:
     RollResult: 投掷结果
   LoadedAmmo: 已装填弹药
   DamageApplicator:
-    ApplyDamage: 应用伤害
+    ApplyDamage:
+      "Hint": '[点击]用选定指示物结算伤害'
+      "Label": 化解伤害
     SoakModifier: 化解调整值
     SoakDialog:
       UnwoundedTitle: 调整伤害以确定{name}的状态？
@@ -959,6 +1075,7 @@ SWADE:
       Melee: 近战
       Ranged: 远程
       Mixed: 混合
+      "Label": 射程类型
   Desc: 描述
   Cargo: 载货
   MaxCargo: 载货重量上限
@@ -969,7 +1086,7 @@ SWADE:
   Imperial: 英制
   Metric: 公制
   ChangeBennyWarning: 变更这些设定需要刷新页面！
-  ItemDmgMod: 物品伤害调整值
+  ItemDmgMod: 伤害调整值
   Duplicates: 找到重复项
   DuplicateItemsBodyText: 在添加{type} <strong>{name}</strong>到角色{target}时，根据名字和类型发现以下重复项。新物品已经重命名以显示其来源。
   Mod:
@@ -982,6 +1099,8 @@ SWADE:
       Add: 添加预设
     Value: 数值
     Ignore: 忽略？
+    "None": 当前无调整值
+    "Active": Active
   OpenOrigin: 打开源头
   EffectsTemporary: 暂时性效果
   MessageOnUse:
@@ -991,6 +1110,7 @@ SWADE:
     EmptyHint: 此物品目前未授予任何物品
     Header: 物品授予
     When: 授予物品时机
+    "Mutation": 变异
   IgnFatigue: 忽略疲乏
   ButtonReset: 重设
   ButtonSubmit: 提交
@@ -1036,7 +1156,7 @@ SWADE:
   BaseParry: 基础格挡
   Subtype: 子类型
   AddPPDesc: 为可用奇术点增加奇术点费用
-  RightClickZoom: 右键缩放
+  RightClickZoom: '[Right-Click] to Zoom'
   SysMigrationWarning: 你的SWADE系统数据来自于过旧的Foundry版本，无法可靠地整合至最新版中，尽管仍会尝试此过程，但可能会发生错误。
   DeckShuffled: 牌组自动洗牌
   BasePace: 基本移速
@@ -1051,8 +1171,10 @@ SWADE:
   UnstablePlatform: 不稳平台
   Weakness: 弱点
   Validation:
-    OnlyOneAncestry: 你一次只能有一个种族！
-    OnlyOneArchetype: 你一次只能有一个原型！
+    OnlyOneAncestry: 同一时间只能有一个族裔
+    OnlyOneArchetype: 同一时间只能有一个范型
+    "InvalidBasePace": 无法将基础移速设置为无值的移速类型
+    "NoGroupCombatants": 团体角色不能作为参战者
   BenniesSpendGM: 使用1GM助力点
   DocumentLink: 关联
   DocumentTweaks: 微调
@@ -1075,6 +1197,222 @@ SWADE:
   CouldNotFindMacro: 找不到UUID为{uuid}的宏
   "GroupSheet": 狂野世界团体卡
   "VehicleSheet": 狂野世界载具卡
+  "Elan": 热忱
+  "InnatePower": 内生奇术
+  "SetActionDeck": 设为行动牌组
+  "ToggleIncap": 切换无力化状态
+  "AmbushAssistant":
+    "OnHold": 保持待机
+    "NormalDraw": 正常抽牌
+    "NoTurn": 无回合
+    "Title": 伏击助手
+    "Hint": 拖放参战者设置突袭轮
+    "Unassigned": 未分配
+  "CardDrawMsgSize":
+    "None": None
+    "Large": Large
+    "Compact": 紧凑模式
+  "SelectNewGroupLeader": 选择新团体领袖
+  "AttrSmaShortPowerRange": Sm
+  "ApOver": Action AP
+  "ActionDeckPresetPEG": 行动牌组（PEG）
+  "HeadquartersSheet": 狂野世界总部卡
+  "Advance": 等级
+  "Energy":
+    "Label": 能量
+    "Value": 当前能量
+    "Max": 最大能量
+    "Enable": 启用能量
+  "ConvictionExtendPrompt": 是否要消耗一个幸运点来延长信念效果？
+  "BuildLimit": 构筑限制
+  "Cards":
+    "Spades": 黑桃
+    "Hearts": 红心
+    "Diamonds": 方块
+    "Clubs": 梅花
+    "Two": '2'
+    "Three": '3'
+    "Four": '4'
+    "Five": '5'
+    "Six": '6'
+    "Seven": '7'
+    "Eight": '8'
+    "Jokers": 鬼牌
+    "Ten": Ten
+    "Nine": '9'
+    "Jack": J
+    "Queen": Q
+    "King": K
+    "Ace": A
+    "RedJoker": 红色鬼牌/黑桃鬼牌
+    "BlackJoker": 黑色鬼牌/红心鬼牌
+    "BlueJoker": 蓝色鬼牌/方块鬼牌
+    "GreenJoker": 绿色鬼牌/梅花鬼牌
+  "Headquarters":
+    "Form": Form
+    "Advantage": 优势
+    "Description": Description
+    "Acquisition": 获取
+    "Maintenance": 维护
+    "Upgrades": 升级
+    "Complication": 繁难
+  "DialogConfirmPrompt": 确认执行？
+  "DeleteEmbeddedCardPrompt": 确定要删除卡牌 {card} 吗？
+  "ChargesMax": 最大充能数
+  "Combat":
+    "Redraw": 重抽卡牌
+    "LinkScene": 关联场景
+    "DealAll": 全体发牌
+    "DealNPC": NPC发牌
+    "StartSurpriseRound": 开始突袭轮
+    "AdvanceRoundTitle": 推进到下一轮？
+    "AdvanceRoundContent": 是否要推进到下一轮？
+    "RevertRoundTitle": 回退到上一轮？
+    "DiscardedCards": 弃牌堆
+    "RedrawDialog":
+      "Content": 使用助力点或免费重抽一张新卡牌？
+    "RevertRoundContent": 是否要回退到上一轮？
+  "Vehicle":
+    "Crew":
+      "Role": Role
+      "Roles":
+        "Operator": Operator
+        "Other": Other
+        "Gunner": 炮手位
+      "Add": 添加乘员
+      "Remove": 移除乘员
+    "Cargo":
+      "Capacity": 载货量
+  "DramaticTask":
+    "MaxTokens":
+      "Hint": 参与者需达成的成功阈值
+      "Label": 目标成功数
+    "Successes": 成功数
+    "MaxRounds":
+      "Label": 最大回合数
+      "Hint": 剧情任务持续的总回合数
+  "HindMinor": Minor
+  "MaxLabel": Maximum
+  "Reset": Reset
+  "SpeedUnit": Unit
+  "BuildCost": 构筑消耗
+  "CharacterSummaryTypeErr": 无法对类型为 {type} 的角色使用角色摘要器
+  "ChaseLayoutError": 场景空间不足以布置追逐战
+  "Stats": Stats
+  "ChaseLayout": Layout
+  "ID": ID
+  "Scales":
+    "Names":
+      "Normal": Normal
+      "Large": Large
+      "Tiny": 微型
+      "VerySmall": 超小型
+      "Small": 小型
+      "Gargantuan": 巨型
+      "Huge": 大型
+    "LargerThan": 大于 {scale}
+    "SmallerThan": 小于 {scale}
+    "Description": 尺寸：{scale}（{name}）
+  "Free": Free
+  "SettingConfigurator":
+    "WorldTables": World Tables
+    "WorldCompendiums": 世界合集包
+  "Group":
+    "Sheet":
+      "Members":
+        "Empty": No members yet
+        "Header": 成员
+        "Hint": 添加成员方式：拖放至表格/复制粘贴UUID/使用场景中的指示物角色
+      "Stash":
+        "Empty": 仓库暂无物品
+        "Header": 仓库
+      "Lock":
+        "Label": 锁定表格
+        "Hint": 锁定后禁止增减团体成员
+  "Supplies":
+    "Level":
+      "Low": Low
+      "High": High
+      "Out": 耗尽
+      "VeryHigh": 极充裕
+    "Ammo":
+      "Label": 弹药储备
+    "Fuel":
+      "Label": 燃料储备
+    "Food":
+      "Label": 食物储备
+    "Label": 补给
+    "Supply":
+      "Label": 补给
+  "disabledAE": 因主动效果禁用
+  "RunningHint":
+    "Header": <strong>总奔跑距离。</strong>
+    "Reminder": <p>在你的回合中奔跑会使你的所有动作受到-2减值。</p>
+  "EdF": 编辑 {item}
+  "EdRightClick": '[右键单击]编辑'
+  "Burrowing": 掘地
+  "BenniesAdjustGM": 调整GM助力点
+  "BenniesAdjustGMText": 输入GM当前应拥有的助力点数。
+  "BenniesMaxNum": 最大助力点数
+  "ShotsCurrent": 当前弹药量
+  "HindMajor": 主要缺陷
+  "Value": 数值
+  "Draw": 抽牌
+  "VehicleAttributes":
+    "Label": 载具属性
+    "Strength": 载具具有力量
+    "Vigor": 载具具有活力
+    "Smarts": 载具具有聪慧
+    "Agility": 载具具有灵巧
+    "Spirit": 载具具有心魂
+  "RefreshOnly": 刷新
+  "NoUpdatedItemFound": 未找到适合刷新的物品
+  "NoDescription": 无描述信息
+  "DiscardMagazine": 丢弃空弹匣
+  "PPMods": 奇术调整
+  "OperatorIdHint": 拖放角色或选择指示物
+  "GrantsItemsError": 刷新不适用于可授予其他物品的物品
+  "NoCCMInstall": 未安装完整卡牌管理模块
+  "NoCCMActive": 完整卡牌管理模块未启用
+  "ChaseRows": 行数
+  "ChaseColumns": 列数
+  "ChaseDiscard": 弃牌堆
+  "ChaseNoDeck": 请提供牌组！
+  "ChaseReset": 牌组 "{deck}" 已重置
+  "RemoveEffectLabel": 移除效果
+  "ActionsOverride": 覆盖
+  "EffectsInactive": 未激活效果
+  "SortNum": 排序编号
+  "FatigueWounds": 损伤/疲乏
+  "IgnFatigueWounds": 忽略损伤/疲乏
+  "DeleteFromParentWarning": '{name} 将被从 {parent} 永久删除。'
+  "DeleteFromParentWarningPermanent": '{name} 将被从 {parent} 永久删除且无法恢复。'
+  "FollowerCount": '{count}名随从'
+  "Benny": 助力点
+  "Movement":
+    "Other": 其他移动速度
+    "Running":
+      "Dialog":
+        "Content": 请选择奔跑方式
+        "Title": 奔跑
+      "OutOfCombat": 非战斗状态下可以{pace}移速持续奔跑{minutes}分钟
+    "Pace":
+      "Base":
+        "Label": 基础移速
+        "Hint": 角色的默认移动移速类型
+      "Ground":
+        "Label": 地面
+      "Fly":
+        "Label": 飞行
+      "Swim":
+        "Label": 游泳
+      "Burrow":
+        "Label": 掘地
+    "Base": 基础移动
+  "Complication": 繁难
+  "ApplicableEffects": 可应用的效果
+  "NotOwnedError": 你必须拥有此物品/角色才能执行此操作
+  "CouldNotFindTarget": 此宏需要选择目标！
 TYPES:
   Item:
     action: 动作
@@ -1088,6 +1426,7 @@ TYPES:
     armor: 护甲
     shield: 盾牌
     gear: 装备
+    "ancestry": 族裔
   Card:
     adventure: 冒险卡牌
     poker: 扑克牌
@@ -1095,3 +1434,11 @@ TYPES:
     character: 玩家角色
     npc: NPC
     vehicle: 载具
+    "group": 团体角色
+  "Combat":
+    "chase": 追逐
+    "dramaticTask": 剧情任务
+  "JournalEntryPage":
+    "headquarters": 总部
+  "ActiveEffect":
+    "modifier": 调整值
