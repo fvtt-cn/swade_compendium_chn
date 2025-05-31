@@ -1,25 +1,4 @@
-
-function parseEmbeddedAbilities(value, translations, data, tc) {
-  value.forEach((item, k) => {
-    let pack = game.babele.packs.find(
-      (pack) => pack.translated && pack.translations[item[1].name]
-    );
-    if (pack && pack !== tc) {
-      value[k][1] = mergeObject(
-        value[k][1],
-        pack.translate(item[1], pack.translations[item[1].name])
-      );
-    }
-  });
-  return value;
-}
-
-Babele.get().registerConverters({
-  translateEmbeddedAbilities: (value, translations, data, tc) => {
-    return parseEmbeddedAbilities(value, translations, data, tc);
-  },
-});
-
+// Constants
 const SWADE_ITEM_MAPPING = {
   description: "system.description",
   notes: "system.notes",
@@ -29,63 +8,107 @@ const SWADE_ITEM_MAPPING = {
   category: "system.category",
 };
 
-function pagesConverter(pages, translations) {
-  return pages.map(data => {
-      if (!translations) {
-          return data;
-      }
-
-      const translation = translations[data._id] || translations[data.name];
-      if (!translation) {
-          return data;
-      }
-
-      return mergeObject(data, {
-          name: translation.name,
-          image: { caption: translation.caption ?? data.image.caption },
-          src: translation.src ?? data.src,
-          text: { content: translation.text ?? data.text.content },
-          video: {
-              width: translation.width ?? data.video.width,
-              height: translation.height ?? data.video.height,
-          },
-          translated: true,
-      });
+// Utility functions
+const parseEmbeddedAbilities = (value, translations, data, tc) => {
+  if (!Array.isArray(value)) return value;
+  
+  return value.map((item, k) => {
+    const pack = game.babele.packs.find(
+      (pack) => pack.translated && pack.translations[item[1].name]
+    );
+    
+    if (pack && pack !== tc) {
+      return [
+        item[0],
+        mergeObject(
+          item[1],
+          pack.translate(item[1], pack.translations[item[1].name])
+        )
+      ];
+    }
+    return item;
   });
 };
 
-const SWADE_ITEM_CONVERTERS = Converters.fromPack(SWADE_ITEM_MAPPING, "Item");
-Babele.get().registerConverters({
-  SWADE_ITEM_CONVERTERS: SWADE_ITEM_CONVERTERS,
-});
+const pagesConverter = (pages, translations) => {
+  if (!Array.isArray(pages)) return pages;
+  
+  return pages.map(data => {
+    if (!translations) return data;
 
-Babele.get().registerConverters({
-  "pagesConverter": (pages, translations) => { return pagesConverter(pages, translations)}
-});
+    const translation = translations[data._id] || translations[data.name];
+    if (!translation) return data;
 
-Babele.get().registerConverters({
-  "translateEmbeddedAbilities": (value, translations, data, tc) => {
-    return parseEmbeddedAbilities(value, translations, data, tc)
+    return mergeObject(data, {
+      name: translation.name,
+      image: { caption: translation.caption ?? data.image?.caption },
+      src: translation.src ?? data.src,
+      text: { content: translation.text ?? data.text?.content },
+      video: {
+        width: translation.width ?? data.video?.width,
+        height: translation.height ?? data.video?.height,
+      },
+      translated: true,
+    });
+  });
+};
+
+const loadStyle = (url) => {
+  try {
+    const link = document.createElement('link');
+    link.type = 'text/css';
+    link.rel = 'stylesheet';
+    link.href = url;
+    document.head.appendChild(link);
+  } catch (error) {
+    console.error('Failed to load style:', error);
   }
-});
-function loadStyle(url) {
-  var link = document.createElement('link');
-  link.type = 'text/css';
-  link.rel = 'stylesheet';
-  link.href = url;
-  var head = document.getElementsByTagName('head')[0];
-  head.appendChild(link);
-}
+};
 
-Hooks.on("init", () => {
-  if (typeof Babele !== "undefined") {
-    console.log("mapping", Babele);
-    console.log(Converters);
-    Babele.get().register({
+// Initialize Babele
+Hooks.once("babele.init", (babele) => {
+  if (typeof Babele === "undefined") {
+    console.error("Babele module not found");
+    return;
+  }
+
+  try {
+    // Register module
+    babele.register({
       module: "swade_compendium_chn",
       lang: "cn",
       dir: "compendium",
     });
+
+    // Load styles
     loadStyle('../../modules/swade_compendium_chn/swade-core.css');
+
+    // Register converters
+    if (!babele.converters) {
+      console.error("Babele Converters not initialized");
+      return;
+    }
+
+    // Register basic converters
+    babele.registerConverters({
+      translateEmbeddedAbilities: parseEmbeddedAbilities,
+      pagesConverter,
+    });
+
+    // Create a wrapper for the SWADE item converter to ensure proper data handling
+    const swadeItemConverter = (items, translations) => {
+      // Ensure items is an array
+      const itemsArray = Array.isArray(items) ? items : [items];
+      const converter = babele.converters.fromPack(SWADE_ITEM_MAPPING, "Item");
+      return converter(itemsArray, translations);
+    };
+
+    // Register the wrapped converter
+    babele.registerConverters({
+      SWADE_ITEM_CONVERTERS: swadeItemConverter
+    });
+
+  } catch (error) {
+    console.error('Failed to initialize Babele:', error);
   }
 });

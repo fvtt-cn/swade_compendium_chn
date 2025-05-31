@@ -1,5 +1,5 @@
 {
-  "name": "swade_compendium_chn",
+  "id": "swade_compendium_chn",
   "title": "Translation: 中文 [SWADE（合集包）]",
   "description": "SWADE 系统的合集包翻译，需要 Babele。",
   "authors": [
@@ -10,7 +10,7 @@
   ],
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "13"
   },
   "author": "FVTT-CN",
   "languages": [
