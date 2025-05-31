@@ -1,30 +1,42 @@
+/* 中文字体定义 */
 @font-face {
   font-family: "cnHeading";
   src: url(../../modules/swade_compendium_chn/style/cnHeading.TTF);
- }
+}
+
 @font-face {
   font-family: "cnP";
   src: url(../../modules/swade_compendium_chn/style/cnP.ttf);
 }
-.pages-list,.heading,.pages-list .page-title{
-  font-family:'Treacherous Corners','cnP' !important;
-}
-.swpf-core   h1,.swpf-core  h2,.swpf-core  h3 {
-  font-family:'Treacherous Corners','cnP' !important;
-}
 
-.journal-entry-page  {
-  font-family:'Treacherous Corners','cnP' !important;
-}
-.journal-entry-page  p{
-  font-family:'Treacherous Corners','cnP' !important;
-}
-.swpf-core .chapter-heading .chapter-number{
-  font-family:'Treacherous Corners','cnP' !important;
-}
-.journal{
-  font-family:'Treacherous Corners','cnP' !important;
-}
-.journal-heading{
-  font-family:'Treacherous Corners','cnP' !important;
+/* 通用字体设置 */
+.pages-list,
+.heading,
+.pages-list .page-title,
+.swpf-core h1,
+.swpf-core h2,
+.swpf-core h3,
+.journal-entry-page,
+.journal-entry-page p,
+.journal-entry-page ul,
+.journal-entry-page li,
+.journal-entry-page span,
+.journal-entry-page div,
+.journal-entry-page h1,
+.journal-entry-page h2,
+.journal-entry-page h3,
+.journal-entry-page h4,
+.journal-entry-page h5,
+.journal-entry-page h6,
+.journal-entry-page table,
+.journal-entry-page td,
+.journal-entry-page th,
+.journal-entry-page tr,
+.journal-entry-page tbody,
+.journal-entry-page thead,
+.journal-entry-page tfoot,
+.swpf-core .chapter-heading .chapter-number,
+.journal,
+.journal-heading {
+  font-family: 'Treacherous Corners', 'cnP' !important;
 }
