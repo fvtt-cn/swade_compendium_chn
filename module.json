@@ -24,6 +24,9 @@
     "./babele.js",
     "./setup.js"
   ],
+  "styles": [
+    "./swade-core.css"
+  ],
   "systems": [
     "swade"
   ],

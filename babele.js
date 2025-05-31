@@ -30,29 +30,6 @@ const parseEmbeddedAbilities = (value, translations, data, tc) => {
   });
 };
 
-const pagesConverter = (pages, translations) => {
-  if (!Array.isArray(pages)) return pages;
-  
-  return pages.map(data => {
-    if (!translations) return data;
-
-    const translation = translations[data._id] || translations[data.name];
-    if (!translation) return data;
-
-    return mergeObject(data, {
-      name: translation.name,
-      image: { caption: translation.caption ?? data.image?.caption },
-      src: translation.src ?? data.src,
-      text: { content: translation.text ?? data.text?.content },
-      video: {
-        width: translation.width ?? data.video?.width,
-        height: translation.height ?? data.video?.height,
-      },
-      translated: true,
-    });
-  });
-};
-
 const loadStyle = (url) => {
   try {
     const link = document.createElement('link');
@@ -89,10 +66,32 @@ Hooks.once("babele.init", (babele) => {
       return;
     }
 
+    // Create a wrapper for the pages converter to ensure proper data handling
+    const pagesConverter = (pages, translations) => {
+      if (!Array.isArray(pages)) {
+        console.warn('Pages converter received non-array data:', pages);
+        return pages;
+      }
+      return pages.map(data => {
+        if (!translations) return data;
+
+        const translation = translations[data._id] || translations[data.name];
+        if (!translation) return data;
+
+        return mergeObject(data, {
+          name: translation.name,
+          image: { caption: translation.caption ?? data.image?.caption ?? "" },
+          src: translation.src ?? data.src,
+          text: { content: translation.text ?? data.text?.content ?? "" },
+          translated: true,
+        });
+      });
+    };
+
     // Register basic converters
     babele.registerConverters({
       translateEmbeddedAbilities: parseEmbeddedAbilities,
-      pagesConverter,
+      pages: pagesConverter,
     });
 
     // Create a wrapper for the SWADE item converter to ensure proper data handling
