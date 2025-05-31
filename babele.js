@@ -78,7 +78,7 @@ Hooks.once("babele.init", (babele) => {
         const translation = translations[data._id] || translations[data.name];
         if (!translation) return data;
 
-        return mergeObject(data, {
+        return foundry.utils.mergeObject(data, {
           name: translation.name,
           image: { caption: translation.caption ?? data.image?.caption ?? "" },
           src: translation.src ?? data.src,
