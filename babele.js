@@ -96,10 +96,28 @@ Hooks.once("babele.init", (babele) => {
 
     // Create a wrapper for the SWADE item converter to ensure proper data handling
     const swadeItemConverter = (items, translations) => {
-      // Ensure items is an array
-      const itemsArray = Array.isArray(items) ? items : [items];
-      const converter = babele.converters.fromPack(SWADE_ITEM_MAPPING, "Item");
-      return converter(itemsArray, translations);
+      try {
+        // Ensure items is an array and not null/undefined
+        if (!items) {
+          console.warn('SWADE item converter received null/undefined items');
+          return [];
+        }
+
+        const itemsArray = Array.isArray(items) ? items : [items];
+        
+        // Get the converter function
+        const converter = babele.converters.fromPack(SWADE_ITEM_MAPPING, "Item");
+        if (typeof converter !== 'function') {
+          console.error('Failed to create SWADE item converter');
+          return itemsArray;
+        }
+
+        // Apply the converter
+        return converter(itemsArray, translations);
+      } catch (error) {
+        console.error('Error in SWADE item converter:', error);
+        return Array.isArray(items) ? items : [items];
+      }
     };
 
     // Register the wrapped converter
